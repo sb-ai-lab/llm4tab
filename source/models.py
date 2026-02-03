@@ -1,27 +1,17 @@
+import os
+import re
 import numpy as np
 import pandas as pd
-import os
-from tqdm import tqdm
-import torch
-
-from transformers import AutoTokenizer
-
-from sklearn.model_selection import train_test_split
-from typing import Dict, Any, Union
 import json
 import time
+from tqdm import tqdm
 
+from transformers import AutoTokenizer
 from vllm import LLM, SamplingParams
-import os
-os.environ["VLLM_ALLOW_LONG_MAX_MODEL_LEN"] = "1"
-import re
-import gzip
-import pickle
-
+import multiprocessing
 
 from .utils import (get_df,
                    transform_dataset,
-                   process_syntethic_df,
                    sample_with_ratio,
                    find_last_target_tokens,
                    calculate_metrics,
@@ -45,9 +35,8 @@ from .serializations import (serialization1_old,
 from .prompts import system_prompt, prompt_by_df
 
 
-import multiprocessing
 multiprocessing.set_start_method('spawn', force=True)
-
+os.environ["VLLM_ALLOW_LONG_MAX_MODEL_LEN"] = "1"
 
 
 SERIALIZATION_MAPPING = {
@@ -78,10 +67,6 @@ class PromptFactory:
 
 
         if local_llm:
-            # if model_family == 'google' or model_family == 'deepseek-ai':
-            #     system_prompt += " Return only JSON. Schema: {'class': 0 or 1}"
-            # else:
-            #     system_prompt += f" Write outputs in JSON in schema: {schema}."
             system_prompt += f" Return only JSON. Schema: {schema}"
         
 

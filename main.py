@@ -7,8 +7,6 @@ with open("config.yaml", "r") as f:
     config = yaml.safe_load(f)
         
 
-
-
 dataset_files = [f.lower().split('.')[0] for f in os.listdir(config['data']['LOCAL_DATASET_PATH'])]
   
 
