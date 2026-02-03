@@ -1,0 +1,60 @@
+local_model:
+  name: "deepseek-ai/deepseek-llm-7b-chat" # ["google/gemma-7b-it", "deepseek-ai/deepseek-llm-7b-chat", "Qwen/Qwen3-1.7B"]
+  temperature: 0
+  gpu_memory_utilization: 0.45
+  gpu_device: "0"
+
+api_model:
+
+
+
+data:
+  DF_TYPE: 'openml' # ['custom', 'openml']
+  DF_FORMAT: 'csv'
+  DATASET_NAME: 'airbnb'
+  DF_TRANSFORMATION_REGIME: 'no'
+  LOCAL_DATASET_PATH: 'datasets/'
+  RESULT_PATH: 'results/experiments_result/' 
+  PROBS_PATH: 'results/llm_probs/'
+
+
+experiment:
+  local_llm: True
+  regime: 'local_gen' # ['local_gen', 'local_nogen', 'api_gen']
+  random_states_list: [864, 460, 142, 629, 761] # 864, 460, 142, 629, 761, 703, 24, 401, 210, 736]
+  serialization_list: ['1_old', '3_old', 'html_new', 'markdown_new', 'markdown_masked_new']
+  shot_list: [0, 4, 8, 16, 32, 64]
+  RATIO: '50/50'
+  N_SHOTS: 0
+  SAMPLING_REGIME: 'default'
+  RANDOM_STATE: 42
+  SCHEMA: '{"class": "0 or 1"}' #'{"type": "object", "properties": { "class": { "type": "str", "description": "0 or 1"}}}'
+  THINKING: False
+  CONFIG_CODE: configuration_code  
+
+
+openml: 
+  type: 'task' # ['task', 'dataset']
+  df_openml: ['credit', 'transfusion', 'fitness', 'diabetes', 'biodegr', 'marketing']
+  #df_openml: ['telco', 'bioresponse', 'pc4', 'spambase', 'tae', 'dmft', 'irish', 'compas', 'crime', 'vote', 'fraud', 'cancer', 'steel', 'creditcard', 'kc1']
+  task: {'credit': 363626,
+         'transfusion': 363621,
+         'fitness': 363671,
+         'diabetes': 363629,
+         'biodegr': 363696,
+         'marketing': 363684}
+  dataset: {'telco': 42178,
+            'bioresponse': 4134,
+            'pc4': 1049,
+            'spambase': 44,
+            'tae': 955,
+            'dmft': 1014,
+            'irish': 451,
+            'compas': 42193,
+            'crime': 43891,
+            'vote': 56,
+            'fraud': 1597,
+            'cancer': 15,
+            'steel': 1504,
+            'creditcard': 29,
+            'kc1': 1067}       
