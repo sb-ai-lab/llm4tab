@@ -1,7 +1,7 @@
 local_model:
-  name: "deepseek-ai/deepseek-llm-7b-chat" # ["google/gemma-7b-it", "deepseek-ai/deepseek-llm-7b-chat", "Qwen/Qwen3-1.7B"]
+  name: "Qwen/Qwen3-1.7B" # ["google/gemma-7b-it", "deepseek-ai/deepseek-llm-7b-chat", "Qwen/Qwen3-1.7B"]
   temperature: 0
-  gpu_memory_utilization: 0.45
+  gpu_memory_utilization: 0.12
   gpu_device: "0"
 
 api_model:
@@ -9,19 +9,19 @@ api_model:
 
 
 data:
-  DF_TYPE: 'openml' # ['custom', 'openml']
+  DF_TYPE: 'custom' # ['custom', 'openml']
   DF_FORMAT: 'csv'
   DATASET_NAME: 'airbnb'
   DF_TRANSFORMATION_REGIME: 'no'
   LOCAL_DATASET_PATH: 'datasets/'
-  RESULT_PATH: 'results/experiments_result/' 
+  RESULT_PATH: 'results/experiments_result/'
   PROBS_PATH: 'results/llm_probs/'
 
 
 experiment:
   local_llm: True
   regime: 'local_gen' # ['local_gen', 'local_nogen', 'api_gen']
-  random_states_list: [864, 460, 142, 629, 761] # 864, 460, 142, 629, 761, 703, 24, 401, 210, 736]
+  random_states_list: [864, 460, 142, 629, 761] # [864, 460, 142, 629, 761, 703, 24, 401, 210, 736]
   serialization_list: ['1_old', '3_old', 'html_new', 'markdown_new', 'markdown_masked_new']
   shot_list: [0, 4, 8, 16, 32, 64]
   RATIO: '50/50'
@@ -30,10 +30,10 @@ experiment:
   RANDOM_STATE: 42
   SCHEMA: '{"class": "0 or 1"}' #'{"type": "object", "properties": { "class": { "type": "str", "description": "0 or 1"}}}'
   THINKING: False
-  CONFIG_CODE: configuration_code  
+  CONFIG_CODE: configuration_code
 
 
-openml: 
+openml:
   type: 'task' # ['task', 'dataset']
   df_openml: ['credit', 'transfusion', 'fitness', 'diabetes', 'biodegr', 'marketing']
   #df_openml: ['telco', 'bioresponse', 'pc4', 'spambase', 'tae', 'dmft', 'irish', 'compas', 'crime', 'vote', 'fraud', 'cancer', 'steel', 'creditcard', 'kc1']
@@ -57,4 +57,4 @@ openml:
             'cancer': 15,
             'steel': 1504,
             'creditcard': 29,
-            'kc1': 1067}       
+            'kc1': 1067}
