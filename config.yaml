@@ -1,3 +1,8 @@
+baseline_model:
+  name: 'logreg' # ['logreg', 'knn', 'gboost', 'naive_argmax']
+  all_names: ['logreg', 'naive_argmax', 'gboost', 'rf']
+  
+
 local_model:
   name: "Qwen/Qwen3-1.7B" # ["google/gemma-7b-it", "deepseek-ai/deepseek-llm-7b-chat", "Qwen/Qwen3-1.7B"]
   temperature: 0
@@ -9,7 +14,7 @@ api_model:
 
 
 data:
-  DF_TYPE: 'custom' # ['custom', 'openml']
+  DF_TYPE: 'openml' # ['custom', 'openml']
   DF_FORMAT: 'csv'
   DATASET_NAME: 'airbnb'
   DF_TRANSFORMATION_REGIME: 'no'
@@ -19,11 +24,12 @@ data:
 
 
 experiment:
+  baseline: True
   local_llm: True
   regime: 'local_gen' # ['local_gen', 'local_nogen', 'api_gen']
   random_states_list: [864, 460, 142, 629, 761] # [864, 460, 142, 629, 761, 703, 24, 401, 210, 736]
   serialization_list: ['1_old', '3_old', 'html_new', 'markdown_new', 'markdown_masked_new']
-  shot_list: [0, 4, 8, 16, 32, 64]
+  shot_list: [4, 8, 16, 32, 64]
   RATIO: '50/50'
   N_SHOTS: 0
   SAMPLING_REGIME: 'default'
@@ -34,9 +40,9 @@ experiment:
 
 
 openml:
-  type: 'task' # ['task', 'dataset']
-  df_openml: ['credit', 'transfusion', 'fitness', 'diabetes', 'biodegr', 'marketing']
-  #df_openml: ['telco', 'bioresponse', 'pc4', 'spambase', 'tae', 'dmft', 'irish', 'compas', 'crime', 'vote', 'fraud', 'cancer', 'steel', 'creditcard', 'kc1']
+  type: 'dataset' # ['task', 'dataset']
+  #df_openml: ['credit', 'transfusion', 'fitness', 'diabetes', 'biodegr', 'marketing']
+  df_openml: ['tae', 'irish', 'compas', 'vote', 'cancer', 'steel', 'kc1']
   task: {'credit': 363626,
          'transfusion': 363621,
          'fitness': 363671,
@@ -44,17 +50,11 @@ openml:
          'biodegr': 363696,
          'marketing': 363684}
   dataset: {'telco': 42178,
-            'bioresponse': 4134,
-            'pc4': 1049,
-            'spambase': 44,
+            'pc4': 1049, # maybe
             'tae': 955,
-            'dmft': 1014,
             'irish': 451,
-            'compas': 42193,
-            'crime': 43891,
+            'compas': 42193, # maybe
             'vote': 56,
-            'fraud': 1597,
             'cancer': 15,
-            'steel': 1504,
-            'creditcard': 29,
-            'kc1': 1067}
+            'steel': 1504, # maybe
+            'kc1': 1067} 

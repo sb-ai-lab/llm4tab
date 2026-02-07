@@ -9,28 +9,32 @@ from sklearn.model_selection import RepeatedStratifiedKFold
 from sklearn.metrics import f1_score, roc_auc_score
 from sklearn.preprocessing import MinMaxScaler
 
+from sklearn.preprocessing import LabelEncoder
+
 
 
 def get_df(config):
 
     dataset_name = config['data']['DATASET_NAME']
-    local_dataset_path = config['data']['LOCAL_DATASET_PATH']
     df_type = config['data']['DF_TYPE']
-    df_format = config['data']['DF_FORMAT']
 
     if df_type == 'custom':
-        X_train, y_train, X_test, y_test = get_custom_df(dataset_name, local_dataset_path, df_format)
+        X_train, y_train, X_test, y_test = get_custom_df(dataset_name, config)
     elif df_type == 'openml':
         X_train, y_train, X_test, y_test = get_openml_df(dataset_name, config)
     else:
         raise ValueError("Enter correct DF_TYPE parameter: 'custom', 'openml'.")
-
     
     return X_train, y_train, X_test, y_test
     
     
 
-def get_custom_df(df_name, base_path, df_format):
+def get_custom_df(df_name, config):
+
+    base_path = config['data']['LOCAL_DATASET_PATH']
+    df_format = config['data']['DF_FORMAT']
+    baseline = config['experiment']['baseline']
+    # categorical_indicator = config['data']['CATEGORICAL_INDICATOR']
     
     # TODO: add parquet and xlsx support - search with hash map
     if df_format == 'csv':
@@ -42,7 +46,6 @@ def get_custom_df(df_name, base_path, df_format):
         pass
     else:
         raise ValueError("Enter correct DF_FORMAT parameter: 'csv', 'parquet', 'xlsx'.")
-
 
     if 'target' in df.columns:
         df = df.rename(columns={'target': 'label'})
@@ -56,6 +59,18 @@ def get_custom_df(df_name, base_path, df_format):
 
     X_train, X_test = X.iloc[train_idx], X.iloc[test_idx]
     y_train, y_test = y.iloc[train_idx], y.iloc[test_idx]
+
+    if baseline:
+        y_train = y_train.map({'1': 1, '0': 0})
+        y_test = y_test.map({'1': 1, '0': 0})
+
+        categorical_cols = X.columns[categorical_indicator].tolist()
+        for col in categorical_cols:
+            le = LabelEncoder()
+            X_train[col] = le.fit_transform(X_train[col].astype(str))
+            X_test[col] = X_test[col].map(
+                lambda x: le.transform([x])[0] if x in le.classes_ else len(le.classes_)
+            )
     
     return X_train, y_train, X_test, y_test
 
@@ -63,11 +78,12 @@ def get_custom_df(df_name, base_path, df_format):
 def get_openml_df(name, config):
     
     type_df = config['openml']['type']
+    baseline = config['experiment']['baseline']
 
     if type_df == 'dataset':
         openml_dfs = config['openml']['dataset']
         dataset = openml.datasets.get_dataset(openml_dfs[name])
-        X, y, _, _ = dataset.get_data(target=dataset.default_target_attribute)
+        X, y, categorical_indicator, _ = dataset.get_data(target=dataset.default_target_attribute)
         rskf = RepeatedStratifiedKFold(n_splits=3, n_repeats=10, random_state=42)
 
         train_idx, test_idx = next(rskf.split(X, y))
@@ -77,7 +93,7 @@ def get_openml_df(name, config):
         task = openml.tasks.get_task(openml_tasks[name])
         dataset = task.get_dataset()
 
-        X, y, categorical_indicator, attribute_names = dataset.get_data(
+        X, y, categorical_indicator, _ = dataset.get_data(
             target=task.target_name, dataset_format="dataframe")
 
         train_idx, test_idx = task.get_train_test_split_indices(fold=0, repeat=0)
@@ -93,6 +109,9 @@ def get_openml_df(name, config):
     elif name in ['transfusion', 'fitness', 'diabetes', 'biodegr', 'marketing']:
         y_train = y_train.map({'Yes': 1, 'No': 0})
         y_test = y_test.map({'Yes': 1, 'No': 0})
+
+        if name == 'marketing':
+            categorical_indicator[6] = True
 
     if name in ['steel']:
 
@@ -130,8 +149,8 @@ def get_openml_df(name, config):
                    'V32': 'Dirtiness',
                    'V33': 'Bumps'}
 
-        X_train = X_train.replace(columns=mapping)
-        X_test = X_test.replace(columns=mapping)
+        X_train = X_train.rename(columns=mapping)
+        X_test = X_test.rename(columns=mapping)
         
         y_train = y_train.map({'1': 1, '2': 0})
         y_test = y_test.map({'1': 1, '2': 0})
@@ -150,6 +169,9 @@ def get_openml_df(name, config):
 
         y_train = y_train.map({'Yes': 1, 'No': 0})
         y_test = y_test.map({'Yes': 1, 'No': 0})
+       
+        for i in [0,2,3,5,6,7,8,9,10,11,12,13,14,15,16,18]:
+         categorical_indicator[i] = True
 
     elif name in ['spambase', 'compas', 'crime', 'fraud']:
 
@@ -183,8 +205,32 @@ def get_openml_df(name, config):
 
     y_train = y_train.rename('label')
     y_test = y_test.rename('label')
-        
 
+
+    if baseline:
+        # y_train = y_train.map({'1': 1, '0': 0})
+        # y_test = y_test.map({'1': 1, '0': 0})
+
+        X_train["label"] = y_train
+        categorical_cols = X.columns[categorical_indicator].tolist()
+        for col in categorical_cols:
+            le = LabelEncoder()
+            X_train[col] = le.fit_transform(X_train[col].astype(str))
+            X_test[col] = X_test[col].map(
+                lambda x: le.transform([x])[0] if x in le.classes_ else len(le.classes_)
+            )
+        
+        mask_train = X_train.notna().all(axis=1) & y_train.notna()
+        X_train = X_train[mask_train]
+        X_train = X_train.drop(columns=["label"])
+        y_train = y_train[mask_train]
+
+        mask_test = X_test.notna().all(axis=1) & y_test.notna()
+        X_test = X_test[mask_test]
+        y_test = y_test[mask_test]
+
+    print("categorical_indicator", categorical_indicator)
+    print(X_train.info())
     return X_train, y_train, X_test, y_test
 
 
@@ -643,19 +689,23 @@ def process_syntethic_df(params):
 
 
 
-def save_probs(pred_probs, true_labels, pred_labels, config, current_serialization, current_rs):
+def save_probs(pred_probs, true_labels, pred_labels, config, current_rs, current_serialization=None):
 
     local_llm = config['experiment']['local_llm']
     dataset_name = config['data']['DATASET_NAME']
     config_code = config['experiment']['CONFIG_CODE']
     n_shot = config['experiment']['N_SHOTS']
     regimme = config['experiment']['regime']
-
-    if local_llm:
-        model_name = config['local_model']['name'].split('/')[-1].lower()
-    else:  
-        # TODO: revise on code review
-        pass
+    baseline = config['experiment']['baseline']
+    
+    if baseline:
+        model_name = config['baseline_model']['name'] 
+    else:
+        if local_llm:
+            model_name = config['local_model']['name'].split('/')[-1].lower()
+        else:  
+            # TODO: revise on code review
+            pass
 
     
     dir_path = os.path.join(
@@ -669,21 +719,31 @@ def save_probs(pred_probs, true_labels, pred_labels, config, current_serializati
     
 
     os.makedirs(dir_path, exist_ok=True)
-    filename = f"df_{n_shot}fs_{model_name}_{regimme}_{dataset_name}_{current_serialization}_{current_rs}_{config_code}.pkl"
+
+    if current_serialization:
+        filename = f"df_{n_shot}fs_{model_name}_{regimme}_{dataset_name}_{current_serialization}_{current_rs}_{config_code}.pkl"
+        results = {
+            'pred_probs': pred_probs,
+            'true_labels': true_labels,
+            'pred_labels': pred_labels,
+            'timestamp': datetime.now().isoformat(),
+            'params': config,
+            'serialization': current_serialization,
+            'random_state': current_rs
+        }
+    else:
+        filename = f"df_{n_shot}fs_{model_name}_{regimme}_{dataset_name}_{current_rs}_{config_code}.pkl"
+        results = {
+            'pred_probs': pred_probs,
+            'true_labels': true_labels,
+            'pred_labels': pred_labels,
+            'timestamp': datetime.now().isoformat(),
+            'params': config,
+            'random_state': current_rs
+        }
     
     full_path = os.path.join(dir_path, filename)
     
-
-    results = {
-        'pred_probs': pred_probs,
-        'true_labels': true_labels,
-        'pred_labels': pred_labels,
-        'timestamp': datetime.now().isoformat(),
-        'params': config,
-        'serialization': current_serialization,
-        'random_state': current_rs
-    }
-
     try:
         with open(full_path, 'wb') as f:
             pickle.dump(results, f, protocol=pickle.HIGHEST_PROTOCOL)
