@@ -1,6 +1,6 @@
 baseline_model:
   name: 'logreg' # ['logreg', 'knn', 'gboost', 'naive_argmax']
-  all_names: ['logreg', 'naive_argmax', 'gboost', 'rf']
+  all_names: ['logreg', 'gboost', 'rf']
   
 
 local_model:
@@ -10,7 +10,7 @@ local_model:
   gpu_device: "0"
 
 api_model:
-
+  #TODO
 
 
 data:
@@ -24,25 +24,24 @@ data:
 
 
 experiment:
-  baseline: True
+  baseline: False
   local_llm: True
   regime: 'local_gen' # ['local_gen', 'local_nogen', 'api_gen']
-  random_states_list: [864, 460, 142, 629, 761] # [864, 460, 142, 629, 761, 703, 24, 401, 210, 736]
-  serialization_list: ['1_old', '3_old', 'html_new', 'markdown_new', 'markdown_masked_new']
+  random_states_list: [864, 460, 142, 629, 761, 703, 24, 401, 210, 736]
+  serialization_list: ['feat_val', 'feat_val_masked', 'html', 'markdown', 'markdown_masked']
   shot_list: [4, 8, 16, 32, 64]
   RATIO: '50/50'
   N_SHOTS: 0
   SAMPLING_REGIME: 'default'
   RANDOM_STATE: 42
-  SCHEMA: '{"class": "0 or 1"}' #'{"type": "object", "properties": { "class": { "type": "str", "description": "0 or 1"}}}'
+  SCHEMA: '{"class": "0 or 1"}'
   THINKING: False
   CONFIG_CODE: configuration_code
 
 
 openml:
-  type: 'dataset' # ['task', 'dataset']
-  #df_openml: ['credit', 'transfusion', 'fitness', 'diabetes', 'biodegr', 'marketing']
-  df_openml: ['tae', 'irish', 'compas', 'vote', 'cancer', 'steel', 'kc1']
+  type: 'task' # ['task', 'dataset']
+  df_openml: ['credit', 'transfusion', 'fitness', 'diabetes', 'biodegr', 'marketing']
   task: {'credit': 363626,
          'transfusion': 363621,
          'fitness': 363671,
@@ -50,11 +49,11 @@ openml:
          'biodegr': 363696,
          'marketing': 363684}
   dataset: {'telco': 42178,
-            'pc4': 1049, # maybe
+            'pc4': 1049, 
             'tae': 955,
             'irish': 451,
-            'compas': 42193, # maybe
+            'compas': 42193, 
             'vote': 56,
             'cancer': 15,
-            'steel': 1504, # maybe
+            'steel': 1504,
             'kc1': 1067} 
