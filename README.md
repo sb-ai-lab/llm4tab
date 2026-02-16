@@ -4,7 +4,7 @@
 
 The framework supports:
 - **Local LLM inference** via [vLLM](https://github.com/vllm-project/vllm) (Qwen, Gemma, DeepSeek model families)
-- **API-based LLM inference** via OpenRouter (GPT)
+- **API-based LLM inference** via [OpenRouter](https://openrouter.ai/) (GPT)
 - **Classical ML baselines** (Logistic Regression, KNN, Random Forest, Gradient Boosting) with Bayesian hyperparameter optimization
 - **Multiple data serialization formats** (Markdown, HTML, JSON, CSV, LaTeX, natural language, and more)
 - **OpenML datasets** and **custom local datasets (.csv)**
@@ -50,10 +50,10 @@ All experiment settings are controlled via a single `config.yaml` file. Below is
 
 ```yaml
 data:
-  DF_TYPE: 'openml'              
-  DF_FORMAT: 'csv'              
-  DATASET_NAME: 'airbnb'      
-  DF_TRANSFORMATION_REGIME: 'no' 
+  DF_TYPE: 'openml'
+  DF_FORMAT: 'csv'
+  DATASET_NAME: 'airbnb'
+  DF_TRANSFORMATION_REGIME: 'no'
   LOCAL_DATASET_PATH: 'datasets/'
   RESULT_PATH: 'results/experiments_result/'
   PROBS_PATH: 'results/llm_probs/'
@@ -80,7 +80,7 @@ data:
   DF_TYPE: 'openml'
 
 openml:
-  type: 'dataset' 
+  type: 'dataset'
   df_openml: ['compas', 'vote', 'kc1', 'irish']
   dataset: {
     telco: 42178,
@@ -149,7 +149,7 @@ When `DF_TYPE` is `'custom'`, the code automatically discovers all files in `dat
 experiment:
   baseline: False
   local_llm: True
-  regime: 'local_gen'               
+  regime: 'local_gen'
   random_states_list: [864, 460, 142, 629, 761]
   serialization_list: ['feat_val', 'feat_val_masked', 'html', 'markdown', 'markdown_masked']
   shot_list: [4, 8, 16, 32, 64]
@@ -202,10 +202,10 @@ experiment:
 
 ```yaml
 local_model:
-  name: "Qwen/Qwen3-1.7B"       
-  temperature: 0                  
-  gpu_memory_utilization: 0.12     
-  gpu_device: "0"                 
+  name: "Qwen/Qwen3-1.7B"
+  temperature: 0
+  gpu_memory_utilization: 0.12
+  gpu_device: "0"
 ```
 
 **Supported model families:**
