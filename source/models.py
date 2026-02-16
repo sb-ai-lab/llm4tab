@@ -33,7 +33,7 @@ from .serializations import (serialization1_old,
                             serialization_natural_language)
 
 from .prompts import system_prompt, prompt_by_df
-from .baselines import LR, KNN, RF, XGB, Naive, get_model_config
+from .baselines import get_baseline_model
 from skopt.space import Categorical, Integer, Real
 from sklearn.model_selection import StratifiedKFold
 from skopt import BayesSearchCV
@@ -45,18 +45,18 @@ os.environ["VLLM_ALLOW_LONG_MAX_MODEL_LEN"] = "1"
 
 
 SERIALIZATION_MAPPING = {
-    '1_old': serialization1_old,
-    '2_old': serialization2_old,
-    '3_old': serialization3_old,
-    'json_new': serialization_json_new,
-    'datamatrix_new': serialization_datamatrix_new,
-    'latex_new': serialization_latex_new,
-    'csv_new': serialization_csv_new,
-    'html_new': serialization_html_new,
-    'markdown_new': serialization_markdown_new,
-    'table_new': serialization_table_new,
-    'dict_new': serialization_dict_new,
-    'markdown_masked_new': serialization_markdown_masked_new,
+    'feat_val': serialization1_old,
+    'feat_name': serialization2_old,
+    'feat_val_masked': serialization3_old,
+    'json': serialization_json_new,
+    'datamatrix': serialization_datamatrix_new,
+    'latex': serialization_latex_new,
+    'csv': serialization_csv_new,
+    'html': serialization_html_new,
+    'markdown': serialization_markdown_new,
+    'table': serialization_table_new,
+    'dict': serialization_dict_new,
+    'markdown_masked': serialization_markdown_masked_new,
     'natural_language': serialization_natural_language
 }
 
@@ -238,147 +238,84 @@ def get_preds_baselines(df_train, df_test, config, rs):
     X_test = df_test.drop(columns=['label'])
 
 
-    # if model_name == 'logreg':
-    #     if n_shots < 100:
-    #         model_lr = LR(X_train, y_train, cv=2)
-    #     else:
-    #         model_lr = LR(X_train, y_train, cv=20)
-
-    #     y_pred_roc = model_lr.predict_proba(X_test)[:,1]
-    #     y_pred = model_lr.predict(X_test)
-    
-    # elif model_name == 'knn':
-    #     if n_shots < 10:
-    #         MAX_NEIGHBOURS = 2
-    #     else:
-    #         MAX_NEIGHBOURS = min(20, int(n_shots / 2))
-
-    #     model_lr = KNN(X_train, y_train, cv=2, max_neighbours=MAX_NEIGHBOURS)
-
-    #     y_pred_roc = model_lr.predict_proba(X_test)[:,1]
-    #     y_pred = model_lr.predict(X_test)
-
-    # elif model_name == 'rf':
-    #     if n_shots < 100:
-    #         model_lr = RF(X_train, y_train, cv=2)
-    #     else:
-    #         model_lr = RF(X_train, y_train, cv=20)
-    #     y_pred_roc = model_lr.predict_proba(X_test)[:,1]
-    #     y_pred = model_lr.predict(X_test)
-
-    # elif model_name == 'gboost':
-    #     if n_shots < 100:
-    #         model_lr = XGB(X_train, y_train, cv=2)
-    #     else:
-    #         model_lr = XGB(X_train, y_train, cv=20)
-
-    #     y_pred_roc = model_lr.predict_proba(X_test)[:,1]
-    #     y_pred = model_lr.predict(X_test)
-    
-    # elif model_name == 'naive_argmax':
-    #     model_lr = Naive(X_train, y_train)
-    #     y_pred_roc = model_lr.predict_proba(X_test)[:,1]
-    #     y_pred = model_lr.predict(X_test)
-
-
     print(f"Running {model_name} experiment with random state: {rs}")
 
-    model_config = get_model_config(model_name)
+    model_config = get_baseline_model(model_name, n_shots)
 
-    if model_name == "knn":
-        max_n = model_config["max_neighbors"](n_shots)
-        model_config["params"]["n_neighbors"] = Integer(1, max_n)
+    n_iter = 25 if n_shots < 10 else 10
+    print("N_ITER:", n_iter)
 
-    if model_name == "gboost":
-        if n_shots <= 4:
-            model_config["fixed_params"][
-                "validation_fraction"
-            ] = None  # not enough samples for validation, will use early stopping on training set
-            if model_config.get("fixed_params", {}).get("max_iter", None) is not None:
-                del model_config["fixed_params"]["max_iter"]
-            model_config["params"]["max_iter"] = Integer(
-                1, 1000
-            )  # reduce max_iter for very small datasets
-        elif n_shots > 4 and n_shots <= 32:
-            model_config["fixed_params"][
-                "validation_fraction"
-            ] = 0.3  # 2 shots for 8 shots and 3 shots for 16 shots and 7 shots for 32 shots
-        elif n_shots <= 128:
-            model_config["fixed_params"][
-                "validation_fraction"
-            ] = 0.2  # 9 shots for 64 shots, 19 shots for 128
-        else:
-            model_config["fixed_params"]["validation_fraction"] = 0.1
+    estimator = model_config["estimator"](
+        **model_config.get("fixed_params", {})
+    )
 
-    estimator = model_config["estimator"](**model_config.get("fixed_params", {}))
+    n_splits = 2 if n_shots == 4 else 4
+    cv = StratifiedKFold(
+        n_splits=n_splits,
+        shuffle=True,
+        random_state=rs,
+    )
 
-    if n_shots == 4:
-        # n_splits cannot be greater than the number of members in each class.
-        n_splits = 2
-    else:
-        n_splits = 4
-    cv = StratifiedKFold(n_splits=n_splits, shuffle=True, random_state=rs)
 
     if model_name == "gboost" and model_config["use_bayes"](X_train):
-        if model_config["use_bayes"](X_train):
-            opt = BayesSearchCV(
-                estimator=estimator,
-                search_spaces=model_config["params"],
-                n_iter=25,
-                cv=cv,
-                random_state=0,
-                n_jobs=-1,
-                refit=False,
-            )
+
+        opt = BayesSearchCV(
+            estimator=estimator,
+            search_spaces=model_config["params"],
+            n_iter=n_iter,
+            cv=cv,
+            random_state=0,
+            n_jobs=-1,
+            refit=False,
+        )
+
         opt.fit(X_train, y_train)
         best_params = opt.best_params_
 
-        # Determine optimal number of iterations using cross-validation with early stopping 
-        # for the previously found best hyperparameters and previously set validation fraction
         fold_n_iters = []
+
         for tr_idx, val_idx in cv.split(X_train, y_train):
             X_tr, y_tr = X_train.iloc[tr_idx], y_train.iloc[tr_idx]
             model_fold = clone(estimator).set_params(**best_params)
             model_fold.fit(X_tr, y_tr)
             fold_n_iters.append(model_fold.n_iter_)
+
         final_n_iter = int(np.median(fold_n_iters))
-        
-        # Refit the model on the entire training set with the best hyperparameters and optimal number of iterations
+
         best_params["max_iter"] = final_n_iter
-        best_params["early_stopping"] = False  # disable early stopping for final model
-        best_params["validation_fraction"] = None  # disable validation for final model
+        best_params["early_stopping"] = False
+        best_params["validation_fraction"] = None
+
         model = clone(estimator).set_params(**best_params)
         model.fit(X_train, y_train)
-        y_pred_proba = model.predict_proba(X_test)[:,1]
-        y_pred = model.predict(X_test)
 
     else:
+
         if model_config["use_bayes"](X_train):
+
             opt = BayesSearchCV(
                 estimator=estimator,
                 search_spaces=model_config["params"],
-                n_iter=25,
+                n_iter=n_iter,
                 cv=cv,
                 random_state=0,
                 n_jobs=-1,
                 refit=True,
             )
+
+            model = opt.fit(X_train, y_train)
+
         else:
-            opt = estimator
+            model = estimator.fit(X_train, y_train)
 
-        model = opt.fit(X_train, y_train)
-        y_pred_proba = model.predict_proba(X_test)[:,1]
-        y_pred = model.predict(X_test)
-
+    y_pred_proba = model.predict_proba(X_test)[:, 1]
+    y_pred = model.predict(X_test)
 
     return y_pred_proba, y_pred
 
 
 
-    
-
-
-def get_preds_LLM(serialization_train, serialization_test, config, model, tokenizer, serialization_type, rs):
+def get_preds_LLM(serialization_train, serialization_test, config, model, tokenizer):
 
     temperature = config['local_model']['temperature']
     schema = json.loads(config['experiment']['SCHEMA'])
@@ -530,7 +467,7 @@ def run_experiment(config, model=None, tokenizer=None, serialization=None):
             rs=rs
         )
 
-        pred_probs, pred_labels = get_preds_LLM(serialization_train, serialization_test, config, model, tokenizer, serialization_type=serialization, rs=rs)
+        pred_probs, pred_labels = get_preds_LLM(serialization_train, serialization_test, config, model, tokenizer)
         
     print('PREDICTED LABELS:\n')
     print(pred_labels)
