@@ -14,6 +14,8 @@ help:
 	@echo "  venv      - Create/ensure .venv with Python $(PYTHON_VERSION)"
 	@echo "  sync      - Install dependencies (uses uv.lock if present)"
 	@echo "  run       - Run application (main.py)"
+	@echo "  meta      - Run meta_features script (meta_features.run_meta)"
+	@echo "  tgen      - Run gen_tables script (gen_tables.run_gen)"
 	@echo "  lint      - Ruff lint"
 	@echo "  lint-fix  - Ruff lint with auto-fix"
 	@echo "  fmt       - Ruff format in-place"
@@ -42,6 +44,20 @@ sync:
 
 run:
 	@source $(ACTIVATE); $(PY) main.py
+
+# meta:
+# 	@$(MAKE) ensure-uv
+# 	@if [ ! -d .venv ]; then $(MAKE) venv; fi
+# 	@if [ ! -f uv.lock ]; then $(MAKE) sync; fi
+# 	@$(UV) run -m meta_features.run_meta
+meta:
+	@$(MAKE) ensure-uv
+	@$(UV) run -m meta_features.run_meta
+
+tgen:
+	@$(MAKE) ensure-uv
+	@$(UV) run -m gen_tables.run_gen
+
 
 lint:
 	@$(MAKE) ensure-uv
