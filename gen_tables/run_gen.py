@@ -10,7 +10,7 @@ from gen_tables.utils_gen import (
 
 
 df = pd.read_csv(
-    "datasets/agr_real_prompt_1.csv",
+    "/home/mmitrovich/sber/Proj_few_shot/test_code/llm4tab/datasets/agr_all_prompt1.csv",
     header=[0, 1, 2, 3],     
     index_col=[0, 1],       
 )
@@ -20,11 +20,11 @@ common_settings = {
     'tables_path': 'results/latex_tables/',
     'domain': 'healthcare',
     'shots': ['0', '16', '64'],
-    'models': ['qwen38b', 'qwen314b', 'gpt4omini', 'tabpfn'],
+    'models': ['qwen38b', 'qwen314b', 'gpt4omini', 'tabpfn', 'logreg', 'rf', 'gboost'],
     'metrics': ['roc_auc_mean', 'roc_auc_std'],
 }
 
-domains = ['business', 'people_society', 'finance', 'healthcare', 'education', 'software_engineering', 'law', 'natural_science']
+domains = ['business', 'people_society', 'finance', 'healthcare', 'education', 'software_engineering', 'law', 'natural_science', 'synthetic']
 table_modes = ['shots', 'serializations']
 
 
@@ -35,10 +35,11 @@ def main():
             if table_mode == 'shots':
                 config = {
                     'table_types': 'shots',
-                    'serialization': ['1_old'],
+                    'serialization': ['3_old'],
                     'regimes': ['gen', 'nogen'],
                     'caption': 'Healthcare - Shot Results',
                     'label': 'tab:shot_results',
+                    'model_orders': ['Qwen3-8B', 'Qwen3-14B', 'GPT-4o-mini', 'TabPFN', 'LogReg', 'Random Forest', 'XGBoost'],
                     **common_settings  
                 }
             elif table_mode == 'serializations':
@@ -47,7 +48,8 @@ def main():
                     'serialization': ['1_old', '3_old', 'html_new', 'markdown_masked', 'markdown_masked_new'],
                     'regimes': ['gen'],
                     'caption': 'Healthcare - Serialization Results',
-                    'label': 'tab:shot_results',
+                    'label': 'tab:serialization_results',
+                    'model_orders': ['Qwen3-8B', 'Qwen3-14B', 'GPT-4o-mini'],
                     **common_settings  
                 }
             else:

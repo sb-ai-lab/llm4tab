@@ -12,7 +12,7 @@ MODEL_MAP = {
     'tabpfn': 'TabPFN',
     'logreg': 'LogReg',
     'rf': 'Random Forest',
-    'xgb': 'XGBoost'
+    'gboost': 'XGBoost'
 }
 
 REGIME_MAP = {
@@ -29,8 +29,43 @@ DOMEN_MAP = {
     'software_engineering': ['pc4', 'kc1', 'steel', 'machine'],
     'law': ['compas', 'vote', 'san_francisco_crimes', 'crimes_arrest'],
     'natural_science': ['bbbp', 'biodegr', 'seismic_bumps', 'stars'],
+    'synthetic': ['mlp0_f5_h0_no_noise_ReLU_42_42', 
+                  'mlp0_f5_h0_no_noise_ReLU_43_43', 
+                  'mlp0_f5_h0_no_noise_ReLU_44_44',
+                  'mlp0_f5_h0_no_noise_ReLU_45_45', 
+                  'mlp0_f5_h0_no_noise_ReLU_46_46',
+                  'mlp1_f10_h10_no_noise_ReLU_42_42', 
+                  'mlp1_f10_h10_no_noise_ReLU_43_43', 
+                  'mlp1_f10_h10_no_noise_ReLU_44_44',
+                  'mlp1_f10_h10_no_noise_ReLU_45_45', 
+                  'mlp1_f10_h10_no_noise_ReLU_46_46',
+                  'mlp2_f15_h15_no_noise_ReLU_42_42', 
+                  'mlp2_f15_h15_no_noise_ReLU_43_43', 
+                  'mlp2_f15_h15_no_noise_ReLU_44_44',
+                  'mlp2_f15_h15_no_noise_ReLU_45_45', 
+                  'mlp2_f15_h15_no_noise_ReLU_46_46',
+                  'mlp3_f20_h20_no_noise_ReLU_42_42', 
+                  'mlp3_f20_h20_no_noise_ReLU_43_43', 
+                  'mlp3_f20_h20_no_noise_ReLU_44_44',
+                  'mlp3_f20_h20_no_noise_ReLU_45_45', 
+                  'mlp3_f20_h20_no_noise_ReLU_46_46',
+                  'mlp5_f30_h30_no_noise_ReLU_42_42', 
+                  'mlp5_f30_h30_no_noise_ReLU_43_43', 
+                  'mlp5_f30_h30_no_noise_ReLU_44_44',
+                  'mlp5_f30_h30_no_noise_ReLU_45_45', 
+                  'mlp5_f30_h30_no_noise_ReLU_46_46',
+                  'mlp7_f40_h40_no_noise_ReLU_42_42', 
+                  'mlp7_f40_h40_no_noise_ReLU_43_43', 
+                  'mlp7_f40_h40_no_noise_ReLU_44_44',
+                  'mlp7_f40_h40_no_noise_ReLU_45_45', 
+                  'mlp7_f40_h40_no_noise_ReLU_46_46',
+                  'mlp9_f50_h50_no_noise_ReLU_42_42', 
+                  'mlp9_f50_h50_no_noise_ReLU_43_43', 
+                  'mlp9_f50_h50_no_noise_ReLU_44_44',
+                  'mlp9_f50_h50_no_noise_ReLU_45_45', 
+                  'mlp9_f50_h50_no_noise_ReLU_46_46',         
+                  ]
 }
-
 
 def combine_mean_std_columns(df, decimal_places=3):
 
@@ -125,6 +160,13 @@ def format_value(val):
     return f"\\num{{{val_str}}}"
 
 
+def escape_latex(text):
+    if text is None:
+        return ""
+    s = str(text)
+    s = s.replace('_', '\\_')
+    return s
+
 def get_table_shots(df, config):
     domain = DOMEN_MAP[config['domain']]
     df_filt = df.loc[df.index.get_level_values('Dataset').isin(domain)]
@@ -180,6 +222,7 @@ def get_table_shots(df, config):
     latex_lines.append(f"\\cmidrule(lr){{3-{2+num_model_cols}}}")
 
     unique_models = df_stacked.columns[2:].get_level_values(0).unique()
+    unique_models = unique_models.reindex(config['model_orders'])[0]
 
     header_row_2 = ["Dataset", "Shot"]
     cmidrule_ranges = []
@@ -215,7 +258,7 @@ def get_table_shots(df, config):
 
         for j, row in ds_rows.iterrows():
             if j == ds_rows.index[0]:
-                ds_cell = f"\\multirow{{{num_rows}}}{{*}}{{{ds}}}"
+                ds_cell = f"\\multirow{{{num_rows}}}{{*}}{{{escape_latex(ds)}}}"
             else:
                 ds_cell = ""
 
@@ -236,7 +279,7 @@ def get_table_shots(df, config):
     latex_lines.append("\\bottomrule")
     latex_lines.append("\\end{tabular}")
     latex_lines.append("")
-    latex_lines.append(f"\\caption{{{config['caption']}}}")
+    latex_lines.append(f"\\caption{{{escape_latex(config['caption'])}}}")
     latex_lines.append(f"\\label{{{config['label']}}}")
     latex_lines.append("\\end{table*}")
 
@@ -314,6 +357,7 @@ def get_table_serializations(df, config):
     latex_lines.append(f"\\cmidrule(lr){{3-{2+num_model_cols}}}")
 
     unique_models = df_stacked.columns[2:].get_level_values(0).unique()
+    unique_models = unique_models.reindex(config['model_orders'])[0]
 
     header_row = ["Dataset", "Serialization"]
     cmidrule_ranges = []
@@ -353,7 +397,7 @@ def get_table_serializations(df, config):
         for idx, row in ds_rows.iterrows():
 
             if idx == ds_rows.index[0]:
-                ds_cell = f"\\multirow{{{num_rows}}}{{*}}{{{ds}}}"
+                ds_cell = f"\\multirow{{{num_rows}}}{{*}}{{{escape_latex(ds)}}}"
             else:
                 ds_cell = ""
 
@@ -374,7 +418,7 @@ def get_table_serializations(df, config):
     latex_lines.append("\\end{tabular}")
     latex_lines.append("}")
     latex_lines.append("")
-    latex_lines.append(f"\\caption{{{config['caption']}}}")
+    latex_lines.append(f"\\caption{{{escape_latex(config['caption'])}}}")
     latex_lines.append(f"\\label{{{config['label']}}}")
     latex_lines.append("\\end{table*}")
 
