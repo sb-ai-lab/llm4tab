@@ -29,7 +29,7 @@ data:
 experiment:
   baseline: False
   local_llm: True
-  regime: 'local_nogen' # ['local_gen', 'local_nogen', 'api_gen']
+  regime: 'local_gen' # ['local_gen', 'local_nogen', 'api_gen']
   random_states_list: [864, 460, 142, 629, 761, 703, 24, 401, 210, 736]
   serialization_list: ['feat_val', 'feat_val_masked', 'html', 'markdown', 'markdown_masked']
   shot_list: [4, 8, 16, 32, 64]
