@@ -1,7 +1,3 @@
-baseline_model:
-  name: 'logreg' # ['logreg', 'knn', 'gboost', 'naive_argmax']
-  all_names: ['logreg', 'gboost', 'rf']
-  
 
 local_model:
   name: "Qwen/Qwen3-1.7B" # ["google/gemma-7b-it", "deepseek-ai/deepseek-llm-7b-chat", "Qwen/Qwen3-1.7B"]
@@ -9,8 +5,14 @@ local_model:
   gpu_memory_utilization: 0.12
   gpu_device: "0"
 
+
 api_model:
   #TODO
+
+
+baseline_model:
+  name: 'logreg' # ['logreg', 'knn', 'gboost', 'naive_argmax']
+  all_names: ['logreg', 'gboost', 'rf']
 
 
 data:
@@ -19,6 +21,7 @@ data:
   DATASET_NAME: 'airbnb'
   DF_TRANSFORMATION_REGIME: 'no'
   LOCAL_DATASET_PATH: 'datasets/'
+  TGEN_LOCAL_DATASET_PATH: 'datasets/agr_all_prompt1.csv'
   RESULT_PATH: 'results/experiments_result/'
   PROBS_PATH: 'results/llm_probs/'
 
@@ -26,7 +29,7 @@ data:
 experiment:
   baseline: False
   local_llm: True
-  regime: 'local_gen' # ['local_gen', 'local_nogen', 'api_gen']
+  regime: 'local_nogen' # ['local_gen', 'local_nogen', 'api_gen']
   random_states_list: [864, 460, 142, 629, 761, 703, 24, 401, 210, 736]
   serialization_list: ['feat_val', 'feat_val_masked', 'html', 'markdown', 'markdown_masked']
   shot_list: [4, 8, 16, 32, 64]

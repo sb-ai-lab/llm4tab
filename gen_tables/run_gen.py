@@ -1,3 +1,5 @@
+from pathlib import Path
+import yaml
 import pandas as pd
 import numpy as np
 
@@ -8,9 +10,14 @@ from gen_tables.utils_gen import (
     get_table_serializations,
 )
 
+script_dir = Path(__file__).parent
+with open(script_dir.parent / "config.yaml", "r") as f:
+    config = yaml.safe_load(f)
+
+
 
 df = pd.read_csv(
-    "/home/mmitrovich/sber/Proj_few_shot/test_code/llm4tab/datasets/agr_all_prompt1.csv",
+    config['data']['TGEN_LOCAL_DATASET_PATH'],
     header=[0, 1, 2, 3],     
     index_col=[0, 1],       
 )
