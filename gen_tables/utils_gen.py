@@ -12,7 +12,7 @@ MODEL_MAP = {
     'tabpfn': 'TabPFN',
     'logreg': 'LogReg',
     'rf': 'Random Forest',
-    'xgb': 'XGBoost'
+    'gboost': 'XGBoost'
 }
 
 REGIME_MAP = {
@@ -29,8 +29,15 @@ DOMEN_MAP = {
     'software_engineering': ['pc4', 'kc1', 'steel', 'machine'],
     'law': ['compas', 'vote', 'san_francisco_crimes', 'crimes_arrest'],
     'natural_science': ['bbbp', 'biodegr', 'seismic_bumps', 'stars'],
+    'synthetic': ['mlp0_f5_h0_no_noise_ReLU', 
+                  'mlp1_f10_h10_no_noise_ReLU', 
+                  'mlp2_f15_h15_no_noise_ReLU', 
+                  'mlp3_f20_h20_no_noise_ReLU', 
+                  'mlp5_f30_h30_no_noise_ReLU', 
+                  'mlp7_f40_h40_no_noise_ReLU', 
+                  'mlp9_f50_h50_no_noise_ReLU',   
+                  ]
 }
-
 
 def combine_mean_std_columns(df, decimal_places=3):
 
@@ -125,6 +132,13 @@ def format_value(val):
     return f"\\num{{{val_str}}}"
 
 
+def escape_latex(text):
+    if text is None:
+        return ""
+    s = str(text)
+    s = s.replace('_', '\\_')
+    return s
+
 def get_table_shots(df, config):
     domain = DOMEN_MAP[config['domain']]
     df_filt = df.loc[df.index.get_level_values('Dataset').isin(domain)]
@@ -139,12 +153,11 @@ def get_table_shots(df, config):
     df_filt = df_filt[cols_to_keep]
 
     cols_to_keep = [c for c in df_filt.columns if c[2] in config['models']]
-    df_filt = df_filt[cols_to_keep]
-
     df_stacked = df_filt.stack(level='Shots')
 
     df_stacked = df_stacked.reorder_levels(['Model', 'Regime'], axis=1)
     df_stacked = df_stacked.sort_index(axis=1)
+    df_stacked = df_stacked[config['model_orders']]
 
     new_cols = []
     for mod, reg in df_stacked.columns:
@@ -215,7 +228,7 @@ def get_table_shots(df, config):
 
         for j, row in ds_rows.iterrows():
             if j == ds_rows.index[0]:
-                ds_cell = f"\\multirow{{{num_rows}}}{{*}}{{{ds}}}"
+                ds_cell = f"\\multirow{{{num_rows}}}{{*}}{{{escape_latex(ds)}}}"
             else:
                 ds_cell = ""
 
@@ -236,7 +249,7 @@ def get_table_shots(df, config):
     latex_lines.append("\\bottomrule")
     latex_lines.append("\\end{tabular}")
     latex_lines.append("")
-    latex_lines.append(f"\\caption{{{config['caption']}}}")
+    latex_lines.append(f"\\caption{{{escape_latex(config['caption'])}}}")
     latex_lines.append(f"\\label{{{config['label']}}}")
     latex_lines.append("\\end{table*}")
 
@@ -341,7 +354,8 @@ def get_table_serializations(df, config):
 
     latex_lines.append(" & ".join(sub_header) + " \\\\")
     latex_lines.append("\\midrule")
-
+    
+    df_stacked = df_stacked[config['model_orders']]
     unique_datasets = df_stacked["Dataset"].unique()
 
     for i, ds in enumerate(unique_datasets):
@@ -353,7 +367,7 @@ def get_table_serializations(df, config):
         for idx, row in ds_rows.iterrows():
 
             if idx == ds_rows.index[0]:
-                ds_cell = f"\\multirow{{{num_rows}}}{{*}}{{{ds}}}"
+                ds_cell = f"\\multirow{{{num_rows}}}{{*}}{{{escape_latex(ds)}}}"
             else:
                 ds_cell = ""
 
@@ -374,7 +388,7 @@ def get_table_serializations(df, config):
     latex_lines.append("\\end{tabular}")
     latex_lines.append("}")
     latex_lines.append("")
-    latex_lines.append(f"\\caption{{{config['caption']}}}")
+    latex_lines.append(f"\\caption{{{escape_latex(config['caption'])}}}")
     latex_lines.append(f"\\label{{{config['label']}}}")
     latex_lines.append("\\end{table*}")
 
