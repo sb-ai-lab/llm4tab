@@ -19,7 +19,7 @@ df = pd.read_csv(
 common_settings = {
     'tables_path': 'results/latex_tables/',
     'domain': 'healthcare',
-    'shots': ['0', '16', '64'],
+    'shots': ['0', '4', '8', '16', '32', '64'],
     'models': ['qwen38b', 'qwen314b', 'gpt4omini', 'tabpfn', 'logreg', 'rf', 'gboost'],
     'metrics': ['roc_auc_mean', 'roc_auc_std'],
 }
@@ -39,7 +39,15 @@ def main():
                     'regimes': ['gen', 'nogen'],
                     'caption': 'Healthcare - Shot Results',
                     'label': 'tab:shot_results',
-                    'model_orders': ['Qwen3-8B', 'Qwen3-14B', 'GPT-4o-mini', 'TabPFN', 'LogReg', 'Random Forest', 'XGBoost'],
+                    'model_orders': [('qwen38b', 'gen'),
+                                     ('qwen38b', 'nogen'),
+                                     ('qwen314b', 'gen'),
+                                     ('qwen314b', 'nogen'),
+                                     ('gpt4omini', 'gen'),
+                                     ('tabpfn', 'nogen'),
+                                     ('logreg', 'nogen'),
+                                     ('rf', 'nogen'),
+                                     ('gboost', 'nogen')],
                     **common_settings  
                 }
             elif table_mode == 'serializations':
@@ -49,7 +57,26 @@ def main():
                     'regimes': ['gen'],
                     'caption': 'Healthcare - Serialization Results',
                     'label': 'tab:serialization_results',
-                    'model_orders': ['Qwen3-8B', 'Qwen3-14B', 'GPT-4o-mini'],
+                    'model_orders': [('Dataset', ''),
+                                     ('Serialization', ''),
+                                     ('Qwen3-8B', 'shot 0'),
+                                     ('Qwen3-8B', 'shot 4'),
+                                     ('Qwen3-8B', 'shot 8'),
+                                     ('Qwen3-8B', 'shot 16'),
+                                     ('Qwen3-8B', 'shot 32'),
+                                     ('Qwen3-8B', 'shot 64'),
+                                     ('Qwen3-14B', 'shot 0'),
+                                     ('Qwen3-14B', 'shot 4'),
+                                     ('Qwen3-14B', 'shot 8'),
+                                     ('Qwen3-14B', 'shot 16'),
+                                     ('Qwen3-14B', 'shot 32'),
+                                     ('Qwen3-14B', 'shot 64'),
+                                     ('GPT-4o-mini', 'shot 0'),
+                                     ('GPT-4o-mini', 'shot 4'),
+                                     ('GPT-4o-mini', 'shot 8'),
+                                     ('GPT-4o-mini', 'shot 16'),
+                                     ('GPT-4o-mini', 'shot 32'),
+                                     ('GPT-4o-mini', 'shot 64')],
                     **common_settings  
                 }
             else:

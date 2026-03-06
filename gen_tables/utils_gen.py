@@ -29,41 +29,13 @@ DOMEN_MAP = {
     'software_engineering': ['pc4', 'kc1', 'steel', 'machine'],
     'law': ['compas', 'vote', 'san_francisco_crimes', 'crimes_arrest'],
     'natural_science': ['bbbp', 'biodegr', 'seismic_bumps', 'stars'],
-    'synthetic': ['mlp0_f5_h0_no_noise_ReLU_42_42', 
-                  'mlp0_f5_h0_no_noise_ReLU_43_43', 
-                  'mlp0_f5_h0_no_noise_ReLU_44_44',
-                  'mlp0_f5_h0_no_noise_ReLU_45_45', 
-                  'mlp0_f5_h0_no_noise_ReLU_46_46',
-                  'mlp1_f10_h10_no_noise_ReLU_42_42', 
-                  'mlp1_f10_h10_no_noise_ReLU_43_43', 
-                  'mlp1_f10_h10_no_noise_ReLU_44_44',
-                  'mlp1_f10_h10_no_noise_ReLU_45_45', 
-                  'mlp1_f10_h10_no_noise_ReLU_46_46',
-                  'mlp2_f15_h15_no_noise_ReLU_42_42', 
-                  'mlp2_f15_h15_no_noise_ReLU_43_43', 
-                  'mlp2_f15_h15_no_noise_ReLU_44_44',
-                  'mlp2_f15_h15_no_noise_ReLU_45_45', 
-                  'mlp2_f15_h15_no_noise_ReLU_46_46',
-                  'mlp3_f20_h20_no_noise_ReLU_42_42', 
-                  'mlp3_f20_h20_no_noise_ReLU_43_43', 
-                  'mlp3_f20_h20_no_noise_ReLU_44_44',
-                  'mlp3_f20_h20_no_noise_ReLU_45_45', 
-                  'mlp3_f20_h20_no_noise_ReLU_46_46',
-                  'mlp5_f30_h30_no_noise_ReLU_42_42', 
-                  'mlp5_f30_h30_no_noise_ReLU_43_43', 
-                  'mlp5_f30_h30_no_noise_ReLU_44_44',
-                  'mlp5_f30_h30_no_noise_ReLU_45_45', 
-                  'mlp5_f30_h30_no_noise_ReLU_46_46',
-                  'mlp7_f40_h40_no_noise_ReLU_42_42', 
-                  'mlp7_f40_h40_no_noise_ReLU_43_43', 
-                  'mlp7_f40_h40_no_noise_ReLU_44_44',
-                  'mlp7_f40_h40_no_noise_ReLU_45_45', 
-                  'mlp7_f40_h40_no_noise_ReLU_46_46',
-                  'mlp9_f50_h50_no_noise_ReLU_42_42', 
-                  'mlp9_f50_h50_no_noise_ReLU_43_43', 
-                  'mlp9_f50_h50_no_noise_ReLU_44_44',
-                  'mlp9_f50_h50_no_noise_ReLU_45_45', 
-                  'mlp9_f50_h50_no_noise_ReLU_46_46',         
+    'synthetic': ['mlp0_f5_h0_no_noise_ReLU', 
+                  'mlp1_f10_h10_no_noise_ReLU', 
+                  'mlp2_f15_h15_no_noise_ReLU', 
+                  'mlp3_f20_h20_no_noise_ReLU', 
+                  'mlp5_f30_h30_no_noise_ReLU', 
+                  'mlp7_f40_h40_no_noise_ReLU', 
+                  'mlp9_f50_h50_no_noise_ReLU',   
                   ]
 }
 
@@ -181,12 +153,11 @@ def get_table_shots(df, config):
     df_filt = df_filt[cols_to_keep]
 
     cols_to_keep = [c for c in df_filt.columns if c[2] in config['models']]
-    df_filt = df_filt[cols_to_keep]
-
     df_stacked = df_filt.stack(level='Shots')
 
     df_stacked = df_stacked.reorder_levels(['Model', 'Regime'], axis=1)
     df_stacked = df_stacked.sort_index(axis=1)
+    df_stacked = df_stacked[config['model_orders']]
 
     new_cols = []
     for mod, reg in df_stacked.columns:
@@ -222,7 +193,6 @@ def get_table_shots(df, config):
     latex_lines.append(f"\\cmidrule(lr){{3-{2+num_model_cols}}}")
 
     unique_models = df_stacked.columns[2:].get_level_values(0).unique()
-    unique_models = unique_models.reindex(config['model_orders'])[0]
 
     header_row_2 = ["Dataset", "Shot"]
     cmidrule_ranges = []
@@ -357,7 +327,6 @@ def get_table_serializations(df, config):
     latex_lines.append(f"\\cmidrule(lr){{3-{2+num_model_cols}}}")
 
     unique_models = df_stacked.columns[2:].get_level_values(0).unique()
-    unique_models = unique_models.reindex(config['model_orders'])[0]
 
     header_row = ["Dataset", "Serialization"]
     cmidrule_ranges = []
@@ -385,7 +354,8 @@ def get_table_serializations(df, config):
 
     latex_lines.append(" & ".join(sub_header) + " \\\\")
     latex_lines.append("\\midrule")
-
+    
+    df_stacked = df_stacked[config['model_orders']]
     unique_datasets = df_stacked["Dataset"].unique()
 
     for i, ds in enumerate(unique_datasets):
