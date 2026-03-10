@@ -39,7 +39,16 @@ DOMEN_MAP = {
                   ]
 }
 
+SERIALIZATION_MAP = {
+    '1_old': 'feat_val',
+    '3_old': 'feat_val_mask',
+    'html_new': 'html',
+    'markdown_new': 'markdown',
+    'markdown_masked_new': 'markdown_mask',
+}
+
 def combine_mean_std_columns(df, decimal_places=3):
+
 
     col_tuples = df.columns.tolist()
     grouped = defaultdict(dict)
@@ -95,12 +104,33 @@ def combine_mean_std_columns(df, decimal_places=3):
     df_combined.columns = pd.MultiIndex.from_tuples(new_columns,
                                                      names=['Shots', 'Regime', 'Model'])
 
+
     return df_combined
 
 
+def map_serializations(df, mapping=SERIALIZATION_MAP):
+
+    if df.empty or 'Serialization' not in df.index.names:
+        return df
+    
+    df = df.copy()
+    
+    idx_df = df.index.to_frame()
+    
+    idx_df['Serialization'] = idx_df['Serialization'].map(mapping).fillna(idx_df['Serialization'])
+    
+    df.index = pd.MultiIndex.from_frame(idx_df)
+    
+    return df
+
 def filter_df(df, config):
 
+    df = df.copy()
+
+    df = map_serializations(df)
+
     domain = DOMEN_MAP[config['domain']]
+    
     row_mask = (
         df.index.get_level_values('Dataset').isin(domain) &
         df.index.get_level_values('Serialization').isin(config['serialization'])
@@ -113,11 +143,15 @@ def filter_df(df, config):
         df.columns.get_level_values('Metric').isin(config['metrics'])
     )
 
+
     filtered_df = df.loc[row_mask, col_mask]
-    filtered_df = filtered_df.replace([-999, np.nan], '-')
+    
+    if not filtered_df.empty:
+        filtered_df = filtered_df.replace(-999, '-')
+        filtered_df = filtered_df.fillna('-')
+
 
     return filtered_df
-
 
 
 def format_value(val):
@@ -139,15 +173,11 @@ def escape_latex(text):
     s = s.replace('_', '\\_')
     return s
 
+
 def get_table_shots(df, config):
     domain = DOMEN_MAP[config['domain']]
     df_filt = df.loc[df.index.get_level_values('Dataset').isin(domain)]
-
-    if config['serialization']:
-        if config['serialization'][0] in df_filt.index.get_level_values('Serialization').unique():
-            df_filt = df_filt.xs(config['serialization'][0], level='Serialization', drop_level=True)
-        else:
-            print(f"Warning: Serialization '{config['serialization']}' not found. Showing all.")
+    df_filt = df_filt.loc[df.index.get_level_values('Serialization').isin(['feat_val'])]
 
     cols_to_keep = [c for c in df_filt.columns if c[0] in config['shots']]
     df_filt = df_filt[cols_to_keep]
@@ -167,7 +197,6 @@ def get_table_shots(df, config):
     df_stacked.columns = pd.MultiIndex.from_tuples(new_cols, names=['Models', 'Regime'])
 
     df_stacked = df_stacked.reset_index()
-
     latex_lines = []
 
     latex_lines.append("\\begin{table*}[ht]")
@@ -182,9 +211,10 @@ def get_table_shots(df, config):
     latex_lines.append("\\renewcommand{\\arraystretch}{1.05}")
     latex_lines.append("")
 
-
+    model_columns = [col for col in df_stacked.columns[2:] if col[0] != 'Shots']
     num_data_cols = 2
-    num_model_cols = len(df_stacked.columns) - 2
+    num_model_cols = len(model_columns)
+    
     col_spec = "ll" + "c" * num_model_cols
     latex_lines.append(f"\\begin{{tabular}}{{{col_spec}}}")
     latex_lines.append("\\toprule")
@@ -192,29 +222,34 @@ def get_table_shots(df, config):
     latex_lines.append(f"& & \\multicolumn{{{num_model_cols}}}{{c}}{{\\textbf{{Models}}}} \\\\")
     latex_lines.append(f"\\cmidrule(lr){{3-{2+num_model_cols}}}")
 
-    unique_models = df_stacked.columns[2:].get_level_values(0).unique()
+    unique_models = []
+    for col in model_columns:
+        if col[0] not in unique_models:
+            unique_models.append(col[0])
 
-    header_row_2 = ["Dataset", "Shot"]
+    header_row_2 = ["Dataset", "Shots"]
     cmidrule_ranges = []
     current_col_idx = 3
 
     for mod in unique_models:
-        count = df_stacked.columns[2:].get_level_values(0).tolist().count(mod)
+        count = len([col for col in model_columns if col[0] == mod])
         header_row_2.append(f"\\multicolumn{{{count}}}{{c}}{{{mod}}}")
         cmidrule_ranges.append((current_col_idx, current_col_idx + count - 1))
         current_col_idx += count
 
     latex_lines.append(" & ".join(header_row_2) + " \\\\")
 
-
     for i, (start, end) in enumerate(cmidrule_ranges):
         latex_lines.append(f"\\cmidrule(lr){{{start}-{end}}}")
 
     sub_header_row = ["", ""]
     for mod in unique_models:
-        sub_cols = df_stacked.columns[2:][df_stacked.columns[2:].get_level_values(0) == mod].get_level_values(1)
+        sub_cols = [col[1] for col in model_columns if col[0] == mod]
         for reg in sub_cols:
-            sub_header_row.append(reg)
+            if mod in ['TabPFN', 'Random Forest', 'LogReg', 'XGBoost']:
+                sub_header_row.append('/')
+            else:
+                sub_header_row.append(reg)
 
     latex_lines.append(" & ".join(sub_header_row) + " \\\\")
     latex_lines.append("\\midrule")
@@ -232,11 +267,11 @@ def get_table_shots(df, config):
             else:
                 ds_cell = ""
 
-
             shot_cell = row[('Shots', '')]
 
             data_cells = []
-            for col in df_stacked.columns[2:]:
+            # Берем значения только для колонок моделей
+            for col in model_columns:
                 val = row[col]
                 data_cells.append(format_value(val))
 
@@ -271,9 +306,9 @@ def shot_sort_key(col):
         return (model, shot_number)
     else:
         return ("", -1)
-
-
+    
 def get_table_serializations(df, config):
+
     domain = DOMEN_MAP[config['domain']]
     df_filt = df.loc[df.index.get_level_values('Dataset').isin(domain)]
 
@@ -283,8 +318,15 @@ def get_table_serializations(df, config):
     cols_to_keep = [c for c in df_filt.columns if c[2] in config['models']]
     df_filt = df_filt[cols_to_keep]
 
-    df_filt = df_filt.reorder_levels(['Model', 'Shots', 'Regime'], axis=1)
-    df_filt = df_filt.sort_index(axis=1)
+    mask = df_filt.columns.get_level_values('Regime') == 'gen'
+    df_filt = df_filt.loc[:, mask]
+
+    original_columns = df_filt.columns.tolist()
+    
+    df_filt.columns = pd.MultiIndex.from_tuples(
+        [(c[2], c[0], c[1]) for c in original_columns],  
+        names=['Model', 'Shots', 'Regime']
+    )
 
     if 'Regime' in df_filt.columns.names:
         df_filt.columns = df_filt.columns.droplevel('Regime')
@@ -299,6 +341,32 @@ def get_table_serializations(df, config):
     )
 
     df_stacked = df_filt.reset_index()
+    
+    expected_columns = config['model_orders'][2:]
+
+    current_columns = df_stacked.columns.tolist()
+    
+    col_position_map = {}
+    for i, col in enumerate(expected_columns):
+        col_position_map[col] = i
+    
+    fixed_columns = [('Dataset', ''), ('Serialization', '')]
+    data_columns = [col for col in current_columns if col not in fixed_columns]
+    
+    expected_dict = {col: i for i, col in enumerate(expected_columns)}
+    
+    sorted_data_columns = []
+    for col in data_columns:
+        if col in expected_dict:
+            sorted_data_columns.append((expected_dict[col], col))
+    
+    sorted_data_columns = [col for _, col in sorted(sorted_data_columns, key=lambda x: x[0])]
+    
+    for col in data_columns:
+        if col not in expected_dict and col not in sorted_data_columns:
+            sorted_data_columns.append(col)
+    
+    df_stacked = df_stacked[fixed_columns + sorted_data_columns]
 
     latex_lines = []
 
@@ -326,14 +394,18 @@ def get_table_serializations(df, config):
     )
     latex_lines.append(f"\\cmidrule(lr){{3-{2+num_model_cols}}}")
 
-    unique_models = df_stacked.columns[2:].get_level_values(0).unique()
+    unique_models = []
+    for col in sorted_data_columns:
+        model = col[0]
+        if model not in unique_models:
+            unique_models.append(model)
 
     header_row = ["Dataset", "Serialization"]
     cmidrule_ranges = []
     current_col_idx = 3
 
     for mod in unique_models:
-        count = df_stacked.columns[2:].get_level_values(0).tolist().count(mod)
+        count = sum(1 for col in sorted_data_columns if col[0] == mod)
         header_row.append(f"\\multicolumn{{{count}}}{{c}}{{{mod}}}")
         cmidrule_ranges.append((current_col_idx, current_col_idx + count - 1))
         current_col_idx += count
@@ -345,27 +417,22 @@ def get_table_serializations(df, config):
 
     sub_header = ["", ""]
     for mod in unique_models:
-        sub_cols = df_stacked.columns[2:][
-            df_stacked.columns[2:].get_level_values(0) == mod
-        ].get_level_values(1)
-
-        for shot in sub_cols:
-            sub_header.append(shot)
+        for col in sorted_data_columns:
+            if col[0] == mod:
+                sub_header.append(col[1])
 
     latex_lines.append(" & ".join(sub_header) + " \\\\")
     latex_lines.append("\\midrule")
     
-    df_stacked = df_stacked[config['model_orders']]
     unique_datasets = df_stacked["Dataset"].unique()
 
     for i, ds in enumerate(unique_datasets):
-
         ds_rows = df_stacked[df_stacked["Dataset"] == ds]
-        ds_rows = ds_rows.reindex(columns=sorted(ds_rows.columns, key=shot_sort_key))
+        
+        ds_rows = ds_rows.sort_values(by=('Serialization', ''))
         num_rows = len(ds_rows)
 
         for idx, row in ds_rows.iterrows():
-
             if idx == ds_rows.index[0]:
                 ds_cell = f"\\multirow{{{num_rows}}}{{*}}{{{escape_latex(ds)}}}"
             else:
@@ -374,8 +441,12 @@ def get_table_serializations(df, config):
             serialization_cell = str(row[('Serialization', '')]).replace('_', r'\_')
 
             data_cells = []
-            for col in df_stacked.columns[2:]:
-                data_cells.append(str(row[col]))
+            for col in sorted_data_columns:  # Используем отсортированный список колонок
+                val = row[col]
+                if val == '-':
+                    data_cells.append('--')
+                else:
+                    data_cells.append(format_value(val))
 
             latex_lines.append(
                 " & ".join([ds_cell, serialization_cell] + data_cells) + " \\\\"
@@ -399,6 +470,5 @@ def get_table_serializations(df, config):
 
     with open(file_path, 'w', encoding='utf-8') as f:
         f.write(latex_content)
-
 
     return latex_content
