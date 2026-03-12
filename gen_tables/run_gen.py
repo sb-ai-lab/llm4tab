@@ -24,7 +24,7 @@ df = pd.read_csv(
 )
 
 common_settings = {
-    'tables_path': 'results/latex_tables_1/',
+    'tables_path': 'results/latex_tables_3/',
     'domain': 'healthcare',
     'shots': ['0', '4', '8', '16', '32', '64'],
     'models': ['qwen38b', 'qwen314b', 'gpt4omini', 'tabpfn', 'logreg', 'rf', 'gboost'],

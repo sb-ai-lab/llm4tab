@@ -21,14 +21,14 @@ REGIME_MAP = {
 }
 
 DOMEN_MAP = {
-    'business': ['hiring', 'marketing', 'telco', 'callcenter'],
-    'people_society': ['fitness', 'tech_mental_health_survey', 'adult', 'extrovert'],
-    'finance': ['audit', 'credit', 'fraud', 'bank_credit_scoring'],
-    'healthcare': ['cancer', 'diabetes', 'transfusion', 'postpartum'],
-    'education': ['student_famsup', 'tae', 'irish', 'reading'],
-    'software_engineering': ['pc4', 'kc1', 'steel', 'machine'],
-    'law': ['compas', 'vote', 'san_francisco_crimes', 'crimes_arrest'],
-    'natural_science': ['bbbp', 'biodegr', 'seismic_bumps', 'stars'],
+    'business': ['hiring', 'marketing', 'telco', 'callcenter', 'hiring_ls_qwen', 'marketing_ls_qwen', 'telco_ls_qwen', 'callcenter_ls_qwen', 'hiring_ls_gpt', 'marketing_ls_gpt', 'telco_ls_gpt', 'callcenter_ls_gpt'],
+    'people_society': ['fitness', 'tech_mental_health_survey', 'adult', 'extrovert', 'fitness_ls_qwen', 'tech_mental_health_survey_ls_qwen', 'adult_ls_qwen', 'extrovert_ls_qwen', 'fitness_ls_gpt', 'tech_mental_health_survey_ls_gpt', 'adult_ls_gpt', 'extrovert_ls_gpt'],
+    'finance': ['audit', 'credit', 'fraud', 'bank_credit_scoring', 'audit_ls_qwen', 'credit_ls_qwen', 'fraud_ls_qwen', 'bank_credit_scoring_ls_qwen', 'audit_ls_gpt', 'credit_ls_gpt', 'fraud_ls_gpt', 'bank_credit_scoring_ls_gpt'],
+    'healthcare': ['cancer', 'diabetes', 'transfusion', 'postpartum', 'cancer_ls_qwen', 'diabetes_ls_qwen', 'transfusion_ls_qwen', 'postpartum_ls_qwen', 'cancer_ls_gpt', 'diabetes_ls_gpt', 'transfusion_ls_gpt', 'postpartum_ls_gpt'],
+    'education': ['student_famsup', 'tae', 'irish', 'reading', 'student_famsup_ls_qwen', 'tae_ls_qwen', 'irish_ls_qwen', 'reading_ls_qwen', 'student_famsup_ls_gpt', 'tae_ls_gpt', 'irish_ls_gpt', 'reading_ls_gpt'],
+    'software_engineering': ['pc4', 'kc1', 'steel', 'machine', 'pc4_ls_qwen', 'kc1_ls_qwen', 'steel_ls_qwen', 'machine_ls_qwen', 'pc4_ls_gpt', 'kc1_ls_gpt', 'steel_ls_gpt', 'machine_ls_gpt'],
+    'law': ['compas', 'vote', 'san_francisco_crimes', 'crimes_arrest', 'compas_ls_qwen', 'vote_ls_qwen', 'san_francisco_crimes_ls_qwen', 'crimes_arrest_ls_qwen', 'compas_ls_gpt', 'vote_ls_gpt', 'san_francisco_crimes_ls_gpt', 'crimes_arrest_ls_gpt'],
+    'natural_science': ['bbbp', 'biodegr', 'seismic_bumps', 'stars_ls_qwen', 'bbbp_ls_qwen', 'biodegr_ls_qwen', 'seismic_bumps_ls_qwen', 'stars_ls_qwen', 'bbbp_ls_gpt', 'biodegr_ls_gpt', 'seismic_bumps_ls_gpt', 'stars_ls_gpt'],
     'synthetic': ['mlp0_f5_h0_no_noise_ReLU', 
                   'mlp1_f10_h10_no_noise_ReLU', 
                   'mlp2_f15_h15_no_noise_ReLU', 
@@ -177,7 +177,11 @@ def escape_latex(text):
 def get_table_shots(df, config):
     domain = DOMEN_MAP[config['domain']]
     df_filt = df.loc[df.index.get_level_values('Dataset').isin(domain)]
-    df_filt = df_filt.loc[df.index.get_level_values('Serialization').isin(['feat_val'])]
+    
+    if config['domain'] == 'synthetic':
+        df_filt = df_filt.loc[df.index.get_level_values('Serialization').isin(['feat_val_mask'])]
+    else:
+        df_filt = df_filt.loc[df.index.get_level_values('Serialization').isin(['feat_val'])]
 
     cols_to_keep = [c for c in df_filt.columns if c[0] in config['shots']]
     df_filt = df_filt[cols_to_keep]
@@ -270,7 +274,7 @@ def get_table_shots(df, config):
             shot_cell = row[('Shots', '')]
 
             data_cells = []
-            # Берем значения только для колонок моделей
+
             for col in model_columns:
                 val = row[col]
                 data_cells.append(format_value(val))
@@ -441,7 +445,7 @@ def get_table_serializations(df, config):
             serialization_cell = str(row[('Serialization', '')]).replace('_', r'\_')
 
             data_cells = []
-            for col in sorted_data_columns:  # Используем отсортированный список колонок
+            for col in sorted_data_columns:
                 val = row[col]
                 if val == '-':
                     data_cells.append('--')
