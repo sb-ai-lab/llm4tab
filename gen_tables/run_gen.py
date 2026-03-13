@@ -15,16 +15,16 @@ with open(script_dir.parent / "config.yaml", "r") as f:
     config = yaml.safe_load(f)
 
 
+# add automatic table formatting from raw results files
 
 df = pd.read_csv(
     config['data']['TGEN_LOCAL_DATASET_PATH'],
     header=[0, 1, 2, 3],     
-    index_col=[0, 1],       
+    index_col=[0, 1],
 )
 
-
 common_settings = {
-    'tables_path': 'results/latex_tables/',
+    'tables_path': 'results/latex_tables_3/',
     'domain': 'healthcare',
     'shots': ['0', '4', '8', '16', '32', '64'],
     'models': ['qwen38b', 'qwen314b', 'gpt4omini', 'tabpfn', 'logreg', 'rf', 'gboost'],
@@ -42,7 +42,7 @@ def main():
             if table_mode == 'shots':
                 config = {
                     'table_types': 'shots',
-                    'serialization': ['3_old'],
+                    'serialization': ['feat_val', 'feat_val_mask', 'html', 'markdown', 'markdown_mask'],
                     'regimes': ['gen', 'nogen'],
                     'caption': 'Healthcare - Shot Results',
                     'label': 'tab:shot_results',
@@ -60,8 +60,8 @@ def main():
             elif table_mode == 'serializations':
                 config = {
                     'table_types': 'serializations',
-                    'serialization': ['1_old', '3_old', 'html_new', 'markdown_masked', 'markdown_masked_new'],
-                    'regimes': ['gen'],
+                    'serialization': ['feat_val', 'feat_val_mask', 'html', 'markdown', 'markdown_mask'],
+                    'regimes': ['gen', 'nogen'],
                     'caption': 'Healthcare - Serialization Results',
                     'label': 'tab:serialization_results',
                     'model_orders': [('Dataset', ''),
@@ -90,7 +90,6 @@ def main():
                 raise ValueError(f"Invalid table_mode: {table_mode}")
 
             config['domain'] = domain
-
             filtered_df = filter_df(df, config)
             df_combined = combine_mean_std_columns(filtered_df, decimal_places=3)
 

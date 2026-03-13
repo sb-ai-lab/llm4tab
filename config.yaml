@@ -21,7 +21,7 @@ data:
   DATASET_NAME: 'airbnb'
   DF_TRANSFORMATION_REGIME: 'no'
   LOCAL_DATASET_PATH: 'datasets/'
-  TGEN_LOCAL_DATASET_PATH: 'datasets/agr_all_prompt1.csv'
+  TGEN_LOCAL_DATASET_PATH: 'datasets/agr_all_prompt3.csv'
   RESULT_PATH: 'results/experiments_result/'
   PROBS_PATH: 'results/llm_probs/'
 
