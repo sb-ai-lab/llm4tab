@@ -12,6 +12,17 @@ The framework supports:
 
 ---
 
+# Main Results: ROC-AUC in 0-shot configuration for 4 LLMs (generation regime)
+
+For detailed results, see [RESULTS.md](RESULTS.md).
+
+| Dataset Type | Qwen3-1.7B | Qwen3-8B | Qwen3-14B | GPT-4o-mini | TabPFN (16-shot) | TabICL (16-shot) |
+|--------------|------------|----------|-----------|-------------|------------------|------------------|
+| Real Datasets | 0.640 ± 0.004 | 0.736 ± 0.000 | 0.733 ± 0.000 | 0.729 ± 0.007 | 0.767 ± 0.052 | 0.738 ± 0.048 |
+| New Datasets | 0.587 ± 0.003 | 0.657 ± 0.001 | 0.657 ± 0.000 | 0.684 ± 0.006 | 0.699 ± 0.065 | 0.660 ± 0.050 |
+| MLP-Synthetic | 0.544 ± 0.004 | 0.545 ± 0.018 | 0.554 ± 0.029 | 0.568 ± 0.033 | 0.651 ± 0.051 | 0.626 ± 0.048 |
+| LLM-Synthetic | 0.569 ± 0.006 | 0.669 ± 0.000 | 0.657 ± 0.000 | 0.738 ± 0.005 | 0.762 ± 0.051 | 0.698 ± 0.051 |
+
 ## Quick Start
 
 ### Prerequisites
