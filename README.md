@@ -363,6 +363,29 @@ Each `.pkl` file contains a dictionary with `pred_probs`, `true_labels`, `pred_l
 
 ---
 
+## Generating Result Tables 
+
+To obtain ready-to-use LaTeX tables (broken down by shots and serializations) for all datasets:
+
+1. In `config.yaml`, set the `TGEN_LOCAL_DATASET_PATH` parameter to the desired aggregation table:
+   - `agr_all_prompt1` — for the first prompt configuration (default)
+   - `agr_all_prompt2` — for the second prompt configuration
+   - `agr_all_prompt3` — for the third prompt configuration
+   
+   All available aggregation tables are located in the `datasets/` folder.
+
+2. Run the `run_gen` script from the `gen_tables` folder:
+
+   ```bash
+   python gen_tables/run_gen
+   ```
+
+The generated LaTeX tables will appear in the `results/` folder.
+
+Note: All final tables are also collected in `RESULTS.md` in the repository root — you can view them directly in Markdown format.
+
+---
+
 ## Tips
 
 - **GPU memory**: Adjust `local_model.gpu_memory_utilization` depending on your GPU. For small models like Qwen3-1.7B, `0.12` may be enough; for 7B models, increase to `0.45`+.
