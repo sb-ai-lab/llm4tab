@@ -1,0 +1,29 @@
+\begin{table*}[ht]
+\sisetup{
+  separate-uncertainty = true,
+  table-align-uncertainty = true,
+  table-figures-uncertainty = 1,
+}
+\centering
+\small
+\setlength{\tabcolsep}{6pt}
+
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Prompting Regime} & \textbf{Qwen3-1.7B} & \textbf{Qwen3-8B} & \textbf{Qwen3-14B} & \textbf{GPT-4o-mini} \\
+\midrule
+Few-shot (16) & \textbf{\num{0.620 \pm 0.058}} & \num{0.646 \pm 0.043} & \textbf{\num{0.694 \pm 0.045}} & \num{0.718 \pm 0.049} \\
+Expert & \num{0.573 \pm 0.017} & \num{0.646 \pm 0.010} & \num{0.645 \pm 0.002} & \num{0.658 \pm 0.009} \\
+Prior & \num{0.581 \pm 0.007} & \textbf{\num{0.667 \pm 0.000}} & \num{0.665 \pm 0.000} & \textbf{\num{0.734 \pm 0.006}} \\
+\hlineB{2}
+Few-shot (16) + expert & \num{0.590 \pm 0.058} & \num{0.700 \pm 0.036} & \num{0.719 \pm 0.038} & \num{0.756 \pm 0.042} \\
+Few-shot (16) + prior & \num{0.644 \pm 0.042} & \num{0.772 \pm 0.041} & \num{0.762 \pm 0.040} & \num{0.795 \pm 0.031} \\
+Expert + prior & \underline{\num{0.732 \pm 0.006}} & \num{0.825 \pm 0.011} & \underline{\num{0.862 \pm 0.002}} & \num{0.790 \pm 0.005} \\
+Few-shot (16) + expert + prior & \num{0.714 \pm 0.060} & \underline{\num{0.829 \pm 0.028}} & \num{0.843 \pm 0.029} & \underline{\num{0.818 \pm 0.028}} \\
+\hlineB{2}
+TabPFN (16) & \num{0.719 \pm 0.058} & \num{0.719 \pm 0.058} & \num{0.719 \pm 0.058} & \num{0.723 \pm 0.064} \\
+\bottomrule
+\end{tabular}
+\caption{Comparison of ROC-AUC between prompting regimes with 3 In-Context Learning Entities}
+\label{tab:icl_combinations}
+\end{table*}

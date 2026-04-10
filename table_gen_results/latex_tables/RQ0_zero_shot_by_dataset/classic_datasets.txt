@@ -1,0 +1,43 @@
+\begin{table}[ht]
+\sisetup{
+  separate-uncertainty = true,
+  table-align-uncertainty = true,
+  table-figures-uncertainty = 1,
+}
+\centering
+\small
+\setlength{\tabcolsep}{6pt}
+
+\begin{tabular}{lcccc}
+\toprule
+Dataset & GPT-4o-mini & Qwen3-1.7B & Qwen3-8B & Qwen3-14B \\
+\midrule
+adult & \num{0.839 \pm 0.001} & \num{0.808 \pm 0.000} & \num{0.827 \pm 0.000} & \num{0.834 \pm 0.000} \\
+audit & \num{0.747 \pm 0.010} & \num{0.975 \pm 0.005} & \num{0.967 \pm 0.000} & \num{0.960 \pm 0.000} \\
+bbbp & \num{0.753 \pm 0.003} & \num{0.501 \pm 0.000} & \num{0.711 \pm 0.000} & \num{0.804 \pm 0.000} \\
+biodegr & \num{0.513 \pm 0.007} & \num{0.746 \pm 0.006} & \num{0.662 \pm 0.000} & \num{0.612 \pm 0.000} \\
+cancer & \num{0.989 \pm 0.001} & \num{0.552 \pm 0.006} & \num{0.964 \pm 0.000} & \num{0.992 \pm 0.000} \\
+compas & \num{0.672 \pm 0.003} & \num{0.543 \pm 0.001} & \num{0.653 \pm 0.000} & \num{0.571 \pm 0.000} \\
+credit & \num{0.627 \pm 0.004} & \num{0.575 \pm 0.002} & \num{0.519 \pm 0.001} & \num{0.520 \pm 0.000} \\
+diabetes & \num{0.805 \pm 0.003} & \num{0.728 \pm 0.009} & \num{0.759 \pm 0.000} & \num{0.774 \pm 0.000} \\
+fitness & \num{0.654 \pm 0.009} & \num{0.500 \pm 0.000} & \num{0.627 \pm 0.000} & \num{0.642 \pm 0.000} \\
+fraud & \num{0.725 \pm 0.031} & \num{0.676 \pm 0.012} & \num{0.626 \pm 0.000} & \num{0.765 \pm 0.000} \\
+hiring & \num{0.573 \pm 0.003} & \num{0.551 \pm 0.000} & \num{0.564 \pm 0.000} & \num{0.553 \pm 0.000} \\
+irish & \num{0.922 \pm 0.001} & \num{0.757 \pm 0.003} & \num{0.948 \pm 0.000} & \num{0.992 \pm 0.000} \\
+kc1 & \num{0.735 \pm 0.008} & \num{0.639 \pm 0.008} & \num{0.708 \pm 0.000} & \num{0.633 \pm 0.000} \\
+marketing & \num{0.754 \pm 0.005} & \num{0.594 \pm 0.025} & \num{0.688 \pm 0.001} & \num{0.771 \pm 0.000} \\
+pc4 & \num{0.582 \pm 0.009} & \num{0.614 \pm 0.005} & \num{0.504 \pm 0.000} & \num{0.531 \pm 0.000} \\
+san\_francisco\_crimes & \num{0.689 \pm 0.004} & \num{0.500 \pm 0.001} & \num{0.678 \pm 0.000} & \num{0.755 \pm 0.000} \\
+seismic\_bumps & \num{0.755 \pm 0.008} & \num{0.707 \pm 0.000} & \num{0.768 \pm 0.000} & \num{0.708 \pm 0.000} \\
+steel & \num{0.930 \pm 0.002} & \num{0.740 \pm 0.002} & \num{0.970 \pm 0.000} & \num{0.996 \pm 0.000} \\
+student\_famsup & \num{0.612 \pm 0.006} & -- & \num{0.600 \pm 0.000} & \num{0.563 \pm 0.000} \\
+tae & \num{0.800 \pm 0.022} & \num{0.643 \pm 0.000} & \num{0.715 \pm 0.000} & \num{0.763 \pm 0.000} \\
+tech\_mental\_health\_survey & \num{0.715 \pm 0.003} & \num{0.532 \pm 0.002} & \num{0.695 \pm 0.000} & \num{0.721 \pm 0.000} \\
+telco & \num{0.807 \pm 0.001} & \num{0.626 \pm 0.001} & \num{0.619 \pm 0.000} & \num{0.827 \pm 0.000} \\
+transfusion & \num{0.657 \pm 0.005} & \num{0.507 \pm 0.004} & \num{0.715 \pm 0.002} & \num{0.713 \pm 0.000} \\
+vote & \num{0.626 \pm 0.026} & \num{0.702 \pm 0.000} & \num{0.574 \pm 0.000} & \num{0.598 \pm 0.000} \\
+\bottomrule
+\end{tabular}
+\caption{Zero-shot performance by dataset (Classic datasets)}
+\label{tab:zero_shot_by_dataset}
+\end{table}
