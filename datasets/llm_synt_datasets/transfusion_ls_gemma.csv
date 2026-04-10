@@ -1,0 +1,1001 @@
+,Age,Gender,Blood type,Donation frequency,Donation interval,Symptoms,Medical history,Chronic medications,Hemoglobin level,Platelet count,label
+0,56,Male,A+,3,153,[],Asthma,No,13.1,168,1
+1,69,Male,A-,2,64,"['Fatigue', 'Dizziness']",None,No,16.1,308,1
+2,46,Male,O-,4,116,['Fatigue'],Heart Disease,No,16.1,175,1
+3,32,Female,AB+,3,163,"['Fatigue', 'Dizziness']",Asthma,No,12.8,318,1
+4,60,Male,O-,3,225,[],None,No,16.8,172,1
+5,25,Male,AB-,0,303,['Fatigue'],None,No,13.5,196,1
+6,38,Male,AB+,0,230,['Fatigue'],None,No,17.4,162,1
+7,56,Female,B+,4,314,[],Diabetes,No,14.1,366,1
+8,36,Female,A-,3,106,['Fatigue'],Diabetes,No,13.0,343,1
+9,40,Male,B+,1,88,['Fatigue'],Diabetes,Yes,13.9,293,1
+10,28,Male,O-,0,155,"['Fatigue', 'Dizziness']",None,No,14.4,222,1
+11,28,Male,O-,4,138,[],Hypertension,No,12.4,305,1
+12,41,Male,A-,3,253,[],None,No,15.2,226,0
+13,53,Female,O-,3,307,[],Hypertension,No,15.3,318,1
+14,57,Female,B+,1,97,[],Diabetes,No,16.1,436,1
+15,41,Female,AB+,4,98,[],None,No,12.2,234,0
+16,20,Female,AB+,3,194,['Fatigue'],None,No,15.0,331,1
+17,39,Male,A+,0,334,"['Fatigue', 'Dizziness']",Hypertension,No,12.3,446,1
+18,19,Male,AB-,1,191,[],Diabetes,No,15.9,261,1
+19,41,Male,O-,4,338,"['Fatigue', 'Dizziness']",Heart Disease,Yes,12.3,379,1
+20,61,Female,B+,1,71,"['Fatigue', 'Dizziness']",Diabetes,No,17.0,245,1
+21,47,Male,O-,0,138,['Fatigue'],Diabetes,No,15.9,317,1
+22,55,Female,O-,4,80,[],None,No,14.8,305,1
+23,19,Female,B-,1,279,['Fatigue'],Hypertension,No,14.4,254,1
+24,38,Male,A+,2,50,[],None,No,12.7,342,0
+25,50,Male,B+,0,329,['Fatigue'],Asthma,Yes,13.6,281,1
+26,29,Male,B+,0,168,"['Fatigue', 'Dizziness']",Diabetes,No,16.8,287,1
+27,39,Female,O-,0,353,[],Diabetes,Yes,17.0,419,1
+28,61,Male,A+,2,121,"['Fatigue', 'Dizziness']",Hypertension,No,12.0,187,1
+29,42,Female,AB+,2,309,"['Fatigue', 'Dizziness']",Diabetes,No,15.3,194,1
+30,66,Male,B+,3,154,['Fatigue'],Hypertension,No,16.0,312,1
+31,44,Female,AB+,1,140,[],None,No,15.4,402,0
+32,59,Female,A+,3,168,"['Fatigue', 'Dizziness']",Asthma,Yes,12.4,318,1
+33,45,Male,AB+,1,302,['Fatigue'],Asthma,Yes,13.2,434,1
+34,33,Female,A-,2,128,[],None,No,13.4,423,1
+35,32,Female,B-,2,281,[],None,Yes,16.6,169,1
+36,64,Male,O+,3,133,"['Fatigue', 'Dizziness']",Hypertension,No,14.5,388,1
+37,68,Female,B+,4,243,[],None,Yes,14.7,419,0
+38,61,Male,AB-,3,278,"['Fatigue', 'Dizziness']",Diabetes,No,17.1,180,1
+39,69,Female,B-,1,181,[],Hypertension,No,15.5,253,0
+40,20,Male,O+,3,279,['Fatigue'],None,Yes,16.9,319,1
+41,54,Male,AB+,0,304,"['Fatigue', 'Dizziness']",None,No,14.5,335,1
+42,68,Female,B+,1,194,"['Fatigue', 'Dizziness']",Asthma,No,12.8,277,1
+43,24,Female,AB+,1,37,[],Diabetes,Yes,17.1,359,1
+44,38,Female,A-,4,313,[],None,No,14.5,430,0
+45,26,Female,A+,2,34,"['Fatigue', 'Dizziness']",Diabetes,No,13.0,402,1
+46,56,Female,B+,1,174,[],None,No,13.7,168,0
+47,35,Male,O+,2,130,['Fatigue'],Diabetes,Yes,12.3,349,1
+48,21,Female,O+,3,193,[],None,No,14.6,369,1
+49,42,Male,A-,0,176,['Fatigue'],None,Yes,16.7,285,1
+50,31,Male,A-,4,93,['Fatigue'],None,Yes,17.1,372,1
+51,67,Female,O-,2,120,['Fatigue'],None,No,17.1,152,1
+52,26,Male,B+,1,146,['Fatigue'],None,No,12.7,385,1
+53,43,Male,AB+,2,296,['Fatigue'],Diabetes,No,14.1,377,1
+54,19,Male,AB-,1,339,[],Diabetes,No,12.2,291,1
+55,37,Male,O+,2,202,['Fatigue'],Diabetes,Yes,16.7,158,1
+56,45,Female,O+,1,76,[],None,No,14.0,339,1
+57,64,Male,A-,3,169,['Fatigue'],None,Yes,15.5,314,1
+58,24,Female,B-,1,275,"['Fatigue', 'Dizziness']",Asthma,Yes,15.9,288,1
+59,61,Female,A-,1,178,['Fatigue'],Hypertension,No,14.4,425,1
+60,25,Male,AB-,0,275,"['Fatigue', 'Dizziness']",Asthma,No,13.7,440,1
+61,64,Female,AB+,1,34,['Fatigue'],None,No,17.3,202,1
+62,52,Female,AB+,0,213,['Fatigue'],None,Yes,17.3,324,1
+63,31,Female,B-,4,49,['Fatigue'],None,No,13.6,259,1
+64,34,Male,O+,0,75,"['Fatigue', 'Dizziness']",Heart Disease,No,14.6,352,1
+65,53,Female,A-,3,41,"['Fatigue', 'Dizziness']",Hypertension,Yes,17.4,285,1
+66,67,Female,O-,0,99,['Fatigue'],None,No,12.0,153,1
+67,57,Female,AB+,4,46,[],Asthma,Yes,14.3,304,1
+68,21,Male,AB-,3,176,['Fatigue'],Diabetes,No,12.6,321,1
+69,19,Female,B+,2,183,"['Fatigue', 'Dizziness']",Hypertension,No,14.8,196,1
+70,23,Male,A+,2,333,['Fatigue'],Hypertension,Yes,12.1,243,1
+71,59,Male,A+,0,137,"['Fatigue', 'Dizziness']",None,No,14.2,197,1
+72,21,Male,A+,0,265,"['Fatigue', 'Dizziness']",Asthma,No,13.2,389,1
+73,46,Male,O-,4,337,"['Fatigue', 'Dizziness']",None,Yes,14.9,362,1
+74,35,Male,O+,4,99,['Fatigue'],None,No,17.5,288,1
+75,43,Male,A-,1,212,"['Fatigue', 'Dizziness']",None,No,16.4,354,1
+76,61,Female,B-,4,279,"['Fatigue', 'Dizziness']",Hypertension,Yes,16.7,222,1
+77,51,Male,O-,1,257,['Fatigue'],None,No,15.5,153,1
+78,27,Female,O-,3,131,"['Fatigue', 'Dizziness']",Asthma,No,12.2,225,1
+79,53,Female,AB+,0,104,['Fatigue'],None,No,13.1,226,1
+80,31,Male,B+,3,245,"['Fatigue', 'Dizziness']",None,No,17.1,405,1
+81,48,Female,O-,4,232,[],None,No,14.0,251,1
+82,65,Female,AB-,3,221,[],Diabetes,No,12.6,255,1
+83,32,Female,B+,3,278,"['Fatigue', 'Dizziness']",None,No,15.9,188,1
+84,25,Female,AB-,3,271,[],Hypertension,No,13.6,424,1
+85,31,Male,O+,4,208,['Fatigue'],Hypertension,No,13.5,237,1
+86,40,Female,A-,3,248,[],Diabetes,No,17.5,360,1
+87,57,Male,A+,1,111,"['Fatigue', 'Dizziness']",Hypertension,Yes,16.7,226,1
+88,38,Female,O-,4,121,"['Fatigue', 'Dizziness']",Diabetes,No,14.2,226,1
+89,33,Female,A-,3,204,['Fatigue'],None,No,17.4,177,1
+90,62,Male,O+,4,268,"['Fatigue', 'Dizziness']",None,Yes,15.6,394,1
+91,35,Female,B-,2,289,['Fatigue'],Diabetes,Yes,16.1,215,1
+92,64,Female,B-,1,192,[],Diabetes,No,12.2,415,1
+93,41,Female,O+,3,77,[],Diabetes,No,12.7,354,1
+94,43,Male,AB-,2,358,['Fatigue'],Diabetes,No,15.5,207,1
+95,42,Female,AB+,2,357,['Fatigue'],Hypertension,No,16.9,350,1
+96,62,Male,AB+,4,145,"['Fatigue', 'Dizziness']",None,No,15.4,374,1
+97,58,Female,AB-,2,254,[],Diabetes,No,12.7,291,1
+98,46,Male,B-,1,357,['Fatigue'],Asthma,Yes,12.6,233,1
+99,32,Male,B-,1,176,[],Hypertension,Yes,16.6,292,0
+100,62,Female,O-,0,92,['Fatigue'],None,No,12.8,182,1
+101,18,Female,B-,1,323,[],None,No,14.9,301,0
+102,42,Male,A-,2,352,"['Fatigue', 'Dizziness']",None,Yes,12.2,307,1
+103,24,Male,B-,1,354,[],None,No,12.4,290,0
+104,26,Female,B+,4,42,[],Diabetes,Yes,15.7,400,1
+105,41,Male,O-,0,218,[],Diabetes,No,15.8,261,1
+106,18,Female,A+,2,316,[],None,No,13.9,293,1
+107,61,Female,B-,0,237,[],Asthma,No,13.2,358,1
+108,25,Female,AB-,2,143,"['Fatigue', 'Dizziness']",None,No,16.5,373,1
+109,41,Female,A+,4,51,['Fatigue'],Hypertension,Yes,13.2,192,1
+110,28,Male,A-,0,243,[],Hypertension,No,15.0,413,0
+111,68,Female,AB-,3,200,"['Fatigue', 'Dizziness']",None,No,17.3,393,1
+112,34,Male,A+,2,352,[],None,No,12.8,152,1
+113,25,Female,AB-,3,83,[],None,No,17.2,274,1
+114,52,Male,A-,0,327,['Fatigue'],Hypertension,No,13.0,417,1
+115,52,Female,O-,3,349,[],None,No,15.1,233,1
+116,50,Male,B+,3,155,"['Fatigue', 'Dizziness']",Hypertension,No,14.1,165,1
+117,22,Male,A-,0,306,"['Fatigue', 'Dizziness']",Hypertension,Yes,17.3,208,1
+118,59,Female,A-,4,233,['Fatigue'],Asthma,Yes,13.5,326,1
+119,56,Female,AB-,3,223,[],Hypertension,No,14.2,212,1
+120,58,Female,O-,3,198,"['Fatigue', 'Dizziness']",Diabetes,No,17.4,198,1
+121,45,Female,O+,4,181,[],Diabetes,No,15.0,395,1
+122,24,Male,AB+,3,64,[],Diabetes,Yes,14.8,438,1
+123,26,Female,B-,3,213,[],Hypertension,No,13.4,435,0
+124,25,Male,B-,3,315,['Fatigue'],Hypertension,No,15.9,164,1
+125,29,Male,B+,1,86,[],Hypertension,No,12.1,404,0
+126,51,Female,B+,4,251,"['Fatigue', 'Dizziness']",Hypertension,No,12.3,241,1
+127,50,Male,B-,3,332,[],None,No,15.3,428,0
+128,65,Male,AB+,4,192,"['Fatigue', 'Dizziness']",Diabetes,No,13.9,355,1
+129,40,Male,B-,2,48,[],Diabetes,No,17.2,243,1
+130,41,Male,O+,2,293,"['Fatigue', 'Dizziness']",Diabetes,No,17.0,374,1
+131,54,Female,AB+,3,311,"['Fatigue', 'Dizziness']",None,No,15.9,348,1
+132,52,Female,B+,4,142,[],None,No,16.5,420,0
+133,61,Female,A+,4,356,[],None,No,15.7,383,0
+134,57,Female,AB-,4,59,"['Fatigue', 'Dizziness']",None,Yes,12.7,195,1
+135,39,Male,O+,1,164,['Fatigue'],None,Yes,16.2,213,1
+136,44,Male,O+,2,96,[],None,No,13.2,379,1
+137,52,Female,O-,4,94,['Fatigue'],None,No,13.8,398,1
+138,18,Female,B+,4,321,[],Diabetes,No,16.5,395,1
+139,52,Female,B+,1,54,[],Diabetes,Yes,15.0,224,1
+140,54,Male,A-,1,66,[],Diabetes,No,16.7,306,1
+141,64,Female,O+,4,30,[],None,No,13.2,372,1
+142,31,Female,A-,0,66,['Fatigue'],None,Yes,15.3,339,1
+143,20,Female,A-,4,170,[],None,No,12.5,201,0
+144,18,Male,AB-,4,261,"['Fatigue', 'Dizziness']",Diabetes,Yes,15.5,237,1
+145,22,Male,A-,1,165,"['Fatigue', 'Dizziness']",Asthma,No,16.2,215,1
+146,43,Male,AB+,1,217,['Fatigue'],Hypertension,No,15.2,299,1
+147,31,Male,B-,4,157,[],Hypertension,Yes,13.5,169,0
+148,56,Male,A+,4,230,"['Fatigue', 'Dizziness']",None,No,12.2,182,1
+149,44,Male,B+,4,156,['Fatigue'],None,No,12.7,430,1
+150,26,Male,AB+,1,286,[],Diabetes,No,15.4,195,1
+151,32,Male,A+,4,193,"['Fatigue', 'Dizziness']",None,Yes,17.1,222,1
+152,32,Female,O+,4,64,"['Fatigue', 'Dizziness']",Diabetes,Yes,13.1,282,1
+153,43,Female,O+,3,223,['Fatigue'],Heart Disease,Yes,16.0,204,1
+154,59,Male,O+,0,220,[],Diabetes,No,16.8,210,1
+155,30,Male,AB+,2,133,[],Diabetes,No,14.9,157,1
+156,68,Female,AB+,0,52,"['Fatigue', 'Dizziness']",Diabetes,No,15.7,421,1
+157,49,Male,B+,3,294,"['Fatigue', 'Dizziness']",Hypertension,No,16.5,395,1
+158,56,Male,B-,2,319,"['Fatigue', 'Dizziness']",Hypertension,No,13.4,325,1
+159,66,Male,O-,4,289,[],None,No,13.6,265,1
+160,69,Female,A-,3,104,['Fatigue'],None,No,12.0,420,1
+161,49,Female,O+,4,101,['Fatigue'],None,Yes,17.3,342,1
+162,21,Female,AB-,1,288,[],Hypertension,No,17.0,299,1
+163,47,Female,B-,3,217,['Fatigue'],None,Yes,16.2,280,1
+164,54,Female,AB-,1,202,"['Fatigue', 'Dizziness']",Hypertension,Yes,12.4,251,1
+165,40,Male,B+,3,319,['Fatigue'],Hypertension,No,14.5,419,1
+166,56,Female,B+,3,74,['Fatigue'],None,No,12.6,441,1
+167,62,Male,B+,1,90,['Fatigue'],None,Yes,12.1,359,1
+168,32,Male,A+,2,112,"['Fatigue', 'Dizziness']",Hypertension,No,15.4,216,1
+169,60,Female,AB-,0,152,[],Hypertension,No,17.3,159,1
+170,46,Female,B-,4,45,"['Fatigue', 'Dizziness']",Heart Disease,No,17.0,198,1
+171,53,Male,O-,3,95,[],Hypertension,Yes,15.8,260,1
+172,30,Male,B-,4,174,[],Asthma,Yes,12.5,368,1
+173,49,Male,AB+,1,191,[],None,No,13.5,206,0
+174,24,Female,AB+,4,263,['Fatigue'],Hypertension,No,13.8,432,1
+175,68,Female,O+,1,173,['Fatigue'],Hypertension,No,16.2,262,1
+176,39,Female,O-,4,217,[],Asthma,No,16.4,282,1
+177,45,Female,AB+,0,351,[],None,Yes,14.1,220,0
+178,19,Female,B+,0,42,['Fatigue'],None,Yes,14.3,232,1
+179,59,Male,B-,0,213,"['Fatigue', 'Dizziness']",None,No,12.2,206,1
+180,62,Female,AB-,0,140,[],Heart Disease,Yes,13.6,420,1
+181,23,Male,B+,0,319,"['Fatigue', 'Dizziness']",None,No,14.5,260,1
+182,45,Male,A+,0,324,['Fatigue'],Asthma,No,12.6,225,1
+183,45,Male,AB+,1,244,[],Asthma,Yes,14.5,307,1
+184,61,Female,B+,3,149,"['Fatigue', 'Dizziness']",None,Yes,16.7,169,1
+185,61,Female,B+,4,84,"['Fatigue', 'Dizziness']",None,No,15.2,280,1
+186,37,Female,A+,0,56,"['Fatigue', 'Dizziness']",None,Yes,12.4,271,1
+187,47,Male,A-,1,147,['Fatigue'],None,Yes,13.1,190,1
+188,28,Male,B-,1,250,['Fatigue'],Hypertension,No,14.6,316,1
+189,45,Male,AB-,1,260,"['Fatigue', 'Dizziness']",Asthma,No,14.0,279,1
+190,42,Male,O+,3,82,"['Fatigue', 'Dizziness']",Diabetes,Yes,14.0,172,1
+191,56,Male,A-,4,324,['Fatigue'],Hypertension,No,14.9,428,1
+192,50,Male,AB+,3,350,"['Fatigue', 'Dizziness']",Hypertension,No,15.2,400,1
+193,18,Female,B+,2,262,"['Fatigue', 'Dizziness']",None,No,16.4,158,1
+194,44,Female,O-,1,187,['Fatigue'],None,No,13.9,162,1
+195,69,Female,A+,2,298,"['Fatigue', 'Dizziness']",Diabetes,No,16.4,201,1
+196,30,Female,A+,0,50,"['Fatigue', 'Dizziness']",None,No,13.9,358,1
+197,58,Male,O-,0,82,"['Fatigue', 'Dizziness']",None,Yes,12.3,187,1
+198,20,Male,B-,3,304,['Fatigue'],Hypertension,Yes,15.0,249,1
+199,56,Female,A-,4,342,"['Fatigue', 'Dizziness']",None,No,15.2,342,1
+200,23,Male,O+,2,310,['Fatigue'],None,No,17.1,340,1
+201,25,Female,B-,4,243,['Fatigue'],None,Yes,16.0,200,1
+202,44,Female,O-,3,60,[],None,No,17.0,290,1
+203,26,Female,B+,0,212,[],None,No,17.0,317,0
+204,54,Male,O-,4,52,"['Fatigue', 'Dizziness']",Hypertension,No,15.3,258,1
+205,50,Female,B-,4,61,['Fatigue'],Diabetes,No,14.9,356,1
+206,68,Female,AB-,0,103,[],Hypertension,No,15.1,449,1
+207,59,Female,A+,2,39,"['Fatigue', 'Dizziness']",Heart Disease,Yes,17.4,259,1
+208,61,Male,A+,0,83,[],Hypertension,Yes,16.3,345,0
+209,41,Male,AB+,4,81,[],Hypertension,No,12.6,301,0
+210,32,Female,AB+,2,177,['Fatigue'],None,Yes,16.3,392,1
+211,49,Male,O-,2,189,['Fatigue'],None,No,12.9,277,1
+212,49,Male,O+,0,43,[],None,No,14.5,254,1
+213,41,Male,B+,4,207,[],Hypertension,No,13.2,159,0
+214,58,Male,AB-,3,82,['Fatigue'],Hypertension,Yes,15.8,297,1
+215,69,Male,A-,4,364,"['Fatigue', 'Dizziness']",Asthma,Yes,16.8,289,1
+216,66,Male,B-,1,51,['Fatigue'],Hypertension,No,13.6,339,1
+217,66,Male,O+,3,59,[],Hypertension,No,12.5,243,1
+218,69,Male,B+,2,220,"['Fatigue', 'Dizziness']",None,No,13.6,378,1
+219,29,Male,AB+,3,289,[],None,No,15.7,212,0
+220,56,Male,O-,2,234,"['Fatigue', 'Dizziness']",Diabetes,No,13.8,174,1
+221,19,Female,B-,2,88,[],None,No,13.5,417,1
+222,20,Female,AB+,3,293,"['Fatigue', 'Dizziness']",None,Yes,13.0,430,1
+223,66,Male,O-,2,41,"['Fatigue', 'Dizziness']",Diabetes,Yes,14.7,160,1
+224,54,Female,B-,2,148,[],None,No,13.5,350,1
+225,66,Female,A-,1,319,"['Fatigue', 'Dizziness']",Diabetes,No,16.0,275,1
+226,34,Male,B+,4,277,['Fatigue'],Hypertension,No,12.4,339,1
+227,66,Male,B-,4,156,[],None,No,15.7,238,0
+228,19,Male,AB-,1,104,['Fatigue'],Hypertension,No,13.3,265,1
+229,19,Female,O+,3,233,[],Heart Disease,No,14.7,326,1
+230,45,Female,A+,0,78,"['Fatigue', 'Dizziness']",Hypertension,No,13.6,163,1
+231,40,Male,AB-,0,108,"['Fatigue', 'Dizziness']",None,No,16.0,406,1
+232,54,Male,AB-,0,270,"['Fatigue', 'Dizziness']",Asthma,No,17.2,358,1
+233,49,Male,O+,1,183,[],Hypertension,No,17.0,430,1
+234,50,Female,A+,1,303,['Fatigue'],Hypertension,No,15.2,254,1
+235,18,Female,AB-,2,125,['Fatigue'],None,Yes,14.5,296,1
+236,36,Female,B-,0,243,[],None,Yes,16.5,428,0
+237,19,Female,B-,3,323,[],None,No,15.8,158,0
+238,61,Male,B-,3,238,['Fatigue'],None,No,13.0,267,1
+239,43,Male,A+,0,117,['Fatigue'],None,No,16.5,243,1
+240,49,Male,AB-,0,335,['Fatigue'],None,No,14.4,293,1
+241,23,Male,O-,0,293,['Fatigue'],None,No,13.0,438,1
+242,49,Female,A+,1,354,[],None,No,13.5,163,0
+243,21,Female,B-,1,349,[],None,No,13.5,406,0
+244,28,Male,O+,1,186,"['Fatigue', 'Dizziness']",None,No,14.9,335,1
+245,34,Male,AB-,4,185,['Fatigue'],Asthma,Yes,13.3,356,1
+246,55,Female,AB-,3,168,"['Fatigue', 'Dizziness']",None,No,12.7,321,1
+247,41,Male,AB+,3,150,[],None,No,12.7,419,0
+248,22,Female,AB+,2,94,[],Hypertension,No,15.2,370,1
+249,69,Male,A-,1,136,"['Fatigue', 'Dizziness']",Hypertension,No,16.0,301,1
+250,51,Male,O-,4,176,['Fatigue'],Asthma,No,13.8,260,1
+251,23,Male,O-,4,166,['Fatigue'],None,Yes,12.2,332,1
+252,39,Male,B+,3,191,['Fatigue'],None,No,12.7,221,1
+253,28,Male,O-,1,129,['Fatigue'],Hypertension,No,17.0,432,1
+254,65,Male,AB+,2,336,"['Fatigue', 'Dizziness']",None,No,14.7,223,1
+255,33,Male,A+,1,170,"['Fatigue', 'Dizziness']",None,Yes,14.5,364,1
+256,50,Female,O-,0,112,[],Hypertension,Yes,12.2,172,1
+257,26,Female,AB+,1,206,['Fatigue'],None,Yes,16.0,217,1
+258,23,Female,A-,0,227,['Fatigue'],Heart Disease,Yes,14.9,242,1
+259,33,Female,AB-,0,141,['Fatigue'],None,Yes,13.1,212,1
+260,46,Female,O-,2,85,"['Fatigue', 'Dizziness']",None,No,12.6,373,1
+261,20,Male,A-,3,208,['Fatigue'],Heart Disease,Yes,14.1,374,1
+262,37,Male,AB-,1,215,"['Fatigue', 'Dizziness']",None,Yes,16.6,252,1
+263,53,Female,O+,0,247,['Fatigue'],Diabetes,No,16.8,364,1
+264,36,Male,O+,1,345,['Fatigue'],None,Yes,15.3,341,1
+265,43,Female,AB-,3,246,[],None,Yes,16.0,309,1
+266,20,Female,O-,3,149,['Fatigue'],None,No,12.6,356,1
+267,36,Male,B+,4,204,['Fatigue'],Diabetes,Yes,15.2,418,1
+268,37,Male,AB+,3,52,[],None,No,15.7,343,0
+269,49,Male,A+,2,242,"['Fatigue', 'Dizziness']",Hypertension,Yes,13.1,301,1
+270,24,Female,A+,0,264,"['Fatigue', 'Dizziness']",None,No,16.8,386,1
+271,69,Male,B-,4,42,['Fatigue'],Diabetes,No,13.1,237,1
+272,58,Female,AB-,2,130,"['Fatigue', 'Dizziness']",Hypertension,No,13.7,160,1
+273,50,Female,A+,1,53,['Fatigue'],Asthma,No,15.4,336,1
+274,57,Female,O-,0,40,[],Hypertension,No,15.5,363,1
+275,56,Male,B+,3,302,[],None,No,15.8,164,0
+276,35,Male,AB-,0,310,['Fatigue'],None,Yes,12.6,415,1
+277,57,Female,B+,1,123,[],None,No,16.7,446,0
+278,18,Male,O-,4,230,[],Hypertension,No,14.9,222,1
+279,28,Male,A+,4,50,['Fatigue'],Hypertension,No,14.6,201,1
+280,45,Male,A+,4,240,['Fatigue'],None,Yes,17.4,277,1
+281,42,Female,B-,3,169,[],None,No,16.1,177,0
+282,67,Female,A+,2,322,"['Fatigue', 'Dizziness']",None,No,12.6,214,1
+283,40,Male,AB-,2,327,"['Fatigue', 'Dizziness']",None,Yes,16.2,166,1
+284,48,Female,O-,0,130,['Fatigue'],Diabetes,No,12.5,287,1
+285,47,Male,O+,3,333,['Fatigue'],None,Yes,12.2,378,1
+286,59,Male,O-,4,57,"['Fatigue', 'Dizziness']",None,No,14.2,403,1
+287,52,Male,AB-,4,70,[],Diabetes,Yes,17.5,359,1
+288,24,Male,AB-,1,332,"['Fatigue', 'Dizziness']",Diabetes,No,13.0,443,1
+289,33,Female,B-,1,175,"['Fatigue', 'Dizziness']",None,No,15.7,380,1
+290,43,Female,B-,4,285,"['Fatigue', 'Dizziness']",Hypertension,No,13.0,390,1
+291,65,Female,A+,4,256,"['Fatigue', 'Dizziness']",Diabetes,No,16.0,219,1
+292,69,Male,A-,3,265,['Fatigue'],None,No,14.8,253,1
+293,66,Male,O-,2,42,['Fatigue'],Hypertension,Yes,15.7,353,1
+294,19,Male,O-,1,239,[],Hypertension,No,13.1,202,1
+295,18,Female,A-,2,258,[],None,Yes,16.1,203,1
+296,65,Male,B-,3,129,[],None,No,17.5,425,0
+297,29,Female,A+,4,60,[],None,Yes,15.7,180,0
+298,22,Female,A-,2,45,"['Fatigue', 'Dizziness']",None,No,14.7,284,1
+299,54,Female,A+,4,166,['Fatigue'],None,No,17.1,207,1
+300,49,Female,A+,4,358,['Fatigue'],None,No,12.1,254,1
+301,26,Female,A+,0,195,[],Asthma,No,16.0,415,1
+302,58,Female,AB+,2,339,[],None,Yes,16.9,159,1
+303,52,Male,AB-,2,129,"['Fatigue', 'Dizziness']",Heart Disease,No,12.3,402,1
+304,36,Male,A+,4,138,"['Fatigue', 'Dizziness']",Diabetes,No,14.5,444,1
+305,65,Female,AB+,3,202,[],Asthma,Yes,13.1,305,1
+306,33,Female,B-,0,266,['Fatigue'],None,No,15.1,307,1
+307,20,Male,A-,4,191,['Fatigue'],Hypertension,No,15.6,186,1
+308,37,Female,AB-,1,245,['Fatigue'],Hypertension,No,13.7,268,1
+309,41,Female,O+,1,293,[],None,No,14.5,216,1
+310,50,Male,A-,0,292,['Fatigue'],Heart Disease,No,13.5,391,1
+311,41,Female,AB-,3,321,"['Fatigue', 'Dizziness']",Asthma,No,14.0,448,1
+312,69,Female,O+,4,303,"['Fatigue', 'Dizziness']",Hypertension,Yes,12.9,362,1
+313,28,Female,A-,2,32,[],Hypertension,No,16.9,250,0
+314,66,Male,AB-,0,57,"['Fatigue', 'Dizziness']",None,No,12.1,205,1
+315,25,Male,A-,3,355,[],None,Yes,16.9,388,0
+316,53,Male,A-,2,178,['Fatigue'],Diabetes,No,15.1,380,1
+317,55,Female,O+,1,57,['Fatigue'],None,No,13.8,241,1
+318,57,Female,A-,1,339,['Fatigue'],Diabetes,No,16.0,428,1
+319,37,Male,A-,2,94,"['Fatigue', 'Dizziness']",None,No,14.8,258,1
+320,52,Female,O+,0,50,[],None,Yes,14.7,317,1
+321,65,Female,B-,1,281,['Fatigue'],None,No,12.6,449,1
+322,42,Female,A+,4,264,[],None,Yes,14.1,367,0
+323,52,Female,O-,2,256,['Fatigue'],Asthma,No,13.3,371,1
+324,42,Female,B+,2,42,"['Fatigue', 'Dizziness']",None,No,12.1,310,1
+325,46,Male,AB+,1,342,"['Fatigue', 'Dizziness']",None,No,14.0,165,1
+326,35,Female,B+,0,78,[],Hypertension,Yes,12.5,427,0
+327,63,Male,B+,4,147,"['Fatigue', 'Dizziness']",None,No,13.4,206,1
+328,35,Female,AB-,0,83,"['Fatigue', 'Dizziness']",Diabetes,No,12.5,211,1
+329,19,Male,A+,3,167,[],None,Yes,12.6,391,0
+330,52,Female,AB-,3,82,['Fatigue'],Asthma,No,13.1,239,1
+331,33,Male,A+,1,73,"['Fatigue', 'Dizziness']",Heart Disease,No,17.5,221,1
+332,58,Female,O+,1,332,[],Hypertension,No,12.0,179,1
+333,53,Male,O+,1,82,"['Fatigue', 'Dizziness']",None,Yes,15.5,437,1
+334,50,Female,O-,3,103,"['Fatigue', 'Dizziness']",None,Yes,12.8,235,1
+335,21,Male,A+,0,75,"['Fatigue', 'Dizziness']",None,No,17.1,383,1
+336,50,Female,A-,0,42,"['Fatigue', 'Dizziness']",Diabetes,No,12.5,384,1
+337,31,Male,B-,1,194,[],None,Yes,17.3,414,0
+338,38,Male,O-,4,131,[],None,Yes,15.4,436,1
+339,65,Female,O-,0,309,[],Diabetes,No,12.0,418,1
+340,37,Female,A-,3,287,"['Fatigue', 'Dizziness']",Diabetes,No,16.9,335,1
+341,25,Male,B-,2,167,"['Fatigue', 'Dizziness']",None,Yes,14.9,280,1
+342,24,Female,AB-,2,192,"['Fatigue', 'Dizziness']",None,No,13.4,440,1
+343,20,Male,B-,2,140,[],Diabetes,No,16.2,426,1
+344,34,Male,AB-,4,131,"['Fatigue', 'Dizziness']",Diabetes,Yes,17.1,329,1
+345,50,Male,O+,1,46,['Fatigue'],Diabetes,No,14.7,439,1
+346,65,Female,B+,3,297,"['Fatigue', 'Dizziness']",None,No,13.7,312,1
+347,29,Male,O+,4,211,['Fatigue'],None,No,16.3,420,1
+348,68,Male,O+,3,53,"['Fatigue', 'Dizziness']",None,No,15.7,245,1
+349,39,Female,B+,3,58,[],Heart Disease,No,16.9,411,0
+350,39,Female,B-,1,200,"['Fatigue', 'Dizziness']",None,No,15.8,437,1
+351,63,Female,O-,2,257,['Fatigue'],Hypertension,Yes,13.3,232,1
+352,47,Female,B-,1,217,['Fatigue'],Hypertension,No,17.1,374,1
+353,55,Male,AB-,4,259,"['Fatigue', 'Dizziness']",Diabetes,No,12.6,372,1
+354,55,Male,A-,4,350,['Fatigue'],None,Yes,13.5,267,1
+355,62,Male,AB-,4,148,['Fatigue'],None,Yes,14.9,341,1
+356,68,Male,A-,1,185,[],Diabetes,Yes,15.1,228,1
+357,25,Female,O+,3,301,"['Fatigue', 'Dizziness']",Asthma,No,12.1,227,1
+358,44,Male,B+,3,204,"['Fatigue', 'Dizziness']",None,Yes,16.3,296,1
+359,44,Male,O+,0,133,"['Fatigue', 'Dizziness']",None,Yes,14.0,256,1
+360,51,Female,A+,4,121,['Fatigue'],Hypertension,No,14.2,420,1
+361,38,Male,B-,3,215,"['Fatigue', 'Dizziness']",Heart Disease,No,16.5,393,1
+362,47,Male,A-,0,312,"['Fatigue', 'Dizziness']",None,Yes,14.1,222,1
+363,50,Male,AB-,3,210,[],Hypertension,No,12.3,175,1
+364,45,Male,B+,4,199,[],None,No,13.0,359,0
+365,64,Male,A-,2,216,[],Hypertension,No,17.3,241,1
+366,50,Male,AB-,4,204,['Fatigue'],None,No,12.4,274,1
+367,22,Female,B-,1,251,"['Fatigue', 'Dizziness']",Heart Disease,Yes,14.0,222,1
+368,65,Female,O+,3,262,[],None,No,14.8,272,1
+369,36,Male,B-,3,191,[],None,No,14.7,333,0
+370,21,Male,AB+,1,163,[],Diabetes,Yes,12.0,336,1
+371,52,Female,A+,1,253,"['Fatigue', 'Dizziness']",None,Yes,14.8,347,1
+372,66,Male,AB+,2,182,"['Fatigue', 'Dizziness']",None,No,14.1,227,1
+373,34,Male,B+,3,62,"['Fatigue', 'Dizziness']",None,Yes,17.3,335,1
+374,61,Male,A-,3,84,['Fatigue'],None,No,12.9,402,1
+375,45,Female,B+,2,36,['Fatigue'],Heart Disease,Yes,13.9,162,1
+376,47,Male,O+,0,273,[],None,No,14.3,448,1
+377,46,Female,AB-,2,342,"['Fatigue', 'Dizziness']",Diabetes,No,14.1,225,1
+378,63,Male,B-,4,155,[],Heart Disease,No,15.7,200,0
+379,23,Female,AB+,3,41,"['Fatigue', 'Dizziness']",None,No,13.2,424,1
+380,52,Female,O-,1,45,"['Fatigue', 'Dizziness']",None,No,13.2,298,1
+381,58,Male,AB+,4,237,"['Fatigue', 'Dizziness']",None,No,16.0,368,1
+382,54,Female,O+,3,72,['Fatigue'],Diabetes,No,14.8,271,1
+383,41,Male,AB+,2,164,['Fatigue'],Asthma,No,14.3,360,1
+384,46,Female,O+,4,257,"['Fatigue', 'Dizziness']",None,No,12.9,429,1
+385,66,Male,O-,3,140,[],None,No,13.0,175,1
+386,63,Male,B+,0,336,"['Fatigue', 'Dizziness']",Diabetes,No,12.1,322,1
+387,48,Female,B-,0,189,"['Fatigue', 'Dizziness']",None,No,12.5,305,1
+388,52,Male,A-,1,360,[],Diabetes,Yes,15.1,387,1
+389,50,Male,AB-,3,293,"['Fatigue', 'Dizziness']",None,No,16.9,231,1
+390,69,Female,A-,0,254,[],None,No,13.6,422,0
+391,38,Male,B+,2,246,['Fatigue'],Hypertension,No,13.8,217,1
+392,49,Male,AB-,3,74,['Fatigue'],Hypertension,No,12.6,193,1
+393,40,Female,AB+,2,243,[],Hypertension,No,14.1,210,1
+394,50,Female,O-,2,88,['Fatigue'],None,No,12.2,272,1
+395,20,Male,O-,0,161,['Fatigue'],Hypertension,Yes,17.0,345,1
+396,35,Male,A+,3,133,[],Hypertension,Yes,15.7,260,0
+397,42,Female,B+,4,224,['Fatigue'],None,No,17.4,407,1
+398,59,Female,B+,0,186,"['Fatigue', 'Dizziness']",None,No,16.9,238,1
+399,48,Male,B-,0,127,"['Fatigue', 'Dizziness']",None,Yes,14.6,347,1
+400,20,Female,A-,3,255,[],Heart Disease,Yes,14.9,431,0
+401,57,Male,B+,3,234,['Fatigue'],Hypertension,Yes,13.0,349,1
+402,63,Male,B+,2,108,"['Fatigue', 'Dizziness']",None,No,14.5,248,1
+403,41,Male,AB+,3,153,"['Fatigue', 'Dizziness']",None,No,17.0,176,1
+404,67,Male,AB+,2,247,['Fatigue'],None,No,12.3,238,1
+405,49,Male,AB-,0,33,['Fatigue'],Asthma,No,16.7,295,1
+406,64,Female,O+,1,119,"['Fatigue', 'Dizziness']",None,No,13.9,331,1
+407,39,Female,O+,4,133,"['Fatigue', 'Dizziness']",Asthma,No,16.9,406,1
+408,40,Female,A+,0,148,[],None,No,17.2,338,0
+409,19,Female,O+,3,162,[],Hypertension,Yes,15.7,389,1
+410,44,Male,B-,4,341,"['Fatigue', 'Dizziness']",Hypertension,No,15.7,345,1
+411,59,Male,A+,1,125,[],Hypertension,No,14.5,446,0
+412,19,Male,AB-,1,360,"['Fatigue', 'Dizziness']",Diabetes,No,16.6,314,1
+413,43,Male,AB+,2,172,"['Fatigue', 'Dizziness']",None,Yes,17.3,420,1
+414,34,Female,O+,4,317,[],Hypertension,Yes,16.3,157,1
+415,57,Male,A-,2,57,[],None,Yes,15.4,187,0
+416,50,Male,AB+,0,307,['Fatigue'],Diabetes,No,15.3,263,1
+417,26,Female,O-,4,262,['Fatigue'],Hypertension,No,16.7,205,1
+418,60,Female,B-,0,46,['Fatigue'],None,Yes,15.0,287,1
+419,65,Female,AB+,2,88,"['Fatigue', 'Dizziness']",Hypertension,No,16.4,251,1
+420,56,Female,B-,4,119,[],None,No,14.8,326,0
+421,46,Male,B-,2,228,"['Fatigue', 'Dizziness']",None,Yes,12.3,318,1
+422,59,Male,B-,4,55,[],Diabetes,No,14.1,435,1
+423,43,Female,AB-,2,54,"['Fatigue', 'Dizziness']",Hypertension,Yes,14.4,410,1
+424,52,Male,B-,1,330,['Fatigue'],Asthma,No,12.8,372,1
+425,67,Male,B-,2,296,['Fatigue'],Hypertension,No,12.6,348,1
+426,42,Male,O-,1,210,['Fatigue'],Hypertension,No,14.9,360,1
+427,41,Female,A-,2,97,"['Fatigue', 'Dizziness']",Diabetes,Yes,12.5,436,1
+428,30,Male,A+,4,350,[],Diabetes,No,13.7,329,1
+429,24,Female,B+,4,78,[],None,No,16.1,399,0
+430,53,Male,O-,4,204,['Fatigue'],None,No,17.3,380,1
+431,62,Male,A+,3,81,['Fatigue'],None,Yes,15.9,172,1
+432,37,Male,B-,0,131,['Fatigue'],Hypertension,Yes,17.5,197,1
+433,18,Female,A-,4,245,['Fatigue'],Hypertension,Yes,15.8,258,1
+434,25,Male,AB+,1,217,[],None,Yes,13.6,445,0
+435,63,Female,A-,4,86,"['Fatigue', 'Dizziness']",None,No,15.7,155,1
+436,33,Female,O-,3,76,"['Fatigue', 'Dizziness']",None,No,15.9,187,1
+437,31,Female,B-,1,188,"['Fatigue', 'Dizziness']",Asthma,No,14.0,318,1
+438,29,Male,A-,3,203,"['Fatigue', 'Dizziness']",None,Yes,12.1,432,1
+439,68,Male,O+,1,271,['Fatigue'],None,No,15.9,352,1
+440,40,Male,A-,2,311,['Fatigue'],Diabetes,Yes,12.1,422,1
+441,32,Male,B-,0,270,['Fatigue'],None,No,15.5,393,1
+442,45,Female,AB-,0,34,"['Fatigue', 'Dizziness']",None,No,12.9,196,1
+443,51,Female,O+,3,113,['Fatigue'],Diabetes,No,15.1,398,1
+444,19,Female,A-,0,337,['Fatigue'],Diabetes,No,14.8,228,1
+445,49,Male,B+,3,277,[],None,Yes,12.1,259,0
+446,40,Female,B+,3,83,[],None,No,14.0,162,0
+447,39,Male,A-,3,190,['Fatigue'],Asthma,No,15.3,239,1
+448,68,Female,AB-,0,255,[],Diabetes,No,16.7,429,1
+449,42,Male,AB+,3,44,[],Hypertension,No,16.9,370,0
+450,39,Male,B-,0,253,['Fatigue'],None,No,14.7,222,1
+451,39,Female,B+,3,90,['Fatigue'],Diabetes,Yes,16.0,383,1
+452,66,Female,AB+,4,151,['Fatigue'],Heart Disease,No,13.7,409,1
+453,69,Female,A-,3,306,['Fatigue'],Diabetes,Yes,13.9,262,1
+454,59,Female,O-,1,75,"['Fatigue', 'Dizziness']",Asthma,No,13.1,195,1
+455,23,Male,AB+,3,323,"['Fatigue', 'Dizziness']",None,No,15.1,423,1
+456,32,Female,O+,2,91,['Fatigue'],None,Yes,13.7,192,1
+457,60,Female,A+,3,115,[],None,No,12.5,357,0
+458,54,Female,B+,1,239,['Fatigue'],Asthma,No,15.8,252,1
+459,50,Male,A-,1,107,['Fatigue'],Heart Disease,No,15.9,273,1
+460,25,Male,O-,0,231,[],Hypertension,No,14.0,159,1
+461,61,Female,B-,4,331,"['Fatigue', 'Dizziness']",None,No,12.4,336,1
+462,61,Male,O-,3,252,['Fatigue'],Hypertension,No,14.3,180,1
+463,22,Female,AB-,0,251,['Fatigue'],None,No,14.4,305,1
+464,56,Male,O+,4,32,"['Fatigue', 'Dizziness']",None,No,15.7,209,1
+465,21,Male,A-,3,35,"['Fatigue', 'Dizziness']",Diabetes,No,13.7,398,1
+466,23,Male,B-,2,122,[],None,No,15.8,419,1
+467,62,Male,AB-,3,37,"['Fatigue', 'Dizziness']",Hypertension,No,16.8,366,1
+468,49,Female,AB-,1,264,"['Fatigue', 'Dizziness']",Diabetes,Yes,13.3,151,1
+469,69,Female,A-,1,137,"['Fatigue', 'Dizziness']",None,Yes,17.4,173,1
+470,47,Female,O+,2,190,[],Asthma,Yes,14.1,355,1
+471,64,Male,AB+,0,238,"['Fatigue', 'Dizziness']",None,No,13.5,348,1
+472,52,Female,AB+,4,269,"['Fatigue', 'Dizziness']",Hypertension,No,14.3,263,1
+473,57,Female,AB-,3,360,[],Hypertension,No,12.5,429,1
+474,69,Female,AB+,1,362,"['Fatigue', 'Dizziness']",Hypertension,No,12.7,304,1
+475,33,Male,A+,0,79,"['Fatigue', 'Dizziness']",Hypertension,Yes,14.3,314,1
+476,30,Male,AB-,2,40,[],None,No,16.2,371,1
+477,67,Male,AB-,1,185,['Fatigue'],None,No,17.0,240,1
+478,59,Female,B-,2,99,[],None,No,15.7,316,1
+479,47,Female,AB+,3,198,"['Fatigue', 'Dizziness']",None,No,12.6,356,1
+480,36,Female,O+,4,301,"['Fatigue', 'Dizziness']",Hypertension,No,15.7,431,1
+481,34,Male,AB-,1,97,"['Fatigue', 'Dizziness']",Asthma,No,15.5,214,1
+482,36,Male,O-,1,281,[],Hypertension,No,16.4,153,1
+483,45,Female,O+,3,77,"['Fatigue', 'Dizziness']",Diabetes,No,16.5,306,1
+484,43,Male,A+,0,213,"['Fatigue', 'Dizziness']",None,No,16.8,398,1
+485,54,Male,B-,4,349,[],Hypertension,Yes,14.3,406,0
+486,43,Male,A-,1,216,['Fatigue'],Diabetes,No,15.8,384,1
+487,40,Male,O+,4,119,['Fatigue'],None,No,13.5,223,1
+488,26,Female,AB-,1,361,"['Fatigue', 'Dizziness']",None,No,17.5,336,1
+489,29,Male,A+,4,168,[],Asthma,Yes,13.0,211,1
+490,18,Male,B+,2,118,"['Fatigue', 'Dizziness']",Hypertension,No,12.1,313,1
+491,18,Male,A+,1,303,[],Diabetes,No,12.8,205,1
+492,64,Male,A+,4,48,[],None,Yes,16.3,260,0
+493,51,Female,B-,0,340,['Fatigue'],Hypertension,No,14.5,367,1
+494,49,Female,A-,2,183,['Fatigue'],Asthma,Yes,14.5,389,1
+495,65,Male,B+,2,289,[],Hypertension,Yes,17.3,170,1
+496,42,Male,AB+,0,137,"['Fatigue', 'Dizziness']",None,Yes,17.1,290,1
+497,57,Male,AB+,4,314,['Fatigue'],Hypertension,Yes,13.7,414,1
+498,62,Male,O+,3,88,"['Fatigue', 'Dizziness']",None,No,13.1,288,1
+499,18,Male,A+,0,154,['Fatigue'],None,Yes,16.7,219,1
+500,33,Male,O-,4,302,['Fatigue'],None,Yes,17.0,267,1
+501,56,Female,B-,0,136,"['Fatigue', 'Dizziness']",Diabetes,Yes,15.0,347,1
+502,22,Male,O-,0,328,['Fatigue'],None,Yes,15.5,354,1
+503,39,Female,B-,1,274,['Fatigue'],None,Yes,13.4,363,1
+504,46,Female,AB+,4,276,"['Fatigue', 'Dizziness']",Asthma,No,16.4,205,1
+505,20,Male,O+,3,37,['Fatigue'],None,Yes,15.5,436,1
+506,29,Female,O+,1,170,['Fatigue'],Hypertension,No,14.8,442,1
+507,43,Female,O+,0,37,['Fatigue'],Hypertension,No,12.3,324,1
+508,33,Female,B+,0,123,"['Fatigue', 'Dizziness']",None,Yes,17.0,277,1
+509,68,Female,A-,0,350,[],Diabetes,No,15.4,441,1
+510,54,Female,B+,4,68,"['Fatigue', 'Dizziness']",None,Yes,13.1,437,1
+511,39,Female,AB-,4,110,[],Asthma,Yes,15.3,375,1
+512,46,Male,AB-,1,216,['Fatigue'],None,Yes,15.7,213,1
+513,31,Female,O-,3,113,[],Heart Disease,No,14.9,197,1
+514,45,Female,A-,1,117,"['Fatigue', 'Dizziness']",None,No,15.9,351,1
+515,22,Female,AB+,2,271,"['Fatigue', 'Dizziness']",Diabetes,No,15.2,209,1
+516,64,Male,A-,0,122,['Fatigue'],Hypertension,No,17.2,406,1
+517,66,Female,B-,0,115,[],None,No,12.3,214,0
+518,47,Male,AB-,0,73,['Fatigue'],Hypertension,Yes,12.6,388,1
+519,63,Female,A+,1,166,['Fatigue'],Hypertension,No,13.0,438,1
+520,69,Male,A+,1,103,"['Fatigue', 'Dizziness']",None,Yes,15.8,187,1
+521,22,Male,AB+,0,65,[],None,Yes,15.6,174,0
+522,29,Female,B-,1,130,[],Heart Disease,Yes,16.9,208,0
+523,33,Female,O-,4,185,[],Diabetes,Yes,16.0,446,1
+524,43,Male,B+,4,284,[],Diabetes,No,14.8,307,1
+525,43,Female,B-,1,200,['Fatigue'],Hypertension,No,17.5,206,1
+526,65,Male,A+,0,245,['Fatigue'],None,Yes,13.5,197,1
+527,38,Male,A+,1,199,"['Fatigue', 'Dizziness']",None,No,16.6,205,1
+528,56,Male,O-,1,281,['Fatigue'],None,No,14.3,214,1
+529,53,Male,AB-,1,351,['Fatigue'],None,No,15.6,417,1
+530,50,Male,B-,2,84,"['Fatigue', 'Dizziness']",None,Yes,16.0,218,1
+531,47,Female,B-,4,120,"['Fatigue', 'Dizziness']",None,No,15.5,365,1
+532,54,Male,A+,3,307,"['Fatigue', 'Dizziness']",Diabetes,No,12.8,238,1
+533,40,Male,B+,3,130,['Fatigue'],None,No,14.4,430,1
+534,27,Female,AB+,2,184,['Fatigue'],None,No,15.1,406,1
+535,22,Male,O+,1,170,"['Fatigue', 'Dizziness']",None,Yes,16.7,309,1
+536,53,Female,AB+,2,202,"['Fatigue', 'Dizziness']",None,Yes,14.4,383,1
+537,51,Female,B-,2,39,"['Fatigue', 'Dizziness']",Heart Disease,No,17.1,280,1
+538,69,Female,AB+,0,257,['Fatigue'],None,No,14.4,198,1
+539,48,Male,A+,4,294,['Fatigue'],None,Yes,15.0,296,1
+540,27,Male,A+,3,277,[],None,No,16.4,151,0
+541,36,Male,O-,1,276,['Fatigue'],Hypertension,No,15.2,294,1
+542,49,Female,B-,3,184,['Fatigue'],Hypertension,No,17.3,210,1
+543,18,Male,O-,3,63,['Fatigue'],None,No,15.6,422,1
+544,22,Female,B-,4,158,"['Fatigue', 'Dizziness']",None,No,14.9,198,1
+545,62,Male,O+,3,189,['Fatigue'],Hypertension,No,12.1,280,1
+546,21,Female,O+,3,118,"['Fatigue', 'Dizziness']",None,No,14.3,192,1
+547,33,Male,AB-,2,122,[],Hypertension,Yes,13.6,206,1
+548,41,Male,B-,4,356,[],Diabetes,Yes,16.1,199,1
+549,33,Male,B+,0,270,"['Fatigue', 'Dizziness']",None,Yes,13.1,327,1
+550,19,Female,AB+,1,352,"['Fatigue', 'Dizziness']",Hypertension,Yes,13.1,442,1
+551,66,Female,B-,3,146,"['Fatigue', 'Dizziness']",Hypertension,Yes,13.0,195,1
+552,45,Male,A-,1,123,['Fatigue'],Diabetes,Yes,12.7,319,1
+553,49,Male,AB-,0,192,[],None,No,13.7,420,1
+554,44,Female,A-,1,128,"['Fatigue', 'Dizziness']",Asthma,Yes,16.9,288,1
+555,37,Female,A+,0,142,['Fatigue'],None,No,16.3,396,1
+556,41,Female,O+,2,120,[],None,Yes,16.0,297,1
+557,29,Male,AB+,3,235,['Fatigue'],Hypertension,No,16.4,379,1
+558,67,Female,B-,0,46,[],Heart Disease,No,13.5,429,0
+559,52,Male,A-,1,303,['Fatigue'],Hypertension,Yes,16.9,274,1
+560,50,Female,AB+,3,202,[],Heart Disease,No,12.8,341,0
+561,50,Male,A+,2,145,[],None,No,13.8,229,1
+562,68,Female,O+,3,210,['Fatigue'],Heart Disease,No,15.2,243,1
+563,60,Female,B+,0,120,"['Fatigue', 'Dizziness']",Hypertension,No,12.6,375,1
+564,54,Female,AB-,2,111,[],None,No,16.0,214,1
+565,29,Female,AB+,1,353,"['Fatigue', 'Dizziness']",Hypertension,No,14.1,237,1
+566,20,Female,AB+,2,143,['Fatigue'],Hypertension,No,16.3,237,1
+567,18,Male,B+,2,286,"['Fatigue', 'Dizziness']",None,Yes,14.7,350,1
+568,50,Female,AB+,4,87,"['Fatigue', 'Dizziness']",Diabetes,No,13.0,363,1
+569,57,Female,A+,2,183,"['Fatigue', 'Dizziness']",None,No,16.0,353,1
+570,27,Female,A+,2,145,"['Fatigue', 'Dizziness']",Hypertension,No,13.4,238,1
+571,60,Male,B+,3,295,"['Fatigue', 'Dizziness']",Diabetes,Yes,14.7,210,1
+572,61,Female,AB-,1,344,[],None,No,12.4,420,1
+573,46,Male,B-,3,232,[],Asthma,No,15.4,243,1
+574,30,Female,A-,3,70,[],None,Yes,15.7,176,0
+575,29,Female,B-,0,134,['Fatigue'],None,No,14.1,363,1
+576,48,Male,AB+,3,222,"['Fatigue', 'Dizziness']",None,No,17.2,223,1
+577,63,Female,A-,4,307,[],Diabetes,No,16.8,210,1
+578,19,Male,O-,4,266,['Fatigue'],None,No,15.9,335,1
+579,68,Male,B+,0,250,[],Heart Disease,No,15.9,180,0
+580,67,Female,B+,1,97,[],None,No,13.4,368,0
+581,52,Male,AB-,1,226,"['Fatigue', 'Dizziness']",None,No,15.6,161,1
+582,40,Female,A-,3,285,['Fatigue'],None,Yes,13.1,181,1
+583,34,Female,A+,3,168,"['Fatigue', 'Dizziness']",None,Yes,12.8,309,1
+584,43,Male,A-,3,341,"['Fatigue', 'Dizziness']",None,No,17.5,386,1
+585,25,Male,AB+,1,178,[],Hypertension,Yes,15.4,376,0
+586,46,Male,A+,2,128,"['Fatigue', 'Dizziness']",Hypertension,Yes,14.4,330,1
+587,43,Male,O+,4,105,['Fatigue'],None,No,13.6,195,1
+588,27,Female,O+,2,311,"['Fatigue', 'Dizziness']",Diabetes,Yes,15.3,229,1
+589,43,Female,O-,2,138,"['Fatigue', 'Dizziness']",None,No,12.3,284,1
+590,51,Male,O+,1,217,"['Fatigue', 'Dizziness']",Asthma,Yes,12.5,409,1
+591,68,Female,B+,2,228,[],None,No,12.2,396,1
+592,58,Female,A-,0,332,['Fatigue'],Hypertension,No,14.7,308,1
+593,24,Female,O+,3,356,[],Hypertension,Yes,15.3,352,1
+594,21,Female,B-,0,183,[],Heart Disease,No,12.3,261,0
+595,67,Male,AB-,4,69,[],None,Yes,16.0,441,1
+596,62,Male,B-,3,162,[],None,No,13.3,268,0
+597,28,Female,O+,2,161,[],None,No,15.8,166,1
+598,46,Male,O-,4,308,['Fatigue'],None,No,17.4,376,1
+599,53,Male,AB-,3,113,"['Fatigue', 'Dizziness']",None,No,15.8,266,1
+600,42,Male,AB+,2,271,[],None,No,16.9,192,1
+601,38,Female,B-,0,145,[],Hypertension,No,17.2,264,0
+602,53,Female,O-,3,138,['Fatigue'],None,No,14.7,432,1
+603,27,Female,A-,2,250,['Fatigue'],None,Yes,15.9,186,1
+604,54,Male,A-,0,70,"['Fatigue', 'Dizziness']",Heart Disease,No,16.7,262,1
+605,26,Female,B-,4,176,['Fatigue'],Hypertension,Yes,14.0,184,1
+606,41,Female,O+,4,141,"['Fatigue', 'Dizziness']",None,No,13.4,281,1
+607,52,Male,O-,4,132,[],None,Yes,17.2,377,1
+608,66,Female,A-,4,75,[],Asthma,No,16.0,296,1
+609,52,Female,AB+,1,353,"['Fatigue', 'Dizziness']",Hypertension,Yes,13.2,271,1
+610,65,Male,A+,3,300,['Fatigue'],Asthma,Yes,14.5,230,1
+611,53,Male,O+,3,224,"['Fatigue', 'Dizziness']",Asthma,No,16.4,322,1
+612,35,Male,O-,1,309,['Fatigue'],Diabetes,No,15.0,303,1
+613,66,Female,AB+,2,312,[],None,No,15.6,299,1
+614,56,Female,O-,2,69,['Fatigue'],None,Yes,16.1,207,1
+615,49,Female,AB-,4,218,"['Fatigue', 'Dizziness']",None,Yes,15.4,212,1
+616,41,Male,AB+,0,193,"['Fatigue', 'Dizziness']",None,No,15.0,305,1
+617,40,Male,O+,2,53,[],Diabetes,No,16.1,317,1
+618,49,Female,AB-,0,53,['Fatigue'],Diabetes,Yes,16.0,315,1
+619,54,Female,O+,3,33,['Fatigue'],None,No,15.5,234,1
+620,29,Male,A-,0,352,['Fatigue'],Hypertension,No,14.0,286,1
+621,66,Male,A+,3,319,[],Diabetes,No,14.2,338,1
+622,30,Male,O+,1,210,['Fatigue'],Diabetes,No,17.3,151,1
+623,40,Male,O+,1,277,"['Fatigue', 'Dizziness']",Hypertension,No,12.6,255,1
+624,42,Female,A-,4,145,['Fatigue'],None,Yes,13.5,221,1
+625,52,Male,B+,2,308,[],Diabetes,Yes,14.7,275,1
+626,58,Female,A-,4,98,['Fatigue'],None,No,16.6,319,1
+627,47,Female,AB-,3,283,['Fatigue'],Hypertension,No,12.9,354,1
+628,34,Female,A-,4,210,"['Fatigue', 'Dizziness']",None,No,13.5,344,1
+629,66,Male,A-,0,347,['Fatigue'],Diabetes,No,12.4,307,1
+630,37,Male,A+,3,198,"['Fatigue', 'Dizziness']",None,No,15.9,290,1
+631,65,Male,A-,1,342,"['Fatigue', 'Dizziness']",Asthma,No,13.3,424,1
+632,42,Male,O-,2,278,[],Hypertension,Yes,14.1,156,1
+633,39,Female,O+,3,217,"['Fatigue', 'Dizziness']",None,Yes,14.4,203,1
+634,30,Male,O-,3,83,"['Fatigue', 'Dizziness']",Hypertension,No,16.9,253,1
+635,36,Male,A+,0,355,[],Asthma,No,14.3,210,1
+636,66,Female,B-,2,342,"['Fatigue', 'Dizziness']",Diabetes,Yes,12.8,236,1
+637,53,Male,B+,1,167,[],None,No,14.9,407,0
+638,29,Female,O-,3,197,['Fatigue'],Hypertension,No,17.3,327,1
+639,58,Female,A+,3,132,[],None,No,15.3,391,0
+640,36,Female,AB-,0,114,"['Fatigue', 'Dizziness']",Hypertension,Yes,17.4,352,1
+641,29,Female,B-,4,346,[],Diabetes,No,16.6,180,1
+642,26,Female,A+,1,241,"['Fatigue', 'Dizziness']",Asthma,Yes,12.2,438,1
+643,24,Female,A+,2,32,['Fatigue'],None,No,15.6,229,1
+644,45,Female,B+,3,208,[],Diabetes,Yes,13.6,160,1
+645,31,Female,O+,3,332,['Fatigue'],Hypertension,No,15.1,403,1
+646,48,Male,O-,1,361,"['Fatigue', 'Dizziness']",Diabetes,Yes,13.5,436,1
+647,69,Male,AB-,4,67,"['Fatigue', 'Dizziness']",Hypertension,No,13.9,325,1
+648,36,Male,AB+,3,268,['Fatigue'],Hypertension,No,17.1,275,1
+649,64,Male,O-,1,198,[],None,Yes,13.1,196,1
+650,33,Female,AB+,0,343,[],Hypertension,No,16.8,355,0
+651,22,Male,A+,4,335,"['Fatigue', 'Dizziness']",Hypertension,Yes,12.2,256,1
+652,52,Female,A-,2,59,['Fatigue'],None,No,12.5,424,1
+653,29,Male,AB-,3,219,['Fatigue'],Asthma,No,16.7,272,1
+654,42,Male,B-,1,54,[],Hypertension,No,15.5,283,0
+655,69,Male,A-,0,141,[],Diabetes,No,16.1,256,1
+656,38,Female,A-,2,235,[],None,No,13.2,199,1
+657,53,Male,O-,1,214,['Fatigue'],Diabetes,No,15.0,244,1
+658,40,Female,AB-,1,76,[],None,Yes,16.1,417,1
+659,33,Female,O+,2,257,[],Hypertension,No,15.5,172,1
+660,56,Male,A+,0,68,"['Fatigue', 'Dizziness']",None,No,14.6,203,1
+661,62,Male,A+,0,45,[],Diabetes,Yes,17.3,403,1
+662,59,Male,A+,4,51,[],None,No,15.7,384,0
+663,56,Female,A+,3,242,['Fatigue'],None,Yes,17.0,208,1
+664,31,Male,O-,2,339,['Fatigue'],None,No,16.0,313,1
+665,48,Female,AB+,2,178,"['Fatigue', 'Dizziness']",Diabetes,Yes,16.0,408,1
+666,22,Female,A+,2,270,[],Diabetes,No,12.4,365,1
+667,52,Male,AB+,0,301,"['Fatigue', 'Dizziness']",Diabetes,No,14.0,332,1
+668,40,Male,AB+,3,88,['Fatigue'],Hypertension,Yes,16.7,206,1
+669,46,Female,O+,4,316,"['Fatigue', 'Dizziness']",Hypertension,Yes,13.3,294,1
+670,60,Female,A+,1,231,['Fatigue'],None,No,12.6,239,1
+671,28,Female,B+,1,61,"['Fatigue', 'Dizziness']",Asthma,No,13.8,194,1
+672,35,Male,B-,2,191,"['Fatigue', 'Dizziness']",Asthma,Yes,13.2,406,1
+673,64,Female,A-,3,284,[],None,Yes,17.1,170,0
+674,29,Male,AB+,0,283,"['Fatigue', 'Dizziness']",None,No,16.8,170,1
+675,26,Female,AB-,3,38,[],Hypertension,No,14.7,201,1
+676,27,Female,AB-,3,168,[],None,No,12.3,320,1
+677,61,Male,B-,0,39,[],Hypertension,No,15.9,216,0
+678,34,Female,AB-,2,243,[],None,Yes,15.4,262,1
+679,55,Male,B+,3,302,"['Fatigue', 'Dizziness']",None,No,17.3,449,1
+680,24,Male,AB-,1,353,['Fatigue'],None,No,15.1,309,1
+681,63,Female,A-,0,77,['Fatigue'],None,Yes,13.9,415,1
+682,30,Male,A-,4,140,['Fatigue'],Hypertension,No,14.9,381,1
+683,57,Male,AB+,2,182,"['Fatigue', 'Dizziness']",Asthma,No,17.4,217,1
+684,59,Female,A+,0,152,[],None,No,15.8,177,0
+685,26,Male,O+,4,131,['Fatigue'],Asthma,No,15.7,265,1
+686,67,Male,B+,4,270,"['Fatigue', 'Dizziness']",None,Yes,13.3,200,1
+687,44,Male,AB+,3,350,[],Diabetes,No,16.1,330,1
+688,19,Female,B+,3,220,['Fatigue'],Diabetes,No,16.1,409,1
+689,22,Male,A+,3,246,[],Diabetes,Yes,13.7,228,1
+690,46,Female,O-,0,80,['Fatigue'],Diabetes,No,14.7,422,1
+691,54,Female,AB-,0,321,['Fatigue'],None,No,13.6,257,1
+692,55,Male,AB-,2,110,['Fatigue'],None,No,13.4,223,1
+693,36,Male,O+,3,117,[],None,No,12.1,324,1
+694,25,Male,A+,4,223,"['Fatigue', 'Dizziness']",None,No,13.6,333,1
+695,65,Female,AB+,1,133,[],None,No,15.0,172,0
+696,62,Male,O+,2,300,['Fatigue'],None,No,12.0,423,1
+697,18,Male,A+,0,125,[],Hypertension,No,13.6,278,0
+698,39,Male,B-,2,227,"['Fatigue', 'Dizziness']",None,Yes,16.8,440,1
+699,69,Male,A-,2,30,[],Diabetes,No,15.3,335,1
+700,34,Male,O+,2,196,"['Fatigue', 'Dizziness']",Hypertension,No,15.3,208,1
+701,24,Female,O+,2,155,"['Fatigue', 'Dizziness']",None,No,14.2,150,1
+702,42,Female,AB+,1,342,[],Diabetes,No,15.7,280,1
+703,62,Male,B+,3,110,['Fatigue'],Hypertension,No,13.0,216,1
+704,21,Male,B-,4,280,"['Fatigue', 'Dizziness']",Hypertension,No,16.5,442,1
+705,53,Male,AB+,2,198,[],Hypertension,Yes,12.6,434,1
+706,23,Male,A+,2,102,"['Fatigue', 'Dizziness']",None,Yes,15.6,238,1
+707,48,Female,A+,2,170,['Fatigue'],Hypertension,No,13.9,249,1
+708,36,Male,A+,3,99,[],Diabetes,No,16.1,338,1
+709,61,Female,O-,0,291,[],Asthma,Yes,15.0,390,1
+710,56,Female,A+,0,337,[],Asthma,Yes,14.5,419,1
+711,44,Male,B+,1,274,['Fatigue'],None,No,12.9,368,1
+712,27,Female,B-,0,32,"['Fatigue', 'Dizziness']",Hypertension,No,15.5,325,1
+713,43,Female,AB-,2,92,[],None,No,17.4,382,1
+714,36,Female,A-,2,78,"['Fatigue', 'Dizziness']",None,No,16.5,300,1
+715,56,Female,B+,2,105,"['Fatigue', 'Dizziness']",None,Yes,12.3,426,1
+716,20,Male,B+,1,204,['Fatigue'],None,No,14.1,378,1
+717,62,Male,O-,2,138,[],None,No,17.1,320,1
+718,30,Female,AB-,0,212,"['Fatigue', 'Dizziness']",Hypertension,No,14.8,372,1
+719,67,Male,AB-,3,221,[],Asthma,Yes,15.6,362,1
+720,45,Male,A-,3,94,[],Asthma,Yes,17.0,431,1
+721,37,Male,A-,4,300,['Fatigue'],None,Yes,16.8,190,1
+722,45,Male,AB-,0,129,[],Hypertension,No,14.8,271,1
+723,25,Male,A+,2,61,[],Hypertension,No,14.4,376,1
+724,58,Female,B+,3,157,"['Fatigue', 'Dizziness']",Diabetes,No,13.9,443,1
+725,56,Male,AB+,0,72,['Fatigue'],Hypertension,No,16.0,237,1
+726,18,Male,A-,3,107,[],Hypertension,No,13.6,416,0
+727,20,Male,O-,2,343,"['Fatigue', 'Dizziness']",Heart Disease,No,13.4,178,1
+728,30,Male,O-,3,318,['Fatigue'],Asthma,Yes,14.0,396,1
+729,45,Female,A-,4,299,['Fatigue'],None,No,13.0,393,1
+730,66,Female,AB-,4,191,"['Fatigue', 'Dizziness']",None,No,15.8,210,1
+731,42,Female,B-,3,218,"['Fatigue', 'Dizziness']",Asthma,No,15.4,296,1
+732,50,Female,AB+,0,276,"['Fatigue', 'Dizziness']",Hypertension,No,14.7,323,1
+733,55,Male,AB+,0,245,"['Fatigue', 'Dizziness']",Diabetes,No,14.1,427,1
+734,23,Female,A-,0,344,"['Fatigue', 'Dizziness']",Diabetes,No,17.0,291,1
+735,61,Male,A+,3,197,[],None,No,12.2,193,0
+736,62,Male,B-,0,222,[],Asthma,No,16.2,293,1
+737,49,Male,AB+,2,312,['Fatigue'],Hypertension,No,17.0,204,1
+738,62,Male,A-,4,42,[],None,No,14.5,310,0
+739,64,Male,O-,2,269,[],None,Yes,15.0,434,1
+740,38,Female,AB+,0,349,[],None,No,17.2,347,0
+741,33,Female,O+,2,176,"['Fatigue', 'Dizziness']",None,No,13.2,308,1
+742,38,Female,B-,0,233,['Fatigue'],None,Yes,14.9,229,1
+743,28,Female,B-,3,109,['Fatigue'],Diabetes,Yes,14.6,180,1
+744,54,Male,O+,2,72,['Fatigue'],None,Yes,13.4,261,1
+745,53,Female,B+,3,118,['Fatigue'],Hypertension,No,16.5,195,1
+746,52,Male,O-,3,177,[],None,No,16.9,354,1
+747,36,Female,O+,1,124,[],None,No,16.3,201,1
+748,37,Male,AB-,0,180,"['Fatigue', 'Dizziness']",Hypertension,No,13.1,287,1
+749,35,Male,AB-,4,31,['Fatigue'],None,No,12.5,223,1
+750,64,Female,A-,0,51,[],None,No,15.3,190,0
+751,58,Male,B-,4,342,[],Diabetes,No,12.3,226,1
+752,66,Male,B+,0,357,"['Fatigue', 'Dizziness']",None,No,15.7,336,1
+753,31,Female,B+,3,36,"['Fatigue', 'Dizziness']",Hypertension,Yes,14.9,201,1
+754,32,Male,AB+,2,235,"['Fatigue', 'Dizziness']",None,No,15.6,236,1
+755,48,Female,AB+,2,143,[],None,No,15.2,258,1
+756,18,Female,O+,1,301,[],None,No,14.3,374,1
+757,20,Female,B+,4,112,"['Fatigue', 'Dizziness']",None,No,13.1,397,1
+758,33,Male,O+,4,208,['Fatigue'],None,No,13.7,218,1
+759,40,Male,O-,4,239,"['Fatigue', 'Dizziness']",None,Yes,14.9,269,1
+760,28,Male,O+,3,357,"['Fatigue', 'Dizziness']",Diabetes,No,15.6,216,1
+761,29,Female,AB+,4,153,"['Fatigue', 'Dizziness']",None,Yes,16.3,210,1
+762,27,Male,B-,2,142,"['Fatigue', 'Dizziness']",Hypertension,No,16.2,340,1
+763,49,Female,O+,3,41,[],None,No,17.3,338,1
+764,33,Female,A+,0,155,['Fatigue'],Diabetes,No,13.6,300,1
+765,25,Male,B-,4,82,"['Fatigue', 'Dizziness']",Hypertension,No,12.4,435,1
+766,55,Female,B+,4,360,['Fatigue'],None,No,13.9,245,1
+767,29,Male,B+,0,312,['Fatigue'],Diabetes,No,16.1,412,1
+768,41,Male,O+,4,169,['Fatigue'],Diabetes,No,14.4,246,1
+769,45,Male,B-,0,126,"['Fatigue', 'Dizziness']",Diabetes,No,16.5,262,1
+770,25,Male,AB+,3,34,[],Hypertension,No,15.0,274,0
+771,45,Male,AB+,2,86,"['Fatigue', 'Dizziness']",Hypertension,No,17.1,281,1
+772,53,Female,AB-,0,363,['Fatigue'],Hypertension,Yes,17.2,270,1
+773,43,Female,B+,1,98,['Fatigue'],Asthma,No,12.4,346,1
+774,25,Female,A-,0,147,[],Hypertension,No,14.5,443,0
+775,67,Male,AB-,4,88,"['Fatigue', 'Dizziness']",None,No,15.4,271,1
+776,45,Male,AB+,3,62,['Fatigue'],Diabetes,Yes,13.4,431,1
+777,45,Male,B-,3,347,[],None,No,14.2,409,0
+778,54,Female,O-,0,79,['Fatigue'],None,Yes,15.7,188,1
+779,58,Male,AB+,2,48,[],Diabetes,Yes,13.2,203,1
+780,53,Female,B-,1,243,[],None,No,15.3,310,0
+781,44,Female,AB-,3,226,"['Fatigue', 'Dizziness']",None,No,15.8,438,1
+782,34,Male,B+,4,76,['Fatigue'],Heart Disease,Yes,12.5,349,1
+783,26,Male,AB+,4,196,"['Fatigue', 'Dizziness']",None,No,14.7,425,1
+784,50,Female,O+,2,318,['Fatigue'],Hypertension,No,13.4,165,1
+785,37,Male,B-,3,170,"['Fatigue', 'Dizziness']",None,No,16.0,322,1
+786,30,Female,B+,0,113,['Fatigue'],None,Yes,13.0,397,1
+787,45,Male,O-,4,211,"['Fatigue', 'Dizziness']",None,No,16.9,367,1
+788,65,Male,O-,2,108,[],Diabetes,No,14.4,236,1
+789,46,Female,A-,3,244,['Fatigue'],None,No,13.1,231,1
+790,30,Male,B-,3,43,['Fatigue'],Heart Disease,No,14.4,211,1
+791,63,Female,AB-,3,244,[],Diabetes,No,14.2,436,1
+792,52,Male,A-,3,157,"['Fatigue', 'Dizziness']",Hypertension,Yes,14.4,191,1
+793,23,Female,A-,3,339,['Fatigue'],Hypertension,No,15.2,161,1
+794,35,Female,A+,4,277,['Fatigue'],None,No,14.9,383,1
+795,68,Male,AB+,2,58,"['Fatigue', 'Dizziness']",None,No,12.8,280,1
+796,22,Female,B-,3,309,[],None,No,12.4,264,0
+797,64,Male,A-,1,348,"['Fatigue', 'Dizziness']",Asthma,Yes,16.0,367,1
+798,42,Male,A+,1,231,"['Fatigue', 'Dizziness']",None,No,15.1,286,1
+799,19,Male,AB-,2,86,"['Fatigue', 'Dizziness']",Diabetes,No,14.0,255,1
+800,27,Female,B+,0,247,['Fatigue'],None,No,16.4,328,1
+801,47,Female,O+,0,91,[],None,No,14.1,165,1
+802,67,Male,O+,0,186,[],Heart Disease,No,16.4,391,1
+803,62,Male,B-,1,231,"['Fatigue', 'Dizziness']",None,No,13.7,375,1
+804,22,Female,A-,0,46,['Fatigue'],None,Yes,12.4,391,1
+805,50,Male,O+,4,351,"['Fatigue', 'Dizziness']",Asthma,No,17.1,290,1
+806,18,Male,AB+,3,35,['Fatigue'],None,No,14.2,348,1
+807,35,Female,O+,1,87,['Fatigue'],None,No,16.4,261,1
+808,49,Male,O+,2,354,['Fatigue'],None,No,13.5,276,1
+809,64,Female,O+,2,347,['Fatigue'],Hypertension,No,15.6,170,1
+810,66,Male,O-,3,198,[],Diabetes,Yes,16.8,296,1
+811,28,Female,A+,1,111,['Fatigue'],Hypertension,Yes,12.2,238,1
+812,38,Male,A-,0,248,['Fatigue'],None,No,16.6,352,1
+813,43,Male,AB+,0,206,"['Fatigue', 'Dizziness']",Diabetes,Yes,15.1,234,1
+814,42,Female,A-,4,233,"['Fatigue', 'Dizziness']",Diabetes,No,15.3,316,1
+815,39,Male,O-,4,100,[],Hypertension,Yes,14.9,221,1
+816,44,Female,B-,0,295,"['Fatigue', 'Dizziness']",Diabetes,No,16.8,447,1
+817,66,Male,B-,2,127,['Fatigue'],None,No,12.2,158,1
+818,30,Female,B-,2,320,"['Fatigue', 'Dizziness']",Diabetes,Yes,13.4,430,1
+819,50,Female,AB-,4,237,[],None,No,16.8,407,1
+820,51,Female,O+,3,31,"['Fatigue', 'Dizziness']",None,Yes,16.1,424,1
+821,58,Female,AB-,0,153,"['Fatigue', 'Dizziness']",None,No,12.1,387,1
+822,52,Male,A+,4,309,[],Hypertension,Yes,14.8,169,0
+823,18,Male,B-,4,103,[],Heart Disease,No,14.9,382,0
+824,38,Female,O-,0,195,['Fatigue'],None,No,14.2,370,1
+825,65,Female,AB+,0,51,"['Fatigue', 'Dizziness']",Heart Disease,Yes,13.6,166,1
+826,23,Female,A-,2,183,['Fatigue'],None,Yes,15.7,238,1
+827,45,Male,O+,3,324,"['Fatigue', 'Dizziness']",Diabetes,No,13.1,345,1
+828,34,Male,B+,3,248,"['Fatigue', 'Dizziness']",Hypertension,Yes,16.4,233,1
+829,22,Male,AB+,0,186,['Fatigue'],Diabetes,No,16.4,236,1
+830,48,Male,O+,1,259,"['Fatigue', 'Dizziness']",None,No,14.3,303,1
+831,22,Female,AB-,4,49,"['Fatigue', 'Dizziness']",Hypertension,No,13.6,377,1
+832,55,Female,AB-,4,70,"['Fatigue', 'Dizziness']",Hypertension,No,13.6,413,1
+833,20,Female,AB+,0,177,[],None,No,14.7,372,0
+834,40,Male,AB-,1,137,['Fatigue'],Hypertension,No,16.0,270,1
+835,54,Male,B-,2,113,[],Hypertension,No,14.0,322,1
+836,54,Male,A+,0,351,['Fatigue'],Asthma,Yes,15.4,153,1
+837,27,Female,A-,0,338,['Fatigue'],Hypertension,Yes,14.1,277,1
+838,27,Female,A+,4,319,"['Fatigue', 'Dizziness']",Asthma,No,13.7,259,1
+839,36,Male,O+,0,352,['Fatigue'],None,No,12.1,186,1
+840,34,Female,A-,0,163,[],None,Yes,12.0,220,0
+841,38,Male,O-,0,236,[],None,No,13.2,438,1
+842,31,Male,A-,4,312,[],None,No,14.2,180,0
+843,26,Female,A+,2,295,['Fatigue'],None,Yes,16.7,417,1
+844,63,Male,AB+,2,102,[],Asthma,No,16.4,160,1
+845,18,Female,A-,0,77,['Fatigue'],None,Yes,13.5,181,1
+846,68,Male,O-,4,355,[],None,No,13.3,206,1
+847,62,Female,O-,2,262,[],None,Yes,13.3,315,1
+848,30,Female,O-,2,129,['Fatigue'],None,No,13.9,337,1
+849,21,Female,A+,2,88,[],Hypertension,Yes,14.7,168,1
+850,18,Male,A-,4,287,"['Fatigue', 'Dizziness']",Diabetes,No,14.4,265,1
+851,66,Male,B+,4,94,['Fatigue'],Hypertension,No,13.2,333,1
+852,57,Female,AB+,0,112,['Fatigue'],None,Yes,12.7,419,1
+853,49,Female,B-,3,183,['Fatigue'],None,No,12.1,182,1
+854,51,Male,A-,2,295,"['Fatigue', 'Dizziness']",None,No,12.8,159,1
+855,45,Male,O-,3,338,['Fatigue'],Diabetes,Yes,15.9,229,1
+856,48,Male,B+,4,108,[],None,No,13.3,341,0
+857,25,Female,B-,4,344,[],Diabetes,No,14.6,339,1
+858,56,Male,B-,4,179,[],Hypertension,No,15.3,217,0
+859,43,Male,O+,3,77,['Fatigue'],Asthma,No,16.9,274,1
+860,51,Female,A-,4,277,[],None,No,16.9,208,0
+861,20,Male,A+,0,307,['Fatigue'],None,Yes,16.1,246,1
+862,67,Male,A-,4,127,[],None,No,12.2,424,0
+863,29,Male,B+,1,54,"['Fatigue', 'Dizziness']",Hypertension,No,15.2,298,1
+864,18,Female,B-,3,313,"['Fatigue', 'Dizziness']",None,No,16.3,427,1
+865,61,Female,A-,1,330,"['Fatigue', 'Dizziness']",None,No,12.1,414,1
+866,22,Female,A+,4,97,"['Fatigue', 'Dizziness']",Diabetes,No,15.0,158,1
+867,47,Female,O+,0,36,['Fatigue'],None,Yes,16.7,432,1
+868,47,Female,A-,2,334,[],None,Yes,14.6,422,1
+869,34,Female,AB+,4,166,"['Fatigue', 'Dizziness']",None,Yes,12.0,157,1
+870,65,Female,O+,0,193,['Fatigue'],None,Yes,12.1,357,1
+871,64,Male,A+,3,112,"['Fatigue', 'Dizziness']",None,No,14.3,274,1
+872,40,Male,B+,1,167,"['Fatigue', 'Dizziness']",Diabetes,Yes,12.9,272,1
+873,32,Female,B-,1,102,['Fatigue'],None,Yes,15.7,182,1
+874,54,Male,A-,1,266,['Fatigue'],Diabetes,Yes,15.9,150,1
+875,38,Male,A+,3,75,[],Diabetes,Yes,13.0,353,1
+876,31,Female,O+,0,135,[],Hypertension,Yes,16.9,155,1
+877,19,Male,AB+,3,317,"['Fatigue', 'Dizziness']",None,Yes,14.4,446,1
+878,28,Male,A+,1,291,"['Fatigue', 'Dizziness']",None,No,12.8,154,1
+879,68,Male,AB-,4,205,[],Diabetes,No,16.2,229,1
+880,56,Male,O-,2,195,[],None,Yes,16.3,423,1
+881,55,Male,AB+,3,174,['Fatigue'],None,No,15.5,326,1
+882,51,Female,O+,3,359,[],Hypertension,No,16.7,285,1
+883,55,Female,B+,0,312,[],Diabetes,Yes,16.1,174,1
+884,67,Female,B-,0,83,"['Fatigue', 'Dizziness']",None,Yes,16.9,332,1
+885,51,Male,O+,3,207,[],Diabetes,No,14.4,317,1
+886,35,Female,O-,1,273,"['Fatigue', 'Dizziness']",None,No,16.1,327,1
+887,47,Male,B+,2,156,[],Hypertension,Yes,17.5,244,1
+888,32,Male,A-,0,300,['Fatigue'],None,Yes,16.0,182,1
+889,44,Male,A+,1,161,[],None,No,12.6,260,0
+890,68,Male,AB-,4,122,[],None,Yes,14.9,295,1
+891,51,Female,AB+,0,102,[],None,Yes,15.2,380,0
+892,69,Female,AB+,1,277,"['Fatigue', 'Dizziness']",None,No,13.0,421,1
+893,55,Male,A+,1,302,['Fatigue'],None,No,17.3,187,1
+894,50,Female,AB-,2,72,[],None,No,13.0,284,1
+895,41,Male,A+,2,70,"['Fatigue', 'Dizziness']",Hypertension,No,13.0,384,1
+896,32,Female,A-,4,199,['Fatigue'],None,Yes,17.0,309,1
+897,47,Female,O-,1,241,"['Fatigue', 'Dizziness']",Hypertension,Yes,14.6,187,1
+898,59,Male,B+,1,197,"['Fatigue', 'Dizziness']",None,No,12.3,299,1
+899,68,Female,O+,2,68,['Fatigue'],Diabetes,Yes,15.3,178,1
+900,34,Male,AB+,0,274,[],None,No,15.3,293,0
+901,22,Female,A-,0,180,"['Fatigue', 'Dizziness']",Diabetes,No,12.4,225,1
+902,46,Male,B+,3,140,"['Fatigue', 'Dizziness']",None,No,17.3,294,1
+903,21,Male,A-,2,76,[],None,Yes,15.0,378,1
+904,27,Female,AB-,3,92,[],Asthma,No,15.1,213,1
+905,34,Female,AB+,2,254,['Fatigue'],None,No,14.9,418,1
+906,27,Male,O+,4,98,['Fatigue'],Diabetes,No,15.4,333,1
+907,34,Female,A+,1,328,['Fatigue'],None,Yes,13.5,410,1
+908,37,Female,A+,4,319,[],None,Yes,13.6,417,0
+909,41,Male,B+,2,325,"['Fatigue', 'Dizziness']",Diabetes,Yes,14.8,318,1
+910,22,Male,O+,1,232,"['Fatigue', 'Dizziness']",Heart Disease,No,16.4,408,1
+911,51,Female,O-,0,90,['Fatigue'],Hypertension,No,12.3,376,1
+912,23,Male,B-,0,347,[],Hypertension,No,15.3,182,0
+913,19,Male,AB-,3,343,"['Fatigue', 'Dizziness']",None,No,16.4,363,1
+914,30,Male,B+,2,190,['Fatigue'],Hypertension,Yes,12.9,199,1
+915,60,Female,B-,2,360,"['Fatigue', 'Dizziness']",Heart Disease,No,12.1,359,1
+916,60,Female,A-,0,45,"['Fatigue', 'Dizziness']",Heart Disease,Yes,13.7,178,1
+917,65,Male,AB-,4,123,[],Hypertension,No,15.2,188,1
+918,28,Female,A-,1,333,[],None,No,12.8,249,0
+919,68,Male,O-,4,167,"['Fatigue', 'Dizziness']",Hypertension,No,14.3,322,1
+920,64,Female,O+,4,67,['Fatigue'],Asthma,No,15.0,166,1
+921,40,Male,AB+,0,156,[],Hypertension,Yes,15.3,205,0
+922,33,Male,AB-,0,304,"['Fatigue', 'Dizziness']",Diabetes,Yes,13.5,375,1
+923,48,Female,B-,0,193,[],Asthma,No,14.2,195,1
+924,28,Male,O-,3,348,[],Asthma,No,16.3,216,1
+925,33,Female,AB+,4,106,[],Heart Disease,Yes,17.2,346,0
+926,25,Female,A+,2,203,"['Fatigue', 'Dizziness']",None,Yes,16.7,291,1
+927,21,Male,B-,1,350,['Fatigue'],None,No,15.1,172,1
+928,57,Male,B+,3,120,['Fatigue'],None,Yes,14.3,243,1
+929,21,Female,A+,2,267,['Fatigue'],None,No,13.8,391,1
+930,42,Male,O-,4,293,[],Diabetes,No,12.7,386,1
+931,20,Male,A+,0,208,"['Fatigue', 'Dizziness']",None,Yes,12.6,203,1
+932,49,Male,B+,4,238,[],Heart Disease,Yes,15.8,287,0
+933,20,Male,AB-,1,102,['Fatigue'],Diabetes,No,13.4,421,1
+934,44,Male,A+,3,136,['Fatigue'],None,No,13.4,190,1
+935,46,Female,O+,3,324,"['Fatigue', 'Dizziness']",None,No,17.5,247,1
+936,49,Female,B-,1,313,[],None,No,13.0,332,0
+937,67,Male,AB+,2,211,['Fatigue'],None,Yes,12.8,277,1
+938,68,Male,A+,2,66,"['Fatigue', 'Dizziness']",Diabetes,No,12.5,378,1
+939,36,Male,B-,3,166,[],Diabetes,No,15.2,235,1
+940,38,Female,A-,3,85,[],Hypertension,Yes,15.5,405,0
+941,22,Male,B-,0,216,['Fatigue'],None,No,14.0,358,1
+942,35,Female,AB+,2,287,['Fatigue'],Hypertension,Yes,14.9,364,1
+943,45,Female,B-,1,87,[],None,Yes,16.3,249,0
+944,59,Female,B+,2,152,[],Hypertension,Yes,16.5,198,1
+945,39,Male,O-,0,217,['Fatigue'],Hypertension,No,17.3,350,1
+946,38,Female,AB+,3,259,[],None,No,16.5,407,0
+947,23,Male,O-,3,197,['Fatigue'],None,No,15.1,327,1
+948,18,Female,AB-,0,143,[],Hypertension,No,13.0,394,1
+949,22,Male,O-,1,281,['Fatigue'],Asthma,No,12.5,272,1
+950,58,Female,A-,3,136,"['Fatigue', 'Dizziness']",None,Yes,12.3,320,1
+951,29,Male,B+,4,66,['Fatigue'],Diabetes,Yes,15.7,285,1
+952,43,Female,AB-,3,364,['Fatigue'],Hypertension,Yes,16.4,208,1
+953,63,Male,B-,4,121,"['Fatigue', 'Dizziness']",None,Yes,14.8,342,1
+954,51,Male,AB+,0,47,[],None,No,12.3,417,0
+955,66,Male,A-,0,92,"['Fatigue', 'Dizziness']",Hypertension,No,14.9,409,1
+956,31,Male,B+,3,179,['Fatigue'],None,No,17.1,244,1
+957,43,Female,AB-,2,168,[],Heart Disease,Yes,15.3,274,1
+958,62,Female,AB-,4,215,"['Fatigue', 'Dizziness']",None,No,16.5,190,1
+959,44,Male,A-,1,214,[],None,No,16.4,403,0
+960,26,Female,O+,3,234,[],None,Yes,17.1,156,1
+961,43,Male,B-,1,289,"['Fatigue', 'Dizziness']",Heart Disease,No,16.2,365,1
+962,64,Male,A-,3,243,[],None,No,16.1,218,0
+963,39,Female,AB-,2,285,"['Fatigue', 'Dizziness']",Asthma,No,13.3,218,1
+964,64,Male,A+,2,164,['Fatigue'],None,No,12.3,230,1
+965,47,Male,B+,2,90,[],None,No,14.8,179,1
+966,60,Female,A-,2,339,['Fatigue'],Hypertension,Yes,12.7,222,1
+967,65,Male,O+,0,117,['Fatigue'],Asthma,No,17.3,411,1
+968,34,Male,AB-,0,353,[],None,Yes,13.6,238,1
+969,43,Male,B-,4,236,"['Fatigue', 'Dizziness']",None,Yes,16.7,357,1
+970,53,Male,O-,1,158,[],Asthma,No,14.1,362,1
+971,18,Female,AB-,3,340,['Fatigue'],None,No,13.8,415,1
+972,25,Female,B-,3,32,['Fatigue'],Hypertension,No,17.1,442,1
+973,66,Female,A-,0,271,"['Fatigue', 'Dizziness']",Asthma,No,14.0,356,1
+974,52,Male,B-,3,150,[],None,No,14.1,226,0
+975,69,Male,AB+,0,131,['Fatigue'],Diabetes,No,12.6,437,1
+976,32,Female,AB+,4,67,['Fatigue'],Hypertension,No,15.7,196,1
+977,64,Male,AB+,1,162,['Fatigue'],Heart Disease,Yes,13.6,259,1
+978,39,Male,O+,4,231,"['Fatigue', 'Dizziness']",Diabetes,No,15.2,349,1
+979,31,Male,O+,2,50,['Fatigue'],Diabetes,Yes,15.3,359,1
+980,43,Male,A+,2,271,['Fatigue'],Heart Disease,No,16.0,303,1
+981,45,Female,O+,2,138,[],None,Yes,16.1,159,1
+982,40,Female,O-,4,332,[],None,No,14.8,306,1
+983,31,Female,A-,3,113,['Fatigue'],None,Yes,13.8,410,1
+984,41,Male,AB-,1,112,['Fatigue'],Hypertension,No,16.6,226,1
+985,19,Female,AB-,2,320,[],None,No,13.7,406,1
+986,62,Female,A+,2,98,"['Fatigue', 'Dizziness']",None,Yes,14.8,280,1
+987,43,Male,O+,2,158,"['Fatigue', 'Dizziness']",None,No,14.2,216,1
+988,31,Male,O-,1,225,"['Fatigue', 'Dizziness']",None,No,16.7,377,1
+989,68,Female,B-,2,169,"['Fatigue', 'Dizziness']",None,No,14.4,312,1
+990,24,Female,A+,1,312,"['Fatigue', 'Dizziness']",None,Yes,14.1,164,1
+991,20,Female,O-,2,341,"['Fatigue', 'Dizziness']",None,No,15.8,381,1
+992,64,Female,B-,4,263,"['Fatigue', 'Dizziness']",None,No,15.3,344,1
+993,40,Male,O-,4,52,"['Fatigue', 'Dizziness']",None,No,12.6,179,1
+994,63,Female,B-,1,182,[],None,Yes,14.8,445,0
+995,60,Female,B+,4,306,"['Fatigue', 'Dizziness']",None,No,16.0,369,1
+996,64,Male,O-,1,90,"['Fatigue', 'Dizziness']",None,No,17.5,296,1
+997,62,Female,AB-,4,348,"['Fatigue', 'Dizziness']",None,No,15.5,408,1
+998,35,Male,AB+,4,81,['Fatigue'],None,No,14.0,441,1
+999,55,Male,O+,1,182,[],None,No,13.2,448,1

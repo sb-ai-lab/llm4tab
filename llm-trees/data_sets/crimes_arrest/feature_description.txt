@@ -1,0 +1,19 @@
+Features:
+Date: date and time of the crime event represented as Unix timestamp after datetime-to-float conversion.
+Beat: police beat code.
+District: police district code.
+Ward: ward code.
+Community Area: Chicago community area code.
+X Coordinate: projected x coordinate of the event location.
+Y Coordinate: projected y coordinate of the event location.
+Latitude: geographic latitude of the event location.
+Longitude: geographic longitude of the event location.
+Primary Type: primary crime type (BATTERY / THEFT / OTHER OFFENSE / CRIMINAL TRESPASS / ASSAULT / PUBLIC PEACE VIOLATION / WEAPONS VIOLATION / CRIMINAL SEXUAL ASSAULT / CRIMINAL DAMAGE / DECEPTIVE PRACTICE / etc.).
+Description: detailed crime description (SIMPLE / OVER $500 / DOMESTIC BATTERY SIMPLE / TELEPHONE THREAT / RETAIL THEFT / $500 AND UNDER / TO LAND / VEHICLE TITLE / REGISTRATION OFFENSE / RECKLESS CONDUCT / TO STATE SUP LAND / etc.).
+Location Description: location type where the crime occurred (NURSING / RETIREMENT HOME / STREET / GAS STATION / APARTMENT / CTA BUS / RESIDENCE - PORCH / HALLWAY / DEPARTMENT STORE / BAR OR TAVERN / SMALL RETAIL STORE / RESTAURANT / etc.).
+Domestic: whether the crime was domestic (0 / 1).
+FBI Code: FBI crime classification code (08B / 06 / 08A / 26 / 24 / 15 / 02 / 14 / 04B / 11 / etc.).
+Year: year of the event.
+
+Target variable:
+target: arrest outcome (0 = no arrest / 1 = arrest made)

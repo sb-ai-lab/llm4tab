@@ -1,0 +1,1001 @@
+,Age,Education Level,Occupation,Years of Experience,Marital Status,Work Hours per Week,Urban/Rural,label
+0,46,Associate's,Retired,19,Single,40,Urban,0
+1,38,Bachelor's,Marketing Specialist,8,Widowed,60,Rural,0
+2,46,Bachelor's,Barista,2,Married,40,Rural,0
+3,30,High School,Project Manager,1,Married,50,Urban,1
+4,19,Doctorate,Retail Associate,1,Widowed,55,Urban,1
+5,51,Bachelor's,Construction Laborer,22,Married,0,Urban,1
+6,21,Associate's,Data Scientist,0,Widowed,55,Rural,1
+7,63,Associate's,Software Engineer,19,Widowed,60,Urban,1
+8,49,Associate's,Marketing Specialist,7,Single,45,Rural,0
+9,29,Master's,Construction Laborer,10,Married,35,Rural,1
+10,19,Associate's,Project Manager,1,Married,60,Rural,1
+11,25,Associate's,Barista,1,Single,55,Urban,0
+12,19,Master's,Data Scientist,0,Single,50,Urban,1
+13,18,Doctorate,Project Manager,0,Single,40,Rural,1
+14,49,Master's,Marketing Specialist,25,Widowed,30,Urban,1
+15,28,Master's,Barista,8,Widowed,40,Rural,1
+16,52,Associate's,Teacher,16,Single,50,Rural,0
+17,56,Master's,Construction Laborer,29,Widowed,0,Rural,1
+18,20,Associate's,Barista,0,Married,45,Rural,0
+19,37,Bachelor's,Barista,16,Married,40,Urban,1
+20,18,Doctorate,Barista,0,Married,50,Urban,1
+21,20,Master's,Engineer,0,Single,45,Urban,1
+22,28,Bachelor's,Retail Associate,9,Single,40,Rural,0
+23,63,Doctorate,University Professor,8,Married,30,Rural,1
+24,61,Associate's,Construction Laborer,14,Single,55,Urban,0
+25,49,High School,Teacher,9,Married,60,Rural,1
+26,55,Doctorate,Software Engineer,19,Widowed,60,Urban,1
+27,54,Bachelor's,Sales Representative,5,Single,45,Urban,1
+28,58,High School,Engineer,10,Widowed,45,Rural,0
+29,36,Master's,Barista,12,Married,60,Urban,1
+30,41,Master's,Data Scientist,22,Single,55,Rural,1
+31,51,High School,Lawyer,22,Married,0,Rural,1
+32,21,Doctorate,Engineer,1,Married,30,Urban,1
+33,24,Bachelor's,Teacher,0,Married,40,Rural,0
+34,31,Bachelor's,Teacher,1,Single,55,Urban,1
+35,64,Bachelor's,Data Scientist,42,Single,30,Rural,1
+36,64,Bachelor's,Financial Analyst,0,Single,0,Rural,1
+37,37,Associate's,Financial Analyst,13,Married,60,Rural,1
+38,27,High School,Teacher,5,Married,30,Rural,0
+39,38,Master's,Project Manager,19,Single,60,Urban,1
+40,53,High School,Engineer,34,Widowed,60,Rural,0
+41,46,Master's,Retail Associate,17,Widowed,60,Rural,1
+42,35,Doctorate,Software Engineer,4,Married,50,Rural,1
+43,29,Master's,Medical Doctor,11,Widowed,45,Urban,1
+44,46,Bachelor's,Medical Doctor,18,Widowed,30,Urban,1
+45,52,Bachelor's,Lawyer,2,Single,50,Urban,1
+46,34,Associate's,Lawyer,4,Married,40,Urban,1
+47,65,Associate's,Retail Associate,14,Married,35,Rural,0
+48,24,Bachelor's,Barista,4,Single,60,Rural,0
+49,27,High School,Data Scientist,9,Single,35,Urban,1
+50,30,Master's,Engineer,5,Married,50,Urban,1
+51,46,Bachelor's,Retail Associate,7,Widowed,40,Urban,1
+52,23,Associate's,Barista,5,Single,40,Rural,0
+53,21,Doctorate,University Professor,1,Widowed,55,Urban,1
+54,35,Master's,University Professor,16,Widowed,60,Urban,1
+55,35,High School,University Professor,10,Single,35,Urban,1
+56,27,High School,Lawyer,9,Married,55,Rural,1
+57,62,Master's,Barista,37,Widowed,40,Urban,1
+58,64,Doctorate,Retail Associate,6,Widowed,50,Urban,1
+59,52,Bachelor's,Financial Analyst,9,Single,50,Rural,1
+60,27,High School,Sales Representative,0,Widowed,35,Rural,0
+61,63,Doctorate,Sales Representative,27,Married,60,Rural,1
+62,46,High School,Medical Doctor,8,Married,35,Rural,1
+63,42,High School,Barista,12,Single,50,Urban,0
+64,48,Associate's,Construction Laborer,19,Widowed,60,Rural,0
+65,32,Bachelor's,Software Engineer,1,Single,55,Rural,1
+66,51,Doctorate,Retail Associate,13,Married,40,Urban,1
+67,28,Doctorate,Sales Representative,4,Single,55,Urban,1
+68,58,High School,Retail Associate,24,Single,0,Urban,0
+69,38,Associate's,Financial Analyst,10,Single,40,Urban,1
+70,39,Bachelor's,Sales Representative,0,Widowed,50,Urban,1
+71,23,Associate's,Retired,3,Married,55,Urban,0
+72,41,Bachelor's,Project Manager,1,Widowed,55,Rural,1
+73,21,Doctorate,Marketing Specialist,2,Married,40,Rural,1
+74,43,Master's,Barista,3,Married,50,Urban,1
+75,29,High School,Teacher,9,Married,40,Urban,0
+76,60,Doctorate,Retail Associate,16,Widowed,45,Rural,1
+77,30,High School,Sales Representative,10,Married,0,Rural,0
+78,61,Bachelor's,Engineer,12,Single,55,Rural,0
+79,41,Master's,University Professor,11,Single,35,Rural,1
+80,19,Doctorate,Medical Doctor,0,Single,30,Rural,1
+81,27,High School,Financial Analyst,0,Married,30,Urban,1
+82,57,High School,Retail Associate,27,Married,30,Urban,0
+83,55,Doctorate,Retail Associate,4,Single,0,Rural,1
+84,25,Associate's,Construction Laborer,5,Married,40,Rural,0
+85,33,Bachelor's,Lawyer,11,Widowed,40,Rural,1
+86,59,Master's,Marketing Specialist,21,Widowed,55,Rural,1
+87,28,Associate's,Marketing Specialist,10,Single,45,Rural,0
+88,51,Doctorate,Retired,26,Widowed,50,Urban,1
+89,56,High School,Data Scientist,34,Married,30,Rural,1
+90,37,Bachelor's,Construction Laborer,0,Single,30,Urban,1
+91,41,Bachelor's,Construction Laborer,9,Single,0,Rural,0
+92,44,Associate's,University Professor,8,Married,55,Rural,1
+93,34,High School,Medical Doctor,11,Single,30,Rural,1
+94,65,Doctorate,Sales Representative,23,Widowed,45,Rural,1
+95,19,Doctorate,Lawyer,0,Married,0,Rural,1
+96,49,Master's,Project Manager,31,Married,50,Urban,1
+97,57,Master's,Construction Laborer,33,Married,40,Urban,1
+98,39,Master's,Sales Representative,10,Single,30,Urban,1
+99,64,Bachelor's,Lawyer,32,Married,40,Urban,1
+100,36,Associate's,Sales Representative,3,Married,50,Urban,0
+101,60,Doctorate,Software Engineer,41,Widowed,35,Rural,1
+102,63,Master's,Construction Laborer,39,Single,55,Urban,1
+103,35,Bachelor's,Data Scientist,15,Single,45,Urban,1
+104,60,Associate's,Teacher,8,Widowed,55,Urban,0
+105,43,Bachelor's,Retired,8,Single,35,Urban,1
+106,25,High School,Lawyer,1,Married,45,Urban,1
+107,48,Bachelor's,Software Engineer,0,Single,40,Rural,1
+108,59,High School,Teacher,39,Widowed,50,Rural,0
+109,58,Master's,Sales Representative,21,Widowed,45,Rural,1
+110,22,Bachelor's,Retired,1,Widowed,50,Urban,1
+111,42,High School,Project Manager,4,Married,0,Rural,1
+112,26,High School,University Professor,4,Married,45,Urban,1
+113,21,Associate's,Software Engineer,3,Widowed,40,Rural,1
+114,63,Doctorate,Barista,26,Married,30,Urban,1
+115,37,Doctorate,Engineer,15,Married,35,Urban,1
+116,63,Associate's,Teacher,3,Widowed,0,Rural,0
+117,59,Master's,Project Manager,33,Single,50,Urban,1
+118,51,High School,Financial Analyst,9,Widowed,60,Urban,1
+119,37,Master's,Financial Analyst,3,Single,50,Urban,1
+120,60,Bachelor's,Teacher,30,Widowed,55,Rural,0
+121,60,Doctorate,Retired,20,Married,45,Rural,1
+122,19,High School,Barista,0,Married,35,Urban,0
+123,22,Master's,Sales Representative,3,Married,30,Rural,1
+124,58,Doctorate,Engineer,6,Single,45,Rural,1
+125,49,Master's,Data Scientist,28,Married,0,Rural,1
+126,50,Associate's,Sales Representative,24,Single,45,Rural,0
+127,25,Bachelor's,Marketing Specialist,6,Single,40,Urban,1
+128,65,Associate's,Sales Representative,44,Widowed,55,Urban,0
+129,39,Associate's,Retail Associate,5,Widowed,35,Urban,0
+130,51,High School,Sales Representative,6,Married,55,Urban,1
+131,40,Doctorate,University Professor,19,Married,55,Rural,1
+132,33,Master's,Teacher,4,Single,60,Urban,1
+133,39,Doctorate,Medical Doctor,17,Single,0,Rural,1
+134,50,Master's,Sales Representative,29,Married,55,Rural,1
+135,21,Associate's,Financial Analyst,2,Married,30,Urban,1
+136,34,Master's,Engineer,2,Married,55,Rural,1
+137,46,Associate's,Engineer,20,Married,60,Urban,1
+138,57,Associate's,Project Manager,10,Single,55,Rural,1
+139,21,Master's,Teacher,3,Married,40,Urban,1
+140,52,High School,Construction Laborer,6,Married,55,Urban,1
+141,59,High School,Software Engineer,4,Married,30,Urban,1
+142,52,High School,Retail Associate,16,Widowed,55,Urban,0
+143,36,Bachelor's,University Professor,16,Single,40,Rural,1
+144,40,High School,Financial Analyst,2,Married,40,Urban,1
+145,51,Doctorate,Retired,22,Married,0,Urban,1
+146,33,Bachelor's,Retail Associate,0,Widowed,40,Urban,1
+147,62,Associate's,Lawyer,14,Single,55,Urban,1
+148,48,Associate's,Engineer,3,Single,50,Urban,0
+149,51,Bachelor's,Marketing Specialist,1,Widowed,50,Rural,0
+150,20,Associate's,Retail Associate,2,Single,60,Rural,0
+151,18,Associate's,Engineer,0,Single,35,Urban,0
+152,23,Associate's,Teacher,4,Widowed,35,Rural,0
+153,55,Bachelor's,Software Engineer,28,Single,0,Urban,1
+154,50,Associate's,Financial Analyst,28,Single,55,Urban,1
+155,25,Doctorate,Data Scientist,6,Married,50,Urban,1
+156,38,Bachelor's,Medical Doctor,16,Widowed,30,Rural,1
+157,23,Master's,Barista,1,Widowed,50,Urban,1
+158,26,Master's,Teacher,2,Single,0,Urban,1
+159,55,Doctorate,Software Engineer,34,Widowed,0,Urban,1
+160,33,Associate's,Project Manager,3,Single,60,Urban,1
+161,30,Bachelor's,Data Scientist,0,Married,50,Urban,1
+162,51,High School,Financial Analyst,27,Single,0,Urban,1
+163,51,High School,Financial Analyst,22,Widowed,35,Urban,1
+164,38,Associate's,Software Engineer,0,Married,45,Urban,1
+165,36,Bachelor's,Retail Associate,0,Widowed,45,Urban,1
+166,57,Associate's,Lawyer,22,Widowed,55,Rural,1
+167,24,Associate's,Sales Representative,1,Widowed,35,Rural,0
+168,21,Doctorate,Barista,1,Single,30,Urban,1
+169,36,Doctorate,Financial Analyst,14,Widowed,50,Urban,1
+170,34,Bachelor's,Sales Representative,1,Married,60,Rural,0
+171,50,Doctorate,Software Engineer,18,Widowed,30,Urban,1
+172,62,Associate's,Data Scientist,4,Single,30,Urban,1
+173,55,High School,Retired,32,Widowed,55,Rural,0
+174,22,Master's,Marketing Specialist,4,Married,60,Urban,1
+175,38,Doctorate,University Professor,11,Married,30,Rural,1
+176,22,Bachelor's,Data Scientist,1,Single,45,Rural,1
+177,42,Master's,Lawyer,1,Married,45,Rural,1
+178,39,Master's,Financial Analyst,19,Married,60,Urban,1
+179,22,High School,Sales Representative,1,Married,40,Urban,0
+180,34,Master's,Sales Representative,10,Married,35,Urban,1
+181,56,Doctorate,Retired,24,Single,50,Urban,1
+182,29,Master's,Medical Doctor,9,Single,45,Rural,1
+183,43,High School,Software Engineer,12,Married,55,Urban,1
+184,21,Bachelor's,Engineer,0,Married,30,Rural,0
+185,63,Doctorate,Marketing Specialist,0,Married,60,Rural,1
+186,51,Associate's,Teacher,30,Single,0,Rural,0
+187,56,Master's,Medical Doctor,14,Single,60,Rural,1
+188,18,Bachelor's,Barista,0,Widowed,60,Urban,1
+189,18,Master's,Retail Associate,0,Single,0,Rural,1
+190,44,Master's,Teacher,22,Widowed,35,Rural,1
+191,39,High School,Retail Associate,0,Single,40,Urban,0
+192,40,Associate's,Data Scientist,1,Married,0,Urban,1
+193,28,High School,University Professor,10,Single,0,Urban,1
+194,48,Bachelor's,Barista,25,Married,30,Urban,1
+195,36,Bachelor's,Financial Analyst,5,Widowed,0,Urban,1
+196,27,High School,Project Manager,3,Married,55,Rural,1
+197,33,High School,Software Engineer,10,Married,40,Urban,1
+198,22,Associate's,Financial Analyst,1,Married,60,Rural,1
+199,55,Associate's,Retired,3,Single,30,Urban,0
+200,56,Bachelor's,Software Engineer,27,Married,0,Urban,1
+201,47,Doctorate,Data Scientist,10,Married,0,Urban,1
+202,34,Master's,Project Manager,15,Married,40,Urban,1
+203,44,High School,Construction Laborer,15,Single,40,Rural,0
+204,48,High School,Financial Analyst,17,Single,40,Rural,1
+205,26,Doctorate,Engineer,0,Widowed,45,Urban,1
+206,31,High School,Retired,8,Married,55,Urban,1
+207,54,Associate's,Software Engineer,23,Married,30,Rural,1
+208,25,Associate's,Engineer,7,Single,0,Rural,0
+209,19,Associate's,Retired,1,Married,55,Rural,0
+210,31,Master's,Lawyer,6,Married,55,Rural,1
+211,51,Associate's,Retired,21,Single,50,Urban,0
+212,58,Doctorate,Construction Laborer,38,Single,30,Urban,1
+213,52,Master's,Medical Doctor,20,Widowed,50,Urban,1
+214,42,Bachelor's,Retail Associate,19,Married,50,Urban,1
+215,29,Doctorate,Construction Laborer,5,Married,50,Urban,1
+216,44,Bachelor's,Project Manager,19,Single,30,Urban,1
+217,28,Bachelor's,Teacher,3,Married,30,Urban,1
+218,32,Master's,Barista,1,Widowed,50,Rural,1
+219,52,Doctorate,Construction Laborer,18,Single,45,Rural,1
+220,31,Bachelor's,Construction Laborer,1,Married,30,Rural,0
+221,30,High School,Software Engineer,9,Widowed,40,Urban,1
+222,36,Doctorate,Project Manager,4,Married,50,Rural,1
+223,53,Associate's,Marketing Specialist,4,Married,50,Urban,0
+224,55,Bachelor's,Project Manager,22,Widowed,45,Urban,1
+225,43,Master's,Marketing Specialist,15,Single,0,Urban,1
+226,42,High School,Marketing Specialist,5,Married,35,Urban,0
+227,28,Doctorate,Project Manager,9,Single,60,Urban,1
+228,23,Associate's,Financial Analyst,0,Widowed,55,Urban,1
+229,31,Master's,Construction Laborer,8,Single,45,Urban,1
+230,61,Associate's,University Professor,27,Married,55,Rural,1
+231,59,Master's,Construction Laborer,26,Single,60,Rural,1
+232,56,Doctorate,Financial Analyst,5,Widowed,45,Urban,1
+233,18,Doctorate,University Professor,0,Single,45,Rural,1
+234,65,High School,Retired,19,Married,30,Rural,0
+235,23,High School,Retired,3,Single,30,Rural,0
+236,62,Associate's,Construction Laborer,3,Single,60,Urban,0
+237,41,High School,Barista,11,Widowed,60,Rural,0
+238,34,High School,Barista,6,Single,50,Urban,0
+239,30,High School,Retired,11,Married,30,Urban,0
+240,58,Associate's,Marketing Specialist,0,Married,60,Rural,0
+241,26,Master's,Marketing Specialist,0,Widowed,35,Urban,1
+242,43,Master's,Engineer,21,Married,40,Rural,1
+243,20,Master's,Retired,0,Single,50,Rural,1
+244,56,Associate's,Financial Analyst,30,Single,50,Rural,1
+245,20,High School,Financial Analyst,0,Single,50,Rural,1
+246,32,Bachelor's,Lawyer,3,Married,60,Rural,1
+247,30,Associate's,Lawyer,2,Widowed,40,Urban,1
+248,28,Master's,Barista,10,Married,45,Rural,1
+249,58,Associate's,Data Scientist,32,Widowed,55,Rural,1
+250,63,High School,Medical Doctor,12,Widowed,45,Rural,1
+251,47,Doctorate,Software Engineer,7,Single,50,Rural,1
+252,65,Associate's,Marketing Specialist,28,Widowed,30,Urban,0
+253,52,Master's,Construction Laborer,22,Married,30,Urban,1
+254,45,Associate's,Financial Analyst,24,Widowed,30,Urban,1
+255,47,High School,Retired,2,Married,40,Urban,0
+256,18,Associate's,Software Engineer,0,Married,0,Rural,1
+257,64,High School,Data Scientist,17,Widowed,30,Urban,1
+258,48,Master's,Construction Laborer,12,Widowed,40,Rural,1
+259,32,Associate's,Medical Doctor,0,Widowed,50,Rural,1
+260,33,Bachelor's,Medical Doctor,6,Single,45,Urban,1
+261,51,Doctorate,Retired,31,Single,60,Rural,1
+262,53,Doctorate,Data Scientist,35,Widowed,55,Urban,1
+263,20,High School,Barista,1,Single,45,Urban,0
+264,59,Doctorate,Marketing Specialist,21,Widowed,35,Urban,1
+265,30,Doctorate,Retired,10,Married,40,Rural,1
+266,60,Associate's,Marketing Specialist,24,Widowed,50,Rural,0
+267,45,Associate's,Retail Associate,16,Single,60,Rural,0
+268,48,Doctorate,Barista,30,Single,55,Rural,1
+269,54,Associate's,Project Manager,13,Widowed,50,Urban,1
+270,56,Associate's,Engineer,0,Widowed,55,Urban,0
+271,32,Doctorate,Construction Laborer,9,Widowed,50,Urban,1
+272,19,High School,Construction Laborer,0,Widowed,45,Rural,0
+273,63,Bachelor's,Teacher,43,Single,30,Rural,0
+274,30,Doctorate,Construction Laborer,2,Widowed,50,Rural,1
+275,27,High School,Construction Laborer,3,Widowed,0,Rural,0
+276,53,Associate's,University Professor,9,Single,35,Rural,1
+277,37,High School,Retail Associate,2,Single,55,Rural,0
+278,31,Doctorate,Medical Doctor,6,Married,30,Rural,1
+279,22,Master's,Financial Analyst,2,Single,55,Rural,1
+280,56,High School,Marketing Specialist,2,Single,45,Urban,0
+281,24,Master's,Engineer,4,Married,30,Rural,1
+282,38,Bachelor's,Medical Doctor,19,Widowed,55,Urban,1
+283,54,Master's,Data Scientist,1,Married,60,Urban,1
+284,37,Bachelor's,Sales Representative,8,Single,55,Urban,1
+285,25,High School,Teacher,2,Widowed,0,Rural,0
+286,40,Bachelor's,Retail Associate,0,Single,0,Rural,0
+287,43,Bachelor's,Marketing Specialist,20,Single,40,Urban,1
+288,38,Doctorate,Teacher,5,Widowed,35,Rural,1
+289,50,High School,Marketing Specialist,20,Single,50,Rural,0
+290,49,Doctorate,Teacher,24,Married,45,Urban,1
+291,29,Bachelor's,Retired,6,Widowed,35,Rural,0
+292,43,Master's,Marketing Specialist,22,Married,50,Urban,1
+293,44,Bachelor's,Engineer,9,Single,55,Urban,1
+294,63,Master's,Engineer,3,Single,40,Urban,1
+295,55,Bachelor's,Financial Analyst,35,Widowed,30,Rural,1
+296,33,Doctorate,University Professor,10,Widowed,55,Rural,1
+297,40,Associate's,Lawyer,0,Married,50,Rural,1
+298,54,Bachelor's,Software Engineer,10,Married,50,Rural,1
+299,31,High School,Software Engineer,2,Widowed,50,Rural,1
+300,36,Master's,University Professor,7,Widowed,45,Urban,1
+301,63,Master's,Retail Associate,31,Widowed,30,Rural,1
+302,46,Master's,Engineer,20,Single,0,Urban,1
+303,21,Associate's,Construction Laborer,2,Married,50,Urban,0
+304,21,High School,Financial Analyst,3,Married,55,Rural,1
+305,25,High School,University Professor,4,Married,50,Rural,1
+306,53,High School,Engineer,25,Married,30,Urban,0
+307,33,Master's,Project Manager,3,Widowed,30,Urban,1
+308,18,Bachelor's,Financial Analyst,0,Widowed,40,Urban,1
+309,36,Bachelor's,Software Engineer,14,Widowed,35,Rural,1
+310,22,Doctorate,Construction Laborer,2,Single,45,Rural,1
+311,51,Master's,Barista,4,Single,30,Urban,1
+312,48,Bachelor's,Sales Representative,1,Married,40,Urban,1
+313,61,Doctorate,Project Manager,39,Single,60,Urban,1
+314,61,Doctorate,Software Engineer,14,Single,0,Urban,1
+315,29,Bachelor's,Software Engineer,5,Married,55,Rural,1
+316,62,Doctorate,Project Manager,19,Married,50,Urban,1
+317,55,High School,Sales Representative,27,Married,0,Urban,0
+318,45,Associate's,Sales Representative,19,Married,30,Urban,0
+319,50,Associate's,Marketing Specialist,7,Married,50,Rural,1
+320,31,Associate's,University Professor,5,Widowed,40,Urban,1
+321,51,Master's,Construction Laborer,20,Single,45,Urban,1
+322,36,Doctorate,Teacher,11,Married,55,Urban,1
+323,29,High School,Marketing Specialist,9,Single,60,Rural,0
+324,34,Doctorate,Sales Representative,3,Single,0,Urban,1
+325,52,Associate's,Retired,10,Single,40,Rural,0
+326,37,Associate's,Lawyer,8,Widowed,0,Rural,1
+327,56,Master's,Lawyer,20,Widowed,55,Rural,1
+328,29,High School,Construction Laborer,8,Married,30,Urban,0
+329,57,Bachelor's,Data Scientist,29,Widowed,35,Rural,1
+330,56,Associate's,University Professor,36,Married,40,Urban,1
+331,32,Doctorate,Barista,11,Single,60,Rural,1
+332,21,Bachelor's,Construction Laborer,0,Married,30,Urban,1
+333,27,Associate's,Data Scientist,9,Single,55,Rural,1
+334,28,Associate's,Barista,8,Widowed,55,Urban,0
+335,46,Doctorate,University Professor,4,Married,40,Urban,1
+336,63,Associate's,Medical Doctor,28,Widowed,55,Urban,1
+337,41,Associate's,Financial Analyst,6,Single,55,Urban,1
+338,39,High School,Engineer,11,Widowed,55,Urban,0
+339,26,Doctorate,Data Scientist,7,Widowed,30,Rural,1
+340,53,Master's,Construction Laborer,35,Widowed,50,Rural,1
+341,29,High School,Barista,9,Married,50,Urban,1
+342,24,Master's,Barista,5,Single,55,Urban,1
+343,20,Bachelor's,Construction Laborer,1,Married,60,Rural,0
+344,42,Master's,Medical Doctor,1,Widowed,60,Rural,1
+345,29,Master's,Medical Doctor,0,Married,45,Rural,1
+346,55,Bachelor's,Lawyer,19,Widowed,55,Urban,1
+347,24,Doctorate,Project Manager,2,Single,45,Urban,1
+348,58,Bachelor's,Construction Laborer,22,Widowed,50,Urban,1
+349,50,Bachelor's,Engineer,17,Single,45,Rural,0
+350,28,Doctorate,Software Engineer,8,Married,45,Urban,1
+351,43,Doctorate,Financial Analyst,23,Widowed,50,Rural,1
+352,50,Doctorate,Data Scientist,17,Married,35,Rural,1
+353,51,High School,Construction Laborer,32,Single,40,Urban,0
+354,38,Bachelor's,Project Manager,4,Widowed,50,Rural,1
+355,49,Associate's,Engineer,9,Single,50,Urban,0
+356,19,High School,Barista,1,Single,40,Urban,0
+357,46,Associate's,Medical Doctor,27,Widowed,0,Rural,1
+358,62,Bachelor's,Engineer,33,Single,35,Urban,1
+359,59,Master's,Retired,19,Single,30,Rural,1
+360,23,Bachelor's,Construction Laborer,5,Single,45,Rural,0
+361,65,Master's,University Professor,46,Married,50,Urban,1
+362,22,High School,Construction Laborer,4,Widowed,45,Rural,0
+363,31,Associate's,Marketing Specialist,2,Married,55,Urban,0
+364,54,High School,Teacher,13,Single,55,Urban,0
+365,41,Associate's,Marketing Specialist,18,Widowed,40,Urban,0
+366,64,Associate's,Barista,34,Single,50,Rural,0
+367,65,High School,Financial Analyst,38,Single,40,Rural,1
+368,65,High School,Lawyer,27,Single,0,Urban,1
+369,62,Master's,Engineer,19,Single,30,Urban,1
+370,44,High School,Teacher,16,Single,55,Rural,0
+371,38,Bachelor's,Retired,0,Single,60,Rural,0
+372,25,Doctorate,Engineer,0,Single,30,Rural,1
+373,55,Bachelor's,Retired,15,Married,30,Urban,1
+374,65,Doctorate,Marketing Specialist,45,Single,30,Rural,1
+375,53,High School,University Professor,27,Married,55,Urban,1
+376,63,Bachelor's,Lawyer,12,Married,50,Urban,1
+377,55,Bachelor's,Retired,1,Widowed,30,Rural,0
+378,58,Bachelor's,Retail Associate,12,Married,0,Urban,1
+379,23,High School,Lawyer,3,Married,40,Urban,1
+380,19,High School,Teacher,1,Single,30,Rural,0
+381,20,Associate's,Retired,0,Married,45,Rural,0
+382,53,Master's,Data Scientist,32,Single,50,Rural,1
+383,18,Bachelor's,Project Manager,0,Widowed,55,Rural,1
+384,26,Bachelor's,Construction Laborer,0,Widowed,60,Rural,0
+385,56,High School,Barista,2,Married,0,Urban,0
+386,63,Doctorate,Engineer,22,Married,40,Urban,1
+387,28,Doctorate,University Professor,6,Single,45,Rural,1
+388,29,Master's,Retail Associate,6,Widowed,55,Urban,1
+389,43,Bachelor's,Marketing Specialist,1,Married,30,Rural,0
+390,46,Bachelor's,Data Scientist,7,Single,50,Urban,1
+391,34,Associate's,University Professor,9,Widowed,40,Rural,1
+392,34,High School,Marketing Specialist,0,Widowed,40,Urban,0
+393,33,Doctorate,Data Scientist,15,Widowed,55,Urban,1
+394,52,Doctorate,Software Engineer,6,Married,35,Urban,1
+395,56,High School,Lawyer,16,Single,35,Rural,1
+396,52,Master's,Software Engineer,28,Married,45,Rural,1
+397,27,Bachelor's,Software Engineer,7,Single,60,Rural,1
+398,50,Master's,Lawyer,32,Widowed,60,Rural,1
+399,35,Master's,Retired,4,Widowed,55,Rural,1
+400,58,Master's,Sales Representative,37,Single,35,Rural,1
+401,27,Master's,Engineer,1,Widowed,50,Rural,1
+402,35,Associate's,Data Scientist,8,Married,55,Urban,1
+403,59,High School,Teacher,27,Widowed,35,Urban,0
+404,64,Doctorate,Retail Associate,8,Married,30,Urban,1
+405,54,Associate's,Barista,3,Married,30,Rural,0
+406,45,Bachelor's,Software Engineer,22,Widowed,40,Rural,1
+407,41,High School,Retail Associate,22,Widowed,30,Urban,0
+408,38,High School,Retail Associate,15,Married,45,Urban,1
+409,27,Bachelor's,Construction Laborer,2,Single,45,Urban,1
+410,50,Associate's,Marketing Specialist,9,Widowed,0,Rural,0
+411,26,Associate's,Financial Analyst,4,Widowed,55,Rural,1
+412,30,High School,Marketing Specialist,6,Single,50,Rural,0
+413,43,Doctorate,Project Manager,6,Married,30,Rural,1
+414,30,High School,Data Scientist,7,Married,35,Urban,1
+415,34,High School,Software Engineer,10,Widowed,55,Rural,1
+416,27,Bachelor's,Financial Analyst,5,Widowed,60,Rural,1
+417,19,Associate's,Engineer,1,Widowed,35,Rural,0
+418,64,Master's,Retired,19,Married,50,Urban,1
+419,23,High School,Software Engineer,3,Single,60,Rural,1
+420,18,High School,Engineer,0,Widowed,60,Urban,0
+421,31,High School,Retail Associate,12,Single,45,Rural,0
+422,31,Master's,Teacher,9,Single,40,Urban,1
+423,63,Bachelor's,Engineer,9,Widowed,50,Rural,0
+424,65,High School,Retail Associate,10,Single,35,Urban,0
+425,54,Associate's,Engineer,12,Single,40,Rural,0
+426,24,Master's,Marketing Specialist,5,Widowed,60,Urban,1
+427,65,Associate's,Lawyer,5,Widowed,30,Rural,1
+428,52,Doctorate,Retail Associate,0,Single,45,Urban,1
+429,28,Doctorate,Data Scientist,0,Married,55,Urban,1
+430,24,Bachelor's,Project Manager,6,Widowed,40,Rural,1
+431,34,Associate's,University Professor,8,Married,50,Urban,1
+432,29,Doctorate,Retail Associate,6,Single,40,Urban,1
+433,53,Bachelor's,Construction Laborer,26,Single,50,Urban,1
+434,51,Master's,Medical Doctor,1,Single,0,Rural,1
+435,23,Master's,Retired,5,Married,55,Urban,1
+436,38,Master's,Software Engineer,0,Widowed,60,Urban,1
+437,26,High School,Lawyer,5,Married,30,Rural,1
+438,58,Doctorate,Retail Associate,10,Widowed,30,Rural,1
+439,59,Master's,Barista,22,Married,50,Urban,1
+440,20,Master's,Data Scientist,1,Married,0,Urban,1
+441,65,Associate's,Barista,44,Single,60,Urban,0
+442,34,Bachelor's,Engineer,3,Married,55,Urban,1
+443,59,Doctorate,Barista,39,Single,50,Rural,1
+444,59,Associate's,Engineer,6,Married,50,Rural,1
+445,27,Doctorate,Construction Laborer,9,Single,55,Urban,1
+446,49,High School,Retired,8,Married,35,Urban,0
+447,43,Bachelor's,Project Manager,14,Single,50,Rural,1
+448,45,High School,Retail Associate,27,Married,60,Rural,1
+449,32,Associate's,Financial Analyst,9,Widowed,35,Rural,1
+450,39,Associate's,Retired,19,Married,60,Urban,1
+451,31,High School,Construction Laborer,5,Married,60,Rural,0
+452,19,Bachelor's,Project Manager,0,Married,0,Urban,1
+453,55,Doctorate,Financial Analyst,18,Single,30,Rural,1
+454,51,Associate's,Project Manager,29,Single,35,Rural,1
+455,42,Master's,Project Manager,13,Single,50,Urban,1
+456,50,Associate's,Lawyer,28,Married,35,Urban,1
+457,55,High School,Medical Doctor,15,Married,0,Rural,1
+458,51,Bachelor's,Barista,28,Widowed,30,Rural,0
+459,25,High School,Software Engineer,2,Married,0,Rural,1
+460,63,Doctorate,Data Scientist,11,Widowed,0,Urban,1
+461,60,Doctorate,Barista,38,Widowed,55,Rural,1
+462,56,Master's,Retired,20,Widowed,55,Rural,1
+463,20,Doctorate,Project Manager,0,Single,50,Urban,1
+464,50,High School,Construction Laborer,27,Married,40,Rural,0
+465,40,Doctorate,Data Scientist,8,Single,0,Urban,1
+466,32,Bachelor's,Sales Representative,7,Single,40,Rural,0
+467,26,Master's,Retail Associate,5,Single,45,Rural,1
+468,59,High School,Engineer,34,Married,30,Urban,0
+469,41,Bachelor's,Retired,18,Single,0,Urban,1
+470,32,Associate's,Software Engineer,9,Married,30,Urban,1
+471,33,Master's,Lawyer,13,Widowed,40,Rural,1
+472,40,Associate's,Financial Analyst,3,Widowed,35,Urban,1
+473,22,Master's,Retail Associate,3,Married,35,Urban,1
+474,59,Associate's,Lawyer,25,Widowed,40,Rural,1
+475,53,Doctorate,Construction Laborer,15,Widowed,45,Rural,1
+476,47,High School,Teacher,5,Single,0,Rural,0
+477,52,High School,Marketing Specialist,22,Single,60,Rural,0
+478,63,Master's,Sales Representative,12,Widowed,35,Urban,1
+479,45,High School,Medical Doctor,14,Single,55,Urban,1
+480,42,Doctorate,Project Manager,8,Single,45,Urban,1
+481,27,Doctorate,Teacher,7,Single,60,Rural,1
+482,62,Doctorate,Medical Doctor,32,Single,60,Rural,1
+483,31,Master's,Medical Doctor,13,Widowed,30,Rural,1
+484,20,Bachelor's,Project Manager,2,Married,55,Rural,1
+485,34,Doctorate,Lawyer,5,Widowed,50,Rural,1
+486,25,Associate's,Financial Analyst,7,Married,45,Rural,1
+487,47,High School,Project Manager,20,Single,40,Urban,1
+488,52,Doctorate,Sales Representative,18,Single,30,Urban,1
+489,23,Doctorate,Teacher,3,Married,55,Rural,1
+490,18,Master's,Medical Doctor,0,Married,40,Rural,1
+491,64,Bachelor's,Marketing Specialist,37,Widowed,40,Rural,0
+492,31,Associate's,Teacher,3,Married,40,Rural,0
+493,21,Master's,Construction Laborer,2,Married,50,Rural,1
+494,63,Doctorate,Retired,36,Married,50,Urban,1
+495,56,Master's,Data Scientist,34,Single,45,Rural,1
+496,56,Doctorate,Retired,21,Married,0,Rural,1
+497,48,Associate's,Medical Doctor,24,Widowed,45,Urban,1
+498,24,Associate's,Marketing Specialist,0,Married,45,Rural,0
+499,43,Master's,Retired,12,Widowed,40,Rural,1
+500,20,Doctorate,Data Scientist,2,Widowed,45,Rural,1
+501,23,Associate's,Retail Associate,3,Married,55,Urban,0
+502,44,Doctorate,Teacher,4,Widowed,45,Urban,1
+503,33,Bachelor's,Engineer,14,Widowed,0,Rural,0
+504,25,Master's,Marketing Specialist,6,Widowed,40,Urban,1
+505,27,Doctorate,Marketing Specialist,4,Single,50,Rural,1
+506,51,Master's,Medical Doctor,29,Married,55,Urban,1
+507,47,Master's,University Professor,7,Single,50,Rural,1
+508,59,Doctorate,Sales Representative,15,Married,55,Rural,1
+509,22,Bachelor's,Data Scientist,2,Widowed,45,Rural,1
+510,41,Bachelor's,Engineer,4,Single,35,Urban,1
+511,25,Associate's,Data Scientist,6,Married,50,Rural,1
+512,48,High School,Software Engineer,20,Married,50,Rural,1
+513,24,Master's,Marketing Specialist,6,Married,30,Urban,1
+514,24,High School,Teacher,0,Married,60,Rural,0
+515,58,High School,Engineer,23,Widowed,40,Rural,0
+516,41,Bachelor's,Medical Doctor,4,Widowed,30,Urban,1
+517,35,Associate's,Construction Laborer,5,Single,50,Rural,0
+518,24,Bachelor's,Medical Doctor,2,Widowed,60,Rural,1
+519,56,Associate's,Project Manager,28,Single,50,Rural,1
+520,33,High School,Sales Representative,15,Widowed,35,Urban,0
+521,42,Doctorate,Data Scientist,18,Single,50,Urban,1
+522,58,High School,Barista,22,Married,45,Rural,1
+523,42,High School,Project Manager,18,Married,60,Rural,1
+524,46,High School,Financial Analyst,14,Widowed,35,Urban,1
+525,34,Master's,Teacher,9,Single,55,Urban,1
+526,39,High School,Sales Representative,0,Single,0,Urban,0
+527,63,Associate's,Financial Analyst,39,Married,40,Rural,1
+528,25,Doctorate,Retired,7,Married,30,Urban,1
+529,29,Bachelor's,Lawyer,7,Married,50,Urban,1
+530,61,Bachelor's,University Professor,16,Widowed,50,Rural,1
+531,64,High School,Sales Representative,0,Single,40,Urban,0
+532,56,Associate's,Sales Representative,22,Single,50,Urban,0
+533,21,Master's,Project Manager,1,Married,50,Rural,1
+534,43,High School,Engineer,14,Widowed,60,Rural,0
+535,35,Doctorate,Retired,3,Single,40,Urban,1
+536,36,Doctorate,Teacher,14,Single,55,Rural,1
+537,42,Master's,Construction Laborer,7,Single,30,Rural,1
+538,26,Doctorate,Sales Representative,5,Widowed,30,Urban,1
+539,50,High School,Barista,25,Widowed,50,Rural,0
+540,29,Master's,University Professor,6,Widowed,50,Rural,1
+541,24,Master's,University Professor,0,Widowed,55,Rural,1
+542,57,Associate's,Medical Doctor,37,Single,35,Rural,1
+543,30,Bachelor's,Teacher,4,Married,55,Rural,0
+544,32,High School,Teacher,8,Married,55,Urban,1
+545,38,Master's,Sales Representative,13,Widowed,0,Urban,1
+546,28,Associate's,Software Engineer,7,Married,50,Urban,1
+547,38,Master's,Marketing Specialist,12,Married,50,Urban,1
+548,55,High School,Sales Representative,24,Widowed,30,Urban,0
+549,44,Associate's,Barista,13,Widowed,45,Urban,0
+550,30,Associate's,Teacher,5,Widowed,60,Urban,0
+551,40,Associate's,Software Engineer,0,Widowed,45,Rural,1
+552,65,Bachelor's,Retail Associate,37,Married,40,Urban,1
+553,39,Associate's,Engineer,12,Married,60,Urban,1
+554,32,Bachelor's,Project Manager,3,Single,45,Urban,1
+555,62,Doctorate,Engineer,28,Widowed,40,Rural,1
+556,43,Associate's,Barista,19,Married,0,Rural,0
+557,57,Bachelor's,Marketing Specialist,25,Single,50,Rural,0
+558,47,Doctorate,Engineer,1,Married,60,Urban,1
+559,63,Doctorate,Project Manager,3,Widowed,35,Rural,1
+560,28,Master's,Sales Representative,2,Widowed,30,Urban,1
+561,24,Doctorate,Teacher,5,Widowed,30,Rural,1
+562,36,Associate's,Software Engineer,12,Widowed,35,Urban,1
+563,31,Bachelor's,Teacher,8,Widowed,50,Urban,1
+564,39,Doctorate,Software Engineer,15,Married,40,Urban,1
+565,56,Doctorate,University Professor,32,Widowed,50,Rural,1
+566,60,Bachelor's,Data Scientist,42,Widowed,35,Rural,1
+567,44,Master's,Barista,7,Single,55,Urban,1
+568,20,Doctorate,Engineer,1,Married,30,Urban,1
+569,52,Bachelor's,University Professor,19,Widowed,35,Urban,1
+570,41,Bachelor's,Marketing Specialist,4,Single,55,Urban,1
+571,64,High School,Software Engineer,26,Single,50,Urban,1
+572,36,High School,Marketing Specialist,15,Widowed,30,Rural,0
+573,18,Doctorate,Medical Doctor,0,Widowed,50,Urban,1
+574,50,Associate's,Retail Associate,4,Married,50,Rural,0
+575,21,Bachelor's,Retired,1,Married,40,Rural,0
+576,42,Doctorate,Software Engineer,10,Widowed,60,Rural,1
+577,50,Associate's,Marketing Specialist,24,Widowed,45,Rural,0
+578,64,Master's,Sales Representative,1,Married,0,Urban,1
+579,22,Associate's,Teacher,0,Married,60,Rural,0
+580,61,Bachelor's,Barista,41,Widowed,60,Rural,0
+581,22,Bachelor's,Construction Laborer,4,Widowed,0,Urban,1
+582,35,Associate's,Financial Analyst,15,Married,50,Rural,1
+583,55,Master's,Software Engineer,16,Married,50,Urban,1
+584,61,Doctorate,Financial Analyst,15,Single,45,Rural,1
+585,37,High School,Teacher,19,Widowed,35,Rural,0
+586,26,Master's,Retail Associate,5,Single,45,Urban,1
+587,65,Associate's,Sales Representative,27,Single,30,Rural,0
+588,26,Doctorate,University Professor,5,Widowed,40,Rural,1
+589,46,Associate's,Medical Doctor,23,Widowed,45,Urban,1
+590,63,Doctorate,Medical Doctor,36,Single,60,Urban,1
+591,27,Master's,Engineer,4,Single,55,Urban,1
+592,27,Bachelor's,Barista,1,Married,0,Urban,1
+593,27,Associate's,Barista,4,Widowed,40,Rural,0
+594,39,Doctorate,University Professor,6,Single,50,Rural,1
+595,60,Master's,Barista,27,Married,45,Urban,1
+596,40,Master's,Data Scientist,10,Widowed,55,Rural,1
+597,53,Master's,Financial Analyst,28,Married,55,Rural,1
+598,56,High School,Software Engineer,12,Married,40,Urban,1
+599,57,Doctorate,Lawyer,18,Widowed,0,Rural,1
+600,25,Associate's,University Professor,7,Widowed,50,Urban,1
+601,35,High School,Barista,15,Single,50,Urban,0
+602,25,Associate's,Software Engineer,6,Single,0,Rural,1
+603,27,Doctorate,Retail Associate,3,Widowed,60,Urban,1
+604,27,Doctorate,Financial Analyst,7,Married,30,Rural,1
+605,26,Doctorate,Project Manager,8,Single,30,Rural,1
+606,40,Associate's,Construction Laborer,10,Single,0,Rural,0
+607,55,High School,University Professor,26,Single,0,Urban,1
+608,48,Bachelor's,Project Manager,18,Single,0,Urban,1
+609,39,Doctorate,Marketing Specialist,10,Widowed,40,Rural,1
+610,56,Bachelor's,Marketing Specialist,6,Widowed,45,Urban,1
+611,31,Doctorate,Data Scientist,0,Single,30,Urban,1
+612,64,Doctorate,Project Manager,27,Married,30,Rural,1
+613,43,Associate's,Retired,23,Single,60,Urban,0
+614,23,Bachelor's,Engineer,2,Widowed,60,Urban,1
+615,36,High School,Marketing Specialist,8,Married,60,Urban,1
+616,29,Master's,Sales Representative,7,Single,40,Urban,1
+617,52,High School,Financial Analyst,19,Widowed,50,Rural,1
+618,37,Doctorate,Software Engineer,1,Married,0,Urban,1
+619,27,High School,Marketing Specialist,8,Married,30,Rural,0
+620,48,High School,University Professor,11,Married,30,Rural,1
+621,33,Associate's,Medical Doctor,1,Widowed,40,Rural,1
+622,63,High School,Barista,2,Widowed,45,Urban,0
+623,64,Doctorate,Barista,12,Widowed,0,Rural,1
+624,31,Doctorate,Retired,13,Single,60,Rural,1
+625,28,Associate's,Medical Doctor,7,Widowed,35,Urban,1
+626,50,Bachelor's,Medical Doctor,11,Married,30,Urban,1
+627,40,Doctorate,Barista,12,Widowed,60,Rural,1
+628,59,Associate's,Teacher,32,Married,45,Rural,1
+629,40,Master's,Medical Doctor,12,Married,45,Urban,1
+630,35,Doctorate,Construction Laborer,0,Widowed,35,Rural,1
+631,22,Bachelor's,Data Scientist,2,Married,55,Rural,1
+632,58,Master's,Sales Representative,27,Married,40,Urban,1
+633,35,Master's,Retired,3,Married,40,Rural,1
+634,22,Master's,University Professor,1,Married,0,Rural,1
+635,41,Master's,Barista,23,Widowed,0,Rural,1
+636,40,Associate's,Sales Representative,9,Single,55,Urban,0
+637,20,Associate's,Software Engineer,0,Widowed,60,Rural,1
+638,36,Bachelor's,Lawyer,16,Married,30,Rural,1
+639,18,Master's,Lawyer,0,Widowed,50,Urban,1
+640,35,Doctorate,Marketing Specialist,0,Widowed,55,Rural,1
+641,50,Associate's,Sales Representative,26,Single,50,Rural,0
+642,54,Associate's,Retail Associate,9,Married,60,Urban,1
+643,53,Associate's,Construction Laborer,9,Single,45,Rural,0
+644,33,Bachelor's,University Professor,13,Widowed,35,Urban,1
+645,39,Bachelor's,Marketing Specialist,13,Single,55,Urban,1
+646,31,Bachelor's,Teacher,10,Married,40,Rural,0
+647,57,High School,Teacher,17,Married,35,Rural,0
+648,24,Bachelor's,Sales Representative,6,Married,35,Rural,0
+649,22,Associate's,Engineer,1,Married,35,Rural,0
+650,20,Associate's,Barista,0,Widowed,50,Urban,0
+651,56,High School,Marketing Specialist,35,Single,35,Urban,0
+652,45,High School,Project Manager,0,Married,60,Rural,1
+653,51,Bachelor's,Engineer,26,Widowed,50,Urban,1
+654,31,Associate's,Teacher,1,Single,0,Rural,0
+655,57,Bachelor's,Financial Analyst,20,Single,55,Urban,1
+656,29,Associate's,Marketing Specialist,2,Single,35,Rural,0
+657,47,Master's,Financial Analyst,24,Widowed,30,Urban,1
+658,48,Associate's,Construction Laborer,11,Married,0,Rural,0
+659,65,High School,Project Manager,20,Widowed,35,Rural,1
+660,65,Master's,Marketing Specialist,26,Single,60,Urban,1
+661,29,Doctorate,Medical Doctor,5,Widowed,0,Urban,1
+662,32,Bachelor's,Engineer,1,Single,30,Rural,0
+663,35,Associate's,Teacher,14,Married,40,Urban,0
+664,21,Associate's,Retired,2,Married,0,Rural,0
+665,34,High School,Marketing Specialist,16,Widowed,40,Rural,0
+666,22,High School,Engineer,4,Married,50,Rural,0
+667,52,High School,Retired,10,Single,0,Rural,0
+668,22,Master's,Construction Laborer,1,Single,0,Rural,1
+669,63,Master's,Retail Associate,42,Single,30,Rural,1
+670,61,Bachelor's,Data Scientist,27,Single,60,Urban,1
+671,61,High School,Project Manager,14,Married,35,Urban,1
+672,43,Master's,Marketing Specialist,11,Single,0,Rural,1
+673,57,Bachelor's,Retired,9,Married,40,Rural,0
+674,43,Doctorate,Medical Doctor,9,Married,0,Rural,1
+675,49,Master's,Sales Representative,0,Widowed,50,Urban,1
+676,53,Associate's,Sales Representative,28,Married,40,Urban,0
+677,35,Master's,Engineer,14,Widowed,0,Rural,1
+678,46,Doctorate,Construction Laborer,28,Married,50,Rural,1
+679,24,Doctorate,Medical Doctor,1,Widowed,35,Rural,1
+680,64,Bachelor's,Sales Representative,21,Single,45,Rural,0
+681,28,Associate's,Lawyer,8,Married,35,Urban,1
+682,52,Doctorate,Data Scientist,25,Married,60,Urban,1
+683,41,Master's,Retired,0,Single,55,Urban,1
+684,31,Doctorate,Financial Analyst,4,Married,60,Rural,1
+685,19,Bachelor's,Sales Representative,1,Single,0,Urban,1
+686,33,Associate's,Teacher,7,Married,35,Urban,0
+687,51,High School,Teacher,12,Married,30,Urban,0
+688,24,High School,Data Scientist,1,Single,35,Rural,1
+689,61,Master's,Project Manager,8,Widowed,60,Urban,1
+690,48,Doctorate,Retired,10,Widowed,55,Rural,1
+691,55,Associate's,Retired,33,Single,30,Urban,0
+692,58,Associate's,Financial Analyst,19,Widowed,0,Urban,1
+693,18,Master's,Teacher,0,Widowed,40,Rural,1
+694,33,Associate's,Project Manager,11,Widowed,35,Rural,1
+695,18,Master's,Project Manager,0,Widowed,55,Rural,1
+696,45,High School,Lawyer,12,Widowed,50,Urban,1
+697,39,Doctorate,Marketing Specialist,16,Married,30,Urban,1
+698,63,Doctorate,University Professor,37,Single,60,Urban,1
+699,27,High School,Marketing Specialist,4,Widowed,45,Urban,0
+700,56,Bachelor's,Software Engineer,33,Widowed,60,Urban,1
+701,31,High School,Sales Representative,3,Married,55,Urban,0
+702,60,Doctorate,Barista,21,Married,35,Urban,1
+703,30,High School,Software Engineer,2,Widowed,50,Rural,1
+704,41,Master's,Barista,13,Widowed,40,Rural,1
+705,35,Master's,Marketing Specialist,15,Married,50,Rural,1
+706,28,Associate's,Sales Representative,9,Married,35,Rural,0
+707,35,Master's,Software Engineer,9,Married,35,Urban,1
+708,35,Bachelor's,Lawyer,0,Married,30,Rural,1
+709,46,Doctorate,Sales Representative,9,Married,35,Urban,1
+710,47,Master's,Sales Representative,27,Single,0,Urban,1
+711,56,Associate's,Engineer,30,Widowed,50,Rural,0
+712,24,Associate's,Retail Associate,4,Widowed,40,Urban,0
+713,57,Master's,Teacher,37,Widowed,30,Rural,1
+714,32,Doctorate,Retired,8,Married,40,Urban,1
+715,51,Associate's,Retired,25,Single,45,Rural,0
+716,20,Master's,Lawyer,2,Married,0,Rural,1
+717,26,Bachelor's,Teacher,0,Single,40,Rural,0
+718,38,Bachelor's,Financial Analyst,11,Married,35,Urban,1
+719,49,Bachelor's,Retired,1,Single,50,Urban,1
+720,65,Associate's,Construction Laborer,39,Married,50,Urban,1
+721,44,High School,Medical Doctor,9,Widowed,45,Rural,1
+722,45,Master's,Medical Doctor,2,Widowed,0,Urban,1
+723,51,High School,Data Scientist,21,Married,0,Rural,1
+724,56,Associate's,Marketing Specialist,9,Married,60,Urban,1
+725,36,Bachelor's,Financial Analyst,0,Widowed,60,Rural,1
+726,27,Doctorate,Barista,4,Widowed,35,Urban,1
+727,42,High School,Retail Associate,20,Married,0,Urban,0
+728,30,Bachelor's,Financial Analyst,9,Married,50,Rural,1
+729,35,Doctorate,University Professor,16,Single,45,Rural,1
+730,18,Associate's,Medical Doctor,0,Single,40,Rural,1
+731,39,Doctorate,Barista,3,Married,40,Urban,1
+732,42,Associate's,Medical Doctor,9,Married,60,Urban,1
+733,49,Associate's,Retired,5,Single,40,Rural,0
+734,42,High School,Marketing Specialist,17,Single,30,Rural,0
+735,30,Master's,Lawyer,1,Married,55,Urban,1
+736,50,High School,Sales Representative,29,Widowed,55,Urban,0
+737,47,Master's,University Professor,17,Single,30,Rural,1
+738,42,Doctorate,Financial Analyst,23,Widowed,45,Urban,1
+739,55,Doctorate,University Professor,9,Single,40,Rural,1
+740,44,Doctorate,Sales Representative,1,Widowed,60,Rural,1
+741,21,Bachelor's,Construction Laborer,1,Single,45,Urban,1
+742,43,Master's,Retail Associate,22,Widowed,40,Urban,1
+743,56,Master's,Retired,4,Widowed,40,Urban,1
+744,52,High School,Data Scientist,15,Widowed,45,Rural,1
+745,30,High School,Marketing Specialist,8,Widowed,45,Rural,0
+746,60,Bachelor's,Engineer,8,Widowed,55,Urban,1
+747,51,Bachelor's,Retired,11,Widowed,35,Urban,1
+748,59,Master's,Marketing Specialist,33,Single,60,Rural,1
+749,18,High School,Medical Doctor,0,Widowed,35,Urban,1
+750,32,Associate's,Teacher,0,Single,60,Rural,0
+751,42,Associate's,Project Manager,11,Married,0,Urban,1
+752,49,Master's,Barista,13,Single,35,Urban,1
+753,40,High School,Teacher,7,Single,60,Urban,0
+754,65,Bachelor's,Sales Representative,24,Married,60,Rural,1
+755,39,Associate's,Sales Representative,21,Widowed,30,Urban,0
+756,60,Master's,Project Manager,4,Single,30,Rural,1
+757,54,Doctorate,Retail Associate,26,Single,30,Urban,1
+758,21,Bachelor's,Financial Analyst,0,Single,0,Rural,1
+759,20,Bachelor's,Software Engineer,2,Single,30,Rural,1
+760,44,High School,Barista,0,Single,0,Rural,0
+761,46,Doctorate,Teacher,12,Married,40,Rural,1
+762,56,Master's,Retired,21,Single,40,Urban,1
+763,63,Doctorate,Retired,38,Single,45,Rural,1
+764,23,Bachelor's,Retired,3,Single,40,Urban,1
+765,65,Doctorate,Data Scientist,22,Widowed,35,Urban,1
+766,21,High School,Engineer,2,Married,0,Rural,0
+767,34,Associate's,Marketing Specialist,13,Married,55,Urban,1
+768,39,Master's,Data Scientist,8,Widowed,60,Urban,1
+769,26,Associate's,University Professor,1,Widowed,0,Rural,1
+770,38,Associate's,Marketing Specialist,16,Married,40,Urban,0
+771,33,Bachelor's,Data Scientist,9,Widowed,60,Urban,1
+772,60,Bachelor's,Data Scientist,20,Widowed,60,Urban,1
+773,24,Associate's,Marketing Specialist,6,Widowed,40,Rural,0
+774,62,Bachelor's,Retired,41,Widowed,30,Rural,0
+775,61,Master's,Retired,30,Single,0,Urban,1
+776,46,Master's,Medical Doctor,9,Married,0,Urban,1
+777,51,Associate's,Barista,26,Single,35,Rural,0
+778,20,Bachelor's,Lawyer,2,Single,35,Urban,1
+779,38,High School,Medical Doctor,8,Married,35,Urban,1
+780,19,High School,Retired,0,Married,0,Rural,0
+781,21,Master's,Teacher,2,Widowed,50,Urban,1
+782,33,High School,Construction Laborer,5,Married,30,Urban,0
+783,34,Doctorate,Lawyer,9,Widowed,40,Urban,1
+784,40,Associate's,Retail Associate,12,Widowed,30,Rural,0
+785,64,High School,Lawyer,41,Widowed,40,Rural,1
+786,30,Master's,Marketing Specialist,9,Married,55,Rural,1
+787,28,Bachelor's,Marketing Specialist,7,Single,40,Rural,0
+788,60,Associate's,Medical Doctor,25,Married,50,Rural,1
+789,27,Master's,Project Manager,9,Married,40,Urban,1
+790,40,Associate's,Retail Associate,10,Married,50,Urban,1
+791,60,Master's,Marketing Specialist,30,Single,40,Rural,1
+792,25,Doctorate,University Professor,2,Married,60,Urban,1
+793,45,Bachelor's,Retail Associate,5,Widowed,50,Urban,1
+794,28,Associate's,Financial Analyst,9,Married,60,Urban,1
+795,34,Bachelor's,Retail Associate,6,Married,45,Urban,1
+796,37,High School,Medical Doctor,17,Married,55,Rural,1
+797,64,Doctorate,Medical Doctor,15,Widowed,40,Urban,1
+798,19,Doctorate,Project Manager,1,Single,50,Rural,1
+799,31,Doctorate,Marketing Specialist,7,Widowed,45,Urban,1
+800,55,High School,Software Engineer,23,Single,50,Urban,1
+801,60,Master's,Medical Doctor,28,Widowed,60,Urban,1
+802,33,Bachelor's,Data Scientist,9,Single,55,Urban,1
+803,30,Doctorate,Lawyer,5,Widowed,0,Urban,1
+804,30,High School,Medical Doctor,8,Single,45,Rural,1
+805,64,Master's,University Professor,0,Widowed,35,Rural,1
+806,36,Bachelor's,Marketing Specialist,10,Widowed,50,Rural,0
+807,40,High School,University Professor,15,Single,45,Rural,1
+808,29,Doctorate,Financial Analyst,10,Widowed,50,Urban,1
+809,27,Bachelor's,Project Manager,4,Widowed,40,Urban,1
+810,23,High School,Lawyer,1,Widowed,35,Urban,1
+811,65,Associate's,University Professor,4,Married,55,Rural,1
+812,26,Bachelor's,Retired,1,Widowed,60,Rural,0
+813,54,Doctorate,Sales Representative,23,Single,0,Urban,1
+814,38,Bachelor's,Project Manager,15,Married,55,Urban,1
+815,40,High School,Medical Doctor,20,Single,45,Rural,1
+816,62,Master's,University Professor,32,Married,0,Urban,1
+817,31,Associate's,Engineer,10,Single,0,Rural,0
+818,50,Bachelor's,Marketing Specialist,24,Widowed,50,Rural,0
+819,63,Master's,Software Engineer,36,Widowed,50,Urban,1
+820,26,Master's,Financial Analyst,8,Widowed,55,Urban,1
+821,30,Doctorate,Lawyer,4,Widowed,40,Rural,1
+822,56,Bachelor's,University Professor,2,Single,0,Rural,1
+823,35,Master's,Marketing Specialist,16,Married,0,Urban,1
+824,34,High School,Lawyer,5,Single,60,Rural,1
+825,49,Doctorate,Medical Doctor,20,Married,0,Urban,1
+826,27,High School,Barista,1,Married,40,Rural,0
+827,64,Bachelor's,Software Engineer,34,Single,60,Urban,1
+828,26,Associate's,Data Scientist,5,Single,35,Rural,1
+829,36,High School,Project Manager,18,Single,45,Urban,1
+830,57,High School,Lawyer,8,Widowed,0,Rural,1
+831,25,High School,Software Engineer,4,Widowed,45,Rural,1
+832,38,Bachelor's,Lawyer,10,Widowed,50,Urban,1
+833,40,Master's,Lawyer,11,Married,40,Rural,1
+834,63,Bachelor's,University Professor,10,Single,60,Rural,1
+835,41,High School,Engineer,5,Single,60,Rural,0
+836,28,High School,Lawyer,8,Single,60,Urban,1
+837,49,Bachelor's,University Professor,4,Married,0,Urban,1
+838,45,Bachelor's,Lawyer,12,Widowed,45,Urban,1
+839,64,High School,Retired,22,Married,30,Rural,0
+840,42,Doctorate,Data Scientist,10,Married,35,Rural,1
+841,58,Bachelor's,Project Manager,16,Married,30,Rural,1
+842,53,Doctorate,Retired,13,Single,40,Rural,1
+843,37,Bachelor's,Engineer,10,Widowed,30,Rural,0
+844,39,Bachelor's,Engineer,5,Widowed,40,Rural,0
+845,56,Doctorate,Retired,13,Married,55,Rural,1
+846,40,Bachelor's,Teacher,13,Single,60,Rural,0
+847,29,Bachelor's,Barista,11,Single,55,Urban,1
+848,29,Doctorate,Lawyer,7,Married,0,Urban,1
+849,34,Master's,Software Engineer,14,Married,55,Urban,1
+850,50,Doctorate,Engineer,16,Single,50,Urban,1
+851,33,Master's,Financial Analyst,3,Widowed,30,Rural,1
+852,48,Master's,Sales Representative,12,Widowed,55,Urban,1
+853,63,High School,Engineer,7,Married,55,Rural,1
+854,58,High School,Financial Analyst,31,Widowed,40,Rural,1
+855,61,Doctorate,Software Engineer,19,Single,30,Rural,1
+856,24,Master's,University Professor,5,Widowed,0,Rural,1
+857,37,Bachelor's,Construction Laborer,14,Married,35,Urban,1
+858,28,High School,Financial Analyst,1,Widowed,30,Urban,1
+859,63,Associate's,Sales Representative,37,Single,60,Urban,0
+860,47,Master's,Data Scientist,11,Single,30,Rural,1
+861,43,Doctorate,Medical Doctor,8,Single,55,Rural,1
+862,19,High School,University Professor,0,Widowed,55,Rural,1
+863,45,Bachelor's,Software Engineer,12,Married,50,Rural,1
+864,40,High School,Marketing Specialist,16,Single,0,Rural,0
+865,62,Associate's,Retail Associate,40,Widowed,45,Rural,0
+866,43,Associate's,Marketing Specialist,17,Married,55,Urban,1
+867,41,Master's,Retired,12,Married,45,Urban,1
+868,51,Doctorate,University Professor,3,Single,60,Urban,1
+869,18,Associate's,Lawyer,0,Widowed,30,Rural,1
+870,22,Associate's,Software Engineer,0,Widowed,40,Rural,1
+871,39,Doctorate,Sales Representative,10,Single,40,Rural,1
+872,47,Master's,University Professor,15,Married,0,Urban,1
+873,20,Bachelor's,Teacher,2,Widowed,40,Rural,0
+874,60,Bachelor's,Sales Representative,31,Married,0,Urban,1
+875,32,High School,Sales Representative,12,Single,60,Rural,0
+876,60,High School,Construction Laborer,25,Married,45,Urban,1
+877,46,Bachelor's,Software Engineer,24,Widowed,35,Urban,1
+878,36,Associate's,Retail Associate,3,Single,30,Urban,0
+879,60,Doctorate,Retail Associate,5,Single,0,Rural,1
+880,60,Master's,Lawyer,22,Married,45,Rural,1
+881,62,High School,University Professor,11,Widowed,35,Rural,1
+882,52,High School,Engineer,27,Widowed,50,Rural,0
+883,32,Associate's,Lawyer,13,Married,30,Rural,1
+884,56,Master's,Construction Laborer,30,Married,60,Urban,1
+885,43,Associate's,Retired,19,Widowed,55,Rural,0
+886,35,Doctorate,Marketing Specialist,15,Widowed,45,Urban,1
+887,41,Doctorate,Medical Doctor,9,Widowed,40,Urban,1
+888,37,Master's,Software Engineer,3,Widowed,60,Rural,1
+889,44,Master's,Software Engineer,4,Widowed,40,Urban,1
+890,21,High School,Retired,1,Married,0,Urban,0
+891,60,Master's,Barista,8,Single,50,Rural,1
+892,64,Bachelor's,Sales Representative,3,Widowed,45,Rural,0
+893,42,Bachelor's,Software Engineer,24,Widowed,50,Urban,1
+894,50,High School,Teacher,21,Widowed,60,Urban,0
+895,45,Doctorate,Financial Analyst,23,Married,40,Rural,1
+896,28,Associate's,University Professor,4,Widowed,50,Urban,1
+897,64,Master's,Marketing Specialist,2,Married,60,Rural,1
+898,32,Associate's,Marketing Specialist,8,Widowed,35,Rural,0
+899,39,Master's,Financial Analyst,11,Single,60,Urban,1
+900,54,High School,Lawyer,26,Married,0,Rural,1
+901,57,Master's,Retail Associate,36,Single,35,Urban,1
+902,36,Bachelor's,Teacher,2,Single,60,Rural,0
+903,29,Associate's,Teacher,6,Married,0,Urban,0
+904,46,Doctorate,Sales Representative,21,Single,0,Rural,1
+905,37,Master's,Barista,17,Widowed,35,Rural,1
+906,41,Bachelor's,Financial Analyst,10,Single,50,Urban,1
+907,31,High School,Barista,4,Married,40,Rural,0
+908,20,Master's,Medical Doctor,0,Single,40,Urban,1
+909,39,Associate's,Project Manager,8,Married,60,Urban,1
+910,30,Associate's,Construction Laborer,9,Widowed,35,Rural,0
+911,53,Associate's,Marketing Specialist,28,Married,55,Urban,1
+912,43,Doctorate,Barista,2,Single,0,Urban,1
+913,24,Master's,University Professor,0,Married,30,Rural,1
+914,53,Master's,Retail Associate,3,Widowed,40,Urban,1
+915,52,High School,Medical Doctor,20,Married,45,Rural,1
+916,36,Doctorate,Construction Laborer,1,Married,0,Urban,1
+917,62,High School,Financial Analyst,35,Single,30,Rural,1
+918,19,High School,Teacher,1,Widowed,60,Rural,0
+919,23,Doctorate,Project Manager,2,Single,55,Urban,1
+920,64,Associate's,Barista,23,Single,45,Urban,0
+921,56,High School,Sales Representative,18,Single,35,Rural,0
+922,28,Bachelor's,Retired,0,Single,30,Urban,1
+923,33,Associate's,University Professor,6,Single,35,Urban,1
+924,65,Associate's,Barista,30,Single,0,Rural,0
+925,64,Master's,Marketing Specialist,42,Single,30,Rural,1
+926,60,Master's,University Professor,11,Widowed,50,Rural,1
+927,64,Bachelor's,University Professor,0,Married,30,Rural,1
+928,46,Master's,Software Engineer,20,Married,0,Rural,1
+929,57,Bachelor's,Medical Doctor,29,Single,40,Rural,1
+930,20,Associate's,Teacher,1,Widowed,55,Urban,0
+931,33,Doctorate,Financial Analyst,10,Widowed,50,Urban,1
+932,47,High School,Sales Representative,23,Married,35,Rural,0
+933,19,Bachelor's,Marketing Specialist,0,Widowed,30,Rural,0
+934,35,Master's,Financial Analyst,17,Married,35,Rural,1
+935,63,Master's,Project Manager,45,Single,45,Rural,1
+936,26,Bachelor's,Medical Doctor,1,Married,60,Rural,1
+937,43,Associate's,University Professor,15,Widowed,60,Urban,1
+938,20,Bachelor's,Teacher,0,Single,60,Rural,0
+939,41,High School,Software Engineer,5,Single,45,Urban,1
+940,36,High School,Barista,5,Single,45,Urban,0
+941,23,Doctorate,Financial Analyst,0,Single,30,Urban,1
+942,37,Associate's,University Professor,13,Married,35,Urban,1
+943,52,Bachelor's,Construction Laborer,3,Married,35,Rural,0
+944,36,High School,Retired,16,Widowed,35,Rural,0
+945,18,Master's,Engineer,0,Single,30,Rural,1
+946,63,Doctorate,Data Scientist,42,Married,35,Rural,1
+947,65,Master's,Barista,38,Single,50,Urban,1
+948,24,High School,Retail Associate,3,Single,30,Urban,0
+949,41,Bachelor's,Medical Doctor,15,Single,55,Urban,1
+950,61,Doctorate,Lawyer,17,Single,45,Rural,1
+951,47,Doctorate,Engineer,21,Widowed,35,Urban,1
+952,63,Bachelor's,University Professor,40,Widowed,50,Urban,1
+953,38,High School,Financial Analyst,20,Widowed,45,Urban,1
+954,45,Bachelor's,University Professor,16,Widowed,0,Urban,1
+955,61,Master's,Financial Analyst,3,Single,0,Urban,1
+956,59,Associate's,Barista,31,Widowed,55,Urban,0
+957,21,Bachelor's,Retail Associate,3,Married,30,Rural,0
+958,18,Bachelor's,Marketing Specialist,0,Single,55,Rural,0
+959,36,Master's,Project Manager,0,Married,40,Rural,1
+960,27,High School,Medical Doctor,9,Single,45,Urban,1
+961,64,High School,Barista,26,Widowed,30,Rural,0
+962,62,High School,Financial Analyst,16,Widowed,45,Urban,1
+963,52,Bachelor's,Medical Doctor,0,Married,60,Urban,1
+964,64,Associate's,Software Engineer,5,Single,55,Urban,1
+965,34,Master's,Sales Representative,14,Married,40,Rural,1
+966,46,High School,Data Scientist,28,Widowed,45,Rural,1
+967,65,Doctorate,Financial Analyst,28,Single,60,Rural,1
+968,20,Master's,Financial Analyst,1,Widowed,55,Rural,1
+969,29,Bachelor's,University Professor,8,Married,50,Urban,1
+970,44,Doctorate,Project Manager,4,Married,0,Rural,1
+971,64,Master's,Sales Representative,18,Married,55,Urban,1
+972,36,Doctorate,Marketing Specialist,12,Married,30,Urban,1
+973,65,Associate's,Barista,10,Single,40,Urban,0
+974,37,Doctorate,Lawyer,4,Single,30,Rural,1
+975,18,High School,Marketing Specialist,0,Widowed,40,Urban,0
+976,54,High School,Engineer,34,Widowed,60,Urban,0
+977,56,Bachelor's,Medical Doctor,22,Married,60,Rural,1
+978,25,Doctorate,Financial Analyst,7,Married,50,Urban,1
+979,62,Associate's,Financial Analyst,19,Single,0,Rural,1
+980,33,Doctorate,Barista,15,Widowed,55,Urban,1
+981,45,Master's,Financial Analyst,12,Widowed,60,Rural,1
+982,34,Master's,Retired,14,Widowed,55,Rural,1
+983,45,High School,Teacher,2,Single,50,Rural,0
+984,25,Master's,Project Manager,4,Married,35,Rural,1
+985,22,Bachelor's,Barista,2,Widowed,60,Rural,0
+986,34,Doctorate,Sales Representative,13,Single,30,Rural,1
+987,22,Bachelor's,Medical Doctor,1,Single,55,Urban,1
+988,51,Master's,Retail Associate,3,Widowed,35,Urban,1
+989,61,Master's,Sales Representative,20,Widowed,50,Rural,1
+990,43,Master's,Project Manager,13,Widowed,50,Urban,1
+991,47,High School,Barista,29,Single,40,Rural,0
+992,20,Bachelor's,Retail Associate,2,Married,0,Urban,1
+993,42,Associate's,Marketing Specialist,6,Single,60,Urban,0
+994,21,Doctorate,Marketing Specialist,2,Widowed,35,Rural,1
+995,56,Doctorate,Data Scientist,23,Married,60,Urban,1
+996,32,Doctorate,Engineer,8,Widowed,55,Rural,1
+997,65,Doctorate,Teacher,45,Married,30,Rural,1
+998,59,Master's,Retail Associate,26,Widowed,30,Rural,1
+999,52,Doctorate,Marketing Specialist,21,Married,30,Rural,1

@@ -1,0 +1,18 @@
+I want you to induce a decision tree classifier based on features. I first give an example below.
+Then, I provide you with Features and want you to build a decision tree with a maximum depth of 2 using the most important features.
+The tree should classify credit scoring class (low credit scoring / high credit scoring).
+
+Features: sepal length (cm), sepal width (cm), petal length (cm), petal width (cm)
+
+Decision tree:
+|--- petal width (cm) <= 0.80
+||--- class: setosa
+|--- petal width (cm) > 0.80
+||--- petal width (cm) <= 1.75
+|||--- class: versicolor
+||--- petal width (cm) > 1.75
+|||--- class: virginica
+
+Features: Debt, Overdue days, Initial limit, BIRTHDATE, INCOME, PDN, SEX (Male / Female), EDU (High school / University / College / Incomplete, University), TERM (24 / 36 / 60), Credit history rating (C3 / A1 / B3 / B1 / C1 / D3 / B2 / A3 / A2 / D2), LV_AREA (g. Minsk / MINSKAJa / BRESTSKAJa / Gomel'skaja oblast' / Brestskaja oblast' / GRODNENSKAJa / MINSKAJa OBLAST' / Minskaja oblast' / Vitebskaja oblast' / VITEBSKAJa / etc.), LV_SETTLEMENTNAME (MINSK / Minsk / PRUSY / PINSK / SVETLOGORSK / Oktjabr' / RAJTsA / MIHALOVO / SMOLJaNY / BARANOVIChI / etc.), INDUSTRYNAME (Production / Medicine and healthcare / Finance and Insurance / Construction / Agriculture / Retired / Transport/Logistic / Science and Education / Trade / Ministry of Internal Affairs/Ministry of Emergency Situations/Ministry of Defense / etc.), UNDERAGECHILDRENCOUNT (0 / 1 / 2 / 3), FAMILYSTATUS (1 / 2)
+
+Decision Tree:

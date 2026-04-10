@@ -1,0 +1,1001 @@
+,Age,Gender,Location,Education,Income,Purchase History,Campaign Participation,label
+0,56,Male,"Los Angeles, CA",Bachelor's,92279,8,No,0
+1,46,Female,"Chicago, IL",High School,25434,3,Yes,1
+2,32,Female,"Los Angeles, CA",Master's,74047,8,No,1
+3,60,Female,"Los Angeles, CA",Bachelor's,57775,9,No,1
+4,25,Male,"Los Angeles, CA",Bachelor's,85769,2,Yes,0
+5,38,Male,"Los Angeles, CA",Master's,76677,7,No,1
+6,56,Male,"New York, NY",Master's,93555,0,No,1
+7,36,Male,"Boston, MA",Master's,95920,8,Yes,1
+8,40,Male,"New York, NY",Master's,55734,8,Yes,1
+9,28,Male,"Chicago, IL",High School,98503,9,No,0
+10,28,Male,"New York, NY",Master's,50603,1,No,1
+11,41,Male,"New York, NY",Bachelor's,86708,3,No,0
+12,53,Female,"Chicago, IL",Bachelor's,91926,7,Yes,1
+13,57,Female,"Chicago, IL",High School,78803,6,No,1
+14,41,Male,"Chicago, IL",Bachelor's,49332,0,No,0
+15,20,Male,"New York, NY",Bachelor's,31312,4,No,0
+16,39,Female,"New York, NY",Master's,94526,6,Yes,1
+17,19,Male,"Chicago, IL",Bachelor's,54179,3,Yes,0
+18,41,Male,"Boston, MA",High School,81442,0,Yes,0
+19,61,Male,"Boston, MA",Master's,50379,8,Yes,1
+20,47,Female,"Los Angeles, CA",Master's,27297,4,No,1
+21,55,Female,"Chicago, IL",High School,12011,1,Yes,1
+22,19,Female,"Los Angeles, CA",Master's,54014,7,No,1
+23,38,Female,"Boston, MA",Master's,21738,1,No,1
+24,50,Female,"Los Angeles, CA",High School,57498,2,No,1
+25,29,Male,"Chicago, IL",Master's,21120,9,No,0
+26,39,Female,"Chicago, IL",High School,18767,0,Yes,1
+27,61,Male,"Chicago, IL",High School,32852,1,Yes,0
+28,42,Male,"New York, NY",Bachelor's,89239,6,Yes,1
+29,44,Female,"Los Angeles, CA",Bachelor's,10929,9,Yes,1
+30,59,Female,"Boston, MA",Master's,87487,1,Yes,1
+31,45,Male,"Boston, MA",Master's,27438,5,No,1
+32,33,Male,"Boston, MA",High School,58515,2,Yes,0
+33,32,Male,"New York, NY",Master's,15744,3,Yes,1
+34,64,Female,"New York, NY",High School,93820,7,Yes,1
+35,61,Female,"Chicago, IL",High School,52417,2,Yes,1
+36,20,Female,"Boston, MA",Master's,17069,9,No,0
+37,54,Female,"New York, NY",High School,52359,5,No,1
+38,24,Female,"Chicago, IL",Bachelor's,29799,0,No,0
+39,38,Male,"Boston, MA",Master's,80188,6,No,1
+40,26,Female,"Los Angeles, CA",Bachelor's,99859,7,No,1
+41,56,Male,"Chicago, IL",Master's,17597,7,Yes,1
+42,35,Male,"New York, NY",High School,57093,2,No,0
+43,21,Male,"New York, NY",Master's,47226,9,No,0
+44,42,Female,"Chicago, IL",Bachelor's,82127,0,No,1
+45,31,Female,"Chicago, IL",High School,87362,8,Yes,1
+46,26,Female,"New York, NY",Master's,36417,5,Yes,0
+47,43,Male,"Los Angeles, CA",Master's,28693,8,No,1
+48,19,Male,"Boston, MA",Master's,89674,6,Yes,1
+49,37,Male,"Los Angeles, CA",Bachelor's,63161,0,Yes,0
+50,45,Male,"Chicago, IL",Bachelor's,12169,0,No,0
+51,64,Male,"Los Angeles, CA",Master's,94092,5,Yes,1
+52,24,Male,"New York, NY",High School,32052,4,Yes,0
+53,61,Female,"Chicago, IL",High School,81849,8,Yes,1
+54,25,Female,"Boston, MA",Bachelor's,83851,1,No,1
+55,64,Female,"New York, NY",High School,18036,7,No,1
+56,52,Female,"New York, NY",Bachelor's,41778,4,No,1
+57,31,Male,"Boston, MA",Master's,37734,1,Yes,1
+58,34,Male,"Boston, MA",Bachelor's,33173,9,No,0
+59,53,Female,"Los Angeles, CA",Bachelor's,40403,5,Yes,1
+60,57,Male,"Chicago, IL",Master's,76321,9,Yes,1
+61,21,Female,"Boston, MA",High School,81675,7,Yes,1
+62,19,Female,"Boston, MA",Bachelor's,16344,3,No,0
+63,23,Female,"Chicago, IL",Bachelor's,28800,1,No,0
+64,59,Male,"Boston, MA",Master's,35372,4,No,1
+65,21,Female,"Boston, MA",High School,71516,1,No,1
+66,46,Female,"Los Angeles, CA",Bachelor's,30538,1,Yes,1
+67,35,Female,"New York, NY",Master's,73918,5,No,1
+68,43,Male,"New York, NY",Bachelor's,24973,9,Yes,1
+69,61,Male,"New York, NY",Master's,81155,8,No,1
+70,51,Female,"New York, NY",High School,69500,3,No,1
+71,27,Male,"Boston, MA",High School,46575,5,No,0
+72,53,Male,"Chicago, IL",High School,52261,6,Yes,1
+73,31,Male,"Chicago, IL",High School,37716,5,Yes,0
+74,48,Male,"Los Angeles, CA",Bachelor's,13236,7,Yes,1
+75,32,Male,"Los Angeles, CA",Bachelor's,25848,3,Yes,0
+76,25,Male,"Boston, MA",High School,12352,0,Yes,0
+77,31,Male,"Chicago, IL",High School,11932,6,No,0
+78,40,Male,"Chicago, IL",High School,86449,2,Yes,0
+79,57,Male,"New York, NY",Bachelor's,18556,5,Yes,0
+80,38,Male,"Boston, MA",High School,96836,1,Yes,0
+81,33,Female,"Boston, MA",High School,15498,8,Yes,1
+82,62,Female,"New York, NY",High School,86118,0,No,1
+83,35,Male,"Boston, MA",Master's,60098,5,Yes,1
+84,64,Female,"Boston, MA",High School,74386,5,No,1
+85,41,Female,"Los Angeles, CA",Master's,19569,4,No,1
+86,43,Male,"Chicago, IL",Master's,66882,4,No,1
+87,42,Male,"Boston, MA",High School,80393,0,Yes,0
+88,62,Male,"Los Angeles, CA",Master's,10340,9,No,1
+89,58,Female,"Chicago, IL",High School,53949,4,Yes,1
+90,46,Female,"New York, NY",Bachelor's,92302,1,Yes,1
+91,32,Male,"Los Angeles, CA",Bachelor's,72443,6,Yes,1
+92,62,Male,"Los Angeles, CA",Bachelor's,84027,2,Yes,0
+93,18,Male,"Chicago, IL",Bachelor's,10138,3,Yes,0
+94,42,Female,"New York, NY",Master's,10358,2,No,1
+95,24,Female,"Los Angeles, CA",High School,85250,2,No,1
+96,26,Female,"Boston, MA",High School,95376,3,Yes,1
+97,41,Female,"Boston, MA",High School,40654,4,No,1
+98,18,Male,"Boston, MA",Bachelor's,35879,0,Yes,0
+99,61,Male,"New York, NY",Bachelor's,91532,3,No,0
+100,25,Male,"Los Angeles, CA",High School,65778,7,No,0
+101,41,Male,"Boston, MA",Bachelor's,47772,9,No,0
+102,28,Female,"New York, NY",High School,68478,6,No,1
+103,34,Female,"Boston, MA",High School,74353,8,No,1
+104,25,Male,"Chicago, IL",High School,36762,4,Yes,0
+105,52,Male,"Los Angeles, CA",High School,23283,9,Yes,1
+106,52,Female,"Los Angeles, CA",High School,73922,3,No,1
+107,50,Male,"New York, NY",High School,49420,7,Yes,1
+108,22,Female,"New York, NY",High School,65568,8,No,1
+109,59,Male,"Los Angeles, CA",Bachelor's,95090,6,Yes,1
+110,56,Male,"Boston, MA",High School,30219,6,No,0
+111,58,Male,"Boston, MA",High School,67169,4,No,0
+112,45,Male,"Chicago, IL",Bachelor's,84965,3,No,0
+113,24,Male,"Boston, MA",Bachelor's,56840,9,Yes,1
+114,26,Male,"New York, NY",Bachelor's,54695,0,Yes,0
+115,25,Male,"New York, NY",High School,94754,9,No,0
+116,29,Female,"Boston, MA",Master's,87988,9,No,1
+117,51,Female,"New York, NY",Master's,68342,6,Yes,1
+118,50,Female,"Los Angeles, CA",Bachelor's,28951,0,Yes,1
+119,40,Female,"Los Angeles, CA",Master's,11307,0,Yes,1
+120,41,Female,"Boston, MA",Bachelor's,90388,4,Yes,1
+121,54,Male,"Los Angeles, CA",High School,45428,8,Yes,1
+122,52,Male,"Los Angeles, CA",Master's,85774,5,No,1
+123,61,Female,"Chicago, IL",High School,48975,2,Yes,1
+124,57,Male,"Chicago, IL",Master's,11140,2,No,1
+125,39,Female,"Los Angeles, CA",High School,34842,6,No,1
+126,44,Female,"Boston, MA",Master's,36421,5,Yes,1
+127,52,Male,"Chicago, IL",High School,11708,8,Yes,1
+128,18,Male,"New York, NY",High School,13630,5,No,0
+129,52,Male,"New York, NY",Master's,29595,4,Yes,1
+130,54,Female,"New York, NY",High School,86021,9,No,1
+131,64,Male,"Boston, MA",High School,38308,6,Yes,1
+132,31,Female,"Los Angeles, CA",High School,54789,0,Yes,1
+133,20,Female,"New York, NY",Master's,65690,6,Yes,1
+134,18,Female,"Boston, MA",Master's,36086,2,No,0
+135,22,Male,"Chicago, IL",High School,26859,8,Yes,0
+136,43,Male,"Los Angeles, CA",High School,17684,5,No,0
+137,31,Female,"Chicago, IL",Master's,11207,8,Yes,1
+138,56,Male,"Boston, MA",Master's,56099,4,No,1
+139,44,Male,"New York, NY",High School,77496,6,Yes,1
+140,26,Male,"New York, NY",High School,76093,3,No,0
+141,32,Female,"Boston, MA",High School,39689,6,No,1
+142,32,Female,"New York, NY",Bachelor's,58651,0,No,1
+143,43,Male,"Los Angeles, CA",Master's,23893,6,No,1
+144,59,Female,"Boston, MA",Bachelor's,76418,7,No,1
+145,30,Male,"Chicago, IL",Master's,70011,4,No,1
+146,49,Male,"Boston, MA",Master's,48635,1,Yes,1
+147,56,Male,"Los Angeles, CA",Master's,66115,4,No,1
+148,49,Male,"Los Angeles, CA",Master's,88405,5,No,1
+149,21,Female,"Boston, MA",Master's,82702,1,No,1
+150,47,Female,"Boston, MA",Master's,88518,5,Yes,1
+151,54,Female,"New York, NY",Master's,82805,5,Yes,1
+152,40,Male,"Los Angeles, CA",Bachelor's,68954,0,Yes,0
+153,56,Male,"Boston, MA",High School,38064,0,No,0
+154,62,Male,"Boston, MA",High School,89063,9,Yes,1
+155,32,Female,"Los Angeles, CA",Bachelor's,12454,2,Yes,1
+156,60,Male,"Boston, MA",Bachelor's,30878,9,No,0
+157,46,Female,"New York, NY",Bachelor's,61098,9,No,1
+158,53,Female,"Los Angeles, CA",Bachelor's,72154,2,Yes,1
+159,30,Female,"New York, NY",Master's,22991,3,No,1
+160,49,Female,"New York, NY",High School,78344,1,No,1
+161,24,Female,"New York, NY",Master's,46593,8,No,0
+162,39,Female,"New York, NY",High School,46304,9,No,1
+163,45,Male,"Los Angeles, CA",High School,40386,6,Yes,1
+164,19,Male,"New York, NY",Bachelor's,65220,6,No,0
+165,59,Female,"New York, NY",Master's,79338,5,Yes,1
+166,62,Female,"Boston, MA",Bachelor's,31083,2,Yes,1
+167,23,Male,"Los Angeles, CA",Master's,28354,5,Yes,0
+168,45,Female,"Los Angeles, CA",High School,32190,7,Yes,1
+169,45,Female,"Chicago, IL",Bachelor's,16142,7,No,1
+170,61,Male,"Los Angeles, CA",Bachelor's,38398,8,No,0
+171,61,Female,"Los Angeles, CA",High School,61971,0,No,1
+172,37,Female,"Chicago, IL",High School,51862,0,Yes,1
+173,47,Female,"Los Angeles, CA",High School,63410,2,Yes,1
+174,28,Male,"Los Angeles, CA",Bachelor's,29503,2,Yes,0
+175,45,Male,"Los Angeles, CA",Master's,58456,9,No,1
+176,42,Male,"Los Angeles, CA",Bachelor's,92035,7,Yes,1
+177,56,Female,"Chicago, IL",Master's,18016,9,No,1
+178,50,Female,"Los Angeles, CA",Bachelor's,12384,0,No,1
+179,18,Male,"Los Angeles, CA",Bachelor's,72320,1,No,0
+180,44,Female,"Chicago, IL",High School,25072,1,No,1
+181,30,Female,"Boston, MA",Master's,90018,2,Yes,1
+182,58,Female,"New York, NY",Bachelor's,50510,5,No,1
+183,20,Female,"Boston, MA",Bachelor's,58933,0,Yes,1
+184,56,Female,"Chicago, IL",High School,31826,1,No,1
+185,23,Male,"New York, NY",High School,78026,0,Yes,0
+186,25,Female,"Chicago, IL",Master's,35518,4,Yes,0
+187,44,Male,"Chicago, IL",Bachelor's,34045,6,No,0
+188,26,Female,"Los Angeles, CA",Master's,60876,7,No,1
+189,54,Male,"New York, NY",Bachelor's,61919,9,No,0
+190,50,Female,"Los Angeles, CA",Master's,37103,0,Yes,1
+191,59,Male,"New York, NY",High School,46188,6,No,0
+192,61,Female,"Chicago, IL",Bachelor's,15845,4,No,1
+193,41,Male,"Chicago, IL",Master's,96698,9,Yes,1
+194,32,Female,"Boston, MA",High School,46674,0,No,1
+195,49,Male,"New York, NY",High School,29337,2,Yes,0
+196,49,Female,"Los Angeles, CA",Master's,32313,6,No,1
+197,41,Male,"Boston, MA",Bachelor's,36943,9,Yes,1
+198,58,Male,"Boston, MA",Bachelor's,87949,0,Yes,0
+199,29,Female,"Boston, MA",High School,10276,6,No,0
+200,56,Female,"Los Angeles, CA",Bachelor's,61151,4,Yes,1
+201,19,Male,"Boston, MA",Bachelor's,27611,0,No,0
+202,20,Female,"Los Angeles, CA",Bachelor's,21944,0,No,0
+203,54,Male,"Boston, MA",High School,62887,0,Yes,0
+204,34,Male,"Los Angeles, CA",Master's,91442,8,No,1
+205,19,Male,"Chicago, IL",Bachelor's,59847,2,Yes,0
+206,19,Female,"Chicago, IL",High School,68653,4,Yes,1
+207,45,Male,"Chicago, IL",High School,96072,9,Yes,1
+208,40,Male,"Chicago, IL",Master's,66622,8,Yes,1
+209,54,Female,"Chicago, IL",Bachelor's,37810,5,Yes,1
+210,49,Female,"Boston, MA",Bachelor's,87842,8,Yes,1
+211,50,Female,"Boston, MA",Master's,20503,7,Yes,1
+212,18,Female,"Boston, MA",Master's,94761,7,Yes,1
+213,36,Male,"Los Angeles, CA",High School,46976,0,No,0
+214,19,Male,"Los Angeles, CA",High School,21590,8,No,0
+215,61,Male,"Los Angeles, CA",Master's,20886,5,Yes,1
+216,43,Male,"Los Angeles, CA",Bachelor's,22866,8,No,0
+217,49,Female,"Chicago, IL",High School,76624,2,No,1
+218,23,Male,"Chicago, IL",High School,78899,2,No,0
+219,49,Male,"Chicago, IL",Bachelor's,42792,5,No,0
+220,21,Female,"New York, NY",High School,19764,8,No,0
+221,28,Male,"Boston, MA",Bachelor's,96156,6,No,0
+222,34,Male,"Los Angeles, CA",Bachelor's,52727,2,Yes,0
+223,55,Male,"Los Angeles, CA",Bachelor's,88471,2,No,0
+224,41,Male,"Chicago, IL",Master's,18068,1,No,1
+225,22,Male,"Los Angeles, CA",Master's,17295,8,No,0
+226,51,Male,"Los Angeles, CA",Master's,51160,2,No,1
+227,23,Female,"Boston, MA",Bachelor's,21390,4,Yes,0
+228,39,Female,"Chicago, IL",Bachelor's,30131,8,Yes,1
+229,28,Male,"Boston, MA",Master's,85969,7,Yes,1
+230,33,Male,"New York, NY",High School,25038,1,Yes,0
+231,50,Female,"New York, NY",Bachelor's,62327,2,No,1
+232,26,Male,"New York, NY",High School,87064,1,Yes,0
+233,23,Male,"Chicago, IL",High School,31281,7,Yes,0
+234,33,Male,"Los Angeles, CA",Bachelor's,64189,5,Yes,0
+235,46,Female,"Chicago, IL",Bachelor's,58511,5,Yes,1
+236,20,Male,"Chicago, IL",High School,18605,8,No,0
+237,37,Female,"Los Angeles, CA",High School,11381,7,Yes,1
+238,53,Male,"Boston, MA",Master's,76634,3,No,1
+239,36,Female,"New York, NY",Master's,29810,3,Yes,1
+240,43,Female,"Boston, MA",Bachelor's,34322,8,No,1
+241,20,Male,"New York, NY",Master's,51869,0,No,1
+242,36,Female,"Chicago, IL",Master's,42955,1,Yes,1
+243,37,Male,"New York, NY",Master's,71388,1,Yes,1
+244,49,Female,"Chicago, IL",Master's,20207,5,Yes,1
+245,24,Male,"Boston, MA",High School,97329,3,Yes,0
+246,58,Male,"Chicago, IL",Bachelor's,77628,9,No,0
+247,50,Female,"Boston, MA",Master's,38220,2,No,1
+248,57,Male,"Los Angeles, CA",High School,94050,2,Yes,0
+249,56,Male,"Los Angeles, CA",High School,84085,2,Yes,0
+250,35,Female,"Los Angeles, CA",High School,32031,5,No,1
+251,57,Male,"Chicago, IL",Master's,80721,7,Yes,1
+252,18,Male,"Los Angeles, CA",Master's,90807,6,No,1
+253,28,Female,"New York, NY",Bachelor's,81312,3,Yes,1
+254,45,Female,"Boston, MA",Master's,69766,3,No,1
+255,42,Male,"Boston, MA",Master's,22449,9,No,1
+256,40,Male,"New York, NY",High School,99833,1,No,0
+257,48,Female,"Chicago, IL",Bachelor's,66699,0,No,1
+258,47,Female,"Chicago, IL",Master's,91253,8,No,1
+259,59,Male,"Boston, MA",Master's,56092,1,Yes,1
+260,52,Female,"Los Angeles, CA",High School,73671,7,No,1
+261,24,Male,"Chicago, IL",High School,20350,8,Yes,0
+262,33,Male,"Chicago, IL",Master's,78487,3,No,1
+263,43,Male,"New York, NY",Bachelor's,27622,7,No,0
+264,19,Male,"New York, NY",Bachelor's,80263,8,Yes,1
+265,18,Male,"Los Angeles, CA",High School,63117,9,Yes,1
+266,29,Female,"Chicago, IL",High School,68394,9,Yes,1
+267,22,Female,"Chicago, IL",Master's,33782,4,Yes,0
+268,54,Female,"New York, NY",High School,38454,6,No,1
+269,49,Female,"Chicago, IL",Master's,77904,9,Yes,1
+270,26,Male,"Boston, MA",Bachelor's,25592,3,No,0
+271,58,Male,"New York, NY",Bachelor's,32173,0,Yes,0
+272,52,Male,"Los Angeles, CA",Master's,43204,2,Yes,1
+273,36,Male,"New York, NY",High School,45596,4,No,0
+274,33,Female,"Chicago, IL",Bachelor's,44324,2,No,1
+275,20,Male,"Los Angeles, CA",High School,71202,6,Yes,1
+276,37,Male,"New York, NY",Bachelor's,99400,8,No,0
+277,41,Female,"Boston, MA",Master's,40750,5,No,1
+278,50,Female,"Boston, MA",Master's,86112,9,No,1
+279,41,Female,"New York, NY",Master's,26566,0,No,1
+280,28,Female,"Boston, MA",Bachelor's,17190,6,No,0
+281,25,Male,"Boston, MA",High School,98607,2,No,0
+282,53,Male,"Boston, MA",High School,48333,4,No,0
+283,55,Female,"Los Angeles, CA",High School,90905,9,No,1
+284,57,Male,"Boston, MA",Bachelor's,99571,3,Yes,0
+285,37,Male,"Boston, MA",Bachelor's,11589,9,No,0
+286,52,Male,"Boston, MA",Bachelor's,35235,4,Yes,0
+287,42,Female,"Los Angeles, CA",Bachelor's,10159,4,No,1
+288,52,Male,"New York, NY",Bachelor's,22145,5,No,0
+289,42,Female,"Chicago, IL",High School,90909,9,No,1
+290,46,Male,"Boston, MA",Bachelor's,41921,9,No,0
+291,35,Male,"New York, NY",Bachelor's,26237,5,Yes,0
+292,63,Male,"Boston, MA",High School,18244,7,Yes,1
+293,35,Female,"Los Angeles, CA",Bachelor's,24743,7,No,1
+294,19,Male,"New York, NY",High School,56101,8,Yes,1
+295,52,Female,"Los Angeles, CA",High School,94227,7,No,1
+296,33,Female,"Boston, MA",Master's,66378,1,No,1
+297,58,Female,"Boston, MA",Master's,81126,9,Yes,1
+298,53,Male,"Los Angeles, CA",Master's,66071,0,Yes,1
+299,50,Male,"Chicago, IL",Master's,81121,9,No,1
+300,21,Male,"Los Angeles, CA",Bachelor's,84763,1,No,0
+301,50,Male,"Boston, MA",Master's,22237,1,Yes,1
+302,31,Female,"Los Angeles, CA",High School,25649,2,No,1
+303,38,Female,"Chicago, IL",Bachelor's,47713,9,Yes,1
+304,37,Female,"Los Angeles, CA",Master's,83463,6,No,1
+305,25,Male,"Chicago, IL",High School,55409,1,No,0
+306,24,Female,"Chicago, IL",Bachelor's,58766,0,Yes,1
+307,20,Male,"Los Angeles, CA",Bachelor's,56154,5,Yes,0
+308,34,Female,"Los Angeles, CA",Master's,17016,8,Yes,1
+309,50,Male,"New York, NY",Bachelor's,89563,2,No,0
+310,29,Male,"Boston, MA",High School,58688,5,No,0
+311,39,Female,"Chicago, IL",Bachelor's,99678,2,No,1
+312,39,Female,"New York, NY",High School,64238,0,No,1
+313,63,Female,"Los Angeles, CA",Bachelor's,68608,4,Yes,1
+314,47,Female,"Boston, MA",Master's,99081,9,No,1
+315,55,Male,"New York, NY",High School,41897,3,No,0
+316,55,Female,"Chicago, IL",Bachelor's,60961,6,No,1
+317,62,Female,"New York, NY",Bachelor's,78703,5,Yes,1
+318,25,Female,"Chicago, IL",Bachelor's,54757,9,No,1
+319,44,Male,"Los Angeles, CA",High School,36917,6,No,0
+320,44,Male,"Boston, MA",High School,32736,4,Yes,0
+321,51,Female,"Boston, MA",High School,37990,3,No,1
+322,38,Male,"Boston, MA",Master's,72551,6,No,1
+323,47,Female,"Los Angeles, CA",Master's,68161,6,Yes,1
+324,50,Male,"Chicago, IL",High School,89623,5,No,0
+325,45,Male,"Los Angeles, CA",Bachelor's,32440,7,No,0
+326,64,Male,"Boston, MA",Master's,45205,3,No,1
+327,50,Male,"Los Angeles, CA",High School,90811,9,Yes,1
+328,22,Female,"Los Angeles, CA",Bachelor's,65103,4,No,1
+329,36,Female,"Los Angeles, CA",Master's,80812,3,No,1
+330,21,Female,"Chicago, IL",Bachelor's,51627,0,Yes,1
+331,52,Male,"New York, NY",Bachelor's,29008,7,Yes,1
+332,34,Female,"New York, NY",Bachelor's,81274,0,No,1
+333,61,Female,"Los Angeles, CA",Bachelor's,42402,4,No,1
+334,45,Female,"New York, NY",Master's,63384,5,No,1
+335,47,Male,"New York, NY",Master's,15793,5,No,1
+336,46,Male,"Los Angeles, CA",Master's,15571,4,Yes,1
+337,63,Male,"Los Angeles, CA",High School,26209,2,No,0
+338,23,Female,"Boston, MA",Master's,53148,4,Yes,1
+339,52,Female,"New York, NY",Bachelor's,12224,7,Yes,1
+340,58,Female,"Chicago, IL",Master's,58695,1,No,1
+341,54,Male,"Los Angeles, CA",Bachelor's,42441,5,No,0
+342,41,Male,"Boston, MA",High School,49129,8,Yes,1
+343,46,Female,"Chicago, IL",Bachelor's,72368,7,Yes,1
+344,63,Male,"New York, NY",Bachelor's,54760,7,No,0
+345,48,Male,"Boston, MA",Bachelor's,33478,7,Yes,1
+346,52,Male,"Los Angeles, CA",High School,81854,6,No,0
+347,50,Male,"Chicago, IL",Master's,95716,7,No,1
+348,38,Female,"Los Angeles, CA",Master's,22180,5,Yes,1
+349,49,Male,"New York, NY",High School,25372,1,Yes,0
+350,40,Male,"Chicago, IL",Bachelor's,39796,1,No,0
+351,50,Male,"New York, NY",Master's,68272,7,Yes,1
+352,20,Male,"New York, NY",High School,99963,0,No,0
+353,35,Female,"Boston, MA",Master's,64040,5,No,1
+354,42,Female,"Los Angeles, CA",High School,85357,5,No,1
+355,59,Male,"Chicago, IL",Bachelor's,81368,3,Yes,0
+356,48,Male,"New York, NY",Master's,88356,9,No,1
+357,20,Male,"New York, NY",High School,26211,2,No,0
+358,57,Male,"Chicago, IL",Master's,15842,2,No,1
+359,63,Male,"New York, NY",Master's,73115,0,No,1
+360,41,Male,"Boston, MA",Master's,76852,2,No,1
+361,49,Female,"Boston, MA",Master's,55968,3,No,1
+362,64,Male,"Boston, MA",High School,27508,4,No,0
+363,39,Female,"Boston, MA",Bachelor's,32005,2,No,1
+364,40,Female,"New York, NY",High School,64575,5,No,1
+365,19,Male,"Chicago, IL",High School,90742,4,No,0
+366,44,Female,"Chicago, IL",High School,28971,2,No,1
+367,59,Female,"Chicago, IL",Bachelor's,35599,5,Yes,1
+368,19,Female,"Chicago, IL",Master's,97592,5,No,1
+369,43,Female,"Los Angeles, CA",Master's,76914,7,No,1
+370,34,Female,"Chicago, IL",Master's,77055,1,No,1
+371,57,Female,"Los Angeles, CA",Bachelor's,97697,0,Yes,1
+372,50,Male,"Los Angeles, CA",Master's,15355,3,No,1
+373,26,Female,"Boston, MA",Bachelor's,64120,6,Yes,1
+374,60,Female,"Los Angeles, CA",Master's,84619,9,No,1
+375,56,Female,"New York, NY",Master's,48342,2,No,1
+376,46,Male,"Los Angeles, CA",High School,95992,2,Yes,0
+377,59,Female,"Boston, MA",Bachelor's,88860,4,No,1
+378,43,Male,"Los Angeles, CA",High School,12257,4,Yes,0
+379,52,Female,"New York, NY",High School,37364,9,Yes,1
+380,42,Male,"New York, NY",High School,34972,2,No,0
+381,41,Male,"New York, NY",Bachelor's,36654,8,No,0
+382,30,Female,"Boston, MA",Bachelor's,90769,3,No,1
+383,24,Female,"Boston, MA",Master's,91423,2,No,1
+384,53,Male,"Chicago, IL",High School,39320,1,Yes,0
+385,62,Female,"Boston, MA",Master's,30808,9,Yes,1
+386,37,Male,"New York, NY",High School,62389,8,No,0
+387,18,Male,"New York, NY",Bachelor's,44773,3,Yes,0
+388,25,Male,"Boston, MA",Bachelor's,61168,2,Yes,0
+389,63,Male,"Los Angeles, CA",Bachelor's,37747,6,No,0
+390,33,Male,"Boston, MA",High School,86396,7,Yes,1
+391,31,Female,"Boston, MA",Bachelor's,93692,1,Yes,1
+392,29,Male,"New York, NY",High School,67505,6,No,0
+393,40,Male,"Chicago, IL",Master's,95896,4,Yes,1
+394,32,Female,"New York, NY",High School,28135,4,No,1
+395,45,Male,"Chicago, IL",Master's,57377,2,Yes,1
+396,51,Female,"New York, NY",High School,33554,4,No,1
+397,19,Female,"Boston, MA",Master's,72491,1,Yes,1
+398,49,Female,"New York, NY",Bachelor's,65621,3,Yes,1
+399,40,Male,"New York, NY",Master's,68283,5,No,1
+400,39,Male,"New York, NY",Bachelor's,95140,0,No,0
+401,42,Male,"Boston, MA",Bachelor's,26923,9,No,0
+402,39,Female,"Boston, MA",Master's,57591,3,No,1
+403,39,Male,"Boston, MA",High School,72261,5,Yes,0
+404,59,Female,"Boston, MA",High School,64336,8,Yes,1
+405,23,Male,"Chicago, IL",High School,84083,1,Yes,0
+406,32,Female,"Chicago, IL",High School,70948,6,No,1
+407,60,Male,"Los Angeles, CA",High School,43002,5,Yes,0
+408,54,Male,"Boston, MA",Bachelor's,90098,1,Yes,0
+409,50,Male,"Chicago, IL",High School,83016,7,No,0
+410,25,Female,"New York, NY",Bachelor's,36672,6,No,0
+411,61,Female,"Boston, MA",Bachelor's,14213,4,Yes,1
+412,61,Male,"Los Angeles, CA",Bachelor's,20293,4,No,0
+413,22,Male,"Los Angeles, CA",Master's,65860,6,Yes,1
+414,56,Female,"Los Angeles, CA",Master's,72507,8,Yes,1
+415,21,Female,"New York, NY",Bachelor's,67134,8,No,1
+416,23,Female,"Chicago, IL",Master's,12100,8,Yes,0
+417,62,Male,"New York, NY",High School,71997,5,No,0
+418,49,Female,"Boston, MA",High School,38172,9,No,1
+419,47,Male,"Los Angeles, CA",Bachelor's,30132,5,Yes,0
+420,64,Female,"New York, NY",High School,28199,2,Yes,1
+421,52,Male,"New York, NY",Bachelor's,46609,0,Yes,0
+422,57,Female,"Chicago, IL",Bachelor's,52965,6,No,1
+423,33,Female,"Chicago, IL",High School,18016,3,Yes,1
+424,30,Female,"Los Angeles, CA",Master's,49779,0,No,1
+425,59,Female,"New York, NY",High School,41881,7,No,1
+426,47,Female,"New York, NY",High School,92594,5,Yes,1
+427,36,Male,"Chicago, IL",Bachelor's,34472,5,No,0
+428,34,Female,"New York, NY",Bachelor's,61813,1,Yes,1
+429,36,Female,"New York, NY",Bachelor's,46021,0,Yes,1
+430,45,Female,"New York, NY",Bachelor's,64131,1,Yes,1
+431,43,Male,"Chicago, IL",Master's,34087,3,Yes,1
+432,54,Female,"Los Angeles, CA",Master's,22828,1,Yes,1
+433,43,Male,"Boston, MA",Master's,71610,0,Yes,1
+434,40,Female,"Los Angeles, CA",Bachelor's,11401,6,Yes,1
+435,26,Female,"Boston, MA",Bachelor's,95179,7,No,1
+436,29,Male,"New York, NY",Bachelor's,25193,5,Yes,0
+437,18,Female,"Los Angeles, CA",Master's,54864,3,No,1
+438,18,Male,"Boston, MA",Bachelor's,30307,5,No,0
+439,64,Male,"Chicago, IL",High School,29611,2,No,0
+440,51,Female,"Chicago, IL",High School,53791,7,Yes,1
+441,49,Male,"Los Angeles, CA",Bachelor's,21950,9,No,0
+442,42,Female,"Los Angeles, CA",High School,86240,1,No,1
+443,57,Female,"New York, NY",High School,87403,4,Yes,1
+444,62,Male,"Los Angeles, CA",Master's,12745,0,Yes,1
+445,18,Male,"New York, NY",Bachelor's,65243,5,No,0
+446,33,Male,"New York, NY",Bachelor's,13866,1,Yes,0
+447,56,Male,"Chicago, IL",Master's,42245,3,Yes,1
+448,22,Female,"Chicago, IL",High School,54724,5,Yes,1
+449,39,Female,"Boston, MA",High School,81354,9,Yes,1
+450,46,Male,"Chicago, IL",Bachelor's,61374,7,No,0
+451,20,Female,"Chicago, IL",High School,40116,7,Yes,0
+452,29,Female,"Los Angeles, CA",Master's,91029,5,Yes,1
+453,43,Female,"Chicago, IL",Master's,30447,3,Yes,1
+454,33,Female,"Boston, MA",Bachelor's,40431,7,No,1
+455,54,Male,"Los Angeles, CA",Master's,27908,7,No,1
+456,39,Male,"Boston, MA",Master's,39336,9,Yes,1
+457,46,Female,"Chicago, IL",Bachelor's,50992,0,Yes,1
+458,31,Male,"Boston, MA",Master's,65350,3,No,1
+459,45,Male,"Los Angeles, CA",Master's,79561,3,Yes,1
+460,22,Male,"New York, NY",Master's,61955,6,Yes,1
+461,64,Female,"Boston, MA",High School,71240,6,No,1
+462,47,Female,"Boston, MA",Bachelor's,30093,7,Yes,1
+463,63,Female,"Los Angeles, CA",Bachelor's,16155,4,Yes,1
+464,22,Male,"Los Angeles, CA",Bachelor's,56607,6,No,0
+465,29,Female,"Boston, MA",High School,43487,7,No,0
+466,33,Female,"Chicago, IL",High School,65668,8,Yes,1
+467,43,Male,"Boston, MA",Bachelor's,30963,2,No,0
+468,43,Female,"Los Angeles, CA",High School,60124,2,Yes,1
+469,38,Female,"New York, NY",Bachelor's,62870,3,Yes,1
+470,56,Male,"New York, NY",High School,66547,4,Yes,0
+471,53,Male,"Chicago, IL",Master's,74110,9,No,1
+472,50,Male,"Boston, MA",Master's,63554,0,No,1
+473,47,Female,"New York, NY",Bachelor's,30936,6,Yes,1
+474,54,Female,"Boston, MA",High School,14426,8,Yes,1
+475,40,Female,"Los Angeles, CA",High School,98839,7,No,1
+476,27,Male,"New York, NY",Master's,37606,4,No,0
+477,22,Male,"Chicago, IL",Master's,57832,3,No,1
+478,53,Female,"Los Angeles, CA",High School,38151,6,Yes,1
+479,51,Female,"Chicago, IL",High School,89303,4,No,1
+480,48,Male,"Los Angeles, CA",High School,21308,6,No,0
+481,27,Male,"New York, NY",High School,72522,0,Yes,0
+482,36,Male,"Chicago, IL",High School,55671,0,Yes,0
+483,49,Male,"Chicago, IL",High School,12204,9,Yes,1
+484,18,Female,"Los Angeles, CA",Bachelor's,97265,2,No,1
+485,22,Male,"Chicago, IL",High School,41131,1,Yes,0
+486,62,Female,"Los Angeles, CA",Master's,62428,1,Yes,1
+487,21,Female,"Los Angeles, CA",Bachelor's,43870,6,Yes,0
+488,33,Female,"Los Angeles, CA",High School,59067,9,Yes,1
+489,41,Male,"Los Angeles, CA",Master's,68585,1,No,1
+490,33,Male,"New York, NY",Bachelor's,31607,3,Yes,0
+491,19,Male,"Los Angeles, CA",Master's,34968,1,No,0
+492,45,Male,"Boston, MA",High School,21908,5,No,0
+493,49,Female,"Chicago, IL",High School,36423,7,No,1
+494,44,Male,"Boston, MA",High School,84707,9,Yes,1
+495,37,Male,"New York, NY",High School,88257,3,No,0
+496,41,Female,"Boston, MA",Bachelor's,71215,4,Yes,1
+497,29,Male,"Chicago, IL",Bachelor's,65835,3,Yes,0
+498,52,Female,"Boston, MA",Master's,59429,2,Yes,1
+499,50,Female,"New York, NY",High School,92152,4,No,1
+500,50,Female,"Los Angeles, CA",Master's,48458,8,Yes,1
+501,60,Female,"Boston, MA",Bachelor's,56169,7,Yes,1
+502,54,Female,"New York, NY",High School,17659,7,Yes,1
+503,29,Female,"New York, NY",High School,70614,7,No,1
+504,20,Female,"Chicago, IL",Bachelor's,87240,7,No,1
+505,18,Female,"Chicago, IL",Bachelor's,42793,6,No,0
+506,50,Male,"Boston, MA",Bachelor's,56473,7,Yes,1
+507,57,Male,"Los Angeles, CA",Bachelor's,99388,7,No,0
+508,27,Male,"New York, NY",Bachelor's,98330,7,Yes,1
+509,60,Male,"Boston, MA",High School,65751,9,Yes,1
+510,61,Female,"New York, NY",Bachelor's,88915,6,No,1
+511,46,Male,"New York, NY",High School,64254,0,Yes,0
+512,30,Female,"Los Angeles, CA",High School,17006,3,No,1
+513,29,Male,"Los Angeles, CA",Bachelor's,84218,3,Yes,0
+514,48,Male,"Boston, MA",Bachelor's,75344,4,No,0
+515,63,Male,"Los Angeles, CA",High School,43840,9,Yes,1
+516,19,Female,"Los Angeles, CA",Bachelor's,42430,5,Yes,0
+517,52,Male,"Boston, MA",Bachelor's,33091,3,Yes,0
+518,40,Female,"Los Angeles, CA",Bachelor's,42983,1,Yes,1
+519,34,Female,"Chicago, IL",Master's,33989,5,Yes,1
+520,43,Male,"New York, NY",High School,85451,7,No,0
+521,25,Male,"New York, NY",Master's,28990,7,Yes,0
+522,46,Male,"New York, NY",Bachelor's,90360,6,No,0
+523,43,Female,"New York, NY",Master's,46081,5,No,1
+524,27,Male,"Boston, MA",Bachelor's,21033,1,No,0
+525,43,Female,"New York, NY",Master's,26241,6,Yes,1
+526,51,Female,"New York, NY",Bachelor's,15939,4,Yes,1
+527,58,Male,"New York, NY",Master's,57562,5,Yes,1
+528,24,Male,"New York, NY",Master's,45063,9,No,0
+529,21,Female,"Chicago, IL",Master's,86721,7,Yes,1
+530,62,Female,"New York, NY",High School,37045,7,Yes,1
+531,28,Female,"Chicago, IL",Master's,54769,2,No,1
+532,46,Male,"Boston, MA",High School,57118,6,No,0
+533,53,Female,"Los Angeles, CA",Bachelor's,94703,0,No,1
+534,42,Male,"New York, NY",Master's,31625,0,No,1
+535,38,Female,"Los Angeles, CA",Bachelor's,37076,6,No,1
+536,53,Female,"Los Angeles, CA",Bachelor's,74805,9,No,1
+537,27,Male,"Boston, MA",Master's,54605,8,Yes,1
+538,54,Female,"Los Angeles, CA",High School,94565,6,No,1
+539,26,Male,"Chicago, IL",Master's,98509,9,Yes,1
+540,41,Male,"Los Angeles, CA",Bachelor's,49121,4,Yes,0
+541,52,Female,"Los Angeles, CA",Bachelor's,75101,7,Yes,1
+542,52,Male,"Los Angeles, CA",Master's,41433,1,No,1
+543,53,Male,"New York, NY",High School,53309,8,Yes,1
+544,35,Female,"New York, NY",High School,77468,5,No,1
+545,56,Male,"Chicago, IL",Bachelor's,54254,8,No,0
+546,49,Male,"Chicago, IL",Bachelor's,77293,1,Yes,0
+547,41,Male,"New York, NY",High School,47853,2,No,0
+548,40,Female,"Chicago, IL",Master's,48405,7,Yes,1
+549,49,Male,"New York, NY",Bachelor's,76652,0,Yes,0
+550,54,Female,"Boston, MA",High School,53527,9,No,1
+551,29,Female,"Los Angeles, CA",Bachelor's,87227,6,Yes,1
+552,30,Male,"Los Angeles, CA",Master's,10492,6,Yes,1
+553,40,Male,"Chicago, IL",High School,18811,0,Yes,0
+554,42,Male,"New York, NY",Bachelor's,34272,8,No,0
+555,52,Female,"New York, NY",Master's,82010,7,Yes,1
+556,58,Male,"Chicago, IL",Bachelor's,57153,3,No,0
+557,47,Male,"New York, NY",Master's,64110,9,No,1
+558,34,Male,"Boston, MA",Master's,23979,4,Yes,1
+559,37,Male,"Los Angeles, CA",High School,38328,1,Yes,0
+560,42,Male,"Chicago, IL",Master's,22867,8,No,1
+561,39,Female,"Chicago, IL",Bachelor's,69234,5,No,1
+562,30,Female,"New York, NY",Master's,35851,2,Yes,1
+563,36,Male,"Chicago, IL",Master's,41279,6,Yes,1
+564,53,Male,"Boston, MA",High School,83402,8,No,0
+565,29,Male,"New York, NY",Master's,25449,2,No,0
+566,58,Male,"New York, NY",Master's,86221,1,No,1
+567,36,Female,"New York, NY",Bachelor's,99080,6,No,1
+568,29,Male,"New York, NY",High School,15451,6,No,0
+569,26,Female,"Boston, MA",High School,97178,3,Yes,1
+570,24,Female,"New York, NY",High School,51316,8,No,1
+571,45,Male,"Chicago, IL",Master's,73064,7,No,1
+572,31,Female,"Boston, MA",High School,73761,0,Yes,1
+573,48,Female,"Los Angeles, CA",Master's,48870,0,Yes,1
+574,36,Female,"Los Angeles, CA",Master's,40873,4,No,1
+575,64,Female,"Chicago, IL",Bachelor's,68627,5,No,1
+576,33,Male,"Chicago, IL",Bachelor's,76155,2,Yes,0
+577,22,Male,"Boston, MA",Bachelor's,35372,8,No,0
+578,52,Female,"Los Angeles, CA",Bachelor's,13642,9,No,1
+579,29,Male,"Los Angeles, CA",Bachelor's,38001,5,Yes,0
+580,42,Male,"Los Angeles, CA",Master's,44064,3,No,1
+581,38,Male,"Los Angeles, CA",Master's,24122,6,Yes,1
+582,53,Male,"Los Angeles, CA",High School,34820,7,Yes,1
+583,40,Male,"New York, NY",Master's,78431,8,Yes,1
+584,33,Female,"Chicago, IL",Master's,65745,5,Yes,1
+585,56,Male,"New York, NY",Bachelor's,60081,5,No,0
+586,62,Male,"Los Angeles, CA",Master's,80902,7,Yes,1
+587,59,Male,"Boston, MA",Bachelor's,18711,4,No,0
+588,56,Male,"Boston, MA",High School,95132,2,No,0
+589,31,Female,"Los Angeles, CA",High School,28793,2,No,1
+590,48,Female,"Los Angeles, CA",Master's,18199,5,No,1
+591,22,Female,"Boston, MA",High School,86253,1,No,1
+592,52,Female,"New York, NY",Master's,46191,5,Yes,1
+593,40,Male,"New York, NY",High School,20211,5,Yes,0
+594,46,Female,"Los Angeles, CA",Bachelor's,73069,7,Yes,1
+595,60,Male,"New York, NY",Bachelor's,98896,6,Yes,1
+596,28,Male,"Boston, MA",Bachelor's,66746,7,No,0
+597,35,Male,"New York, NY",Bachelor's,31542,8,Yes,1
+598,64,Male,"Los Angeles, CA",Master's,41312,5,No,1
+599,29,Male,"Boston, MA",High School,55242,2,No,0
+600,26,Female,"New York, NY",Master's,97893,9,Yes,1
+601,27,Female,"Chicago, IL",Bachelor's,65388,2,Yes,1
+602,61,Female,"Boston, MA",Master's,37691,0,Yes,1
+603,34,Female,"Boston, MA",High School,87960,4,Yes,1
+604,55,Male,"Chicago, IL",Master's,94388,3,No,1
+605,24,Female,"Chicago, IL",High School,32601,8,No,0
+606,63,Male,"Boston, MA",Master's,28020,8,Yes,1
+607,30,Female,"Chicago, IL",High School,18155,4,No,1
+608,57,Male,"Los Angeles, CA",High School,79119,9,No,0
+609,59,Male,"Los Angeles, CA",Bachelor's,91051,3,No,0
+610,26,Female,"Los Angeles, CA",High School,46777,6,Yes,0
+611,44,Male,"Boston, MA",Bachelor's,29710,5,No,0
+612,19,Male,"Chicago, IL",Bachelor's,34532,3,Yes,0
+613,22,Female,"Chicago, IL",Bachelor's,28601,9,Yes,0
+614,46,Male,"New York, NY",Master's,73227,1,No,1
+615,54,Female,"New York, NY",Master's,14967,0,No,1
+616,55,Female,"Chicago, IL",Master's,94289,3,Yes,1
+617,36,Female,"Chicago, IL",Master's,30022,3,No,1
+618,25,Male,"Chicago, IL",High School,53463,0,No,0
+619,62,Male,"Boston, MA",High School,84671,5,Yes,0
+620,18,Male,"Chicago, IL",Master's,15722,3,Yes,0
+621,39,Female,"New York, NY",High School,37413,0,Yes,1
+622,34,Male,"Boston, MA",High School,91050,0,Yes,0
+623,24,Female,"Chicago, IL",Bachelor's,95867,0,No,1
+624,42,Female,"New York, NY",Bachelor's,93596,7,No,1
+625,62,Male,"Boston, MA",Bachelor's,76732,9,Yes,1
+626,21,Female,"Chicago, IL",Bachelor's,22297,7,Yes,0
+627,53,Male,"Chicago, IL",High School,78323,1,Yes,0
+628,23,Male,"Chicago, IL",Master's,33816,6,No,0
+629,48,Male,"Boston, MA",High School,50695,7,Yes,1
+630,36,Male,"New York, NY",High School,29702,7,No,0
+631,61,Male,"New York, NY",High School,35242,9,Yes,1
+632,56,Female,"Los Angeles, CA",Bachelor's,65841,6,Yes,1
+633,44,Female,"Chicago, IL",Bachelor's,77712,4,Yes,1
+634,27,Female,"Los Angeles, CA",Bachelor's,95663,0,No,1
+635,43,Male,"Los Angeles, CA",Master's,63574,8,No,1
+636,36,Male,"New York, NY",High School,95744,6,No,0
+637,56,Male,"Boston, MA",Master's,38482,1,Yes,1
+638,20,Female,"Boston, MA",Bachelor's,19171,5,No,0
+639,62,Male,"New York, NY",Master's,13696,1,No,1
+640,30,Female,"Boston, MA",High School,30058,0,Yes,1
+641,45,Female,"Los Angeles, CA",High School,30313,6,Yes,1
+642,37,Male,"Chicago, IL",Bachelor's,29149,1,No,0
+643,45,Male,"New York, NY",Bachelor's,63521,1,No,0
+644,25,Female,"Chicago, IL",Master's,55740,4,No,1
+645,58,Male,"Boston, MA",Bachelor's,14956,4,No,0
+646,56,Female,"Chicago, IL",Bachelor's,85731,6,Yes,1
+647,18,Male,"Boston, MA",High School,92612,0,Yes,0
+648,20,Male,"Boston, MA",Bachelor's,76641,7,Yes,1
+649,30,Female,"Los Angeles, CA",Bachelor's,73811,2,No,1
+650,45,Male,"Boston, MA",High School,62160,3,No,0
+651,42,Female,"Los Angeles, CA",High School,61313,8,Yes,1
+652,50,Male,"Los Angeles, CA",Master's,73232,3,Yes,1
+653,55,Female,"Los Angeles, CA",Bachelor's,25417,9,No,1
+654,23,Female,"New York, NY",High School,34729,4,No,0
+655,61,Male,"New York, NY",Master's,40099,6,Yes,1
+656,62,Female,"Boston, MA",Master's,39961,3,Yes,1
+657,49,Male,"Los Angeles, CA",Bachelor's,22602,0,Yes,0
+658,62,Male,"New York, NY",Bachelor's,19256,8,No,0
+659,64,Male,"Los Angeles, CA",Master's,96120,3,No,1
+660,38,Female,"Chicago, IL",High School,44681,8,No,1
+661,33,Female,"Chicago, IL",Master's,97440,5,No,1
+662,38,Male,"Chicago, IL",Bachelor's,74789,0,No,0
+663,28,Male,"Boston, MA",High School,53361,2,No,0
+664,54,Female,"Los Angeles, CA",High School,74503,1,Yes,1
+665,53,Male,"Chicago, IL",Master's,44540,8,Yes,1
+666,52,Male,"New York, NY",Bachelor's,36536,0,No,0
+667,36,Female,"Chicago, IL",Master's,94700,8,Yes,1
+668,37,Male,"Chicago, IL",Master's,73043,8,No,1
+669,35,Female,"Chicago, IL",Master's,88532,7,Yes,1
+670,64,Male,"Boston, MA",High School,66575,7,No,0
+671,58,Female,"New York, NY",High School,12871,0,Yes,1
+672,31,Male,"Los Angeles, CA",Bachelor's,56002,7,Yes,1
+673,32,Male,"New York, NY",Bachelor's,59812,9,No,0
+674,48,Female,"Los Angeles, CA",Master's,32626,2,No,1
+675,18,Male,"Boston, MA",Master's,69979,6,Yes,1
+676,20,Female,"Boston, MA",Master's,86057,0,Yes,1
+677,33,Male,"Boston, MA",Bachelor's,76668,0,No,0
+678,40,Female,"Boston, MA",High School,90070,9,Yes,1
+679,28,Female,"Los Angeles, CA",High School,99390,4,No,1
+680,29,Female,"Chicago, IL",Master's,52998,4,No,1
+681,27,Female,"Los Angeles, CA",Master's,73814,7,Yes,1
+682,49,Male,"New York, NY",Master's,55607,6,No,1
+683,33,Male,"Boston, MA",Master's,17812,7,Yes,1
+684,25,Female,"Boston, MA",Bachelor's,71844,5,Yes,1
+685,55,Female,"New York, NY",High School,80093,5,No,1
+686,29,Female,"Los Angeles, CA",Master's,12179,1,Yes,0
+687,41,Male,"Chicago, IL",Bachelor's,53798,5,No,0
+688,45,Male,"Chicago, IL",Master's,84601,4,No,1
+689,25,Male,"New York, NY",Master's,18275,2,No,0
+690,45,Male,"Chicago, IL",High School,60574,5,Yes,0
+691,53,Female,"Los Angeles, CA",Master's,57857,7,No,1
+692,43,Female,"Los Angeles, CA",High School,30700,8,Yes,1
+693,25,Female,"New York, NY",High School,49464,0,No,0
+694,45,Male,"Los Angeles, CA",High School,52351,2,No,0
+695,45,Male,"Boston, MA",Bachelor's,92534,2,No,0
+696,54,Male,"New York, NY",Bachelor's,23869,7,Yes,1
+697,58,Female,"Los Angeles, CA",High School,70315,0,Yes,1
+698,53,Female,"New York, NY",Master's,30954,4,No,1
+699,44,Male,"Chicago, IL",High School,41555,2,No,0
+700,34,Female,"Los Angeles, CA",Master's,73353,1,Yes,1
+701,26,Male,"Boston, MA",High School,92190,7,Yes,1
+702,50,Male,"Los Angeles, CA",Master's,55026,2,Yes,1
+703,37,Female,"New York, NY",Bachelor's,56976,6,No,1
+704,30,Male,"New York, NY",Master's,90578,0,Yes,1
+705,45,Female,"Los Angeles, CA",High School,55095,5,No,1
+706,46,Male,"Boston, MA",Bachelor's,24270,2,Yes,0
+707,30,Female,"Boston, MA",Master's,40908,7,No,1
+708,63,Female,"Boston, MA",Master's,25523,5,No,1
+709,52,Female,"New York, NY",Master's,72433,1,No,1
+710,23,Male,"Los Angeles, CA",Master's,57068,5,Yes,1
+711,35,Male,"Chicago, IL",Master's,29991,6,Yes,1
+712,22,Female,"New York, NY",Bachelor's,20775,4,Yes,0
+713,64,Female,"Boston, MA",Bachelor's,87801,2,No,1
+714,42,Male,"Los Angeles, CA",Bachelor's,94995,3,No,0
+715,19,Male,"Boston, MA",Bachelor's,71250,3,Yes,0
+716,27,Male,"Chicago, IL",High School,26673,5,No,0
+717,47,Female,"Boston, MA",Bachelor's,37056,9,No,1
+718,62,Male,"Boston, MA",Master's,16614,0,No,1
+719,22,Male,"Chicago, IL",Master's,17415,3,Yes,0
+720,50,Female,"Los Angeles, CA",Bachelor's,98691,9,No,1
+721,18,Male,"New York, NY",Master's,53884,3,Yes,1
+722,35,Male,"Los Angeles, CA",Bachelor's,26964,9,Yes,1
+723,49,Male,"Chicago, IL",Master's,47726,0,Yes,1
+724,64,Female,"Boston, MA",High School,47044,8,Yes,1
+725,28,Female,"Los Angeles, CA",High School,67149,3,Yes,1
+726,38,Female,"New York, NY",Bachelor's,47544,6,No,1
+727,43,Female,"Chicago, IL",Bachelor's,59976,2,Yes,1
+728,42,Female,"Los Angeles, CA",Bachelor's,42252,9,Yes,1
+729,39,Female,"New York, NY",Master's,13832,2,Yes,1
+730,44,Female,"Chicago, IL",Bachelor's,90437,7,No,1
+731,30,Male,"New York, NY",High School,44148,7,No,0
+732,50,Male,"Chicago, IL",Master's,71240,0,No,1
+733,51,Female,"Boston, MA",Bachelor's,98454,9,No,1
+734,58,Male,"Los Angeles, CA",Master's,95076,1,Yes,1
+735,52,Male,"New York, NY",Master's,87116,7,Yes,1
+736,18,Female,"Chicago, IL",Bachelor's,63459,0,No,1
+737,38,Male,"New York, NY",Master's,48402,7,No,1
+738,23,Male,"New York, NY",High School,67727,7,No,0
+739,45,Male,"Los Angeles, CA",High School,48578,1,No,0
+740,34,Male,"Boston, MA",Master's,32318,3,Yes,1
+741,22,Male,"New York, NY",Bachelor's,85715,5,No,0
+742,48,Female,"Chicago, IL",Master's,87787,8,No,1
+743,22,Female,"Chicago, IL",High School,95029,7,No,1
+744,55,Female,"Boston, MA",Master's,30466,7,No,1
+745,20,Male,"Chicago, IL",Master's,55475,6,No,1
+746,40,Female,"Boston, MA",High School,70142,8,No,1
+747,54,Male,"Chicago, IL",Master's,95160,1,No,1
+748,54,Male,"Los Angeles, CA",Master's,36564,2,Yes,1
+749,27,Male,"New York, NY",Bachelor's,32412,9,Yes,0
+750,27,Male,"Los Angeles, CA",Bachelor's,61001,7,Yes,1
+751,36,Female,"New York, NY",High School,67649,5,Yes,1
+752,34,Female,"New York, NY",High School,70957,9,Yes,1
+753,38,Male,"New York, NY",High School,45517,8,Yes,1
+754,31,Female,"Los Angeles, CA",Bachelor's,23156,9,No,1
+755,26,Male,"New York, NY",High School,33064,3,No,0
+756,63,Female,"Los Angeles, CA",High School,35711,7,Yes,1
+757,18,Female,"Boston, MA",High School,40106,9,No,0
+758,62,Male,"Chicago, IL",Bachelor's,75458,2,Yes,0
+759,30,Female,"Chicago, IL",Master's,26589,2,No,1
+760,21,Male,"New York, NY",High School,99272,7,No,0
+761,18,Female,"Los Angeles, CA",Master's,96511,4,No,1
+762,57,Male,"Chicago, IL",High School,17214,2,No,0
+763,49,Male,"Los Angeles, CA",Master's,95731,9,No,1
+764,51,Female,"Los Angeles, CA",Bachelor's,37127,0,No,1
+765,45,Female,"New York, NY",Bachelor's,15141,2,Yes,1
+766,48,Male,"Chicago, IL",High School,38884,8,Yes,1
+767,25,Female,"New York, NY",Master's,12708,4,No,0
+768,56,Female,"New York, NY",Bachelor's,28375,9,Yes,1
+769,43,Male,"Chicago, IL",High School,25088,1,No,0
+770,51,Male,"Chicago, IL",High School,67615,6,Yes,1
+771,20,Female,"Boston, MA",Bachelor's,55046,1,No,1
+772,29,Male,"Boston, MA",Bachelor's,20014,3,Yes,0
+773,18,Male,"Los Angeles, CA",High School,74425,6,No,0
+774,61,Male,"Chicago, IL",Master's,13273,3,Yes,1
+775,22,Female,"Boston, MA",Master's,57135,6,No,1
+776,47,Female,"Los Angeles, CA",Master's,40881,6,Yes,1
+777,47,Male,"Los Angeles, CA",High School,88077,0,No,0
+778,34,Female,"Los Angeles, CA",Bachelor's,18712,5,No,1
+779,64,Male,"Boston, MA",High School,84704,8,No,0
+780,40,Female,"Chicago, IL",Bachelor's,62874,1,Yes,1
+781,32,Male,"New York, NY",Master's,79087,2,Yes,1
+782,54,Male,"Los Angeles, CA",Master's,22297,9,Yes,1
+783,38,Female,"Boston, MA",Bachelor's,37128,4,No,1
+784,31,Male,"Boston, MA",Bachelor's,78368,8,Yes,1
+785,19,Female,"New York, NY",High School,97599,3,No,1
+786,28,Female,"New York, NY",Master's,98499,0,Yes,1
+787,56,Male,"Boston, MA",High School,88958,3,Yes,0
+788,55,Male,"Chicago, IL",High School,42920,5,Yes,0
+789,51,Female,"New York, NY",High School,21156,4,Yes,1
+790,55,Male,"Boston, MA",Master's,21108,0,No,1
+791,51,Male,"New York, NY",High School,41845,3,Yes,0
+792,35,Male,"Chicago, IL",High School,12800,5,Yes,0
+793,47,Male,"Los Angeles, CA",High School,52712,9,No,0
+794,32,Male,"New York, NY",High School,12610,9,No,0
+795,44,Female,"Chicago, IL",High School,87603,3,Yes,1
+796,51,Female,"Boston, MA",High School,43872,8,Yes,1
+797,55,Male,"New York, NY",Master's,20728,4,No,1
+798,50,Male,"New York, NY",High School,30583,7,No,0
+799,41,Male,"Boston, MA",Bachelor's,95774,8,No,0
+800,32,Female,"Los Angeles, CA",High School,17263,9,Yes,1
+801,47,Male,"Boston, MA",High School,77450,4,Yes,0
+802,59,Female,"New York, NY",Master's,99285,5,Yes,1
+803,34,Female,"Boston, MA",Master's,29456,0,No,1
+804,22,Female,"Chicago, IL",Bachelor's,75942,6,No,1
+805,46,Male,"Boston, MA",Bachelor's,23689,3,No,0
+806,21,Female,"New York, NY",Master's,42934,1,Yes,0
+807,27,Male,"Boston, MA",Master's,43276,4,No,0
+808,34,Female,"Los Angeles, CA",High School,29873,2,Yes,1
+809,27,Male,"Boston, MA",Master's,23050,5,No,0
+810,34,Female,"Los Angeles, CA",Bachelor's,76216,7,Yes,1
+811,37,Male,"Chicago, IL",High School,94444,6,Yes,1
+812,41,Female,"Los Angeles, CA",Bachelor's,94040,2,No,1
+813,22,Male,"Boston, MA",High School,31644,7,Yes,0
+814,51,Male,"New York, NY",Master's,72021,1,No,1
+815,23,Male,"Los Angeles, CA",Bachelor's,47125,9,Yes,0
+816,19,Male,"Chicago, IL",High School,76899,8,No,0
+817,30,Female,"Los Angeles, CA",High School,52291,3,No,1
+818,60,Female,"Los Angeles, CA",Master's,45060,0,Yes,1
+819,60,Male,"Los Angeles, CA",Master's,11538,7,No,1
+820,28,Female,"Chicago, IL",Master's,46176,6,Yes,0
+821,64,Male,"Boston, MA",Bachelor's,51520,4,No,0
+822,40,Male,"Los Angeles, CA",High School,35675,9,No,0
+823,33,Female,"Los Angeles, CA",Master's,28287,4,No,1
+824,48,Male,"New York, NY",Bachelor's,10174,6,No,0
+825,28,Male,"Chicago, IL",Bachelor's,44998,4,Yes,0
+826,33,Female,"Los Angeles, CA",Bachelor's,63312,7,No,1
+827,25,Male,"Chicago, IL",Master's,22112,5,No,0
+828,21,Male,"Los Angeles, CA",Master's,85225,4,Yes,1
+829,57,Male,"Boston, MA",High School,54814,8,Yes,1
+830,21,Male,"Boston, MA",High School,95091,1,Yes,0
+831,42,Female,"Los Angeles, CA",Master's,60719,0,Yes,1
+832,20,Female,"Boston, MA",Bachelor's,43919,7,Yes,0
+833,49,Female,"Los Angeles, CA",Bachelor's,83155,2,Yes,1
+834,20,Male,"Boston, MA",Bachelor's,81569,6,No,0
+835,44,Male,"New York, NY",High School,51328,9,Yes,1
+836,46,Female,"New York, NY",Bachelor's,80482,7,No,1
+837,49,Male,"New York, NY",High School,34618,5,Yes,0
+838,36,Male,"Chicago, IL",High School,44675,9,No,0
+839,38,Male,"Chicago, IL",Bachelor's,28919,8,No,0
+840,22,Male,"New York, NY",Bachelor's,14173,6,No,0
+841,35,Female,"Chicago, IL",Master's,36400,9,Yes,1
+842,45,Female,"Boston, MA",Master's,60445,4,Yes,1
+843,59,Female,"Los Angeles, CA",Bachelor's,80305,7,Yes,1
+844,39,Male,"Los Angeles, CA",High School,47564,1,Yes,0
+845,38,Female,"Los Angeles, CA",High School,55814,6,No,1
+846,23,Female,"New York, NY",High School,89747,3,Yes,1
+847,18,Male,"Chicago, IL",High School,98791,8,No,0
+848,22,Male,"Boston, MA",High School,37962,0,No,0
+849,58,Female,"Boston, MA",Master's,94892,6,Yes,1
+850,29,Female,"New York, NY",Bachelor's,95842,5,Yes,1
+851,43,Female,"Boston, MA",Master's,80533,7,Yes,1
+852,63,Female,"Boston, MA",High School,66184,4,No,1
+853,51,Male,"Boston, MA",High School,92912,0,Yes,0
+854,31,Female,"Boston, MA",High School,20578,0,No,1
+855,43,Female,"Chicago, IL",High School,28624,8,Yes,1
+856,62,Male,"Boston, MA",Bachelor's,49194,9,No,0
+857,44,Female,"Los Angeles, CA",High School,10389,5,Yes,1
+858,26,Male,"New York, NY",Bachelor's,77391,9,Yes,1
+859,43,Male,"Chicago, IL",High School,23794,4,No,0
+860,64,Male,"Boston, MA",Bachelor's,68002,0,Yes,0
+861,39,Female,"Chicago, IL",Master's,45531,5,Yes,1
+862,64,Female,"Boston, MA",High School,62815,5,Yes,1
+863,47,Male,"Los Angeles, CA",Bachelor's,14986,2,Yes,0
+864,60,Female,"New York, NY",Master's,42298,7,Yes,1
+865,34,Female,"Boston, MA",High School,11481,0,Yes,1
+866,43,Male,"Boston, MA",High School,66408,0,Yes,0
+867,53,Male,"Boston, MA",High School,79267,5,No,0
+868,18,Female,"Boston, MA",Bachelor's,26835,9,No,0
+869,25,Male,"New York, NY",Bachelor's,37798,0,Yes,0
+870,52,Female,"New York, NY",Master's,74887,5,Yes,1
+871,32,Female,"Los Angeles, CA",Bachelor's,29477,0,Yes,1
+872,64,Female,"New York, NY",Bachelor's,27266,5,No,1
+873,39,Female,"Boston, MA",High School,96328,2,No,1
+874,31,Male,"Los Angeles, CA",High School,95988,7,Yes,1
+875,43,Male,"Los Angeles, CA",High School,53526,5,No,0
+876,45,Male,"Los Angeles, CA",High School,21889,0,Yes,0
+877,40,Male,"Boston, MA",High School,34335,4,Yes,0
+878,31,Female,"Chicago, IL",High School,21254,7,Yes,1
+879,41,Female,"Boston, MA",High School,96610,2,Yes,1
+880,19,Male,"New York, NY",Master's,21442,5,No,0
+881,62,Female,"New York, NY",Master's,56289,4,No,1
+882,43,Female,"Boston, MA",Master's,63747,5,Yes,1
+883,31,Female,"Boston, MA",Master's,47327,9,No,1
+884,24,Male,"Los Angeles, CA",High School,26199,0,No,0
+885,20,Male,"Boston, MA",Master's,82827,6,Yes,1
+886,64,Male,"Los Angeles, CA",High School,10112,8,No,0
+887,40,Female,"New York, NY",Master's,97051,1,Yes,1
+888,63,Male,"Los Angeles, CA",Bachelor's,29581,9,Yes,1
+889,60,Male,"Boston, MA",Master's,69722,4,Yes,1
+890,64,Male,"New York, NY",Master's,26523,9,Yes,1
+891,62,Male,"Chicago, IL",High School,76960,3,No,0
+892,35,Male,"Los Angeles, CA",Master's,29552,5,Yes,1
+893,55,Male,"New York, NY",Bachelor's,20808,5,No,0
+894,52,Female,"Los Angeles, CA",High School,82525,1,Yes,1
+895,32,Female,"New York, NY",High School,33620,1,Yes,1
+896,42,Male,"New York, NY",Master's,10887,3,No,1
+897,54,Male,"Los Angeles, CA",High School,41802,0,Yes,0
+898,45,Female,"Chicago, IL",High School,95024,8,No,1
+899,27,Female,"New York, NY",High School,91938,6,No,1
+900,56,Male,"New York, NY",High School,96741,6,Yes,1
+901,34,Male,"New York, NY",High School,36049,2,Yes,0
+902,56,Male,"Chicago, IL",High School,87789,2,Yes,0
+903,39,Male,"Chicago, IL",Bachelor's,94526,0,Yes,0
+904,43,Female,"Boston, MA",Master's,17846,2,Yes,1
+905,61,Male,"Los Angeles, CA",Bachelor's,56220,2,Yes,0
+906,42,Male,"Chicago, IL",High School,56163,3,No,0
+907,34,Male,"Los Angeles, CA",High School,13765,3,No,0
+908,30,Male,"Boston, MA",Master's,91486,2,Yes,1
+909,37,Female,"Los Angeles, CA",Bachelor's,55270,9,No,1
+910,42,Female,"Chicago, IL",Master's,85277,7,No,1
+911,21,Female,"Los Angeles, CA",Bachelor's,98278,7,Yes,1
+912,27,Male,"Chicago, IL",High School,32931,0,Yes,0
+913,20,Male,"Los Angeles, CA",Master's,99116,6,No,1
+914,58,Female,"Chicago, IL",Master's,65633,1,Yes,1
+915,62,Male,"Chicago, IL",High School,90702,0,No,0
+916,35,Male,"Los Angeles, CA",Master's,61913,2,Yes,1
+917,64,Female,"Boston, MA",Bachelor's,35991,3,No,1
+918,53,Female,"New York, NY",Bachelor's,64845,5,No,1
+919,64,Female,"Boston, MA",Bachelor's,65312,9,No,1
+920,39,Female,"Los Angeles, CA",Bachelor's,20561,4,No,1
+921,51,Male,"Boston, MA",High School,26901,3,Yes,0
+922,64,Male,"Chicago, IL",Master's,72875,7,Yes,1
+923,25,Female,"New York, NY",Bachelor's,35917,3,No,0
+924,57,Male,"Los Angeles, CA",High School,72120,9,No,0
+925,61,Female,"Los Angeles, CA",Master's,11988,1,Yes,1
+926,36,Female,"Los Angeles, CA",Master's,24256,2,Yes,1
+927,59,Male,"New York, NY",High School,97728,5,No,0
+928,58,Female,"Chicago, IL",High School,38230,7,No,1
+929,54,Male,"Los Angeles, CA",Bachelor's,69778,7,No,0
+930,23,Male,"Boston, MA",Master's,55833,8,No,1
+931,43,Male,"Los Angeles, CA",Master's,32625,6,No,1
+932,51,Male,"Los Angeles, CA",High School,42088,1,Yes,0
+933,62,Female,"Los Angeles, CA",Master's,89650,7,No,1
+934,23,Male,"Los Angeles, CA",Bachelor's,51167,6,Yes,1
+935,54,Female,"Chicago, IL",Master's,81291,7,Yes,1
+936,50,Female,"Boston, MA",High School,75303,2,Yes,1
+937,39,Female,"Chicago, IL",High School,86361,6,No,1
+938,38,Female,"Boston, MA",Bachelor's,98229,9,Yes,1
+939,23,Male,"Los Angeles, CA",Bachelor's,14117,8,Yes,0
+940,23,Male,"New York, NY",Master's,70710,2,Yes,1
+941,21,Female,"Chicago, IL",Master's,77054,9,Yes,1
+942,47,Female,"New York, NY",High School,40949,5,No,1
+943,28,Male,"Chicago, IL",Bachelor's,32547,1,No,0
+944,47,Female,"Los Angeles, CA",Bachelor's,91882,1,Yes,1
+945,48,Male,"Chicago, IL",Bachelor's,78136,4,Yes,0
+946,41,Female,"Los Angeles, CA",Master's,74619,4,No,1
+947,26,Male,"Chicago, IL",Bachelor's,71842,6,No,0
+948,20,Female,"Los Angeles, CA",High School,36990,1,No,0
+949,48,Female,"Los Angeles, CA",High School,26193,6,Yes,1
+950,57,Male,"Boston, MA",Master's,40109,4,No,1
+951,54,Female,"Los Angeles, CA",Master's,29233,5,Yes,1
+952,53,Female,"Boston, MA",Bachelor's,91730,7,Yes,1
+953,41,Male,"Los Angeles, CA",Master's,44510,9,No,1
+954,48,Female,"New York, NY",High School,11306,3,Yes,1
+955,23,Male,"Los Angeles, CA",Bachelor's,13849,6,No,0
+956,19,Male,"New York, NY",High School,22360,5,Yes,0
+957,37,Female,"New York, NY",Bachelor's,55800,9,No,1
+958,45,Female,"Los Angeles, CA",Master's,46963,1,Yes,1
+959,28,Female,"New York, NY",Bachelor's,64330,7,Yes,1
+960,21,Female,"Boston, MA",Bachelor's,61707,9,No,1
+961,32,Female,"Chicago, IL",High School,28689,8,No,1
+962,23,Female,"Los Angeles, CA",High School,39084,4,No,0
+963,47,Female,"New York, NY",Bachelor's,50387,9,No,1
+964,55,Male,"Los Angeles, CA",Master's,84816,3,Yes,1
+965,19,Female,"Boston, MA",Master's,12642,5,No,0
+966,32,Male,"Los Angeles, CA",High School,52137,7,No,0
+967,28,Female,"Los Angeles, CA",Master's,89832,2,Yes,1
+968,25,Female,"New York, NY",High School,65561,9,No,1
+969,43,Male,"Boston, MA",Master's,72260,0,No,1
+970,62,Female,"Chicago, IL",Bachelor's,25438,3,Yes,1
+971,61,Female,"Chicago, IL",High School,58442,3,No,1
+972,22,Male,"New York, NY",High School,12994,0,No,0
+973,23,Female,"Los Angeles, CA",Bachelor's,11813,8,No,0
+974,43,Female,"New York, NY",High School,94381,2,No,1
+975,21,Female,"New York, NY",Master's,65276,4,No,1
+976,36,Male,"New York, NY",Master's,51243,5,No,1
+977,37,Female,"Los Angeles, CA",High School,72912,7,Yes,1
+978,50,Female,"Boston, MA",Master's,70272,5,No,1
+979,37,Female,"New York, NY",High School,52051,2,Yes,1
+980,29,Female,"Los Angeles, CA",Bachelor's,88854,5,Yes,1
+981,64,Male,"Boston, MA",High School,92736,0,Yes,0
+982,18,Male,"New York, NY",Bachelor's,75618,3,Yes,0
+983,43,Female,"Chicago, IL",Master's,11920,5,No,1
+984,31,Female,"Boston, MA",Bachelor's,87219,6,No,1
+985,55,Male,"New York, NY",Master's,86872,9,No,1
+986,54,Male,"Boston, MA",High School,91132,2,Yes,0
+987,28,Female,"Boston, MA",Master's,12093,8,No,0
+988,53,Male,"Boston, MA",High School,22905,6,No,0
+989,30,Female,"Boston, MA",High School,34351,0,No,1
+990,60,Male,"Boston, MA",Bachelor's,40981,1,Yes,0
+991,20,Male,"Boston, MA",Bachelor's,83903,0,Yes,0
+992,50,Male,"New York, NY",Bachelor's,80821,8,No,0
+993,23,Male,"Chicago, IL",Bachelor's,92289,8,Yes,1
+994,27,Female,"Los Angeles, CA",Master's,94021,6,Yes,1
+995,22,Male,"Boston, MA",Master's,88513,9,No,1
+996,40,Male,"Los Angeles, CA",Master's,29874,2,Yes,1
+997,27,Female,"New York, NY",High School,60931,4,Yes,1
+998,61,Male,"Boston, MA",Master's,17674,3,No,1
+999,19,Male,"Chicago, IL",Master's,60516,6,Yes,1

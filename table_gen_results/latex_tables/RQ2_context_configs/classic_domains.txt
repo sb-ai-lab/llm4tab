@@ -1,0 +1,23 @@
+\begin{table}[ht]
+\sisetup{
+  separate-uncertainty = true,
+  table-align-uncertainty = true,
+  table-figures-uncertainty = 1,
+}
+\centering
+\small
+\setlength{\tabcolsep}{8pt}
+
+\begin{tabular}{lcccc}
+\toprule
+Configuration & GPT-4o-mini & Qwen3-1.7B & Qwen3-8B & Qwen3-14B \\
+\midrule
+NoCols-NoContext & \num{0.625 \pm 0.013} & \num{0.610 \pm 0.003} & \num{0.579 \pm 0.006} & \num{0.596 \pm 0.002} \\
+Cols-NoContext & \num{0.682 \pm 0.013} & \num{0.645 \pm 0.002} & \num{0.637 \pm 0.008} & \num{0.678 \pm 0.000} \\
+NoCols-Context & \num{0.641 \pm 0.013} & \num{0.608 \pm 0.010} & \num{0.624 \pm 0.001} & \num{0.660 \pm 0.000} \\
+Cols-Context & \num{0.728 \pm 0.011} & \num{0.640 \pm 0.007} & \num{0.711 \pm 0.000} & \num{0.733 \pm 0.000} \\
+\bottomrule
+\end{tabular}
+\caption{Context configurations comparison across models (0-shot)}
+\label{tab:context_configs}
+\end{table}

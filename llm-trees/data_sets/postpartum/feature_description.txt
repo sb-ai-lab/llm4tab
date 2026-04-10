@@ -1,0 +1,48 @@
+Features:
+Age: patient's age.
+Residence: place of residence (City / Village).
+Education Level: patient's education level (University / College / Primary School / High School / No / High school / Primary school / etc.).
+Marital status: patient's marital status (Married / Divorced).
+Occupation before latest pregnancy: patient's occupation before latest pregnancy (Student / Doctor / Service / Housewife / Teacher / Other / Business / House wife / etc.).
+Monthly income before latest pregnancy: patient's monthly income before latest pregnancy (No / 10000 to 20000 / More than 30000 / Less than 5000 / 5000 to 10000 / 20000 to 30000).
+Occupation After Your Latest Childbirth: patient's occupation after latest childbirth (Student / Doctor / Service / Housewife / Teacher / Business / Other / House wife / etc.).
+Current monthly income: patient's current monthly income (No / 10000 to 20000 / More than 30000 / Less than 5000 / 5000 to 10000 / 20000 to 30000).
+Husband's education level: husband's education level (University / No / College / Primary School / High School / High school / Primary school / etc.).
+Husband’s monthly income: husband's monthly income (More than 30000 / No / 10000 to 20000 / 5000 to 10000 / 20000 to 30000 / Less than 5000).
+Addiction: addiction status (No / Smoking / Drinking / Drugs).
+Total children: total number of children (One / Two / More than two / More than Two / etc.).
+Disease before pregnancy: disease status before pregnancy (No / Non-Chronic Disease / Chronic Disease / 1.2 / etc.).
+History of pregnancy loss: pregnancy loss history (No / Miscarriage / Still-born Delivery / Still-born delivery / etc.).
+Family type: family structure (Nuclear / Joint).
+Number of household members: number of household members (6 to 8 / 2 to 5 / 9 or more).
+Relationship with the in-laws: relationship with the in-laws (Neutral / Good / Bad / Friendly / Poor).
+Relationship with husband: relationship with husband (Good / Neutral / Bad / Friendly / Poor).
+Relationship with the newborn: relationship with the newborn (Good / Neutral / Bad / Very good).
+Relationship between father and newborn: relationship between father and newborn (Good / Neutral / Bad / Very good).
+Feeling about motherhood: feeling about motherhood (Neutral / Happy / Sad).
+Recieved Support: level of received support (High / Medium / Low).
+Need for Support: level of needed support (Medium / Low / No / High).
+Major changes or losses during pregnancy: whether major changes or losses happened during pregnancy (Yes / No).
+Abuse: whether abuse was experienced (Yes / No).
+Trust and share feelings: whether the patient trusts others and shares feelings (Yes / No).
+Number of the latest pregnancy: pregnancy number (1 / 2 / 3 / 4 / 5 / 7 / 6).
+Pregnancy length: pregnancy duration group (10 months / 9 months / 8 months / Less than 5 months / 7 months / 6 months).
+Pregnancy plan: whether the pregnancy was planned (No / Yes).
+Regular checkups: whether regular checkups were done (Yes / No).
+Fear of pregnancy: whether fear of pregnancy was present (Yes / No).
+Diseases during pregnancy: disease status during pregnancy (No / Chronic Disease / Non-Chronic Disease / Non-chronic disease / Chronic disease / etc.).
+Age of newborn: age group of the newborn (6 months to 1 year / Older than 1.5 year / 0 to 6 months / 1 year to 1.5 year).
+Age of immediate older children: age group of immediate older children (No / 13yr or more / 1yr to 3yr / 7yr to 12yr / 4yr to 6yr).
+Mode of delivery: delivery type (Normal Delivery / Caesarean Section).
+Gender of newborn: newborn's gender (Boy / Girl).
+Birth compliancy: whether there were birth complications (No / Yes).
+Breastfeed: whether the newborn is breastfed (Yes / No).
+Newborn illness: whether the newborn has illness (No / Yes).
+Worry about newborn: whether the patient worries about the newborn (Yes / No).
+Relax/sleep when newborn is tended: whether the patient can relax or sleep when the newborn is tended by others (Yes / No).
+Relax/sleep when the newborn is asleep: whether the patient can relax or sleep when the newborn is asleep (Yes / No).
+Angry after latest child birth: whether the patient feels angry after latest childbirth (No / Yes).
+Feeling for regular activities: feeling about regular activities (Worried / Tired / No / Afraid).
+
+Target variable:
+target: postpartum depression status (0 = does not have postpartum depression / 1 = has postpartum depression)

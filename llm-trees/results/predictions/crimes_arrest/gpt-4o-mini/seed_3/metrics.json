@@ -1,0 +1,10 @@
+{
+  "dataset": "crimes_arrest",
+  "method": "gpt-4o-mini",
+  "iter": 3,
+  "seed": 3,
+  "acc": 0.4602073963018491,
+  "f1_score": 0.45476415499613365,
+  "roc_auc": 0.46020739630184904,
+  "tree_path": "./trees/crimes_arrest/gpt-4o-mini/crimes_arrest_gpt-4o-mini_examples_3_desc_False_temp_100_maxdepth_2_iter_3_dialogue.txt"
+}

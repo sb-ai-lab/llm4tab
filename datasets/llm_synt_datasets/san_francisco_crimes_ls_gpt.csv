@@ -1,0 +1,1001 @@
+,Incident_ID,Crime_Type,Location_Type,Time_of_Day,Day_of_Week,Prior_Reports,Officer_Experience,Resolution,Witnesses,Evidence_Collected,Suspect_ID,label
+0,1,Disorderly Conduct,Public Space,23:30,Thursday,10,8,Unresolved,0,0,102.0,0
+1,2,Fraud,Public Space,16:41,Friday,8,12,Unresolved,0,1,,1
+2,3,Fraud,Online,02:20,Saturday,3,12,Unresolved,2,0,100.0,1
+3,4,Fraud,Public Space,07:13,Wednesday,6,14,Solved,2,0,100.0,1
+4,5,Disorderly Conduct,Commercial,06:15,Wednesday,0,1,Solved,1,1,106.0,1
+5,6,Burglary,Residential,17:30,Tuesday,10,12,Solved,1,1,,1
+6,7,Assault,Residential,10:37,Saturday,10,6,Unresolved,1,0,,1
+7,8,Assault,Street,19:52,Wednesday,1,16,Solved,1,1,106.0,1
+8,9,Burglary,Commercial,13:52,Friday,6,7,Unresolved,0,1,100.0,1
+9,10,Fraud,Apartment,12:03,Wednesday,1,17,Unresolved,1,0,,1
+10,11,Theft,Online,19:30,Tuesday,5,14,Unresolved,0,0,,0
+11,12,Burglary,Residential,19:10,Monday,9,14,Unresolved,2,0,102.0,1
+12,13,Vandalism,Commercial,17:00,Wednesday,8,4,Unresolved,2,0,100.0,1
+13,14,Vandalism,Commercial,11:17,Friday,10,1,Unresolved,0,1,102.0,1
+14,15,Drug Offense,Residential,06:43,Friday,4,15,Unresolved,1,0,105.0,1
+15,16,Burglary,Street,00:53,Tuesday,9,4,Solved,2,0,,1
+16,17,Robbery,Commercial,03:17,Sunday,6,5,Solved,0,0,,0
+17,18,Disorderly Conduct,Public Space,14:30,Tuesday,0,11,Unresolved,2,1,,1
+18,19,Disorderly Conduct,Commercial,02:38,Sunday,7,4,Unresolved,1,0,104.0,1
+19,20,Vandalism,Apartment,05:14,Thursday,8,19,Solved,0,0,,0
+20,21,Vandalism,Residential,14:05,Thursday,4,7,Solved,2,0,103.0,1
+21,22,Vandalism,Apartment,07:39,Thursday,5,10,Unresolved,1,1,,1
+22,23,Theft,Street,21:00,Sunday,10,13,Unresolved,0,0,103.0,0
+23,24,Robbery,Online,12:54,Monday,7,16,Solved,0,0,,0
+24,25,Fraud,Public Space,23:20,Friday,3,9,Unresolved,0,0,,0
+25,26,Fraud,Residential,12:42,Thursday,1,1,Unresolved,0,0,,0
+26,27,Burglary,Commercial,03:06,Friday,9,2,Unresolved,2,1,107.0,1
+27,28,Theft,Public Space,11:58,Tuesday,7,12,Solved,0,1,,1
+28,29,Vandalism,Commercial,12:53,Monday,1,16,Solved,0,0,,0
+29,30,Fraud,Street,11:15,Tuesday,4,2,Solved,0,1,105.0,1
+30,31,Robbery,Online,05:13,Friday,5,9,Solved,0,1,,1
+31,32,Fraud,Residential,18:47,Saturday,4,7,Solved,0,0,105.0,0
+32,33,Disorderly Conduct,Street,03:36,Sunday,5,3,Unresolved,1,0,107.0,1
+33,34,Robbery,Street,08:55,Saturday,5,12,Solved,2,1,,1
+34,35,Theft,Online,02:53,Thursday,2,6,Unresolved,1,0,101.0,1
+35,36,Fraud,Street,09:16,Saturday,10,6,Unresolved,2,0,,1
+36,37,Vandalism,Street,18:41,Tuesday,10,15,Solved,0,0,,0
+37,38,Theft,Commercial,11:54,Sunday,2,4,Unresolved,2,0,106.0,1
+38,39,Disorderly Conduct,Apartment,06:17,Saturday,8,16,Unresolved,0,1,,1
+39,40,Assault,Commercial,18:14,Wednesday,2,9,Unresolved,0,0,105.0,0
+40,41,Vandalism,Online,06:43,Monday,2,3,Solved,1,1,108.0,1
+41,42,Theft,Public Space,21:38,Friday,10,13,Unresolved,1,0,,1
+42,43,Burglary,Online,09:56,Sunday,1,4,Solved,1,0,,1
+43,44,Fraud,Online,23:53,Thursday,6,1,Unresolved,2,1,109.0,1
+44,45,Vandalism,Online,19:31,Tuesday,9,13,Solved,2,1,,1
+45,46,Drug Offense,Online,09:24,Monday,9,17,Unresolved,1,1,,1
+46,47,Vandalism,Street,22:04,Thursday,3,10,Solved,1,1,,1
+47,48,Assault,Online,17:40,Tuesday,0,15,Solved,0,0,108.0,1
+48,49,Theft,Public Space,15:38,Saturday,5,17,Unresolved,2,0,,1
+49,50,Disorderly Conduct,Online,09:36,Sunday,4,15,Unresolved,0,1,102.0,1
+50,51,Drug Offense,Commercial,06:04,Friday,10,20,Solved,2,0,,1
+51,52,Assault,Street,14:50,Sunday,1,3,Solved,1,0,,1
+52,53,Burglary,Commercial,09:07,Wednesday,5,0,Unresolved,2,0,100.0,1
+53,54,Disorderly Conduct,Street,23:08,Wednesday,0,13,Unresolved,2,1,,1
+54,55,Disorderly Conduct,Commercial,10:59,Sunday,2,11,Solved,0,1,100.0,1
+55,56,Vandalism,Residential,21:33,Saturday,3,9,Unresolved,1,1,,1
+56,57,Fraud,Apartment,02:12,Friday,2,18,Solved,1,1,,1
+57,58,Drug Offense,Apartment,10:59,Monday,5,3,Solved,1,1,102.0,1
+58,59,Fraud,Street,09:58,Friday,10,19,Unresolved,0,1,102.0,1
+59,60,Disorderly Conduct,Residential,14:37,Saturday,3,20,Unresolved,0,1,,1
+60,61,Theft,Public Space,00:45,Tuesday,0,2,Unresolved,0,0,,0
+61,62,Theft,Residential,17:23,Sunday,4,3,Solved,2,0,,1
+62,63,Burglary,Street,10:39,Sunday,4,14,Unresolved,2,1,,1
+63,64,Assault,Residential,21:02,Sunday,8,10,Solved,0,0,109.0,0
+64,65,Drug Offense,Public Space,13:01,Sunday,7,15,Unresolved,0,0,,0
+65,66,Burglary,Street,15:37,Monday,7,3,Solved,1,1,,1
+66,67,Assault,Apartment,00:45,Wednesday,4,5,Solved,2,0,,1
+67,68,Robbery,Online,09:05,Saturday,7,7,Unresolved,2,0,109.0,1
+68,69,Robbery,Residential,08:38,Tuesday,9,12,Solved,1,1,,1
+69,70,Assault,Apartment,01:10,Saturday,6,19,Unresolved,1,1,101.0,1
+70,71,Theft,Apartment,13:36,Thursday,0,3,Unresolved,1,0,102.0,1
+71,72,Theft,Commercial,08:06,Thursday,6,4,Solved,0,1,103.0,1
+72,73,Robbery,Public Space,13:58,Thursday,10,9,Unresolved,0,1,,1
+73,74,Disorderly Conduct,Online,15:21,Wednesday,7,4,Solved,0,0,106.0,0
+74,75,Theft,Residential,15:38,Friday,2,11,Solved,0,1,104.0,1
+75,76,Fraud,Apartment,09:20,Monday,8,0,Unresolved,0,0,,0
+76,77,Disorderly Conduct,Apartment,05:48,Sunday,7,9,Unresolved,2,1,104.0,1
+77,78,Theft,Public Space,00:33,Wednesday,1,4,Solved,2,0,109.0,1
+78,79,Assault,Online,13:35,Tuesday,5,18,Unresolved,2,1,,1
+79,80,Vandalism,Online,08:54,Tuesday,3,18,Solved,1,0,107.0,1
+80,81,Assault,Apartment,05:30,Thursday,2,19,Unresolved,2,1,106.0,1
+81,82,Theft,Apartment,16:52,Monday,10,11,Unresolved,1,0,105.0,1
+82,83,Assault,Apartment,10:59,Thursday,5,15,Solved,2,1,106.0,1
+83,84,Drug Offense,Apartment,03:20,Tuesday,9,4,Unresolved,0,0,,0
+84,85,Robbery,Commercial,08:27,Tuesday,8,16,Solved,2,1,,1
+85,86,Vandalism,Commercial,15:34,Sunday,1,13,Solved,0,0,103.0,0
+86,87,Disorderly Conduct,Online,03:55,Friday,9,11,Unresolved,0,0,108.0,0
+87,88,Disorderly Conduct,Street,02:44,Sunday,9,12,Unresolved,2,1,103.0,1
+88,89,Drug Offense,Residential,18:56,Friday,9,20,Solved,2,1,104.0,1
+89,90,Drug Offense,Public Space,20:57,Sunday,4,13,Unresolved,0,0,,0
+90,91,Theft,Street,00:22,Friday,5,4,Solved,1,1,100.0,1
+91,92,Theft,Commercial,22:05,Thursday,3,4,Solved,1,0,100.0,1
+92,93,Disorderly Conduct,Commercial,21:02,Saturday,6,17,Unresolved,2,0,,1
+93,94,Drug Offense,Commercial,02:15,Monday,1,13,Unresolved,0,0,,0
+94,95,Drug Offense,Street,09:58,Friday,6,17,Unresolved,1,0,102.0,1
+95,96,Disorderly Conduct,Commercial,16:38,Wednesday,1,19,Solved,2,0,101.0,1
+96,97,Burglary,Street,12:27,Friday,0,0,Unresolved,2,0,,1
+97,98,Burglary,Commercial,10:09,Thursday,10,6,Unresolved,0,1,109.0,1
+98,99,Fraud,Apartment,06:23,Monday,4,16,Solved,1,0,,1
+99,100,Robbery,Apartment,05:23,Friday,1,2,Solved,2,0,,1
+100,101,Drug Offense,Residential,00:16,Sunday,7,9,Unresolved,1,0,108.0,1
+101,102,Assault,Commercial,11:35,Monday,7,6,Solved,2,0,,1
+102,103,Vandalism,Residential,02:05,Wednesday,0,11,Solved,2,0,106.0,1
+103,104,Burglary,Street,15:44,Tuesday,3,14,Unresolved,1,1,109.0,1
+104,105,Disorderly Conduct,Residential,08:31,Sunday,8,20,Unresolved,1,1,,1
+105,106,Theft,Commercial,10:51,Monday,4,15,Unresolved,0,0,,0
+106,107,Drug Offense,Street,20:44,Saturday,10,7,Unresolved,0,0,104.0,0
+107,108,Assault,Street,22:50,Friday,9,5,Unresolved,0,0,105.0,0
+108,109,Vandalism,Apartment,02:11,Sunday,5,3,Unresolved,0,1,,1
+109,110,Assault,Street,18:39,Thursday,2,10,Solved,1,1,,1
+110,111,Fraud,Street,13:53,Saturday,4,16,Solved,0,0,,0
+111,112,Assault,Residential,08:24,Saturday,0,1,Solved,1,1,,1
+112,113,Theft,Online,23:16,Thursday,7,5,Solved,2,0,104.0,1
+113,114,Burglary,Street,05:35,Thursday,10,3,Solved,1,0,103.0,1
+114,115,Assault,Public Space,03:18,Thursday,5,2,Solved,0,1,102.0,1
+115,116,Vandalism,Online,11:56,Saturday,1,6,Solved,1,1,,1
+116,117,Burglary,Apartment,01:16,Monday,3,6,Solved,1,1,106.0,1
+117,118,Fraud,Apartment,14:09,Thursday,3,15,Unresolved,1,1,101.0,1
+118,119,Fraud,Street,02:51,Tuesday,8,1,Solved,1,1,,1
+119,120,Robbery,Residential,03:53,Saturday,8,7,Unresolved,1,0,,1
+120,121,Theft,Online,00:00,Saturday,4,14,Solved,0,1,,1
+121,122,Burglary,Apartment,17:03,Saturday,2,15,Unresolved,1,0,109.0,1
+122,123,Fraud,Apartment,22:53,Wednesday,0,0,Unresolved,0,1,,1
+123,124,Fraud,Public Space,14:26,Monday,5,9,Unresolved,2,0,103.0,1
+124,125,Burglary,Street,22:27,Monday,7,6,Unresolved,1,1,,1
+125,126,Assault,Online,20:21,Thursday,0,15,Unresolved,2,1,,1
+126,127,Disorderly Conduct,Apartment,09:24,Saturday,10,9,Solved,0,0,,0
+127,128,Vandalism,Apartment,16:58,Sunday,0,11,Unresolved,1,1,,1
+128,129,Assault,Apartment,21:43,Saturday,10,16,Unresolved,2,0,,1
+129,130,Vandalism,Apartment,19:11,Thursday,6,12,Unresolved,0,1,100.0,1
+130,131,Fraud,Residential,15:36,Monday,6,11,Solved,2,0,,1
+131,132,Fraud,Commercial,15:16,Thursday,1,14,Unresolved,1,0,106.0,1
+132,133,Theft,Public Space,22:30,Thursday,2,13,Unresolved,1,1,100.0,1
+133,134,Burglary,Residential,14:12,Thursday,1,18,Unresolved,1,1,105.0,1
+134,135,Drug Offense,Public Space,07:26,Thursday,5,18,Unresolved,0,1,109.0,1
+135,136,Fraud,Apartment,20:01,Thursday,7,13,Solved,2,1,102.0,1
+136,137,Vandalism,Public Space,07:41,Friday,7,17,Solved,0,1,103.0,1
+137,138,Vandalism,Street,06:09,Friday,0,4,Solved,2,0,,1
+138,139,Disorderly Conduct,Street,03:42,Saturday,10,19,Solved,0,1,106.0,1
+139,140,Disorderly Conduct,Commercial,08:35,Saturday,8,5,Solved,1,1,,1
+140,141,Assault,Commercial,02:42,Sunday,10,17,Solved,2,0,102.0,1
+141,142,Assault,Public Space,02:57,Sunday,7,13,Solved,2,0,100.0,1
+142,143,Fraud,Residential,17:57,Friday,8,3,Solved,2,1,,1
+143,144,Fraud,Residential,18:45,Monday,8,0,Solved,0,0,104.0,0
+144,145,Robbery,Apartment,23:42,Wednesday,10,12,Unresolved,1,1,107.0,1
+145,146,Vandalism,Residential,23:31,Monday,5,10,Unresolved,2,0,,1
+146,147,Theft,Commercial,01:58,Sunday,2,2,Unresolved,0,0,,0
+147,148,Burglary,Residential,01:01,Saturday,0,16,Solved,2,0,101.0,1
+148,149,Burglary,Apartment,09:22,Friday,10,17,Unresolved,1,1,109.0,1
+149,150,Disorderly Conduct,Street,14:53,Monday,7,9,Unresolved,2,0,,1
+150,151,Burglary,Residential,11:42,Wednesday,9,15,Unresolved,1,1,100.0,1
+151,152,Vandalism,Residential,16:17,Thursday,2,20,Unresolved,0,1,105.0,1
+152,153,Assault,Commercial,13:16,Tuesday,6,12,Unresolved,0,1,104.0,1
+153,154,Theft,Public Space,14:11,Friday,9,19,Unresolved,1,0,,1
+154,155,Burglary,Street,15:31,Friday,5,11,Solved,1,1,108.0,1
+155,156,Vandalism,Public Space,22:37,Wednesday,2,3,Solved,0,0,,0
+156,157,Drug Offense,Apartment,01:33,Thursday,5,7,Unresolved,1,0,103.0,1
+157,158,Fraud,Apartment,15:33,Thursday,2,11,Solved,1,1,,1
+158,159,Robbery,Public Space,07:06,Tuesday,8,18,Solved,2,1,,1
+159,160,Robbery,Commercial,00:03,Thursday,0,14,Unresolved,0,1,,1
+160,161,Burglary,Online,10:51,Wednesday,7,15,Solved,0,1,102.0,1
+161,162,Assault,Commercial,06:17,Saturday,4,11,Unresolved,1,1,,1
+162,163,Robbery,Online,03:48,Thursday,3,19,Unresolved,1,0,,1
+163,164,Robbery,Online,10:42,Saturday,0,17,Solved,1,0,101.0,1
+164,165,Disorderly Conduct,Commercial,19:10,Sunday,8,11,Solved,0,1,,1
+165,166,Robbery,Online,14:45,Sunday,8,15,Solved,2,1,102.0,1
+166,167,Robbery,Online,16:33,Saturday,4,19,Solved,0,1,101.0,1
+167,168,Burglary,Online,17:47,Wednesday,10,10,Solved,2,0,,1
+168,169,Disorderly Conduct,Street,11:41,Friday,8,19,Solved,1,0,,1
+169,170,Vandalism,Apartment,15:34,Friday,9,13,Solved,0,1,108.0,1
+170,171,Theft,Online,07:26,Friday,8,1,Solved,2,1,,1
+171,172,Theft,Apartment,21:53,Monday,6,12,Unresolved,0,0,101.0,0
+172,173,Assault,Apartment,23:01,Friday,7,13,Unresolved,2,0,,1
+173,174,Vandalism,Street,21:00,Wednesday,0,5,Unresolved,2,1,106.0,1
+174,175,Fraud,Apartment,13:24,Tuesday,3,11,Unresolved,0,1,108.0,1
+175,176,Drug Offense,Public Space,03:35,Sunday,9,6,Solved,1,0,,1
+176,177,Theft,Residential,08:02,Thursday,9,3,Unresolved,0,0,102.0,0
+177,178,Drug Offense,Street,04:00,Friday,3,6,Solved,1,0,,1
+178,179,Theft,Residential,21:18,Monday,8,12,Solved,2,0,,1
+179,180,Disorderly Conduct,Public Space,00:41,Sunday,2,10,Unresolved,2,0,,1
+180,181,Theft,Commercial,21:29,Sunday,9,7,Solved,0,1,,1
+181,182,Disorderly Conduct,Commercial,11:09,Saturday,9,18,Solved,0,1,101.0,1
+182,183,Disorderly Conduct,Online,01:15,Monday,0,1,Unresolved,1,0,,1
+183,184,Assault,Commercial,07:45,Wednesday,10,20,Unresolved,1,0,,1
+184,185,Robbery,Street,14:47,Tuesday,4,17,Solved,0,0,109.0,0
+185,186,Assault,Commercial,10:43,Friday,6,20,Solved,1,0,109.0,1
+186,187,Disorderly Conduct,Street,01:35,Friday,3,9,Unresolved,1,1,,1
+187,188,Disorderly Conduct,Street,02:08,Monday,8,5,Unresolved,0,1,,1
+188,189,Theft,Residential,17:18,Wednesday,5,3,Solved,0,1,107.0,1
+189,190,Vandalism,Commercial,06:03,Monday,5,18,Unresolved,2,1,102.0,1
+190,191,Robbery,Apartment,05:50,Monday,2,13,Unresolved,2,0,,1
+191,192,Vandalism,Commercial,00:31,Tuesday,9,13,Solved,0,0,,0
+192,193,Vandalism,Commercial,15:10,Wednesday,9,17,Unresolved,2,1,101.0,1
+193,194,Vandalism,Commercial,21:35,Tuesday,4,16,Unresolved,1,0,,1
+194,195,Robbery,Online,17:22,Wednesday,9,17,Solved,0,1,,1
+195,196,Vandalism,Apartment,04:53,Friday,5,17,Unresolved,2,0,103.0,1
+196,197,Robbery,Apartment,05:24,Thursday,3,4,Solved,0,0,105.0,0
+197,198,Drug Offense,Street,01:11,Saturday,2,8,Unresolved,2,1,,1
+198,199,Disorderly Conduct,Apartment,21:08,Thursday,4,0,Unresolved,0,0,104.0,0
+199,200,Fraud,Street,19:28,Sunday,6,3,Solved,1,0,106.0,1
+200,201,Theft,Residential,11:28,Wednesday,10,6,Unresolved,2,0,,1
+201,202,Burglary,Street,12:26,Thursday,5,10,Unresolved,0,1,,1
+202,203,Vandalism,Commercial,21:54,Monday,1,13,Solved,1,0,101.0,1
+203,204,Assault,Public Space,16:04,Friday,0,9,Solved,2,0,,1
+204,205,Drug Offense,Public Space,19:44,Saturday,4,18,Solved,2,0,,1
+205,206,Assault,Online,12:41,Saturday,4,7,Unresolved,0,1,,1
+206,207,Burglary,Commercial,14:14,Sunday,5,2,Unresolved,1,0,,1
+207,208,Robbery,Street,17:49,Saturday,2,7,Unresolved,0,0,,0
+208,209,Burglary,Commercial,01:22,Friday,0,17,Solved,2,1,,1
+209,210,Assault,Online,10:12,Thursday,3,4,Unresolved,0,0,,0
+210,211,Disorderly Conduct,Apartment,10:03,Saturday,3,19,Solved,0,0,,0
+211,212,Disorderly Conduct,Street,14:53,Saturday,9,10,Solved,1,0,,1
+212,213,Burglary,Commercial,22:24,Wednesday,1,8,Solved,1,1,,1
+213,214,Disorderly Conduct,Apartment,10:49,Monday,7,18,Solved,2,0,102.0,1
+214,215,Theft,Online,15:41,Wednesday,5,11,Unresolved,1,0,,1
+215,216,Burglary,Apartment,11:12,Thursday,2,4,Unresolved,0,1,,1
+216,217,Vandalism,Street,08:58,Friday,0,15,Unresolved,2,1,109.0,1
+217,218,Theft,Online,20:44,Friday,10,12,Unresolved,1,0,,1
+218,219,Vandalism,Online,05:05,Wednesday,2,5,Solved,0,0,,0
+219,220,Fraud,Online,10:50,Tuesday,7,15,Unresolved,0,0,,0
+220,221,Fraud,Residential,10:09,Wednesday,3,17,Unresolved,2,1,104.0,1
+221,222,Burglary,Online,22:14,Tuesday,2,16,Unresolved,2,0,,1
+222,223,Theft,Residential,12:22,Sunday,10,11,Solved,1,1,103.0,1
+223,224,Disorderly Conduct,Apartment,07:36,Wednesday,3,0,Unresolved,1,0,105.0,1
+224,225,Theft,Residential,01:15,Tuesday,10,6,Unresolved,1,1,,1
+225,226,Fraud,Apartment,12:50,Tuesday,3,13,Solved,1,1,108.0,1
+226,227,Burglary,Residential,08:46,Saturday,1,17,Unresolved,2,1,101.0,1
+227,228,Drug Offense,Apartment,05:39,Sunday,3,0,Unresolved,0,0,104.0,0
+228,229,Robbery,Apartment,23:45,Saturday,10,19,Solved,0,1,,1
+229,230,Robbery,Online,04:16,Tuesday,8,9,Solved,1,1,108.0,1
+230,231,Robbery,Online,21:38,Tuesday,3,14,Unresolved,2,0,,1
+231,232,Disorderly Conduct,Apartment,08:47,Monday,0,10,Solved,1,1,105.0,1
+232,233,Theft,Online,17:27,Tuesday,0,3,Unresolved,1,1,,1
+233,234,Disorderly Conduct,Apartment,12:49,Saturday,0,14,Unresolved,2,0,,1
+234,235,Fraud,Online,09:00,Tuesday,4,20,Solved,0,1,107.0,1
+235,236,Robbery,Public Space,20:49,Friday,5,15,Unresolved,0,0,,0
+236,237,Fraud,Residential,18:33,Monday,5,14,Unresolved,1,0,,1
+237,238,Theft,Apartment,03:42,Tuesday,5,16,Unresolved,2,0,104.0,1
+238,239,Fraud,Commercial,02:40,Saturday,8,10,Unresolved,0,1,103.0,1
+239,240,Drug Offense,Online,09:27,Saturday,0,17,Unresolved,0,0,,0
+240,241,Disorderly Conduct,Online,01:38,Thursday,9,15,Solved,2,1,100.0,1
+241,242,Burglary,Street,14:58,Saturday,5,14,Solved,2,1,,1
+242,243,Fraud,Commercial,18:41,Monday,7,10,Solved,0,1,106.0,1
+243,244,Fraud,Commercial,23:51,Saturday,7,12,Solved,1,1,109.0,1
+244,245,Burglary,Public Space,13:35,Friday,2,17,Unresolved,1,0,104.0,1
+245,246,Theft,Residential,10:02,Wednesday,4,7,Solved,0,0,,0
+246,247,Theft,Public Space,22:16,Friday,9,8,Unresolved,1,1,100.0,1
+247,248,Disorderly Conduct,Residential,06:25,Sunday,3,10,Solved,1,1,100.0,1
+248,249,Fraud,Apartment,10:17,Friday,0,16,Solved,2,0,,1
+249,250,Drug Offense,Public Space,13:45,Monday,8,0,Unresolved,2,0,107.0,1
+250,251,Robbery,Street,05:30,Monday,4,10,Solved,2,0,,1
+251,252,Drug Offense,Residential,08:53,Thursday,1,6,Unresolved,1,1,101.0,1
+252,253,Burglary,Public Space,02:16,Saturday,1,7,Solved,2,0,,1
+253,254,Burglary,Street,11:35,Thursday,10,18,Unresolved,2,0,,1
+254,255,Vandalism,Commercial,19:47,Monday,6,3,Unresolved,0,0,105.0,0
+255,256,Robbery,Online,23:09,Saturday,3,3,Unresolved,2,1,,1
+256,257,Fraud,Apartment,06:09,Monday,0,18,Solved,0,0,100.0,0
+257,258,Burglary,Apartment,06:54,Monday,4,8,Solved,1,0,108.0,1
+258,259,Vandalism,Commercial,17:40,Wednesday,1,16,Unresolved,2,0,100.0,1
+259,260,Theft,Public Space,21:49,Friday,6,17,Unresolved,0,1,,1
+260,261,Burglary,Online,16:10,Thursday,8,0,Solved,0,1,,1
+261,262,Assault,Commercial,00:16,Thursday,0,13,Solved,0,0,107.0,1
+262,263,Robbery,Street,03:35,Tuesday,1,3,Solved,1,1,108.0,1
+263,264,Vandalism,Online,13:59,Sunday,10,9,Solved,2,1,,1
+264,265,Robbery,Residential,08:44,Wednesday,5,13,Unresolved,1,0,,1
+265,266,Robbery,Public Space,15:32,Monday,7,6,Solved,0,1,107.0,1
+266,267,Assault,Online,02:50,Monday,6,11,Solved,1,0,108.0,1
+267,268,Drug Offense,Residential,07:49,Wednesday,8,15,Unresolved,1,1,,1
+268,269,Theft,Commercial,05:58,Saturday,1,4,Solved,0,1,109.0,1
+269,270,Robbery,Apartment,19:57,Thursday,8,10,Unresolved,2,0,104.0,1
+270,271,Burglary,Online,05:28,Monday,3,3,Unresolved,2,0,103.0,1
+271,272,Disorderly Conduct,Online,04:11,Sunday,10,12,Solved,1,0,109.0,1
+272,273,Theft,Residential,08:40,Tuesday,2,7,Unresolved,2,1,103.0,1
+273,274,Burglary,Residential,16:18,Thursday,6,6,Solved,0,1,,1
+274,275,Theft,Apartment,16:53,Friday,4,10,Solved,2,1,,1
+275,276,Fraud,Residential,15:43,Sunday,4,10,Solved,1,1,109.0,1
+276,277,Theft,Residential,02:13,Wednesday,1,16,Solved,0,0,102.0,0
+277,278,Vandalism,Online,16:53,Thursday,5,13,Solved,0,0,106.0,0
+278,279,Burglary,Apartment,15:20,Friday,5,1,Solved,0,0,100.0,0
+279,280,Disorderly Conduct,Apartment,11:59,Tuesday,3,19,Unresolved,1,0,107.0,1
+280,281,Burglary,Online,23:33,Saturday,4,20,Unresolved,1,0,,1
+281,282,Fraud,Commercial,07:43,Wednesday,6,7,Unresolved,2,1,,1
+282,283,Theft,Commercial,20:47,Saturday,7,1,Unresolved,1,1,,1
+283,284,Robbery,Online,07:27,Sunday,5,20,Solved,0,0,,0
+284,285,Disorderly Conduct,Residential,15:09,Monday,4,14,Solved,1,1,106.0,1
+285,286,Burglary,Public Space,19:14,Saturday,2,4,Solved,1,1,100.0,1
+286,287,Fraud,Commercial,03:25,Monday,6,5,Solved,2,1,100.0,1
+287,288,Disorderly Conduct,Commercial,14:35,Sunday,7,16,Unresolved,0,0,108.0,0
+288,289,Assault,Online,10:37,Friday,2,7,Unresolved,2,1,107.0,1
+289,290,Assault,Online,03:40,Thursday,4,18,Solved,2,0,100.0,1
+290,291,Theft,Public Space,08:34,Tuesday,10,4,Solved,2,1,103.0,1
+291,292,Drug Offense,Public Space,22:27,Friday,1,18,Solved,0,1,105.0,1
+292,293,Theft,Apartment,04:46,Tuesday,9,13,Solved,2,0,101.0,1
+293,294,Fraud,Online,08:01,Saturday,9,9,Solved,0,0,,0
+294,295,Theft,Commercial,02:57,Tuesday,3,12,Unresolved,2,0,102.0,1
+295,296,Robbery,Street,20:43,Saturday,3,4,Solved,2,0,100.0,1
+296,297,Robbery,Street,15:04,Tuesday,7,6,Unresolved,0,1,,1
+297,298,Vandalism,Residential,09:27,Wednesday,2,9,Solved,1,0,,1
+298,299,Fraud,Commercial,14:13,Friday,4,10,Solved,2,0,,1
+299,300,Drug Offense,Street,13:22,Wednesday,10,2,Unresolved,1,1,105.0,1
+300,301,Disorderly Conduct,Commercial,12:15,Thursday,4,12,Unresolved,2,1,104.0,1
+301,302,Fraud,Online,07:07,Thursday,1,1,Solved,1,1,,1
+302,303,Fraud,Commercial,16:29,Monday,8,3,Unresolved,1,0,105.0,1
+303,304,Drug Offense,Street,16:34,Monday,3,2,Solved,1,0,,1
+304,305,Fraud,Commercial,00:48,Monday,8,14,Solved,1,1,,1
+305,306,Drug Offense,Public Space,23:47,Sunday,8,3,Unresolved,1,1,,1
+306,307,Drug Offense,Residential,16:24,Thursday,1,20,Unresolved,0,1,107.0,1
+307,308,Drug Offense,Apartment,01:24,Tuesday,8,3,Solved,1,0,104.0,1
+308,309,Fraud,Street,13:38,Saturday,8,14,Solved,0,1,,1
+309,310,Fraud,Online,18:32,Sunday,1,5,Unresolved,2,0,108.0,1
+310,311,Theft,Apartment,16:58,Tuesday,10,4,Solved,0,0,108.0,0
+311,312,Fraud,Residential,09:05,Friday,5,11,Solved,1,1,102.0,1
+312,313,Theft,Public Space,06:24,Thursday,8,6,Unresolved,0,0,,0
+313,314,Vandalism,Public Space,05:36,Saturday,3,2,Unresolved,1,0,108.0,1
+314,315,Assault,Public Space,01:17,Saturday,1,6,Solved,0,0,100.0,0
+315,316,Assault,Public Space,23:48,Saturday,6,11,Unresolved,2,0,100.0,1
+316,317,Vandalism,Street,23:26,Monday,8,14,Unresolved,1,0,106.0,1
+317,318,Vandalism,Street,22:38,Saturday,5,18,Solved,1,0,,1
+318,319,Burglary,Commercial,20:18,Saturday,10,5,Unresolved,0,1,,1
+319,320,Theft,Online,06:22,Thursday,10,7,Unresolved,0,0,109.0,0
+320,321,Drug Offense,Commercial,06:47,Tuesday,3,5,Solved,0,1,101.0,1
+321,322,Disorderly Conduct,Online,11:46,Sunday,0,2,Solved,0,0,100.0,0
+322,323,Burglary,Residential,14:42,Sunday,3,4,Unresolved,0,1,108.0,1
+323,324,Robbery,Commercial,01:34,Tuesday,2,8,Unresolved,1,1,107.0,1
+324,325,Theft,Residential,18:19,Wednesday,6,15,Solved,2,1,106.0,1
+325,326,Fraud,Residential,14:15,Wednesday,10,15,Unresolved,0,0,,0
+326,327,Vandalism,Residential,00:46,Friday,10,8,Unresolved,1,0,,1
+327,328,Assault,Public Space,11:38,Thursday,9,17,Unresolved,2,0,109.0,1
+328,329,Theft,Apartment,06:42,Wednesday,4,12,Unresolved,2,0,101.0,1
+329,330,Vandalism,Apartment,19:28,Wednesday,2,10,Solved,0,0,107.0,0
+330,331,Disorderly Conduct,Street,10:48,Thursday,1,9,Solved,1,0,103.0,1
+331,332,Disorderly Conduct,Residential,02:47,Tuesday,1,9,Unresolved,1,1,,1
+332,333,Theft,Public Space,04:59,Friday,4,5,Solved,1,0,104.0,1
+333,334,Fraud,Commercial,01:22,Friday,7,15,Unresolved,1,0,,1
+334,335,Theft,Commercial,06:59,Friday,7,11,Solved,1,0,108.0,1
+335,336,Fraud,Street,09:04,Wednesday,4,3,Solved,2,1,106.0,1
+336,337,Theft,Street,14:11,Tuesday,1,4,Solved,2,1,,1
+337,338,Robbery,Residential,09:30,Friday,3,1,Unresolved,2,1,,1
+338,339,Assault,Residential,21:16,Thursday,6,18,Unresolved,1,1,106.0,1
+339,340,Theft,Commercial,19:19,Friday,5,0,Solved,2,0,100.0,1
+340,341,Vandalism,Commercial,10:07,Sunday,9,3,Solved,2,0,,1
+341,342,Robbery,Commercial,14:33,Monday,6,11,Solved,0,1,104.0,1
+342,343,Disorderly Conduct,Commercial,16:22,Tuesday,4,1,Unresolved,2,1,,1
+343,344,Burglary,Apartment,05:52,Monday,1,11,Solved,0,0,,0
+344,345,Theft,Residential,12:28,Tuesday,7,15,Unresolved,1,1,,1
+345,346,Fraud,Residential,07:10,Saturday,1,1,Unresolved,1,1,,1
+346,347,Robbery,Commercial,14:44,Thursday,7,16,Solved,1,1,109.0,1
+347,348,Drug Offense,Public Space,17:49,Saturday,6,1,Unresolved,1,1,,1
+348,349,Burglary,Commercial,16:21,Wednesday,2,3,Solved,2,0,,1
+349,350,Assault,Online,12:34,Wednesday,3,5,Unresolved,0,1,,1
+350,351,Theft,Street,20:55,Saturday,6,6,Solved,1,0,,1
+351,352,Theft,Online,06:11,Tuesday,3,14,Solved,1,1,102.0,1
+352,353,Robbery,Public Space,03:23,Friday,8,19,Unresolved,0,1,,1
+353,354,Disorderly Conduct,Street,10:45,Monday,6,11,Solved,0,0,,0
+354,355,Assault,Public Space,17:38,Thursday,0,4,Unresolved,0,0,,0
+355,356,Drug Offense,Street,04:15,Friday,0,13,Unresolved,0,1,103.0,1
+356,357,Burglary,Commercial,10:53,Wednesday,3,15,Unresolved,0,1,,1
+357,358,Vandalism,Commercial,02:47,Friday,8,10,Solved,2,1,106.0,1
+358,359,Assault,Public Space,10:41,Saturday,3,11,Unresolved,0,0,101.0,1
+359,360,Theft,Street,22:54,Saturday,4,18,Unresolved,2,1,106.0,1
+360,361,Robbery,Apartment,01:47,Sunday,0,16,Solved,0,1,105.0,1
+361,362,Drug Offense,Public Space,16:09,Sunday,1,6,Unresolved,0,0,102.0,0
+362,363,Robbery,Public Space,17:43,Monday,10,8,Unresolved,1,1,103.0,1
+363,364,Burglary,Online,07:58,Wednesday,3,13,Solved,1,1,,1
+364,365,Fraud,Residential,02:58,Tuesday,3,19,Unresolved,1,1,,1
+365,366,Fraud,Public Space,19:23,Thursday,10,11,Solved,1,0,,1
+366,367,Assault,Apartment,02:37,Saturday,9,14,Solved,1,1,,1
+367,368,Robbery,Commercial,01:34,Thursday,5,11,Solved,1,1,108.0,1
+368,369,Vandalism,Street,16:08,Wednesday,5,20,Unresolved,0,1,105.0,1
+369,370,Vandalism,Residential,03:21,Tuesday,7,20,Solved,0,1,102.0,1
+370,371,Fraud,Street,22:33,Sunday,8,12,Unresolved,1,0,,1
+371,372,Fraud,Commercial,23:59,Saturday,0,8,Unresolved,1,1,,1
+372,373,Robbery,Public Space,08:45,Monday,0,6,Unresolved,1,1,,1
+373,374,Disorderly Conduct,Online,10:01,Thursday,5,0,Solved,0,1,,1
+374,375,Theft,Apartment,20:33,Wednesday,3,9,Unresolved,1,1,,1
+375,376,Robbery,Residential,04:06,Thursday,10,5,Unresolved,1,0,107.0,1
+376,377,Drug Offense,Apartment,21:03,Sunday,3,14,Solved,0,1,107.0,1
+377,378,Assault,Apartment,13:33,Sunday,0,14,Unresolved,0,1,100.0,1
+378,379,Burglary,Apartment,22:43,Tuesday,8,8,Unresolved,2,0,109.0,1
+379,380,Disorderly Conduct,Apartment,09:24,Monday,10,12,Unresolved,1,1,104.0,1
+380,381,Vandalism,Commercial,00:50,Sunday,2,0,Solved,0,0,,0
+381,382,Disorderly Conduct,Apartment,22:47,Tuesday,4,8,Solved,2,1,103.0,1
+382,383,Robbery,Online,14:31,Sunday,9,2,Solved,0,0,,0
+383,384,Drug Offense,Apartment,13:40,Saturday,0,8,Solved,2,0,108.0,1
+384,385,Disorderly Conduct,Commercial,20:54,Friday,7,19,Unresolved,2,1,101.0,1
+385,386,Fraud,Street,14:57,Tuesday,2,14,Unresolved,1,0,103.0,1
+386,387,Vandalism,Commercial,06:35,Tuesday,0,6,Unresolved,1,0,,1
+387,388,Disorderly Conduct,Online,20:49,Thursday,9,3,Unresolved,2,1,105.0,1
+388,389,Vandalism,Online,07:11,Sunday,5,19,Unresolved,1,1,106.0,1
+389,390,Burglary,Public Space,14:14,Tuesday,0,16,Solved,0,1,107.0,1
+390,391,Vandalism,Commercial,16:33,Wednesday,2,3,Unresolved,0,1,,1
+391,392,Disorderly Conduct,Street,11:34,Saturday,4,18,Solved,2,1,,1
+392,393,Drug Offense,Public Space,06:37,Thursday,3,4,Solved,2,1,100.0,1
+393,394,Vandalism,Public Space,13:54,Thursday,6,15,Unresolved,0,1,102.0,1
+394,395,Vandalism,Residential,04:29,Friday,5,2,Solved,0,1,,1
+395,396,Robbery,Apartment,03:14,Saturday,2,10,Solved,2,1,107.0,1
+396,397,Robbery,Public Space,06:34,Wednesday,10,14,Unresolved,0,0,104.0,0
+397,398,Fraud,Public Space,12:09,Saturday,7,18,Solved,0,0,109.0,0
+398,399,Assault,Online,22:01,Tuesday,7,20,Solved,2,0,104.0,1
+399,400,Theft,Street,11:59,Friday,1,13,Solved,1,0,104.0,1
+400,401,Drug Offense,Public Space,23:27,Wednesday,6,15,Solved,0,0,106.0,0
+401,402,Theft,Street,21:43,Friday,0,5,Solved,1,0,108.0,1
+402,403,Theft,Apartment,18:50,Saturday,1,4,Unresolved,1,0,,1
+403,404,Vandalism,Online,20:02,Monday,7,20,Solved,0,1,102.0,1
+404,405,Disorderly Conduct,Residential,05:31,Saturday,0,16,Unresolved,1,0,108.0,1
+405,406,Fraud,Residential,01:23,Tuesday,1,15,Solved,2,0,,1
+406,407,Burglary,Apartment,12:58,Friday,0,1,Solved,0,0,,0
+407,408,Disorderly Conduct,Apartment,08:12,Monday,4,10,Unresolved,0,0,,0
+408,409,Disorderly Conduct,Online,22:13,Tuesday,6,3,Unresolved,1,0,107.0,1
+409,410,Burglary,Online,18:10,Friday,5,5,Unresolved,0,1,108.0,1
+410,411,Vandalism,Commercial,13:15,Friday,5,6,Unresolved,0,0,105.0,0
+411,412,Fraud,Public Space,09:19,Saturday,5,16,Solved,1,0,,1
+412,413,Drug Offense,Public Space,15:59,Sunday,7,7,Solved,1,1,106.0,1
+413,414,Theft,Public Space,01:56,Friday,4,0,Unresolved,0,0,,0
+414,415,Assault,Street,15:13,Friday,9,14,Solved,0,1,101.0,1
+415,416,Fraud,Commercial,20:27,Thursday,6,19,Solved,2,1,106.0,1
+416,417,Theft,Public Space,17:25,Sunday,2,11,Solved,2,1,,1
+417,418,Burglary,Street,05:06,Friday,8,14,Unresolved,0,0,103.0,0
+418,419,Theft,Street,12:33,Saturday,9,14,Solved,0,0,,0
+419,420,Robbery,Residential,14:48,Thursday,2,8,Solved,2,1,106.0,1
+420,421,Robbery,Street,12:06,Thursday,5,15,Solved,1,0,,1
+421,422,Assault,Apartment,00:34,Monday,2,1,Unresolved,0,0,,0
+422,423,Drug Offense,Online,19:49,Tuesday,0,14,Solved,2,1,104.0,1
+423,424,Theft,Street,06:20,Thursday,0,14,Solved,2,1,108.0,1
+424,425,Robbery,Apartment,16:27,Wednesday,2,6,Unresolved,0,0,,0
+425,426,Drug Offense,Apartment,11:15,Thursday,3,20,Unresolved,0,1,101.0,1
+426,427,Fraud,Residential,23:09,Wednesday,1,12,Unresolved,2,1,,1
+427,428,Fraud,Residential,22:47,Sunday,8,16,Unresolved,0,0,,0
+428,429,Robbery,Street,19:49,Monday,10,10,Solved,1,0,,1
+429,430,Drug Offense,Residential,14:54,Wednesday,7,9,Solved,0,1,102.0,1
+430,431,Drug Offense,Residential,10:49,Monday,2,0,Solved,2,0,107.0,1
+431,432,Robbery,Online,05:32,Monday,6,13,Unresolved,2,0,,1
+432,433,Vandalism,Public Space,22:38,Monday,3,4,Solved,0,0,106.0,0
+433,434,Burglary,Street,11:51,Wednesday,4,7,Unresolved,2,0,,1
+434,435,Drug Offense,Street,03:30,Wednesday,3,0,Unresolved,1,0,,1
+435,436,Fraud,Street,09:52,Monday,8,6,Solved,0,0,,0
+436,437,Vandalism,Residential,01:40,Sunday,10,1,Solved,0,1,,1
+437,438,Theft,Online,09:51,Monday,6,6,Solved,2,1,100.0,1
+438,439,Vandalism,Residential,10:56,Sunday,3,6,Solved,1,1,,1
+439,440,Robbery,Apartment,13:02,Tuesday,7,8,Solved,0,1,,1
+440,441,Vandalism,Commercial,00:06,Sunday,1,3,Unresolved,2,1,109.0,1
+441,442,Burglary,Commercial,03:38,Sunday,6,6,Solved,0,0,,0
+442,443,Robbery,Commercial,15:09,Sunday,10,19,Solved,1,0,101.0,1
+443,444,Assault,Public Space,14:15,Monday,0,17,Solved,2,1,107.0,1
+444,445,Theft,Residential,05:03,Friday,7,12,Unresolved,0,0,102.0,0
+445,446,Fraud,Apartment,03:55,Tuesday,5,10,Unresolved,2,1,106.0,1
+446,447,Assault,Apartment,22:35,Tuesday,4,8,Unresolved,2,0,,1
+447,448,Vandalism,Commercial,21:21,Tuesday,8,13,Unresolved,1,1,100.0,1
+448,449,Drug Offense,Online,16:44,Friday,8,7,Solved,1,0,108.0,1
+449,450,Vandalism,Public Space,01:31,Tuesday,2,20,Solved,0,1,,1
+450,451,Disorderly Conduct,Public Space,19:05,Tuesday,8,13,Solved,2,0,104.0,1
+451,452,Fraud,Commercial,21:32,Wednesday,8,20,Solved,2,1,,1
+452,453,Fraud,Commercial,07:49,Saturday,1,16,Unresolved,2,0,,1
+453,454,Disorderly Conduct,Residential,20:35,Wednesday,4,13,Solved,0,0,105.0,0
+454,455,Drug Offense,Online,04:04,Monday,10,4,Solved,1,1,102.0,1
+455,456,Assault,Public Space,14:09,Monday,1,9,Unresolved,1,1,101.0,1
+456,457,Assault,Apartment,07:57,Sunday,0,5,Unresolved,2,1,103.0,1
+457,458,Drug Offense,Commercial,06:11,Thursday,6,9,Unresolved,0,1,,1
+458,459,Burglary,Residential,10:12,Saturday,3,10,Solved,2,1,,1
+459,460,Disorderly Conduct,Apartment,14:48,Friday,4,5,Unresolved,1,1,103.0,1
+460,461,Theft,Public Space,21:53,Wednesday,3,9,Unresolved,2,1,102.0,1
+461,462,Robbery,Commercial,17:26,Monday,5,13,Solved,2,1,,1
+462,463,Disorderly Conduct,Online,07:05,Friday,10,19,Unresolved,2,0,104.0,1
+463,464,Assault,Commercial,10:28,Tuesday,1,2,Unresolved,1,0,,1
+464,465,Theft,Online,08:57,Friday,7,6,Solved,0,0,,0
+465,466,Robbery,Residential,04:06,Wednesday,3,1,Solved,2,0,,1
+466,467,Vandalism,Residential,21:58,Saturday,7,6,Solved,1,1,,1
+467,468,Robbery,Public Space,14:52,Thursday,2,16,Solved,2,0,,1
+468,469,Assault,Online,21:03,Sunday,10,12,Unresolved,0,0,102.0,1
+469,470,Burglary,Commercial,18:44,Wednesday,4,20,Solved,2,1,,1
+470,471,Burglary,Residential,00:00,Sunday,2,8,Unresolved,0,0,,0
+471,472,Theft,Commercial,21:45,Saturday,6,12,Unresolved,1,1,,1
+472,473,Vandalism,Public Space,08:55,Monday,2,14,Unresolved,0,0,102.0,0
+473,474,Theft,Online,11:49,Sunday,7,12,Solved,0,0,102.0,0
+474,475,Drug Offense,Commercial,08:07,Monday,8,16,Solved,1,1,101.0,1
+475,476,Burglary,Apartment,13:27,Friday,1,7,Solved,0,1,,1
+476,477,Theft,Commercial,08:51,Wednesday,2,8,Solved,0,0,106.0,0
+477,478,Drug Offense,Street,01:32,Monday,6,8,Solved,1,0,,1
+478,479,Vandalism,Street,12:24,Tuesday,4,7,Unresolved,0,0,,0
+479,480,Fraud,Public Space,09:39,Tuesday,9,15,Solved,0,1,105.0,1
+480,481,Robbery,Public Space,06:55,Thursday,6,19,Unresolved,2,1,,1
+481,482,Theft,Public Space,11:48,Friday,1,6,Solved,0,1,105.0,1
+482,483,Drug Offense,Apartment,11:47,Monday,3,16,Unresolved,0,1,,1
+483,484,Burglary,Online,09:58,Thursday,0,6,Unresolved,0,1,,1
+484,485,Disorderly Conduct,Apartment,11:10,Tuesday,4,5,Solved,1,1,107.0,1
+485,486,Robbery,Commercial,13:53,Thursday,7,4,Unresolved,0,0,107.0,0
+486,487,Theft,Residential,19:44,Thursday,0,16,Unresolved,1,1,109.0,1
+487,488,Burglary,Online,01:58,Monday,6,7,Unresolved,1,1,,1
+488,489,Fraud,Street,19:06,Monday,6,0,Unresolved,0,0,,0
+489,490,Robbery,Street,00:56,Monday,6,15,Solved,0,0,,0
+490,491,Assault,Street,02:28,Friday,0,16,Solved,0,1,,1
+491,492,Burglary,Commercial,19:11,Sunday,10,2,Solved,0,1,100.0,1
+492,493,Assault,Commercial,04:11,Thursday,2,12,Unresolved,0,1,,1
+493,494,Vandalism,Public Space,02:19,Thursday,10,7,Unresolved,0,1,,1
+494,495,Theft,Residential,04:59,Friday,1,15,Unresolved,0,0,,0
+495,496,Fraud,Public Space,00:15,Tuesday,4,6,Solved,1,0,,1
+496,497,Drug Offense,Commercial,08:41,Wednesday,1,20,Unresolved,2,0,,1
+497,498,Theft,Apartment,09:12,Sunday,4,14,Unresolved,1,1,,1
+498,499,Burglary,Public Space,15:19,Tuesday,4,1,Solved,0,0,101.0,0
+499,500,Assault,Online,03:45,Friday,3,1,Solved,2,1,104.0,1
+500,501,Disorderly Conduct,Commercial,16:27,Sunday,10,9,Solved,2,0,102.0,1
+501,502,Assault,Commercial,04:12,Sunday,6,4,Unresolved,0,1,107.0,1
+502,503,Robbery,Apartment,02:36,Thursday,9,3,Unresolved,0,1,103.0,1
+503,504,Theft,Apartment,15:18,Thursday,5,14,Solved,1,0,,1
+504,505,Theft,Apartment,18:16,Monday,1,12,Solved,2,0,107.0,1
+505,506,Burglary,Residential,17:17,Monday,3,16,Unresolved,2,1,,1
+506,507,Disorderly Conduct,Online,22:39,Thursday,10,20,Unresolved,0,0,102.0,0
+507,508,Assault,Commercial,17:08,Thursday,6,0,Unresolved,0,1,104.0,1
+508,509,Burglary,Apartment,18:41,Saturday,8,17,Unresolved,2,1,,1
+509,510,Burglary,Residential,01:59,Sunday,8,14,Solved,2,0,106.0,1
+510,511,Vandalism,Street,16:56,Monday,2,13,Unresolved,0,0,,0
+511,512,Assault,Online,23:44,Monday,0,8,Solved,0,1,,1
+512,513,Burglary,Street,10:47,Tuesday,8,11,Unresolved,0,1,107.0,1
+513,514,Assault,Street,19:38,Thursday,7,4,Solved,1,1,106.0,1
+514,515,Burglary,Commercial,02:47,Sunday,6,1,Unresolved,1,1,106.0,1
+515,516,Disorderly Conduct,Residential,18:19,Thursday,5,6,Solved,0,1,,1
+516,517,Drug Offense,Residential,15:33,Friday,9,20,Unresolved,1,1,,1
+517,518,Disorderly Conduct,Street,13:25,Tuesday,6,8,Solved,2,0,,1
+518,519,Disorderly Conduct,Online,19:41,Wednesday,10,17,Solved,2,0,104.0,1
+519,520,Burglary,Public Space,18:23,Wednesday,8,3,Unresolved,0,0,,0
+520,521,Disorderly Conduct,Street,10:17,Wednesday,5,1,Solved,2,1,100.0,1
+521,522,Disorderly Conduct,Commercial,10:08,Sunday,9,0,Unresolved,2,1,109.0,1
+522,523,Disorderly Conduct,Street,18:19,Saturday,2,11,Unresolved,2,0,106.0,1
+523,524,Burglary,Online,09:29,Monday,2,12,Unresolved,2,0,,1
+524,525,Fraud,Online,02:02,Sunday,3,13,Unresolved,2,0,,1
+525,526,Drug Offense,Street,23:39,Wednesday,9,4,Unresolved,1,1,107.0,1
+526,527,Theft,Residential,05:51,Friday,9,2,Unresolved,1,1,,1
+527,528,Assault,Street,00:51,Sunday,7,3,Unresolved,0,1,,1
+528,529,Fraud,Apartment,23:37,Sunday,9,16,Solved,2,0,100.0,1
+529,530,Robbery,Apartment,01:50,Monday,8,18,Solved,1,0,,1
+530,531,Drug Offense,Public Space,06:10,Monday,7,10,Unresolved,1,0,,1
+531,532,Fraud,Commercial,10:35,Wednesday,10,7,Solved,1,1,,1
+532,533,Disorderly Conduct,Commercial,19:15,Monday,9,11,Solved,2,0,102.0,1
+533,534,Theft,Residential,04:23,Tuesday,1,17,Solved,1,0,101.0,1
+534,535,Burglary,Commercial,06:56,Tuesday,3,17,Solved,0,1,105.0,1
+535,536,Vandalism,Public Space,15:46,Wednesday,3,8,Unresolved,0,1,107.0,1
+536,537,Theft,Apartment,04:32,Sunday,1,4,Unresolved,2,0,104.0,1
+537,538,Drug Offense,Residential,19:53,Friday,7,20,Unresolved,0,1,,1
+538,539,Vandalism,Online,21:40,Monday,2,16,Unresolved,1,0,102.0,1
+539,540,Burglary,Apartment,20:36,Thursday,1,12,Solved,2,1,106.0,1
+540,541,Theft,Public Space,21:26,Sunday,6,5,Solved,0,1,105.0,1
+541,542,Robbery,Residential,05:34,Wednesday,0,13,Solved,2,1,102.0,1
+542,543,Assault,Street,05:39,Saturday,5,14,Unresolved,1,1,,1
+543,544,Assault,Commercial,05:31,Monday,2,13,Solved,0,1,,1
+544,545,Drug Offense,Public Space,15:27,Wednesday,2,3,Solved,1,1,103.0,1
+545,546,Fraud,Residential,15:26,Wednesday,4,17,Unresolved,0,0,,0
+546,547,Burglary,Apartment,20:02,Friday,2,0,Unresolved,2,0,,1
+547,548,Burglary,Residential,16:20,Thursday,3,11,Solved,0,0,107.0,0
+548,549,Assault,Street,05:37,Monday,2,8,Solved,0,1,,1
+549,550,Theft,Public Space,21:18,Wednesday,6,9,Unresolved,0,1,107.0,1
+550,551,Burglary,Residential,19:46,Wednesday,2,20,Unresolved,2,0,101.0,1
+551,552,Robbery,Online,18:01,Sunday,9,17,Solved,0,0,,0
+552,553,Robbery,Public Space,07:38,Monday,3,16,Solved,1,0,100.0,1
+553,554,Burglary,Public Space,07:44,Wednesday,1,18,Unresolved,2,1,109.0,1
+554,555,Burglary,Apartment,21:26,Wednesday,1,3,Unresolved,2,0,104.0,1
+555,556,Assault,Commercial,14:11,Wednesday,8,15,Unresolved,1,0,106.0,1
+556,557,Drug Offense,Online,14:13,Tuesday,10,6,Unresolved,2,0,,1
+557,558,Assault,Street,06:16,Tuesday,0,8,Unresolved,0,0,,0
+558,559,Drug Offense,Residential,04:19,Thursday,0,7,Solved,2,1,,1
+559,560,Disorderly Conduct,Commercial,09:18,Friday,9,6,Solved,1,0,,1
+560,561,Robbery,Apartment,17:29,Sunday,0,9,Unresolved,2,0,,1
+561,562,Drug Offense,Commercial,23:09,Sunday,2,7,Unresolved,1,1,104.0,1
+562,563,Assault,Public Space,01:37,Monday,1,16,Unresolved,2,1,107.0,1
+563,564,Burglary,Public Space,02:50,Friday,2,11,Solved,1,1,101.0,1
+564,565,Drug Offense,Street,04:06,Friday,4,13,Unresolved,2,1,,1
+565,566,Assault,Online,06:26,Sunday,8,11,Solved,0,1,,1
+566,567,Robbery,Residential,09:32,Tuesday,1,1,Unresolved,1,0,,1
+567,568,Vandalism,Residential,10:54,Thursday,10,11,Solved,1,0,,1
+568,569,Disorderly Conduct,Apartment,06:05,Friday,0,13,Unresolved,2,0,105.0,1
+569,570,Drug Offense,Street,05:12,Sunday,10,6,Unresolved,2,1,105.0,1
+570,571,Robbery,Residential,15:12,Friday,5,12,Solved,2,0,,1
+571,572,Robbery,Online,01:18,Wednesday,2,20,Solved,0,1,,1
+572,573,Theft,Public Space,18:18,Monday,6,3,Unresolved,2,1,,1
+573,574,Vandalism,Street,17:56,Thursday,5,0,Unresolved,1,0,,1
+574,575,Drug Offense,Commercial,05:01,Sunday,10,16,Solved,2,1,,1
+575,576,Assault,Street,18:25,Monday,6,2,Solved,0,0,,0
+576,577,Drug Offense,Street,05:19,Tuesday,4,16,Solved,2,1,105.0,1
+577,578,Drug Offense,Online,22:53,Friday,0,7,Unresolved,2,0,106.0,1
+578,579,Vandalism,Online,14:05,Friday,2,2,Solved,1,1,101.0,1
+579,580,Fraud,Residential,02:10,Saturday,2,9,Solved,2,1,,1
+580,581,Robbery,Apartment,07:56,Monday,6,1,Unresolved,0,1,,1
+581,582,Robbery,Apartment,21:49,Tuesday,2,3,Unresolved,2,0,,1
+582,583,Robbery,Online,16:50,Sunday,10,13,Solved,2,1,,1
+583,584,Robbery,Residential,18:23,Saturday,4,10,Unresolved,1,0,,1
+584,585,Vandalism,Residential,20:48,Saturday,3,13,Unresolved,2,1,,1
+585,586,Assault,Residential,03:06,Wednesday,3,12,Unresolved,1,0,,1
+586,587,Burglary,Online,04:57,Saturday,6,3,Solved,1,1,,1
+587,588,Theft,Apartment,15:05,Saturday,0,1,Unresolved,2,0,109.0,1
+588,589,Fraud,Residential,13:57,Wednesday,6,1,Solved,1,1,107.0,1
+589,590,Fraud,Online,19:01,Friday,7,10,Solved,1,1,,1
+590,591,Disorderly Conduct,Commercial,17:49,Friday,2,4,Solved,2,1,107.0,1
+591,592,Robbery,Commercial,12:59,Thursday,2,8,Unresolved,2,0,,1
+592,593,Disorderly Conduct,Public Space,17:16,Saturday,3,19,Unresolved,0,1,109.0,1
+593,594,Robbery,Commercial,12:27,Monday,5,20,Unresolved,0,1,,1
+594,595,Theft,Street,11:34,Friday,6,16,Solved,1,1,,1
+595,596,Robbery,Public Space,21:38,Tuesday,0,11,Unresolved,1,0,108.0,1
+596,597,Burglary,Commercial,00:36,Sunday,3,17,Unresolved,2,1,,1
+597,598,Fraud,Street,20:00,Monday,6,2,Solved,0,0,102.0,0
+598,599,Drug Offense,Commercial,03:31,Thursday,10,4,Unresolved,0,0,103.0,0
+599,600,Theft,Online,00:12,Saturday,1,20,Solved,2,1,106.0,1
+600,601,Fraud,Street,13:46,Wednesday,0,19,Unresolved,2,1,107.0,1
+601,602,Assault,Residential,16:11,Thursday,0,13,Solved,2,0,,1
+602,603,Fraud,Online,06:54,Monday,9,15,Unresolved,2,0,108.0,1
+603,604,Theft,Street,18:54,Wednesday,5,18,Unresolved,0,1,106.0,1
+604,605,Burglary,Online,02:49,Tuesday,4,8,Unresolved,2,0,,1
+605,606,Vandalism,Residential,03:25,Wednesday,0,16,Solved,2,0,100.0,1
+606,607,Assault,Street,02:43,Wednesday,9,6,Solved,0,1,109.0,1
+607,608,Drug Offense,Street,22:27,Tuesday,2,9,Solved,2,1,105.0,1
+608,609,Robbery,Online,11:16,Friday,10,3,Unresolved,0,0,,0
+609,610,Theft,Commercial,05:46,Friday,6,9,Unresolved,0,0,104.0,0
+610,611,Assault,Street,01:07,Wednesday,8,2,Solved,2,1,107.0,1
+611,612,Theft,Commercial,13:36,Sunday,8,8,Solved,2,0,,1
+612,613,Drug Offense,Street,02:41,Wednesday,5,12,Unresolved,1,0,107.0,1
+613,614,Theft,Apartment,06:10,Thursday,2,0,Unresolved,1,1,,1
+614,615,Disorderly Conduct,Public Space,14:01,Sunday,0,14,Solved,0,0,103.0,0
+615,616,Fraud,Commercial,04:42,Friday,2,14,Solved,0,0,102.0,0
+616,617,Fraud,Commercial,07:12,Tuesday,9,10,Solved,1,0,,1
+617,618,Assault,Residential,10:16,Saturday,1,9,Unresolved,0,0,103.0,0
+618,619,Burglary,Apartment,14:32,Saturday,10,6,Unresolved,1,1,,1
+619,620,Vandalism,Residential,18:15,Wednesday,4,0,Unresolved,2,0,,1
+620,621,Assault,Apartment,18:12,Wednesday,7,6,Solved,2,0,,1
+621,622,Theft,Apartment,22:21,Saturday,4,4,Unresolved,2,1,,1
+622,623,Drug Offense,Online,22:35,Thursday,0,15,Solved,0,0,105.0,0
+623,624,Fraud,Online,10:49,Thursday,2,7,Solved,2,0,100.0,1
+624,625,Robbery,Online,17:09,Thursday,4,1,Unresolved,0,1,,1
+625,626,Robbery,Street,16:29,Monday,6,7,Solved,2,0,,1
+626,627,Drug Offense,Residential,12:29,Tuesday,4,13,Solved,0,0,105.0,0
+627,628,Theft,Public Space,13:29,Monday,9,3,Unresolved,0,0,107.0,0
+628,629,Vandalism,Apartment,06:09,Wednesday,4,14,Solved,1,0,104.0,1
+629,630,Disorderly Conduct,Apartment,02:01,Thursday,6,6,Unresolved,1,0,,1
+630,631,Drug Offense,Commercial,18:38,Thursday,7,19,Unresolved,1,0,103.0,1
+631,632,Theft,Street,04:59,Saturday,7,7,Unresolved,0,0,108.0,0
+632,633,Assault,Public Space,02:24,Saturday,6,10,Solved,1,1,108.0,1
+633,634,Vandalism,Online,01:54,Sunday,2,1,Solved,1,1,100.0,1
+634,635,Disorderly Conduct,Apartment,21:37,Thursday,10,8,Solved,1,1,102.0,1
+635,636,Disorderly Conduct,Commercial,13:38,Friday,1,5,Solved,0,0,,0
+636,637,Burglary,Residential,21:01,Saturday,0,0,Unresolved,0,1,104.0,1
+637,638,Theft,Apartment,10:52,Tuesday,5,2,Solved,1,1,,1
+638,639,Disorderly Conduct,Commercial,02:40,Monday,8,9,Solved,1,1,,1
+639,640,Robbery,Residential,07:25,Tuesday,2,4,Unresolved,0,1,104.0,1
+640,641,Robbery,Street,10:49,Saturday,4,11,Unresolved,0,0,,0
+641,642,Fraud,Online,00:14,Thursday,8,0,Unresolved,1,0,104.0,1
+642,643,Vandalism,Residential,03:03,Wednesday,8,8,Solved,1,0,100.0,1
+643,644,Disorderly Conduct,Apartment,09:10,Friday,6,20,Unresolved,1,1,,1
+644,645,Burglary,Public Space,17:22,Saturday,3,12,Unresolved,0,0,109.0,0
+645,646,Theft,Residential,14:02,Tuesday,10,18,Solved,1,1,107.0,1
+646,647,Burglary,Public Space,06:38,Wednesday,1,6,Solved,0,0,,0
+647,648,Fraud,Public Space,16:21,Saturday,1,15,Solved,2,0,,1
+648,649,Assault,Residential,19:26,Thursday,3,7,Unresolved,1,1,100.0,1
+649,650,Burglary,Street,23:15,Sunday,0,18,Solved,2,1,100.0,1
+650,651,Assault,Residential,15:39,Thursday,3,6,Unresolved,0,0,108.0,0
+651,652,Robbery,Commercial,02:51,Thursday,10,3,Unresolved,2,0,103.0,1
+652,653,Assault,Online,14:32,Thursday,5,9,Unresolved,1,0,105.0,1
+653,654,Theft,Public Space,09:01,Saturday,5,0,Solved,2,1,106.0,1
+654,655,Vandalism,Online,06:45,Sunday,6,16,Solved,2,1,,1
+655,656,Vandalism,Apartment,15:26,Friday,4,20,Solved,2,1,,1
+656,657,Theft,Public Space,14:06,Friday,8,12,Solved,0,1,,1
+657,658,Theft,Apartment,12:56,Tuesday,1,18,Unresolved,1,0,,1
+658,659,Theft,Commercial,09:08,Saturday,1,12,Solved,0,1,,1
+659,660,Drug Offense,Commercial,08:05,Sunday,3,8,Solved,2,1,,1
+660,661,Disorderly Conduct,Online,23:56,Sunday,3,4,Solved,2,1,,1
+661,662,Fraud,Commercial,11:29,Thursday,3,0,Solved,0,0,107.0,0
+662,663,Assault,Residential,22:19,Friday,0,1,Unresolved,0,0,,0
+663,664,Disorderly Conduct,Public Space,19:53,Saturday,3,10,Unresolved,2,1,,1
+664,665,Theft,Apartment,13:26,Wednesday,4,3,Unresolved,1,1,104.0,1
+665,666,Vandalism,Online,19:58,Friday,8,8,Solved,0,0,,0
+666,667,Burglary,Online,06:39,Friday,2,4,Unresolved,2,0,,1
+667,668,Burglary,Commercial,07:29,Sunday,2,4,Unresolved,2,1,,1
+668,669,Drug Offense,Commercial,07:01,Tuesday,4,7,Solved,1,0,100.0,1
+669,670,Disorderly Conduct,Apartment,13:09,Friday,9,1,Solved,2,1,104.0,1
+670,671,Disorderly Conduct,Public Space,17:17,Wednesday,5,6,Unresolved,0,0,106.0,0
+671,672,Disorderly Conduct,Public Space,17:15,Thursday,2,16,Unresolved,2,1,,1
+672,673,Assault,Online,19:04,Monday,0,10,Unresolved,2,1,101.0,1
+673,674,Assault,Apartment,19:30,Tuesday,9,14,Solved,2,1,,1
+674,675,Fraud,Online,04:19,Wednesday,7,2,Solved,2,1,,1
+675,676,Assault,Street,22:31,Tuesday,0,12,Unresolved,1,0,,1
+676,677,Vandalism,Public Space,09:16,Saturday,1,17,Unresolved,0,0,,0
+677,678,Vandalism,Apartment,12:48,Thursday,2,19,Unresolved,2,1,106.0,1
+678,679,Disorderly Conduct,Apartment,17:12,Friday,5,19,Unresolved,0,0,105.0,0
+679,680,Fraud,Online,16:59,Saturday,3,2,Solved,1,1,104.0,1
+680,681,Disorderly Conduct,Commercial,14:25,Friday,3,1,Unresolved,0,0,,0
+681,682,Drug Offense,Apartment,11:27,Sunday,8,4,Unresolved,1,1,101.0,1
+682,683,Assault,Online,09:44,Wednesday,5,19,Unresolved,0,0,106.0,1
+683,684,Assault,Residential,10:34,Thursday,1,4,Solved,0,0,,0
+684,685,Disorderly Conduct,Commercial,21:09,Monday,6,12,Solved,2,0,,1
+685,686,Disorderly Conduct,Commercial,10:37,Monday,2,7,Unresolved,0,0,,0
+686,687,Theft,Public Space,00:05,Friday,8,15,Unresolved,2,1,101.0,1
+687,688,Disorderly Conduct,Street,04:06,Saturday,5,17,Unresolved,2,1,102.0,1
+688,689,Assault,Public Space,21:43,Sunday,7,15,Unresolved,0,0,,1
+689,690,Vandalism,Residential,11:06,Thursday,0,0,Unresolved,2,0,105.0,1
+690,691,Theft,Online,01:59,Thursday,1,7,Unresolved,0,0,101.0,0
+691,692,Theft,Commercial,00:22,Wednesday,5,20,Solved,2,0,,1
+692,693,Assault,Commercial,17:43,Saturday,2,1,Solved,2,1,101.0,1
+693,694,Burglary,Apartment,06:50,Monday,0,4,Solved,1,0,,1
+694,695,Robbery,Street,21:02,Wednesday,5,14,Unresolved,1,0,109.0,1
+695,696,Disorderly Conduct,Street,09:58,Tuesday,4,13,Solved,0,0,102.0,0
+696,697,Vandalism,Apartment,10:04,Thursday,8,2,Solved,2,0,,1
+697,698,Burglary,Residential,01:07,Monday,5,6,Unresolved,1,0,,1
+698,699,Assault,Street,13:39,Wednesday,4,3,Unresolved,1,0,102.0,1
+699,700,Disorderly Conduct,Commercial,22:05,Friday,0,10,Unresolved,1,0,101.0,1
+700,701,Assault,Residential,00:55,Tuesday,0,11,Solved,2,0,106.0,1
+701,702,Disorderly Conduct,Public Space,00:39,Wednesday,10,14,Unresolved,0,1,,1
+702,703,Disorderly Conduct,Public Space,10:49,Friday,0,5,Solved,2,0,103.0,1
+703,704,Burglary,Residential,23:09,Monday,6,0,Solved,2,0,104.0,1
+704,705,Assault,Commercial,11:51,Monday,5,17,Solved,1,0,,1
+705,706,Vandalism,Public Space,22:15,Tuesday,4,13,Solved,2,0,,1
+706,707,Fraud,Online,04:15,Friday,3,6,Solved,2,1,104.0,1
+707,708,Disorderly Conduct,Commercial,23:43,Thursday,10,9,Unresolved,1,0,,1
+708,709,Theft,Apartment,05:29,Sunday,10,8,Solved,1,1,,1
+709,710,Drug Offense,Street,04:00,Sunday,7,1,Unresolved,2,1,,1
+710,711,Assault,Residential,18:41,Monday,10,7,Solved,1,1,,1
+711,712,Assault,Street,13:56,Saturday,7,0,Solved,0,1,,1
+712,713,Burglary,Apartment,20:34,Thursday,4,19,Unresolved,0,0,106.0,0
+713,714,Disorderly Conduct,Public Space,05:04,Thursday,3,1,Unresolved,0,1,109.0,1
+714,715,Theft,Online,16:49,Sunday,1,6,Unresolved,0,1,,1
+715,716,Burglary,Commercial,11:04,Wednesday,6,15,Unresolved,0,0,,0
+716,717,Fraud,Commercial,08:43,Wednesday,4,3,Unresolved,1,1,,1
+717,718,Disorderly Conduct,Apartment,19:08,Monday,2,20,Unresolved,1,1,,1
+718,719,Vandalism,Residential,02:00,Thursday,8,16,Unresolved,0,1,,1
+719,720,Burglary,Street,21:46,Wednesday,8,3,Unresolved,0,1,109.0,1
+720,721,Assault,Online,09:45,Friday,10,2,Solved,0,0,,0
+721,722,Disorderly Conduct,Public Space,06:35,Friday,10,8,Unresolved,1,1,107.0,1
+722,723,Theft,Residential,04:51,Friday,9,14,Solved,1,0,102.0,1
+723,724,Vandalism,Online,15:34,Friday,10,19,Solved,2,0,,1
+724,725,Assault,Online,16:12,Thursday,7,2,Unresolved,2,0,102.0,1
+725,726,Vandalism,Apartment,05:57,Friday,0,11,Solved,2,1,,1
+726,727,Assault,Apartment,04:47,Thursday,2,14,Solved,2,1,107.0,1
+727,728,Assault,Commercial,10:16,Sunday,1,19,Solved,1,0,,1
+728,729,Assault,Public Space,04:05,Monday,3,7,Unresolved,1,0,,1
+729,730,Disorderly Conduct,Residential,09:52,Monday,1,11,Solved,1,0,107.0,1
+730,731,Drug Offense,Commercial,00:29,Friday,10,20,Solved,1,0,108.0,1
+731,732,Robbery,Public Space,20:41,Friday,7,12,Unresolved,0,0,,0
+732,733,Theft,Street,16:26,Friday,0,14,Solved,2,0,109.0,1
+733,734,Fraud,Street,02:59,Monday,3,10,Solved,1,1,,1
+734,735,Drug Offense,Commercial,01:28,Wednesday,4,16,Solved,1,1,,1
+735,736,Robbery,Residential,16:35,Monday,9,20,Solved,2,1,104.0,1
+736,737,Vandalism,Public Space,01:36,Friday,3,11,Solved,1,0,107.0,1
+737,738,Robbery,Street,09:00,Wednesday,7,19,Solved,0,1,100.0,1
+738,739,Disorderly Conduct,Street,00:58,Wednesday,1,17,Solved,1,0,107.0,1
+739,740,Disorderly Conduct,Residential,03:38,Tuesday,8,15,Unresolved,2,0,,1
+740,741,Disorderly Conduct,Commercial,13:45,Sunday,1,2,Unresolved,0,1,,1
+741,742,Robbery,Apartment,17:33,Thursday,1,8,Unresolved,0,0,,0
+742,743,Drug Offense,Online,00:52,Sunday,1,6,Solved,2,1,,1
+743,744,Theft,Public Space,21:15,Friday,9,18,Solved,2,1,,1
+744,745,Burglary,Street,21:49,Thursday,7,4,Unresolved,0,1,107.0,1
+745,746,Robbery,Online,15:27,Tuesday,2,18,Solved,1,0,,1
+746,747,Disorderly Conduct,Online,22:21,Thursday,9,9,Unresolved,2,0,104.0,1
+747,748,Burglary,Apartment,23:05,Friday,10,19,Solved,0,0,,0
+748,749,Burglary,Online,09:01,Tuesday,9,11,Unresolved,2,1,,1
+749,750,Assault,Residential,06:52,Thursday,7,7,Solved,1,0,100.0,1
+750,751,Burglary,Commercial,16:34,Monday,6,2,Solved,1,1,,1
+751,752,Vandalism,Public Space,19:43,Wednesday,9,18,Unresolved,0,0,105.0,0
+752,753,Vandalism,Residential,01:06,Sunday,3,10,Unresolved,1,1,,1
+753,754,Assault,Commercial,16:18,Tuesday,6,7,Solved,1,1,,1
+754,755,Theft,Residential,11:08,Monday,10,12,Unresolved,1,0,109.0,1
+755,756,Fraud,Street,13:01,Friday,7,9,Solved,2,0,106.0,1
+756,757,Theft,Street,20:03,Wednesday,5,17,Solved,0,1,104.0,1
+757,758,Vandalism,Apartment,18:20,Sunday,5,11,Unresolved,0,1,,1
+758,759,Fraud,Residential,15:21,Tuesday,2,6,Unresolved,0,0,,0
+759,760,Assault,Online,16:01,Wednesday,4,10,Unresolved,1,1,,1
+760,761,Theft,Street,16:18,Saturday,9,9,Solved,2,0,102.0,1
+761,762,Fraud,Commercial,07:23,Saturday,1,2,Solved,0,0,,0
+762,763,Fraud,Apartment,19:37,Tuesday,4,6,Unresolved,2,1,,1
+763,764,Robbery,Online,11:24,Tuesday,4,3,Solved,0,0,101.0,0
+764,765,Theft,Public Space,22:49,Thursday,6,7,Solved,1,1,102.0,1
+765,766,Assault,Residential,01:31,Wednesday,3,7,Solved,0,0,,0
+766,767,Fraud,Street,18:23,Saturday,10,5,Solved,0,1,,1
+767,768,Vandalism,Online,09:24,Sunday,5,12,Solved,1,0,,1
+768,769,Disorderly Conduct,Commercial,02:24,Saturday,8,11,Solved,1,0,,1
+769,770,Robbery,Residential,11:25,Wednesday,3,2,Unresolved,0,1,104.0,1
+770,771,Burglary,Commercial,15:43,Saturday,10,5,Unresolved,2,0,105.0,1
+771,772,Burglary,Apartment,07:04,Sunday,5,18,Solved,1,1,,1
+772,773,Burglary,Street,10:41,Monday,8,10,Solved,0,1,101.0,1
+773,774,Vandalism,Street,02:26,Saturday,9,3,Solved,1,1,,1
+774,775,Disorderly Conduct,Apartment,22:40,Saturday,0,14,Solved,2,1,102.0,1
+775,776,Fraud,Commercial,11:37,Friday,7,1,Unresolved,0,1,105.0,1
+776,777,Assault,Residential,18:47,Monday,0,14,Unresolved,0,0,,1
+777,778,Burglary,Commercial,20:54,Thursday,3,16,Unresolved,2,0,102.0,1
+778,779,Theft,Residential,23:31,Tuesday,2,1,Unresolved,2,0,101.0,1
+779,780,Burglary,Online,13:27,Sunday,3,6,Solved,0,0,,0
+780,781,Fraud,Apartment,03:17,Saturday,6,15,Solved,2,0,100.0,1
+781,782,Drug Offense,Public Space,09:31,Sunday,8,4,Unresolved,2,0,,1
+782,783,Vandalism,Residential,17:11,Thursday,8,15,Unresolved,0,0,,0
+783,784,Drug Offense,Street,18:07,Thursday,9,18,Solved,1,1,108.0,1
+784,785,Burglary,Online,00:45,Monday,0,1,Solved,2,1,,1
+785,786,Disorderly Conduct,Street,22:37,Sunday,9,14,Unresolved,1,1,105.0,1
+786,787,Fraud,Online,13:01,Tuesday,0,3,Solved,1,0,103.0,1
+787,788,Burglary,Street,08:43,Friday,8,1,Unresolved,1,1,,1
+788,789,Drug Offense,Commercial,04:33,Thursday,3,9,Unresolved,2,0,108.0,1
+789,790,Fraud,Commercial,18:06,Friday,2,4,Solved,0,0,108.0,0
+790,791,Vandalism,Commercial,06:41,Tuesday,8,17,Unresolved,0,0,109.0,0
+791,792,Vandalism,Online,16:25,Tuesday,4,3,Unresolved,0,1,,1
+792,793,Burglary,Online,13:26,Monday,5,0,Unresolved,0,1,,1
+793,794,Vandalism,Street,10:27,Sunday,0,17,Solved,0,1,,1
+794,795,Robbery,Residential,19:05,Wednesday,0,19,Solved,0,0,,0
+795,796,Fraud,Online,07:31,Sunday,6,5,Unresolved,1,0,,1
+796,797,Disorderly Conduct,Street,18:31,Saturday,9,19,Solved,1,0,107.0,1
+797,798,Fraud,Residential,18:23,Monday,7,19,Solved,1,0,,1
+798,799,Vandalism,Commercial,23:55,Sunday,10,13,Solved,2,1,,1
+799,800,Fraud,Online,16:55,Friday,7,9,Unresolved,2,1,107.0,1
+800,801,Drug Offense,Public Space,23:17,Sunday,6,17,Solved,2,1,100.0,1
+801,802,Assault,Commercial,11:40,Monday,10,8,Solved,0,1,108.0,1
+802,803,Drug Offense,Apartment,22:55,Tuesday,8,11,Solved,1,0,,1
+803,804,Theft,Residential,15:17,Thursday,0,9,Unresolved,2,0,,1
+804,805,Robbery,Public Space,15:15,Saturday,1,20,Unresolved,1,1,104.0,1
+805,806,Assault,Commercial,03:22,Saturday,2,18,Solved,0,0,102.0,1
+806,807,Burglary,Online,21:38,Wednesday,4,5,Unresolved,1,0,105.0,1
+807,808,Fraud,Public Space,00:23,Tuesday,3,13,Solved,0,1,101.0,1
+808,809,Disorderly Conduct,Street,22:19,Saturday,3,7,Unresolved,2,1,,1
+809,810,Theft,Residential,00:30,Saturday,7,13,Unresolved,0,0,,0
+810,811,Theft,Apartment,07:57,Thursday,7,10,Unresolved,0,1,,1
+811,812,Disorderly Conduct,Street,22:07,Friday,10,15,Solved,1,1,,1
+812,813,Robbery,Public Space,09:00,Friday,6,19,Unresolved,0,1,103.0,1
+813,814,Assault,Commercial,20:24,Friday,0,5,Unresolved,2,1,,1
+814,815,Theft,Residential,20:45,Monday,9,14,Unresolved,2,1,,1
+815,816,Disorderly Conduct,Online,13:09,Friday,3,14,Solved,0,1,101.0,1
+816,817,Assault,Apartment,18:56,Friday,0,13,Solved,1,1,107.0,1
+817,818,Assault,Commercial,15:08,Monday,10,20,Unresolved,2,1,,1
+818,819,Vandalism,Apartment,19:47,Thursday,4,11,Solved,2,1,105.0,1
+819,820,Theft,Online,19:58,Tuesday,2,1,Unresolved,0,0,,0
+820,821,Assault,Residential,07:06,Saturday,2,7,Solved,0,1,106.0,1
+821,822,Robbery,Public Space,10:20,Wednesday,3,18,Unresolved,2,1,100.0,1
+822,823,Theft,Apartment,05:46,Saturday,1,13,Solved,0,1,107.0,1
+823,824,Robbery,Residential,18:45,Friday,6,4,Solved,0,0,100.0,0
+824,825,Robbery,Apartment,14:05,Friday,3,8,Solved,2,1,104.0,1
+825,826,Assault,Commercial,23:09,Sunday,4,12,Solved,1,1,,1
+826,827,Assault,Apartment,13:15,Saturday,1,8,Unresolved,1,0,,1
+827,828,Vandalism,Commercial,12:10,Saturday,5,13,Unresolved,2,0,,1
+828,829,Disorderly Conduct,Commercial,02:07,Sunday,8,4,Unresolved,0,1,,1
+829,830,Fraud,Residential,02:01,Friday,7,1,Unresolved,2,0,105.0,1
+830,831,Vandalism,Street,20:13,Monday,7,6,Unresolved,2,0,,1
+831,832,Theft,Online,19:28,Monday,1,15,Solved,0,0,,0
+832,833,Vandalism,Apartment,20:53,Monday,3,10,Solved,1,0,107.0,1
+833,834,Burglary,Public Space,14:02,Wednesday,7,10,Solved,1,0,108.0,1
+834,835,Disorderly Conduct,Commercial,00:14,Tuesday,10,11,Unresolved,0,1,103.0,1
+835,836,Theft,Street,19:21,Friday,0,12,Solved,2,0,,1
+836,837,Disorderly Conduct,Commercial,01:49,Thursday,7,7,Solved,0,1,,1
+837,838,Robbery,Street,00:08,Saturday,2,15,Unresolved,2,1,104.0,1
+838,839,Vandalism,Street,02:01,Saturday,7,20,Unresolved,0,1,,1
+839,840,Vandalism,Public Space,03:15,Friday,5,0,Unresolved,0,0,,0
+840,841,Fraud,Street,21:32,Friday,6,12,Unresolved,1,1,100.0,1
+841,842,Vandalism,Public Space,08:56,Friday,1,10,Unresolved,1,0,106.0,1
+842,843,Assault,Residential,07:37,Saturday,0,3,Solved,0,1,,1
+843,844,Robbery,Commercial,19:17,Sunday,5,3,Unresolved,0,1,,1
+844,845,Vandalism,Public Space,15:07,Friday,2,14,Unresolved,1,1,106.0,1
+845,846,Drug Offense,Online,22:59,Saturday,3,2,Solved,2,0,,1
+846,847,Drug Offense,Commercial,03:02,Tuesday,8,18,Solved,1,1,,1
+847,848,Disorderly Conduct,Online,14:37,Thursday,2,20,Solved,2,0,,1
+848,849,Robbery,Apartment,00:17,Monday,1,1,Solved,1,0,106.0,1
+849,850,Vandalism,Online,22:42,Sunday,1,5,Unresolved,1,0,104.0,1
+850,851,Fraud,Residential,02:29,Thursday,1,7,Solved,2,1,,1
+851,852,Burglary,Apartment,12:16,Friday,5,16,Solved,0,1,105.0,1
+852,853,Fraud,Apartment,17:57,Thursday,1,4,Unresolved,1,1,,1
+853,854,Burglary,Street,13:56,Friday,10,1,Unresolved,1,1,104.0,1
+854,855,Theft,Online,06:38,Thursday,6,11,Unresolved,1,0,109.0,1
+855,856,Theft,Street,13:57,Wednesday,6,4,Unresolved,0,1,,1
+856,857,Fraud,Online,23:14,Thursday,6,9,Solved,1,0,,1
+857,858,Vandalism,Apartment,11:11,Monday,1,8,Unresolved,0,0,,0
+858,859,Disorderly Conduct,Street,07:15,Monday,6,19,Solved,1,1,,1
+859,860,Fraud,Commercial,08:33,Sunday,9,7,Solved,2,1,103.0,1
+860,861,Theft,Online,13:23,Thursday,7,0,Solved,1,0,,1
+861,862,Assault,Online,23:28,Saturday,7,5,Solved,1,0,103.0,1
+862,863,Burglary,Street,15:04,Saturday,1,10,Unresolved,0,1,,1
+863,864,Robbery,Online,04:51,Saturday,4,2,Unresolved,0,1,,1
+864,865,Disorderly Conduct,Apartment,20:49,Thursday,5,14,Unresolved,0,1,104.0,1
+865,866,Fraud,Street,17:04,Saturday,8,10,Solved,2,0,101.0,1
+866,867,Vandalism,Street,10:12,Tuesday,5,4,Unresolved,2,0,106.0,1
+867,868,Vandalism,Public Space,02:48,Thursday,9,15,Unresolved,0,1,104.0,1
+868,869,Disorderly Conduct,Public Space,17:13,Monday,5,20,Solved,2,0,,1
+869,870,Drug Offense,Apartment,11:45,Sunday,9,6,Unresolved,0,0,101.0,0
+870,871,Burglary,Commercial,17:19,Saturday,9,5,Solved,2,0,106.0,1
+871,872,Disorderly Conduct,Online,01:06,Wednesday,5,8,Solved,0,0,103.0,0
+872,873,Disorderly Conduct,Residential,14:59,Saturday,8,6,Unresolved,0,1,,1
+873,874,Burglary,Online,09:14,Monday,9,2,Unresolved,2,0,108.0,1
+874,875,Burglary,Residential,16:10,Tuesday,6,10,Solved,1,1,,1
+875,876,Fraud,Apartment,01:26,Thursday,0,11,Unresolved,0,1,,1
+876,877,Theft,Commercial,20:30,Saturday,0,20,Unresolved,0,0,,0
+877,878,Assault,Commercial,17:56,Wednesday,3,10,Unresolved,1,1,,1
+878,879,Fraud,Commercial,03:40,Sunday,1,1,Solved,0,1,,1
+879,880,Disorderly Conduct,Public Space,16:16,Monday,2,0,Solved,0,1,,1
+880,881,Robbery,Apartment,16:47,Sunday,6,1,Solved,2,0,108.0,1
+881,882,Theft,Residential,19:24,Sunday,6,13,Unresolved,1,1,103.0,1
+882,883,Fraud,Commercial,07:22,Wednesday,2,12,Solved,0,0,104.0,0
+883,884,Assault,Apartment,14:32,Friday,1,4,Solved,0,1,,1
+884,885,Disorderly Conduct,Online,18:56,Monday,0,1,Solved,1,1,104.0,1
+885,886,Disorderly Conduct,Residential,14:40,Friday,8,18,Unresolved,1,1,,1
+886,887,Burglary,Public Space,04:15,Wednesday,9,16,Unresolved,2,1,102.0,1
+887,888,Assault,Street,12:47,Thursday,2,10,Unresolved,2,0,105.0,1
+888,889,Theft,Residential,21:42,Thursday,8,15,Solved,2,1,109.0,1
+889,890,Fraud,Online,12:37,Thursday,3,19,Solved,0,1,107.0,1
+890,891,Disorderly Conduct,Residential,19:16,Sunday,9,17,Unresolved,1,1,106.0,1
+891,892,Burglary,Residential,04:48,Friday,5,19,Unresolved,2,0,,1
+892,893,Fraud,Street,00:26,Sunday,6,7,Unresolved,1,0,104.0,1
+893,894,Theft,Commercial,04:36,Thursday,9,1,Unresolved,0,1,109.0,1
+894,895,Robbery,Online,06:47,Sunday,5,16,Unresolved,0,1,,1
+895,896,Burglary,Street,17:30,Tuesday,0,10,Unresolved,1,1,103.0,1
+896,897,Assault,Residential,05:01,Monday,5,13,Unresolved,1,1,104.0,1
+897,898,Theft,Online,12:41,Monday,10,15,Unresolved,2,0,,1
+898,899,Disorderly Conduct,Public Space,20:51,Sunday,5,14,Solved,1,0,,1
+899,900,Drug Offense,Residential,10:25,Wednesday,4,14,Solved,2,0,100.0,1
+900,901,Assault,Public Space,20:01,Saturday,2,2,Unresolved,1,1,102.0,1
+901,902,Disorderly Conduct,Apartment,07:55,Friday,9,6,Solved,1,1,,1
+902,903,Assault,Public Space,21:50,Monday,2,11,Unresolved,1,1,,1
+903,904,Burglary,Residential,19:16,Sunday,10,2,Solved,0,1,106.0,1
+904,905,Fraud,Street,15:56,Friday,9,18,Solved,0,0,101.0,0
+905,906,Vandalism,Residential,09:04,Wednesday,6,9,Solved,0,0,,0
+906,907,Assault,Residential,13:23,Thursday,7,7,Solved,2,0,,1
+907,908,Theft,Apartment,18:03,Saturday,2,15,Solved,2,1,,1
+908,909,Drug Offense,Commercial,19:47,Wednesday,2,15,Solved,0,1,,1
+909,910,Robbery,Residential,23:46,Tuesday,6,11,Unresolved,0,1,108.0,1
+910,911,Drug Offense,Apartment,08:02,Thursday,9,4,Solved,1,1,,1
+911,912,Theft,Street,22:08,Thursday,6,19,Solved,1,1,,1
+912,913,Burglary,Apartment,17:35,Thursday,10,5,Solved,2,0,,1
+913,914,Theft,Apartment,18:23,Wednesday,8,5,Unresolved,2,1,,1
+914,915,Vandalism,Public Space,03:08,Tuesday,5,7,Unresolved,1,1,,1
+915,916,Vandalism,Commercial,00:00,Saturday,6,16,Unresolved,2,0,,1
+916,917,Vandalism,Commercial,19:50,Friday,10,11,Solved,0,0,,0
+917,918,Assault,Online,02:09,Wednesday,9,13,Solved,1,1,,1
+918,919,Burglary,Street,11:17,Monday,0,1,Unresolved,1,0,107.0,1
+919,920,Fraud,Online,13:09,Monday,6,18,Unresolved,2,1,,1
+920,921,Vandalism,Apartment,09:17,Wednesday,1,5,Solved,1,1,101.0,1
+921,922,Fraud,Street,23:00,Friday,6,17,Solved,1,0,107.0,1
+922,923,Robbery,Street,14:07,Monday,2,3,Solved,0,1,107.0,1
+923,924,Robbery,Commercial,02:17,Friday,8,4,Solved,1,1,,1
+924,925,Fraud,Commercial,08:15,Thursday,4,5,Unresolved,1,1,,1
+925,926,Disorderly Conduct,Commercial,20:14,Wednesday,6,14,Unresolved,1,0,104.0,1
+926,927,Theft,Residential,04:44,Thursday,7,5,Solved,1,0,100.0,1
+927,928,Vandalism,Apartment,21:51,Monday,1,7,Solved,0,0,102.0,0
+928,929,Assault,Street,06:47,Friday,10,8,Unresolved,1,0,,1
+929,930,Disorderly Conduct,Apartment,06:26,Thursday,0,20,Unresolved,0,1,103.0,1
+930,931,Robbery,Street,21:47,Monday,6,5,Unresolved,0,0,,0
+931,932,Drug Offense,Street,12:16,Sunday,5,1,Solved,0,1,,1
+932,933,Burglary,Online,08:43,Tuesday,5,15,Unresolved,2,0,107.0,1
+933,934,Drug Offense,Street,12:25,Thursday,1,19,Solved,2,0,109.0,1
+934,935,Fraud,Street,08:04,Tuesday,2,0,Solved,1,1,,1
+935,936,Disorderly Conduct,Public Space,06:32,Tuesday,3,15,Solved,0,0,,0
+936,937,Robbery,Public Space,03:27,Saturday,2,0,Unresolved,2,0,101.0,1
+937,938,Robbery,Online,03:15,Monday,1,0,Solved,1,1,100.0,1
+938,939,Theft,Residential,04:21,Wednesday,2,6,Unresolved,2,0,,1
+939,940,Theft,Commercial,03:37,Friday,5,15,Solved,0,1,103.0,1
+940,941,Vandalism,Street,22:34,Sunday,8,16,Solved,1,0,,1
+941,942,Fraud,Apartment,07:16,Monday,3,15,Solved,0,1,108.0,1
+942,943,Burglary,Public Space,17:49,Saturday,5,15,Solved,0,0,109.0,0
+943,944,Vandalism,Commercial,11:56,Saturday,0,5,Solved,2,1,,1
+944,945,Disorderly Conduct,Residential,00:22,Sunday,5,17,Solved,1,0,103.0,1
+945,946,Theft,Commercial,11:10,Thursday,2,2,Solved,1,1,108.0,1
+946,947,Assault,Street,12:34,Friday,8,7,Solved,1,0,,1
+947,948,Burglary,Commercial,07:02,Saturday,3,3,Unresolved,2,0,,1
+948,949,Assault,Street,16:24,Wednesday,6,3,Solved,1,0,104.0,1
+949,950,Disorderly Conduct,Online,12:09,Monday,3,16,Unresolved,2,1,105.0,1
+950,951,Vandalism,Public Space,16:02,Wednesday,10,4,Unresolved,1,1,,1
+951,952,Theft,Public Space,12:21,Thursday,5,13,Solved,2,0,107.0,1
+952,953,Burglary,Street,05:13,Monday,6,14,Unresolved,1,0,109.0,1
+953,954,Disorderly Conduct,Apartment,09:19,Thursday,1,11,Unresolved,2,0,104.0,1
+954,955,Vandalism,Public Space,15:17,Friday,9,12,Solved,0,0,,0
+955,956,Robbery,Apartment,12:41,Friday,5,17,Unresolved,0,0,108.0,0
+956,957,Vandalism,Street,05:09,Wednesday,7,13,Unresolved,0,0,,0
+957,958,Fraud,Online,04:28,Wednesday,5,18,Unresolved,1,0,,1
+958,959,Drug Offense,Street,05:38,Friday,1,6,Unresolved,2,0,,1
+959,960,Robbery,Online,10:47,Tuesday,3,5,Solved,0,0,102.0,0
+960,961,Assault,Public Space,11:43,Friday,0,4,Solved,1,0,,1
+961,962,Robbery,Apartment,22:19,Sunday,6,3,Unresolved,2,1,102.0,1
+962,963,Vandalism,Street,04:15,Monday,7,17,Unresolved,0,1,101.0,1
+963,964,Disorderly Conduct,Public Space,05:28,Sunday,9,13,Unresolved,0,0,105.0,0
+964,965,Robbery,Online,08:36,Thursday,1,15,Unresolved,1,0,100.0,1
+965,966,Drug Offense,Street,20:22,Friday,9,19,Solved,2,0,103.0,1
+966,967,Fraud,Online,15:17,Friday,4,13,Solved,1,1,,1
+967,968,Vandalism,Commercial,18:43,Saturday,10,4,Unresolved,0,1,108.0,1
+968,969,Drug Offense,Online,01:57,Thursday,7,10,Unresolved,1,0,100.0,1
+969,970,Robbery,Commercial,09:11,Saturday,10,11,Unresolved,1,0,,1
+970,971,Drug Offense,Public Space,13:17,Thursday,7,17,Unresolved,0,0,,0
+971,972,Robbery,Street,18:37,Sunday,4,3,Solved,0,1,106.0,1
+972,973,Burglary,Public Space,04:26,Monday,7,12,Unresolved,2,1,,1
+973,974,Robbery,Residential,15:13,Thursday,5,19,Unresolved,2,1,,1
+974,975,Theft,Online,12:52,Wednesday,4,12,Unresolved,0,1,103.0,1
+975,976,Drug Offense,Public Space,01:01,Friday,10,3,Solved,0,0,102.0,0
+976,977,Disorderly Conduct,Public Space,11:32,Thursday,3,6,Solved,2,0,103.0,1
+977,978,Fraud,Commercial,18:59,Monday,4,1,Unresolved,1,0,107.0,1
+978,979,Drug Offense,Online,15:29,Thursday,3,20,Solved,0,0,,0
+979,980,Assault,Commercial,06:26,Friday,0,17,Unresolved,0,0,102.0,1
+980,981,Fraud,Street,20:06,Tuesday,2,20,Solved,1,1,107.0,1
+981,982,Fraud,Public Space,15:24,Thursday,7,5,Solved,2,0,,1
+982,983,Assault,Online,05:17,Wednesday,6,15,Unresolved,2,0,,1
+983,984,Theft,Public Space,00:32,Friday,6,2,Solved,1,1,,1
+984,985,Drug Offense,Street,13:37,Monday,10,14,Unresolved,0,0,,0
+985,986,Fraud,Apartment,05:03,Sunday,2,20,Solved,1,0,101.0,1
+986,987,Drug Offense,Street,11:17,Sunday,8,19,Unresolved,0,0,100.0,0
+987,988,Fraud,Commercial,09:34,Friday,5,9,Solved,2,1,102.0,1
+988,989,Assault,Commercial,02:39,Saturday,7,8,Solved,0,0,100.0,0
+989,990,Assault,Public Space,21:22,Tuesday,7,10,Unresolved,0,1,,1
+990,991,Robbery,Commercial,00:17,Monday,2,13,Unresolved,0,1,106.0,1
+991,992,Vandalism,Online,14:24,Tuesday,3,11,Solved,0,1,,1
+992,993,Drug Offense,Street,20:19,Sunday,5,6,Unresolved,0,1,,1
+993,994,Drug Offense,Public Space,16:56,Tuesday,1,10,Unresolved,2,0,100.0,1
+994,995,Fraud,Street,10:12,Wednesday,10,16,Unresolved,1,1,101.0,1
+995,996,Robbery,Street,19:24,Sunday,6,8,Unresolved,2,0,,1
+996,997,Disorderly Conduct,Public Space,09:44,Thursday,1,12,Solved,0,1,100.0,1
+997,998,Drug Offense,Apartment,16:30,Wednesday,10,15,Solved,1,0,,1
+998,999,Fraud,Commercial,20:00,Wednesday,4,2,Solved,0,0,,0
+999,1000,Theft,Residential,19:15,Saturday,3,4,Unresolved,2,0,104.0,1

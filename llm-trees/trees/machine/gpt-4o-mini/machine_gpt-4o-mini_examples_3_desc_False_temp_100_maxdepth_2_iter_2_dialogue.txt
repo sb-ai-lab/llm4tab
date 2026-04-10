@@ -1,0 +1,59 @@
+To construct a decision tree classifier for the machine status based on the features provided (Temperature, Vibration, Power_Usage, Humidity, Machine_Type), we'll create a decision tree with a maximum depth of 2.
+
+Based on the general principles of constructing decision trees, we'll use the most meaningful features to differentiate between the classes (normal operation and at risk of failure).
+
+### Decision Tree:
+```
+|--- Vibration <= 0.5
+|   |--- class: normal operation
+|--- Vibration > 0.5
+|   |--- Power_Usage <= 150
+|   |   |--- class: normal operation
+|   |--- Power_Usage > 150
+|   |   |--- class: at risk of failure
+```
+
+### Explanation:
+1. **First Decision Node**: The first split is on `Vibration`. If `Vibration` is less than or equal to 0.5, the machine is classified as "normal operation". This suggests that lower vibration levels correlate with normal functioning.
+  
+2. **Second Decision Node**: If `Vibration` is greater than 0.5, the next decision node considers `Power_Usage`. If the power usage is less than or equal to 150, the machine remains in a "normal operation" state, indicating that machines with higher power usage tend to fail if they also have high vibration. If `Power_Usage` exceeds 150, the machine is classified as "at risk of failure".
+
+This tree simplifies the classification process based on the features at a maximum depth of 2, and focuses on the critical parameters impacting machine performance.
+
+
+#########################
+
+
+Based on the decision tree constructed earlier for the features related to machine status, here’s how you can format this as a Python function. The function takes in a dictionary with the relevant feature keys and returns the predicted status as well as a list representing the truth values of the inner nodes.
+
+### Python Function for Decision Tree Classifier
+
+```python
+def predict(X: dict):
+    # Initialize the nodes list to store the truth values
+    nodes = 3 * [None]  # There are 2 inner nodes in the tree, so we have 3 positions in total (2 for conditions + 1 for a possible extra check)
+
+    # First decision node: check Vibration
+    nodes[0] = X["Vibration"] <= 0.5
+    
+    if nodes[0]:  # If Vibration is less than or equal to 0.5
+        prediction = 0  # Classify as normal operation
+    else:  # If Vibration is greater than 0.5
+        # Second decision node: check Power_Usage
+        nodes[1] = X["Power_Usage"] <= 150
+        
+        if nodes[1]:  # If Power_Usage is less than or equal to 150
+            prediction = 0  # Classify as normal operation
+        else:  # If Power_Usage is greater than 150
+            prediction = 1  # Classify as at risk of failure
+            
+    return prediction, nodes
+```
+
+### Explanation of the Function:
+1. **nodes List**: This list is initialized with `None` and is used to hold the truth values for the inner nodes of the decision tree.
+2. **First Condition**: The first check is whether `Vibration` is less than or equal to 0.5. If true, it classifies the machine as **normal operation** (target = 0).
+3. **Second Condition**: If the first condition is false (indicating high vibration), the next check is for `Power_Usage`. If `Power_Usage` is less than or equal to 150, it again classifies the machine as **normal operation** (target = 0). If `Power_Usage` is above 150, it classifies the machine as **at risk of failure** (target = 1).
+4. **Return Values**: The function returns the predicted value (0 or 1) along with the list of truth values for the inner nodes. 
+
+You can use this function to predict the machine's status given the relevant feature values in a dictionary format. Each feature should be accessed using the exact keys as specified.

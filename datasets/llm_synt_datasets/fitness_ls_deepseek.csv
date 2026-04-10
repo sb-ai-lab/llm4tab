@@ -1,0 +1,1001 @@
+,Age,Gender,Occupation,Income,Fitness Club Member,Frequency of Visits,Duration of Visits,Class Type,Class Day,Class Time,Class Duration,Attitude towards Fitness,Motivation Levels,Past Attendance History,Weather,Location,Time of Day,label
+0,39,Male,Engineer,35293.87777257393,True,3,1.2807689343135298,Spinning,Saturday,11 AM,1.3356038041910463,Positive,Low,Never Attends,Cloudy,Suburban,12 PM,1
+1,32,Male,Student,89530.61451548256,False,1,1.5217772015640996,Yoga,Saturday,12 PM,0.9886040424839887,Positive,Medium,Rarely Attends,Snowy,Rural,10 AM,0
+2,53,Female,Student,94887.53295687989,False,2,0.002609095420165186,Cardio,Thursday,3 PM,0.7249849081236038,Neutral,High,Regularly Attends,Cloudy,Beach,7 PM,0
+3,43,Male,Teacher,44373.95637236131,False,5,1.5631312981317995,Strength Training,Thursday,6 AM,1.337715032801289,Positive,Low,Rarely Attends,Overcast,Rural,8 AM,0
+4,63,Female,Other,88023.33670146369,True,5,0.6078006253721033,Pool,Thursday,3 PM,0.7273098120204644,Positive,Low,Sometimes Attends,Cloudy,Other,11 AM,1
+5,29,Female,Teacher,71852.61378854944,True,3,1.0957096567910638,Spinning,Thursday,2 PM,1.3078020601068012,Mixed,Medium,Rarely Attends,Rainy,Rural,7 AM,1
+6,21,Female,Teacher,29798.975567857793,False,2,1.683916641231434,Cardio,Saturday,6 AM,0.9237493199397976,Neutral,High,Regularly Attends,Cloudy,Suburban,5 PM,0
+7,43,Male,Other,53481.414387298675,True,5,1.8161722899271158,Yoga,Monday,10 AM,1.182410193461187,Mixed,Medium,Regularly Attends,Cloudy,Rural,5 PM,1
+8,36,Female,Engineer,50198.328409156195,False,3,1.3870900653987952,Yoga,Saturday,6 PM,1.0306821567361428,Neutral,High,Never Attends,Sunny,Downtown,1 PM,1
+9,68,Female,Doctor,58872.9045088645,False,2,1.5392401414128236,Strength Training,Saturday,8 PM,0.9344030690281565,Neutral,Low,Sometimes Attends,Rainy,Rural,2 PM,0
+10,65,Female,Doctor,89376.9276890607,False,4,1.7977271042797862,Strength Training,Friday,7 AM,1.1547882656816397,Positive,High,Rarely Attends,Sunny,Other,2 PM,1
+11,67,Male,Other,33600.50045565325,False,1,1.5590613826750295,Cardio,Wednesday,5 PM,1.4911998643617523,Negative,High,Sometimes Attends,Sunny,Rural,1 PM,0
+12,68,Male,Teacher,83142.65274501112,True,2,1.3502213204394535,Spinning,Wednesday,3 PM,0.7053900853943409,Neutral,Low,Regularly Attends,Cloudy,Downtown,9 AM,1
+13,43,Female,Teacher,36756.99481568775,True,2,0.14609536375789167,Yoga,Wednesday,1 PM,0.8190388463106298,Negative,Medium,Regularly Attends,Cloudy,Beach,4 PM,1
+14,59,Male,Teacher,37486.416812657015,True,1,1.7948794096611536,Spinning,Sunday,6 PM,0.9106702737103758,Negative,Medium,Never Attends,Snowy,Suburban,1 PM,1
+15,69,Male,Engineer,24689.198518435944,False,2,0.10317810409475037,Spinning,Monday,11 AM,0.9995250447663608,Positive,Medium,Rarely Attends,Snowy,Downtown,10 AM,0
+16,54,Female,Engineer,69845.58474666253,True,4,1.0123215837755262,Strength Training,Wednesday,12 PM,0.9716320345172255,Mixed,Low,Rarely Attends,Sunny,Rural,9 AM,1
+17,51,Male,Other,90458.09285488563,True,5,1.6928218588788833,Pool,Tuesday,2 PM,0.7591357379130884,Mixed,Low,Sometimes Attends,Cloudy,Suburban,3 PM,1
+18,21,Male,Other,24534.432015005248,False,5,1.6819907992558685,Spinning,Friday,8 AM,1.4631431893840157,Negative,Medium,Sometimes Attends,Snowy,Downtown,12 PM,1
+19,51,Male,Other,84538.67849616108,True,4,0.12973810369463634,Cardio,Wednesday,11 AM,0.5808303659633974,Neutral,High,Regularly Attends,Cloudy,Downtown,6 PM,1
+20,32,Male,Teacher,86594.90346002959,True,1,1.6244038509481602,Spinning,Tuesday,8 AM,1.2607651502038895,Mixed,High,Rarely Attends,Cloudy,Rural,7 AM,1
+21,23,Female,Student,46322.42353145772,True,2,0.5811107106067785,Yoga,Friday,2 PM,0.92738111759941,Positive,Medium,Sometimes Attends,Cloudy,Downtown,7 PM,1
+22,55,Female,Doctor,35763.47519154187,True,2,1.7289485414092396,Spinning,Monday,6 AM,1.0033246923602963,Negative,High,Sometimes Attends,Overcast,Resort,1 PM,1
+23,52,Male,Engineer,43546.53959220344,True,1,1.4368193370210842,Strength Training,Sunday,9 AM,0.9727848267561916,Negative,Low,Sometimes Attends,Rainy,Resort,4 PM,1
+24,65,Male,Doctor,88722.27852055193,False,3,1.2986919906675851,Yoga,Friday,9 AM,0.7547699765907206,Positive,Low,Regularly Attends,Overcast,Other,6 PM,0
+25,25,Male,Student,20335.94064383526,True,4,0.5821119943723765,Pool,Tuesday,6 AM,1.3685546503609198,Mixed,Medium,Rarely Attends,Sunny,Resort,4 PM,1
+26,30,Female,Teacher,82002.07243913044,False,4,0.8753896745235934,Pool,Thursday,7 PM,0.5123806399452342,Mixed,Medium,Regularly Attends,Snowy,Downtown,12 PM,1
+27,45,Female,Student,80345.75922536079,True,3,0.7012086257123593,Pool,Monday,1 PM,0.985386616616456,Neutral,Low,Regularly Attends,Cloudy,Downtown,8 AM,1
+28,32,Female,Engineer,50978.39710723846,True,2,0.9562213615143496,Group Fitness,Thursday,4 PM,1.2322723237822355,Positive,Medium,Regularly Attends,Sunny,Other,12 PM,1
+29,40,Female,Teacher,64701.49058206462,True,2,1.5804374299052233,Group Fitness,Wednesday,8 AM,1.4237642878502896,Neutral,Medium,Never Attends,Cloudy,Suburban,2 PM,1
+30,55,Female,Doctor,85392.23493494265,True,3,0.5211661079300816,Pool,Monday,12 PM,1.339696888583468,Negative,Low,Sometimes Attends,Rainy,Beach,8 AM,1
+31,34,Male,Other,33464.9952323975,True,3,1.0822439819807614,Group Fitness,Wednesday,5 PM,1.4917686929767284,Neutral,Medium,Sometimes Attends,Snowy,Suburban,5 PM,1
+32,62,Male,Doctor,24842.29765392957,True,4,0.21202483908193392,Yoga,Thursday,9 AM,0.8036570803899298,Mixed,Medium,Sometimes Attends,Cloudy,Rural,8 AM,1
+33,56,Female,Other,31239.33686803878,False,4,0.970538775749157,Spinning,Saturday,7 PM,0.7592339792457202,Neutral,High,Never Attends,Cloudy,Beach,2 PM,0
+34,27,Male,Teacher,95922.43025246981,True,2,0.17093527053046853,Strength Training,Tuesday,1 PM,1.4309434734241469,Negative,Medium,Regularly Attends,Overcast,Downtown,6 PM,1
+35,41,Male,Student,59083.607544339335,False,1,1.6568584092614616,Strength Training,Sunday,10 AM,0.8520012730680748,Positive,Low,Never Attends,Sunny,Downtown,7 PM,0
+36,49,Female,Student,89095.00977801176,False,5,0.4478491762944523,Pool,Saturday,2 PM,1.2094553993336394,Neutral,High,Never Attends,Cloudy,Downtown,3 PM,0
+37,51,Male,Engineer,95702.34625681136,True,5,0.17924997381398122,Yoga,Thursday,8 PM,0.5269915108011778,Mixed,Medium,Sometimes Attends,Overcast,Beach,11 AM,1
+38,32,Female,Teacher,90822.39170570388,False,3,0.9382707707614097,Cardio,Tuesday,10 AM,0.7091395082943419,Positive,High,Rarely Attends,Overcast,Suburban,2 PM,0
+39,22,Male,Student,40763.94655334344,False,3,0.46132701739292337,Spinning,Tuesday,10 AM,0.8499398070766521,Positive,Low,Never Attends,Rainy,Suburban,1 PM,0
+40,18,Male,Engineer,99433.48541076508,True,3,1.3783665488416592,Cardio,Wednesday,8 PM,1.4873234439268233,Mixed,High,Sometimes Attends,Overcast,Other,9 AM,1
+41,28,Male,Doctor,95654.65964549141,True,3,1.181038774208463,Strength Training,Tuesday,9 AM,0.703077320249933,Negative,High,Sometimes Attends,Cloudy,Downtown,10 AM,1
+42,58,Female,Student,83398.65179407079,False,1,1.9941466606877951,Yoga,Saturday,12 PM,0.7053299596066611,Neutral,Medium,Rarely Attends,Rainy,Downtown,6 PM,0
+43,67,Male,Doctor,85922.3174611011,True,1,1.7614184815014675,Strength Training,Wednesday,8 PM,1.0217071988586204,Negative,High,Sometimes Attends,Overcast,Rural,2 PM,1
+44,49,Female,Engineer,40040.338591237116,True,3,1.3602451670514326,Cardio,Tuesday,11 AM,1.1841808526546456,Mixed,Low,Never Attends,Sunny,Resort,7 AM,1
+45,69,Male,Doctor,83982.50138633736,True,4,0.10720812601831531,Pool,Saturday,8 PM,1.1367758643809727,Neutral,High,Sometimes Attends,Overcast,Suburban,9 AM,1
+46,64,Male,Other,83379.36924355797,False,2,0.8357044893387613,Pool,Sunday,11 AM,0.9541109028744807,Neutral,High,Regularly Attends,Overcast,Other,9 AM,0
+47,47,Male,Teacher,49944.01038055049,True,2,1.5974838350373348,Yoga,Saturday,9 AM,0.8486986112081171,Positive,Low,Regularly Attends,Snowy,Rural,8 PM,1
+48,31,Female,Doctor,78702.2611273877,False,3,1.5205514082014662,Spinning,Monday,4 PM,0.6159660838539407,Neutral,Low,Never Attends,Cloudy,Resort,8 AM,0
+49,20,Female,Doctor,21602.74449066063,False,3,0.765400534994118,Cardio,Monday,10 AM,1.1732391937171749,Neutral,Low,Sometimes Attends,Cloudy,Rural,9 AM,0
+50,42,Female,Doctor,37312.41198498853,True,3,0.10236866122944588,Spinning,Saturday,3 PM,1.2189320659837157,Mixed,High,Sometimes Attends,Overcast,Resort,12 PM,1
+51,43,Female,Doctor,63047.31130556275,False,3,1.8831967668147642,Spinning,Friday,9 AM,0.646478701153401,Positive,Medium,Sometimes Attends,Rainy,Rural,8 PM,0
+52,65,Male,Doctor,58468.75829595506,True,3,0.7724327169061131,Pool,Thursday,4 PM,0.6450656890124493,Neutral,Low,Regularly Attends,Snowy,Suburban,9 AM,1
+53,48,Female,Student,81152.53902069389,False,3,0.7461843434013382,Yoga,Sunday,7 PM,1.4596834827440923,Negative,Medium,Rarely Attends,Snowy,Rural,11 AM,0
+54,39,Female,Engineer,61719.2158622279,False,2,1.4564564443827126,Yoga,Saturday,6 PM,1.494414181443216,Neutral,Medium,Regularly Attends,Overcast,Rural,1 PM,0
+55,50,Female,Engineer,76101.56290861938,False,4,1.7978195700523703,Group Fitness,Tuesday,7 AM,0.9824134527017656,Mixed,High,Regularly Attends,Snowy,Beach,8 AM,0
+56,60,Female,Teacher,55072.22548382054,False,5,0.8758575933891366,Yoga,Sunday,9 AM,1.0836926478699882,Neutral,High,Rarely Attends,Cloudy,Beach,1 PM,0
+57,45,Male,Engineer,80918.71955034367,True,2,1.7292678708440734,Pool,Monday,2 PM,0.7930416910639331,Positive,Medium,Rarely Attends,Overcast,Rural,6 AM,1
+58,55,Female,Doctor,22153.317556979415,False,2,0.0015638780949458475,Spinning,Monday,10 AM,1.3029414891759976,Positive,Low,Never Attends,Cloudy,Resort,10 AM,0
+59,18,Male,Other,22199.254944033793,False,4,1.4038198051343416,Strength Training,Monday,1 PM,1.3799746032057791,Positive,High,Sometimes Attends,Rainy,Downtown,12 PM,0
+60,31,Female,Doctor,82238.3333651608,False,1,0.6358808060830465,Cardio,Sunday,6 AM,0.7047792948789269,Positive,Low,Never Attends,Snowy,Suburban,7 AM,0
+61,65,Male,Doctor,85875.08682600477,True,1,1.6810744266047823,Spinning,Thursday,6 PM,1.0783709122664416,Mixed,Low,Regularly Attends,Overcast,Other,1 PM,1
+62,40,Female,Student,86497.30551172131,False,5,1.0332393798258326,Cardio,Saturday,6 PM,0.7307041536998623,Mixed,Low,Rarely Attends,Cloudy,Other,7 AM,0
+63,57,Male,Doctor,33439.946143873036,True,2,0.47005414620582475,Group Fitness,Wednesday,11 AM,1.2116052095357528,Negative,Medium,Sometimes Attends,Sunny,Beach,5 PM,1
+64,65,Female,Teacher,68489.0521351986,True,5,1.0027348462226777,Pool,Thursday,8 AM,1.4895600108407034,Mixed,Low,Rarely Attends,Cloudy,Resort,7 AM,1
+65,33,Male,Student,80488.28940342095,False,2,1.6415090207898573,Group Fitness,Wednesday,2 PM,1.4986911483138636,Negative,Medium,Never Attends,Rainy,Resort,7 AM,0
+66,63,Female,Other,99717.73346044286,True,3,0.9882492098143529,Pool,Saturday,1 PM,1.3133023682946905,Positive,High,Rarely Attends,Overcast,Beach,6 PM,1
+67,44,Female,Teacher,91944.60824644628,True,5,0.8338562218717243,Strength Training,Thursday,9 AM,1.2641340393231109,Neutral,Medium,Rarely Attends,Cloudy,Downtown,3 PM,1
+68,22,Male,Doctor,68506.46145968296,True,4,1.6324378418187935,Pool,Thursday,4 PM,0.8030574612406866,Negative,Medium,Rarely Attends,Sunny,Downtown,6 AM,1
+69,62,Male,Engineer,55647.63441395621,False,1,0.3095179729231641,Group Fitness,Saturday,12 PM,1.1033811770999984,Neutral,Medium,Regularly Attends,Overcast,Beach,8 PM,0
+70,56,Male,Teacher,64910.66527906553,False,4,1.9620300790441605,Pool,Tuesday,3 PM,0.9874180456436942,Neutral,Medium,Regularly Attends,Snowy,Other,6 AM,0
+71,41,Male,Student,45881.68530988965,True,1,1.228183148479747,Spinning,Friday,6 PM,0.6346097918823642,Positive,Medium,Never Attends,Cloudy,Beach,8 AM,1
+72,26,Male,Student,88598.66531565285,False,1,0.12385620762621707,Strength Training,Sunday,5 PM,0.851461903937869,Negative,High,Rarely Attends,Sunny,Downtown,3 PM,1
+73,43,Male,Student,91853.35917022939,True,5,0.5132486764060034,Pool,Sunday,4 PM,0.8489512734258522,Positive,High,Never Attends,Snowy,Other,7 PM,1
+74,59,Male,Other,67511.60782513648,False,5,1.7308363004013259,Group Fitness,Friday,12 PM,1.156639452347438,Mixed,Low,Sometimes Attends,Overcast,Rural,8 AM,0
+75,68,Female,Teacher,75144.69952900993,False,3,0.5963201637755047,Strength Training,Monday,12 PM,0.5468514224442775,Positive,Medium,Regularly Attends,Rainy,Other,7 AM,0
+76,68,Male,Other,50841.76331660701,True,4,0.8248388910057753,Pool,Monday,4 PM,1.1332775356615814,Positive,Low,Rarely Attends,Overcast,Other,1 PM,1
+77,50,Female,Engineer,45517.167815452616,True,1,0.8722277304624411,Pool,Thursday,3 PM,0.7660840605018094,Neutral,Low,Regularly Attends,Sunny,Downtown,7 PM,1
+78,25,Female,Other,36919.63224655355,True,1,1.9615647025620078,Spinning,Tuesday,2 PM,0.6096521702677858,Mixed,Medium,Sometimes Attends,Sunny,Resort,11 AM,1
+79,43,Male,Engineer,78350.60711430426,False,2,1.0839172951205116,Pool,Wednesday,6 PM,0.9240700217129719,Mixed,Low,Sometimes Attends,Cloudy,Resort,8 AM,0
+80,33,Female,Student,32636.706409841274,True,4,1.0926808027851007,Yoga,Wednesday,7 AM,0.6395744131306286,Positive,High,Sometimes Attends,Snowy,Suburban,4 PM,1
+81,30,Female,Doctor,78891.6329025497,False,2,1.7575413844638972,Yoga,Thursday,6 AM,0.6507462497146848,Mixed,High,Sometimes Attends,Snowy,Other,8 PM,0
+82,28,Male,Student,71976.35484908552,False,1,0.5248343559593338,Spinning,Friday,8 AM,0.9148990016417329,Negative,High,Rarely Attends,Rainy,Beach,11 AM,0
+83,28,Male,Other,37780.04432848831,True,3,1.9999654853812237,Strength Training,Tuesday,8 AM,0.7105316013244841,Mixed,High,Sometimes Attends,Snowy,Resort,4 PM,1
+84,32,Male,Engineer,46118.59501058086,False,1,1.2102410890008681,Cardio,Saturday,7 AM,0.7626852036198903,Mixed,High,Rarely Attends,Snowy,Suburban,12 PM,0
+85,46,Male,Other,88965.05826869959,False,4,1.7523402342121364,Group Fitness,Wednesday,2 PM,0.5394387927866183,Neutral,Medium,Never Attends,Overcast,Suburban,4 PM,0
+86,27,Male,Engineer,95849.38574670798,False,3,1.4468518614129433,Pool,Saturday,1 PM,0.8959342872300307,Negative,Low,Rarely Attends,Rainy,Other,8 AM,0
+87,66,Male,Other,99207.90517638798,False,4,0.9213275999956203,Yoga,Thursday,7 PM,0.7372053306429199,Positive,Low,Never Attends,Cloudy,Rural,7 AM,0
+88,22,Female,Student,59947.781198221266,False,5,1.8271055569018526,Yoga,Thursday,3 PM,1.1882908035692357,Neutral,Medium,Rarely Attends,Sunny,Suburban,9 AM,1
+89,24,Male,Teacher,75069.9574273523,False,1,1.1960834011957004,Strength Training,Sunday,8 AM,1.0908882112487253,Neutral,Low,Never Attends,Rainy,Downtown,3 PM,1
+90,29,Male,Other,59160.81062943971,True,1,1.6777600773550279,Cardio,Tuesday,3 PM,1.3426125109148597,Positive,High,Never Attends,Overcast,Other,6 AM,1
+91,65,Female,Teacher,49976.433648675506,True,3,0.21436938380107384,Cardio,Thursday,6 PM,1.0253193947546775,Mixed,Medium,Never Attends,Sunny,Beach,2 PM,1
+92,66,Male,Engineer,99039.42114931668,True,3,1.6416018015078464,Yoga,Tuesday,6 PM,0.9053089365697892,Neutral,Low,Sometimes Attends,Rainy,Resort,2 PM,1
+93,49,Female,Engineer,58834.89749824957,False,5,1.9880076350954503,Yoga,Thursday,7 AM,0.863713025830594,Positive,Medium,Never Attends,Snowy,Other,10 AM,0
+94,58,Female,Engineer,36885.02991152741,False,3,1.034267273935866,Group Fitness,Monday,10 AM,0.5995785800045271,Neutral,Low,Rarely Attends,Snowy,Downtown,12 PM,0
+95,52,Female,Teacher,50537.11663689079,False,1,1.5818901871866409,Pool,Sunday,4 PM,0.674961444710662,Positive,Low,Sometimes Attends,Sunny,Rural,10 AM,1
+96,52,Female,Student,66784.36638315514,False,2,1.7252092515707043,Cardio,Tuesday,8 AM,0.593278666203014,Negative,High,Sometimes Attends,Rainy,Suburban,7 AM,0
+97,68,Male,Student,91181.18094671816,True,1,0.697933650439668,Pool,Saturday,7 AM,1.465846368824679,Negative,Medium,Sometimes Attends,Overcast,Suburban,3 PM,1
+98,57,Female,Student,35591.91540066273,False,3,0.9879937179457581,Cardio,Tuesday,7 PM,1.1643909473050424,Negative,Low,Never Attends,Snowy,Beach,2 PM,0
+99,56,Male,Engineer,84850.12826333259,False,1,1.6465074893423097,Pool,Thursday,1 PM,0.8486803563190044,Mixed,Low,Regularly Attends,Overcast,Beach,8 PM,0
+100,25,Female,Doctor,65988.19995650538,False,4,1.3233525418061565,Spinning,Saturday,12 PM,0.7346671536984274,Mixed,Medium,Sometimes Attends,Rainy,Downtown,9 AM,1
+101,64,Female,Student,21062.514577589936,True,5,1.1135415943599893,Spinning,Tuesday,5 PM,0.5947286060029308,Negative,Low,Regularly Attends,Overcast,Beach,11 AM,1
+102,30,Male,Teacher,90340.70299346851,False,1,0.956214169867001,Yoga,Monday,9 AM,0.694589374340432,Mixed,Medium,Never Attends,Cloudy,Beach,3 PM,0
+103,43,Male,Teacher,77729.62429802414,True,1,0.13297372605848756,Group Fitness,Monday,7 AM,1.0296288350146887,Mixed,Low,Sometimes Attends,Cloudy,Beach,1 PM,1
+104,33,Male,Student,36563.92071466698,True,2,0.5114193379641099,Group Fitness,Monday,8 AM,1.1847739203490826,Negative,High,Regularly Attends,Sunny,Rural,4 PM,1
+105,43,Female,Doctor,65726.98136441133,True,3,1.0481412292731915,Cardio,Monday,7 PM,0.7675600231976784,Positive,Medium,Sometimes Attends,Snowy,Beach,11 AM,1
+106,37,Female,Engineer,27244.64974632179,True,4,0.4002721696499796,Cardio,Monday,9 AM,1.0093339597687878,Negative,High,Sometimes Attends,Cloudy,Resort,5 PM,1
+107,64,Male,Teacher,26756.19669574209,True,2,1.0631801711536017,Yoga,Thursday,8 PM,0.5170291814460576,Positive,Low,Rarely Attends,Overcast,Beach,6 AM,1
+108,19,Female,Other,42841.79862023795,True,1,1.9963025242861407,Strength Training,Friday,1 PM,0.6034099671474997,Mixed,Low,Never Attends,Overcast,Beach,11 AM,1
+109,43,Male,Other,50625.72170686866,False,3,0.11622178912263115,Pool,Wednesday,7 AM,0.9351479473752151,Positive,Low,Regularly Attends,Snowy,Suburban,4 PM,0
+110,43,Male,Student,50133.25292107698,True,2,1.4889564258916492,Cardio,Tuesday,7 AM,1.409840773782538,Mixed,Low,Rarely Attends,Overcast,Rural,12 PM,1
+111,26,Male,Other,71735.3966862791,False,4,1.827388921936872,Strength Training,Thursday,7 PM,0.6990942658299555,Positive,Low,Never Attends,Snowy,Other,1 PM,0
+112,63,Female,Engineer,23788.791142075104,False,4,1.947014085653035,Spinning,Saturday,9 AM,1.1567958566441296,Negative,Low,Regularly Attends,Overcast,Suburban,5 PM,0
+113,31,Male,Doctor,45429.755758579464,False,4,1.8012320022472645,Spinning,Monday,3 PM,1.1667737782194956,Mixed,High,Sometimes Attends,Snowy,Downtown,11 AM,0
+114,52,Male,Doctor,50979.86901153583,True,2,0.9185395711409368,Pool,Friday,11 AM,0.6165870270570948,Mixed,Low,Sometimes Attends,Overcast,Other,8 AM,1
+115,61,Female,Other,48352.10451319074,False,4,1.1395725034684805,Spinning,Sunday,7 AM,1.3215407234858936,Mixed,Low,Regularly Attends,Rainy,Beach,11 AM,0
+116,34,Male,Other,32053.795997282738,True,4,1.028634682884476,Spinning,Saturday,7 AM,0.9994959077035299,Mixed,High,Regularly Attends,Sunny,Beach,10 AM,1
+117,38,Female,Engineer,35161.33958186683,False,3,0.2866273174739902,Yoga,Saturday,6 PM,0.8321401834051287,Mixed,Low,Rarely Attends,Snowy,Downtown,11 AM,0
+118,28,Female,Teacher,95007.64318959959,False,3,1.7294404193795914,Spinning,Friday,8 PM,1.1138375833035943,Positive,Medium,Never Attends,Rainy,Beach,1 PM,0
+119,28,Female,Doctor,84068.85252543184,False,1,1.02752895014839,Yoga,Thursday,11 AM,1.0880384700827523,Mixed,High,Regularly Attends,Cloudy,Downtown,9 AM,1
+120,41,Male,Teacher,72588.70755162113,False,4,1.4555927027336468,Pool,Sunday,7 AM,1.3583164381670545,Neutral,Low,Never Attends,Cloudy,Suburban,11 AM,0
+121,68,Female,Other,89255.23156045008,False,2,1.4709864096365806,Spinning,Friday,3 PM,0.5141518605825909,Positive,High,Regularly Attends,Overcast,Rural,8 PM,0
+122,36,Male,Student,98121.24381740217,True,5,1.8295844436019542,Spinning,Wednesday,2 PM,0.7619090519474726,Positive,Low,Sometimes Attends,Sunny,Downtown,2 PM,1
+123,58,Female,Engineer,80220.09732440981,False,1,0.6761568975961674,Cardio,Tuesday,6 PM,1.3458440304972266,Neutral,High,Never Attends,Sunny,Resort,8 PM,1
+124,65,Female,Doctor,54717.33465084487,True,2,0.6798673621454701,Pool,Saturday,4 PM,0.5006581078522896,Mixed,Low,Regularly Attends,Snowy,Downtown,1 PM,1
+125,50,Female,Student,76746.34193395378,False,2,0.051887742944426885,Group Fitness,Wednesday,9 AM,0.5774457592055396,Neutral,Medium,Sometimes Attends,Snowy,Rural,12 PM,0
+126,69,Male,Doctor,35919.838834628754,False,5,1.727226335015592,Group Fitness,Wednesday,12 PM,0.5310925169899515,Mixed,High,Regularly Attends,Sunny,Resort,10 AM,0
+127,30,Female,Other,40830.08255448758,False,2,1.5924166841557412,Strength Training,Wednesday,5 PM,1.4943054930706277,Neutral,Medium,Never Attends,Cloudy,Resort,5 PM,0
+128,58,Male,Teacher,50457.47740327778,False,2,0.32428215824796247,Strength Training,Saturday,4 PM,0.8813311081680424,Positive,High,Sometimes Attends,Cloudy,Beach,7 PM,0
+129,27,Male,Doctor,41965.85521385843,True,4,1.256226423657943,Cardio,Tuesday,8 AM,1.2620957738215857,Positive,Medium,Never Attends,Snowy,Suburban,11 AM,1
+130,35,Female,Teacher,60933.76862506466,False,1,0.09959746893158461,Pool,Monday,10 AM,1.0906183967712832,Neutral,Medium,Sometimes Attends,Sunny,Suburban,6 AM,1
+131,44,Male,Student,91104.62456864456,False,2,1.3165217676336123,Yoga,Thursday,10 AM,0.5758677361869355,Positive,Medium,Never Attends,Overcast,Resort,5 PM,0
+132,59,Male,Student,92944.28215054219,False,4,1.7035007156541697,Cardio,Friday,8 PM,1.0446038245262106,Positive,High,Sometimes Attends,Sunny,Resort,10 AM,0
+133,33,Female,Other,74302.23500813825,True,2,0.4961729681533331,Group Fitness,Wednesday,6 AM,0.6533242575504883,Positive,Medium,Rarely Attends,Overcast,Downtown,1 PM,1
+134,69,Female,Engineer,52087.153675467394,True,4,1.374432753679814,Group Fitness,Tuesday,11 AM,1.1779597955357204,Mixed,Low,Rarely Attends,Rainy,Suburban,8 AM,1
+135,59,Male,Teacher,60019.16045690117,False,1,1.8589213516532577,Strength Training,Wednesday,2 PM,1.2620972805966497,Mixed,Low,Sometimes Attends,Cloudy,Other,12 PM,0
+136,29,Female,Teacher,58428.19557082553,True,5,1.4906138066038483,Group Fitness,Friday,1 PM,0.7488745913084925,Positive,High,Rarely Attends,Snowy,Beach,4 PM,1
+137,57,Female,Other,43977.66814292077,False,2,0.5133411816804514,Group Fitness,Thursday,9 AM,1.4969836418345017,Mixed,Medium,Never Attends,Overcast,Resort,7 PM,0
+138,37,Female,Doctor,85281.28089187501,False,4,0.36298761927357237,Yoga,Friday,11 AM,1.1248340599126347,Mixed,Medium,Never Attends,Snowy,Resort,9 AM,0
+139,60,Female,Engineer,45221.822466971505,True,2,0.1323540083525927,Group Fitness,Wednesday,4 PM,0.5830239080636431,Positive,Low,Rarely Attends,Rainy,Resort,8 PM,1
+140,41,Female,Engineer,20385.61794556762,True,1,0.47075874229296977,Strength Training,Monday,8 AM,1.386746538421328,Mixed,High,Sometimes Attends,Sunny,Downtown,6 PM,1
+141,50,Male,Student,76003.61688664516,False,4,1.8325959017226696,Strength Training,Thursday,8 PM,1.4358518477111062,Neutral,Low,Regularly Attends,Cloudy,Beach,6 AM,0
+142,40,Male,Engineer,61006.64282245261,False,3,1.1224854923270484,Group Fitness,Thursday,2 PM,0.8673478087638097,Positive,Medium,Rarely Attends,Snowy,Suburban,6 PM,0
+143,31,Male,Engineer,28633.534950295285,True,2,1.9926651752931006,Yoga,Saturday,3 PM,1.2248983811098102,Neutral,Low,Never Attends,Snowy,Resort,10 AM,1
+144,38,Male,Engineer,32550.855654726583,True,4,1.4154892081302155,Strength Training,Saturday,1 PM,1.1365353121681925,Negative,High,Sometimes Attends,Cloudy,Other,8 AM,1
+145,18,Female,Doctor,27610.27789527362,True,2,0.8744810792628892,Group Fitness,Saturday,1 PM,1.4367729650342667,Neutral,High,Never Attends,Sunny,Downtown,3 PM,1
+146,22,Female,Teacher,76349.58477947337,True,2,0.7464688356119227,Spinning,Tuesday,7 PM,1.49407798481173,Neutral,Medium,Sometimes Attends,Sunny,Resort,10 AM,1
+147,24,Female,Student,89457.17422986057,False,4,1.6990804455783413,Yoga,Monday,11 AM,0.9739602803558981,Mixed,High,Never Attends,Cloudy,Resort,5 PM,0
+148,64,Male,Student,38925.63172392828,True,1,0.16408596272329912,Yoga,Friday,11 AM,1.1849092427053334,Negative,Medium,Rarely Attends,Sunny,Suburban,8 PM,1
+149,25,Female,Doctor,28235.957057327818,False,4,1.028473065847428,Spinning,Friday,8 PM,0.7921649804358938,Mixed,High,Rarely Attends,Sunny,Resort,1 PM,1
+150,68,Female,Engineer,48355.42823970351,False,1,1.8892067346014527,Cardio,Thursday,2 PM,1.3255700065714602,Negative,Low,Rarely Attends,Cloudy,Downtown,9 AM,0
+151,43,Male,Doctor,73937.9948465626,True,5,1.4449897778859049,Spinning,Tuesday,6 AM,0.793631907112087,Positive,High,Sometimes Attends,Cloudy,Suburban,7 PM,1
+152,35,Male,Student,67187.70356696758,True,2,0.7931540011132465,Pool,Friday,8 PM,1.1722977049856567,Negative,Low,Never Attends,Cloudy,Beach,9 AM,1
+153,48,Male,Other,70066.67465089247,True,4,1.4342448845147595,Pool,Wednesday,6 AM,1.1375460130276929,Negative,Low,Never Attends,Rainy,Other,2 PM,1
+154,50,Female,Student,21694.718747175222,False,2,1.804492195052451,Strength Training,Wednesday,8 PM,0.6883995322072078,Negative,Medium,Never Attends,Snowy,Suburban,8 AM,0
+155,47,Female,Doctor,21103.751518982703,False,3,0.17545932693002264,Cardio,Friday,6 PM,1.0571386462702193,Negative,Medium,Regularly Attends,Rainy,Rural,1 PM,0
+156,19,Male,Doctor,53364.79084128701,False,2,1.6435801069405973,Strength Training,Friday,6 AM,1.3439919853972118,Negative,Low,Never Attends,Snowy,Other,5 PM,0
+157,28,Male,Teacher,45473.01843807784,True,2,1.642950925978567,Strength Training,Thursday,4 PM,1.0720932105757908,Positive,Low,Sometimes Attends,Sunny,Resort,2 PM,1
+158,67,Male,Engineer,93786.32508826666,False,3,0.898245806256555,Spinning,Monday,1 PM,0.6695591825678353,Positive,Low,Rarely Attends,Cloudy,Suburban,6 PM,0
+159,49,Female,Other,91398.82143819079,True,2,1.8200847112032772,Pool,Wednesday,6 AM,1.4276849494117019,Neutral,Medium,Never Attends,Rainy,Downtown,7 AM,1
+160,46,Male,Student,93033.16095945623,False,4,0.940648850902589,Cardio,Friday,10 AM,1.3013654756041282,Negative,Medium,Never Attends,Rainy,Other,6 AM,0
+161,53,Male,Engineer,46906.113669901206,True,1,0.6350225794504496,Group Fitness,Tuesday,2 PM,0.7336729449311473,Neutral,High,Sometimes Attends,Cloudy,Resort,9 AM,1
+162,30,Male,Engineer,78121.27917083881,True,4,1.851352888902576,Yoga,Sunday,7 AM,1.197072655195103,Neutral,Low,Never Attends,Cloudy,Suburban,9 AM,1
+163,35,Male,Engineer,68195.07990106862,False,3,0.73066669408357,Spinning,Friday,11 AM,0.5534517340045583,Negative,Medium,Sometimes Attends,Rainy,Other,2 PM,0
+164,29,Female,Engineer,49008.60458260278,True,5,1.7456132809493636,Strength Training,Monday,11 AM,0.5120169916191011,Positive,High,Never Attends,Overcast,Suburban,10 AM,1
+165,25,Female,Student,92613.09484720007,False,3,1.5718835577381882,Spinning,Wednesday,8 AM,1.3859599715553261,Negative,Low,Rarely Attends,Snowy,Resort,4 PM,0
+166,20,Female,Other,86331.27053678875,True,5,1.323236017846019,Group Fitness,Thursday,5 PM,0.8456535702728408,Neutral,Low,Never Attends,Overcast,Resort,9 AM,1
+167,49,Female,Teacher,41496.28882724479,False,4,1.2382715262937398,Spinning,Sunday,11 AM,0.8444843727809237,Negative,Low,Regularly Attends,Rainy,Beach,5 PM,0
+168,57,Male,Teacher,64982.10947399256,False,4,1.223828479784091,Strength Training,Wednesday,7 AM,0.8063307512808949,Neutral,High,Never Attends,Overcast,Suburban,4 PM,0
+169,19,Male,Engineer,58210.417738188225,True,1,1.37712864227737,Pool,Monday,4 PM,1.2574858693397089,Neutral,Medium,Never Attends,Snowy,Other,10 AM,1
+170,24,Female,Doctor,88464.52954357203,True,1,0.2334600398415998,Yoga,Wednesday,2 PM,0.5902620510080386,Negative,High,Never Attends,Rainy,Beach,6 AM,1
+171,45,Male,Student,60127.10473079953,True,2,1.846536689522057,Cardio,Sunday,7 AM,0.8452332127929716,Neutral,Medium,Sometimes Attends,Rainy,Beach,3 PM,1
+172,28,Female,Student,76420.94446418365,True,4,1.2136294226638493,Yoga,Friday,5 PM,1.1295242243437242,Mixed,High,Never Attends,Overcast,Resort,4 PM,1
+173,30,Male,Doctor,33939.65836940171,True,1,1.6101284222571208,Pool,Friday,8 AM,0.6286305748772337,Negative,Medium,Never Attends,Snowy,Resort,3 PM,1
+174,40,Female,Doctor,35278.05616777402,True,3,1.9715176041039388,Pool,Friday,6 AM,0.570796215439609,Neutral,Medium,Never Attends,Sunny,Resort,11 AM,1
+175,40,Female,Doctor,36094.101201302925,True,4,1.8766304491255872,Spinning,Sunday,3 PM,1.324172653153512,Negative,High,Rarely Attends,Rainy,Suburban,3 PM,1
+176,38,Female,Teacher,62986.480853350375,False,5,1.2564867299105038,Cardio,Friday,10 AM,0.81802232248148,Positive,High,Never Attends,Overcast,Resort,6 PM,0
+177,39,Male,Other,24589.382340429664,False,4,1.5672393941887723,Cardio,Saturday,1 PM,1.1694382244725432,Neutral,Medium,Regularly Attends,Sunny,Downtown,5 PM,0
+178,18,Male,Other,69692.53633613084,True,1,1.0602500000653197,Group Fitness,Friday,7 AM,0.5373146810215491,Negative,Low,Rarely Attends,Sunny,Rural,8 PM,1
+179,30,Female,Other,39880.258994023534,True,1,0.0521519742158445,Pool,Thursday,6 AM,1.1352211121366453,Neutral,High,Sometimes Attends,Overcast,Resort,4 PM,1
+180,35,Female,Doctor,54891.62150808862,True,1,0.9477439053571075,Spinning,Thursday,12 PM,1.2019009705563732,Mixed,Medium,Sometimes Attends,Cloudy,Other,12 PM,1
+181,41,Male,Engineer,81054.621363707,False,3,0.595887248705977,Cardio,Thursday,4 PM,1.4581547188670938,Negative,Medium,Regularly Attends,Rainy,Beach,3 PM,0
+182,23,Female,Teacher,80817.69331722244,False,5,1.1719686799663325,Spinning,Wednesday,2 PM,0.8238226761676715,Mixed,Low,Rarely Attends,Snowy,Suburban,4 PM,0
+183,48,Female,Student,22655.42693855557,True,3,1.08084711853821,Strength Training,Saturday,5 PM,0.7315729940748282,Neutral,High,Regularly Attends,Cloudy,Suburban,9 AM,1
+184,66,Female,Student,75750.91600454302,True,5,1.018089801773044,Strength Training,Thursday,4 PM,1.2154371531200963,Neutral,Medium,Regularly Attends,Overcast,Suburban,3 PM,1
+185,56,Female,Teacher,74912.29139806615,True,4,1.0088775435084814,Group Fitness,Friday,6 PM,1.4772902107391959,Mixed,Low,Regularly Attends,Cloudy,Suburban,7 AM,1
+186,50,Male,Doctor,22633.889939507768,True,2,1.9618763285758944,Pool,Wednesday,8 PM,0.9812656193756721,Negative,Low,Regularly Attends,Cloudy,Downtown,11 AM,1
+187,65,Male,Other,68742.26818563961,False,1,1.1912620778731753,Spinning,Saturday,7 AM,1.0851301200994472,Mixed,High,Rarely Attends,Sunny,Other,12 PM,0
+188,38,Female,Other,78126.56133334368,False,3,0.7684252380343792,Spinning,Sunday,5 PM,1.0444361474084345,Negative,Low,Sometimes Attends,Cloudy,Beach,4 PM,0
+189,29,Female,Doctor,58757.91046779837,False,3,1.4799433699101816,Group Fitness,Monday,3 PM,1.3592944687692547,Mixed,High,Sometimes Attends,Sunny,Rural,12 PM,1
+190,38,Male,Student,53731.377255385116,True,1,1.0264928834809361,Group Fitness,Tuesday,11 AM,0.5966657851223133,Positive,Medium,Never Attends,Rainy,Beach,8 PM,1
+191,23,Female,Other,81736.80195109309,False,5,1.4797741850059638,Group Fitness,Wednesday,4 PM,0.9278573782576752,Positive,Low,Regularly Attends,Sunny,Downtown,7 PM,1
+192,33,Female,Engineer,20899.09207720485,True,1,1.3663301669353674,Spinning,Tuesday,9 AM,0.5728988472015604,Mixed,High,Regularly Attends,Rainy,Resort,7 PM,1
+193,52,Male,Teacher,65668.3373163919,True,1,0.7101163877963661,Spinning,Sunday,2 PM,0.5683987864357364,Positive,Low,Sometimes Attends,Overcast,Beach,8 AM,1
+194,32,Female,Teacher,52716.981805031,False,5,1.415618571985817,Spinning,Thursday,6 PM,0.8545272936887299,Neutral,Low,Sometimes Attends,Snowy,Downtown,7 AM,0
+195,63,Male,Doctor,24187.639212937785,False,4,1.386308767868719,Spinning,Friday,7 AM,0.5554283601767743,Positive,Medium,Regularly Attends,Rainy,Resort,5 PM,0
+196,24,Female,Teacher,89327.47998232611,False,1,0.35320656199989653,Strength Training,Thursday,4 PM,1.317626821015941,Mixed,Low,Sometimes Attends,Sunny,Suburban,8 AM,1
+197,29,Female,Student,66292.20872317682,False,2,1.6309406638526156,Spinning,Tuesday,10 AM,0.7141082236761696,Neutral,High,Regularly Attends,Overcast,Resort,4 PM,0
+198,68,Female,Teacher,93114.63348346569,True,4,1.1150212846253933,Yoga,Thursday,3 PM,0.5952888534963456,Negative,Medium,Rarely Attends,Snowy,Downtown,9 AM,1
+199,41,Male,Other,80797.57461146355,True,4,0.9212946920783267,Group Fitness,Tuesday,10 AM,0.6715480828268928,Positive,Medium,Never Attends,Sunny,Other,9 AM,1
+200,64,Female,Other,72325.3053762776,False,3,1.5225225189013016,Cardio,Friday,8 AM,0.7189908010556717,Negative,Medium,Sometimes Attends,Rainy,Resort,6 PM,0
+201,59,Male,Doctor,50055.81157107336,False,3,1.920560122250236,Yoga,Sunday,5 PM,1.0936124163926488,Positive,Medium,Rarely Attends,Cloudy,Downtown,7 PM,0
+202,47,Male,Teacher,31266.980818778356,True,5,1.8360432091967962,Spinning,Friday,8 AM,1.2473546224196865,Mixed,High,Sometimes Attends,Rainy,Downtown,7 AM,1
+203,49,Female,Student,82023.1952958793,True,4,1.2122483039914647,Group Fitness,Thursday,8 AM,1.3435324251000962,Positive,High,Rarely Attends,Rainy,Other,12 PM,1
+204,29,Male,Student,34538.260570849656,False,3,1.6708861416028051,Group Fitness,Saturday,5 PM,0.5499982808809917,Negative,Medium,Never Attends,Snowy,Rural,7 AM,0
+205,32,Male,Teacher,76552.75283230524,False,4,1.3890804472159999,Group Fitness,Tuesday,3 PM,1.2330552636438594,Neutral,Medium,Rarely Attends,Cloudy,Downtown,8 AM,0
+206,29,Female,Doctor,61728.952564841464,True,3,1.0589112463163965,Spinning,Tuesday,6 PM,1.294980517263239,Positive,High,Regularly Attends,Overcast,Other,5 PM,1
+207,47,Female,Doctor,48421.439004669046,False,1,0.6223213632264131,Pool,Sunday,11 AM,0.6868920296703115,Negative,Medium,Never Attends,Cloudy,Other,8 AM,0
+208,55,Male,Other,86747.6868183017,False,5,0.2797328913646566,Group Fitness,Friday,6 AM,0.8006116916615813,Negative,Low,Rarely Attends,Cloudy,Downtown,8 PM,0
+209,43,Female,Other,85795.32188838728,False,3,1.7889887597761718,Cardio,Friday,6 AM,1.4415074856067709,Positive,High,Rarely Attends,Sunny,Suburban,3 PM,1
+210,63,Female,Engineer,33884.29009795052,True,4,1.22918911451871,Pool,Sunday,5 PM,0.6660494028474555,Mixed,Medium,Sometimes Attends,Sunny,Beach,8 PM,1
+211,52,Male,Student,41294.091097481476,True,1,0.5558419999461717,Strength Training,Thursday,7 PM,1.179489166590574,Mixed,Medium,Sometimes Attends,Sunny,Beach,1 PM,1
+212,24,Male,Other,60136.70207720261,False,2,1.952344733430647,Pool,Wednesday,1 PM,1.14925269610248,Neutral,Low,Rarely Attends,Cloudy,Beach,5 PM,0
+213,47,Female,Engineer,71165.86831102558,False,4,1.969104591914328,Pool,Saturday,5 PM,0.5694533658070402,Mixed,Medium,Regularly Attends,Sunny,Beach,2 PM,1
+214,45,Female,Engineer,92030.83501705345,True,4,0.4525492922603471,Group Fitness,Sunday,6 PM,1.0157172673540535,Negative,Medium,Never Attends,Sunny,Downtown,12 PM,1
+215,54,Female,Teacher,55248.67472721011,False,4,1.5004254574368587,Strength Training,Saturday,7 PM,0.5556525681718749,Negative,Low,Regularly Attends,Snowy,Resort,1 PM,0
+216,50,Male,Student,51801.89729666439,True,4,1.2246428788062886,Strength Training,Tuesday,6 PM,1.0209265000276941,Negative,High,Never Attends,Cloudy,Other,1 PM,1
+217,56,Male,Student,23240.587752294796,True,3,0.14199517447856191,Spinning,Thursday,6 PM,1.1361349207067328,Neutral,Low,Regularly Attends,Cloudy,Other,8 PM,1
+218,52,Male,Teacher,74753.18760635966,True,4,0.4479197621698576,Spinning,Friday,6 AM,1.1658248492150831,Mixed,Low,Regularly Attends,Rainy,Rural,8 AM,1
+219,37,Male,Teacher,79889.89631243175,False,5,1.794838732183641,Cardio,Thursday,12 PM,1.0964370752718966,Mixed,High,Sometimes Attends,Overcast,Other,12 PM,0
+220,57,Female,Doctor,75754.12427907632,True,4,1.9482457562165656,Group Fitness,Thursday,6 PM,1.2819275411394657,Neutral,Medium,Regularly Attends,Overcast,Other,12 PM,1
+221,52,Male,Engineer,74863.7002551074,True,2,0.5052569048991535,Cardio,Thursday,8 PM,0.5347128697146571,Positive,High,Never Attends,Overcast,Downtown,10 AM,1
+222,65,Female,Doctor,30881.50041575323,True,2,0.8202371049009998,Group Fitness,Tuesday,10 AM,0.715385504317311,Mixed,Low,Sometimes Attends,Sunny,Suburban,6 PM,1
+223,25,Female,Student,54928.866151224654,False,2,1.712056326492416,Strength Training,Friday,7 AM,0.9739382991816563,Negative,High,Sometimes Attends,Snowy,Beach,6 AM,0
+224,30,Female,Doctor,49985.823486929294,False,1,0.9174709531111487,Group Fitness,Friday,4 PM,0.9497659848073342,Mixed,Medium,Never Attends,Overcast,Suburban,6 PM,0
+225,65,Female,Engineer,55781.270609994055,True,2,0.14129679999576217,Pool,Wednesday,3 PM,0.7418762781141932,Mixed,Low,Never Attends,Rainy,Beach,6 AM,1
+226,49,Female,Student,21229.456344974675,False,3,0.00994068496622269,Pool,Wednesday,3 PM,1.257105691903396,Neutral,Low,Sometimes Attends,Overcast,Other,8 AM,0
+227,21,Female,Doctor,96921.00301941321,True,1,1.4470053071882638,Strength Training,Sunday,6 AM,1.1809151807196434,Neutral,Low,Never Attends,Rainy,Downtown,9 AM,1
+228,37,Male,Teacher,27966.692425014888,False,2,0.9367225576270681,Spinning,Friday,8 PM,0.5067410697327144,Neutral,Medium,Never Attends,Sunny,Rural,6 PM,0
+229,22,Male,Engineer,29364.385635303857,True,4,0.4045036352597857,Cardio,Thursday,2 PM,1.4494816164778745,Mixed,Medium,Never Attends,Rainy,Resort,10 AM,1
+230,49,Female,Student,83373.71247318861,False,1,0.27845040634039586,Yoga,Wednesday,4 PM,0.8150760503714711,Neutral,Medium,Rarely Attends,Snowy,Suburban,8 AM,0
+231,29,Female,Engineer,79456.1309380128,False,4,0.508879292320934,Cardio,Monday,2 PM,0.5856041362567964,Negative,Low,Never Attends,Rainy,Beach,9 AM,0
+232,31,Male,Other,49982.836802667254,True,3,1.2039493451293546,Pool,Tuesday,10 AM,0.8459343525244016,Positive,High,Rarely Attends,Overcast,Other,3 PM,1
+233,40,Female,Other,63492.29301057334,True,5,1.607733445499634,Yoga,Saturday,6 AM,1.0393519975780303,Neutral,High,Sometimes Attends,Sunny,Downtown,8 PM,1
+234,69,Male,Doctor,81036.3325770683,False,4,1.7112276848835353,Group Fitness,Sunday,3 PM,0.8819771083842471,Negative,Low,Never Attends,Snowy,Suburban,7 AM,0
+235,44,Female,Engineer,25954.33245425582,True,3,1.7886877411865174,Spinning,Wednesday,10 AM,0.6280082926276364,Neutral,Low,Sometimes Attends,Snowy,Beach,7 PM,1
+236,42,Male,Doctor,51746.67252941571,True,3,0.5463400708388926,Group Fitness,Sunday,7 AM,1.4155114946243101,Positive,Medium,Never Attends,Snowy,Suburban,7 AM,1
+237,22,Female,Other,64847.96115439972,True,4,0.6975562174038821,Yoga,Sunday,11 AM,1.126836204599182,Mixed,Low,Sometimes Attends,Overcast,Rural,8 PM,1
+238,55,Female,Engineer,96616.85816089585,True,1,0.1824768697270387,Yoga,Friday,7 PM,1.1479926638304576,Positive,Low,Rarely Attends,Rainy,Resort,4 PM,1
+239,28,Female,Teacher,85605.27194760114,False,4,1.2570663640355133,Pool,Thursday,7 AM,1.1263474942158087,Neutral,High,Sometimes Attends,Cloudy,Suburban,6 AM,0
+240,41,Female,Teacher,66364.28592645659,False,3,0.8890969599993688,Strength Training,Wednesday,4 PM,1.4618623353323015,Positive,Medium,Rarely Attends,Overcast,Resort,3 PM,0
+241,40,Male,Student,41308.38997906659,False,2,0.20487104290224134,Group Fitness,Tuesday,7 PM,0.7321199846821268,Mixed,High,Rarely Attends,Snowy,Rural,8 AM,0
+242,38,Male,Student,96433.37229005925,True,4,0.45262152557054014,Cardio,Thursday,1 PM,0.6859871680188285,Positive,Medium,Regularly Attends,Cloudy,Suburban,10 AM,1
+243,41,Male,Teacher,86763.05828221381,False,2,1.3170949563375378,Group Fitness,Friday,12 PM,1.341417779908451,Neutral,Medium,Never Attends,Cloudy,Rural,8 PM,0
+244,65,Male,Student,98031.89543358634,False,2,0.528527237690172,Pool,Thursday,7 PM,1.0403316794156119,Mixed,Medium,Rarely Attends,Overcast,Rural,7 PM,0
+245,28,Male,Student,98283.04280639823,True,3,0.7488418417637193,Group Fitness,Monday,8 PM,0.9974858772859738,Mixed,High,Never Attends,Snowy,Other,2 PM,1
+246,62,Male,Student,68273.61720571405,False,3,1.0493241622324694,Cardio,Tuesday,2 PM,1.3340058417116214,Negative,Medium,Never Attends,Overcast,Suburban,5 PM,0
+247,27,Female,Student,84397.0230268322,True,3,0.93197490873642,Pool,Sunday,11 AM,1.330986335301462,Negative,High,Sometimes Attends,Cloudy,Suburban,6 AM,1
+248,23,Male,Doctor,57536.5001971139,True,2,0.04887460350995876,Cardio,Monday,9 AM,0.9792910954147619,Mixed,High,Rarely Attends,Cloudy,Downtown,6 AM,1
+249,59,Female,Student,90925.38169346811,True,2,0.38220239573748227,Group Fitness,Tuesday,4 PM,0.6478237112069565,Positive,High,Sometimes Attends,Cloudy,Rural,11 AM,1
+250,24,Female,Other,88666.05550215277,True,5,0.4059252022281479,Group Fitness,Wednesday,7 AM,1.372453145134223,Mixed,Low,Rarely Attends,Rainy,Beach,11 AM,1
+251,23,Male,Student,38116.46747483051,True,1,1.2620606776230938,Cardio,Tuesday,6 PM,1.499551770502738,Neutral,Medium,Sometimes Attends,Overcast,Rural,2 PM,1
+252,68,Female,Other,57090.886697469,True,3,1.8310665682375138,Strength Training,Wednesday,6 PM,0.9931114275161278,Positive,Medium,Never Attends,Rainy,Other,6 PM,1
+253,57,Male,Teacher,32512.446957787837,False,3,1.6992907727095392,Group Fitness,Saturday,7 AM,0.9503055238848208,Negative,Low,Regularly Attends,Sunny,Other,4 PM,0
+254,39,Male,Other,43643.73719063722,True,1,0.7445332530998872,Pool,Saturday,7 AM,1.211094962858951,Negative,High,Regularly Attends,Overcast,Rural,1 PM,1
+255,36,Female,Engineer,61471.86623931211,True,5,1.8045300208845139,Strength Training,Friday,3 PM,0.6206224201468723,Negative,Medium,Sometimes Attends,Overcast,Resort,9 AM,1
+256,26,Female,Engineer,37834.254323761445,True,5,0.4769994163205735,Pool,Sunday,8 PM,1.3522804256052607,Neutral,Low,Regularly Attends,Rainy,Rural,9 AM,1
+257,69,Female,Doctor,32875.187794295525,True,3,0.06373420554776321,Pool,Thursday,9 AM,0.7146079806934204,Negative,Medium,Never Attends,Cloudy,Resort,10 AM,1
+258,40,Female,Student,97326.88646431812,False,1,1.892936143520151,Pool,Thursday,8 PM,1.1802460037521172,Neutral,High,Never Attends,Rainy,Beach,11 AM,0
+259,63,Male,Doctor,34377.9130621368,False,1,0.7328654928026197,Cardio,Sunday,4 PM,0.7185315444977269,Mixed,Low,Sometimes Attends,Rainy,Other,8 PM,0
+260,28,Male,Doctor,67022.30805984879,True,1,0.8225581883969766,Spinning,Tuesday,3 PM,0.949767064503549,Positive,Medium,Regularly Attends,Rainy,Rural,8 PM,1
+261,43,Male,Doctor,51361.236484686655,False,3,1.8419701665177894,Strength Training,Tuesday,1 PM,0.8926827566197455,Positive,Low,Regularly Attends,Sunny,Suburban,7 AM,0
+262,68,Male,Other,61069.8766293405,True,4,1.2163168237937094,Cardio,Sunday,12 PM,0.5626714893736311,Negative,Low,Regularly Attends,Sunny,Downtown,8 PM,1
+263,47,Male,Doctor,54948.35946180873,False,2,0.24940100480957184,Strength Training,Tuesday,5 PM,0.8355996495592948,Positive,Low,Regularly Attends,Sunny,Beach,8 AM,0
+264,20,Female,Student,49304.059255304164,True,2,0.7155521117425516,Pool,Tuesday,3 PM,1.435926664195946,Neutral,Medium,Never Attends,Snowy,Resort,6 PM,1
+265,51,Male,Student,85207.78498460242,False,4,1.3574036338567481,Strength Training,Wednesday,7 PM,0.9290161962455371,Neutral,Low,Rarely Attends,Sunny,Beach,1 PM,0
+266,38,Female,Student,55086.22481971214,False,3,0.9859309686620883,Spinning,Thursday,7 AM,0.8967189483146083,Positive,Medium,Regularly Attends,Sunny,Downtown,7 PM,1
+267,39,Male,Doctor,37144.20809591027,False,3,0.9096196471353541,Cardio,Monday,11 AM,0.7736664857636408,Neutral,Medium,Rarely Attends,Overcast,Other,5 PM,0
+268,21,Female,Doctor,77337.38354877768,False,2,1.4098416301986385,Group Fitness,Monday,5 PM,1.1555797239406673,Mixed,Low,Regularly Attends,Sunny,Rural,4 PM,1
+269,21,Male,Doctor,32392.66748789303,False,3,1.406346777006697,Strength Training,Thursday,3 PM,0.5411051714529845,Mixed,Low,Regularly Attends,Rainy,Downtown,4 PM,1
+270,34,Female,Student,59713.902314620114,True,1,0.9084915857886713,Spinning,Thursday,1 PM,1.237262593052759,Positive,Low,Sometimes Attends,Sunny,Suburban,1 PM,1
+271,25,Female,Student,41782.63058737932,False,1,1.7055644661270302,Strength Training,Saturday,9 AM,1.4310511822474212,Negative,High,Regularly Attends,Sunny,Downtown,7 AM,1
+272,18,Female,Doctor,29508.43054177538,True,3,1.6043025622476337,Pool,Wednesday,10 AM,1.2436907549706584,Negative,High,Regularly Attends,Overcast,Suburban,8 PM,1
+273,50,Male,Other,60407.60755091365,True,5,1.3602408832156456,Pool,Wednesday,7 AM,1.1095816484204444,Positive,High,Sometimes Attends,Rainy,Other,3 PM,1
+274,66,Female,Other,28393.437213629477,False,1,1.5697646650571668,Strength Training,Saturday,4 PM,1.2767271219712217,Mixed,High,Regularly Attends,Overcast,Rural,11 AM,0
+275,42,Female,Teacher,47319.98291402789,True,4,0.7878059576335723,Yoga,Monday,5 PM,1.0053952682412035,Positive,High,Never Attends,Snowy,Downtown,10 AM,1
+276,24,Male,Doctor,80720.94502897275,False,3,0.9057439539298602,Pool,Thursday,5 PM,0.6464610178704857,Neutral,Low,Rarely Attends,Snowy,Rural,7 PM,0
+277,43,Male,Doctor,93294.14928912606,False,3,1.397223500493283,Group Fitness,Friday,8 AM,0.7235101155448331,Negative,High,Regularly Attends,Overcast,Other,8 PM,0
+278,36,Female,Engineer,47157.88043823851,True,2,1.512048649117926,Spinning,Sunday,6 PM,1.175391706893456,Positive,High,Sometimes Attends,Sunny,Beach,7 AM,1
+279,50,Female,Other,73560.74280689712,True,2,0.08278750684044,Yoga,Monday,9 AM,1.21879719313654,Mixed,Low,Rarely Attends,Rainy,Downtown,10 AM,1
+280,52,Male,Engineer,79431.75754397588,False,4,0.0281035321207892,Pool,Thursday,8 AM,1.039102091178445,Negative,High,Never Attends,Snowy,Other,1 PM,0
+281,30,Male,Student,26956.59207981982,False,2,1.8563913611827716,Pool,Thursday,6 AM,0.5934555711029397,Negative,Low,Never Attends,Rainy,Downtown,10 AM,1
+282,44,Male,Student,26705.2220495239,False,1,0.8874216222490561,Yoga,Wednesday,8 PM,0.511133933416472,Positive,Low,Sometimes Attends,Rainy,Other,7 PM,0
+283,44,Male,Student,50310.19772895449,False,4,1.1716002218375212,Group Fitness,Wednesday,9 AM,1.4237168065948325,Neutral,Medium,Sometimes Attends,Overcast,Rural,12 PM,0
+284,33,Male,Engineer,33851.2427616824,False,3,0.047340495550063144,Strength Training,Thursday,9 AM,0.9736566772465948,Positive,High,Sometimes Attends,Snowy,Resort,7 PM,0
+285,22,Male,Doctor,39158.21765792028,True,5,1.2572563936262162,Strength Training,Wednesday,7 AM,0.8940222262707959,Neutral,High,Sometimes Attends,Snowy,Suburban,12 PM,1
+286,58,Female,Student,67478.3240965355,True,2,0.07674548424906513,Spinning,Tuesday,7 PM,1.0289759334965516,Neutral,High,Never Attends,Cloudy,Suburban,11 AM,1
+287,31,Male,Other,66005.03269062203,True,4,1.0763586915578807,Strength Training,Wednesday,6 AM,1.4062214931590962,Negative,Medium,Never Attends,Rainy,Beach,8 PM,1
+288,50,Male,Doctor,60917.95579122723,False,4,1.550977739186352,Pool,Sunday,7 PM,0.9545055703928,Positive,Medium,Rarely Attends,Cloudy,Rural,6 AM,0
+289,64,Female,Other,37572.44562862032,False,4,0.8527645657651477,Spinning,Friday,7 PM,1.2885292206223014,Mixed,High,Regularly Attends,Overcast,Downtown,11 AM,0
+290,69,Female,Engineer,76090.31675301888,True,1,0.19473641138794529,Cardio,Tuesday,5 PM,0.8020892900963571,Mixed,Medium,Rarely Attends,Sunny,Downtown,4 PM,1
+291,55,Male,Other,54922.55018174097,True,3,1.4782573929605443,Pool,Saturday,4 PM,1.1238347800668522,Mixed,Medium,Regularly Attends,Sunny,Suburban,7 AM,1
+292,52,Female,Doctor,65816.53720246983,True,3,0.34378858048931193,Pool,Tuesday,8 AM,1.080269247894364,Neutral,High,Regularly Attends,Sunny,Resort,3 PM,1
+293,37,Female,Other,23962.535622558906,True,2,0.5991765929756108,Strength Training,Monday,8 AM,1.3929353657154473,Neutral,High,Rarely Attends,Overcast,Downtown,2 PM,1
+294,43,Male,Other,46240.24347681558,False,5,1.1014013745087046,Pool,Monday,3 PM,1.235473079646793,Negative,Low,Regularly Attends,Rainy,Beach,11 AM,0
+295,46,Female,Doctor,40789.39569209222,False,1,0.16107809224525216,Yoga,Monday,4 PM,0.7203116498754566,Positive,Low,Never Attends,Overcast,Resort,12 PM,0
+296,54,Female,Engineer,24007.333964735975,False,4,1.0762033136919857,Strength Training,Sunday,4 PM,1.0577820888936318,Positive,Low,Never Attends,Rainy,Beach,3 PM,0
+297,57,Female,Other,98812.75379937499,False,5,0.18880577119021047,Yoga,Wednesday,9 AM,0.936705051050022,Mixed,Medium,Regularly Attends,Snowy,Beach,6 PM,0
+298,35,Female,Engineer,25315.93647643316,True,1,1.725871377958698,Strength Training,Wednesday,7 PM,1.409850334276027,Mixed,Medium,Never Attends,Rainy,Resort,8 AM,1
+299,66,Male,Teacher,52455.57652249776,True,2,1.578271831925342,Strength Training,Tuesday,3 PM,1.3687174594821698,Mixed,Medium,Sometimes Attends,Overcast,Downtown,4 PM,1
+300,31,Female,Doctor,22415.422777626973,True,1,1.1271904246694242,Group Fitness,Friday,5 PM,1.1283432529050583,Positive,High,Regularly Attends,Rainy,Other,7 PM,1
+301,52,Female,Teacher,24669.142938828452,True,2,1.8855457561213098,Strength Training,Thursday,10 AM,0.7179876959454274,Negative,High,Rarely Attends,Cloudy,Suburban,2 PM,1
+302,30,Female,Other,72812.71705395736,False,2,1.5372500762817993,Pool,Thursday,4 PM,1.2611750671336126,Mixed,Low,Rarely Attends,Cloudy,Beach,11 AM,0
+303,22,Male,Student,67521.61282045886,False,4,0.022622293451215025,Pool,Tuesday,7 PM,1.3203347961084162,Neutral,Low,Sometimes Attends,Overcast,Resort,6 PM,0
+304,28,Male,Doctor,72578.6307756016,True,3,1.7324604701741764,Strength Training,Friday,9 AM,1.0867599360338112,Negative,High,Rarely Attends,Overcast,Downtown,7 PM,1
+305,31,Female,Student,34393.487039385036,True,4,1.9749695085409054,Strength Training,Sunday,10 AM,0.8784854052643146,Negative,High,Never Attends,Cloudy,Resort,5 PM,1
+306,45,Male,Teacher,55297.59866701408,True,3,1.8518649249525112,Yoga,Monday,12 PM,0.875541873573522,Neutral,High,Rarely Attends,Rainy,Downtown,8 PM,1
+307,47,Female,Student,43421.3477755579,True,5,0.5934500233336846,Pool,Wednesday,11 AM,1.2746032043530728,Positive,Medium,Regularly Attends,Cloudy,Resort,8 AM,1
+308,69,Female,Student,42969.23479730653,True,5,1.8620745410236648,Cardio,Saturday,11 AM,1.3463986254677034,Mixed,High,Never Attends,Overcast,Rural,8 AM,1
+309,42,Male,Other,77596.04861610729,False,5,1.8266344282402256,Group Fitness,Saturday,5 PM,1.1178563199230247,Mixed,Low,Rarely Attends,Rainy,Other,5 PM,0
+310,45,Female,Other,44243.62412962213,False,4,0.4303011671710377,Group Fitness,Thursday,8 AM,0.9825412946801935,Positive,High,Regularly Attends,Sunny,Beach,7 PM,1
+311,21,Male,Engineer,87550.55949583955,True,4,0.20619051916974218,Strength Training,Wednesday,2 PM,1.4274548722512646,Neutral,High,Rarely Attends,Cloudy,Downtown,7 AM,1
+312,30,Female,Engineer,26872.302918714086,False,4,0.7472122150968323,Pool,Tuesday,1 PM,0.5796063020700312,Negative,Medium,Sometimes Attends,Sunny,Beach,9 AM,1
+313,34,Female,Engineer,32792.56027558305,False,2,0.7318986601015629,Spinning,Sunday,10 AM,1.316130300028399,Neutral,Medium,Rarely Attends,Sunny,Resort,1 PM,1
+314,56,Female,Teacher,76628.52714486637,True,3,0.37967233207332085,Pool,Wednesday,8 PM,0.5995498825789962,Neutral,Medium,Never Attends,Overcast,Rural,11 AM,1
+315,51,Male,Student,68306.48842988934,False,1,0.4297886610582562,Strength Training,Tuesday,5 PM,1.2097769032479517,Negative,High,Rarely Attends,Overcast,Other,9 AM,0
+316,34,Male,Doctor,54714.02256327865,True,3,0.373236023586625,Group Fitness,Saturday,9 AM,1.3511155831619535,Mixed,Low,Rarely Attends,Sunny,Rural,5 PM,1
+317,56,Female,Doctor,66962.92912769684,True,1,0.5055320911177914,Strength Training,Monday,1 PM,1.0237105628879004,Positive,Medium,Sometimes Attends,Snowy,Other,11 AM,1
+318,49,Female,Doctor,39562.44353050784,False,2,0.6197264700102147,Yoga,Monday,8 AM,0.8694752926983751,Positive,High,Rarely Attends,Cloudy,Rural,5 PM,0
+319,31,Female,Other,92234.15918313242,False,5,1.4698985806252307,Spinning,Sunday,6 AM,0.9398548427691776,Neutral,Low,Rarely Attends,Overcast,Other,3 PM,0
+320,35,Female,Doctor,89029.679001776,True,1,1.407437438195613,Pool,Thursday,7 AM,0.9862437274401933,Mixed,Low,Rarely Attends,Sunny,Downtown,3 PM,1
+321,61,Male,Teacher,38705.091799184964,False,5,1.0361685124513607,Pool,Monday,1 PM,1.0695831616646143,Mixed,Low,Regularly Attends,Snowy,Downtown,9 AM,0
+322,29,Male,Student,48545.50401795827,True,5,1.6940404776327445,Pool,Sunday,3 PM,0.9787741360142462,Negative,High,Sometimes Attends,Overcast,Beach,9 AM,1
+323,45,Female,Other,66034.6126255527,False,5,0.3865630836178162,Strength Training,Friday,4 PM,0.861065053895256,Mixed,Low,Rarely Attends,Cloudy,Other,9 AM,0
+324,69,Female,Teacher,39967.516184086184,False,1,1.0815340634393222,Spinning,Monday,6 PM,0.8385469543257811,Neutral,Medium,Regularly Attends,Rainy,Rural,1 PM,0
+325,42,Male,Teacher,78398.7532825325,False,2,0.7854419586920267,Spinning,Sunday,7 AM,0.8238933173604283,Positive,Low,Regularly Attends,Sunny,Suburban,12 PM,0
+326,52,Male,Engineer,47831.67912573987,True,4,1.21167846545099,Yoga,Tuesday,3 PM,0.7043609964930257,Mixed,High,Regularly Attends,Snowy,Other,3 PM,1
+327,41,Male,Student,43652.348202457506,True,5,0.46876904439686373,Cardio,Saturday,12 PM,0.7710985203178071,Neutral,Medium,Regularly Attends,Snowy,Resort,2 PM,1
+328,64,Male,Engineer,49292.10445407656,True,1,1.598179707210002,Group Fitness,Wednesday,3 PM,1.0984976894711267,Negative,Medium,Regularly Attends,Sunny,Rural,6 PM,1
+329,56,Male,Other,54253.807381870734,True,1,1.5467885787558013,Spinning,Wednesday,12 PM,1.0308913211067843,Positive,High,Sometimes Attends,Snowy,Resort,8 PM,1
+330,41,Male,Engineer,71089.76025391117,False,5,1.5707977928831587,Yoga,Thursday,8 PM,0.6529446545658125,Negative,High,Regularly Attends,Rainy,Downtown,12 PM,0
+331,57,Female,Teacher,85078.9031596533,True,5,0.8115301617388893,Cardio,Monday,8 AM,1.4637917720905085,Positive,High,Rarely Attends,Cloudy,Rural,11 AM,1
+332,50,Male,Engineer,74100.78818012314,True,5,0.19254669424250714,Group Fitness,Sunday,10 AM,1.199946430952004,Mixed,High,Rarely Attends,Overcast,Resort,2 PM,1
+333,47,Female,Other,79482.9144891478,True,3,1.7190821932966258,Pool,Sunday,8 AM,1.4757951790930846,Mixed,Low,Regularly Attends,Rainy,Other,7 AM,1
+334,18,Female,Student,86880.85643600639,True,3,1.0367811960650601,Cardio,Friday,7 AM,1.247817449264103,Positive,High,Regularly Attends,Overcast,Other,8 AM,1
+335,63,Male,Doctor,91996.64001844735,False,3,1.6266863906742455,Yoga,Monday,2 PM,1.3164269288867043,Negative,Medium,Sometimes Attends,Sunny,Resort,1 PM,0
+336,54,Male,Teacher,87487.68901190806,True,5,0.685220510517321,Cardio,Thursday,7 AM,1.4360669731198126,Neutral,Medium,Sometimes Attends,Sunny,Rural,12 PM,1
+337,62,Female,Doctor,42959.68082893046,True,3,1.9636861385897555,Yoga,Saturday,2 PM,1.1769484028606878,Negative,High,Regularly Attends,Snowy,Rural,5 PM,1
+338,38,Female,Student,38303.647646023055,False,5,1.3394921920490437,Spinning,Thursday,11 AM,1.1753956068864815,Positive,Low,Never Attends,Snowy,Beach,12 PM,0
+339,30,Male,Teacher,98466.5854235647,True,1,0.035696735536225654,Spinning,Sunday,8 PM,1.1488386202370804,Mixed,Low,Sometimes Attends,Sunny,Rural,9 AM,1
+340,37,Male,Teacher,59810.33733363233,True,4,1.3918195141196497,Cardio,Monday,7 AM,1.062478202794399,Mixed,High,Rarely Attends,Cloudy,Rural,4 PM,1
+341,27,Female,Doctor,75042.39618948849,False,1,1.8588704280956407,Pool,Monday,3 PM,1.4682837117992147,Mixed,Medium,Never Attends,Cloudy,Downtown,2 PM,1
+342,24,Male,Engineer,24851.535356510005,False,3,1.5372266791636149,Strength Training,Saturday,2 PM,0.793103338719516,Mixed,High,Sometimes Attends,Rainy,Downtown,8 AM,1
+343,61,Male,Engineer,65487.11263607443,False,1,0.7404635000095336,Strength Training,Monday,7 AM,1.2532681342993,Negative,High,Rarely Attends,Cloudy,Resort,1 PM,0
+344,35,Male,Other,70258.93661695207,True,3,0.10558322522145791,Strength Training,Monday,5 PM,1.0600669704851122,Negative,High,Regularly Attends,Rainy,Beach,6 AM,1
+345,24,Female,Teacher,95754.49247472061,True,5,0.8540322815431005,Group Fitness,Wednesday,11 AM,1.1917597419358237,Mixed,Low,Regularly Attends,Snowy,Other,3 PM,1
+346,33,Female,Engineer,99546.37774581695,True,3,0.410522499677896,Pool,Thursday,5 PM,0.9377864509016117,Neutral,Low,Rarely Attends,Rainy,Downtown,8 AM,1
+347,32,Female,Other,28477.62167597909,True,5,1.0634412359765166,Cardio,Sunday,2 PM,1.4271423890086983,Mixed,Medium,Regularly Attends,Cloudy,Suburban,10 AM,1
+348,31,Male,Other,95979.33870164864,True,4,1.7468841675078575,Spinning,Sunday,7 PM,0.6396359963229025,Negative,Medium,Rarely Attends,Snowy,Downtown,9 AM,1
+349,58,Male,Doctor,26913.732281717654,False,3,1.2513894155594423,Yoga,Friday,11 AM,0.7354016171880694,Neutral,Low,Sometimes Attends,Rainy,Other,3 PM,0
+350,25,Male,Teacher,25417.134377055798,False,1,1.0763807820845424,Strength Training,Wednesday,9 AM,1.4615263267768115,Mixed,Medium,Rarely Attends,Rainy,Downtown,12 PM,1
+351,31,Female,Engineer,93702.74558526711,True,4,1.246016832771757,Group Fitness,Wednesday,3 PM,0.6102366820046999,Neutral,Low,Regularly Attends,Cloudy,Downtown,8 PM,1
+352,47,Female,Doctor,41442.22715599391,True,1,0.4570028648321125,Yoga,Monday,5 PM,0.7743876060189872,Positive,High,Rarely Attends,Snowy,Downtown,8 PM,1
+353,28,Female,Other,65329.408294444205,True,1,0.367913697782861,Strength Training,Wednesday,3 PM,0.8786361286488433,Negative,High,Regularly Attends,Cloudy,Rural,7 AM,1
+354,21,Male,Student,23197.38006438835,False,2,0.41357445067077947,Spinning,Thursday,6 PM,0.8122790853685838,Neutral,High,Sometimes Attends,Snowy,Beach,6 PM,0
+355,65,Male,Doctor,25206.761282153137,True,2,1.5520800389467757,Spinning,Saturday,3 PM,0.5403937692638928,Mixed,Medium,Regularly Attends,Sunny,Other,3 PM,1
+356,27,Female,Engineer,38364.015452992055,True,2,1.9511011093007755,Pool,Friday,6 AM,0.7325039812838867,Negative,High,Never Attends,Overcast,Downtown,4 PM,1
+357,23,Male,Engineer,50367.03179753937,True,1,1.1321316891525572,Spinning,Thursday,6 PM,0.7326795433370961,Mixed,High,Rarely Attends,Overcast,Other,8 PM,1
+358,31,Male,Doctor,83781.67075531607,False,3,1.2792881111144836,Group Fitness,Wednesday,10 AM,1.314545749848376,Neutral,High,Regularly Attends,Rainy,Suburban,10 AM,0
+359,54,Female,Other,43328.41242489914,True,1,1.7683096629653947,Cardio,Tuesday,6 AM,1.1938844309312602,Negative,High,Regularly Attends,Cloudy,Resort,12 PM,1
+360,63,Female,Other,73354.1877652021,True,3,0.9346142791542289,Pool,Sunday,8 AM,0.553947230373394,Neutral,High,Regularly Attends,Snowy,Resort,9 AM,1
+361,67,Male,Student,78019.01631392764,True,3,0.6544048543376331,Cardio,Wednesday,7 AM,1.4250848080380525,Neutral,Low,Never Attends,Sunny,Other,7 PM,1
+362,29,Male,Engineer,47895.59122999542,False,2,1.7238560675796553,Spinning,Saturday,7 AM,1.070263911879293,Positive,High,Sometimes Attends,Snowy,Other,7 AM,0
+363,40,Male,Teacher,23768.043122714716,False,4,1.3099082795505075,Pool,Friday,12 PM,0.872970783532736,Positive,Medium,Sometimes Attends,Sunny,Downtown,8 AM,0
+364,19,Female,Engineer,90283.12126161814,True,3,1.689139154782961,Cardio,Sunday,3 PM,1.054746952413472,Positive,High,Regularly Attends,Cloudy,Resort,6 AM,1
+365,66,Female,Teacher,40498.99174436169,False,5,0.26734807251430426,Spinning,Friday,3 PM,1.1516198473850192,Mixed,Low,Regularly Attends,Snowy,Beach,8 PM,0
+366,67,Male,Teacher,23042.260969905354,True,3,0.051589686637447896,Spinning,Tuesday,1 PM,0.7378190846540595,Mixed,Low,Regularly Attends,Cloudy,Beach,8 AM,1
+367,50,Female,Engineer,44630.84273986478,False,1,0.8890594594125063,Pool,Friday,10 AM,1.2482230317312735,Positive,Medium,Sometimes Attends,Rainy,Suburban,11 AM,0
+368,67,Female,Student,39439.1897333824,False,1,1.665050573686151,Pool,Thursday,12 PM,1.088100652962312,Positive,Low,Regularly Attends,Cloudy,Other,7 AM,0
+369,58,Male,Other,68980.92101549286,True,4,0.2909145453961328,Yoga,Sunday,1 PM,0.8696936854586866,Mixed,Low,Never Attends,Rainy,Resort,12 PM,1
+370,63,Male,Doctor,37367.40275278601,False,2,1.7699985182581228,Yoga,Sunday,7 PM,0.6338042958662989,Negative,Low,Never Attends,Rainy,Beach,7 AM,0
+371,32,Male,Engineer,94484.9953178741,False,2,1.3722458797246442,Strength Training,Sunday,11 AM,0.6604808879733373,Neutral,Low,Sometimes Attends,Snowy,Rural,2 PM,0
+372,27,Male,Doctor,35815.70880016161,False,3,0.8696157161123785,Spinning,Saturday,7 AM,1.1284262377312548,Neutral,Medium,Regularly Attends,Rainy,Downtown,7 AM,1
+373,53,Male,Teacher,25327.081561647377,False,4,1.4499719082496787,Strength Training,Saturday,3 PM,0.6534243857553153,Mixed,High,Sometimes Attends,Snowy,Suburban,8 AM,0
+374,35,Male,Student,47301.57944788508,True,2,0.36952942042853665,Strength Training,Monday,6 PM,1.3319952197585139,Mixed,High,Regularly Attends,Rainy,Downtown,12 PM,1
+375,56,Male,Student,43426.8632590186,True,5,1.6781942726727164,Pool,Tuesday,8 AM,0.7760770167452039,Positive,Low,Rarely Attends,Sunny,Beach,7 PM,1
+376,39,Female,Other,89892.1006783426,False,2,1.1213982853149576,Cardio,Friday,2 PM,1.4624238717899285,Positive,Medium,Regularly Attends,Cloudy,Suburban,4 PM,0
+377,27,Male,Student,76653.7171842256,False,2,1.218977469789778,Yoga,Tuesday,8 PM,1.2680858002283044,Positive,High,Regularly Attends,Snowy,Resort,5 PM,0
+378,69,Male,Doctor,66462.89264883718,True,1,0.6331839078537795,Group Fitness,Thursday,7 PM,1.2495324781738937,Positive,Medium,Never Attends,Sunny,Downtown,1 PM,1
+379,58,Female,Other,73273.59035081585,True,4,0.6820308996758198,Cardio,Sunday,1 PM,0.7291531923576111,Negative,Medium,Never Attends,Snowy,Downtown,5 PM,1
+380,31,Female,Engineer,73713.87271896495,True,3,1.145179064026041,Group Fitness,Saturday,12 PM,0.6923849804527867,Neutral,High,Rarely Attends,Snowy,Beach,4 PM,1
+381,67,Male,Engineer,79199.57261646815,False,3,1.9274197418698953,Yoga,Saturday,8 AM,1.2356688757167538,Positive,High,Never Attends,Overcast,Downtown,7 AM,0
+382,44,Female,Teacher,42119.372054085994,True,5,0.9813968352482749,Spinning,Tuesday,12 PM,1.4551504329452516,Positive,Medium,Regularly Attends,Rainy,Suburban,11 AM,1
+383,21,Female,Teacher,87012.72896690725,False,4,0.5864215683513918,Cardio,Wednesday,8 AM,0.5069860658723455,Mixed,Medium,Regularly Attends,Cloudy,Suburban,6 AM,0
+384,64,Female,Teacher,65729.95758021265,True,3,0.4560582003317386,Yoga,Saturday,12 PM,1.3404129997764906,Neutral,Low,Regularly Attends,Cloudy,Suburban,1 PM,1
+385,24,Male,Other,33265.67928029665,False,3,0.37118894771311406,Strength Training,Friday,8 PM,1.264188359294177,Positive,High,Regularly Attends,Snowy,Resort,6 PM,0
+386,55,Male,Teacher,61573.705944864916,False,1,1.6512230864579958,Spinning,Saturday,8 PM,0.731386245943245,Neutral,Medium,Sometimes Attends,Cloudy,Other,12 PM,0
+387,36,Female,Engineer,88742.86409166598,True,2,1.8128822836381362,Spinning,Friday,11 AM,1.0719142272104656,Positive,Low,Sometimes Attends,Cloudy,Other,6 AM,1
+388,29,Male,Doctor,22244.730279560452,True,2,1.5873525934166337,Spinning,Tuesday,8 PM,1.0418869403818687,Mixed,High,Sometimes Attends,Overcast,Downtown,8 AM,1
+389,49,Male,Doctor,32224.284953069626,False,2,1.9023006664450066,Strength Training,Monday,8 AM,1.2289998119576784,Mixed,High,Never Attends,Overcast,Beach,7 AM,0
+390,34,Female,Engineer,97465.35190002127,False,2,1.149716426766999,Cardio,Friday,8 AM,0.7006427233438187,Mixed,High,Rarely Attends,Cloudy,Suburban,5 PM,0
+391,58,Female,Engineer,79517.75378710286,True,4,1.5527131779561745,Pool,Tuesday,8 PM,1.38333442555459,Mixed,Medium,Rarely Attends,Overcast,Rural,3 PM,1
+392,55,Female,Teacher,88006.15528073032,True,5,0.38387943899561305,Spinning,Sunday,8 PM,1.4402638169847468,Neutral,High,Never Attends,Cloudy,Other,5 PM,1
+393,22,Female,Other,64437.47414164831,True,4,0.10705577056539406,Cardio,Friday,8 PM,0.8791613037633227,Negative,Low,Regularly Attends,Cloudy,Other,6 AM,1
+394,34,Male,Other,20606.981389817473,False,5,1.073312117639304,Spinning,Tuesday,5 PM,1.1504988472309732,Mixed,High,Sometimes Attends,Overcast,Rural,11 AM,0
+395,44,Female,Teacher,90863.47684525355,True,1,0.8804203827616444,Pool,Tuesday,12 PM,1.3862346288872112,Positive,High,Never Attends,Snowy,Other,6 AM,1
+396,42,Female,Teacher,74357.59338393551,False,5,0.8711816914981765,Group Fitness,Saturday,7 PM,0.5742529562897633,Mixed,Medium,Rarely Attends,Cloudy,Beach,9 AM,0
+397,56,Male,Teacher,34447.58458477107,True,3,0.4857101051666244,Pool,Tuesday,12 PM,1.2599088453449343,Neutral,Medium,Never Attends,Overcast,Downtown,2 PM,1
+398,55,Male,Teacher,49359.03728245472,False,4,0.8221725242954738,Pool,Saturday,4 PM,1.3964341385747134,Mixed,Low,Rarely Attends,Snowy,Other,1 PM,0
+399,45,Female,Teacher,28195.469570582412,True,2,1.8097208346740268,Spinning,Sunday,5 PM,0.8247124844812581,Neutral,Low,Rarely Attends,Snowy,Downtown,2 PM,1
+400,50,Female,Student,64973.486699095614,True,3,1.3492243246722277,Pool,Friday,8 PM,1.0515811047948946,Mixed,Medium,Regularly Attends,Rainy,Suburban,1 PM,1
+401,45,Female,Doctor,66768.68537319486,True,5,1.4183089151049248,Group Fitness,Sunday,9 AM,1.2650636307516234,Positive,High,Rarely Attends,Sunny,Resort,9 AM,1
+402,37,Female,Doctor,32362.038911077783,False,4,0.11622501690402087,Yoga,Monday,10 AM,0.5651404920180583,Neutral,Medium,Sometimes Attends,Rainy,Rural,2 PM,0
+403,30,Male,Student,48452.54453328533,True,1,1.3853694433552903,Spinning,Thursday,11 AM,0.6436905846318649,Negative,High,Regularly Attends,Snowy,Other,11 AM,1
+404,29,Male,Doctor,34505.62352914021,False,2,0.9394692711847763,Spinning,Tuesday,6 PM,1.2409655175539887,Positive,Low,Sometimes Attends,Overcast,Other,3 PM,0
+405,54,Female,Teacher,26947.95288699597,True,4,1.2379477755252282,Yoga,Monday,10 AM,1.2363951526871229,Mixed,Medium,Sometimes Attends,Overcast,Rural,6 AM,1
+406,22,Female,Teacher,70758.43439682419,False,3,0.13342174010184937,Strength Training,Friday,2 PM,0.6846484193169443,Neutral,Medium,Rarely Attends,Overcast,Downtown,12 PM,1
+407,22,Female,Student,59562.78759972796,False,3,0.4202600557882472,Spinning,Saturday,6 AM,0.5207367116182756,Negative,Medium,Sometimes Attends,Overcast,Other,5 PM,0
+408,25,Male,Teacher,26698.02396870158,True,2,1.0591072698422204,Pool,Sunday,6 AM,1.032948853819743,Mixed,Medium,Sometimes Attends,Overcast,Resort,2 PM,1
+409,68,Male,Student,79310.24604294935,True,4,0.778170096612451,Group Fitness,Saturday,1 PM,0.9085865725448836,Neutral,Medium,Sometimes Attends,Cloudy,Resort,7 AM,1
+410,60,Female,Engineer,91564.51736091921,False,4,1.025910143864807,Pool,Monday,12 PM,0.9715437168287911,Positive,Medium,Rarely Attends,Snowy,Resort,8 AM,0
+411,43,Female,Doctor,21120.297846900878,False,1,1.1308013211835826,Group Fitness,Monday,5 PM,0.6666342286293526,Positive,Medium,Sometimes Attends,Rainy,Suburban,8 AM,0
+412,24,Female,Doctor,28871.9817421595,True,3,1.2044206851220363,Yoga,Thursday,10 AM,0.8223823292452584,Positive,High,Sometimes Attends,Overcast,Beach,11 AM,1
+413,41,Female,Teacher,53102.81059321657,True,1,0.43153807718385195,Yoga,Wednesday,6 AM,1.1990347064974123,Negative,Medium,Rarely Attends,Sunny,Resort,1 PM,1
+414,69,Female,Engineer,54154.25572784895,True,4,1.6968722818185509,Cardio,Friday,7 AM,0.5670847893806077,Negative,High,Rarely Attends,Overcast,Downtown,2 PM,1
+415,60,Female,Teacher,91562.9609998043,False,3,0.8849162873467209,Pool,Sunday,9 AM,0.533414592062174,Mixed,High,Never Attends,Snowy,Suburban,6 PM,0
+416,63,Female,Doctor,64133.22659025488,False,3,0.7872791723039181,Strength Training,Friday,7 AM,0.7669855121820771,Negative,High,Never Attends,Rainy,Rural,8 PM,0
+417,41,Male,Student,36098.17694700943,False,1,1.444821084556823,Spinning,Thursday,3 PM,1.2596136804052769,Mixed,Medium,Never Attends,Sunny,Other,9 AM,0
+418,37,Male,Other,69118.17722072065,False,3,0.0903676016120396,Strength Training,Monday,10 AM,1.2819881672132822,Positive,Medium,Never Attends,Overcast,Other,11 AM,0
+419,50,Male,Doctor,50844.055665595006,False,2,0.08233040716948636,Cardio,Tuesday,4 PM,1.3372498023351929,Negative,Low,Sometimes Attends,Sunny,Downtown,12 PM,0
+420,29,Female,Student,89488.55160771172,False,5,0.32527830968050897,Strength Training,Friday,12 PM,1.171654156750689,Neutral,Medium,Sometimes Attends,Snowy,Rural,5 PM,0
+421,60,Male,Other,70448.90074565422,True,4,0.46541644566501694,Pool,Saturday,12 PM,1.049217795984008,Negative,High,Never Attends,Snowy,Other,7 PM,1
+422,33,Female,Teacher,38679.730667360374,False,5,1.2084626774773508,Yoga,Saturday,6 AM,1.4763486374695916,Negative,High,Rarely Attends,Sunny,Beach,8 AM,1
+423,59,Male,Doctor,45599.249965477764,True,3,0.048472387470218425,Cardio,Wednesday,7 PM,0.5370762146872399,Negative,High,Rarely Attends,Snowy,Other,4 PM,1
+424,67,Female,Other,98665.25285382,False,4,1.126619732045628,Cardio,Friday,1 PM,1.324646838987852,Mixed,Low,Sometimes Attends,Snowy,Downtown,4 PM,0
+425,24,Male,Doctor,52135.49578377842,True,3,0.15267624035698835,Cardio,Tuesday,1 PM,0.7081681388402419,Positive,Low,Never Attends,Overcast,Rural,2 PM,1
+426,65,Female,Engineer,52008.080348624295,True,4,1.968727676514475,Pool,Saturday,8 AM,1.472333108503204,Positive,Low,Never Attends,Sunny,Rural,11 AM,1
+427,46,Female,Student,80999.88925452123,False,4,0.29923227532056385,Yoga,Tuesday,9 AM,1.1438536139594082,Positive,High,Never Attends,Sunny,Rural,8 AM,1
+428,29,Male,Other,48591.169505088255,False,4,0.6068115080006304,Strength Training,Tuesday,12 PM,1.0274545590969457,Neutral,Low,Never Attends,Sunny,Beach,6 PM,0
+429,23,Female,Student,45578.49431925476,False,5,1.5817142751395483,Yoga,Friday,11 AM,1.145818918028282,Mixed,High,Sometimes Attends,Rainy,Other,3 PM,0
+430,64,Female,Engineer,97314.49626455379,True,4,1.0714557335724957,Yoga,Wednesday,5 PM,0.7395433369488572,Mixed,Medium,Regularly Attends,Cloudy,Other,12 PM,1
+431,50,Female,Teacher,53845.481326622736,False,4,0.8988593017924456,Pool,Tuesday,10 AM,1.385519259414116,Positive,Medium,Rarely Attends,Sunny,Other,11 AM,1
+432,66,Male,Doctor,92483.42431437253,True,1,1.2818630039433898,Spinning,Wednesday,12 PM,0.9162031213934484,Positive,Low,Rarely Attends,Overcast,Other,11 AM,1
+433,35,Female,Other,73193.3695857006,False,5,0.7459248176494109,Group Fitness,Wednesday,3 PM,0.9300998371173408,Neutral,Medium,Regularly Attends,Cloudy,Other,3 PM,0
+434,31,Female,Engineer,20016.694972634177,False,4,1.5652249170270682,Yoga,Sunday,6 AM,1.2288441846031257,Mixed,High,Sometimes Attends,Overcast,Rural,7 PM,0
+435,68,Male,Doctor,31373.698163326706,False,2,0.6184581252551082,Cardio,Saturday,10 AM,0.8774768854136692,Negative,Low,Sometimes Attends,Cloudy,Rural,10 AM,0
+436,47,Male,Doctor,81598.49203404864,False,5,1.1655995111766935,Strength Training,Monday,6 AM,0.9481261130841061,Mixed,Low,Never Attends,Snowy,Other,2 PM,0
+437,18,Male,Engineer,76673.15015290593,False,4,1.309188469906757,Strength Training,Thursday,5 PM,1.1585292204180173,Neutral,Medium,Sometimes Attends,Rainy,Suburban,7 AM,0
+438,34,Male,Doctor,68452.58761649593,True,5,0.7741154953321614,Group Fitness,Thursday,1 PM,1.24844762873404,Negative,Medium,Never Attends,Overcast,Suburban,11 AM,1
+439,65,Female,Other,51329.47555374556,False,3,1.4316464064855154,Group Fitness,Monday,10 AM,1.312689162060077,Mixed,Low,Sometimes Attends,Overcast,Rural,7 PM,0
+440,31,Female,Engineer,66522.86163882221,False,4,0.1431485550506344,Strength Training,Thursday,6 AM,1.2769775637619571,Mixed,High,Regularly Attends,Sunny,Rural,6 PM,1
+441,58,Female,Doctor,31658.99819761698,False,5,1.5160591849827592,Group Fitness,Wednesday,5 PM,0.6326227932934216,Positive,High,Never Attends,Snowy,Rural,3 PM,0
+442,66,Female,Teacher,47079.29685401884,True,1,0.7764039983617881,Group Fitness,Monday,6 AM,1.290673950030306,Positive,High,Sometimes Attends,Sunny,Resort,2 PM,1
+443,31,Female,Teacher,45869.471702867646,True,4,1.1954048183136872,Cardio,Tuesday,5 PM,1.094112035412155,Mixed,High,Never Attends,Sunny,Beach,10 AM,1
+444,33,Female,Teacher,21868.941684835343,False,2,1.434574962639139,Strength Training,Monday,7 AM,0.5588572034802948,Mixed,Low,Regularly Attends,Overcast,Beach,6 PM,0
+445,59,Male,Engineer,23172.79933415449,True,5,0.16548208884002125,Spinning,Tuesday,7 AM,0.6072654990603181,Mixed,High,Never Attends,Overcast,Downtown,8 PM,1
+446,47,Female,Teacher,71766.23164900517,False,1,0.7144246624575614,Cardio,Sunday,5 PM,1.1877977099762829,Neutral,Low,Rarely Attends,Snowy,Suburban,9 AM,0
+447,22,Female,Other,82848.65849926957,True,3,0.10597833528717904,Pool,Saturday,5 PM,1.3087586552915629,Negative,High,Sometimes Attends,Overcast,Other,9 AM,1
+448,46,Male,Teacher,95456.9290307436,False,5,1.11800490410645,Cardio,Sunday,7 AM,0.532710825648719,Negative,High,Sometimes Attends,Cloudy,Beach,6 PM,0
+449,57,Male,Other,58889.592504001535,True,3,0.05595205508052192,Pool,Saturday,2 PM,1.4411271417365699,Neutral,Medium,Rarely Attends,Sunny,Rural,1 PM,1
+450,31,Male,Other,33027.25159713151,True,1,0.4199690744556226,Strength Training,Thursday,7 AM,0.9650543116117092,Neutral,High,Rarely Attends,Snowy,Rural,8 AM,1
+451,65,Male,Teacher,78259.77141343297,False,3,1.5500046279211812,Spinning,Sunday,8 PM,1.2990632847410635,Negative,Medium,Sometimes Attends,Cloudy,Suburban,11 AM,0
+452,49,Male,Teacher,26284.29341895304,True,3,0.8448328226322628,Group Fitness,Friday,10 AM,1.054786479649933,Positive,High,Sometimes Attends,Snowy,Suburban,6 AM,1
+453,18,Male,Doctor,23981.64813743308,True,2,1.6121983174972183,Yoga,Sunday,3 PM,1.4085063348211364,Negative,Low,Regularly Attends,Cloudy,Rural,10 AM,1
+454,48,Male,Teacher,64996.41055733521,True,3,1.6541983380438157,Pool,Wednesday,7 PM,0.59407421842216,Negative,Medium,Never Attends,Sunny,Suburban,6 PM,1
+455,35,Female,Other,30566.891114530357,False,2,0.18253381422046777,Group Fitness,Thursday,3 PM,0.6209080164763954,Positive,Low,Regularly Attends,Sunny,Suburban,9 AM,1
+456,38,Female,Doctor,42913.922959749776,False,2,0.7917472755869972,Yoga,Tuesday,7 AM,0.9635640534209281,Mixed,Low,Sometimes Attends,Cloudy,Other,10 AM,0
+457,41,Female,Doctor,29361.359357885893,True,2,1.8871342573350978,Strength Training,Wednesday,2 PM,0.8350254620896348,Negative,High,Sometimes Attends,Cloudy,Other,4 PM,1
+458,53,Female,Doctor,91208.93196595398,False,3,1.7763161392804756,Spinning,Sunday,8 AM,1.0146152876413728,Neutral,High,Rarely Attends,Rainy,Rural,3 PM,0
+459,42,Female,Other,67491.26257670282,True,4,1.6602168246354687,Yoga,Saturday,5 PM,1.0629457012717662,Mixed,Low,Sometimes Attends,Overcast,Resort,11 AM,1
+460,69,Female,Other,82096.39079642468,False,1,0.8187982879246896,Pool,Tuesday,8 AM,0.7018955928779935,Mixed,Medium,Rarely Attends,Sunny,Other,6 PM,1
+461,36,Male,Teacher,64884.67756931694,True,3,0.8864055664011643,Yoga,Tuesday,2 PM,0.7085445338836232,Positive,Low,Regularly Attends,Cloudy,Other,10 AM,1
+462,49,Female,Engineer,63326.26716646295,False,2,0.38662882710608937,Pool,Sunday,7 PM,1.1942516703430148,Mixed,High,Never Attends,Overcast,Downtown,6 AM,0
+463,20,Male,Other,58666.58655118788,False,2,0.24193874854155273,Yoga,Wednesday,3 PM,1.4537377486113283,Mixed,Medium,Rarely Attends,Snowy,Suburban,7 PM,0
+464,22,Male,Teacher,32579.32297890986,False,4,1.9725308807315527,Group Fitness,Monday,8 AM,0.6587076601235676,Mixed,Medium,Sometimes Attends,Cloudy,Rural,9 AM,0
+465,69,Male,Student,63557.54739584737,False,4,1.0988440540950437,Pool,Monday,3 PM,0.8282097058949706,Positive,Low,Rarely Attends,Sunny,Downtown,4 PM,0
+466,21,Male,Other,88013.20408971567,False,2,1.9550344895761684,Cardio,Monday,7 AM,0.6146299781675046,Mixed,High,Regularly Attends,Sunny,Other,6 PM,0
+467,32,Female,Doctor,84011.68546724052,True,4,0.5576419145511518,Cardio,Saturday,8 AM,0.9495970066054505,Mixed,Medium,Rarely Attends,Snowy,Rural,7 AM,1
+468,23,Female,Teacher,44046.58091754161,True,3,0.1376108528322244,Pool,Friday,2 PM,1.1337006700119958,Negative,Low,Regularly Attends,Snowy,Suburban,1 PM,1
+469,23,Female,Teacher,60648.84689241731,True,3,0.8380459058030791,Strength Training,Monday,1 PM,1.3316169360118528,Neutral,Medium,Never Attends,Sunny,Resort,7 AM,1
+470,29,Male,Student,58580.87884957053,True,1,1.3744047341993453,Strength Training,Wednesday,3 PM,1.2764816193656627,Neutral,Medium,Never Attends,Rainy,Downtown,10 AM,1
+471,38,Female,Teacher,49897.37618843657,True,2,1.0873096653128511,Yoga,Saturday,8 AM,0.9394558858908736,Mixed,Medium,Sometimes Attends,Overcast,Rural,1 PM,1
+472,63,Female,Teacher,39882.14235643737,False,3,1.0713987221174077,Strength Training,Tuesday,11 AM,0.8900674157792768,Mixed,Medium,Regularly Attends,Cloudy,Rural,7 PM,0
+473,29,Male,Doctor,50939.8944934926,False,3,0.06318497330058315,Cardio,Thursday,6 AM,1.05310385375046,Neutral,High,Sometimes Attends,Sunny,Rural,9 AM,0
+474,58,Female,Student,36669.7206719851,True,3,0.20654375854150842,Yoga,Wednesday,10 AM,1.4122352326311387,Positive,Medium,Never Attends,Cloudy,Beach,8 AM,1
+475,28,Male,Doctor,25738.880348764353,False,1,1.0716804421882917,Spinning,Thursday,11 AM,1.2606917303130047,Positive,Medium,Rarely Attends,Cloudy,Resort,8 PM,0
+476,20,Male,Engineer,47298.92812819508,False,4,1.1812774091011957,Yoga,Tuesday,10 AM,0.6299704551935923,Negative,Low,Rarely Attends,Sunny,Other,1 PM,0
+477,57,Male,Student,78993.01468820691,False,2,0.13171640345210922,Strength Training,Sunday,7 AM,0.7111615895981126,Negative,Medium,Rarely Attends,Overcast,Other,2 PM,0
+478,67,Female,Other,71055.48520267147,True,2,1.6055292557755478,Group Fitness,Sunday,12 PM,0.6384266193091014,Neutral,High,Rarely Attends,Sunny,Suburban,6 AM,1
+479,42,Male,Doctor,62532.882112402025,True,4,0.6009410782151949,Cardio,Saturday,6 AM,1.1055583613859505,Negative,Low,Rarely Attends,Sunny,Downtown,10 AM,1
+480,56,Female,Student,69665.07583203458,True,3,1.9547803352798845,Cardio,Tuesday,8 AM,0.7423304174109189,Mixed,Low,Rarely Attends,Sunny,Suburban,6 AM,1
+481,26,Female,Student,70924.13983358326,False,5,1.3381216933003295,Spinning,Sunday,11 AM,0.9689252432885138,Neutral,High,Never Attends,Overcast,Other,3 PM,0
+482,50,Male,Teacher,71616.99891412084,True,1,0.7200866185920469,Strength Training,Thursday,1 PM,1.3538158448367676,Positive,High,Regularly Attends,Rainy,Resort,12 PM,1
+483,44,Male,Student,70296.29168501991,False,4,0.19960171044455488,Group Fitness,Monday,8 PM,0.5429611813787498,Mixed,Low,Regularly Attends,Rainy,Suburban,7 PM,0
+484,55,Male,Teacher,80914.20579134114,True,4,1.2295376132610696,Cardio,Friday,4 PM,0.9496789021251695,Neutral,Low,Sometimes Attends,Snowy,Rural,1 PM,1
+485,44,Male,Other,40157.127223035975,False,2,1.1238263559804234,Strength Training,Monday,1 PM,1.2755642448721658,Negative,Medium,Never Attends,Snowy,Other,9 AM,0
+486,46,Male,Student,23121.04624138253,True,4,1.8170609182610817,Yoga,Monday,8 PM,0.6760808530178446,Negative,Low,Rarely Attends,Overcast,Suburban,6 AM,1
+487,29,Male,Student,77854.8820979826,True,2,0.6217008785595053,Group Fitness,Thursday,5 PM,1.2859034027703506,Mixed,Medium,Sometimes Attends,Rainy,Downtown,6 PM,1
+488,39,Female,Student,91865.93225806546,True,4,1.0013138470618346,Spinning,Saturday,7 AM,0.6132312383742204,Positive,High,Rarely Attends,Snowy,Downtown,2 PM,1
+489,46,Female,Student,85797.36630961507,True,1,0.7165073061212126,Strength Training,Thursday,7 AM,0.6689350673899319,Negative,Medium,Rarely Attends,Snowy,Resort,1 PM,1
+490,21,Male,Doctor,39729.75567879253,True,1,1.9293534454387615,Yoga,Saturday,8 PM,0.5766054829314353,Neutral,High,Sometimes Attends,Rainy,Other,2 PM,1
+491,57,Male,Engineer,69892.34672219204,False,2,1.289409600087037,Strength Training,Friday,6 AM,0.6299611638426784,Mixed,Low,Never Attends,Sunny,Downtown,3 PM,0
+492,30,Female,Doctor,70719.84673578874,True,3,0.23125349867170963,Spinning,Tuesday,6 AM,1.2330961940035083,Neutral,Low,Sometimes Attends,Sunny,Downtown,7 AM,1
+493,61,Female,Student,42221.337951025496,False,4,1.5920485234877686,Strength Training,Wednesday,6 PM,0.8363236432178552,Positive,High,Rarely Attends,Rainy,Suburban,7 PM,0
+494,43,Male,Teacher,54856.779779798904,False,1,0.15705688770863935,Cardio,Saturday,1 PM,1.2575646920407966,Negative,High,Rarely Attends,Sunny,Resort,9 AM,0
+495,47,Female,Other,44278.894982894715,False,1,1.2730298575602037,Cardio,Friday,4 PM,0.6310922090108055,Mixed,Medium,Sometimes Attends,Snowy,Rural,6 PM,0
+496,35,Female,Student,78764.88522471339,False,4,1.0102495799604674,Group Fitness,Friday,12 PM,0.8920349176455699,Mixed,Medium,Never Attends,Rainy,Rural,8 AM,0
+497,60,Female,Doctor,46807.467241671264,True,5,1.7452654118024018,Spinning,Thursday,9 AM,0.5358964826625825,Positive,Medium,Rarely Attends,Overcast,Other,5 PM,1
+498,19,Female,Other,82069.18104697934,False,4,0.4705246125885294,Strength Training,Sunday,6 AM,1.3225408684915891,Mixed,Medium,Regularly Attends,Overcast,Beach,5 PM,0
+499,19,Female,Doctor,47448.7221425188,True,5,0.05310429554916385,Cardio,Sunday,7 PM,0.5909798660361596,Neutral,High,Sometimes Attends,Rainy,Suburban,4 PM,1
+500,19,Male,Teacher,57036.582523783814,True,1,1.5699616006749093,Yoga,Sunday,12 PM,1.0153375348219722,Mixed,Low,Never Attends,Snowy,Resort,7 AM,1
+501,68,Male,Doctor,27149.82232410363,False,2,0.8065491879238593,Spinning,Monday,6 AM,1.3172985250653615,Negative,Low,Never Attends,Sunny,Beach,8 PM,0
+502,35,Male,Engineer,97680.65092810226,True,5,0.36050111582106625,Cardio,Sunday,10 AM,1.3652356161176922,Positive,Low,Sometimes Attends,Sunny,Other,9 AM,1
+503,37,Female,Doctor,47564.65129052722,True,4,1.0813063527231073,Strength Training,Monday,3 PM,1.0360760485144276,Mixed,Medium,Sometimes Attends,Sunny,Suburban,5 PM,1
+504,25,Male,Engineer,35218.18466291646,False,4,0.5408629055534668,Group Fitness,Tuesday,7 PM,1.3316033352829213,Negative,Low,Regularly Attends,Sunny,Rural,6 PM,0
+505,50,Male,Other,90794.71763845913,True,1,0.07569353608655871,Pool,Friday,2 PM,1.3819912883707373,Neutral,High,Sometimes Attends,Overcast,Resort,7 PM,1
+506,60,Female,Other,33241.00450693036,True,3,1.5813179666009334,Pool,Thursday,12 PM,0.8223713197430976,Neutral,High,Rarely Attends,Snowy,Downtown,2 PM,1
+507,30,Male,Student,68386.96699246712,False,1,1.0754129544546511,Cardio,Friday,9 AM,1.1460089794402983,Neutral,Medium,Rarely Attends,Rainy,Suburban,12 PM,0
+508,19,Male,Teacher,44961.71698571685,True,1,0.5264315014274901,Spinning,Friday,1 PM,0.5628270863281171,Negative,High,Never Attends,Rainy,Other,4 PM,1
+509,27,Female,Engineer,48789.289418611035,True,4,1.569815197651933,Spinning,Friday,2 PM,0.5730092120844356,Mixed,Medium,Regularly Attends,Cloudy,Other,5 PM,1
+510,31,Male,Other,50237.079436749365,True,2,0.9494821443511927,Strength Training,Thursday,3 PM,0.6137679684615308,Positive,Medium,Regularly Attends,Snowy,Downtown,6 AM,1
+511,34,Female,Doctor,47400.67530238439,True,2,0.3576038713576961,Pool,Saturday,6 AM,0.6914705360164819,Positive,Medium,Never Attends,Rainy,Rural,9 AM,1
+512,69,Male,Other,53117.37370476652,False,2,1.5199563531893505,Pool,Monday,8 AM,1.1805986066365142,Negative,Medium,Never Attends,Sunny,Beach,6 AM,0
+513,50,Female,Doctor,47220.871148924416,True,2,0.9974891124425516,Yoga,Tuesday,7 AM,0.5283581258843214,Neutral,Low,Rarely Attends,Overcast,Downtown,11 AM,1
+514,20,Male,Other,48462.19530700313,True,1,1.22151281627357,Yoga,Friday,6 PM,0.7375292923908238,Neutral,Medium,Never Attends,Overcast,Downtown,4 PM,1
+515,50,Female,Doctor,26825.245205659307,False,1,1.8170526913195661,Cardio,Wednesday,12 PM,0.8169320901957132,Neutral,Low,Never Attends,Snowy,Rural,12 PM,0
+516,56,Male,Student,21025.47942628462,True,5,0.01981417531584162,Yoga,Tuesday,3 PM,0.8858599316382626,Mixed,Medium,Rarely Attends,Overcast,Resort,7 AM,1
+517,62,Female,Teacher,30706.19608454865,True,1,1.7126013415971568,Cardio,Sunday,8 PM,0.964892736741521,Positive,Low,Regularly Attends,Rainy,Downtown,11 AM,1
+518,60,Female,Other,65210.15738988347,False,3,1.3094897575933748,Cardio,Sunday,1 PM,1.1886514105547623,Mixed,Low,Rarely Attends,Snowy,Resort,7 AM,0
+519,41,Male,Other,93790.16827394394,False,3,0.7072882328619519,Pool,Friday,7 PM,1.3857302476496578,Positive,Medium,Regularly Attends,Sunny,Resort,1 PM,0
+520,21,Female,Student,33985.552142998065,True,3,1.2630596076087826,Spinning,Wednesday,6 AM,1.2216607798746408,Negative,Low,Sometimes Attends,Sunny,Resort,12 PM,1
+521,37,Female,Other,84324.4552053007,False,2,0.71135523847104,Group Fitness,Saturday,7 AM,0.6069658150508492,Positive,Low,Regularly Attends,Sunny,Resort,1 PM,1
+522,64,Female,Engineer,76123.76000250733,False,5,1.1701276343490719,Pool,Sunday,3 PM,1.4577233504766172,Negative,Low,Rarely Attends,Snowy,Other,11 AM,0
+523,62,Female,Student,97096.30074248264,True,4,0.5992280452051442,Group Fitness,Tuesday,11 AM,1.1723139147355957,Neutral,Low,Never Attends,Overcast,Other,7 AM,1
+524,69,Female,Engineer,69210.28900882669,True,2,1.383391072114074,Yoga,Saturday,4 PM,1.1773781259100318,Neutral,Low,Regularly Attends,Cloudy,Downtown,8 AM,1
+525,35,Male,Other,31951.264385485843,True,2,1.076436471030553,Group Fitness,Friday,6 PM,1.2289448791555884,Neutral,Medium,Rarely Attends,Sunny,Other,8 PM,1
+526,47,Female,Other,24158.608128317195,False,4,1.2895356363545805,Spinning,Saturday,8 AM,0.5302923531518979,Mixed,Low,Never Attends,Sunny,Suburban,5 PM,1
+527,38,Male,Student,92349.69479086227,True,4,1.1960629515566412,Pool,Friday,5 PM,1.43462948085751,Negative,Low,Sometimes Attends,Sunny,Suburban,11 AM,1
+528,51,Female,Engineer,64813.57873669199,True,4,0.7336449987281479,Cardio,Sunday,8 AM,1.0851064529077772,Neutral,Low,Never Attends,Rainy,Rural,5 PM,1
+529,32,Male,Engineer,54760.55342673303,True,4,0.048270064269134716,Cardio,Friday,3 PM,1.4025723201486824,Negative,Low,Rarely Attends,Overcast,Downtown,7 PM,1
+530,47,Female,Other,25408.865369123676,False,2,1.446967924908252,Group Fitness,Wednesday,5 PM,1.4798912391956396,Positive,Medium,Sometimes Attends,Rainy,Resort,1 PM,0
+531,46,Male,Student,83899.74357682065,False,1,1.252596819385977,Pool,Monday,5 PM,1.4895000787797428,Negative,Low,Never Attends,Snowy,Beach,8 AM,0
+532,45,Female,Engineer,47115.52107809807,False,1,0.26466566298104977,Spinning,Friday,8 AM,0.6355106343634318,Mixed,Low,Never Attends,Sunny,Other,4 PM,1
+533,60,Female,Doctor,42035.36392559892,True,4,1.0750932509010807,Yoga,Sunday,11 AM,0.8570732523439223,Positive,Low,Sometimes Attends,Rainy,Resort,4 PM,1
+534,49,Female,Student,31441.409554900445,False,5,1.8271633592710166,Spinning,Tuesday,5 PM,1.4899226673356807,Negative,Medium,Sometimes Attends,Rainy,Resort,6 PM,0
+535,42,Female,Doctor,53585.1730295345,False,4,1.7272922596726794,Spinning,Monday,10 AM,1.3239247253728026,Neutral,Medium,Rarely Attends,Sunny,Suburban,11 AM,1
+536,60,Male,Doctor,35937.89962023827,True,4,1.6437369502732688,Group Fitness,Monday,3 PM,0.5735099298721752,Neutral,High,Regularly Attends,Cloudy,Beach,8 PM,1
+537,56,Female,Other,20044.38880262038,False,5,0.7270997590287154,Strength Training,Saturday,12 PM,1.0357672115930456,Neutral,High,Regularly Attends,Rainy,Beach,6 PM,0
+538,46,Male,Other,65206.633141256054,True,3,0.1781348751686218,Cardio,Thursday,4 PM,0.5063702989303138,Negative,Low,Never Attends,Sunny,Rural,8 AM,1
+539,24,Female,Student,31455.749070984984,True,4,0.2522601800741431,Strength Training,Tuesday,6 AM,0.8486123153734403,Positive,High,Regularly Attends,Cloudy,Suburban,3 PM,1
+540,31,Male,Doctor,92212.2802529721,True,5,1.28602435343698,Yoga,Thursday,2 PM,0.9399935025640908,Positive,Medium,Sometimes Attends,Cloudy,Other,9 AM,1
+541,46,Female,Student,26487.51370781689,False,2,0.03468382747456711,Cardio,Tuesday,7 AM,1.106593715776622,Neutral,High,Regularly Attends,Cloudy,Other,6 AM,0
+542,30,Female,Teacher,58240.36704497531,False,4,0.33512306753054855,Group Fitness,Thursday,4 PM,1.2718047240844843,Neutral,High,Sometimes Attends,Cloudy,Resort,11 AM,0
+543,26,Female,Doctor,46325.0549084997,True,1,0.9794736762727689,Cardio,Thursday,3 PM,1.462914767102418,Mixed,High,Sometimes Attends,Sunny,Downtown,12 PM,1
+544,24,Male,Student,97871.59771922763,False,1,1.1692053432982257,Spinning,Monday,4 PM,1.3047333358652178,Mixed,Medium,Regularly Attends,Cloudy,Resort,9 AM,0
+545,34,Female,Other,30663.397033296595,True,3,0.005634540624862794,Cardio,Thursday,3 PM,0.7364764781218411,Neutral,High,Sometimes Attends,Snowy,Resort,9 AM,1
+546,26,Female,Engineer,38698.478090210905,True,2,0.5359932158435017,Yoga,Wednesday,6 PM,0.9887793862748991,Neutral,High,Never Attends,Rainy,Beach,8 AM,1
+547,68,Female,Doctor,40039.01127631427,True,2,1.0673233628956362,Spinning,Monday,5 PM,0.9586939171320155,Negative,Medium,Never Attends,Cloudy,Rural,7 AM,1
+548,25,Male,Doctor,41616.72939050851,False,3,1.567531413405942,Pool,Saturday,4 PM,1.143156791485528,Positive,Medium,Sometimes Attends,Overcast,Beach,8 PM,0
+549,37,Male,Teacher,85960.58642106048,True,1,0.15000131811128203,Spinning,Wednesday,12 PM,1.4325528934574843,Neutral,Medium,Sometimes Attends,Snowy,Rural,9 AM,1
+550,42,Female,Teacher,31108.398466324674,False,5,0.02689763469893869,Group Fitness,Monday,12 PM,1.2654086655731094,Negative,Medium,Sometimes Attends,Rainy,Other,3 PM,0
+551,40,Male,Engineer,68845.4043865725,False,2,0.5251544542987825,Group Fitness,Wednesday,10 AM,1.1134863942717521,Neutral,Medium,Rarely Attends,Sunny,Rural,6 PM,0
+552,20,Female,Engineer,25495.016781341295,False,1,1.2045479122067209,Yoga,Monday,11 AM,0.5360773658056732,Negative,Low,Never Attends,Sunny,Beach,2 PM,1
+553,20,Male,Teacher,72523.37438847218,False,3,0.8737273369441525,Group Fitness,Wednesday,12 PM,1.4518880779599024,Mixed,High,Regularly Attends,Rainy,Downtown,11 AM,1
+554,56,Female,Engineer,43502.09191992351,True,2,1.3291886009523854,Strength Training,Monday,12 PM,0.7616783987053608,Positive,High,Sometimes Attends,Snowy,Downtown,1 PM,1
+555,69,Female,Other,39700.126518703786,True,1,0.20336392814602045,Cardio,Wednesday,10 AM,0.7406541641583374,Neutral,High,Never Attends,Cloudy,Downtown,4 PM,1
+556,48,Male,Teacher,24038.54076000714,True,2,0.3855584306514668,Strength Training,Tuesday,7 PM,1.1282368786502937,Mixed,Low,Regularly Attends,Snowy,Other,3 PM,1
+557,64,Female,Student,78996.51595275465,False,1,1.1728112225200373,Pool,Wednesday,12 PM,1.0673149052110213,Positive,Low,Sometimes Attends,Rainy,Downtown,5 PM,0
+558,57,Female,Student,63478.243362481655,True,5,1.5353146437915801,Yoga,Tuesday,6 PM,0.6639193167288786,Neutral,High,Never Attends,Rainy,Rural,4 PM,1
+559,48,Male,Student,44881.75462100024,False,2,1.1749810058471517,Cardio,Sunday,4 PM,1.3265725769098236,Mixed,High,Regularly Attends,Sunny,Rural,10 AM,0
+560,34,Female,Engineer,27415.605851304124,False,2,1.2552550544010939,Yoga,Monday,8 PM,1.337654860859938,Neutral,High,Regularly Attends,Overcast,Rural,6 AM,0
+561,46,Male,Student,72665.90472595165,True,4,0.9855526477492609,Yoga,Wednesday,2 PM,1.1810651692555405,Negative,High,Never Attends,Rainy,Other,6 AM,1
+562,22,Female,Engineer,66137.32094153311,True,5,1.3405370515386204,Strength Training,Sunday,7 AM,0.6065846518805285,Mixed,Low,Sometimes Attends,Overcast,Other,1 PM,1
+563,56,Male,Other,62264.09980750577,True,2,0.011211736470581046,Strength Training,Friday,7 AM,0.829003554621646,Positive,Low,Regularly Attends,Sunny,Downtown,10 AM,1
+564,66,Male,Other,39781.44159419235,False,5,0.4405386185466562,Yoga,Tuesday,2 PM,1.1511064196407321,Mixed,Low,Regularly Attends,Snowy,Rural,8 AM,0
+565,57,Female,Student,26589.42217726647,False,4,1.3944826429774562,Spinning,Tuesday,4 PM,0.8611372189640555,Neutral,Medium,Sometimes Attends,Cloudy,Beach,9 AM,0
+566,62,Female,Student,92173.51801509269,False,2,1.2259087244089288,Group Fitness,Thursday,10 AM,0.848205582792588,Mixed,Low,Rarely Attends,Sunny,Rural,7 PM,1
+567,65,Female,Engineer,91821.57444329993,True,2,0.46976804637032066,Spinning,Sunday,8 PM,0.559881412913523,Negative,High,Rarely Attends,Overcast,Rural,9 AM,1
+568,35,Female,Student,48763.06058247911,True,4,0.4593863061811918,Yoga,Tuesday,6 PM,1.2542092395630338,Mixed,High,Rarely Attends,Sunny,Downtown,11 AM,1
+569,41,Male,Teacher,68843.75122923512,False,1,1.2756003171478751,Cardio,Monday,6 PM,0.8563354509880072,Negative,Medium,Sometimes Attends,Sunny,Other,8 AM,0
+570,26,Female,Teacher,54041.72613157762,True,1,1.8575846135661598,Cardio,Saturday,8 PM,0.9333943151449928,Negative,Low,Rarely Attends,Overcast,Beach,12 PM,1
+571,19,Female,Engineer,60769.99715705231,False,1,0.7395032974369047,Cardio,Monday,3 PM,1.1693258592555742,Neutral,High,Sometimes Attends,Snowy,Downtown,12 PM,0
+572,40,Male,Doctor,67507.34929674509,False,1,0.06066303553611818,Pool,Tuesday,10 AM,1.244339926165515,Neutral,Medium,Rarely Attends,Snowy,Suburban,1 PM,0
+573,54,Female,Student,84971.6939326191,False,5,1.0987639538754599,Cardio,Thursday,12 PM,0.9210464997882735,Negative,Medium,Sometimes Attends,Cloudy,Rural,4 PM,0
+574,27,Female,Student,59244.62759288678,False,3,1.1689920178301676,Yoga,Sunday,8 AM,1.302104186521536,Negative,High,Rarely Attends,Snowy,Rural,6 AM,0
+575,66,Male,Engineer,77294.80420777164,False,1,0.7018902011401473,Pool,Monday,12 PM,0.8355614082344293,Positive,Medium,Regularly Attends,Snowy,Resort,6 PM,0
+576,20,Male,Teacher,43501.26690115782,False,5,0.44328169625189484,Spinning,Saturday,1 PM,1.0447423694717926,Neutral,Medium,Regularly Attends,Rainy,Resort,1 PM,0
+577,55,Female,Doctor,87710.10198661765,True,1,0.6405949684822485,Yoga,Saturday,6 AM,1.0485908012048475,Mixed,Low,Rarely Attends,Overcast,Suburban,2 PM,1
+578,38,Male,Student,84748.6871924877,False,3,0.08013249254093502,Pool,Monday,1 PM,1.345752841269799,Positive,High,Never Attends,Snowy,Other,6 PM,0
+579,35,Female,Teacher,69220.2998202015,False,2,1.3801913740764569,Strength Training,Tuesday,10 AM,1.3127011770105779,Neutral,Medium,Rarely Attends,Cloudy,Downtown,11 AM,0
+580,52,Female,Teacher,97177.06743535821,True,3,0.9947912616216019,Yoga,Monday,5 PM,0.703695606217946,Negative,Low,Sometimes Attends,Sunny,Resort,9 AM,1
+581,40,Male,Teacher,29694.877645829678,True,3,0.6905709728765219,Cardio,Wednesday,6 AM,0.9035334316949292,Mixed,Low,Sometimes Attends,Rainy,Suburban,1 PM,1
+582,43,Male,Student,21608.802641731825,False,1,1.0232892428651907,Pool,Friday,8 AM,1.3915731887763008,Mixed,Low,Sometimes Attends,Overcast,Suburban,6 AM,0
+583,25,Female,Teacher,30054.373920943504,True,5,0.13840825864364437,Yoga,Saturday,5 PM,1.1655762978183013,Positive,Medium,Never Attends,Sunny,Beach,7 AM,1
+584,21,Female,Teacher,94366.38550070427,True,5,1.7954585698308032,Group Fitness,Tuesday,8 AM,1.3190822269203573,Mixed,Low,Rarely Attends,Rainy,Resort,10 AM,1
+585,66,Male,Teacher,94581.96072832019,False,3,1.2286384553365892,Group Fitness,Monday,9 AM,1.1734593045114385,Positive,High,Never Attends,Overcast,Other,8 AM,0
+586,51,Female,Student,81324.48191293707,False,2,0.44074728394067764,Pool,Saturday,2 PM,1.3248918647424852,Neutral,High,Never Attends,Cloudy,Suburban,6 AM,0
+587,43,Female,Teacher,64354.133912029916,True,4,0.15083948022551463,Cardio,Monday,10 AM,0.799887836727892,Negative,High,Regularly Attends,Snowy,Suburban,4 PM,1
+588,56,Male,Teacher,60526.45049409351,False,1,0.6809661547563037,Yoga,Tuesday,7 PM,1.3663039233147132,Negative,Low,Never Attends,Rainy,Downtown,2 PM,0
+589,50,Female,Other,65392.787687962686,True,1,1.3889083481546527,Yoga,Monday,1 PM,1.243177669351997,Positive,Medium,Never Attends,Snowy,Other,1 PM,1
+590,21,Female,Teacher,89587.12187782081,False,1,1.2578608962448663,Pool,Tuesday,7 AM,0.6474404940743985,Positive,Medium,Rarely Attends,Sunny,Rural,4 PM,1
+591,28,Female,Student,20401.892355003693,True,2,1.729800279802884,Group Fitness,Friday,9 AM,1.05557990083598,Mixed,Medium,Never Attends,Sunny,Downtown,3 PM,1
+592,50,Female,Student,56344.292068312905,True,4,1.2450869453390785,Cardio,Wednesday,8 AM,0.8855219988436189,Negative,High,Sometimes Attends,Overcast,Other,10 AM,1
+593,31,Female,Teacher,34363.39010668665,False,2,1.773219793146234,Pool,Tuesday,3 PM,1.020959943646787,Negative,Medium,Never Attends,Cloudy,Downtown,4 PM,0
+594,56,Female,Student,22223.44672438859,True,3,0.49961415795489916,Group Fitness,Friday,5 PM,1.4379135429794279,Positive,Medium,Rarely Attends,Cloudy,Beach,11 AM,1
+595,52,Female,Doctor,54577.462288941075,False,3,1.9797809548472114,Strength Training,Tuesday,9 AM,0.9557586371627815,Positive,Medium,Never Attends,Cloudy,Rural,8 PM,0
+596,39,Male,Engineer,26898.169631244942,False,5,1.3697485678876178,Cardio,Wednesday,10 AM,1.220770517593015,Positive,Medium,Sometimes Attends,Cloudy,Suburban,5 PM,0
+597,30,Male,Engineer,76613.22927676642,True,3,1.737646463274925,Spinning,Saturday,12 PM,1.4029780932442582,Neutral,High,Rarely Attends,Rainy,Beach,12 PM,1
+598,63,Female,Engineer,58962.45411949349,True,1,1.47632741549678,Strength Training,Monday,7 AM,1.3622876989966868,Positive,High,Rarely Attends,Cloudy,Rural,10 AM,1
+599,66,Female,Doctor,93286.01849105764,False,3,0.7880360839433649,Cardio,Saturday,6 PM,1.4856033043673698,Negative,Low,Never Attends,Overcast,Downtown,6 PM,0
+600,60,Female,Engineer,92322.04457523726,False,4,1.2249585199538988,Pool,Thursday,8 PM,1.1961142225585413,Neutral,Medium,Sometimes Attends,Sunny,Rural,2 PM,1
+601,57,Male,Engineer,44029.52831614694,True,2,0.23218458969950273,Group Fitness,Wednesday,7 AM,1.4194334268895252,Positive,High,Regularly Attends,Cloudy,Downtown,12 PM,1
+602,65,Male,Other,74262.90811936726,False,4,0.09955721548672081,Cardio,Wednesday,6 AM,1.0262133365260122,Mixed,High,Never Attends,Cloudy,Suburban,9 AM,0
+603,40,Male,Teacher,41943.470829609956,True,2,1.8507411720996558,Group Fitness,Monday,6 PM,0.9852566617736729,Neutral,Medium,Regularly Attends,Rainy,Suburban,2 PM,1
+604,38,Female,Other,34550.35463738341,True,2,1.5959504582739457,Cardio,Friday,11 AM,1.4392029593577265,Positive,Low,Never Attends,Snowy,Rural,9 AM,1
+605,59,Female,Doctor,86131.14699410171,False,1,0.30865448544649987,Spinning,Sunday,7 AM,1.121959765728022,Negative,Low,Never Attends,Sunny,Beach,4 PM,1
+606,34,Female,Other,57466.41231133051,True,4,0.2785172531374349,Pool,Saturday,8 PM,0.5120114910139784,Mixed,Medium,Rarely Attends,Rainy,Other,6 AM,1
+607,56,Female,Student,60869.30771177881,False,2,1.2044287838233583,Group Fitness,Monday,6 PM,0.6831301475456457,Neutral,High,Regularly Attends,Snowy,Rural,7 PM,0
+608,47,Male,Teacher,43527.94689988035,False,1,0.41754750956454956,Yoga,Wednesday,6 PM,1.1514911466022273,Positive,High,Never Attends,Cloudy,Other,12 PM,0
+609,21,Male,Other,90469.26154773595,False,5,1.9939874641350455,Cardio,Tuesday,7 PM,0.7386960433638026,Mixed,High,Regularly Attends,Rainy,Rural,4 PM,0
+610,26,Female,Engineer,87575.68033028851,False,1,1.6864117007815063,Group Fitness,Tuesday,3 PM,1.1857902141829486,Neutral,Medium,Regularly Attends,Overcast,Suburban,4 PM,0
+611,29,Female,Student,24682.519695799518,False,4,0.9446797879411153,Group Fitness,Monday,6 PM,1.3347199646706736,Mixed,High,Rarely Attends,Cloudy,Rural,10 AM,0
+612,35,Male,Other,75846.4572802847,False,4,0.9889515329857477,Group Fitness,Monday,10 AM,0.741440249927081,Mixed,High,Never Attends,Sunny,Suburban,7 AM,0
+613,40,Male,Engineer,91211.18748069408,False,2,1.542337818069781,Pool,Sunday,6 AM,0.8735705700478574,Neutral,Low,Sometimes Attends,Cloudy,Other,7 AM,0
+614,27,Male,Doctor,83280.17931931952,False,5,1.3160069812042394,Pool,Wednesday,6 AM,1.3584149405078092,Negative,Low,Never Attends,Overcast,Resort,6 PM,0
+615,53,Female,Student,87259.19808951279,False,5,1.009497004059884,Cardio,Saturday,12 PM,1.2596419842018933,Negative,Medium,Regularly Attends,Cloudy,Downtown,6 PM,0
+616,50,Male,Engineer,23777.089172038723,False,4,0.5612933558672513,Pool,Friday,3 PM,1.2538876968904014,Negative,Low,Rarely Attends,Cloudy,Resort,9 AM,0
+617,41,Male,Teacher,57484.79629751733,False,5,1.8221516806885052,Strength Training,Wednesday,8 AM,0.8056338094249065,Neutral,Low,Rarely Attends,Sunny,Downtown,8 PM,0
+618,52,Female,Doctor,42992.42346275211,False,5,1.5776150986642,Spinning,Thursday,3 PM,0.5517109900988731,Negative,Medium,Rarely Attends,Snowy,Other,10 AM,0
+619,42,Male,Teacher,33478.150026989955,True,5,0.5583873034321409,Yoga,Wednesday,11 AM,0.7421159215033537,Neutral,High,Rarely Attends,Rainy,Downtown,10 AM,1
+620,35,Male,Engineer,58682.32043730072,False,2,0.11066304373269187,Cardio,Thursday,2 PM,1.4014252862052214,Neutral,Low,Never Attends,Cloudy,Rural,2 PM,0
+621,44,Female,Doctor,48111.675121980705,True,4,1.5716092825698877,Cardio,Tuesday,3 PM,1.3250739804786853,Negative,Medium,Regularly Attends,Rainy,Resort,7 PM,1
+622,62,Male,Engineer,82054.67716430474,True,1,0.8834010818650759,Pool,Tuesday,7 AM,1.17748681236308,Neutral,High,Rarely Attends,Snowy,Beach,10 AM,1
+623,61,Female,Student,97939.79925045565,True,4,0.026738637451784175,Spinning,Tuesday,6 AM,1.327195296935989,Neutral,Low,Sometimes Attends,Sunny,Downtown,4 PM,1
+624,24,Male,Teacher,58116.936646216156,False,1,1.8711769713458521,Strength Training,Sunday,2 PM,0.6621301011197135,Negative,High,Sometimes Attends,Overcast,Downtown,7 AM,1
+625,37,Male,Engineer,61898.16880877161,True,4,1.8781897229524878,Group Fitness,Sunday,3 PM,1.158177925438271,Mixed,Low,Never Attends,Snowy,Rural,2 PM,1
+626,63,Male,Student,94257.23206165274,True,1,1.2913756615236358,Spinning,Tuesday,12 PM,0.8108039412166126,Negative,High,Regularly Attends,Rainy,Suburban,4 PM,1
+627,29,Female,Doctor,41591.863396083754,True,1,0.9790304006883361,Pool,Saturday,1 PM,0.8702118512352708,Mixed,Low,Sometimes Attends,Snowy,Rural,6 AM,1
+628,21,Male,Doctor,23443.45646004103,False,4,0.5490880934806444,Yoga,Friday,4 PM,0.5717129546537443,Negative,Medium,Never Attends,Overcast,Other,8 PM,0
+629,21,Male,Doctor,63785.174839221465,False,1,1.6266173914092783,Strength Training,Friday,9 AM,0.9908774382763806,Negative,Medium,Sometimes Attends,Snowy,Downtown,11 AM,1
+630,60,Male,Teacher,60130.957388842835,False,2,0.12467671182777629,Pool,Saturday,6 PM,1.4298827561837792,Negative,Low,Rarely Attends,Overcast,Beach,7 AM,0
+631,54,Male,Student,69284.95338413067,True,5,1.9005636857801858,Spinning,Saturday,6 AM,0.8581421291292811,Negative,High,Rarely Attends,Sunny,Beach,8 AM,1
+632,18,Male,Engineer,63079.88060498545,False,4,1.8345238851036387,Cardio,Wednesday,3 PM,0.7739764433975161,Negative,Medium,Never Attends,Overcast,Resort,7 PM,0
+633,43,Male,Teacher,90984.3585298584,True,3,0.9980348988691494,Spinning,Monday,2 PM,0.8085112994504995,Neutral,Medium,Regularly Attends,Overcast,Suburban,11 AM,1
+634,48,Female,Engineer,20608.722283777075,False,3,1.0042487979680583,Yoga,Friday,1 PM,0.9689841708821809,Neutral,High,Rarely Attends,Sunny,Downtown,6 PM,1
+635,61,Male,Doctor,54874.05335060238,False,4,0.15240155157064295,Pool,Thursday,7 AM,0.9828904178527618,Negative,High,Never Attends,Sunny,Other,2 PM,0
+636,24,Male,Other,78510.59364960305,False,1,0.8674876145993047,Spinning,Wednesday,2 PM,0.6219648425365787,Mixed,High,Sometimes Attends,Rainy,Rural,3 PM,0
+637,52,Female,Teacher,84732.79071352363,False,3,1.1186823665492571,Cardio,Wednesday,7 PM,0.8318732238297243,Positive,Medium,Regularly Attends,Overcast,Resort,10 AM,0
+638,44,Female,Teacher,27552.764861326385,True,3,0.7976778926693355,Cardio,Wednesday,12 PM,0.974039956165488,Negative,Medium,Sometimes Attends,Cloudy,Resort,9 AM,1
+639,60,Male,Student,75142.3701636736,True,1,1.4090002400202526,Yoga,Saturday,7 AM,0.7606486278126291,Neutral,Medium,Regularly Attends,Sunny,Beach,6 PM,1
+640,68,Female,Student,74788.07759973189,True,2,0.7733360804929588,Group Fitness,Wednesday,4 PM,1.453385482666171,Neutral,Low,Never Attends,Rainy,Other,4 PM,1
+641,51,Female,Doctor,48835.203061532564,False,1,1.8144411927632784,Yoga,Monday,4 PM,1.4717174848730312,Mixed,High,Rarely Attends,Cloudy,Other,8 PM,0
+642,29,Male,Student,79085.6252404392,True,4,1.7708435601341808,Pool,Tuesday,10 AM,1.0992083906987602,Mixed,High,Never Attends,Sunny,Rural,6 PM,1
+643,46,Male,Student,54918.38678414297,False,3,0.9820960134694261,Group Fitness,Monday,6 PM,0.7290543339937716,Mixed,Low,Never Attends,Snowy,Beach,5 PM,0
+644,35,Male,Other,43629.72456591461,False,2,1.4446412386316811,Spinning,Wednesday,8 AM,0.8776751638002854,Positive,Medium,Regularly Attends,Cloudy,Beach,10 AM,0
+645,64,Female,Other,26189.122006906666,True,2,1.5550622999392405,Strength Training,Sunday,2 PM,0.5530656995100359,Neutral,High,Never Attends,Snowy,Rural,1 PM,1
+646,31,Male,Doctor,39026.95606715152,True,4,0.8969629452660115,Cardio,Tuesday,8 AM,1.2607892565000276,Positive,Low,Never Attends,Sunny,Resort,4 PM,1
+647,20,Male,Other,67685.90864602863,True,3,0.8374865449936046,Cardio,Monday,6 PM,1.1271780430960625,Negative,High,Sometimes Attends,Snowy,Rural,7 PM,1
+648,24,Male,Other,78425.54305212354,True,5,0.37732423929822767,Group Fitness,Sunday,2 PM,0.9414766535524535,Neutral,Medium,Rarely Attends,Rainy,Other,5 PM,1
+649,22,Male,Doctor,35348.44172993687,True,4,1.5092487523142748,Strength Training,Wednesday,1 PM,1.0124426405441502,Neutral,Medium,Rarely Attends,Sunny,Suburban,6 AM,1
+650,32,Male,Doctor,96651.11599147275,False,5,1.4247130148486484,Yoga,Saturday,7 PM,1.0454176182317034,Neutral,Low,Sometimes Attends,Rainy,Beach,10 AM,0
+651,53,Female,Other,47380.519022103836,False,3,0.581997756868246,Yoga,Wednesday,3 PM,0.9089989860521401,Negative,High,Sometimes Attends,Overcast,Suburban,8 PM,0
+652,36,Male,Student,89069.05317121923,False,2,0.08876272013997633,Pool,Friday,3 PM,0.8226465972573636,Mixed,Medium,Regularly Attends,Sunny,Suburban,11 AM,0
+653,52,Male,Teacher,79208.36021198856,False,2,0.48786963270780204,Spinning,Wednesday,3 PM,1.2936903898152186,Positive,Medium,Never Attends,Cloudy,Downtown,4 PM,0
+654,23,Female,Doctor,32534.239599390312,False,4,0.4548981943376347,Pool,Thursday,11 AM,0.895531140883053,Mixed,High,Regularly Attends,Sunny,Downtown,4 PM,1
+655,49,Female,Doctor,75091.43616136204,False,3,0.19065347085796835,Spinning,Thursday,3 PM,1.2169012281380258,Positive,Medium,Rarely Attends,Sunny,Downtown,2 PM,1
+656,28,Female,Engineer,43891.1670773137,False,3,0.029993918743845605,Spinning,Saturday,11 AM,1.0528017788720918,Neutral,High,Regularly Attends,Snowy,Beach,8 AM,0
+657,30,Female,Teacher,86280.07914976528,False,5,1.6412726394597108,Pool,Wednesday,9 AM,1.3226435641130188,Negative,High,Regularly Attends,Sunny,Resort,8 AM,1
+658,18,Male,Student,92733.27477927643,False,1,1.1958853835749916,Pool,Monday,9 AM,0.506225208080254,Mixed,High,Regularly Attends,Cloudy,Other,8 AM,0
+659,35,Female,Teacher,95031.46738723335,True,1,0.5838438804166595,Cardio,Wednesday,8 AM,1.0632143684954014,Positive,Medium,Rarely Attends,Overcast,Beach,1 PM,1
+660,64,Male,Student,73453.1269266379,False,4,0.16032681632926793,Yoga,Thursday,7 PM,1.4980127585576364,Neutral,Low,Never Attends,Cloudy,Resort,2 PM,0
+661,65,Female,Teacher,24813.85860007431,False,1,1.3558816683070054,Spinning,Saturday,2 PM,1.1050692999634508,Positive,High,Never Attends,Rainy,Suburban,4 PM,0
+662,47,Female,Teacher,77477.12837617306,False,4,1.5323536056437161,Cardio,Wednesday,3 PM,0.7883791461509388,Positive,Medium,Regularly Attends,Cloudy,Beach,5 PM,0
+663,37,Female,Student,77766.54907422895,False,3,1.7292644658015104,Pool,Tuesday,5 PM,0.836450716475766,Negative,Low,Regularly Attends,Snowy,Suburban,6 PM,0
+664,37,Male,Student,27533.593309986914,False,4,1.592877097006149,Group Fitness,Friday,4 PM,1.4746741759576372,Negative,High,Sometimes Attends,Overcast,Resort,8 AM,0
+665,39,Male,Engineer,95142.5278393503,False,5,1.213516798406462,Group Fitness,Thursday,12 PM,0.9194375764995412,Positive,Medium,Regularly Attends,Rainy,Rural,8 PM,0
+666,49,Female,Engineer,35443.99237948235,False,2,1.382529137136108,Spinning,Monday,10 AM,0.6299814721147159,Positive,Low,Never Attends,Overcast,Rural,6 PM,0
+667,51,Female,Student,57784.285616067355,False,2,0.4430806699892522,Cardio,Thursday,8 PM,1.1569679597228903,Mixed,Low,Never Attends,Overcast,Beach,7 AM,0
+668,49,Female,Teacher,61527.65911824427,True,4,1.2943210885209462,Pool,Tuesday,7 AM,0.9424305314161023,Mixed,Low,Never Attends,Overcast,Resort,7 PM,1
+669,22,Male,Student,77720.82381402995,False,3,0.21623934749189333,Strength Training,Thursday,6 PM,0.8395503907585695,Negative,High,Rarely Attends,Cloudy,Downtown,2 PM,1
+670,28,Male,Teacher,78945.18276035873,True,4,1.1483557840020402,Spinning,Friday,5 PM,0.7313426401254516,Positive,Medium,Never Attends,Overcast,Beach,8 PM,1
+671,52,Female,Doctor,35822.71914572887,False,2,1.3021296189608582,Yoga,Thursday,10 AM,1.1494845786308212,Negative,Medium,Rarely Attends,Overcast,Resort,4 PM,0
+672,49,Male,Other,55923.1974734671,True,3,1.932427682763605,Cardio,Friday,11 AM,1.3541142793425904,Positive,High,Rarely Attends,Snowy,Downtown,1 PM,1
+673,37,Female,Other,58637.4796659521,False,2,0.5478897791508313,Spinning,Saturday,3 PM,1.3465345985318908,Neutral,High,Never Attends,Overcast,Resort,4 PM,0
+674,39,Male,Doctor,82160.46102364734,True,1,1.3744550461130818,Yoga,Thursday,5 PM,0.7270325367389675,Mixed,Low,Regularly Attends,Sunny,Beach,7 AM,1
+675,46,Female,Doctor,79527.84135778785,True,1,0.6295440343780232,Yoga,Saturday,5 PM,0.5391870526472228,Positive,High,Never Attends,Rainy,Other,7 AM,1
+676,38,Male,Other,59448.26515225294,True,1,1.3868399204867137,Cardio,Tuesday,1 PM,0.841597723161076,Neutral,Low,Regularly Attends,Sunny,Downtown,8 PM,1
+677,47,Female,Doctor,54782.9928633366,True,3,0.7554255557408258,Strength Training,Thursday,9 AM,1.0701531173760213,Negative,High,Sometimes Attends,Sunny,Rural,7 PM,1
+678,61,Male,Other,24568.291259724243,True,3,1.6076322353439223,Yoga,Wednesday,12 PM,1.401564857979388,Positive,High,Never Attends,Overcast,Resort,2 PM,1
+679,26,Male,Engineer,39136.382355629205,True,4,0.39272171433885905,Group Fitness,Tuesday,5 PM,0.9956690877465737,Neutral,Low,Regularly Attends,Sunny,Resort,8 AM,1
+680,51,Male,Engineer,96453.87738932867,True,2,1.9027691437082992,Yoga,Saturday,10 AM,0.6225059329757161,Positive,Medium,Never Attends,Cloudy,Other,9 AM,1
+681,24,Female,Other,23426.899859162117,False,1,0.2702446959210756,Strength Training,Tuesday,1 PM,1.2182844801600137,Positive,Medium,Never Attends,Overcast,Suburban,1 PM,0
+682,53,Female,Student,57711.310067032224,False,3,0.5052204124780595,Cardio,Saturday,12 PM,0.9470576568886048,Negative,Medium,Sometimes Attends,Overcast,Downtown,9 AM,0
+683,47,Female,Teacher,40665.27829839485,False,3,0.24265536853166014,Yoga,Thursday,2 PM,1.0086991988536824,Negative,High,Rarely Attends,Snowy,Downtown,3 PM,0
+684,50,Female,Engineer,37694.36888898234,True,1,0.5197665513059913,Pool,Tuesday,1 PM,0.8524884915066251,Positive,High,Regularly Attends,Overcast,Downtown,7 PM,1
+685,19,Female,Doctor,67448.98319892782,False,1,1.465263677731068,Group Fitness,Saturday,9 AM,1.4396217490916383,Negative,Medium,Rarely Attends,Rainy,Resort,1 PM,0
+686,29,Female,Student,38781.30052512609,True,4,1.7808538870060977,Group Fitness,Friday,6 PM,1.455266326032778,Negative,High,Never Attends,Rainy,Resort,9 AM,1
+687,66,Female,Doctor,97632.19839360162,False,5,0.1396415965878124,Yoga,Saturday,7 PM,1.0237562776529576,Negative,High,Rarely Attends,Cloudy,Downtown,11 AM,0
+688,56,Male,Student,24574.87798216272,False,2,0.7664503767472417,Spinning,Wednesday,6 AM,1.3029750203977377,Positive,High,Regularly Attends,Rainy,Other,7 PM,0
+689,34,Female,Doctor,80014.16574201672,True,1,0.022817382503438566,Spinning,Monday,8 PM,1.1813478053351032,Neutral,Low,Rarely Attends,Overcast,Beach,6 PM,1
+690,45,Male,Teacher,81471.64718803123,True,1,0.77690716432231,Spinning,Sunday,8 PM,0.6368690319682857,Neutral,Low,Rarely Attends,Cloudy,Downtown,8 PM,1
+691,60,Male,Doctor,70102.60608539548,True,3,1.1741597144983575,Group Fitness,Sunday,3 PM,1.152339176162104,Mixed,Medium,Never Attends,Overcast,Resort,11 AM,1
+692,67,Female,Teacher,50251.557738401374,False,1,0.8058250707848404,Spinning,Wednesday,7 AM,0.8119279077340313,Mixed,Medium,Sometimes Attends,Sunny,Suburban,6 AM,1
+693,69,Male,Other,24691.723688767775,True,2,0.10392882889155564,Spinning,Saturday,5 PM,0.5353572371549449,Neutral,High,Never Attends,Cloudy,Other,8 PM,1
+694,26,Male,Doctor,60667.231058100246,True,2,0.9555690939756782,Yoga,Saturday,8 AM,0.5678745636729584,Negative,Medium,Rarely Attends,Cloudy,Beach,2 PM,1
+695,58,Female,Teacher,75321.12433365235,True,2,1.8734945326106553,Spinning,Friday,7 PM,0.7034188871626881,Neutral,High,Never Attends,Snowy,Resort,7 PM,1
+696,29,Female,Student,83697.03646000769,False,4,0.6220969434933787,Strength Training,Wednesday,11 AM,1.4562756562073247,Mixed,Low,Regularly Attends,Overcast,Downtown,8 PM,1
+697,50,Female,Other,85756.49453717016,True,3,1.3272376026331292,Cardio,Friday,11 AM,0.7393148875055519,Neutral,Low,Sometimes Attends,Cloudy,Suburban,7 PM,1
+698,18,Male,Other,94406.11086991128,True,5,1.6966599524936892,Yoga,Monday,8 AM,0.7520241223653994,Positive,Medium,Regularly Attends,Sunny,Beach,8 PM,1
+699,68,Female,Student,90037.09904788424,True,5,0.7961700177394324,Spinning,Friday,6 AM,1.0210267151866637,Neutral,Medium,Never Attends,Rainy,Beach,7 AM,1
+700,67,Male,Student,25314.37089689888,False,1,0.6844466957472783,Group Fitness,Tuesday,11 AM,1.0325987325786867,Negative,Low,Regularly Attends,Snowy,Beach,11 AM,0
+701,53,Male,Doctor,23574.421173946528,False,1,0.3876865856425835,Strength Training,Friday,8 PM,1.3624248751825214,Neutral,Medium,Rarely Attends,Snowy,Resort,5 PM,0
+702,50,Female,Student,90670.85918624153,True,2,0.6234985809110953,Strength Training,Monday,8 AM,0.7855932028217865,Negative,Medium,Never Attends,Snowy,Other,8 AM,1
+703,21,Male,Engineer,73666.10732051992,False,1,1.9933069879610181,Group Fitness,Thursday,1 PM,1.2152376994188718,Negative,Medium,Rarely Attends,Rainy,Suburban,10 AM,0
+704,60,Female,Other,88707.95141910507,False,4,0.08785556120444982,Spinning,Wednesday,12 PM,0.6672319739742939,Neutral,Low,Rarely Attends,Snowy,Other,10 AM,0
+705,53,Male,Student,78288.56913714865,False,2,0.20226705150526514,Pool,Saturday,8 AM,0.6158373710535399,Negative,Medium,Regularly Attends,Snowy,Resort,9 AM,0
+706,18,Male,Other,77518.88065358851,False,1,1.488065916216666,Yoga,Monday,8 AM,1.1299021685832915,Positive,Low,Regularly Attends,Overcast,Rural,1 PM,0
+707,57,Female,Other,36388.25213709106,True,4,0.6032811610564195,Cardio,Monday,7 AM,0.9814693697702064,Negative,Low,Sometimes Attends,Overcast,Downtown,7 PM,1
+708,67,Male,Teacher,91433.21444362454,True,1,1.035391191882971,Cardio,Sunday,6 PM,0.5455758772862865,Positive,Low,Never Attends,Rainy,Other,6 PM,1
+709,44,Male,Student,70889.1191557466,False,2,0.003938389367481809,Strength Training,Tuesday,5 PM,1.1152399933230421,Negative,Medium,Sometimes Attends,Rainy,Rural,12 PM,0
+710,36,Female,Engineer,99083.12854596604,False,1,1.8163351317371472,Yoga,Sunday,1 PM,0.8042502409180159,Negative,Medium,Never Attends,Snowy,Other,9 AM,0
+711,24,Female,Student,57136.29322607561,True,4,0.31415214190316676,Pool,Sunday,8 AM,1.2258703909733473,Positive,Low,Regularly Attends,Sunny,Beach,3 PM,1
+712,34,Female,Student,68253.18017437981,False,3,1.2677081100348355,Spinning,Wednesday,12 PM,1.2629120412359973,Mixed,Low,Never Attends,Rainy,Beach,11 AM,0
+713,43,Female,Doctor,22933.82765432896,False,3,1.406533194668045,Group Fitness,Wednesday,8 AM,0.676173946026985,Neutral,Medium,Rarely Attends,Snowy,Downtown,1 PM,0
+714,61,Male,Doctor,28799.68803981007,True,5,1.2726089791359636,Yoga,Sunday,11 AM,0.964990556906211,Mixed,High,Rarely Attends,Cloudy,Resort,7 PM,1
+715,24,Female,Teacher,42562.238381575706,False,2,0.233275949110876,Group Fitness,Friday,11 AM,1.115887813603595,Mixed,Medium,Sometimes Attends,Snowy,Beach,2 PM,0
+716,53,Female,Doctor,79766.9649280302,True,5,0.23841935581250073,Cardio,Tuesday,12 PM,1.321367543309942,Negative,High,Regularly Attends,Cloudy,Suburban,1 PM,1
+717,22,Male,Doctor,78232.92998625778,False,1,0.6482621019738912,Group Fitness,Monday,10 AM,1.4997019282376052,Negative,Medium,Sometimes Attends,Sunny,Other,8 AM,0
+718,45,Male,Student,96921.1014796053,False,1,1.8000503271328103,Group Fitness,Saturday,7 PM,1.2295426825514717,Mixed,High,Sometimes Attends,Cloudy,Other,1 PM,0
+719,32,Male,Engineer,72423.736953688,True,5,1.6274254962113361,Cardio,Wednesday,7 PM,0.8802122776083608,Mixed,Low,Sometimes Attends,Rainy,Downtown,10 AM,1
+720,62,Female,Teacher,22427.484360178474,True,1,1.7632375462998546,Strength Training,Saturday,4 PM,1.3951581645303126,Negative,Medium,Sometimes Attends,Rainy,Downtown,7 PM,1
+721,62,Female,Doctor,55636.38064830367,False,4,0.402735482371942,Pool,Tuesday,7 AM,0.584900176215882,Negative,High,Sometimes Attends,Rainy,Suburban,3 PM,0
+722,56,Male,Doctor,74438.16684563903,True,5,1.6166232838729022,Yoga,Wednesday,11 AM,0.6111679968388789,Positive,Low,Never Attends,Overcast,Other,6 PM,1
+723,40,Female,Teacher,72823.20554188045,True,1,0.6304336451033545,Pool,Sunday,2 PM,0.9993080300536934,Mixed,High,Sometimes Attends,Sunny,Rural,6 PM,1
+724,68,Male,Doctor,99638.1537042747,False,1,1.702290543793649,Yoga,Sunday,11 AM,1.3901587495224956,Positive,Medium,Rarely Attends,Cloudy,Other,7 PM,0
+725,56,Male,Other,76336.81452923582,True,3,1.990463977919202,Pool,Saturday,7 AM,1.4271145342897977,Negative,Medium,Never Attends,Overcast,Downtown,12 PM,1
+726,42,Female,Other,47006.42465907006,True,4,0.8018288906331899,Group Fitness,Tuesday,3 PM,1.027090385175587,Positive,High,Rarely Attends,Overcast,Downtown,7 AM,1
+727,53,Male,Other,26247.625661393136,False,1,0.6061218509550161,Spinning,Monday,8 AM,1.3581380084871713,Neutral,Low,Regularly Attends,Sunny,Resort,3 PM,0
+728,69,Male,Engineer,45402.84927624006,False,3,1.690466470016571,Pool,Thursday,4 PM,0.8129270973455699,Neutral,Medium,Never Attends,Sunny,Other,3 PM,0
+729,22,Male,Other,90165.16303462918,False,3,1.575042752600919,Pool,Saturday,4 PM,1.4412479477233822,Neutral,High,Never Attends,Snowy,Other,6 PM,0
+730,39,Male,Teacher,78145.02230332082,False,3,0.8476878535475918,Pool,Friday,5 PM,0.7125196629713656,Positive,High,Rarely Attends,Snowy,Suburban,6 PM,0
+731,46,Female,Other,20572.12703572004,False,2,1.3191657014608404,Group Fitness,Tuesday,4 PM,1.1416618975033768,Neutral,Medium,Never Attends,Snowy,Beach,7 AM,0
+732,50,Female,Doctor,84157.94264910874,True,1,1.2501138771596185,Group Fitness,Tuesday,3 PM,1.4588516365890545,Mixed,High,Rarely Attends,Overcast,Beach,9 AM,1
+733,48,Male,Engineer,74654.78144531374,True,5,0.8523807534538435,Spinning,Sunday,4 PM,0.6060820953772109,Negative,Medium,Sometimes Attends,Cloudy,Suburban,8 AM,1
+734,53,Male,Teacher,76160.78990698059,True,1,0.16837742078669193,Yoga,Wednesday,12 PM,0.5533872421075652,Positive,Medium,Never Attends,Rainy,Beach,8 PM,1
+735,44,Male,Other,51362.67575636354,False,3,1.1018326821526268,Cardio,Tuesday,7 AM,0.800126440155967,Negative,High,Never Attends,Rainy,Beach,8 PM,0
+736,36,Female,Other,71700.84642560064,False,3,0.20175149018085303,Yoga,Saturday,11 AM,1.441035158645568,Mixed,Medium,Rarely Attends,Cloudy,Beach,8 PM,0
+737,61,Female,Student,56435.55434433891,True,5,1.4277944775632887,Cardio,Saturday,6 AM,0.8636936344308008,Positive,High,Never Attends,Rainy,Resort,5 PM,1
+738,65,Male,Other,65404.78391245411,False,5,1.8252632651114395,Group Fitness,Sunday,4 PM,1.28038940673976,Negative,Low,Never Attends,Rainy,Suburban,6 PM,0
+739,20,Female,Student,95230.33085570566,True,1,0.6664513169153081,Group Fitness,Wednesday,3 PM,1.4298442187839016,Positive,Medium,Rarely Attends,Rainy,Beach,5 PM,1
+740,20,Male,Student,71805.67917027761,False,4,1.6251150883118286,Spinning,Friday,4 PM,1.2711954846307933,Mixed,Low,Rarely Attends,Cloudy,Beach,6 AM,0
+741,69,Female,Other,25624.367625079954,False,4,0.8919719140126434,Group Fitness,Tuesday,5 PM,1.3368614227095021,Negative,Low,Sometimes Attends,Sunny,Beach,8 AM,1
+742,58,Male,Student,34118.3319830013,False,1,0.10323336976239927,Pool,Monday,6 PM,0.9463052112835137,Positive,High,Regularly Attends,Snowy,Beach,6 PM,0
+743,20,Female,Doctor,78555.64463789639,False,1,0.8567710699662889,Group Fitness,Friday,6 AM,0.6038334494614579,Negative,Low,Rarely Attends,Sunny,Suburban,6 PM,1
+744,35,Female,Student,86807.25181492373,True,3,1.3223299875242354,Strength Training,Tuesday,6 AM,1.4824146844390107,Mixed,High,Sometimes Attends,Cloudy,Rural,1 PM,1
+745,58,Female,Doctor,91740.12592386425,False,1,1.933807253324167,Strength Training,Thursday,10 AM,1.379457578359228,Mixed,Low,Regularly Attends,Rainy,Downtown,11 AM,0
+746,36,Female,Engineer,82975.46118093091,True,4,0.399062958169877,Strength Training,Monday,7 PM,1.49814974176501,Negative,High,Regularly Attends,Sunny,Downtown,10 AM,1
+747,69,Female,Engineer,61533.533122243585,False,2,0.6662279802894238,Spinning,Wednesday,2 PM,0.923147647528524,Positive,Medium,Regularly Attends,Snowy,Beach,11 AM,0
+748,36,Male,Teacher,24347.86622492923,True,1,1.6589297606006266,Group Fitness,Saturday,4 PM,1.3386521121838033,Positive,Medium,Never Attends,Sunny,Resort,10 AM,1
+749,49,Male,Doctor,97847.77673445265,False,3,0.1514564619263319,Group Fitness,Wednesday,8 PM,1.1296111835238491,Mixed,High,Never Attends,Rainy,Suburban,6 AM,0
+750,22,Female,Student,43057.20638102267,True,4,0.3115944744630663,Cardio,Sunday,4 PM,0.8294004696736016,Positive,Low,Rarely Attends,Snowy,Downtown,12 PM,1
+751,45,Female,Teacher,92137.42580314954,True,1,1.4043181834498772,Strength Training,Saturday,7 PM,0.5545806289184357,Mixed,Medium,Rarely Attends,Rainy,Suburban,3 PM,1
+752,55,Male,Student,40260.54828895359,False,1,1.4327205974345247,Pool,Monday,6 PM,0.8710315632323841,Negative,Medium,Never Attends,Rainy,Beach,2 PM,0
+753,38,Male,Engineer,68651.36778951056,False,2,0.6132747576953512,Spinning,Wednesday,8 PM,1.1638897390225424,Mixed,High,Never Attends,Sunny,Resort,2 PM,0
+754,26,Male,Teacher,40337.593978723526,False,5,0.7207814651030391,Group Fitness,Sunday,8 PM,0.6306726350976597,Mixed,High,Sometimes Attends,Cloudy,Downtown,7 PM,1
+755,19,Male,Teacher,31456.65684806267,False,5,1.2101251057495193,Pool,Monday,2 PM,1.0443315242183029,Positive,Medium,Rarely Attends,Snowy,Suburban,3 PM,0
+756,39,Female,Engineer,27054.258617267275,False,3,0.5584209537788605,Spinning,Saturday,8 PM,1.0072211146128165,Negative,High,Never Attends,Sunny,Rural,11 AM,1
+757,59,Female,Other,67094.31518983381,True,5,0.8613971512964389,Strength Training,Wednesday,7 AM,0.6555542658967108,Neutral,High,Sometimes Attends,Snowy,Beach,7 PM,1
+758,61,Female,Teacher,59014.750232634586,True,5,1.7319736001670019,Yoga,Thursday,8 AM,1.141495224843605,Neutral,High,Sometimes Attends,Overcast,Resort,1 PM,1
+759,34,Female,Teacher,22945.05501021579,True,4,0.4425224093943887,Cardio,Sunday,7 AM,1.190493910024407,Positive,High,Rarely Attends,Rainy,Beach,11 AM,1
+760,30,Male,Doctor,57204.81375359657,True,5,0.6807593224301702,Yoga,Monday,12 PM,0.6101679939339203,Negative,Medium,Never Attends,Sunny,Resort,10 AM,1
+761,39,Male,Other,90416.49226679541,True,5,1.5576443423185877,Yoga,Wednesday,8 PM,0.858976578076874,Mixed,High,Never Attends,Rainy,Downtown,6 PM,1
+762,48,Female,Other,61534.04550848847,True,2,0.11999922872184987,Pool,Thursday,1 PM,0.7066282073038889,Negative,Medium,Never Attends,Rainy,Rural,6 PM,1
+763,59,Female,Engineer,57644.21245990304,True,4,1.6967255349217227,Spinning,Tuesday,11 AM,0.8394070435870112,Negative,Low,Rarely Attends,Sunny,Downtown,7 AM,1
+764,51,Male,Teacher,80423.5613985963,True,4,1.7160722678776466,Spinning,Sunday,8 PM,1.1285729585217243,Positive,Medium,Rarely Attends,Snowy,Downtown,2 PM,1
+765,23,Female,Other,65250.14676705906,False,1,1.2370334200010222,Spinning,Sunday,2 PM,1.1383622160150142,Positive,High,Sometimes Attends,Snowy,Beach,8 AM,0
+766,53,Female,Student,55940.126554113944,False,1,0.9505896322410332,Pool,Sunday,7 PM,1.0281966716125193,Negative,High,Regularly Attends,Cloudy,Other,1 PM,0
+767,31,Female,Engineer,74087.47950802316,False,2,0.15332613280632956,Spinning,Wednesday,3 PM,0.6287555632059083,Neutral,High,Rarely Attends,Overcast,Downtown,8 PM,0
+768,20,Male,Teacher,64908.06253007907,True,2,1.0199439550304183,Strength Training,Tuesday,5 PM,0.8499950952253437,Negative,High,Regularly Attends,Rainy,Downtown,12 PM,1
+769,40,Female,Other,90731.33559244305,True,5,1.5821821563525584,Cardio,Thursday,5 PM,1.0880441855666936,Neutral,Medium,Regularly Attends,Sunny,Suburban,9 AM,1
+770,47,Female,Teacher,50881.24370553471,False,4,1.0547978946097811,Cardio,Wednesday,1 PM,1.3702319735441302,Positive,Low,Regularly Attends,Rainy,Suburban,3 PM,0
+771,30,Female,Engineer,83599.99655983709,True,2,0.2021050475335635,Cardio,Wednesday,7 AM,0.8394071823815,Mixed,Medium,Sometimes Attends,Sunny,Suburban,11 AM,1
+772,27,Female,Student,97583.26792049162,False,1,0.4028608982392907,Spinning,Monday,4 PM,1.2005201125328036,Negative,Low,Sometimes Attends,Overcast,Other,6 AM,0
+773,35,Male,Doctor,32322.65826358014,True,1,0.745944769792368,Yoga,Thursday,6 AM,1.3726331162385805,Negative,Low,Regularly Attends,Snowy,Suburban,1 PM,1
+774,27,Female,Doctor,82076.4590784832,False,2,0.385709833449168,Pool,Friday,2 PM,0.698335951302457,Mixed,Medium,Sometimes Attends,Cloudy,Other,10 AM,0
+775,41,Female,Doctor,53386.1588149128,False,5,0.18283555014560204,Cardio,Sunday,7 AM,0.7092427029987736,Neutral,Medium,Rarely Attends,Overcast,Downtown,7 AM,0
+776,43,Female,Student,88396.99367094852,True,5,1.1576721321856902,Pool,Saturday,7 PM,1.1552516484101163,Neutral,Low,Sometimes Attends,Rainy,Downtown,8 AM,1
+777,69,Male,Other,68228.01009555845,False,2,1.0789918143713548,Cardio,Tuesday,11 AM,1.2312888992760016,Neutral,Medium,Never Attends,Snowy,Other,6 PM,0
+778,42,Female,Doctor,83718.80521944992,False,3,0.4013161831971519,Strength Training,Tuesday,10 AM,1.3376542562749445,Positive,Low,Rarely Attends,Snowy,Rural,5 PM,0
+779,38,Male,Student,71878.30937644413,False,3,1.4089211156422958,Yoga,Monday,1 PM,1.3418432327348553,Negative,Low,Regularly Attends,Snowy,Downtown,12 PM,0
+780,31,Female,Student,99175.04130561165,True,3,1.8432670672685916,Yoga,Thursday,2 PM,1.4340721012284858,Mixed,Medium,Never Attends,Overcast,Downtown,3 PM,1
+781,37,Female,Other,75059.07103539573,True,2,0.10025326359594877,Cardio,Monday,6 AM,0.8601842549673601,Negative,Low,Regularly Attends,Cloudy,Other,2 PM,1
+782,37,Female,Teacher,93890.14261175033,False,4,1.0149785057307974,Group Fitness,Saturday,3 PM,0.6429922071880406,Neutral,Medium,Never Attends,Sunny,Other,6 AM,1
+783,29,Female,Other,44292.54179697296,False,2,1.9383711134973949,Pool,Tuesday,1 PM,1.1237245478967677,Positive,High,Rarely Attends,Overcast,Beach,2 PM,0
+784,28,Female,Other,41239.73296822495,True,3,1.7577584539029436,Yoga,Sunday,7 PM,0.8001635795343607,Negative,Low,Rarely Attends,Cloudy,Rural,3 PM,1
+785,34,Female,Other,77471.1319804503,True,2,0.8972184644210055,Yoga,Thursday,8 AM,0.5566870352794622,Mixed,Low,Sometimes Attends,Rainy,Rural,10 AM,1
+786,58,Female,Engineer,46844.64577870597,True,4,0.29409600000040137,Spinning,Saturday,10 AM,0.5008381920686847,Mixed,High,Regularly Attends,Cloudy,Other,6 AM,1
+787,44,Female,Teacher,33293.42048020183,True,5,1.7660579690431917,Spinning,Tuesday,9 AM,1.1847952980915306,Mixed,Medium,Never Attends,Snowy,Resort,7 AM,1
+788,54,Male,Doctor,26657.995195596377,True,5,1.1986449640625658,Pool,Tuesday,3 PM,1.003762249737786,Mixed,Low,Rarely Attends,Rainy,Other,11 AM,1
+789,58,Male,Doctor,95865.59939615804,True,2,0.24816068816590642,Pool,Sunday,8 AM,1.2704800403153549,Positive,Low,Rarely Attends,Sunny,Downtown,7 AM,1
+790,32,Female,Engineer,69062.67211430582,True,1,1.2503337882644279,Group Fitness,Wednesday,8 PM,1.46377776775533,Mixed,High,Rarely Attends,Rainy,Other,2 PM,1
+791,41,Male,Doctor,58203.600370193395,True,2,1.082166416836859,Group Fitness,Wednesday,1 PM,1.1481185937043994,Mixed,Low,Regularly Attends,Snowy,Rural,1 PM,1
+792,36,Male,Engineer,53663.87569158313,False,1,1.4518974994950045,Spinning,Monday,10 AM,0.7705814493297786,Positive,High,Never Attends,Snowy,Beach,9 AM,0
+793,33,Female,Doctor,22783.97345514585,False,2,1.4580870698386155,Group Fitness,Friday,6 PM,1.3784161431515565,Positive,Medium,Sometimes Attends,Snowy,Beach,7 AM,0
+794,24,Male,Other,26660.237109399408,False,2,1.9411299445234929,Pool,Thursday,7 AM,1.0625738973335401,Mixed,High,Sometimes Attends,Rainy,Other,5 PM,0
+795,25,Female,Engineer,53982.79760183248,True,5,0.3724490515611407,Strength Training,Wednesday,2 PM,0.93401959645629,Positive,Low,Rarely Attends,Sunny,Rural,8 PM,1
+796,56,Female,Student,54749.68319094774,False,2,0.9920206873668671,Group Fitness,Thursday,10 AM,0.535239009940141,Positive,High,Regularly Attends,Cloudy,Downtown,8 PM,0
+797,41,Female,Teacher,61534.348772107,True,3,1.981228972050449,Pool,Friday,12 PM,0.7321968639628018,Negative,Low,Sometimes Attends,Overcast,Downtown,7 PM,1
+798,31,Male,Teacher,65274.399082721546,True,3,1.9202859462230446,Pool,Saturday,6 PM,0.9177916733441425,Positive,Medium,Never Attends,Sunny,Downtown,11 AM,1
+799,43,Male,Engineer,89421.0709917508,True,1,1.1483865718741513,Yoga,Tuesday,6 PM,0.9761170568299038,Positive,Medium,Rarely Attends,Rainy,Resort,6 PM,1
+800,63,Female,Doctor,98477.72391255136,True,3,0.7132693375844379,Cardio,Sunday,6 AM,1.3877183392228831,Neutral,High,Rarely Attends,Overcast,Beach,10 AM,1
+801,26,Female,Teacher,68892.3602408235,False,1,0.7698099687835476,Yoga,Wednesday,6 AM,1.1048045314176942,Negative,Low,Rarely Attends,Rainy,Suburban,7 PM,0
+802,41,Female,Engineer,99211.25054908312,False,5,0.7619092738366873,Spinning,Tuesday,9 AM,0.6684665737096388,Mixed,High,Rarely Attends,Snowy,Other,7 PM,0
+803,52,Male,Other,84154.41793031874,False,4,0.01042961586766089,Strength Training,Thursday,12 PM,0.7049902677361362,Neutral,Low,Never Attends,Rainy,Other,4 PM,0
+804,48,Female,Student,79653.53207550346,False,1,0.3126842882879606,Strength Training,Monday,11 AM,1.0628248331003842,Neutral,High,Never Attends,Cloudy,Resort,2 PM,0
+805,32,Female,Teacher,31029.447892062257,True,1,0.9136673171951646,Pool,Monday,3 PM,1.0397876155705787,Neutral,Medium,Rarely Attends,Sunny,Beach,1 PM,1
+806,57,Female,Other,89927.16668351858,False,2,1.0246232995677977,Pool,Friday,6 PM,0.877828279118984,Neutral,Low,Rarely Attends,Snowy,Downtown,4 PM,0
+807,68,Female,Engineer,46026.75320655724,True,1,0.1537855197906448,Spinning,Saturday,7 PM,0.711887439918476,Negative,Low,Regularly Attends,Overcast,Suburban,4 PM,1
+808,26,Female,Engineer,38346.676810284844,True,3,0.6530490874231438,Cardio,Saturday,8 PM,1.0771444598614899,Neutral,High,Rarely Attends,Sunny,Resort,12 PM,1
+809,67,Female,Doctor,52916.91825753598,False,2,0.40278487405165464,Yoga,Sunday,11 AM,0.6406952887500781,Negative,Low,Never Attends,Sunny,Other,10 AM,1
+810,39,Male,Teacher,44281.24160940646,False,1,0.3835541782108933,Group Fitness,Thursday,1 PM,0.7743698011657865,Mixed,High,Never Attends,Cloudy,Other,2 PM,0
+811,36,Female,Student,78680.2974427786,False,2,0.12271440126131394,Spinning,Thursday,11 AM,0.5191611914154596,Neutral,High,Regularly Attends,Cloudy,Beach,10 AM,0
+812,30,Male,Teacher,22715.691498775945,True,1,0.15154625160695345,Pool,Sunday,2 PM,0.5857278149366383,Positive,High,Never Attends,Sunny,Other,4 PM,1
+813,67,Female,Engineer,64517.46351956159,True,4,0.29864375663964515,Spinning,Thursday,12 PM,0.7963050666931145,Positive,Medium,Sometimes Attends,Cloudy,Suburban,12 PM,1
+814,26,Female,Doctor,36548.011925922125,False,2,1.7286407526269296,Pool,Saturday,8 AM,1.421838749087514,Neutral,Low,Sometimes Attends,Snowy,Beach,3 PM,0
+815,60,Female,Other,36695.002835360356,False,5,1.4364539016725975,Group Fitness,Saturday,8 AM,0.9712665518800211,Mixed,Medium,Sometimes Attends,Rainy,Beach,6 AM,0
+816,66,Male,Other,55790.53831487786,False,5,1.6723451360544301,Group Fitness,Monday,8 AM,1.319817344234001,Positive,High,Regularly Attends,Snowy,Downtown,5 PM,0
+817,42,Female,Doctor,88819.76354393955,False,2,1.2837282346864378,Yoga,Friday,3 PM,0.5615913894367133,Positive,High,Never Attends,Rainy,Beach,9 AM,0
+818,54,Male,Student,23850.46857626084,False,2,1.2264538197821107,Spinning,Wednesday,5 PM,0.8808847541137544,Negative,High,Rarely Attends,Overcast,Downtown,11 AM,0
+819,58,Female,Doctor,72833.37403709143,True,3,1.19733348711691,Cardio,Wednesday,10 AM,0.8231725395640678,Positive,High,Regularly Attends,Rainy,Suburban,6 PM,1
+820,37,Male,Engineer,54553.289129601864,True,5,0.059481673841318417,Spinning,Sunday,5 PM,1.2710205875717473,Positive,High,Never Attends,Snowy,Rural,8 PM,1
+821,64,Female,Student,63418.25569558208,True,2,1.3485835931274985,Yoga,Wednesday,10 AM,1.0765409409426456,Neutral,Medium,Rarely Attends,Rainy,Suburban,6 PM,1
+822,19,Female,Doctor,21472.58072337924,True,4,1.9693631772646645,Group Fitness,Wednesday,6 AM,1.3319398169757428,Positive,Low,Never Attends,Snowy,Rural,6 PM,1
+823,39,Male,Other,50243.635977851256,False,5,0.5248523810569916,Group Fitness,Saturday,7 PM,0.7725897910071753,Negative,Medium,Never Attends,Sunny,Resort,8 AM,0
+824,64,Female,Engineer,75025.51020160384,False,4,1.3060470785662466,Group Fitness,Wednesday,7 PM,0.6628578545439744,Positive,High,Rarely Attends,Overcast,Suburban,2 PM,0
+825,45,Female,Other,30290.517963503473,False,1,1.7217728434805686,Spinning,Friday,1 PM,1.074518148740017,Neutral,High,Rarely Attends,Rainy,Downtown,11 AM,0
+826,65,Male,Engineer,71426.91360596358,True,1,0.44758420160540924,Pool,Sunday,5 PM,0.7803032095419365,Mixed,Low,Never Attends,Snowy,Other,6 PM,1
+827,53,Female,Doctor,66352.88520332609,False,1,0.7586946964802228,Group Fitness,Wednesday,6 PM,1.0658785115416594,Mixed,Medium,Sometimes Attends,Cloudy,Beach,11 AM,0
+828,59,Female,Doctor,43891.870593258594,False,3,1.4727401765581185,Pool,Friday,5 PM,1.2116861256722036,Negative,High,Regularly Attends,Snowy,Other,6 AM,0
+829,56,Female,Teacher,23378.370207524873,True,4,1.1261261831791012,Strength Training,Thursday,1 PM,1.003216923243022,Mixed,High,Sometimes Attends,Cloudy,Other,9 AM,1
+830,61,Male,Engineer,74893.03289157637,False,5,1.1103553737041767,Strength Training,Monday,10 AM,0.5931397930591752,Neutral,Low,Regularly Attends,Cloudy,Rural,12 PM,0
+831,36,Male,Teacher,27102.807054970224,True,3,1.6034565204840185,Pool,Friday,5 PM,0.7026535674039238,Positive,Medium,Sometimes Attends,Sunny,Rural,10 AM,1
+832,48,Female,Teacher,71475.85365451043,False,1,0.12044749674025312,Cardio,Tuesday,9 AM,1.1740362957392114,Neutral,Medium,Never Attends,Snowy,Other,2 PM,0
+833,21,Female,Doctor,42657.402325324685,False,3,1.2973251370263075,Group Fitness,Sunday,7 PM,1.2405408740608745,Negative,Low,Never Attends,Sunny,Beach,9 AM,1
+834,42,Female,Other,35133.795797931074,True,3,1.3856906864814742,Spinning,Wednesday,7 PM,1.2740128188006064,Negative,Low,Rarely Attends,Cloudy,Rural,9 AM,1
+835,19,Male,Teacher,29935.77474431743,False,2,0.713676186380944,Cardio,Sunday,4 PM,0.8453547129516996,Neutral,Medium,Regularly Attends,Sunny,Resort,2 PM,0
+836,35,Female,Doctor,73909.15150477659,False,4,1.894493635953894,Cardio,Wednesday,5 PM,1.3327465949192931,Positive,Low,Sometimes Attends,Cloudy,Suburban,9 AM,0
+837,66,Female,Other,25581.84050691964,True,1,0.35127933767029607,Yoga,Tuesday,8 AM,0.6556258338279237,Positive,High,Sometimes Attends,Snowy,Rural,5 PM,1
+838,31,Male,Other,65963.42432137881,True,1,0.6656997041358066,Cardio,Sunday,1 PM,1.3895221411296639,Positive,Medium,Sometimes Attends,Cloudy,Downtown,8 PM,1
+839,34,Female,Engineer,54361.35070751985,True,3,0.2460839453589947,Group Fitness,Friday,6 AM,0.8850252986922766,Negative,High,Rarely Attends,Overcast,Suburban,1 PM,1
+840,29,Male,Engineer,89941.78353689138,False,2,1.7086223908497211,Spinning,Saturday,1 PM,0.524573263649228,Neutral,Low,Rarely Attends,Rainy,Resort,6 PM,0
+841,66,Male,Doctor,45891.73477667048,True,1,0.7975173904619801,Yoga,Thursday,1 PM,0.7396533708881405,Positive,Medium,Regularly Attends,Cloudy,Suburban,11 AM,1
+842,58,Female,Teacher,61888.25802000949,True,3,0.8522033720409832,Group Fitness,Wednesday,9 AM,0.6917243622897055,Mixed,Low,Regularly Attends,Rainy,Other,8 AM,1
+843,64,Female,Teacher,71791.3554083927,True,5,0.4330201621686043,Yoga,Wednesday,2 PM,1.0253079293608516,Mixed,Low,Regularly Attends,Snowy,Resort,6 AM,1
+844,57,Female,Doctor,45167.58061326384,False,3,1.5966143554459418,Yoga,Wednesday,4 PM,1.0428636620938314,Mixed,Low,Never Attends,Cloudy,Beach,1 PM,0
+845,46,Male,Student,47403.756373056465,False,3,0.760753523876702,Pool,Wednesday,12 PM,1.2237073968765613,Neutral,Medium,Rarely Attends,Rainy,Other,7 AM,0
+846,39,Female,Teacher,68463.28623028967,False,4,0.7742471242583662,Spinning,Wednesday,10 AM,0.6498732802532197,Negative,High,Regularly Attends,Cloudy,Downtown,1 PM,0
+847,44,Male,Other,47666.38958120327,False,2,1.2417364747092476,Group Fitness,Tuesday,7 AM,1.3411436436048931,Positive,High,Never Attends,Sunny,Rural,6 AM,0
+848,59,Female,Student,80802.16476820986,True,2,1.3951228992731477,Cardio,Saturday,3 PM,0.8006490577133438,Mixed,High,Sometimes Attends,Cloudy,Rural,12 PM,1
+849,39,Male,Student,85146.07491832247,True,4,1.2944586721970939,Cardio,Monday,5 PM,1.0464659137890786,Neutral,Low,Never Attends,Rainy,Other,9 AM,1
+850,30,Male,Other,86369.93188532001,False,5,1.6707876428596349,Group Fitness,Friday,6 PM,0.519347958731548,Mixed,Low,Never Attends,Snowy,Resort,11 AM,0
+851,34,Male,Teacher,73498.00429274936,False,5,1.9489163115587347,Pool,Thursday,8 PM,1.0657778690600788,Positive,Low,Regularly Attends,Sunny,Suburban,1 PM,0
+852,43,Female,Doctor,55025.151045140934,False,1,0.47486173764673767,Pool,Tuesday,4 PM,0.7693203694000139,Positive,High,Regularly Attends,Sunny,Beach,10 AM,1
+853,20,Male,Engineer,37120.74568993039,True,2,0.7924869198178885,Strength Training,Thursday,7 PM,0.5899033355653756,Positive,Low,Regularly Attends,Cloudy,Rural,3 PM,1
+854,53,Female,Teacher,21578.08854107646,False,5,1.8374041651961348,Cardio,Monday,7 AM,0.7228037114586513,Neutral,Low,Regularly Attends,Sunny,Downtown,5 PM,1
+855,37,Female,Student,48016.177412373494,False,3,1.0061159626644738,Strength Training,Saturday,7 AM,1.2728217154593802,Negative,High,Rarely Attends,Rainy,Downtown,6 PM,0
+856,52,Male,Engineer,80120.23549006964,True,1,1.3991135154632084,Cardio,Saturday,9 AM,1.2146334576863955,Mixed,Medium,Sometimes Attends,Sunny,Beach,8 AM,1
+857,27,Female,Engineer,44591.09214632189,False,4,1.9614844870916002,Group Fitness,Tuesday,7 PM,0.9162672736087093,Neutral,Low,Sometimes Attends,Overcast,Suburban,2 PM,0
+858,27,Female,Engineer,28744.6853719376,True,2,0.08302700022283349,Strength Training,Sunday,5 PM,1.2235539955154051,Positive,Low,Never Attends,Snowy,Downtown,1 PM,1
+859,20,Female,Doctor,98534.84225459352,False,5,1.503256300246913,Group Fitness,Wednesday,1 PM,0.8196626014214634,Mixed,High,Rarely Attends,Sunny,Other,5 PM,1
+860,26,Female,Other,38858.7660012079,True,3,1.1079666908268766,Group Fitness,Wednesday,6 AM,1.2016253444996063,Mixed,Low,Never Attends,Overcast,Resort,1 PM,1
+861,21,Male,Engineer,81722.02186208715,True,3,0.792292301204228,Yoga,Wednesday,7 PM,1.0176215714795915,Positive,Low,Never Attends,Overcast,Other,6 AM,1
+862,39,Female,Student,29557.447283430163,False,4,1.2566212884057228,Yoga,Sunday,7 PM,1.3014489142984424,Neutral,Low,Rarely Attends,Cloudy,Downtown,1 PM,0
+863,41,Female,Doctor,90559.21516158072,False,3,1.5195646627678188,Cardio,Wednesday,2 PM,0.80375530781432,Neutral,Low,Sometimes Attends,Rainy,Beach,11 AM,0
+864,50,Male,Student,55112.38408946853,False,2,0.40738196329130116,Cardio,Thursday,3 PM,0.569033939415812,Neutral,Low,Regularly Attends,Overcast,Beach,12 PM,0
+865,19,Female,Other,88620.65710519963,False,2,0.06701541965096158,Yoga,Friday,2 PM,0.5218129069470644,Negative,High,Sometimes Attends,Overcast,Suburban,1 PM,0
+866,68,Female,Engineer,81583.23209135055,False,5,0.35316631626760553,Strength Training,Friday,6 AM,0.5224270597871217,Mixed,High,Regularly Attends,Snowy,Rural,5 PM,0
+867,40,Male,Doctor,30379.541629730273,True,5,1.4698327843892998,Strength Training,Saturday,4 PM,0.8803667827662021,Neutral,Low,Never Attends,Sunny,Other,5 PM,1
+868,49,Male,Student,99127.96503335753,True,4,1.8628935767107966,Strength Training,Thursday,10 AM,0.5808002421928574,Neutral,Medium,Rarely Attends,Cloudy,Resort,3 PM,1
+869,35,Male,Student,31966.12583784695,False,1,1.2953664447462985,Cardio,Thursday,8 PM,1.0474655290235142,Mixed,Medium,Sometimes Attends,Snowy,Resort,6 AM,0
+870,31,Male,Student,65550.85583901571,True,4,0.9994399766550457,Spinning,Saturday,11 AM,1.1622790701669912,Mixed,High,Never Attends,Sunny,Suburban,8 PM,1
+871,29,Female,Doctor,33375.88232133002,True,4,1.2896927987529856,Spinning,Monday,12 PM,1.1828157991157273,Positive,High,Regularly Attends,Rainy,Beach,8 AM,1
+872,69,Female,Other,36355.554392737075,True,4,1.8952441448787953,Spinning,Thursday,3 PM,0.8566366455505622,Mixed,High,Sometimes Attends,Sunny,Suburban,7 AM,1
+873,59,Female,Engineer,75805.76095289525,False,5,0.19564751373381783,Spinning,Wednesday,12 PM,1.2037019683851935,Mixed,Low,Regularly Attends,Rainy,Other,6 AM,0
+874,52,Male,Other,79623.81885003255,True,3,0.3574934363536342,Cardio,Thursday,6 AM,0.5474076354647419,Mixed,Medium,Never Attends,Overcast,Other,5 PM,1
+875,40,Male,Other,45457.15015495748,False,1,1.8468891646717744,Cardio,Thursday,8 AM,0.5706852460170942,Neutral,Low,Rarely Attends,Snowy,Rural,9 AM,0
+876,33,Female,Engineer,79918.54093620488,False,3,0.44199033664870435,Cardio,Wednesday,9 AM,1.4422216698151311,Negative,High,Sometimes Attends,Overcast,Downtown,9 AM,0
+877,25,Male,Doctor,90210.16425648077,True,2,0.23261720845975709,Group Fitness,Sunday,1 PM,1.2419467454222852,Neutral,High,Sometimes Attends,Sunny,Downtown,7 AM,1
+878,56,Female,Engineer,82502.558002272,True,5,1.3940493508406737,Cardio,Sunday,3 PM,1.0651034136880504,Negative,High,Sometimes Attends,Sunny,Downtown,5 PM,1
+879,33,Female,Other,38670.68071827348,True,1,0.7452657841552064,Strength Training,Monday,6 PM,0.628683360994758,Positive,High,Regularly Attends,Snowy,Other,3 PM,1
+880,27,Male,Student,68962.68676738281,False,4,1.9360116576428479,Group Fitness,Tuesday,3 PM,1.1683195822341292,Neutral,High,Sometimes Attends,Rainy,Suburban,1 PM,0
+881,47,Female,Engineer,87369.34543326456,True,3,0.5172543867783828,Spinning,Wednesday,1 PM,0.765060024864549,Negative,Low,Regularly Attends,Sunny,Resort,8 PM,1
+882,67,Female,Student,73329.43574406902,False,5,0.7714298777234159,Strength Training,Friday,11 AM,0.8672567516652514,Positive,Medium,Never Attends,Overcast,Beach,7 AM,0
+883,41,Male,Teacher,52191.53108096821,True,4,1.2117956350093673,Pool,Thursday,1 PM,1.1146861430247577,Positive,High,Regularly Attends,Rainy,Other,11 AM,1
+884,21,Female,Doctor,23152.513116990373,True,3,0.12523524616182025,Spinning,Wednesday,10 AM,0.9419256400009721,Positive,Medium,Sometimes Attends,Cloudy,Other,7 AM,1
+885,25,Female,Student,57794.73261498537,True,4,1.6671703665661486,Pool,Saturday,6 PM,0.6826616709528183,Positive,Medium,Regularly Attends,Cloudy,Other,8 PM,1
+886,34,Female,Teacher,89328.61219934563,False,3,0.5205154372291256,Strength Training,Friday,12 PM,1.3553185135903074,Neutral,Medium,Rarely Attends,Rainy,Downtown,6 PM,0
+887,49,Male,Student,36950.08913328982,True,1,0.26963878773935246,Yoga,Sunday,2 PM,0.610379707464059,Neutral,Low,Sometimes Attends,Snowy,Downtown,7 AM,1
+888,50,Male,Student,57132.297300173464,True,2,0.8561171873736089,Strength Training,Monday,6 AM,0.9841798107197838,Positive,Medium,Sometimes Attends,Snowy,Other,4 PM,1
+889,34,Female,Doctor,98515.81138748719,True,5,0.36240833251820237,Spinning,Thursday,11 AM,1.1434939042786965,Mixed,Medium,Rarely Attends,Snowy,Other,3 PM,1
+890,35,Female,Teacher,65690.55079961014,False,5,1.591019471440941,Cardio,Wednesday,7 AM,1.0964676405387364,Positive,Low,Sometimes Attends,Rainy,Beach,6 PM,0
+891,35,Female,Doctor,80074.29688150567,False,4,1.7368940295500674,Yoga,Thursday,5 PM,1.1285082815779832,Negative,Medium,Sometimes Attends,Overcast,Rural,5 PM,0
+892,60,Female,Teacher,39240.637156148885,False,2,0.984387119817141,Yoga,Friday,5 PM,0.8531789137071852,Neutral,Low,Sometimes Attends,Sunny,Other,7 AM,1
+893,54,Female,Other,23992.990248764974,False,1,0.6053708552193926,Strength Training,Wednesday,8 PM,0.8310083168963339,Neutral,Low,Sometimes Attends,Rainy,Resort,7 AM,0
+894,67,Female,Other,92295.29082836323,False,3,0.6891522586892034,Cardio,Wednesday,4 PM,1.049301550925496,Positive,Medium,Sometimes Attends,Cloudy,Rural,1 PM,0
+895,56,Female,Teacher,82877.35068759035,True,1,0.176127217400468,Spinning,Friday,8 PM,0.771915965161615,Mixed,Medium,Sometimes Attends,Cloudy,Other,3 PM,1
+896,28,Female,Other,84791.29427882232,False,2,1.1059891015986958,Pool,Wednesday,8 AM,1.013356055094176,Mixed,Medium,Regularly Attends,Overcast,Resort,9 AM,0
+897,66,Male,Other,62601.663147844374,False,2,1.221680461561648,Group Fitness,Saturday,5 PM,1.4314473488224808,Neutral,Low,Rarely Attends,Snowy,Beach,1 PM,0
+898,26,Female,Doctor,31798.19723974446,True,2,1.3391518059874614,Spinning,Monday,8 AM,0.8450447143807513,Mixed,Low,Sometimes Attends,Sunny,Beach,7 PM,1
+899,61,Male,Teacher,59352.64368021783,True,4,0.4027298418453342,Group Fitness,Tuesday,7 PM,0.8263293348023141,Negative,High,Rarely Attends,Overcast,Beach,7 AM,1
+900,45,Female,Doctor,58121.612912360535,True,1,1.439597510746485,Spinning,Sunday,7 AM,0.810705746042085,Mixed,High,Regularly Attends,Sunny,Beach,1 PM,1
+901,45,Female,Doctor,79287.87949447005,False,2,1.6133223654450568,Yoga,Thursday,12 PM,0.9336104417318353,Mixed,Medium,Regularly Attends,Snowy,Downtown,11 AM,0
+902,28,Male,Doctor,49030.626275466195,True,5,1.4643137671641988,Yoga,Monday,1 PM,1.2741332807354,Mixed,Medium,Regularly Attends,Sunny,Resort,9 AM,1
+903,59,Male,Engineer,29422.331105352037,False,3,1.4792812316925115,Cardio,Monday,9 AM,1.4260012028993811,Neutral,Medium,Regularly Attends,Cloudy,Beach,9 AM,0
+904,27,Male,Teacher,78452.11485457502,True,4,0.8929246900280468,Strength Training,Friday,8 PM,0.7433588516829327,Neutral,Low,Never Attends,Overcast,Suburban,11 AM,1
+905,42,Male,Student,87046.32900453887,True,5,1.9722484767575392,Cardio,Thursday,6 PM,0.646086955173969,Positive,Medium,Rarely Attends,Snowy,Beach,11 AM,1
+906,61,Female,Student,65567.1721385664,True,2,1.703931583093534,Cardio,Thursday,2 PM,0.9546015701605909,Mixed,Low,Sometimes Attends,Sunny,Beach,10 AM,1
+907,67,Male,Doctor,56834.53892549948,True,4,0.048050475652826385,Pool,Thursday,6 AM,1.1498383399002652,Neutral,High,Regularly Attends,Rainy,Suburban,3 PM,1
+908,60,Male,Engineer,35852.74262570223,False,2,0.6820331440780767,Cardio,Wednesday,6 PM,1.038620412480058,Neutral,Medium,Never Attends,Sunny,Beach,5 PM,0
+909,21,Female,Student,62065.95014025618,True,5,1.8651812528481482,Cardio,Saturday,7 PM,0.7641028673255507,Negative,Medium,Regularly Attends,Rainy,Downtown,8 PM,1
+910,57,Female,Doctor,30015.2343790867,False,4,1.16085748628307,Yoga,Tuesday,9 AM,1.4794623807751628,Mixed,High,Never Attends,Snowy,Other,6 AM,0
+911,61,Male,Doctor,35678.537749158204,False,2,0.03519096970717461,Cardio,Thursday,8 PM,0.9873579068675012,Negative,Low,Sometimes Attends,Snowy,Suburban,8 AM,0
+912,18,Male,Teacher,44329.660250534216,False,3,0.06421485609287925,Cardio,Thursday,3 PM,1.2023561934774536,Negative,Low,Rarely Attends,Cloudy,Downtown,5 PM,0
+913,26,Female,Teacher,24430.163248614437,True,3,1.4311555455414984,Strength Training,Thursday,1 PM,0.7230503736645681,Mixed,Low,Sometimes Attends,Rainy,Suburban,1 PM,1
+914,57,Female,Doctor,84516.2915538146,False,5,1.789483175976354,Pool,Thursday,12 PM,0.8371836983354479,Negative,Low,Regularly Attends,Sunny,Resort,8 PM,1
+915,69,Male,Engineer,40571.73996944318,False,4,1.4970667415915433,Strength Training,Sunday,12 PM,1.4211226894270093,Negative,High,Rarely Attends,Cloudy,Beach,6 PM,0
+916,55,Male,Doctor,99522.78842436385,False,1,0.9664689101652819,Group Fitness,Sunday,10 AM,0.6757655716718808,Mixed,Low,Sometimes Attends,Sunny,Downtown,10 AM,0
+917,63,Female,Other,90140.7376164349,True,5,0.9894200677931089,Spinning,Saturday,8 AM,0.9462808849755828,Negative,Low,Regularly Attends,Rainy,Downtown,7 PM,1
+918,47,Female,Engineer,79183.8334357627,False,4,1.7196428002568263,Strength Training,Saturday,4 PM,1.1452239209337642,Positive,High,Rarely Attends,Sunny,Rural,4 PM,1
+919,57,Female,Doctor,96563.13102811835,False,5,0.7350187018506302,Yoga,Sunday,9 AM,0.6707561756061596,Mixed,High,Sometimes Attends,Snowy,Rural,7 AM,0
+920,36,Female,Student,52078.1070957272,False,3,1.979623986562384,Spinning,Friday,8 AM,1.0412699268405334,Negative,High,Regularly Attends,Overcast,Beach,6 AM,0
+921,61,Female,Teacher,79515.23993876277,False,2,1.466321109094566,Spinning,Wednesday,8 AM,0.7508137074944691,Positive,Medium,Sometimes Attends,Overcast,Beach,8 PM,0
+922,69,Female,Doctor,99338.28687322373,True,5,0.7188762944238489,Group Fitness,Thursday,11 AM,0.5774315761039439,Positive,High,Never Attends,Overcast,Suburban,9 AM,1
+923,23,Male,Student,22111.31784829119,False,3,1.9961409376830872,Spinning,Thursday,1 PM,0.9031606724483328,Mixed,High,Rarely Attends,Rainy,Beach,8 AM,0
+924,63,Female,Doctor,97721.68103225157,False,3,0.6180029344115403,Spinning,Monday,7 PM,1.4724133516501854,Positive,Low,Never Attends,Cloudy,Suburban,6 PM,0
+925,47,Female,Student,22368.513521218247,False,5,1.8903128070854955,Strength Training,Sunday,4 PM,0.9448532842735672,Negative,Low,Sometimes Attends,Overcast,Suburban,12 PM,0
+926,43,Male,Doctor,22285.417976078465,False,2,1.9282007108280454,Cardio,Thursday,11 AM,0.8440841078052936,Negative,Medium,Regularly Attends,Overcast,Beach,3 PM,0
+927,45,Male,Other,82749.90706342741,False,4,1.419831927261855,Cardio,Monday,4 PM,1.0244800826791156,Positive,Medium,Rarely Attends,Overcast,Suburban,5 PM,0
+928,57,Female,Teacher,86194.46630738575,True,1,0.22545879216692977,Strength Training,Tuesday,9 AM,1.2884938577149483,Mixed,High,Regularly Attends,Sunny,Suburban,9 AM,1
+929,41,Female,Teacher,38846.791437155494,True,1,1.5547195206029834,Strength Training,Monday,2 PM,0.5587006738912055,Positive,High,Rarely Attends,Snowy,Suburban,7 PM,1
+930,29,Female,Student,74043.25759723733,True,1,1.2751835196856538,Pool,Thursday,6 AM,0.7580866955458002,Neutral,Low,Sometimes Attends,Overcast,Rural,12 PM,1
+931,32,Male,Teacher,29948.679700073422,True,5,0.14919549588492464,Spinning,Sunday,1 PM,0.5587082114292247,Positive,Low,Rarely Attends,Overcast,Beach,2 PM,1
+932,21,Male,Teacher,58151.22465337369,False,2,1.9604603517991637,Spinning,Friday,12 PM,1.1045571185347243,Neutral,High,Never Attends,Cloudy,Downtown,10 AM,1
+933,19,Female,Doctor,43768.10229262196,False,5,0.3743138416491856,Group Fitness,Tuesday,1 PM,0.7079548583586591,Mixed,Low,Rarely Attends,Sunny,Rural,7 PM,1
+934,67,Male,Doctor,34116.243958524574,True,1,1.2418178793088668,Pool,Sunday,8 PM,1.3795859607273147,Negative,Low,Sometimes Attends,Overcast,Suburban,3 PM,1
+935,50,Male,Engineer,39617.043969855804,True,5,0.8356322972750243,Cardio,Wednesday,3 PM,1.4457701786173085,Negative,Low,Regularly Attends,Cloudy,Suburban,10 AM,1
+936,47,Male,Teacher,68186.29882389831,False,5,0.4084058507577535,Spinning,Tuesday,11 AM,0.7658899260775273,Neutral,Low,Sometimes Attends,Sunny,Resort,8 AM,0
+937,58,Male,Student,64428.96003635956,False,5,1.3556805986818048,Spinning,Friday,9 AM,0.7807470020436302,Positive,Low,Rarely Attends,Cloudy,Other,11 AM,0
+938,49,Male,Student,32672.36973766779,True,4,0.12974950642864225,Pool,Wednesday,12 PM,0.8439659966617152,Neutral,Medium,Never Attends,Cloudy,Resort,8 AM,1
+939,47,Male,Teacher,93505.19345618399,True,5,1.9542108378701981,Strength Training,Sunday,6 PM,0.8591536493263067,Neutral,Medium,Regularly Attends,Cloudy,Other,11 AM,1
+940,32,Male,Other,60776.06841694856,False,3,0.9548407023274286,Spinning,Thursday,8 AM,1.075685608591904,Negative,Low,Sometimes Attends,Snowy,Rural,9 AM,0
+941,57,Female,Engineer,23185.14883206115,True,4,1.4410020479428873,Cardio,Thursday,2 PM,1.4081852368330252,Negative,Medium,Never Attends,Cloudy,Resort,7 PM,1
+942,59,Male,Doctor,89259.45852337059,True,3,0.2528769062166083,Spinning,Sunday,6 AM,1.4533132275109641,Positive,High,Regularly Attends,Snowy,Resort,7 PM,1
+943,44,Female,Engineer,92933.37016865984,True,4,0.03353118602186522,Yoga,Wednesday,8 PM,1.0707048519864681,Mixed,Low,Never Attends,Sunny,Rural,4 PM,1
+944,30,Female,Engineer,48917.891943553084,True,1,1.4494997675533885,Spinning,Thursday,6 PM,0.9878053729114331,Positive,Low,Regularly Attends,Snowy,Suburban,11 AM,1
+945,22,Male,Teacher,80992.51449661552,True,3,0.8502420485653528,Group Fitness,Saturday,4 PM,0.8724679792559228,Positive,High,Never Attends,Overcast,Rural,12 PM,1
+946,64,Female,Other,84670.62327494576,False,5,0.309493894803208,Pool,Monday,7 PM,1.2668498863179884,Negative,High,Regularly Attends,Rainy,Suburban,11 AM,0
+947,22,Female,Other,26323.99782380615,False,5,0.04854138040957201,Spinning,Saturday,8 AM,1.1767311960709952,Neutral,High,Never Attends,Rainy,Rural,5 PM,0
+948,43,Male,Other,52656.35875024955,False,1,0.47596941091797884,Spinning,Sunday,6 PM,0.8516492335985961,Negative,Medium,Rarely Attends,Sunny,Downtown,6 PM,0
+949,46,Female,Doctor,46890.551088566666,True,2,1.2916745990841882,Strength Training,Friday,8 PM,1.0134414422373585,Mixed,Low,Rarely Attends,Rainy,Suburban,6 PM,1
+950,54,Female,Teacher,57131.62377365393,False,2,0.22535565264933077,Group Fitness,Friday,2 PM,0.5994340010886472,Mixed,High,Rarely Attends,Sunny,Beach,4 PM,1
+951,52,Female,Engineer,45995.756193035835,True,3,1.4711204437987229,Group Fitness,Tuesday,1 PM,1.087645482028778,Mixed,Medium,Regularly Attends,Cloudy,Rural,6 AM,1
+952,41,Male,Other,68838.79911129456,False,4,1.0793479956273733,Strength Training,Tuesday,10 AM,1.413859245314736,Mixed,Medium,Sometimes Attends,Snowy,Beach,2 PM,0
+953,27,Female,Teacher,21005.051697374143,True,3,0.4338802393821264,Group Fitness,Wednesday,2 PM,0.9357645714608713,Negative,High,Sometimes Attends,Cloudy,Rural,5 PM,1
+954,39,Female,Other,95421.78207995353,True,2,0.8350500736276165,Strength Training,Tuesday,8 PM,1.1284659158985364,Mixed,High,Rarely Attends,Overcast,Downtown,8 AM,1
+955,27,Male,Teacher,33136.96509089458,True,4,0.8114041730237478,Yoga,Sunday,3 PM,0.752094705281236,Positive,Low,Sometimes Attends,Overcast,Downtown,6 AM,1
+956,64,Male,Doctor,93757.77257319374,False,5,0.14173157434863737,Strength Training,Monday,4 PM,0.7397270056088456,Neutral,High,Sometimes Attends,Rainy,Downtown,5 PM,0
+957,64,Female,Other,78006.39130788007,False,1,0.7090989637368097,Yoga,Monday,4 PM,0.8029525682957381,Positive,Low,Sometimes Attends,Sunny,Other,4 PM,1
+958,63,Male,Other,38578.26396258449,False,3,0.795152032136268,Yoga,Wednesday,6 AM,0.7245184611061914,Neutral,Medium,Never Attends,Sunny,Suburban,6 PM,0
+959,48,Male,Student,86700.48383766515,True,4,0.7901775464508218,Pool,Thursday,7 PM,1.4833087192000676,Positive,High,Regularly Attends,Snowy,Suburban,3 PM,1
+960,64,Male,Other,52187.348830462375,True,3,0.712242487694905,Group Fitness,Wednesday,3 PM,0.8099668661400925,Neutral,High,Never Attends,Overcast,Beach,10 AM,1
+961,24,Male,Doctor,55642.801246795825,False,3,1.635627881135718,Spinning,Tuesday,9 AM,1.492151168380155,Negative,High,Never Attends,Cloudy,Suburban,8 PM,0
+962,65,Female,Engineer,71998.34219820688,False,5,1.4464785973559626,Spinning,Friday,11 AM,1.2228912823331688,Positive,Medium,Rarely Attends,Overcast,Resort,11 AM,0
+963,23,Female,Doctor,62966.91448812437,False,4,0.9740341058079007,Cardio,Friday,9 AM,1.233383533931496,Positive,Low,Regularly Attends,Sunny,Suburban,12 PM,1
+964,23,Female,Doctor,59019.468422148886,False,1,0.861352240566597,Yoga,Monday,3 PM,0.9073333996098927,Neutral,Medium,Rarely Attends,Snowy,Suburban,8 PM,0
+965,32,Female,Engineer,84009.41210792918,False,1,1.7866624390802324,Strength Training,Saturday,6 AM,0.8010489409410009,Mixed,High,Regularly Attends,Snowy,Downtown,4 PM,0
+966,41,Male,Engineer,52636.42973615329,True,5,1.5660574130609237,Strength Training,Sunday,10 AM,1.1017276212641032,Neutral,Low,Regularly Attends,Sunny,Rural,6 AM,1
+967,66,Female,Doctor,80544.99937788569,False,3,1.016827012155077,Strength Training,Sunday,4 PM,0.9335447411698476,Negative,High,Never Attends,Sunny,Beach,7 AM,1
+968,35,Female,Other,69709.92739844458,False,1,1.7335730362299386,Spinning,Saturday,7 PM,1.1900680212319013,Positive,Low,Rarely Attends,Sunny,Resort,3 PM,1
+969,42,Female,Doctor,65834.68357852643,False,1,0.21125140242133789,Cardio,Friday,8 AM,1.4765638715679859,Negative,Low,Never Attends,Snowy,Beach,1 PM,0
+970,62,Male,Student,59808.17246915384,True,5,1.4857306031037811,Strength Training,Monday,6 AM,1.2547710901913636,Neutral,High,Never Attends,Overcast,Downtown,2 PM,1
+971,35,Female,Teacher,60348.56641753855,False,5,1.5677633062809684,Spinning,Monday,1 PM,1.3845752644467593,Mixed,Low,Regularly Attends,Snowy,Other,8 AM,0
+972,29,Female,Engineer,31976.46052961038,True,1,1.468151067016702,Yoga,Sunday,6 PM,1.1826306093463854,Positive,High,Never Attends,Rainy,Downtown,5 PM,1
+973,63,Female,Student,89110.23214771607,True,1,0.8055449314702443,Strength Training,Tuesday,11 AM,1.2632499962903008,Negative,Medium,Sometimes Attends,Sunny,Downtown,7 PM,1
+974,39,Female,Teacher,73988.70379584885,False,3,0.8502936926978972,Spinning,Thursday,3 PM,0.5554231580635339,Neutral,Low,Never Attends,Cloudy,Downtown,7 AM,0
+975,44,Female,Engineer,53843.16895155409,False,1,0.46255469193606946,Group Fitness,Wednesday,5 PM,1.100219366203361,Negative,Low,Regularly Attends,Sunny,Suburban,6 AM,1
+976,51,Male,Other,43383.03959822425,False,4,0.5851844974146037,Yoga,Monday,5 PM,1.105647873362844,Mixed,Low,Rarely Attends,Cloudy,Suburban,1 PM,0
+977,36,Male,Teacher,25378.318878790004,False,4,1.941883949888615,Yoga,Wednesday,12 PM,1.2827462375014997,Negative,Medium,Sometimes Attends,Overcast,Resort,6 AM,0
+978,67,Female,Other,88170.415724924,False,5,0.9111549370119616,Pool,Thursday,4 PM,1.1072135117723831,Mixed,High,Regularly Attends,Overcast,Rural,6 AM,0
+979,64,Male,Doctor,50008.87749112342,False,3,1.369158822252351,Pool,Friday,4 PM,0.9152211025412654,Negative,Medium,Rarely Attends,Rainy,Other,2 PM,0
+980,44,Male,Other,33864.427413321115,True,3,0.1582402770391247,Pool,Wednesday,7 PM,0.9835619593117675,Positive,Medium,Rarely Attends,Snowy,Rural,8 AM,1
+981,25,Female,Student,72777.4309745272,True,4,0.7602518263913622,Pool,Thursday,7 AM,1.3481819810718343,Positive,Low,Rarely Attends,Cloudy,Beach,5 PM,1
+982,53,Male,Teacher,97354.81628306261,False,4,0.025653982555513544,Pool,Wednesday,5 PM,0.6090848227420261,Neutral,High,Regularly Attends,Cloudy,Downtown,7 AM,0
+983,19,Male,Other,77313.3104567146,True,2,1.539458610497368,Yoga,Friday,12 PM,1.4423624607155505,Mixed,Low,Never Attends,Sunny,Resort,1 PM,1
+984,55,Male,Student,84684.08078823265,False,3,0.9506750100457235,Yoga,Wednesday,6 AM,0.9415800881175153,Positive,Low,Sometimes Attends,Rainy,Rural,7 AM,0
+985,22,Female,Student,44020.85432054682,True,4,0.3031893432718842,Strength Training,Friday,9 AM,0.8867084792277334,Positive,Medium,Never Attends,Overcast,Downtown,11 AM,1
+986,54,Male,Teacher,22936.02755070854,False,3,1.654675948037159,Group Fitness,Monday,5 PM,1.2711628217719722,Neutral,Low,Never Attends,Snowy,Suburban,7 AM,0
+987,29,Female,Other,86598.69929140207,True,5,1.4346046396355108,Yoga,Saturday,11 AM,1.0240319897260381,Neutral,Medium,Regularly Attends,Cloudy,Other,10 AM,1
+988,25,Female,Other,84144.30511565931,False,1,1.4541841049301656,Yoga,Saturday,6 AM,0.8390201139566539,Neutral,High,Sometimes Attends,Snowy,Beach,1 PM,0
+989,46,Male,Student,73315.5907099339,True,4,1.5283613369808258,Group Fitness,Friday,10 AM,1.2778171132960514,Neutral,Low,Sometimes Attends,Cloudy,Rural,5 PM,1
+990,49,Male,Doctor,58982.964099404686,False,2,0.9481915815997444,Spinning,Friday,6 AM,0.6848008427607277,Positive,Low,Rarely Attends,Sunny,Downtown,12 PM,0
+991,19,Male,Engineer,70745.89603176815,True,5,0.3225020363283382,Yoga,Friday,10 AM,1.381481207733433,Mixed,Low,Rarely Attends,Sunny,Other,7 PM,1
+992,25,Male,Student,24009.46495823214,False,5,0.8817314449498566,Pool,Friday,8 AM,0.8352027444210736,Neutral,Medium,Sometimes Attends,Rainy,Rural,1 PM,0
+993,51,Male,Student,35537.028769897835,False,3,1.0423909286580593,Group Fitness,Friday,8 PM,0.6348831157859914,Neutral,High,Never Attends,Snowy,Downtown,1 PM,0
+994,19,Female,Other,98761.1960512032,False,5,0.1462792087653011,Spinning,Tuesday,6 AM,0.602444586692299,Mixed,Low,Never Attends,Rainy,Beach,6 AM,0
+995,30,Male,Doctor,54666.23319343676,True,1,1.8575028796396227,Group Fitness,Saturday,9 AM,1.0562752102087622,Mixed,High,Rarely Attends,Sunny,Beach,5 PM,1
+996,69,Female,Student,23520.32267972823,True,4,0.23981451127999565,Spinning,Friday,12 PM,1.0188243728945028,Neutral,High,Regularly Attends,Snowy,Downtown,6 AM,1
+997,49,Male,Doctor,69852.71601504949,False,2,0.4729038887936239,Strength Training,Wednesday,7 AM,0.7882159770855653,Negative,High,Never Attends,Overcast,Resort,6 AM,0
+998,18,Male,Student,89651.55350919535,False,1,1.5874602902044663,Pool,Thursday,7 PM,0.8902633622590188,Positive,High,Sometimes Attends,Overcast,Beach,6 PM,0
+999,56,Male,Teacher,45494.24928745778,True,2,0.7553808151813215,Pool,Saturday,1 PM,0.9445440313372577,Neutral,Low,Never Attends,Overcast,Resort,1 PM,1

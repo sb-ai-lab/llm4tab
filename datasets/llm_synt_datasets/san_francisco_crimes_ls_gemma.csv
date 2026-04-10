@@ -1,0 +1,1001 @@
+,Type of Crime,Location,Time of Occurrence,Suspect Age,Suspect Gender,Prior Record,Weapon Used,Officer Response Time,label
+0,Burglary,New York City,Day,50,Male,True,Gun,36,1
+1,Assault,Los Angeles,Night,16,Female,True,Knife,16,1
+2,Theft,Chicago,Day,19,Male,True,Sword,37,1
+3,Burglary,New York City,Night,28,Female,True,Gun,57,1
+4,Assault,Los Angeles,Day,45,Male,True,Knife,7,1
+5,Theft,Chicago,Night,28,Female,True,Sword,31,0
+6,Burglary,New York City,Day,32,Male,False,Gun,59,1
+7,Assault,Los Angeles,Night,26,Female,True,Knife,4,0
+8,Theft,Chicago,Day,38,Male,False,Sword,24,1
+9,Burglary,New York City,Night,31,Female,False,Gun,54,1
+10,Assault,Los Angeles,Day,19,Male,False,Knife,7,1
+11,Theft,Chicago,Night,33,Female,True,Sword,44,1
+12,Burglary,New York City,Day,23,Male,False,Gun,40,1
+13,Assault,Los Angeles,Night,47,Female,True,Knife,25,1
+14,Theft,Chicago,Day,43,Male,True,Sword,5,1
+15,Burglary,New York City,Night,19,Female,True,Gun,23,1
+16,Assault,Los Angeles,Day,21,Male,False,Knife,2,0
+17,Theft,Chicago,Night,29,Female,False,Sword,16,0
+18,Burglary,New York City,Day,23,Male,True,Gun,31,1
+19,Assault,Los Angeles,Night,21,Female,False,Knife,46,0
+20,Theft,Chicago,Day,31,Male,False,Sword,7,1
+21,Burglary,New York City,Night,50,Female,True,Gun,16,1
+22,Assault,Los Angeles,Day,43,Male,False,Knife,10,1
+23,Theft,Chicago,Night,49,Female,False,Sword,52,1
+24,Burglary,New York City,Day,29,Male,True,Gun,5,1
+25,Assault,Los Angeles,Night,35,Female,False,Knife,29,1
+26,Theft,Chicago,Day,49,Male,False,Sword,38,1
+27,Burglary,New York City,Night,30,Female,False,Gun,2,1
+28,Assault,Los Angeles,Day,36,Male,False,Knife,41,1
+29,Theft,Chicago,Night,19,Female,True,Sword,57,1
+30,Burglary,New York City,Day,22,Male,True,Gun,7,1
+31,Assault,Los Angeles,Night,21,Female,False,Knife,56,0
+32,Theft,Chicago,Day,47,Male,True,Sword,20,1
+33,Burglary,New York City,Night,30,Female,False,Gun,10,1
+34,Assault,Los Angeles,Day,37,Male,False,Knife,23,1
+35,Theft,Chicago,Night,28,Female,True,Sword,8,0
+36,Burglary,New York City,Day,48,Male,True,Gun,19,1
+37,Assault,Los Angeles,Night,40,Female,True,Knife,28,1
+38,Theft,Chicago,Day,46,Male,True,Sword,3,1
+39,Burglary,New York City,Night,29,Female,True,Gun,53,1
+40,Assault,Los Angeles,Day,29,Male,False,Knife,40,0
+41,Theft,Chicago,Night,33,Female,False,Sword,40,1
+42,Burglary,New York City,Day,26,Male,True,Gun,28,1
+43,Assault,Los Angeles,Night,26,Female,True,Knife,13,0
+44,Theft,Chicago,Day,32,Male,True,Sword,12,1
+45,Burglary,New York City,Night,28,Female,False,Gun,28,1
+46,Assault,Los Angeles,Day,27,Male,True,Knife,37,0
+47,Theft,Chicago,Night,44,Female,False,Sword,24,1
+48,Burglary,New York City,Day,45,Male,True,Gun,45,1
+49,Assault,Los Angeles,Night,26,Female,False,Knife,28,0
+50,Theft,Chicago,Day,45,Male,True,Sword,23,1
+51,Burglary,New York City,Night,18,Female,False,Gun,18,1
+52,Assault,Los Angeles,Day,37,Male,True,Knife,53,1
+53,Theft,Chicago,Night,28,Female,True,Sword,39,0
+54,Burglary,New York City,Day,26,Male,True,Gun,38,1
+55,Assault,Los Angeles,Night,30,Female,True,Knife,48,0
+56,Theft,Chicago,Day,27,Male,False,Sword,58,0
+57,Burglary,New York City,Night,24,Female,False,Gun,54,1
+58,Assault,Los Angeles,Day,42,Male,False,Knife,10,1
+59,Theft,Chicago,Night,31,Female,False,Sword,16,1
+60,Burglary,New York City,Day,20,Male,False,Gun,38,1
+61,Assault,Los Angeles,Night,38,Female,True,Knife,9,1
+62,Theft,Chicago,Day,24,Male,False,Sword,56,0
+63,Burglary,New York City,Night,21,Female,True,Gun,55,1
+64,Assault,Los Angeles,Day,23,Male,False,Knife,47,0
+65,Theft,Chicago,Night,23,Female,False,Sword,47,0
+66,Burglary,New York City,Day,37,Male,True,Gun,51,1
+67,Assault,Los Angeles,Night,50,Female,True,Knife,28,1
+68,Theft,Chicago,Day,38,Male,True,Sword,30,1
+69,Burglary,New York City,Night,26,Female,True,Gun,58,1
+70,Assault,Los Angeles,Day,32,Male,False,Knife,6,1
+71,Theft,Chicago,Night,26,Female,True,Sword,55,0
+72,Burglary,New York City,Day,30,Male,True,Gun,14,1
+73,Assault,Los Angeles,Night,39,Female,True,Knife,26,1
+74,Theft,Chicago,Day,46,Male,False,Sword,2,1
+75,Burglary,New York City,Night,28,Female,False,Gun,16,1
+76,Assault,Los Angeles,Day,24,Male,True,Knife,38,0
+77,Theft,Chicago,Night,42,Female,True,Sword,12,1
+78,Burglary,New York City,Day,29,Male,True,Gun,22,1
+79,Assault,Los Angeles,Night,42,Female,True,Knife,48,1
+80,Theft,Chicago,Day,45,Male,False,Sword,22,1
+81,Burglary,New York City,Night,45,Female,False,Gun,22,1
+82,Assault,Los Angeles,Day,44,Male,True,Knife,27,1
+83,Theft,Chicago,Night,20,Female,True,Sword,57,1
+84,Burglary,New York City,Day,25,Male,False,Gun,53,1
+85,Assault,Los Angeles,Night,27,Female,False,Knife,41,0
+86,Theft,Chicago,Day,37,Male,False,Sword,55,1
+87,Burglary,New York City,Night,28,Female,True,Gun,37,1
+88,Assault,Los Angeles,Day,47,Male,True,Knife,16,1
+89,Theft,Chicago,Night,27,Female,False,Sword,43,0
+90,Burglary,New York City,Day,29,Male,True,Gun,30,1
+91,Assault,Los Angeles,Night,47,Female,True,Knife,38,1
+92,Theft,Chicago,Day,32,Male,False,Sword,29,1
+93,Burglary,New York City,Night,24,Female,True,Gun,4,1
+94,Assault,Los Angeles,Day,24,Male,True,Knife,15,0
+95,Theft,Chicago,Night,31,Female,False,Sword,31,1
+96,Burglary,New York City,Day,48,Male,False,Gun,33,1
+97,Assault,Los Angeles,Night,41,Female,True,Knife,4,1
+98,Theft,Chicago,Day,45,Male,True,Sword,41,1
+99,Burglary,New York City,Night,47,Female,False,Gun,51,1
+100,Assault,Los Angeles,Day,45,Male,True,Knife,22,1
+101,Theft,Chicago,Night,19,Female,True,Sword,31,1
+102,Burglary,New York City,Day,33,Male,False,Gun,9,1
+103,Assault,Los Angeles,Night,37,Female,False,Knife,37,1
+104,Theft,Chicago,Day,48,Male,False,Sword,55,1
+105,Burglary,New York City,Night,19,Female,False,Gun,2,1
+106,Assault,Los Angeles,Day,37,Male,True,Knife,38,1
+107,Theft,Chicago,Night,28,Female,True,Sword,58,0
+108,Burglary,New York City,Day,38,Male,True,Gun,18,1
+109,Assault,Los Angeles,Night,32,Female,True,Knife,41,1
+110,Theft,Chicago,Day,39,Male,False,Sword,43,1
+111,Burglary,New York City,Night,44,Female,False,Gun,11,1
+112,Assault,Los Angeles,Day,48,Male,True,Knife,45,1
+113,Theft,Chicago,Night,33,Female,True,Sword,46,1
+114,Burglary,New York City,Day,40,Male,False,Gun,25,1
+115,Assault,Los Angeles,Night,30,Female,True,Knife,2,0
+116,Theft,Chicago,Day,40,Male,False,Sword,2,1
+117,Burglary,New York City,Night,43,Female,False,Gun,44,1
+118,Assault,Los Angeles,Day,48,Male,False,Knife,20,1
+119,Theft,Chicago,Night,27,Female,True,Sword,48,0
+120,Burglary,New York City,Day,23,Male,True,Gun,22,1
+121,Assault,Los Angeles,Night,29,Female,False,Knife,8,0
+122,Theft,Chicago,Day,26,Male,False,Sword,27,0
+123,Burglary,New York City,Night,23,Female,True,Gun,35,1
+124,Assault,Los Angeles,Day,25,Male,True,Knife,6,0
+125,Theft,Chicago,Night,46,Female,True,Sword,23,1
+126,Burglary,New York City,Day,24,Male,True,Gun,26,1
+127,Assault,Los Angeles,Night,37,Female,False,Knife,49,1
+128,Theft,Chicago,Day,46,Male,True,Sword,7,1
+129,Burglary,New York City,Night,43,Female,True,Gun,1,1
+130,Assault,Los Angeles,Day,31,Male,False,Knife,19,1
+131,Theft,Chicago,Night,23,Female,True,Sword,47,0
+132,Burglary,New York City,Day,19,Male,True,Gun,29,1
+133,Assault,Los Angeles,Night,24,Female,False,Knife,4,0
+134,Theft,Chicago,Day,33,Male,True,Sword,50,1
+135,Burglary,New York City,Night,35,Female,False,Gun,24,1
+136,Assault,Los Angeles,Day,36,Male,False,Knife,14,1
+137,Theft,Chicago,Night,27,Female,False,Sword,12,0
+138,Burglary,New York City,Day,16,Male,False,Gun,9,1
+139,Assault,Los Angeles,Night,20,Female,True,Knife,19,1
+140,Theft,Chicago,Day,47,Male,True,Sword,43,1
+141,Burglary,New York City,Night,28,Female,False,Gun,45,1
+142,Assault,Los Angeles,Day,40,Male,True,Knife,15,1
+143,Theft,Chicago,Night,26,Female,False,Sword,5,0
+144,Burglary,New York City,Day,48,Male,False,Gun,25,1
+145,Assault,Los Angeles,Night,19,Female,True,Knife,31,1
+146,Theft,Chicago,Day,32,Male,True,Sword,32,1
+147,Burglary,New York City,Night,23,Female,False,Gun,51,1
+148,Assault,Los Angeles,Day,37,Male,True,Knife,59,1
+149,Theft,Chicago,Night,32,Female,True,Sword,12,1
+150,Burglary,New York City,Day,47,Male,False,Gun,30,1
+151,Assault,Los Angeles,Night,38,Female,True,Knife,20,1
+152,Theft,Chicago,Day,43,Male,True,Sword,26,1
+153,Burglary,New York City,Night,40,Female,False,Gun,52,1
+154,Assault,Los Angeles,Day,41,Male,True,Knife,58,1
+155,Theft,Chicago,Night,43,Female,True,Sword,59,1
+156,Burglary,New York City,Day,37,Male,True,Gun,26,1
+157,Assault,Los Angeles,Night,47,Female,True,Knife,29,1
+158,Theft,Chicago,Day,29,Male,False,Sword,14,0
+159,Burglary,New York City,Night,46,Female,False,Gun,37,1
+160,Assault,Los Angeles,Day,43,Male,True,Knife,21,1
+161,Theft,Chicago,Night,20,Female,False,Sword,47,1
+162,Burglary,New York City,Day,38,Male,False,Gun,37,1
+163,Assault,Los Angeles,Night,47,Female,False,Knife,8,1
+164,Theft,Chicago,Day,17,Male,False,Sword,26,1
+165,Burglary,New York City,Night,49,Female,False,Gun,3,1
+166,Assault,Los Angeles,Day,17,Male,True,Knife,11,1
+167,Theft,Chicago,Night,18,Female,False,Sword,25,1
+168,Burglary,New York City,Day,21,Male,True,Gun,10,1
+169,Assault,Los Angeles,Night,37,Female,True,Knife,50,1
+170,Theft,Chicago,Day,49,Male,False,Sword,3,1
+171,Burglary,New York City,Night,32,Female,True,Gun,5,1
+172,Assault,Los Angeles,Day,30,Male,False,Knife,19,0
+173,Theft,Chicago,Night,48,Female,False,Sword,20,1
+174,Burglary,New York City,Day,50,Male,True,Gun,29,1
+175,Assault,Los Angeles,Night,22,Female,True,Knife,14,0
+176,Theft,Chicago,Day,42,Male,False,Sword,26,1
+177,Burglary,New York City,Night,25,Female,True,Gun,47,1
+178,Assault,Los Angeles,Day,48,Male,True,Knife,56,1
+179,Theft,Chicago,Night,20,Female,False,Sword,32,1
+180,Burglary,New York City,Day,37,Male,False,Gun,21,1
+181,Assault,Los Angeles,Night,19,Female,True,Knife,45,1
+182,Theft,Chicago,Day,39,Male,False,Sword,44,1
+183,Burglary,New York City,Night,46,Female,False,Gun,45,1
+184,Assault,Los Angeles,Day,49,Male,True,Knife,36,1
+185,Theft,Chicago,Night,37,Female,True,Sword,44,1
+186,Burglary,New York City,Day,18,Male,False,Gun,42,1
+187,Assault,Los Angeles,Night,21,Female,True,Knife,48,0
+188,Theft,Chicago,Day,32,Male,True,Sword,54,1
+189,Burglary,New York City,Night,32,Female,True,Gun,31,1
+190,Assault,Los Angeles,Day,25,Male,False,Knife,2,0
+191,Theft,Chicago,Night,32,Female,True,Sword,10,1
+192,Burglary,New York City,Day,27,Male,False,Gun,56,1
+193,Assault,Los Angeles,Night,18,Female,False,Knife,48,1
+194,Theft,Chicago,Day,24,Male,True,Sword,42,0
+195,Burglary,New York City,Night,21,Female,True,Gun,31,1
+196,Assault,Los Angeles,Day,23,Male,False,Knife,30,0
+197,Theft,Chicago,Night,41,Female,True,Sword,44,1
+198,Burglary,New York City,Day,49,Male,False,Gun,35,1
+199,Assault,Los Angeles,Night,32,Female,False,Knife,19,1
+200,Theft,Chicago,Day,33,Male,False,Sword,42,1
+201,Burglary,New York City,Night,29,Female,False,Gun,41,1
+202,Assault,Los Angeles,Day,31,Male,True,Knife,13,1
+203,Theft,Chicago,Night,42,Female,True,Sword,46,1
+204,Burglary,New York City,Day,36,Male,True,Gun,41,1
+205,Assault,Los Angeles,Night,39,Female,False,Knife,58,1
+206,Theft,Chicago,Day,34,Male,True,Sword,8,1
+207,Burglary,New York City,Night,50,Female,False,Gun,58,1
+208,Assault,Los Angeles,Day,17,Male,False,Knife,32,1
+209,Theft,Chicago,Night,34,Female,False,Sword,1,1
+210,Burglary,New York City,Day,29,Male,True,Gun,56,1
+211,Assault,Los Angeles,Night,32,Female,False,Knife,57,1
+212,Theft,Chicago,Day,32,Male,False,Sword,58,1
+213,Burglary,New York City,Night,32,Female,True,Gun,1,1
+214,Assault,Los Angeles,Day,22,Male,False,Knife,56,0
+215,Theft,Chicago,Night,25,Female,True,Sword,22,0
+216,Burglary,New York City,Day,36,Male,False,Gun,42,1
+217,Assault,Los Angeles,Night,20,Female,False,Knife,42,1
+218,Theft,Chicago,Day,23,Male,True,Sword,9,0
+219,Burglary,New York City,Night,32,Female,True,Gun,7,1
+220,Assault,Los Angeles,Day,40,Male,True,Knife,40,1
+221,Theft,Chicago,Night,36,Female,True,Sword,53,1
+222,Burglary,New York City,Day,47,Male,False,Gun,43,1
+223,Assault,Los Angeles,Night,47,Female,False,Knife,47,1
+224,Theft,Chicago,Day,43,Male,True,Sword,54,1
+225,Burglary,New York City,Night,34,Female,True,Gun,38,1
+226,Assault,Los Angeles,Day,46,Male,False,Knife,51,1
+227,Theft,Chicago,Night,25,Female,True,Sword,56,0
+228,Burglary,New York City,Day,28,Male,False,Gun,26,1
+229,Assault,Los Angeles,Night,16,Female,True,Knife,13,1
+230,Theft,Chicago,Day,24,Male,True,Sword,6,0
+231,Burglary,New York City,Night,35,Female,True,Gun,43,1
+232,Assault,Los Angeles,Day,16,Male,True,Knife,44,1
+233,Theft,Chicago,Night,23,Female,True,Sword,28,0
+234,Burglary,New York City,Day,46,Male,False,Gun,33,1
+235,Assault,Los Angeles,Night,42,Female,False,Knife,17,1
+236,Theft,Chicago,Day,27,Male,True,Sword,1,0
+237,Burglary,New York City,Night,49,Female,True,Gun,48,1
+238,Assault,Los Angeles,Day,16,Male,False,Knife,43,1
+239,Theft,Chicago,Night,46,Female,False,Sword,37,1
+240,Burglary,New York City,Day,49,Male,True,Gun,1,1
+241,Assault,Los Angeles,Night,48,Female,True,Knife,27,1
+242,Theft,Chicago,Day,17,Male,False,Sword,59,1
+243,Burglary,New York City,Night,47,Female,True,Gun,34,1
+244,Assault,Los Angeles,Day,35,Male,True,Knife,12,1
+245,Theft,Chicago,Night,21,Female,True,Sword,59,0
+246,Burglary,New York City,Day,33,Male,False,Gun,58,1
+247,Assault,Los Angeles,Night,50,Female,True,Knife,24,1
+248,Theft,Chicago,Day,35,Male,True,Sword,42,1
+249,Burglary,New York City,Night,18,Female,False,Gun,16,1
+250,Assault,Los Angeles,Day,33,Male,False,Knife,16,1
+251,Theft,Chicago,Night,29,Female,False,Sword,47,0
+252,Burglary,New York City,Day,46,Male,False,Gun,13,1
+253,Assault,Los Angeles,Night,38,Female,False,Knife,19,1
+254,Theft,Chicago,Day,34,Male,False,Sword,36,1
+255,Burglary,New York City,Night,28,Female,True,Gun,15,1
+256,Assault,Los Angeles,Day,49,Male,False,Knife,52,1
+257,Theft,Chicago,Night,45,Female,True,Sword,36,1
+258,Burglary,New York City,Day,22,Male,True,Gun,29,1
+259,Assault,Los Angeles,Night,19,Female,True,Knife,24,1
+260,Theft,Chicago,Day,50,Male,True,Sword,11,1
+261,Burglary,New York City,Night,31,Female,False,Gun,18,1
+262,Assault,Los Angeles,Day,45,Male,False,Knife,38,1
+263,Theft,Chicago,Night,16,Female,False,Sword,11,1
+264,Burglary,New York City,Day,19,Male,True,Gun,32,1
+265,Assault,Los Angeles,Night,22,Female,True,Knife,52,0
+266,Theft,Chicago,Day,31,Male,True,Sword,9,1
+267,Burglary,New York City,Night,20,Female,False,Gun,50,1
+268,Assault,Los Angeles,Day,47,Male,True,Knife,55,1
+269,Theft,Chicago,Night,25,Female,False,Sword,27,0
+270,Burglary,New York City,Day,45,Male,False,Gun,46,1
+271,Assault,Los Angeles,Night,37,Female,True,Knife,19,1
+272,Theft,Chicago,Day,18,Male,False,Sword,39,1
+273,Burglary,New York City,Night,49,Female,True,Gun,20,1
+274,Assault,Los Angeles,Day,29,Male,True,Knife,45,0
+275,Theft,Chicago,Night,35,Female,False,Sword,9,1
+276,Burglary,New York City,Day,29,Male,True,Gun,33,1
+277,Assault,Los Angeles,Night,27,Female,True,Knife,49,0
+278,Theft,Chicago,Day,33,Male,True,Sword,42,1
+279,Burglary,New York City,Night,26,Female,True,Gun,31,1
+280,Assault,Los Angeles,Day,26,Male,True,Knife,15,0
+281,Theft,Chicago,Night,37,Female,True,Sword,14,1
+282,Burglary,New York City,Day,40,Male,True,Gun,7,1
+283,Assault,Los Angeles,Night,36,Female,False,Knife,14,1
+284,Theft,Chicago,Day,45,Male,False,Sword,51,1
+285,Burglary,New York City,Night,31,Female,True,Gun,34,1
+286,Assault,Los Angeles,Day,40,Male,False,Knife,44,1
+287,Theft,Chicago,Night,33,Female,True,Sword,15,1
+288,Burglary,New York City,Day,48,Male,True,Gun,56,1
+289,Assault,Los Angeles,Night,26,Female,False,Knife,28,0
+290,Theft,Chicago,Day,37,Male,False,Sword,52,1
+291,Burglary,New York City,Night,44,Female,True,Gun,2,1
+292,Assault,Los Angeles,Day,28,Male,True,Knife,49,0
+293,Theft,Chicago,Night,26,Female,True,Sword,48,0
+294,Burglary,New York City,Day,17,Male,False,Gun,57,1
+295,Assault,Los Angeles,Night,39,Female,False,Knife,38,1
+296,Theft,Chicago,Day,30,Male,True,Sword,47,0
+297,Burglary,New York City,Night,25,Female,True,Gun,44,1
+298,Assault,Los Angeles,Day,45,Male,True,Knife,37,1
+299,Theft,Chicago,Night,32,Female,False,Sword,35,1
+300,Burglary,New York City,Day,40,Male,True,Gun,13,1
+301,Assault,Los Angeles,Night,34,Female,False,Knife,39,1
+302,Theft,Chicago,Day,33,Male,True,Sword,26,1
+303,Burglary,New York City,Night,34,Female,True,Gun,19,1
+304,Assault,Los Angeles,Day,40,Male,True,Knife,5,1
+305,Theft,Chicago,Night,34,Female,False,Sword,47,1
+306,Burglary,New York City,Day,22,Male,True,Gun,36,1
+307,Assault,Los Angeles,Night,30,Female,True,Knife,2,0
+308,Theft,Chicago,Day,45,Male,False,Sword,23,1
+309,Burglary,New York City,Night,21,Female,True,Gun,1,1
+310,Assault,Los Angeles,Day,47,Male,False,Knife,35,1
+311,Theft,Chicago,Night,18,Female,True,Sword,4,1
+312,Burglary,New York City,Day,48,Male,True,Gun,24,1
+313,Assault,Los Angeles,Night,37,Female,True,Knife,5,1
+314,Theft,Chicago,Day,43,Male,True,Sword,5,1
+315,Burglary,New York City,Night,30,Female,True,Gun,53,1
+316,Assault,Los Angeles,Day,49,Male,False,Knife,33,1
+317,Theft,Chicago,Night,45,Female,False,Sword,55,1
+318,Burglary,New York City,Day,16,Male,False,Gun,37,1
+319,Assault,Los Angeles,Night,31,Female,False,Knife,8,1
+320,Theft,Chicago,Day,21,Male,False,Sword,42,0
+321,Burglary,New York City,Night,32,Female,True,Gun,31,1
+322,Assault,Los Angeles,Day,46,Male,True,Knife,10,1
+323,Theft,Chicago,Night,44,Female,False,Sword,1,1
+324,Burglary,New York City,Day,46,Male,False,Gun,26,1
+325,Assault,Los Angeles,Night,33,Female,True,Knife,15,1
+326,Theft,Chicago,Day,32,Male,False,Sword,26,1
+327,Burglary,New York City,Night,41,Female,False,Gun,23,1
+328,Assault,Los Angeles,Day,16,Male,True,Knife,47,1
+329,Theft,Chicago,Night,24,Female,False,Sword,20,0
+330,Burglary,New York City,Day,50,Male,False,Gun,36,1
+331,Assault,Los Angeles,Night,27,Female,True,Knife,7,0
+332,Theft,Chicago,Day,39,Male,False,Sword,1,1
+333,Burglary,New York City,Night,45,Female,True,Gun,58,1
+334,Assault,Los Angeles,Day,22,Male,False,Knife,13,0
+335,Theft,Chicago,Night,44,Female,True,Sword,40,1
+336,Burglary,New York City,Day,36,Male,True,Gun,46,1
+337,Assault,Los Angeles,Night,42,Female,False,Knife,55,1
+338,Theft,Chicago,Day,50,Male,True,Sword,48,1
+339,Burglary,New York City,Night,23,Female,True,Gun,15,1
+340,Assault,Los Angeles,Day,29,Male,True,Knife,34,0
+341,Theft,Chicago,Night,34,Female,False,Sword,28,1
+342,Burglary,New York City,Day,44,Male,True,Gun,36,1
+343,Assault,Los Angeles,Night,47,Female,False,Knife,58,1
+344,Theft,Chicago,Day,40,Male,True,Sword,41,1
+345,Burglary,New York City,Night,39,Female,True,Gun,6,1
+346,Assault,Los Angeles,Day,46,Male,True,Knife,1,1
+347,Theft,Chicago,Night,47,Female,False,Sword,2,1
+348,Burglary,New York City,Day,26,Male,False,Gun,28,1
+349,Assault,Los Angeles,Night,17,Female,True,Knife,13,1
+350,Theft,Chicago,Day,20,Male,False,Sword,46,1
+351,Burglary,New York City,Night,44,Female,False,Gun,8,1
+352,Assault,Los Angeles,Day,41,Male,False,Knife,55,1
+353,Theft,Chicago,Night,16,Female,False,Sword,40,1
+354,Burglary,New York City,Day,37,Male,True,Gun,57,1
+355,Assault,Los Angeles,Night,42,Female,True,Knife,31,1
+356,Theft,Chicago,Day,24,Male,False,Sword,44,0
+357,Burglary,New York City,Night,20,Female,True,Gun,25,1
+358,Assault,Los Angeles,Day,38,Male,False,Knife,22,1
+359,Theft,Chicago,Night,21,Female,True,Sword,2,0
+360,Burglary,New York City,Day,32,Male,True,Gun,19,1
+361,Assault,Los Angeles,Night,30,Female,False,Knife,31,0
+362,Theft,Chicago,Day,37,Male,False,Sword,54,1
+363,Burglary,New York City,Night,21,Female,False,Gun,8,1
+364,Assault,Los Angeles,Day,42,Male,False,Knife,25,1
+365,Theft,Chicago,Night,38,Female,False,Sword,54,1
+366,Burglary,New York City,Day,50,Male,True,Gun,45,1
+367,Assault,Los Angeles,Night,47,Female,True,Knife,2,1
+368,Theft,Chicago,Day,27,Male,False,Sword,30,0
+369,Burglary,New York City,Night,38,Female,False,Gun,24,1
+370,Assault,Los Angeles,Day,22,Male,False,Knife,9,0
+371,Theft,Chicago,Night,24,Female,True,Sword,19,0
+372,Burglary,New York City,Day,25,Male,False,Gun,59,1
+373,Assault,Los Angeles,Night,47,Female,False,Knife,15,1
+374,Theft,Chicago,Day,44,Male,True,Sword,12,1
+375,Burglary,New York City,Night,47,Female,False,Gun,36,1
+376,Assault,Los Angeles,Day,28,Male,False,Knife,18,0
+377,Theft,Chicago,Night,22,Female,True,Sword,51,0
+378,Burglary,New York City,Day,22,Male,True,Gun,11,1
+379,Assault,Los Angeles,Night,27,Female,False,Knife,47,0
+380,Theft,Chicago,Day,26,Male,True,Sword,54,0
+381,Burglary,New York City,Night,28,Female,False,Gun,12,1
+382,Assault,Los Angeles,Day,27,Male,False,Knife,43,0
+383,Theft,Chicago,Night,31,Female,True,Sword,50,1
+384,Burglary,New York City,Day,50,Male,False,Gun,44,1
+385,Assault,Los Angeles,Night,32,Female,False,Knife,20,1
+386,Theft,Chicago,Day,24,Male,False,Sword,7,0
+387,Burglary,New York City,Night,16,Female,True,Gun,34,1
+388,Assault,Los Angeles,Day,19,Male,True,Knife,16,1
+389,Theft,Chicago,Night,43,Female,True,Sword,38,1
+390,Burglary,New York City,Day,21,Male,True,Gun,12,1
+391,Assault,Los Angeles,Night,19,Female,True,Knife,38,1
+392,Theft,Chicago,Day,31,Male,True,Sword,54,1
+393,Burglary,New York City,Night,35,Female,True,Gun,14,1
+394,Assault,Los Angeles,Day,28,Male,True,Knife,55,0
+395,Theft,Chicago,Night,23,Female,True,Sword,59,0
+396,Burglary,New York City,Day,44,Male,True,Gun,41,1
+397,Assault,Los Angeles,Night,38,Female,True,Knife,5,1
+398,Theft,Chicago,Day,47,Male,True,Sword,26,1
+399,Burglary,New York City,Night,19,Female,True,Gun,22,1
+400,Assault,Los Angeles,Day,42,Male,False,Knife,35,1
+401,Theft,Chicago,Night,48,Female,True,Sword,22,1
+402,Burglary,New York City,Day,21,Male,True,Gun,19,1
+403,Assault,Los Angeles,Night,29,Female,False,Knife,50,0
+404,Theft,Chicago,Day,26,Male,False,Sword,15,0
+405,Burglary,New York City,Night,32,Female,True,Gun,20,1
+406,Assault,Los Angeles,Day,50,Male,False,Knife,53,1
+407,Theft,Chicago,Night,23,Female,True,Sword,26,0
+408,Burglary,New York City,Day,37,Male,False,Gun,36,1
+409,Assault,Los Angeles,Night,31,Female,False,Knife,52,1
+410,Theft,Chicago,Day,22,Male,False,Sword,33,0
+411,Burglary,New York City,Night,31,Female,True,Gun,24,1
+412,Assault,Los Angeles,Day,43,Male,True,Knife,23,1
+413,Theft,Chicago,Night,41,Female,True,Sword,15,1
+414,Burglary,New York City,Day,30,Male,False,Gun,56,1
+415,Assault,Los Angeles,Night,20,Female,True,Knife,26,1
+416,Theft,Chicago,Day,18,Male,False,Sword,27,1
+417,Burglary,New York City,Night,31,Female,True,Gun,9,1
+418,Assault,Los Angeles,Day,45,Male,False,Knife,6,1
+419,Theft,Chicago,Night,49,Female,False,Sword,59,1
+420,Burglary,New York City,Day,49,Male,True,Gun,57,1
+421,Assault,Los Angeles,Night,40,Female,False,Knife,39,1
+422,Theft,Chicago,Day,47,Male,False,Sword,56,1
+423,Burglary,New York City,Night,47,Female,True,Gun,47,1
+424,Assault,Los Angeles,Day,35,Male,False,Knife,6,1
+425,Theft,Chicago,Night,47,Female,True,Sword,22,1
+426,Burglary,New York City,Day,49,Male,False,Gun,13,1
+427,Assault,Los Angeles,Night,36,Female,True,Knife,59,1
+428,Theft,Chicago,Day,18,Male,False,Sword,16,1
+429,Burglary,New York City,Night,21,Female,False,Gun,36,1
+430,Assault,Los Angeles,Day,32,Male,False,Knife,10,1
+431,Theft,Chicago,Night,39,Female,False,Sword,39,1
+432,Burglary,New York City,Day,24,Male,True,Gun,29,1
+433,Assault,Los Angeles,Night,18,Female,True,Knife,32,1
+434,Theft,Chicago,Day,36,Male,False,Sword,18,1
+435,Burglary,New York City,Night,44,Female,False,Gun,11,1
+436,Assault,Los Angeles,Day,28,Male,False,Knife,46,0
+437,Theft,Chicago,Night,42,Female,True,Sword,1,1
+438,Burglary,New York City,Day,19,Male,True,Gun,29,1
+439,Assault,Los Angeles,Night,22,Female,False,Knife,55,0
+440,Theft,Chicago,Day,41,Male,True,Sword,24,1
+441,Burglary,New York City,Night,33,Female,True,Gun,32,1
+442,Assault,Los Angeles,Day,49,Male,True,Knife,37,1
+443,Theft,Chicago,Night,24,Female,True,Sword,9,0
+444,Burglary,New York City,Day,25,Male,True,Gun,57,1
+445,Assault,Los Angeles,Night,18,Female,False,Knife,40,1
+446,Theft,Chicago,Day,22,Male,True,Sword,53,0
+447,Burglary,New York City,Night,49,Female,True,Gun,29,1
+448,Assault,Los Angeles,Day,49,Male,False,Knife,24,1
+449,Theft,Chicago,Night,40,Female,False,Sword,6,1
+450,Burglary,New York City,Day,39,Male,False,Gun,34,1
+451,Assault,Los Angeles,Night,47,Female,False,Knife,42,1
+452,Theft,Chicago,Day,23,Male,True,Sword,22,0
+453,Burglary,New York City,Night,24,Female,True,Gun,44,1
+454,Assault,Los Angeles,Day,40,Male,True,Knife,7,1
+455,Theft,Chicago,Night,41,Female,False,Sword,7,1
+456,Burglary,New York City,Day,31,Male,False,Gun,24,1
+457,Assault,Los Angeles,Night,33,Female,False,Knife,13,1
+458,Theft,Chicago,Day,47,Male,False,Sword,10,1
+459,Burglary,New York City,Night,37,Female,True,Gun,32,1
+460,Assault,Los Angeles,Day,30,Male,False,Knife,22,0
+461,Theft,Chicago,Night,21,Female,False,Sword,52,0
+462,Burglary,New York City,Day,37,Male,False,Gun,58,1
+463,Assault,Los Angeles,Night,30,Female,False,Knife,42,0
+464,Theft,Chicago,Day,23,Male,False,Sword,32,0
+465,Burglary,New York City,Night,25,Female,True,Gun,6,1
+466,Assault,Los Angeles,Day,39,Male,True,Knife,16,1
+467,Theft,Chicago,Night,36,Female,False,Sword,59,1
+468,Burglary,New York City,Day,42,Male,True,Gun,59,1
+469,Assault,Los Angeles,Night,40,Female,True,Knife,51,1
+470,Theft,Chicago,Day,30,Male,True,Sword,10,0
+471,Burglary,New York City,Night,44,Female,True,Gun,57,1
+472,Assault,Los Angeles,Day,44,Male,False,Knife,48,1
+473,Theft,Chicago,Night,31,Female,True,Sword,11,1
+474,Burglary,New York City,Day,36,Male,True,Gun,20,1
+475,Assault,Los Angeles,Night,34,Female,True,Knife,42,1
+476,Theft,Chicago,Day,18,Male,True,Sword,38,1
+477,Burglary,New York City,Night,47,Female,True,Gun,27,1
+478,Assault,Los Angeles,Day,35,Male,False,Knife,28,1
+479,Theft,Chicago,Night,41,Female,False,Sword,18,1
+480,Burglary,New York City,Day,48,Male,True,Gun,9,1
+481,Assault,Los Angeles,Night,38,Female,False,Knife,53,1
+482,Theft,Chicago,Day,26,Male,False,Sword,6,0
+483,Burglary,New York City,Night,48,Female,False,Gun,7,1
+484,Assault,Los Angeles,Day,45,Male,True,Knife,51,1
+485,Theft,Chicago,Night,29,Female,False,Sword,7,0
+486,Burglary,New York City,Day,40,Male,False,Gun,1,1
+487,Assault,Los Angeles,Night,27,Female,True,Knife,41,0
+488,Theft,Chicago,Day,45,Male,True,Sword,52,1
+489,Burglary,New York City,Night,45,Female,False,Gun,49,1
+490,Assault,Los Angeles,Day,33,Male,True,Knife,3,1
+491,Theft,Chicago,Night,27,Female,False,Sword,27,0
+492,Burglary,New York City,Day,33,Male,True,Gun,39,1
+493,Assault,Los Angeles,Night,30,Female,True,Knife,53,0
+494,Theft,Chicago,Day,27,Male,True,Sword,41,0
+495,Burglary,New York City,Night,22,Female,True,Gun,18,1
+496,Assault,Los Angeles,Day,26,Male,False,Knife,58,0
+497,Theft,Chicago,Night,16,Female,True,Sword,57,1
+498,Burglary,New York City,Day,19,Male,False,Gun,42,1
+499,Assault,Los Angeles,Night,38,Female,False,Knife,51,1
+500,Theft,Chicago,Day,44,Male,True,Sword,26,1
+501,Burglary,New York City,Night,25,Female,False,Gun,39,1
+502,Assault,Los Angeles,Day,49,Male,False,Knife,3,1
+503,Theft,Chicago,Night,18,Female,True,Sword,4,1
+504,Burglary,New York City,Day,17,Male,False,Gun,6,1
+505,Assault,Los Angeles,Night,50,Female,True,Knife,52,1
+506,Theft,Chicago,Day,24,Male,False,Sword,16,0
+507,Burglary,New York City,Night,31,Female,False,Gun,46,1
+508,Assault,Los Angeles,Day,36,Male,False,Knife,37,1
+509,Theft,Chicago,Night,17,Female,True,Sword,59,1
+510,Burglary,New York City,Day,32,Male,False,Gun,8,1
+511,Assault,Los Angeles,Night,41,Female,True,Knife,47,1
+512,Theft,Chicago,Day,22,Male,True,Sword,33,0
+513,Burglary,New York City,Night,28,Female,False,Gun,59,1
+514,Assault,Los Angeles,Day,32,Male,False,Knife,34,1
+515,Theft,Chicago,Night,29,Female,False,Sword,37,0
+516,Burglary,New York City,Day,25,Male,False,Gun,37,1
+517,Assault,Los Angeles,Night,19,Female,False,Knife,18,1
+518,Theft,Chicago,Day,40,Male,False,Sword,5,1
+519,Burglary,New York City,Night,43,Female,False,Gun,38,1
+520,Assault,Los Angeles,Day,40,Male,False,Knife,41,1
+521,Theft,Chicago,Night,20,Female,False,Sword,58,1
+522,Burglary,New York City,Day,19,Male,False,Gun,27,1
+523,Assault,Los Angeles,Night,49,Female,False,Knife,44,1
+524,Theft,Chicago,Day,31,Male,True,Sword,22,1
+525,Burglary,New York City,Night,32,Female,True,Gun,3,1
+526,Assault,Los Angeles,Day,38,Male,False,Knife,18,1
+527,Theft,Chicago,Night,26,Female,False,Sword,37,0
+528,Burglary,New York City,Day,48,Male,False,Gun,46,1
+529,Assault,Los Angeles,Night,25,Female,False,Knife,24,0
+530,Theft,Chicago,Day,48,Male,True,Sword,16,1
+531,Burglary,New York City,Night,35,Female,False,Gun,16,1
+532,Assault,Los Angeles,Day,48,Male,True,Knife,13,1
+533,Theft,Chicago,Night,38,Female,False,Sword,58,1
+534,Burglary,New York City,Day,29,Male,True,Gun,29,1
+535,Assault,Los Angeles,Night,44,Female,False,Knife,51,1
+536,Theft,Chicago,Day,21,Male,True,Sword,3,0
+537,Burglary,New York City,Night,49,Female,False,Gun,36,1
+538,Assault,Los Angeles,Day,46,Male,True,Knife,55,1
+539,Theft,Chicago,Night,24,Female,False,Sword,43,0
+540,Burglary,New York City,Day,33,Male,True,Gun,42,1
+541,Assault,Los Angeles,Night,26,Female,True,Knife,10,0
+542,Theft,Chicago,Day,48,Male,True,Sword,30,1
+543,Burglary,New York City,Night,40,Female,True,Gun,40,1
+544,Assault,Los Angeles,Day,44,Male,True,Knife,59,1
+545,Theft,Chicago,Night,23,Female,False,Sword,5,0
+546,Burglary,New York City,Day,21,Male,True,Gun,51,1
+547,Assault,Los Angeles,Night,34,Female,True,Knife,44,1
+548,Theft,Chicago,Day,18,Male,False,Sword,25,1
+549,Burglary,New York City,Night,17,Female,False,Gun,3,1
+550,Assault,Los Angeles,Day,28,Male,True,Knife,42,0
+551,Theft,Chicago,Night,32,Female,True,Sword,36,1
+552,Burglary,New York City,Day,35,Male,False,Gun,45,1
+553,Assault,Los Angeles,Night,47,Female,False,Knife,6,1
+554,Theft,Chicago,Day,41,Male,True,Sword,26,1
+555,Burglary,New York City,Night,41,Female,True,Gun,20,1
+556,Assault,Los Angeles,Day,20,Male,True,Knife,59,1
+557,Theft,Chicago,Night,47,Female,False,Sword,25,1
+558,Burglary,New York City,Day,33,Male,False,Gun,44,1
+559,Assault,Los Angeles,Night,33,Female,True,Knife,13,1
+560,Theft,Chicago,Day,21,Male,True,Sword,16,0
+561,Burglary,New York City,Night,45,Female,False,Gun,36,1
+562,Assault,Los Angeles,Day,25,Male,False,Knife,50,0
+563,Theft,Chicago,Night,47,Female,True,Sword,4,1
+564,Burglary,New York City,Day,45,Male,True,Gun,44,1
+565,Assault,Los Angeles,Night,30,Female,True,Knife,19,0
+566,Theft,Chicago,Day,22,Male,True,Sword,23,0
+567,Burglary,New York City,Night,43,Female,False,Gun,32,1
+568,Assault,Los Angeles,Day,45,Male,True,Knife,34,1
+569,Theft,Chicago,Night,39,Female,True,Sword,11,1
+570,Burglary,New York City,Day,31,Male,True,Gun,2,1
+571,Assault,Los Angeles,Night,35,Female,True,Knife,42,1
+572,Theft,Chicago,Day,17,Male,False,Sword,4,1
+573,Burglary,New York City,Night,44,Female,True,Gun,59,1
+574,Assault,Los Angeles,Day,32,Male,True,Knife,53,1
+575,Theft,Chicago,Night,33,Female,True,Sword,24,1
+576,Burglary,New York City,Day,45,Male,True,Gun,5,1
+577,Assault,Los Angeles,Night,36,Female,False,Knife,50,1
+578,Theft,Chicago,Day,48,Male,False,Sword,52,1
+579,Burglary,New York City,Night,29,Female,True,Gun,25,1
+580,Assault,Los Angeles,Day,31,Male,True,Knife,20,1
+581,Theft,Chicago,Night,26,Female,True,Sword,44,0
+582,Burglary,New York City,Day,33,Male,False,Gun,21,1
+583,Assault,Los Angeles,Night,28,Female,True,Knife,53,0
+584,Theft,Chicago,Day,48,Male,True,Sword,32,1
+585,Burglary,New York City,Night,38,Female,False,Gun,17,1
+586,Assault,Los Angeles,Day,42,Male,True,Knife,32,1
+587,Theft,Chicago,Night,17,Female,True,Sword,19,1
+588,Burglary,New York City,Day,47,Male,True,Gun,47,1
+589,Assault,Los Angeles,Night,25,Female,False,Knife,43,0
+590,Theft,Chicago,Day,48,Male,False,Sword,39,1
+591,Burglary,New York City,Night,39,Female,False,Gun,32,1
+592,Assault,Los Angeles,Day,22,Male,False,Knife,49,0
+593,Theft,Chicago,Night,18,Female,True,Sword,49,1
+594,Burglary,New York City,Day,19,Male,False,Gun,13,1
+595,Assault,Los Angeles,Night,42,Female,False,Knife,20,1
+596,Theft,Chicago,Day,25,Male,False,Sword,54,0
+597,Burglary,New York City,Night,29,Female,False,Gun,59,1
+598,Assault,Los Angeles,Day,22,Male,True,Knife,43,0
+599,Theft,Chicago,Night,29,Female,True,Sword,14,0
+600,Burglary,New York City,Day,21,Male,False,Gun,39,1
+601,Assault,Los Angeles,Night,30,Female,False,Knife,46,0
+602,Theft,Chicago,Day,41,Male,True,Sword,9,1
+603,Burglary,New York City,Night,40,Female,False,Gun,49,1
+604,Assault,Los Angeles,Day,32,Male,True,Knife,34,1
+605,Theft,Chicago,Night,48,Female,True,Sword,54,1
+606,Burglary,New York City,Day,20,Male,False,Gun,49,1
+607,Assault,Los Angeles,Night,19,Female,True,Knife,3,1
+608,Theft,Chicago,Day,39,Male,True,Sword,5,1
+609,Burglary,New York City,Night,33,Female,False,Gun,45,1
+610,Assault,Los Angeles,Day,29,Male,True,Knife,30,0
+611,Theft,Chicago,Night,23,Female,False,Sword,23,0
+612,Burglary,New York City,Day,25,Male,True,Gun,42,1
+613,Assault,Los Angeles,Night,19,Female,True,Knife,46,1
+614,Theft,Chicago,Day,44,Male,True,Sword,33,1
+615,Burglary,New York City,Night,31,Female,False,Gun,38,1
+616,Assault,Los Angeles,Day,44,Male,False,Knife,17,1
+617,Theft,Chicago,Night,35,Female,False,Sword,49,1
+618,Burglary,New York City,Day,19,Male,False,Gun,54,1
+619,Assault,Los Angeles,Night,18,Female,False,Knife,40,1
+620,Theft,Chicago,Day,36,Male,False,Sword,16,1
+621,Burglary,New York City,Night,27,Female,True,Gun,45,1
+622,Assault,Los Angeles,Day,48,Male,True,Knife,16,1
+623,Theft,Chicago,Night,23,Female,False,Sword,21,0
+624,Burglary,New York City,Day,24,Male,True,Gun,26,1
+625,Assault,Los Angeles,Night,26,Female,False,Knife,23,0
+626,Theft,Chicago,Day,21,Male,True,Sword,55,0
+627,Burglary,New York City,Night,48,Female,True,Gun,33,1
+628,Assault,Los Angeles,Day,26,Male,True,Knife,10,0
+629,Theft,Chicago,Night,46,Female,True,Sword,28,1
+630,Burglary,New York City,Day,20,Male,False,Gun,57,1
+631,Assault,Los Angeles,Night,16,Female,True,Knife,26,1
+632,Theft,Chicago,Day,16,Male,False,Sword,47,1
+633,Burglary,New York City,Night,21,Female,True,Gun,13,1
+634,Assault,Los Angeles,Day,45,Male,False,Knife,6,1
+635,Theft,Chicago,Night,31,Female,True,Sword,39,1
+636,Burglary,New York City,Day,49,Male,False,Gun,26,1
+637,Assault,Los Angeles,Night,36,Female,True,Knife,41,1
+638,Theft,Chicago,Day,35,Male,False,Sword,59,1
+639,Burglary,New York City,Night,30,Female,False,Gun,27,1
+640,Assault,Los Angeles,Day,43,Male,False,Knife,4,1
+641,Theft,Chicago,Night,32,Female,False,Sword,4,1
+642,Burglary,New York City,Day,39,Male,False,Gun,28,1
+643,Assault,Los Angeles,Night,41,Female,False,Knife,14,1
+644,Theft,Chicago,Day,41,Male,False,Sword,10,1
+645,Burglary,New York City,Night,44,Female,True,Gun,19,1
+646,Assault,Los Angeles,Day,21,Male,False,Knife,42,0
+647,Theft,Chicago,Night,36,Female,True,Sword,46,1
+648,Burglary,New York City,Day,25,Male,True,Gun,13,1
+649,Assault,Los Angeles,Night,28,Female,False,Knife,38,0
+650,Theft,Chicago,Day,49,Male,False,Sword,4,1
+651,Burglary,New York City,Night,35,Female,True,Gun,5,1
+652,Assault,Los Angeles,Day,48,Male,False,Knife,19,1
+653,Theft,Chicago,Night,24,Female,True,Sword,16,0
+654,Burglary,New York City,Day,17,Male,False,Gun,29,1
+655,Assault,Los Angeles,Night,40,Female,False,Knife,8,1
+656,Theft,Chicago,Day,42,Male,True,Sword,23,1
+657,Burglary,New York City,Night,18,Female,True,Gun,2,1
+658,Assault,Los Angeles,Day,27,Male,False,Knife,7,0
+659,Theft,Chicago,Night,32,Female,True,Sword,31,1
+660,Burglary,New York City,Day,40,Male,True,Gun,38,1
+661,Assault,Los Angeles,Night,49,Female,False,Knife,54,1
+662,Theft,Chicago,Day,19,Male,True,Sword,7,1
+663,Burglary,New York City,Night,26,Female,True,Gun,24,1
+664,Assault,Los Angeles,Day,21,Male,True,Knife,15,0
+665,Theft,Chicago,Night,33,Female,True,Sword,45,1
+666,Burglary,New York City,Day,27,Male,False,Gun,29,1
+667,Assault,Los Angeles,Night,19,Female,True,Knife,14,1
+668,Theft,Chicago,Day,19,Male,True,Sword,39,1
+669,Burglary,New York City,Night,39,Female,False,Gun,34,1
+670,Assault,Los Angeles,Day,35,Male,False,Knife,34,1
+671,Theft,Chicago,Night,24,Female,True,Sword,41,0
+672,Burglary,New York City,Day,43,Male,True,Gun,35,1
+673,Assault,Los Angeles,Night,30,Female,False,Knife,4,0
+674,Theft,Chicago,Day,28,Male,True,Sword,24,0
+675,Burglary,New York City,Night,49,Female,False,Gun,21,1
+676,Assault,Los Angeles,Day,34,Male,True,Knife,12,1
+677,Theft,Chicago,Night,18,Female,True,Sword,27,1
+678,Burglary,New York City,Day,50,Male,False,Gun,11,1
+679,Assault,Los Angeles,Night,49,Female,False,Knife,41,1
+680,Theft,Chicago,Day,22,Male,True,Sword,28,0
+681,Burglary,New York City,Night,50,Female,False,Gun,39,1
+682,Assault,Los Angeles,Day,44,Male,False,Knife,30,1
+683,Theft,Chicago,Night,19,Female,False,Sword,59,1
+684,Burglary,New York City,Day,48,Male,True,Gun,30,1
+685,Assault,Los Angeles,Night,46,Female,True,Knife,45,1
+686,Theft,Chicago,Day,36,Male,False,Sword,50,1
+687,Burglary,New York City,Night,21,Female,True,Gun,25,1
+688,Assault,Los Angeles,Day,25,Male,True,Knife,22,0
+689,Theft,Chicago,Night,25,Female,True,Sword,10,0
+690,Burglary,New York City,Day,40,Male,False,Gun,14,1
+691,Assault,Los Angeles,Night,38,Female,True,Knife,26,1
+692,Theft,Chicago,Day,48,Male,True,Sword,11,1
+693,Burglary,New York City,Night,47,Female,True,Gun,12,1
+694,Assault,Los Angeles,Day,21,Male,False,Knife,49,0
+695,Theft,Chicago,Night,48,Female,False,Sword,50,1
+696,Burglary,New York City,Day,17,Male,False,Gun,24,1
+697,Assault,Los Angeles,Night,18,Female,False,Knife,46,1
+698,Theft,Chicago,Day,50,Male,True,Sword,28,1
+699,Burglary,New York City,Night,32,Female,False,Gun,34,1
+700,Assault,Los Angeles,Day,32,Male,True,Knife,9,1
+701,Theft,Chicago,Night,24,Female,False,Sword,45,0
+702,Burglary,New York City,Day,48,Male,False,Gun,6,1
+703,Assault,Los Angeles,Night,36,Female,True,Knife,38,1
+704,Theft,Chicago,Day,29,Male,True,Sword,19,0
+705,Burglary,New York City,Night,49,Female,True,Gun,28,1
+706,Assault,Los Angeles,Day,29,Male,False,Knife,24,0
+707,Theft,Chicago,Night,28,Female,False,Sword,27,0
+708,Burglary,New York City,Day,25,Male,True,Gun,31,1
+709,Assault,Los Angeles,Night,24,Female,True,Knife,51,0
+710,Theft,Chicago,Day,33,Male,True,Sword,16,1
+711,Burglary,New York City,Night,40,Female,True,Gun,51,1
+712,Assault,Los Angeles,Day,41,Male,False,Knife,10,1
+713,Theft,Chicago,Night,34,Female,False,Sword,10,1
+714,Burglary,New York City,Day,23,Male,False,Gun,43,1
+715,Assault,Los Angeles,Night,30,Female,False,Knife,2,0
+716,Theft,Chicago,Day,32,Male,False,Sword,31,1
+717,Burglary,New York City,Night,50,Female,True,Gun,37,1
+718,Assault,Los Angeles,Day,27,Male,True,Knife,32,0
+719,Theft,Chicago,Night,33,Female,False,Sword,57,1
+720,Burglary,New York City,Day,37,Male,False,Gun,30,1
+721,Assault,Los Angeles,Night,35,Female,True,Knife,35,1
+722,Theft,Chicago,Day,31,Male,False,Sword,39,1
+723,Burglary,New York City,Night,19,Female,True,Gun,47,1
+724,Assault,Los Angeles,Day,35,Male,False,Knife,39,1
+725,Theft,Chicago,Night,31,Female,True,Sword,39,1
+726,Burglary,New York City,Day,17,Male,False,Gun,51,1
+727,Assault,Los Angeles,Night,44,Female,False,Knife,25,1
+728,Theft,Chicago,Day,47,Male,True,Sword,39,1
+729,Burglary,New York City,Night,40,Female,False,Gun,53,1
+730,Assault,Los Angeles,Day,38,Male,False,Knife,27,1
+731,Theft,Chicago,Night,42,Female,False,Sword,29,1
+732,Burglary,New York City,Day,39,Male,False,Gun,27,1
+733,Assault,Los Angeles,Night,21,Female,True,Knife,46,0
+734,Theft,Chicago,Day,30,Male,False,Sword,37,0
+735,Burglary,New York City,Night,28,Female,False,Gun,12,1
+736,Assault,Los Angeles,Day,44,Male,False,Knife,27,1
+737,Theft,Chicago,Night,23,Female,True,Sword,29,0
+738,Burglary,New York City,Day,18,Male,False,Gun,30,1
+739,Assault,Los Angeles,Night,38,Female,True,Knife,10,1
+740,Theft,Chicago,Day,45,Male,True,Sword,59,1
+741,Burglary,New York City,Night,38,Female,True,Gun,4,1
+742,Assault,Los Angeles,Day,21,Male,False,Knife,30,0
+743,Theft,Chicago,Night,45,Female,False,Sword,51,1
+744,Burglary,New York City,Day,21,Male,True,Gun,9,1
+745,Assault,Los Angeles,Night,29,Female,False,Knife,44,0
+746,Theft,Chicago,Day,49,Male,True,Sword,53,1
+747,Burglary,New York City,Night,35,Female,False,Gun,14,1
+748,Assault,Los Angeles,Day,49,Male,True,Knife,1,1
+749,Theft,Chicago,Night,35,Female,False,Sword,57,1
+750,Burglary,New York City,Day,27,Male,True,Gun,37,1
+751,Assault,Los Angeles,Night,47,Female,True,Knife,4,1
+752,Theft,Chicago,Day,23,Male,True,Sword,9,0
+753,Burglary,New York City,Night,21,Female,True,Gun,53,1
+754,Assault,Los Angeles,Day,25,Male,False,Knife,12,0
+755,Theft,Chicago,Night,37,Female,False,Sword,19,1
+756,Burglary,New York City,Day,46,Male,False,Gun,49,1
+757,Assault,Los Angeles,Night,23,Female,False,Knife,42,0
+758,Theft,Chicago,Day,46,Male,True,Sword,38,1
+759,Burglary,New York City,Night,25,Female,False,Gun,30,1
+760,Assault,Los Angeles,Day,32,Male,True,Knife,54,1
+761,Theft,Chicago,Night,35,Female,False,Sword,23,1
+762,Burglary,New York City,Day,41,Male,True,Gun,24,1
+763,Assault,Los Angeles,Night,35,Female,False,Knife,44,1
+764,Theft,Chicago,Day,32,Male,True,Sword,33,1
+765,Burglary,New York City,Night,36,Female,True,Gun,20,1
+766,Assault,Los Angeles,Day,39,Male,True,Knife,28,1
+767,Theft,Chicago,Night,22,Female,False,Sword,19,0
+768,Burglary,New York City,Day,32,Male,False,Gun,5,1
+769,Assault,Los Angeles,Night,48,Female,False,Knife,44,1
+770,Theft,Chicago,Day,50,Male,True,Sword,35,1
+771,Burglary,New York City,Night,35,Female,False,Gun,17,1
+772,Assault,Los Angeles,Day,36,Male,False,Knife,15,1
+773,Theft,Chicago,Night,20,Female,True,Sword,58,1
+774,Burglary,New York City,Day,41,Male,True,Gun,57,1
+775,Assault,Los Angeles,Night,18,Female,True,Knife,47,1
+776,Theft,Chicago,Day,48,Male,True,Sword,20,1
+777,Burglary,New York City,Night,36,Female,False,Gun,8,1
+778,Assault,Los Angeles,Day,25,Male,True,Knife,11,0
+779,Theft,Chicago,Night,29,Female,False,Sword,3,0
+780,Burglary,New York City,Day,19,Male,True,Gun,59,1
+781,Assault,Los Angeles,Night,36,Female,False,Knife,12,1
+782,Theft,Chicago,Day,43,Male,False,Sword,43,1
+783,Burglary,New York City,Night,36,Female,False,Gun,2,1
+784,Assault,Los Angeles,Day,20,Male,False,Knife,29,1
+785,Theft,Chicago,Night,32,Female,False,Sword,15,1
+786,Burglary,New York City,Day,48,Male,True,Gun,23,1
+787,Assault,Los Angeles,Night,16,Female,False,Knife,22,1
+788,Theft,Chicago,Day,33,Male,False,Sword,56,1
+789,Burglary,New York City,Night,26,Female,False,Gun,55,1
+790,Assault,Los Angeles,Day,37,Male,False,Knife,1,1
+791,Theft,Chicago,Night,21,Female,False,Sword,32,0
+792,Burglary,New York City,Day,17,Male,True,Gun,17,1
+793,Assault,Los Angeles,Night,50,Female,True,Knife,15,1
+794,Theft,Chicago,Day,44,Male,False,Sword,57,1
+795,Burglary,New York City,Night,44,Female,True,Gun,4,1
+796,Assault,Los Angeles,Day,36,Male,False,Knife,14,1
+797,Theft,Chicago,Night,24,Female,True,Sword,26,0
+798,Burglary,New York City,Day,41,Male,True,Gun,12,1
+799,Assault,Los Angeles,Night,42,Female,True,Knife,4,1
+800,Theft,Chicago,Day,26,Male,True,Sword,19,0
+801,Burglary,New York City,Night,46,Female,False,Gun,49,1
+802,Assault,Los Angeles,Day,35,Male,False,Knife,31,1
+803,Theft,Chicago,Night,50,Female,True,Sword,28,1
+804,Burglary,New York City,Day,43,Male,True,Gun,13,1
+805,Assault,Los Angeles,Night,19,Female,False,Knife,56,1
+806,Theft,Chicago,Day,26,Male,True,Sword,13,0
+807,Burglary,New York City,Night,17,Female,False,Gun,55,1
+808,Assault,Los Angeles,Day,45,Male,True,Knife,22,1
+809,Theft,Chicago,Night,49,Female,False,Sword,25,1
+810,Burglary,New York City,Day,47,Male,False,Gun,57,1
+811,Assault,Los Angeles,Night,42,Female,True,Knife,7,1
+812,Theft,Chicago,Day,18,Male,False,Sword,15,1
+813,Burglary,New York City,Night,30,Female,True,Gun,6,1
+814,Assault,Los Angeles,Day,48,Male,True,Knife,47,1
+815,Theft,Chicago,Night,47,Female,False,Sword,20,1
+816,Burglary,New York City,Day,37,Male,False,Gun,36,1
+817,Assault,Los Angeles,Night,27,Female,True,Knife,11,0
+818,Theft,Chicago,Day,45,Male,True,Sword,59,1
+819,Burglary,New York City,Night,47,Female,True,Gun,33,1
+820,Assault,Los Angeles,Day,46,Male,True,Knife,59,1
+821,Theft,Chicago,Night,17,Female,False,Sword,15,1
+822,Burglary,New York City,Day,19,Male,False,Gun,43,1
+823,Assault,Los Angeles,Night,17,Female,False,Knife,9,1
+824,Theft,Chicago,Day,17,Male,True,Sword,33,1
+825,Burglary,New York City,Night,22,Female,True,Gun,5,1
+826,Assault,Los Angeles,Day,24,Male,True,Knife,34,0
+827,Theft,Chicago,Night,20,Female,True,Sword,30,1
+828,Burglary,New York City,Day,30,Male,False,Gun,37,1
+829,Assault,Los Angeles,Night,22,Female,True,Knife,46,0
+830,Theft,Chicago,Day,26,Male,True,Sword,11,0
+831,Burglary,New York City,Night,34,Female,False,Gun,48,1
+832,Assault,Los Angeles,Day,26,Male,False,Knife,12,0
+833,Theft,Chicago,Night,38,Female,True,Sword,59,1
+834,Burglary,New York City,Day,48,Male,False,Gun,14,1
+835,Assault,Los Angeles,Night,22,Female,True,Knife,15,0
+836,Theft,Chicago,Day,50,Male,False,Sword,32,1
+837,Burglary,New York City,Night,27,Female,False,Gun,14,1
+838,Assault,Los Angeles,Day,36,Male,True,Knife,31,1
+839,Theft,Chicago,Night,23,Female,False,Sword,55,0
+840,Burglary,New York City,Day,47,Male,False,Gun,11,1
+841,Assault,Los Angeles,Night,36,Female,False,Knife,15,1
+842,Theft,Chicago,Day,35,Male,True,Sword,14,1
+843,Burglary,New York City,Night,38,Female,False,Gun,24,1
+844,Assault,Los Angeles,Day,28,Male,False,Knife,31,0
+845,Theft,Chicago,Night,49,Female,False,Sword,38,1
+846,Burglary,New York City,Day,17,Male,True,Gun,50,1
+847,Assault,Los Angeles,Night,43,Female,True,Knife,4,1
+848,Theft,Chicago,Day,32,Male,True,Sword,18,1
+849,Burglary,New York City,Night,43,Female,False,Gun,1,1
+850,Assault,Los Angeles,Day,35,Male,False,Knife,27,1
+851,Theft,Chicago,Night,47,Female,True,Sword,52,1
+852,Burglary,New York City,Day,50,Male,True,Gun,46,1
+853,Assault,Los Angeles,Night,31,Female,False,Knife,55,1
+854,Theft,Chicago,Day,24,Male,False,Sword,30,0
+855,Burglary,New York City,Night,31,Female,True,Gun,51,1
+856,Assault,Los Angeles,Day,38,Male,True,Knife,11,1
+857,Theft,Chicago,Night,26,Female,False,Sword,51,0
+858,Burglary,New York City,Day,22,Male,False,Gun,36,1
+859,Assault,Los Angeles,Night,32,Female,False,Knife,9,1
+860,Theft,Chicago,Day,47,Male,False,Sword,3,1
+861,Burglary,New York City,Night,30,Female,True,Gun,15,1
+862,Assault,Los Angeles,Day,23,Male,True,Knife,35,0
+863,Theft,Chicago,Night,37,Female,True,Sword,23,1
+864,Burglary,New York City,Day,20,Male,False,Gun,47,1
+865,Assault,Los Angeles,Night,21,Female,True,Knife,35,0
+866,Theft,Chicago,Day,48,Male,True,Sword,37,1
+867,Burglary,New York City,Night,37,Female,True,Gun,6,1
+868,Assault,Los Angeles,Day,22,Male,False,Knife,2,0
+869,Theft,Chicago,Night,46,Female,True,Sword,12,1
+870,Burglary,New York City,Day,41,Male,True,Gun,56,1
+871,Assault,Los Angeles,Night,33,Female,False,Knife,23,1
+872,Theft,Chicago,Day,27,Male,False,Sword,1,0
+873,Burglary,New York City,Night,35,Female,True,Gun,58,1
+874,Assault,Los Angeles,Day,37,Male,True,Knife,3,1
+875,Theft,Chicago,Night,20,Female,False,Sword,3,1
+876,Burglary,New York City,Day,31,Male,True,Gun,6,1
+877,Assault,Los Angeles,Night,16,Female,False,Knife,48,1
+878,Theft,Chicago,Day,47,Male,True,Sword,20,1
+879,Burglary,New York City,Night,24,Female,False,Gun,54,1
+880,Assault,Los Angeles,Day,23,Male,False,Knife,2,0
+881,Theft,Chicago,Night,50,Female,False,Sword,45,1
+882,Burglary,New York City,Day,22,Male,False,Gun,22,1
+883,Assault,Los Angeles,Night,38,Female,True,Knife,12,1
+884,Theft,Chicago,Day,25,Male,True,Sword,55,0
+885,Burglary,New York City,Night,31,Female,False,Gun,28,1
+886,Assault,Los Angeles,Day,30,Male,True,Knife,48,0
+887,Theft,Chicago,Night,19,Female,False,Sword,12,1
+888,Burglary,New York City,Day,27,Male,True,Gun,30,1
+889,Assault,Los Angeles,Night,49,Female,False,Knife,57,1
+890,Theft,Chicago,Day,47,Male,True,Sword,2,1
+891,Burglary,New York City,Night,16,Female,False,Gun,28,1
+892,Assault,Los Angeles,Day,48,Male,False,Knife,50,1
+893,Theft,Chicago,Night,24,Female,False,Sword,57,0
+894,Burglary,New York City,Day,45,Male,False,Gun,49,1
+895,Assault,Los Angeles,Night,49,Female,True,Knife,8,1
+896,Theft,Chicago,Day,30,Male,True,Sword,6,0
+897,Burglary,New York City,Night,36,Female,False,Gun,52,1
+898,Assault,Los Angeles,Day,44,Male,True,Knife,15,1
+899,Theft,Chicago,Night,45,Female,True,Sword,48,1
+900,Burglary,New York City,Day,34,Male,True,Gun,19,1
+901,Assault,Los Angeles,Night,35,Female,True,Knife,15,1
+902,Theft,Chicago,Day,35,Male,False,Sword,47,1
+903,Burglary,New York City,Night,38,Female,False,Gun,21,1
+904,Assault,Los Angeles,Day,33,Male,True,Knife,8,1
+905,Theft,Chicago,Night,42,Female,True,Sword,28,1
+906,Burglary,New York City,Day,19,Male,True,Gun,3,1
+907,Assault,Los Angeles,Night,22,Female,False,Knife,51,0
+908,Theft,Chicago,Day,48,Male,True,Sword,41,1
+909,Burglary,New York City,Night,29,Female,True,Gun,35,1
+910,Assault,Los Angeles,Day,22,Male,False,Knife,53,0
+911,Theft,Chicago,Night,48,Female,False,Sword,57,1
+912,Burglary,New York City,Day,36,Male,False,Gun,21,1
+913,Assault,Los Angeles,Night,39,Female,False,Knife,50,1
+914,Theft,Chicago,Day,17,Male,True,Sword,8,1
+915,Burglary,New York City,Night,29,Female,False,Gun,50,1
+916,Assault,Los Angeles,Day,29,Male,False,Knife,51,0
+917,Theft,Chicago,Night,24,Female,False,Sword,5,0
+918,Burglary,New York City,Day,49,Male,True,Gun,43,1
+919,Assault,Los Angeles,Night,49,Female,True,Knife,31,1
+920,Theft,Chicago,Day,25,Male,True,Sword,8,0
+921,Burglary,New York City,Night,43,Female,True,Gun,17,1
+922,Assault,Los Angeles,Day,22,Male,True,Knife,12,0
+923,Theft,Chicago,Night,49,Female,False,Sword,2,1
+924,Burglary,New York City,Day,22,Male,True,Gun,24,1
+925,Assault,Los Angeles,Night,21,Female,True,Knife,21,0
+926,Theft,Chicago,Day,41,Male,False,Sword,40,1
+927,Burglary,New York City,Night,24,Female,False,Gun,47,1
+928,Assault,Los Angeles,Day,17,Male,False,Knife,35,1
+929,Theft,Chicago,Night,36,Female,False,Sword,39,1
+930,Burglary,New York City,Day,42,Male,False,Gun,21,1
+931,Assault,Los Angeles,Night,29,Female,True,Knife,36,0
+932,Theft,Chicago,Day,31,Male,False,Sword,7,1
+933,Burglary,New York City,Night,19,Female,True,Gun,9,1
+934,Assault,Los Angeles,Day,28,Male,False,Knife,27,0
+935,Theft,Chicago,Night,44,Female,False,Sword,41,1
+936,Burglary,New York City,Day,39,Male,False,Gun,51,1
+937,Assault,Los Angeles,Night,46,Female,False,Knife,4,1
+938,Theft,Chicago,Day,48,Male,True,Sword,25,1
+939,Burglary,New York City,Night,31,Female,False,Gun,11,1
+940,Assault,Los Angeles,Day,48,Male,False,Knife,19,1
+941,Theft,Chicago,Night,17,Female,True,Sword,17,1
+942,Burglary,New York City,Day,39,Male,True,Gun,59,1
+943,Assault,Los Angeles,Night,33,Female,False,Knife,32,1
+944,Theft,Chicago,Day,36,Male,True,Sword,12,1
+945,Burglary,New York City,Night,30,Female,True,Gun,18,1
+946,Assault,Los Angeles,Day,45,Male,True,Knife,59,1
+947,Theft,Chicago,Night,20,Female,False,Sword,51,1
+948,Burglary,New York City,Day,31,Male,True,Gun,55,1
+949,Assault,Los Angeles,Night,19,Female,False,Knife,57,1
+950,Theft,Chicago,Day,33,Male,False,Sword,31,1
+951,Burglary,New York City,Night,30,Female,True,Gun,57,1
+952,Assault,Los Angeles,Day,42,Male,True,Knife,5,1
+953,Theft,Chicago,Night,50,Female,True,Sword,7,1
+954,Burglary,New York City,Day,33,Male,True,Gun,14,1
+955,Assault,Los Angeles,Night,20,Female,False,Knife,48,1
+956,Theft,Chicago,Day,25,Male,True,Sword,59,0
+957,Burglary,New York City,Night,23,Female,False,Gun,57,1
+958,Assault,Los Angeles,Day,23,Male,True,Knife,14,0
+959,Theft,Chicago,Night,35,Female,False,Sword,35,1
+960,Burglary,New York City,Day,20,Male,False,Gun,37,1
+961,Assault,Los Angeles,Night,50,Female,True,Knife,4,1
+962,Theft,Chicago,Day,37,Male,False,Sword,45,1
+963,Burglary,New York City,Night,24,Female,True,Gun,5,1
+964,Assault,Los Angeles,Day,20,Male,True,Knife,55,1
+965,Theft,Chicago,Night,48,Female,False,Sword,16,1
+966,Burglary,New York City,Day,34,Male,True,Gun,42,1
+967,Assault,Los Angeles,Night,37,Female,True,Knife,24,1
+968,Theft,Chicago,Day,42,Male,True,Sword,15,1
+969,Burglary,New York City,Night,50,Female,False,Gun,11,1
+970,Assault,Los Angeles,Day,28,Male,False,Knife,11,0
+971,Theft,Chicago,Night,32,Female,True,Sword,46,1
+972,Burglary,New York City,Day,42,Male,False,Gun,17,1
+973,Assault,Los Angeles,Night,50,Female,True,Knife,23,1
+974,Theft,Chicago,Day,33,Male,False,Sword,52,1
+975,Burglary,New York City,Night,43,Female,True,Gun,44,1
+976,Assault,Los Angeles,Day,38,Male,True,Knife,18,1
+977,Theft,Chicago,Night,23,Female,True,Sword,58,0
+978,Burglary,New York City,Day,19,Male,False,Gun,38,1
+979,Assault,Los Angeles,Night,44,Female,False,Knife,14,1
+980,Theft,Chicago,Day,36,Male,True,Sword,8,1
+981,Burglary,New York City,Night,42,Female,False,Gun,49,1
+982,Assault,Los Angeles,Day,22,Male,True,Knife,19,0
+983,Theft,Chicago,Night,35,Female,True,Sword,42,1
+984,Burglary,New York City,Day,42,Male,True,Gun,28,1
+985,Assault,Los Angeles,Night,41,Female,True,Knife,43,1
+986,Theft,Chicago,Day,19,Male,False,Sword,41,1
+987,Burglary,New York City,Night,35,Female,True,Gun,43,1
+988,Assault,Los Angeles,Day,27,Male,False,Knife,5,0
+989,Theft,Chicago,Night,42,Female,True,Sword,59,1
+990,Burglary,New York City,Day,40,Male,True,Gun,54,1
+991,Assault,Los Angeles,Night,44,Female,True,Knife,3,1
+992,Theft,Chicago,Day,27,Male,False,Sword,28,0
+993,Burglary,New York City,Night,22,Female,True,Gun,55,1
+994,Assault,Los Angeles,Day,29,Male,True,Knife,39,0
+995,Theft,Chicago,Night,40,Female,True,Sword,17,1
+996,Burglary,New York City,Day,41,Male,True,Gun,34,1
+997,Assault,Los Angeles,Night,37,Female,True,Knife,25,1
+998,Theft,Chicago,Day,18,Male,False,Sword,27,1
+999,Burglary,New York City,Night,33,Female,True,Gun,10,1

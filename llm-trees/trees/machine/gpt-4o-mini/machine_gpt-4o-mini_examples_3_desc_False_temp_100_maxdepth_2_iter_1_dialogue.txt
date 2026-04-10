@@ -1,0 +1,76 @@
+To construct a decision tree classifier for machine status classification based on the provided features (Temperature, Vibration, Power_Usage, Humidity, Machine_Type), we will follow a similar approach to the example you provided for flowers, using hypothetical splits based on which features might be most indicative of the machine status (normal operation / at risk of failure).
+
+Given the need for a maximum depth of 2 and the requirement for the most important features, here is an example decision tree:
+
+Decision Tree:
+```
+|--- Vibration <= 0.5
+|   |--- class: Normal Operation
+|--- Vibration > 0.5
+|   |--- Temperature <= 75
+|   |   |--- class: At Risk of Failure
+|   |--- Temperature > 75
+|   |   |--- class: Normal Operation
+```
+
+### Explanation:
+1. **Vibration <= 0.5**: If the vibration is low, it indicates that the machine is likely operating normally, so we classify it as "Normal Operation".
+2. **Vibration > 0.5**: If the vibration is higher, we need to check the temperature as the next feature.
+   - **Temperature <= 75**: A high vibration combined with a lower temperature may indicate instability, leading us to classify it as "At Risk of Failure".
+   - **Temperature > 75**: A high vibration along with a higher temperature indicates that the machine is capable of operating normally despite the vibration, so we classify it as "Normal Operation".
+
+This decision tree is a simplistic representation and would require real training data to derive accurate thresholds and classes. The splits chosen here are for illustrative purposes based on common interpretations of the features.
+
+
+#########################
+
+
+Based on your request and the structure of the earlier examples, here's a Python function that implements the decision tree for machine status classification, maintaining the specified format and returning both the prediction and the truth values of the inner nodes.
+
+### Decision Tree Function
+```python
+def predict(X: dict):
+    nodes = 3 * [None]  # Initialize the node list to hold truth values of inner nodes
+    
+    # Set thresholds for inner decision nodes
+    nodes[0] = X["Vibration"] <= 0.5           # Check vibration level
+    nodes[1] = X["Temperature"] <= 75           # Check temperature level (only assessed if vibration > 0.5)
+    
+    if nodes[0]:
+        prediction = 0  # Normal Operation
+    else:
+        if nodes[1]:
+            prediction = 1  # At Risk of Failure
+        else:
+            prediction = 0  # Normal Operation
+            
+    return prediction, nodes
+```
+
+### Explanation of the Function:
+1. **Input**: The function takes a dictionary `X` containing the features for prediction.
+2. **Node Evaluation**:
+   - `nodes[0]`: Checks if `Vibration` is less than or equal to 0.5.
+   - `nodes[1]`: Checked only if `Vibration` is greater than 0.5 and determines whether `Temperature` is less than or equal to 75.
+3. **Decision Logic**:
+   - If `nodes[0]` is True, the prediction is `0` (Normal Operation).
+   - If `nodes[0]` is False, it checks `nodes[1]`. If `nodes[1]` is True, it predicts `1` (At Risk of Failure); otherwise, it predicts `0` (Normal Operation).
+4. **Return Values**: The function returns the prediction (0 or 1) and the list of truth values for the inner nodes.
+
+### Example Usage
+```python
+features = {
+    "Temperature": 70,
+    "Vibration": 0.3,
+    "Power_Usage": 150,
+    "Humidity": 30,
+    "Machine_Type": "Mill",
+    "Target variable": 0,
+    "target": 0
+}
+
+prediction, node_truths = predict(features)
+print(f"Prediction: {prediction}, Nodes truth values: {node_truths}")
+```
+
+This will evaluate the input features and return the prediction based on the simple decision tree structure we've constructed.

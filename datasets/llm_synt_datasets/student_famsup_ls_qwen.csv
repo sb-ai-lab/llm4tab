@@ -1,0 +1,1001 @@
+,age,gender,parent_education_level,household_income,parent_occupation,student_grade_level,study_hours_week,extracurricular_activities,school_type,family_size,internet_access_at_home,parent_involvement,student_gpa,label
+0,18,Female,Master's,129354,Engineer,9th,20,Yes,Private,1,No,1,2.0,0
+1,15,Male,None,142428,Service,8th,16,No,Charter,8,No,3,2.8,0
+2,24,Other,Bachelor's,22061,Healthcare,9th,21,Yes,Public,4,No,3,2.1,0
+3,22,Male,High School,138988,Service,11th,47,No,Private,5,No,3,2.2,0
+4,19,Female,Master's,73817,Healthcare,7th,36,Yes,Private,8,No,2,1.7,0
+5,24,Female,None,38736,Healthcare,11th,14,No,Private,5,Yes,3,1.2,0
+6,16,Male,Master's,68870,Unemployed,9th,34,Yes,Public,10,Yes,1,1.9,1
+7,18,Other,None,147004,Engineer,10th,27,Yes,Private,4,Yes,4,0.5,1
+8,21,Female,PhD,73892,Engineer,12th,6,No,Private,6,Yes,4,3.8,1
+9,14,Female,Master's,49312,Healthcare,9th,31,Yes,Private,5,Yes,5,2.9,1
+10,18,Other,Master's,95010,Engineer,6th,10,Yes,Private,7,No,1,3.8,0
+11,22,Female,Master's,36021,Teacher,9th,9,Yes,Charter,10,Yes,3,0.9,0
+12,22,Male,PhD,11379,Healthcare,10th,8,No,Private,7,Yes,4,3.5,1
+13,19,Female,High School,19331,Engineer,6th,13,Yes,Public,4,No,1,3.2,0
+14,16,Female,None,19206,Teacher,8th,12,No,Private,5,Yes,4,2.7,0
+15,15,Other,Master's,22785,Unemployed,6th,24,No,Private,3,Yes,3,2.5,0
+16,19,Male,PhD,20824,Engineer,11th,1,No,Charter,4,Yes,4,1.3,1
+17,19,Other,High School,96131,Teacher,7th,34,Yes,Private,4,Yes,5,3.3,1
+18,14,Female,None,27282,Service,11th,6,No,Charter,3,No,5,2.0,0
+19,17,Female,PhD,51850,Service,12th,20,No,Public,10,No,4,0.3,1
+20,16,Other,None,134518,Teacher,6th,17,Yes,Charter,5,Yes,1,1.3,1
+21,13,Other,Master's,71094,Healthcare,8th,2,No,Private,5,No,1,3.7,0
+22,19,Other,High School,100133,Healthcare,9th,41,No,Public,7,Yes,1,3.4,1
+23,23,Male,PhD,25847,Engineer,6th,38,Yes,Private,4,No,4,3.9,1
+24,25,Female,High School,28843,Service,11th,40,Yes,Charter,4,No,1,2.5,0
+25,17,Other,Master's,6130,Healthcare,6th,48,No,Public,9,No,3,1.0,0
+26,13,Female,High School,25340,Healthcare,6th,10,Yes,Public,6,No,5,0.7,0
+27,23,Male,High School,41788,Service,6th,38,Yes,Charter,4,No,3,0.7,0
+28,16,Male,Bachelor's,26551,Unemployed,8th,23,Yes,Charter,2,No,1,0.1,0
+29,12,Male,High School,13305,Healthcare,10th,45,No,Public,6,No,3,1.6,0
+30,23,Male,None,18095,Teacher,10th,18,No,Public,2,No,1,0.8,0
+31,21,Female,PhD,69116,Engineer,6th,3,Yes,Charter,5,No,4,1.6,1
+32,17,Male,Bachelor's,30950,Healthcare,8th,25,No,Private,6,No,3,3.7,1
+33,24,Male,PhD,54640,Healthcare,8th,37,Yes,Public,4,No,4,1.7,1
+34,23,Other,PhD,75512,Unemployed,12th,41,Yes,Charter,3,Yes,4,3.5,1
+35,20,Male,Master's,103559,Teacher,6th,31,Yes,Private,7,No,2,2.4,0
+36,12,Other,Master's,5896,Engineer,11th,38,Yes,Public,2,Yes,1,1.0,0
+37,22,Male,Bachelor's,119911,Healthcare,11th,44,Yes,Public,6,No,5,1.4,1
+38,22,Male,Master's,94185,Engineer,7th,45,No,Charter,4,Yes,1,0.3,1
+39,21,Other,Master's,12263,Service,6th,35,No,Private,6,Yes,5,1.3,1
+40,23,Male,Master's,131036,Healthcare,7th,39,No,Public,4,Yes,1,2.7,1
+41,23,Female,PhD,138130,Healthcare,11th,36,No,Private,4,No,4,0.3,1
+42,25,Female,Bachelor's,9161,Service,11th,32,Yes,Private,4,No,3,0.8,0
+43,25,Male,PhD,41531,Unemployed,6th,35,Yes,Public,9,No,3,1.5,0
+44,25,Female,None,120930,Healthcare,7th,2,No,Private,7,No,2,3.9,0
+45,14,Other,PhD,112238,Engineer,7th,8,No,Public,3,Yes,5,3.1,1
+46,23,Male,None,27678,Teacher,6th,7,Yes,Private,3,No,5,2.9,0
+47,18,Male,High School,31402,Engineer,12th,32,Yes,Public,6,No,5,0.5,0
+48,15,Other,High School,55570,Unemployed,7th,5,Yes,Charter,6,No,4,3.1,0
+49,20,Other,None,72678,Teacher,12th,40,No,Public,4,No,5,3.1,1
+50,14,Other,None,92738,Engineer,9th,38,Yes,Public,9,No,3,2.4,0
+51,16,Male,PhD,55337,Engineer,11th,3,Yes,Public,4,No,4,4.0,1
+52,14,Other,None,69380,Service,10th,12,No,Private,9,No,1,1.3,0
+53,18,Other,Bachelor's,112120,Unemployed,12th,48,No,Charter,4,No,5,3.8,1
+54,16,Female,High School,5502,Service,12th,1,No,Private,2,Yes,5,3.7,0
+55,20,Female,High School,37865,Teacher,12th,4,Yes,Private,2,Yes,1,0.0,0
+56,18,Male,None,107002,Service,8th,43,Yes,Public,5,No,5,1.8,0
+57,13,Female,Master's,134281,Unemployed,7th,26,No,Private,4,No,1,3.9,1
+58,15,Female,Master's,76751,Healthcare,7th,31,Yes,Public,7,No,4,0.4,1
+59,20,Other,None,79817,Healthcare,8th,20,Yes,Charter,5,No,3,2.2,0
+60,23,Other,Bachelor's,16075,Teacher,7th,7,Yes,Private,6,Yes,1,3.9,0
+61,25,Female,Master's,67111,Healthcare,8th,37,No,Private,10,Yes,2,2.2,1
+62,13,Female,None,79892,Service,12th,7,No,Private,4,No,1,0.8,0
+63,21,Female,Bachelor's,36370,Teacher,6th,49,Yes,Public,2,Yes,5,2.3,1
+64,20,Male,Bachelor's,40386,Unemployed,9th,2,Yes,Public,10,Yes,4,0.8,1
+65,21,Male,PhD,56592,Teacher,12th,43,Yes,Private,9,No,4,2.1,1
+66,16,Male,Bachelor's,3010,Teacher,9th,2,Yes,Private,10,No,1,0.3,0
+67,13,Female,Master's,48311,Engineer,11th,21,No,Charter,7,No,3,2.4,0
+68,15,Female,Master's,31717,Engineer,12th,5,No,Charter,4,Yes,2,2.1,0
+69,23,Male,None,49124,Teacher,10th,1,Yes,Charter,3,Yes,4,3.0,0
+70,23,Male,None,17964,Healthcare,7th,22,Yes,Charter,10,No,5,2.5,0
+71,18,Female,Bachelor's,133579,Engineer,10th,43,No,Charter,3,No,5,2.2,1
+72,23,Other,High School,89038,Unemployed,6th,1,Yes,Public,9,Yes,3,2.8,1
+73,24,Male,PhD,101865,Service,9th,37,No,Charter,5,Yes,4,0.6,1
+74,19,Female,High School,118375,Engineer,12th,16,Yes,Charter,3,No,1,2.4,0
+75,14,Female,Bachelor's,74766,Teacher,6th,34,No,Private,5,Yes,5,0.7,1
+76,25,Other,Bachelor's,13038,Healthcare,6th,33,Yes,Public,2,No,3,3.7,1
+77,12,Female,High School,80565,Service,7th,22,Yes,Charter,4,No,4,0.3,0
+78,15,Female,PhD,88026,Engineer,6th,29,No,Charter,10,Yes,4,1.7,1
+79,13,Male,High School,111815,Healthcare,12th,7,No,Charter,2,Yes,4,2.8,1
+80,19,Male,None,64748,Healthcare,12th,21,Yes,Private,2,Yes,4,1.8,1
+81,15,Other,Master's,19137,Healthcare,9th,43,Yes,Private,8,No,4,0.4,1
+82,13,Other,None,42566,Teacher,12th,35,No,Private,1,No,5,2.2,0
+83,25,Female,Master's,54462,Unemployed,10th,4,No,Charter,7,No,3,2.6,0
+84,17,Male,Bachelor's,96887,Healthcare,9th,12,Yes,Private,5,No,4,2.8,1
+85,17,Other,PhD,85616,Service,7th,28,Yes,Charter,8,No,2,1.5,0
+86,21,Other,High School,53414,Engineer,9th,30,No,Public,1,No,2,2.3,0
+87,15,Other,PhD,147977,Service,8th,46,No,Charter,7,Yes,3,1.8,1
+88,17,Female,High School,90866,Teacher,10th,15,No,Private,5,No,1,2.7,0
+89,24,Male,None,35584,Teacher,8th,41,No,Public,4,No,1,2.3,0
+90,13,Other,None,15267,Service,8th,29,No,Charter,7,No,1,2.1,0
+91,21,Male,High School,22928,Unemployed,11th,15,Yes,Public,10,No,2,1.0,0
+92,23,Other,PhD,36893,Teacher,12th,11,Yes,Public,2,Yes,1,0.0,0
+93,13,Other,High School,24102,Teacher,7th,16,No,Public,1,No,5,0.7,0
+94,21,Male,Bachelor's,27985,Service,6th,15,Yes,Charter,1,Yes,4,0.5,1
+95,25,Male,None,42764,Teacher,8th,11,Yes,Private,1,Yes,2,1.8,0
+96,15,Male,Bachelor's,26006,Unemployed,9th,7,No,Charter,5,No,3,2.4,0
+97,25,Female,None,134514,Unemployed,6th,19,Yes,Private,10,No,3,0.9,0
+98,19,Other,None,12035,Unemployed,9th,2,Yes,Charter,7,Yes,4,3.8,0
+99,25,Female,Master's,78676,Engineer,9th,15,Yes,Charter,2,Yes,2,0.0,1
+100,18,Male,Bachelor's,61559,Unemployed,6th,29,No,Charter,10,No,1,3.1,1
+101,23,Other,Bachelor's,147356,Unemployed,6th,44,No,Private,8,Yes,1,2.5,1
+102,20,Female,Master's,16805,Engineer,12th,22,Yes,Charter,4,No,5,1.5,1
+103,25,Other,PhD,59678,Healthcare,9th,27,Yes,Public,3,No,5,0.2,1
+104,19,Female,Bachelor's,145420,Teacher,7th,50,Yes,Charter,10,Yes,1,2.5,1
+105,16,Male,High School,129826,Unemployed,12th,39,Yes,Public,8,No,3,1.5,0
+106,24,Female,Master's,122560,Teacher,10th,4,Yes,Private,2,No,3,3.7,0
+107,13,Other,Bachelor's,38685,Service,11th,19,Yes,Private,3,No,5,2.2,1
+108,16,Other,PhD,25633,Teacher,10th,39,No,Charter,3,Yes,4,3.8,1
+109,19,Other,Bachelor's,100296,Engineer,7th,43,Yes,Charter,10,Yes,1,0.9,1
+110,21,Other,None,139406,Teacher,12th,0,Yes,Charter,1,Yes,5,2.9,1
+111,20,Male,High School,83514,Teacher,11th,29,No,Public,6,No,5,2.5,0
+112,23,Female,Master's,85741,Teacher,12th,20,Yes,Private,2,Yes,1,3.0,1
+113,23,Male,None,41996,Healthcare,6th,19,Yes,Public,1,Yes,1,0.9,0
+114,23,Male,PhD,115423,Healthcare,11th,5,Yes,Public,2,Yes,3,2.7,1
+115,24,Male,None,28056,Service,9th,21,Yes,Charter,6,No,4,2.0,0
+116,20,Other,None,48551,Engineer,10th,17,No,Charter,4,No,4,3.0,0
+117,24,Other,PhD,63815,Teacher,11th,7,Yes,Public,6,Yes,1,1.3,1
+118,24,Other,None,76141,Teacher,9th,38,No,Public,9,Yes,2,3.6,1
+119,12,Female,Master's,36361,Teacher,12th,31,Yes,Charter,10,Yes,5,0.3,1
+120,20,Other,Bachelor's,17225,Teacher,7th,32,Yes,Charter,10,No,5,3.2,1
+121,18,Female,None,91593,Healthcare,11th,15,No,Public,8,Yes,1,3.4,1
+122,20,Other,Master's,43294,Service,9th,11,Yes,Charter,1,No,2,3.3,0
+123,19,Other,Bachelor's,87185,Unemployed,12th,37,No,Charter,8,No,3,2.1,0
+124,12,Male,Bachelor's,23154,Engineer,12th,33,No,Public,9,No,1,1.8,0
+125,23,Male,None,72171,Teacher,12th,13,No,Public,6,Yes,1,4.0,1
+126,19,Male,Master's,79888,Service,7th,35,Yes,Private,10,Yes,5,0.9,1
+127,19,Female,None,7773,Unemployed,6th,32,Yes,Public,5,No,1,2.2,0
+128,22,Female,PhD,50490,Service,7th,22,Yes,Charter,6,No,1,2.7,0
+129,14,Other,Bachelor's,20162,Healthcare,7th,49,Yes,Public,6,No,1,2.8,0
+130,12,Female,None,9506,Unemployed,10th,44,No,Public,9,No,5,0.8,0
+131,19,Other,Bachelor's,148494,Service,12th,1,Yes,Public,4,Yes,3,2.6,1
+132,14,Female,Master's,48353,Healthcare,9th,40,Yes,Private,2,Yes,3,3.3,1
+133,14,Female,High School,121481,Service,11th,20,No,Private,9,No,1,0.2,0
+134,12,Female,None,38196,Service,10th,1,No,Charter,2,No,5,3.6,0
+135,22,Male,None,102225,Unemployed,12th,26,Yes,Private,10,No,3,0.1,0
+136,16,Female,Bachelor's,114034,Healthcare,8th,8,No,Public,9,Yes,3,1.4,1
+137,21,Male,Master's,89345,Teacher,7th,0,No,Private,2,No,3,0.1,0
+138,18,Male,PhD,70736,Engineer,8th,10,No,Public,8,Yes,5,0.3,1
+139,21,Female,Master's,61776,Unemployed,12th,2,No,Private,9,No,5,3.6,1
+140,20,Other,None,52330,Healthcare,10th,22,No,Private,10,Yes,1,1.4,1
+141,23,Other,PhD,139429,Service,9th,25,Yes,Private,9,Yes,4,1.7,1
+142,18,Other,Master's,124592,Healthcare,10th,3,Yes,Public,10,No,3,0.9,0
+143,20,Female,High School,144754,Engineer,9th,17,Yes,Private,9,Yes,4,2.4,1
+144,19,Other,Bachelor's,18644,Engineer,9th,5,Yes,Public,2,Yes,5,2.4,1
+145,23,Male,Master's,109630,Teacher,12th,34,Yes,Public,4,Yes,5,1.5,1
+146,13,Other,Master's,140751,Teacher,6th,21,Yes,Charter,7,Yes,5,1.3,1
+147,12,Female,High School,27184,Engineer,12th,42,Yes,Private,2,No,4,3.5,1
+148,18,Other,None,9974,Unemployed,7th,14,No,Charter,1,No,5,1.5,0
+149,18,Male,Bachelor's,111168,Unemployed,10th,21,Yes,Charter,3,No,1,2.0,0
+150,25,Female,Master's,86170,Service,9th,36,Yes,Public,4,No,5,1.1,1
+151,19,Other,PhD,126274,Teacher,12th,41,Yes,Private,8,No,2,3.1,1
+152,16,Female,Master's,20965,Service,12th,11,No,Public,6,Yes,4,1.6,1
+153,14,Female,Bachelor's,119290,Teacher,10th,46,Yes,Public,2,Yes,2,2.1,1
+154,23,Female,Master's,30244,Engineer,10th,48,Yes,Private,9,Yes,5,1.0,1
+155,19,Other,High School,24548,Unemployed,9th,41,No,Public,2,Yes,1,4.0,1
+156,17,Female,Master's,24639,Unemployed,11th,37,Yes,Private,5,No,3,1.2,0
+157,22,Other,Master's,122186,Engineer,8th,17,Yes,Private,4,No,5,3.1,1
+158,14,Male,PhD,99779,Service,7th,44,No,Public,7,Yes,1,1.7,1
+159,12,Other,High School,78459,Service,7th,34,Yes,Public,8,No,4,0.8,0
+160,14,Male,High School,53824,Healthcare,11th,29,No,Charter,5,Yes,2,3.2,1
+161,16,Other,Master's,131580,Teacher,6th,23,Yes,Public,10,Yes,2,1.3,1
+162,25,Female,PhD,58866,Service,11th,41,Yes,Private,5,No,2,3.5,1
+163,14,Other,Master's,122489,Engineer,6th,29,Yes,Charter,2,No,4,3.7,1
+164,12,Female,Master's,65870,Service,6th,13,No,Private,8,No,1,3.4,0
+165,16,Male,Bachelor's,56541,Unemployed,11th,5,No,Charter,2,No,4,0.1,1
+166,21,Other,Bachelor's,69401,Teacher,7th,2,No,Public,10,No,2,3.1,0
+167,18,Female,PhD,45206,Healthcare,8th,15,Yes,Public,6,No,5,1.6,1
+168,25,Male,None,112141,Teacher,7th,6,Yes,Public,8,No,3,3.5,0
+169,18,Male,Bachelor's,75408,Unemployed,12th,13,No,Private,6,Yes,4,2.6,1
+170,22,Other,None,34831,Unemployed,7th,8,No,Charter,4,No,4,3.3,0
+171,20,Male,High School,134936,Unemployed,7th,14,Yes,Private,4,Yes,1,2.0,1
+172,21,Female,Bachelor's,57583,Unemployed,11th,20,Yes,Charter,6,Yes,1,2.1,1
+173,21,Male,Bachelor's,81532,Engineer,11th,34,Yes,Public,4,No,4,0.6,1
+174,23,Male,PhD,135970,Healthcare,12th,1,Yes,Private,8,Yes,2,3.1,1
+175,24,Female,None,93635,Unemployed,12th,26,No,Public,9,No,3,1.7,0
+176,14,Male,Bachelor's,17534,Unemployed,11th,1,Yes,Private,1,Yes,1,2.0,0
+177,18,Male,Bachelor's,140974,Service,7th,34,Yes,Public,4,Yes,2,3.1,1
+178,12,Male,PhD,94156,Healthcare,8th,17,Yes,Private,4,Yes,5,2.4,1
+179,15,Male,PhD,50235,Teacher,6th,13,Yes,Private,2,No,1,0.8,0
+180,24,Female,None,20890,Healthcare,10th,19,Yes,Charter,6,Yes,2,2.4,0
+181,15,Male,High School,119103,Healthcare,6th,17,Yes,Public,3,Yes,2,1.6,1
+182,25,Female,High School,93010,Healthcare,12th,9,Yes,Charter,7,Yes,3,1.9,1
+183,16,Male,Master's,80019,Unemployed,12th,24,No,Charter,5,No,3,0.1,0
+184,18,Male,Bachelor's,134083,Unemployed,6th,1,No,Public,4,Yes,5,0.8,1
+185,18,Male,None,118289,Engineer,10th,24,No,Private,5,No,2,1.1,0
+186,24,Male,Bachelor's,22751,Teacher,7th,32,Yes,Charter,8,Yes,2,2.9,0
+187,22,Female,None,46758,Service,8th,35,No,Public,3,Yes,3,0.0,0
+188,24,Female,None,37273,Healthcare,8th,30,Yes,Private,7,Yes,1,1.6,0
+189,15,Female,None,111591,Teacher,6th,13,Yes,Charter,6,No,1,3.7,0
+190,24,Other,Bachelor's,5029,Teacher,10th,0,Yes,Charter,1,Yes,4,0.4,1
+191,18,Male,PhD,85483,Engineer,12th,45,Yes,Charter,7,Yes,3,2.1,1
+192,22,Male,Bachelor's,114368,Service,9th,15,No,Private,7,Yes,4,3.1,1
+193,14,Female,None,131514,Healthcare,7th,45,Yes,Charter,1,Yes,3,3.8,1
+194,17,Other,Master's,51312,Service,6th,2,Yes,Private,9,No,5,3.0,1
+195,23,Male,High School,123188,Engineer,8th,34,No,Charter,6,Yes,2,2.9,1
+196,13,Female,None,16594,Unemployed,12th,40,No,Public,2,Yes,5,3.3,1
+197,21,Male,Master's,126967,Teacher,11th,5,No,Charter,5,Yes,3,1.8,1
+198,24,Male,PhD,19123,Healthcare,11th,24,Yes,Public,4,Yes,2,3.2,1
+199,25,Female,None,59593,Unemployed,10th,12,No,Public,7,No,1,0.0,0
+200,20,Female,Master's,119594,Engineer,10th,33,Yes,Public,8,Yes,1,3.7,1
+201,16,Male,None,22487,Service,6th,7,Yes,Private,1,Yes,4,1.8,0
+202,17,Male,Bachelor's,34387,Teacher,9th,20,No,Public,5,No,3,2.2,0
+203,23,Female,Master's,108337,Healthcare,8th,33,No,Charter,3,Yes,3,1.0,1
+204,23,Male,Bachelor's,108005,Unemployed,6th,3,No,Private,1,Yes,1,3.0,1
+205,23,Male,Bachelor's,96172,Unemployed,9th,24,Yes,Public,3,Yes,5,0.3,1
+206,23,Female,Master's,104092,Teacher,12th,14,Yes,Private,6,No,2,3.5,0
+207,15,Male,High School,81408,Service,10th,3,Yes,Private,7,Yes,5,3.3,1
+208,25,Male,Master's,37769,Engineer,11th,44,Yes,Private,8,No,5,0.9,1
+209,25,Other,High School,51854,Service,7th,11,Yes,Charter,4,No,1,3.2,0
+210,22,Female,None,27239,Service,12th,31,Yes,Public,3,No,1,3.1,1
+211,21,Other,None,136267,Service,11th,31,No,Private,5,No,1,2.5,0
+212,18,Other,Master's,87508,Teacher,8th,27,Yes,Private,9,No,4,1.5,1
+213,23,Other,None,60127,Teacher,8th,12,No,Private,6,No,5,1.1,0
+214,20,Male,PhD,69300,Engineer,11th,30,No,Public,9,No,3,0.9,0
+215,18,Male,Bachelor's,142092,Service,12th,13,No,Private,6,Yes,2,1.3,1
+216,25,Other,Bachelor's,23002,Teacher,11th,19,No,Private,2,Yes,4,3.6,1
+217,12,Other,High School,87934,Engineer,9th,17,No,Charter,5,No,3,0.3,0
+218,12,Other,None,75883,Engineer,6th,28,Yes,Public,9,No,5,3.3,1
+219,20,Male,High School,91718,Service,10th,5,Yes,Charter,8,No,1,1.4,0
+220,22,Other,Bachelor's,2716,Healthcare,9th,31,Yes,Public,7,No,5,2.1,1
+221,25,Other,Bachelor's,130818,Service,7th,28,Yes,Public,1,No,2,3.2,1
+222,20,Female,None,139817,Healthcare,11th,42,No,Public,4,No,4,3.5,1
+223,15,Female,PhD,84769,Engineer,7th,1,No,Charter,7,Yes,4,1.4,1
+224,24,Male,PhD,104497,Teacher,7th,22,No,Charter,7,Yes,2,1.8,1
+225,20,Female,None,138374,Unemployed,9th,18,Yes,Charter,6,No,3,1.7,0
+226,14,Female,None,106085,Engineer,10th,30,Yes,Charter,8,No,3,0.1,0
+227,18,Female,High School,22880,Teacher,12th,50,Yes,Private,6,No,4,1.2,0
+228,17,Male,None,86443,Engineer,8th,4,Yes,Private,10,Yes,4,1.8,1
+229,19,Female,PhD,91007,Service,6th,18,No,Private,3,No,1,1.6,0
+230,22,Male,None,63619,Healthcare,8th,33,No,Public,4,Yes,3,2.9,1
+231,20,Other,High School,110466,Engineer,10th,9,Yes,Private,3,Yes,2,1.5,1
+232,25,Female,High School,140155,Teacher,8th,24,Yes,Public,1,Yes,3,2.0,1
+233,16,Male,High School,138835,Service,11th,1,No,Charter,10,No,1,1.7,0
+234,12,Female,High School,67625,Unemployed,11th,10,No,Public,5,No,4,3.0,0
+235,14,Other,Master's,16985,Service,9th,49,No,Public,1,Yes,4,3.5,1
+236,21,Male,None,147726,Healthcare,7th,30,No,Private,1,Yes,1,2.1,1
+237,23,Male,Bachelor's,125834,Service,10th,14,Yes,Charter,2,Yes,2,3.2,1
+238,19,Male,None,18699,Unemployed,10th,8,No,Charter,4,Yes,4,1.2,0
+239,22,Other,Master's,138126,Teacher,8th,22,No,Private,6,No,5,2.2,1
+240,17,Other,High School,130484,Engineer,9th,18,No,Charter,8,Yes,4,1.4,1
+241,19,Other,Master's,77825,Healthcare,8th,8,No,Charter,3,No,5,1.7,1
+242,20,Male,PhD,88691,Unemployed,8th,34,Yes,Charter,1,Yes,1,2.9,1
+243,15,Other,PhD,59850,Healthcare,10th,20,Yes,Private,3,No,1,3.5,1
+244,12,Female,None,8214,Service,8th,8,Yes,Charter,3,Yes,4,0.5,0
+245,25,Other,None,50279,Healthcare,7th,27,Yes,Public,5,No,3,2.5,0
+246,12,Male,Bachelor's,120428,Unemployed,8th,45,Yes,Public,4,No,5,2.3,1
+247,21,Female,Bachelor's,694,Engineer,7th,50,Yes,Charter,4,No,2,0.5,0
+248,15,Other,PhD,50024,Engineer,10th,6,No,Private,9,Yes,4,0.8,1
+249,23,Female,High School,59725,Healthcare,9th,15,No,Private,7,No,2,1.2,0
+250,25,Female,Master's,80609,Teacher,11th,15,No,Private,4,Yes,4,0.7,1
+251,18,Male,Bachelor's,137978,Healthcare,7th,32,No,Charter,3,No,3,1.0,0
+252,13,Female,Bachelor's,51951,Service,9th,3,Yes,Charter,6,No,3,1.1,0
+253,14,Female,High School,52042,Engineer,9th,3,No,Public,3,Yes,3,1.3,1
+254,12,Male,High School,110625,Engineer,7th,38,Yes,Private,6,No,3,3.0,1
+255,16,Male,None,67832,Engineer,10th,39,No,Public,9,No,1,2.3,0
+256,12,Male,Master's,33690,Teacher,6th,16,No,Public,6,Yes,1,3.9,0
+257,19,Female,High School,67865,Teacher,9th,36,No,Private,4,No,5,1.7,0
+258,12,Female,Bachelor's,21128,Unemployed,9th,38,Yes,Charter,5,No,2,3.0,1
+259,22,Female,Bachelor's,26458,Healthcare,10th,28,No,Charter,6,No,4,3.5,1
+260,12,Male,PhD,74755,Healthcare,10th,35,Yes,Public,3,No,4,2.7,1
+261,13,Other,High School,62838,Service,8th,37,Yes,Public,8,Yes,1,1.6,1
+262,13,Female,None,137226,Engineer,10th,38,No,Public,4,No,4,3.0,1
+263,23,Other,Master's,54359,Teacher,9th,49,Yes,Public,8,No,1,0.8,0
+264,17,Male,None,87088,Service,7th,36,Yes,Private,10,No,5,1.3,0
+265,18,Female,Bachelor's,94839,Service,6th,34,No,Public,10,No,2,2.2,0
+266,16,Other,None,1964,Teacher,12th,6,No,Public,3,No,5,2.3,0
+267,12,Female,Bachelor's,99530,Healthcare,8th,26,No,Charter,10,No,3,0.1,0
+268,12,Female,Bachelor's,26705,Engineer,12th,27,No,Charter,7,No,3,3.8,1
+269,14,Female,Bachelor's,144160,Healthcare,7th,21,No,Charter,9,No,3,2.8,0
+270,25,Other,Bachelor's,22299,Service,6th,13,No,Private,4,Yes,5,2.0,1
+271,13,Male,Bachelor's,62193,Engineer,6th,6,Yes,Private,8,Yes,4,3.7,1
+272,16,Female,PhD,12802,Unemployed,6th,36,No,Charter,3,Yes,2,1.8,0
+273,23,Male,None,149531,Service,11th,21,No,Charter,7,Yes,3,3.9,1
+274,21,Male,PhD,75329,Healthcare,7th,4,Yes,Public,3,No,3,2.0,0
+275,17,Other,PhD,89307,Healthcare,8th,1,No,Public,7,No,3,0.5,0
+276,18,Other,High School,10061,Healthcare,8th,26,Yes,Private,10,Yes,2,3.1,1
+277,15,Male,High School,112494,Teacher,6th,20,No,Private,10,Yes,3,2.7,1
+278,18,Female,High School,31485,Service,7th,37,No,Public,6,Yes,2,3.1,1
+279,22,Other,Master's,134708,Engineer,11th,14,Yes,Charter,2,No,3,3.8,0
+280,19,Female,High School,30770,Healthcare,6th,20,No,Public,3,No,5,3.1,1
+281,22,Female,None,28603,Healthcare,10th,9,Yes,Private,6,Yes,5,2.4,0
+282,12,Female,PhD,5482,Teacher,12th,22,No,Private,4,Yes,2,3.4,1
+283,17,Male,None,70810,Engineer,8th,38,No,Public,6,Yes,5,2.7,1
+284,19,Female,High School,84726,Service,12th,4,Yes,Public,1,Yes,2,1.6,1
+285,16,Male,Master's,9856,Unemployed,9th,0,No,Public,10,Yes,5,3.5,1
+286,15,Male,Master's,116329,Teacher,6th,12,No,Private,1,No,5,0.9,1
+287,13,Female,PhD,67993,Service,10th,20,Yes,Charter,3,Yes,2,2.9,1
+288,17,Female,None,78658,Unemployed,8th,25,No,Public,8,No,4,3.5,1
+289,17,Female,Bachelor's,66114,Healthcare,12th,49,Yes,Private,8,Yes,5,2.9,1
+290,22,Female,None,60114,Healthcare,11th,44,No,Private,4,Yes,3,2.8,1
+291,12,Male,High School,83946,Engineer,7th,20,Yes,Private,6,No,4,3.0,1
+292,20,Female,Bachelor's,23286,Unemployed,8th,17,No,Public,8,Yes,2,1.9,0
+293,23,Female,Master's,27289,Healthcare,12th,36,Yes,Public,7,No,4,3.5,1
+294,22,Male,PhD,129267,Healthcare,7th,44,Yes,Charter,7,No,1,0.8,0
+295,17,Other,PhD,141917,Engineer,12th,31,No,Private,4,Yes,1,0.5,1
+296,24,Other,Master's,55996,Service,7th,35,No,Public,9,Yes,5,1.1,1
+297,14,Male,High School,40611,Healthcare,11th,16,Yes,Private,10,No,5,2.1,0
+298,15,Other,Master's,96599,Teacher,11th,34,No,Private,6,No,3,2.0,0
+299,23,Male,High School,61310,Teacher,6th,48,Yes,Charter,3,Yes,4,3.3,1
+300,22,Female,Bachelor's,3807,Service,6th,10,No,Public,5,No,1,1.6,0
+301,15,Female,Master's,23422,Unemployed,8th,20,No,Public,5,Yes,5,1.9,1
+302,14,Other,High School,107395,Engineer,11th,25,Yes,Private,5,No,4,0.1,0
+303,21,Female,Bachelor's,98838,Teacher,10th,3,Yes,Private,8,Yes,5,1.6,1
+304,14,Other,Master's,4064,Teacher,12th,33,No,Charter,9,No,5,2.6,1
+305,14,Other,PhD,33295,Service,12th,47,No,Charter,9,No,1,0.1,0
+306,15,Female,Master's,34661,Unemployed,12th,17,No,Charter,6,Yes,1,1.1,0
+307,18,Female,None,100783,Unemployed,8th,39,No,Charter,6,No,5,0.8,0
+308,15,Other,Master's,2956,Service,12th,34,No,Charter,9,No,2,0.2,0
+309,20,Female,None,15616,Teacher,9th,40,Yes,Charter,4,No,5,1.9,0
+310,12,Male,Bachelor's,119987,Engineer,7th,28,No,Private,6,No,5,0.7,1
+311,19,Female,Master's,26781,Teacher,12th,28,No,Charter,4,No,3,3.0,1
+312,18,Female,Bachelor's,97911,Unemployed,7th,37,Yes,Private,1,No,3,3.4,1
+313,13,Male,Bachelor's,35727,Teacher,6th,41,Yes,Private,7,No,3,2.2,0
+314,19,Female,High School,14916,Engineer,12th,20,Yes,Public,10,Yes,2,3.9,1
+315,12,Female,Bachelor's,36475,Healthcare,10th,41,No,Private,6,No,2,1.8,0
+316,22,Other,Bachelor's,108340,Teacher,11th,12,Yes,Private,9,No,5,2.1,1
+317,23,Female,Master's,128354,Service,11th,48,Yes,Charter,7,Yes,3,4.0,1
+318,20,Female,Master's,124532,Healthcare,6th,40,Yes,Private,7,No,2,0.9,0
+319,20,Male,PhD,59577,Service,9th,16,Yes,Charter,2,No,1,3.8,0
+320,13,Other,High School,100212,Service,8th,8,No,Charter,9,Yes,5,0.2,1
+321,18,Other,Bachelor's,30747,Service,8th,40,No,Charter,10,No,4,1.8,1
+322,25,Other,High School,43972,Teacher,10th,0,No,Public,9,No,5,0.3,0
+323,21,Female,None,134450,Unemployed,6th,1,Yes,Charter,6,Yes,4,2.9,1
+324,14,Other,Bachelor's,1950,Healthcare,6th,47,Yes,Private,3,Yes,3,2.4,0
+325,18,Male,High School,12826,Engineer,9th,28,Yes,Charter,1,No,4,2.8,0
+326,23,Other,PhD,31182,Unemployed,12th,32,Yes,Charter,4,No,3,1.5,0
+327,21,Male,PhD,3979,Teacher,8th,9,Yes,Charter,3,Yes,1,1.5,0
+328,20,Other,Bachelor's,27215,Service,12th,49,Yes,Public,1,No,4,0.2,1
+329,15,Other,None,87456,Engineer,6th,39,No,Private,3,Yes,5,1.4,1
+330,23,Male,PhD,63213,Healthcare,12th,20,No,Public,4,Yes,3,3.7,1
+331,12,Other,PhD,133900,Unemployed,11th,27,Yes,Private,8,Yes,5,1.5,1
+332,13,Other,None,122616,Unemployed,10th,10,No,Public,9,No,2,3.3,0
+333,12,Other,High School,51272,Engineer,8th,33,Yes,Private,3,Yes,3,3.4,1
+334,25,Female,PhD,38913,Teacher,9th,7,Yes,Public,6,Yes,4,1.5,1
+335,23,Male,Master's,56953,Healthcare,10th,21,No,Charter,10,Yes,3,2.5,1
+336,16,Other,PhD,88544,Engineer,7th,7,Yes,Public,5,No,5,0.4,1
+337,16,Male,High School,40209,Service,11th,48,No,Public,6,No,1,0.4,0
+338,22,Male,High School,93622,Healthcare,9th,14,Yes,Charter,4,No,3,0.2,0
+339,18,Male,Bachelor's,61411,Unemployed,10th,16,Yes,Charter,10,Yes,4,2.3,1
+340,20,Other,Master's,82807,Engineer,6th,22,No,Private,6,No,2,1.7,0
+341,20,Other,High School,65418,Unemployed,7th,23,Yes,Private,7,No,1,2.2,0
+342,14,Male,None,44169,Unemployed,9th,44,Yes,Private,9,Yes,2,2.1,0
+343,14,Female,Master's,142267,Unemployed,6th,18,Yes,Public,10,Yes,3,1.4,1
+344,14,Male,Master's,114540,Teacher,11th,4,No,Private,7,No,5,2.7,1
+345,15,Female,None,21016,Unemployed,7th,31,Yes,Public,6,No,5,3.0,1
+346,19,Male,PhD,130270,Service,8th,43,Yes,Public,1,Yes,4,0.1,1
+347,17,Male,None,73114,Service,6th,0,Yes,Private,2,No,5,0.8,0
+348,19,Male,None,134182,Healthcare,10th,22,No,Private,1,Yes,1,2.9,1
+349,12,Other,PhD,119978,Unemployed,12th,36,No,Public,9,Yes,5,1.5,1
+350,19,Female,PhD,63782,Unemployed,9th,7,No,Charter,10,No,4,2.6,1
+351,15,Female,PhD,3370,Engineer,7th,12,No,Charter,10,No,3,1.4,0
+352,22,Male,PhD,40301,Teacher,6th,7,No,Public,9,No,3,1.6,0
+353,12,Other,PhD,81245,Healthcare,8th,22,Yes,Private,7,No,5,0.6,1
+354,19,Other,None,95021,Unemployed,12th,42,No,Public,2,Yes,2,1.0,1
+355,15,Female,Bachelor's,38683,Engineer,9th,0,No,Public,6,No,3,2.4,0
+356,17,Other,Bachelor's,20903,Teacher,9th,44,Yes,Private,4,No,5,1.7,1
+357,19,Female,High School,125239,Healthcare,6th,50,No,Charter,1,No,4,3.1,1
+358,15,Female,Bachelor's,147660,Healthcare,8th,23,Yes,Public,1,Yes,5,3.4,1
+359,25,Female,Bachelor's,78853,Unemployed,11th,34,No,Charter,5,No,3,2.2,0
+360,14,Other,None,25751,Healthcare,12th,23,Yes,Charter,2,No,4,3.0,1
+361,25,Female,PhD,40846,Engineer,11th,16,Yes,Private,4,Yes,5,1.2,1
+362,20,Female,PhD,2758,Healthcare,7th,4,No,Public,1,Yes,1,1.7,0
+363,14,Male,None,137144,Service,6th,19,No,Public,4,Yes,4,2.9,1
+364,20,Female,Bachelor's,17662,Engineer,12th,20,Yes,Charter,6,Yes,1,1.5,0
+365,24,Female,None,86477,Teacher,7th,39,Yes,Charter,10,Yes,2,2.4,1
+366,13,Male,High School,41108,Teacher,11th,30,Yes,Private,4,No,4,0.7,0
+367,25,Male,PhD,83126,Unemployed,12th,45,Yes,Charter,1,Yes,1,2.4,1
+368,13,Other,Master's,97713,Unemployed,9th,35,Yes,Private,7,Yes,3,3.4,1
+369,13,Female,High School,124461,Service,7th,10,Yes,Public,2,Yes,3,3.5,1
+370,17,Other,High School,30963,Teacher,8th,14,Yes,Private,9,Yes,2,2.9,0
+371,14,Other,None,1649,Teacher,10th,18,No,Charter,3,Yes,4,3.0,0
+372,24,Male,Bachelor's,20532,Teacher,11th,6,Yes,Public,8,Yes,4,2.2,1
+373,20,Other,PhD,135002,Teacher,11th,50,No,Private,8,Yes,4,2.3,1
+374,15,Female,Master's,131083,Healthcare,8th,27,No,Public,3,Yes,2,0.5,1
+375,12,Male,High School,89611,Engineer,12th,50,Yes,Private,4,No,4,1.8,0
+376,15,Female,Master's,90077,Engineer,12th,42,Yes,Charter,2,No,3,1.8,0
+377,12,Female,Bachelor's,99755,Service,12th,4,No,Charter,4,No,1,3.8,0
+378,25,Male,Bachelor's,26305,Healthcare,7th,4,Yes,Public,9,Yes,3,1.7,0
+379,16,Female,Master's,137161,Teacher,6th,29,Yes,Public,2,Yes,3,2.2,1
+380,15,Male,PhD,62815,Teacher,9th,31,No,Public,3,Yes,1,2.1,1
+381,19,Female,Bachelor's,57470,Unemployed,10th,7,No,Private,4,No,3,2.5,0
+382,19,Male,Master's,77837,Unemployed,6th,9,No,Charter,5,Yes,2,3.0,1
+383,18,Other,High School,7044,Service,6th,37,Yes,Public,1,Yes,1,0.9,0
+384,14,Female,Master's,24942,Teacher,8th,46,Yes,Public,7,Yes,3,2.1,0
+385,12,Male,Master's,110705,Service,7th,31,No,Public,10,No,5,3.3,1
+386,12,Female,None,12419,Healthcare,11th,47,Yes,Private,7,No,3,1.9,0
+387,23,Female,Bachelor's,90472,Engineer,11th,27,No,Public,9,Yes,2,1.1,1
+388,22,Female,PhD,36802,Teacher,8th,16,Yes,Public,4,No,4,2.6,1
+389,14,Male,PhD,58394,Healthcare,7th,30,No,Private,6,Yes,3,3.3,1
+390,17,Other,None,43304,Teacher,8th,7,Yes,Private,2,Yes,4,0.3,0
+391,18,Other,PhD,53350,Unemployed,11th,39,No,Public,4,No,5,3.1,1
+392,17,Other,Master's,107856,Service,6th,24,Yes,Public,2,No,3,3.3,1
+393,25,Male,None,44568,Unemployed,9th,8,Yes,Private,10,No,1,1.8,0
+394,25,Other,High School,84960,Engineer,12th,1,No,Charter,5,No,4,3.9,0
+395,17,Male,Bachelor's,71407,Unemployed,7th,14,Yes,Private,7,Yes,5,3.1,1
+396,17,Female,Bachelor's,99550,Teacher,10th,49,Yes,Charter,1,Yes,1,3.1,1
+397,24,Female,Bachelor's,140524,Unemployed,10th,2,No,Public,10,No,1,3.0,0
+398,14,Other,Master's,109885,Teacher,6th,48,Yes,Public,10,No,1,0.6,0
+399,17,Male,High School,32241,Engineer,8th,35,Yes,Charter,7,Yes,1,0.9,0
+400,19,Female,None,4677,Unemployed,8th,3,Yes,Private,10,Yes,3,1.9,0
+401,22,Male,None,39339,Service,11th,13,No,Public,6,Yes,3,1.1,0
+402,22,Male,Bachelor's,89261,Service,6th,40,No,Charter,6,Yes,3,1.7,1
+403,13,Female,High School,7713,Service,11th,40,No,Private,8,No,5,3.6,1
+404,16,Male,High School,74454,Unemployed,11th,24,No,Charter,8,No,5,3.3,1
+405,25,Female,High School,89526,Unemployed,10th,49,No,Private,6,No,5,2.5,0
+406,12,Female,PhD,50136,Unemployed,11th,9,Yes,Private,3,Yes,2,3.4,1
+407,23,Female,PhD,115636,Teacher,12th,20,Yes,Private,5,Yes,5,3.1,1
+408,12,Male,Bachelor's,15989,Engineer,11th,35,No,Private,2,No,3,1.7,0
+409,16,Female,High School,11270,Service,10th,11,Yes,Charter,5,No,3,0.8,0
+410,23,Male,High School,109228,Teacher,12th,26,Yes,Charter,9,No,2,2.1,0
+411,24,Female,None,74323,Service,8th,39,Yes,Charter,10,Yes,2,2.9,1
+412,14,Female,None,103260,Teacher,7th,1,Yes,Charter,1,No,5,1.7,0
+413,15,Other,Bachelor's,65224,Unemployed,9th,12,No,Charter,10,Yes,4,2.7,1
+414,14,Other,High School,36960,Service,11th,31,No,Private,5,No,2,0.4,0
+415,12,Other,Bachelor's,122865,Unemployed,12th,30,Yes,Public,6,No,1,3.0,1
+416,12,Male,None,119912,Service,7th,15,Yes,Public,7,No,3,3.3,0
+417,23,Male,None,104204,Healthcare,10th,31,No,Charter,9,Yes,1,2.8,1
+418,23,Female,PhD,40821,Teacher,7th,31,Yes,Charter,6,Yes,3,3.9,1
+419,25,Female,Bachelor's,88534,Healthcare,9th,33,Yes,Public,5,Yes,3,3.3,1
+420,24,Female,Bachelor's,54146,Teacher,7th,10,Yes,Private,7,Yes,2,3.6,1
+421,25,Female,High School,13737,Engineer,12th,9,No,Charter,1,Yes,2,3.7,0
+422,16,Male,High School,137597,Service,7th,14,No,Private,5,Yes,1,3.2,1
+423,17,Female,PhD,20522,Engineer,7th,16,Yes,Public,2,No,3,2.7,0
+424,14,Female,Master's,142535,Engineer,7th,39,Yes,Public,4,Yes,1,0.0,1
+425,23,Other,Master's,66900,Teacher,6th,17,Yes,Charter,7,No,4,1.9,1
+426,20,Female,Master's,27769,Healthcare,11th,8,Yes,Private,5,Yes,1,2.3,0
+427,16,Female,Bachelor's,81285,Unemployed,10th,24,Yes,Charter,6,No,5,1.2,1
+428,19,Female,Bachelor's,130941,Teacher,9th,39,Yes,Public,2,No,1,1.3,0
+429,24,Male,None,109833,Unemployed,10th,13,No,Private,3,Yes,5,3.8,1
+430,12,Other,Bachelor's,120984,Engineer,6th,24,No,Charter,7,No,5,3.6,1
+431,25,Female,Bachelor's,98817,Unemployed,6th,49,Yes,Charter,2,Yes,5,3.4,1
+432,16,Female,Bachelor's,103841,Healthcare,12th,21,No,Charter,6,Yes,4,1.6,1
+433,14,Other,PhD,127379,Teacher,6th,29,Yes,Public,5,Yes,1,0.1,1
+434,23,Female,Bachelor's,37450,Healthcare,11th,19,Yes,Charter,10,Yes,1,0.3,0
+435,12,Male,High School,73413,Healthcare,6th,20,No,Private,1,No,4,1.2,0
+436,15,Female,High School,33181,Teacher,7th,43,No,Charter,10,Yes,3,0.1,0
+437,24,Male,None,148150,Healthcare,10th,31,Yes,Public,4,No,2,0.1,0
+438,16,Male,PhD,141608,Service,8th,50,Yes,Charter,2,No,1,3.7,1
+439,18,Female,High School,5914,Service,9th,45,No,Public,4,No,2,2.8,0
+440,12,Other,PhD,105836,Service,6th,48,No,Public,1,Yes,4,1.2,1
+441,14,Male,PhD,138787,Unemployed,10th,20,Yes,Private,2,No,3,0.5,0
+442,13,Other,None,27086,Healthcare,12th,34,Yes,Private,8,Yes,3,2.0,0
+443,20,Female,PhD,85191,Teacher,6th,31,Yes,Charter,6,No,3,0.0,0
+444,21,Male,Bachelor's,137323,Teacher,11th,29,No,Public,2,Yes,4,3.8,1
+445,17,Female,PhD,5091,Unemployed,6th,38,Yes,Public,6,Yes,5,1.7,1
+446,21,Other,None,104613,Teacher,6th,48,No,Private,10,Yes,5,1.6,1
+447,14,Female,None,44602,Service,6th,11,Yes,Private,9,Yes,2,1.6,0
+448,19,Female,None,138659,Healthcare,12th,40,No,Charter,7,No,5,0.3,0
+449,25,Male,High School,145658,Teacher,6th,46,No,Public,9,No,5,2.6,0
+450,19,Female,Bachelor's,141639,Teacher,9th,17,No,Private,5,Yes,3,2.9,1
+451,13,Female,High School,71132,Engineer,10th,20,No,Charter,7,No,3,2.7,0
+452,17,Female,Master's,129306,Engineer,11th,12,Yes,Public,7,Yes,2,0.6,1
+453,18,Male,Bachelor's,126682,Engineer,6th,20,No,Public,3,Yes,1,2.3,1
+454,13,Other,PhD,47865,Healthcare,6th,7,No,Private,7,No,2,2.3,0
+455,22,Other,None,124337,Service,6th,45,No,Charter,1,Yes,2,3.5,1
+456,21,Female,Master's,5551,Service,6th,39,Yes,Private,9,Yes,4,1.5,1
+457,13,Male,Bachelor's,89440,Service,7th,45,Yes,Charter,10,Yes,4,1.5,1
+458,21,Female,High School,34501,Healthcare,7th,6,Yes,Public,6,Yes,2,2.5,0
+459,12,Other,None,18085,Healthcare,8th,22,Yes,Charter,5,Yes,2,2.5,0
+460,19,Male,High School,11542,Engineer,6th,43,Yes,Charter,7,No,2,1.9,0
+461,12,Other,Bachelor's,104443,Teacher,8th,31,Yes,Charter,5,No,5,1.8,1
+462,20,Other,Bachelor's,50981,Unemployed,9th,10,No,Charter,10,No,4,2.0,1
+463,22,Male,Master's,108715,Unemployed,8th,21,No,Charter,5,Yes,2,3.4,1
+464,17,Male,PhD,9803,Teacher,10th,21,No,Private,10,Yes,3,1.8,0
+465,18,Female,High School,47293,Engineer,7th,42,Yes,Charter,7,Yes,3,3.8,1
+466,24,Female,Master's,80923,Teacher,7th,24,No,Charter,10,Yes,5,2.0,1
+467,21,Other,None,118608,Teacher,6th,21,No,Public,7,Yes,5,3.8,1
+468,18,Male,PhD,47812,Unemployed,6th,27,Yes,Charter,3,Yes,1,3.3,1
+469,21,Male,Master's,93883,Engineer,9th,28,No,Public,3,No,1,1.4,0
+470,14,Female,High School,132896,Healthcare,11th,12,Yes,Private,10,Yes,1,3.5,1
+471,13,Other,Bachelor's,92379,Unemployed,9th,17,No,Private,3,No,5,0.4,1
+472,20,Other,None,34943,Healthcare,10th,1,Yes,Charter,6,Yes,5,3.7,0
+473,19,Female,High School,3660,Engineer,6th,28,Yes,Private,6,No,5,2.5,0
+474,24,Male,PhD,130514,Teacher,6th,20,Yes,Charter,3,Yes,3,0.2,1
+475,23,Female,PhD,3190,Service,9th,14,No,Private,3,No,5,2.6,1
+476,21,Female,Bachelor's,131205,Service,9th,26,No,Charter,8,No,3,3.9,1
+477,18,Female,Bachelor's,79340,Engineer,9th,49,Yes,Charter,8,Yes,1,0.3,1
+478,20,Female,None,140860,Service,7th,30,Yes,Public,7,Yes,1,2.2,1
+479,15,Male,None,119817,Healthcare,8th,14,No,Public,10,No,1,3.0,0
+480,24,Female,Bachelor's,149690,Service,8th,50,No,Public,4,Yes,2,3.2,1
+481,15,Male,Bachelor's,52606,Engineer,6th,22,Yes,Public,4,Yes,2,1.7,1
+482,12,Female,PhD,115078,Engineer,7th,23,No,Charter,3,Yes,4,0.8,1
+483,19,Other,Bachelor's,60289,Healthcare,9th,43,No,Private,5,No,4,0.2,1
+484,25,Male,Master's,71981,Service,6th,12,No,Charter,3,Yes,4,2.3,1
+485,25,Other,High School,94125,Service,7th,21,Yes,Public,8,No,2,1.8,0
+486,23,Female,Bachelor's,131051,Teacher,10th,42,Yes,Public,7,No,2,3.8,1
+487,14,Female,None,147612,Unemployed,11th,36,No,Private,3,Yes,4,0.2,1
+488,18,Female,Master's,115241,Engineer,7th,32,Yes,Public,9,No,4,2.7,1
+489,23,Male,None,62665,Teacher,12th,2,No,Charter,5,Yes,5,0.1,1
+490,13,Other,Master's,63203,Engineer,6th,18,No,Charter,9,Yes,4,0.7,1
+491,13,Male,Bachelor's,110637,Teacher,8th,22,Yes,Charter,7,No,5,1.8,1
+492,18,Male,High School,35816,Unemployed,12th,28,Yes,Charter,7,No,3,1.8,0
+493,17,Female,None,16571,Teacher,9th,29,Yes,Charter,6,No,2,2.7,0
+494,14,Other,Master's,53193,Engineer,11th,38,No,Private,2,No,4,3.6,1
+495,20,Female,PhD,43085,Service,10th,43,No,Charter,9,No,2,2.6,0
+496,21,Male,Bachelor's,44446,Engineer,11th,46,Yes,Public,6,Yes,2,3.8,1
+497,25,Female,High School,35041,Healthcare,11th,24,Yes,Public,8,No,2,3.5,1
+498,24,Other,Bachelor's,6313,Healthcare,7th,36,Yes,Public,1,Yes,3,2.3,0
+499,17,Female,PhD,2681,Healthcare,6th,46,No,Public,5,Yes,1,3.3,1
+500,21,Other,High School,148158,Healthcare,6th,7,No,Private,1,No,4,2.6,0
+501,21,Other,PhD,64165,Unemployed,11th,41,No,Public,10,No,1,0.3,0
+502,17,Female,Bachelor's,57648,Service,9th,15,Yes,Private,8,No,1,3.0,0
+503,12,Male,Master's,101947,Service,6th,7,Yes,Public,8,No,1,0.4,0
+504,15,Female,Bachelor's,32738,Engineer,11th,0,No,Private,1,No,2,2.4,0
+505,21,Male,Bachelor's,142494,Teacher,6th,43,Yes,Private,9,Yes,5,2.8,1
+506,17,Male,Bachelor's,117951,Engineer,9th,4,Yes,Private,2,Yes,2,0.3,1
+507,17,Female,None,13411,Engineer,10th,2,Yes,Public,9,Yes,2,0.9,0
+508,22,Male,PhD,62637,Engineer,12th,0,Yes,Private,1,No,1,3.7,0
+509,23,Male,PhD,131867,Engineer,11th,3,No,Charter,10,No,2,2.5,0
+510,16,Female,PhD,141709,Service,8th,39,Yes,Charter,9,Yes,1,1.0,1
+511,12,Female,None,70110,Teacher,8th,34,No,Public,4,No,5,2.8,0
+512,19,Female,Master's,92011,Engineer,11th,31,No,Charter,9,No,4,2.4,1
+513,16,Male,Bachelor's,25055,Service,7th,41,Yes,Charter,7,No,1,2.0,0
+514,23,Other,Master's,148675,Engineer,10th,33,No,Charter,6,Yes,5,3.9,1
+515,23,Male,None,34750,Healthcare,7th,42,No,Public,5,No,4,2.7,0
+516,23,Other,PhD,141409,Engineer,12th,24,Yes,Public,9,Yes,3,1.5,1
+517,16,Female,Bachelor's,97446,Engineer,8th,9,No,Charter,2,No,1,3.2,0
+518,18,Other,High School,91160,Unemployed,9th,20,No,Public,2,No,1,3.5,1
+519,15,Female,High School,76903,Healthcare,11th,45,No,Private,9,Yes,3,0.5,1
+520,17,Female,Master's,34600,Teacher,12th,38,No,Charter,3,No,3,0.8,0
+521,24,Other,PhD,26479,Engineer,6th,26,No,Public,8,No,1,0.9,0
+522,15,Female,High School,33072,Teacher,8th,26,No,Public,9,No,3,2.8,0
+523,25,Other,Master's,27965,Healthcare,10th,1,No,Charter,8,Yes,2,2.4,0
+524,14,Female,None,116937,Engineer,8th,40,No,Public,4,No,4,2.5,0
+525,18,Male,Master's,52518,Unemployed,10th,47,Yes,Charter,1,No,4,3.8,1
+526,19,Male,Master's,8676,Service,10th,12,Yes,Public,4,No,4,3.1,1
+527,15,Female,Master's,145365,Unemployed,11th,8,Yes,Private,9,No,2,0.5,0
+528,24,Female,Bachelor's,132567,Unemployed,10th,35,No,Charter,2,No,3,1.4,0
+529,13,Other,Master's,139162,Service,7th,21,No,Private,3,Yes,5,1.7,1
+530,23,Male,Master's,149236,Service,12th,41,No,Charter,10,Yes,3,1.6,1
+531,21,Other,Bachelor's,26084,Service,9th,25,Yes,Public,8,No,1,2.7,0
+532,25,Female,Bachelor's,59436,Engineer,8th,11,Yes,Private,6,No,4,3.6,1
+533,14,Female,None,113735,Teacher,9th,16,Yes,Public,8,Yes,3,1.2,1
+534,12,Other,PhD,104403,Teacher,12th,13,No,Charter,7,No,5,2.2,1
+535,19,Female,High School,23084,Service,6th,13,Yes,Charter,5,No,1,3.2,0
+536,14,Male,High School,122374,Unemployed,12th,33,Yes,Charter,9,No,2,1.7,0
+537,23,Other,Master's,33666,Healthcare,8th,19,No,Charter,4,No,2,0.7,0
+538,21,Male,None,33572,Service,9th,10,Yes,Charter,6,No,5,1.9,0
+539,18,Male,Master's,80546,Unemployed,9th,15,No,Private,2,No,1,0.2,0
+540,21,Male,High School,88940,Unemployed,11th,50,Yes,Charter,2,No,4,3.8,1
+541,16,Other,Bachelor's,87012,Engineer,11th,30,No,Public,2,No,3,0.3,0
+542,21,Female,PhD,13723,Engineer,12th,5,No,Private,10,Yes,1,1.8,0
+543,16,Male,None,131619,Teacher,12th,18,No,Public,7,Yes,2,2.1,1
+544,25,Male,Bachelor's,39840,Teacher,6th,36,No,Charter,2,No,5,3.9,1
+545,18,Male,PhD,19427,Healthcare,10th,3,No,Public,2,No,5,0.7,1
+546,20,Female,None,133312,Healthcare,8th,46,Yes,Private,9,No,3,0.5,0
+547,23,Female,None,143347,Healthcare,11th,3,No,Private,7,No,5,0.0,0
+548,16,Other,High School,129319,Healthcare,8th,19,No,Private,3,Yes,5,0.6,1
+549,12,Female,Bachelor's,121427,Unemployed,6th,9,No,Public,3,Yes,1,0.8,1
+550,21,Other,None,98286,Unemployed,11th,23,No,Private,7,Yes,4,2.5,1
+551,21,Other,None,82628,Teacher,11th,34,Yes,Public,5,Yes,3,0.9,1
+552,12,Other,PhD,13048,Engineer,10th,25,No,Charter,10,No,1,0.1,0
+553,13,Other,High School,61267,Engineer,8th,36,Yes,Charter,6,No,4,3.3,1
+554,25,Other,Master's,55903,Service,8th,37,No,Public,8,No,1,1.5,0
+555,17,Male,High School,38963,Unemployed,8th,20,No,Private,9,Yes,1,1.4,0
+556,20,Female,Master's,108513,Healthcare,10th,39,Yes,Public,1,No,5,1.2,1
+557,19,Male,Bachelor's,74381,Healthcare,11th,38,Yes,Public,3,No,4,3.9,1
+558,24,Other,Bachelor's,12156,Service,6th,20,Yes,Public,7,Yes,3,0.7,0
+559,16,Female,None,33027,Engineer,8th,9,No,Charter,6,Yes,3,3.6,0
+560,12,Male,Bachelor's,102488,Healthcare,9th,37,Yes,Public,7,Yes,4,3.1,1
+561,24,Male,None,11419,Engineer,10th,45,No,Charter,8,Yes,5,0.3,0
+562,18,Other,High School,127681,Service,7th,3,Yes,Public,6,Yes,2,3.9,1
+563,16,Male,Bachelor's,74271,Engineer,6th,44,Yes,Charter,3,No,1,1.1,0
+564,17,Male,High School,72087,Engineer,9th,19,No,Public,2,No,5,0.4,0
+565,24,Male,High School,88861,Engineer,8th,16,Yes,Public,7,Yes,4,3.3,1
+566,18,Male,Bachelor's,123702,Healthcare,7th,6,Yes,Private,1,No,1,2.8,0
+567,14,Male,High School,52171,Teacher,6th,3,No,Private,3,No,3,2.5,0
+568,23,Other,Bachelor's,101702,Unemployed,10th,28,No,Public,4,No,2,0.6,0
+569,21,Other,Bachelor's,84859,Engineer,7th,13,No,Public,1,No,3,1.9,0
+570,14,Male,Bachelor's,40054,Engineer,11th,2,Yes,Public,5,Yes,4,3.1,1
+571,16,Other,Master's,131794,Engineer,12th,23,Yes,Public,10,No,1,1.2,0
+572,17,Other,High School,119613,Teacher,7th,36,Yes,Private,3,No,4,1.2,0
+573,20,Female,PhD,98767,Service,12th,15,Yes,Charter,2,No,1,0.0,0
+574,24,Male,Bachelor's,127587,Healthcare,9th,3,Yes,Public,3,Yes,5,0.7,1
+575,25,Other,High School,130094,Teacher,6th,23,No,Private,8,No,2,3.5,1
+576,23,Other,None,106254,Engineer,9th,33,Yes,Public,6,Yes,5,1.8,1
+577,16,Male,Bachelor's,125551,Teacher,9th,29,No,Public,7,Yes,5,3.9,1
+578,12,Female,Bachelor's,104620,Teacher,8th,17,Yes,Charter,6,Yes,4,1.6,1
+579,25,Male,PhD,102021,Teacher,10th,18,No,Public,6,Yes,2,2.9,1
+580,25,Female,Master's,92791,Service,7th,30,Yes,Public,3,No,1,1.1,0
+581,25,Male,Master's,112907,Unemployed,6th,18,Yes,Charter,8,Yes,1,1.5,1
+582,15,Male,Bachelor's,23790,Healthcare,11th,48,No,Charter,7,Yes,3,0.8,0
+583,16,Male,High School,132130,Service,10th,45,Yes,Charter,7,Yes,1,1.4,1
+584,23,Male,None,130776,Service,10th,18,No,Charter,6,Yes,4,2.2,1
+585,21,Female,None,4387,Unemployed,6th,21,Yes,Private,5,Yes,5,4.0,1
+586,21,Female,High School,123872,Service,10th,23,Yes,Private,10,No,5,2.7,0
+587,16,Other,Bachelor's,19330,Teacher,8th,44,No,Private,8,Yes,5,0.8,1
+588,18,Male,None,50267,Teacher,10th,11,Yes,Public,5,No,2,0.2,0
+589,15,Female,Master's,111526,Engineer,8th,29,No,Charter,9,No,1,0.5,0
+590,12,Female,High School,24113,Service,7th,37,Yes,Charter,9,Yes,4,2.3,0
+591,25,Female,PhD,122695,Engineer,7th,30,Yes,Private,1,No,2,3.1,1
+592,25,Male,Bachelor's,124820,Healthcare,9th,35,Yes,Public,6,No,3,3.8,1
+593,16,Other,High School,76120,Teacher,8th,18,Yes,Public,7,No,4,0.1,0
+594,18,Female,None,957,Healthcare,11th,47,Yes,Public,3,Yes,4,2.1,0
+595,21,Male,Bachelor's,43055,Unemployed,7th,44,Yes,Private,7,Yes,4,1.9,1
+596,21,Female,Master's,92539,Teacher,10th,35,Yes,Public,7,Yes,5,2.6,1
+597,17,Female,Bachelor's,147177,Healthcare,6th,29,No,Public,2,Yes,4,2.2,1
+598,16,Other,Bachelor's,94772,Unemployed,6th,48,Yes,Public,7,Yes,1,2.7,1
+599,15,Female,Master's,38970,Healthcare,12th,32,Yes,Charter,1,Yes,4,2.6,1
+600,13,Female,Master's,95100,Unemployed,8th,17,Yes,Private,5,Yes,5,0.5,1
+601,15,Male,Bachelor's,80997,Unemployed,11th,48,No,Charter,9,No,4,3.2,1
+602,21,Male,Master's,116976,Teacher,9th,27,No,Charter,7,No,3,0.5,0
+603,21,Other,High School,16047,Engineer,10th,46,Yes,Private,7,Yes,3,2.8,0
+604,14,Male,Master's,114154,Unemployed,8th,10,Yes,Charter,2,No,5,1.7,1
+605,21,Male,Master's,81189,Unemployed,12th,44,Yes,Public,8,Yes,1,2.1,1
+606,12,Other,Bachelor's,144448,Teacher,6th,32,No,Public,3,Yes,1,3.6,1
+607,19,Female,High School,51280,Engineer,8th,16,Yes,Public,8,Yes,2,3.6,1
+608,16,Other,PhD,94893,Service,10th,5,No,Public,3,No,5,3.3,1
+609,24,Male,PhD,139804,Service,11th,3,Yes,Private,10,Yes,4,2.0,1
+610,15,Other,None,15376,Engineer,11th,19,No,Charter,7,Yes,5,2.9,0
+611,19,Female,Master's,140584,Healthcare,7th,47,No,Charter,2,Yes,2,2.1,1
+612,18,Other,Master's,103182,Teacher,10th,46,Yes,Public,4,Yes,5,3.5,1
+613,13,Male,High School,10175,Engineer,12th,26,Yes,Public,6,No,5,1.6,0
+614,12,Male,PhD,45144,Service,7th,14,Yes,Charter,9,Yes,2,3.9,0
+615,23,Other,None,106225,Unemployed,7th,5,Yes,Private,5,No,1,3.7,0
+616,22,Female,High School,10102,Service,7th,46,Yes,Charter,9,No,4,3.0,1
+617,15,Other,Master's,87325,Unemployed,8th,13,Yes,Public,5,Yes,2,1.1,1
+618,19,Female,PhD,51882,Teacher,12th,10,Yes,Public,10,Yes,3,0.5,1
+619,23,Female,None,93137,Unemployed,6th,38,No,Private,8,No,1,3.4,1
+620,13,Other,Bachelor's,6861,Engineer,11th,8,Yes,Charter,1,No,3,0.7,0
+621,14,Female,PhD,130730,Unemployed,8th,25,Yes,Private,7,No,1,3.4,1
+622,23,Male,None,146023,Healthcare,6th,15,No,Private,4,No,4,2.0,0
+623,12,Other,High School,145331,Engineer,11th,4,Yes,Public,5,Yes,4,1.6,1
+624,12,Female,Bachelor's,112447,Teacher,12th,9,Yes,Charter,6,No,5,3.6,1
+625,24,Male,None,19512,Engineer,12th,49,Yes,Public,5,No,3,2.4,0
+626,14,Other,None,113739,Healthcare,10th,2,Yes,Charter,1,No,1,2.3,0
+627,22,Male,Master's,3688,Teacher,11th,12,No,Public,9,No,4,2.2,1
+628,16,Male,PhD,3318,Service,11th,42,No,Public,2,Yes,2,1.5,0
+629,23,Male,Master's,48541,Healthcare,12th,48,Yes,Charter,9,Yes,4,3.1,1
+630,14,Female,Bachelor's,73296,Teacher,11th,29,Yes,Charter,10,Yes,2,1.0,1
+631,12,Other,None,115561,Unemployed,9th,44,No,Public,2,No,1,3.8,1
+632,12,Other,Master's,102494,Engineer,10th,5,Yes,Charter,9,No,4,3.6,1
+633,19,Female,PhD,66885,Teacher,8th,16,No,Public,6,Yes,4,1.3,1
+634,21,Other,Bachelor's,41043,Engineer,8th,44,No,Charter,9,Yes,1,2.9,0
+635,22,Male,High School,149568,Unemployed,6th,50,No,Public,6,No,4,2.3,0
+636,23,Other,Master's,63927,Teacher,8th,18,Yes,Public,6,Yes,2,1.4,1
+637,24,Female,Bachelor's,67708,Service,7th,41,Yes,Public,2,No,4,4.0,1
+638,24,Male,High School,24543,Healthcare,11th,34,Yes,Private,8,No,3,0.1,0
+639,23,Female,Master's,119221,Teacher,8th,45,No,Charter,3,No,5,1.0,1
+640,25,Male,Bachelor's,104052,Unemployed,6th,25,Yes,Public,7,No,2,2.1,0
+641,13,Male,Bachelor's,33115,Teacher,6th,50,Yes,Private,5,No,3,2.1,0
+642,24,Other,Master's,12357,Engineer,7th,4,No,Public,3,No,1,2.4,0
+643,14,Male,Bachelor's,102074,Teacher,6th,28,Yes,Private,1,Yes,2,3.0,1
+644,13,Female,None,98176,Service,12th,36,Yes,Public,8,Yes,5,2.5,1
+645,14,Other,Master's,40988,Teacher,9th,19,Yes,Public,3,Yes,5,2.4,1
+646,18,Female,Bachelor's,142629,Healthcare,12th,48,No,Private,2,No,1,0.2,0
+647,12,Male,High School,22658,Teacher,11th,20,Yes,Private,1,Yes,1,1.5,0
+648,21,Female,High School,64850,Engineer,11th,9,No,Charter,4,No,2,0.9,0
+649,19,Female,None,141542,Teacher,11th,4,No,Charter,8,No,4,1.1,0
+650,24,Male,Master's,62959,Service,10th,35,No,Private,3,No,1,2.2,0
+651,21,Other,Bachelor's,95778,Unemployed,8th,5,Yes,Charter,1,No,4,0.8,1
+652,21,Female,Bachelor's,59639,Teacher,9th,25,Yes,Private,4,Yes,3,1.2,1
+653,21,Male,High School,41132,Teacher,8th,3,Yes,Charter,9,Yes,5,0.9,0
+654,25,Other,None,147596,Healthcare,9th,38,No,Public,1,Yes,4,3.8,1
+655,13,Other,High School,61400,Service,8th,38,No,Charter,2,No,5,3.8,1
+656,14,Other,High School,134114,Unemployed,7th,49,Yes,Public,9,Yes,4,2.4,1
+657,20,Female,None,34493,Engineer,12th,34,No,Public,2,Yes,3,3.7,1
+658,18,Female,Master's,31965,Teacher,6th,0,Yes,Charter,3,Yes,1,3.1,0
+659,15,Female,Bachelor's,4670,Unemployed,6th,23,Yes,Private,7,No,3,2.4,0
+660,21,Other,Master's,97750,Engineer,12th,35,Yes,Public,3,Yes,1,0.0,1
+661,16,Female,PhD,55278,Service,7th,5,Yes,Public,9,No,1,3.1,0
+662,13,Male,PhD,129653,Service,9th,40,Yes,Charter,6,Yes,5,2.8,1
+663,24,Female,PhD,70981,Unemployed,12th,45,Yes,Private,3,No,3,2.5,0
+664,22,Female,None,145229,Engineer,10th,43,Yes,Private,9,Yes,4,3.0,1
+665,24,Other,High School,27828,Service,9th,30,No,Charter,1,Yes,3,2.1,0
+666,19,Female,Master's,130293,Unemployed,6th,19,Yes,Private,10,Yes,5,2.8,1
+667,15,Male,Bachelor's,116489,Service,10th,23,No,Charter,3,No,1,3.7,1
+668,20,Other,PhD,115638,Service,8th,24,No,Charter,1,Yes,5,1.5,1
+669,16,Male,Master's,126717,Service,10th,35,Yes,Charter,2,Yes,2,2.8,1
+670,24,Other,PhD,114153,Healthcare,9th,20,No,Public,8,No,2,1.9,0
+671,20,Other,PhD,93933,Engineer,7th,29,No,Public,7,No,4,2.7,1
+672,15,Female,Bachelor's,19686,Unemployed,8th,23,No,Public,2,No,5,3.1,1
+673,21,Male,None,4878,Unemployed,9th,43,Yes,Charter,2,No,4,0.2,0
+674,16,Other,High School,138127,Engineer,8th,41,Yes,Public,9,Yes,4,2.6,1
+675,20,Female,None,92497,Engineer,10th,29,Yes,Public,6,Yes,2,0.9,1
+676,19,Other,Master's,119480,Engineer,6th,21,Yes,Public,5,No,4,2.7,1
+677,14,Other,None,72228,Engineer,9th,27,Yes,Charter,10,Yes,2,1.9,1
+678,12,Other,Master's,17596,Teacher,7th,6,No,Charter,6,No,1,3.1,0
+679,14,Other,Master's,18777,Unemployed,12th,34,No,Charter,9,Yes,5,0.5,1
+680,15,Other,High School,102834,Teacher,10th,27,Yes,Public,7,No,4,2.5,0
+681,13,Other,Bachelor's,64545,Service,9th,13,No,Private,10,Yes,2,1.1,1
+682,12,Female,High School,30078,Service,7th,9,No,Public,10,No,3,3.4,0
+683,18,Other,None,73739,Unemployed,9th,15,No,Public,9,No,4,3.7,0
+684,19,Male,Master's,9631,Service,10th,15,No,Charter,4,Yes,1,4.0,0
+685,18,Female,PhD,87295,Engineer,9th,30,Yes,Charter,2,Yes,1,3.2,1
+686,25,Male,PhD,40349,Teacher,8th,41,Yes,Public,8,Yes,3,3.0,1
+687,16,Other,Master's,119633,Engineer,10th,24,Yes,Public,4,No,2,0.9,0
+688,23,Male,High School,46554,Service,9th,12,No,Private,9,Yes,4,1.3,0
+689,12,Other,Bachelor's,68283,Teacher,12th,5,No,Private,4,No,2,1.9,0
+690,18,Other,High School,1743,Engineer,6th,43,Yes,Charter,8,Yes,1,3.1,1
+691,24,Female,Master's,10867,Unemployed,9th,8,Yes,Private,9,Yes,2,3.7,0
+692,18,Female,Master's,58874,Engineer,8th,44,No,Private,9,No,1,0.8,0
+693,20,Other,Bachelor's,71990,Service,7th,35,Yes,Charter,10,No,2,3.7,1
+694,14,Female,None,90003,Teacher,12th,42,Yes,Private,4,Yes,3,2.8,1
+695,20,Male,None,43749,Unemployed,7th,19,No,Public,1,No,5,2.4,0
+696,25,Female,Bachelor's,104247,Teacher,12th,17,No,Private,3,No,3,0.8,0
+697,12,Female,None,129018,Unemployed,7th,42,Yes,Charter,9,Yes,3,0.2,1
+698,12,Male,PhD,116977,Teacher,6th,20,No,Public,4,No,5,2.3,1
+699,25,Female,None,5942,Service,8th,3,Yes,Private,5,Yes,5,2.6,0
+700,15,Other,None,72076,Unemployed,10th,49,No,Public,7,Yes,4,0.8,1
+701,20,Male,None,15739,Healthcare,7th,32,No,Public,5,No,4,2.2,0
+702,17,Other,PhD,36306,Teacher,12th,26,Yes,Private,4,Yes,3,3.4,1
+703,24,Male,None,147999,Teacher,8th,6,No,Private,2,No,3,3.3,0
+704,22,Other,PhD,21374,Engineer,9th,5,Yes,Charter,2,Yes,1,3.7,0
+705,14,Other,Bachelor's,74833,Unemployed,6th,14,No,Charter,4,No,1,1.5,0
+706,12,Female,High School,92723,Healthcare,8th,17,Yes,Public,10,No,4,1.3,0
+707,15,Other,Bachelor's,105369,Service,8th,31,No,Charter,10,No,4,3.0,1
+708,23,Female,High School,83947,Engineer,10th,10,No,Public,9,No,1,1.7,0
+709,24,Male,Bachelor's,1465,Healthcare,8th,19,Yes,Public,8,No,1,0.4,0
+710,20,Other,High School,48969,Unemployed,10th,23,No,Charter,3,Yes,2,1.1,0
+711,14,Other,High School,77656,Healthcare,6th,14,Yes,Charter,9,Yes,2,1.7,1
+712,23,Male,Master's,13179,Teacher,6th,47,No,Charter,5,No,1,1.2,0
+713,20,Male,High School,52594,Teacher,9th,6,No,Private,3,Yes,2,1.3,1
+714,18,Other,High School,4980,Engineer,10th,20,Yes,Public,5,No,5,1.2,0
+715,23,Male,Master's,11786,Unemployed,10th,41,No,Public,10,No,4,0.2,1
+716,25,Female,None,59538,Unemployed,7th,25,No,Public,4,Yes,4,2.5,1
+717,15,Male,None,19907,Healthcare,7th,43,Yes,Charter,8,Yes,1,2.4,0
+718,14,Male,Master's,85131,Engineer,9th,13,No,Charter,5,No,3,2.6,0
+719,21,Other,PhD,103419,Unemployed,6th,36,Yes,Charter,10,No,1,0.8,0
+720,16,Female,High School,120088,Teacher,11th,20,Yes,Charter,8,No,2,1.2,0
+721,16,Male,High School,30022,Healthcare,7th,17,Yes,Charter,9,No,3,2.5,0
+722,14,Female,Master's,25122,Service,8th,4,No,Private,4,No,2,2.4,0
+723,23,Female,Master's,15685,Teacher,6th,2,No,Charter,7,No,5,2.0,1
+724,20,Female,PhD,95464,Engineer,11th,22,Yes,Public,2,Yes,2,1.4,1
+725,15,Other,None,105971,Unemployed,8th,25,No,Charter,6,No,5,3.7,1
+726,22,Male,Bachelor's,4737,Teacher,12th,36,Yes,Public,8,No,5,1.4,1
+727,16,Other,None,140431,Service,10th,23,No,Charter,7,Yes,2,1.8,1
+728,15,Male,High School,7795,Service,6th,48,Yes,Charter,7,No,2,2.7,0
+729,16,Male,Master's,81194,Engineer,12th,18,Yes,Public,8,No,5,2.2,1
+730,18,Other,PhD,106359,Teacher,9th,50,No,Public,7,Yes,3,1.4,1
+731,20,Female,None,130645,Healthcare,10th,24,Yes,Public,5,No,5,1.7,0
+732,18,Female,PhD,107113,Teacher,10th,20,Yes,Public,7,Yes,4,3.2,1
+733,24,Male,None,120259,Service,8th,11,No,Private,10,No,5,1.1,0
+734,16,Other,High School,50917,Engineer,12th,40,Yes,Public,3,Yes,3,0.6,1
+735,21,Female,Bachelor's,122223,Engineer,10th,32,Yes,Charter,5,Yes,4,1.3,1
+736,21,Female,PhD,12017,Healthcare,7th,49,No,Charter,7,Yes,1,3.4,1
+737,18,Male,PhD,134222,Engineer,6th,3,Yes,Private,9,No,1,0.4,0
+738,25,Male,Bachelor's,82138,Engineer,7th,41,Yes,Public,2,No,3,4.0,1
+739,21,Other,PhD,122594,Engineer,8th,6,Yes,Charter,4,Yes,5,2.2,1
+740,16,Male,PhD,67847,Engineer,11th,21,Yes,Private,7,Yes,2,3.9,1
+741,14,Female,None,96536,Engineer,8th,32,Yes,Charter,1,No,3,3.8,1
+742,18,Female,None,78960,Service,6th,16,Yes,Private,2,No,4,1.8,0
+743,24,Female,Bachelor's,109738,Teacher,10th,23,Yes,Private,9,No,4,0.8,1
+744,22,Female,High School,12244,Unemployed,12th,33,Yes,Public,10,No,1,0.7,0
+745,22,Other,PhD,9052,Engineer,12th,27,No,Private,7,No,4,1.0,1
+746,13,Other,High School,37065,Unemployed,9th,42,Yes,Charter,10,Yes,3,2.8,0
+747,23,Male,Bachelor's,23931,Unemployed,8th,40,Yes,Charter,7,No,4,1.1,1
+748,20,Male,Bachelor's,130767,Service,6th,38,No,Public,6,Yes,3,1.4,1
+749,21,Male,None,32882,Engineer,9th,21,Yes,Public,3,No,2,1.8,0
+750,21,Other,PhD,146379,Unemployed,10th,48,Yes,Private,10,Yes,1,3.7,1
+751,23,Female,Master's,50534,Engineer,11th,16,Yes,Public,3,Yes,4,0.8,1
+752,12,Male,Bachelor's,27317,Healthcare,8th,33,Yes,Charter,2,No,3,0.0,0
+753,24,Female,PhD,118454,Healthcare,11th,5,Yes,Charter,6,Yes,5,0.2,1
+754,17,Male,High School,98806,Healthcare,6th,45,Yes,Public,4,Yes,1,3.6,1
+755,18,Male,None,74729,Unemployed,11th,5,No,Public,5,Yes,2,2.6,1
+756,25,Male,High School,83304,Healthcare,11th,33,No,Public,3,Yes,3,1.1,1
+757,24,Male,Bachelor's,107880,Service,6th,0,No,Private,6,No,2,0.7,0
+758,19,Male,Bachelor's,34268,Service,6th,9,No,Private,3,Yes,2,1.2,0
+759,21,Female,High School,149450,Unemployed,8th,20,No,Charter,8,No,4,0.5,0
+760,20,Male,Bachelor's,146218,Engineer,11th,4,Yes,Private,9,Yes,4,3.8,1
+761,13,Female,PhD,97548,Teacher,9th,1,Yes,Private,4,No,3,3.1,0
+762,22,Other,Bachelor's,29931,Engineer,6th,21,Yes,Private,9,No,5,1.8,1
+763,21,Male,None,102034,Engineer,10th,47,Yes,Private,7,No,3,3.5,1
+764,13,Female,PhD,10829,Engineer,11th,1,Yes,Charter,3,Yes,5,1.0,1
+765,16,Other,Master's,4597,Engineer,6th,9,No,Public,7,No,2,2.9,0
+766,24,Other,Bachelor's,38652,Teacher,9th,33,No,Charter,1,No,1,3.4,1
+767,16,Other,Bachelor's,69393,Healthcare,12th,15,Yes,Private,3,Yes,3,1.4,1
+768,17,Female,None,130240,Engineer,8th,47,Yes,Public,6,No,3,3.0,1
+769,14,Male,None,109075,Service,11th,50,Yes,Public,4,Yes,5,1.2,1
+770,19,Male,High School,111405,Unemployed,12th,38,No,Public,7,Yes,2,1.2,1
+771,24,Female,High School,63824,Unemployed,6th,21,No,Charter,3,No,2,0.4,0
+772,12,Male,High School,51890,Service,6th,11,Yes,Public,1,Yes,5,1.8,1
+773,17,Female,None,55655,Engineer,10th,23,No,Charter,9,Yes,2,2.9,1
+774,15,Male,High School,148147,Teacher,10th,46,Yes,Charter,6,Yes,4,3.8,1
+775,12,Other,High School,6016,Healthcare,11th,39,No,Private,8,No,1,2.4,0
+776,18,Male,Master's,130054,Unemployed,12th,37,No,Private,3,Yes,3,3.5,1
+777,20,Female,High School,86801,Healthcare,12th,9,Yes,Public,8,Yes,1,3.3,1
+778,24,Female,Bachelor's,65792,Teacher,6th,34,No,Public,2,Yes,3,0.7,1
+779,15,Other,None,108788,Unemployed,11th,50,No,Private,4,No,4,1.9,0
+780,15,Female,PhD,73000,Healthcare,6th,48,Yes,Charter,3,Yes,2,0.5,1
+781,17,Male,Master's,131013,Teacher,10th,31,No,Charter,10,No,5,2.7,1
+782,23,Male,None,135105,Healthcare,9th,6,Yes,Private,1,Yes,4,3.8,1
+783,14,Other,None,63258,Engineer,7th,20,No,Charter,7,No,1,0.5,0
+784,24,Female,Bachelor's,41524,Teacher,7th,19,Yes,Private,10,No,5,2.9,1
+785,23,Other,High School,88852,Healthcare,6th,25,Yes,Private,2,No,2,2.5,0
+786,17,Male,Bachelor's,136854,Engineer,12th,3,No,Public,4,Yes,4,2.3,1
+787,18,Other,High School,31599,Engineer,10th,45,No,Public,9,Yes,5,1.6,0
+788,22,Female,High School,93444,Teacher,8th,21,Yes,Private,6,Yes,4,1.4,1
+789,21,Other,None,94734,Service,8th,14,No,Public,8,No,4,0.2,0
+790,21,Female,High School,109966,Unemployed,7th,39,No,Private,2,Yes,2,0.9,1
+791,14,Female,Master's,19735,Teacher,9th,20,No,Charter,7,Yes,3,0.1,0
+792,18,Male,Master's,107373,Engineer,7th,14,Yes,Charter,6,No,5,2.3,1
+793,25,Male,Master's,136354,Engineer,6th,21,Yes,Charter,9,Yes,2,0.4,1
+794,14,Male,None,26952,Teacher,9th,27,Yes,Charter,7,Yes,4,3.5,1
+795,24,Female,Bachelor's,35631,Service,8th,13,No,Private,1,No,2,2.1,0
+796,24,Other,PhD,145709,Unemployed,12th,26,No,Charter,8,No,3,2.8,0
+797,13,Female,High School,27146,Healthcare,10th,40,Yes,Charter,10,Yes,5,1.6,0
+798,23,Male,PhD,128157,Teacher,10th,39,Yes,Charter,3,No,3,2.2,0
+799,25,Male,Bachelor's,73841,Unemployed,6th,27,No,Charter,2,Yes,1,3.8,1
+800,21,Other,Bachelor's,37084,Unemployed,7th,25,No,Private,3,Yes,5,0.3,1
+801,15,Male,None,130612,Engineer,6th,48,No,Charter,6,Yes,3,1.0,1
+802,23,Male,Master's,66795,Healthcare,10th,1,No,Public,3,Yes,4,3.1,1
+803,19,Male,Master's,77222,Teacher,8th,24,Yes,Public,10,Yes,5,0.4,1
+804,24,Other,Bachelor's,53885,Engineer,10th,2,No,Public,5,No,5,0.3,1
+805,20,Female,None,88942,Engineer,9th,7,No,Public,6,No,2,1.4,0
+806,18,Male,None,24528,Service,12th,43,Yes,Public,8,Yes,4,0.4,0
+807,12,Other,High School,58662,Unemployed,12th,32,Yes,Public,7,No,1,2.3,0
+808,14,Male,Master's,145411,Teacher,11th,41,No,Private,8,No,3,0.9,0
+809,24,Other,Bachelor's,38720,Teacher,10th,34,Yes,Public,3,Yes,2,3.6,1
+810,23,Male,PhD,98510,Teacher,10th,5,No,Charter,4,No,3,3.1,0
+811,25,Other,Master's,48778,Engineer,12th,38,No,Public,6,No,1,2.8,0
+812,20,Male,High School,116020,Service,11th,22,Yes,Private,7,Yes,1,2.5,1
+813,23,Female,None,19631,Healthcare,9th,24,Yes,Public,9,Yes,5,3.5,1
+814,12,Male,Bachelor's,145473,Engineer,7th,49,No,Charter,1,Yes,1,0.9,1
+815,20,Other,Master's,68068,Healthcare,10th,42,Yes,Charter,8,Yes,3,3.5,1
+816,19,Male,PhD,35407,Service,12th,18,No,Private,8,Yes,4,3.2,1
+817,12,Female,High School,11024,Unemployed,6th,4,No,Private,6,Yes,4,3.0,0
+818,17,Male,High School,25463,Teacher,10th,50,No,Private,4,Yes,5,2.2,0
+819,16,Other,Master's,77966,Healthcare,6th,10,Yes,Private,3,No,3,1.0,0
+820,17,Other,PhD,50550,Engineer,9th,11,No,Public,3,Yes,3,1.7,1
+821,21,Female,High School,124332,Healthcare,10th,9,No,Public,6,No,1,3.2,0
+822,23,Other,Bachelor's,64633,Unemployed,12th,7,No,Charter,8,No,3,0.1,0
+823,24,Male,High School,37307,Teacher,9th,23,Yes,Private,7,Yes,2,3.1,1
+824,24,Male,PhD,92571,Healthcare,9th,27,No,Private,1,No,1,1.0,0
+825,24,Male,None,106016,Unemployed,7th,40,No,Public,6,No,2,0.6,0
+826,16,Other,None,25056,Engineer,10th,35,No,Private,7,No,5,0.5,0
+827,17,Male,Master's,25142,Service,6th,36,Yes,Charter,7,Yes,4,0.1,1
+828,16,Male,PhD,5500,Engineer,6th,20,No,Charter,9,No,5,2.1,1
+829,22,Male,High School,110460,Teacher,10th,7,No,Private,10,No,4,0.9,0
+830,23,Female,High School,99570,Engineer,11th,8,Yes,Charter,5,Yes,5,4.0,1
+831,16,Other,None,71194,Engineer,7th,46,Yes,Charter,1,No,3,2.3,0
+832,15,Other,None,126625,Engineer,7th,14,No,Public,2,No,2,0.6,0
+833,14,Other,Bachelor's,120850,Engineer,7th,47,No,Charter,4,No,4,2.8,1
+834,14,Female,None,87803,Teacher,6th,45,No,Private,5,No,1,3.6,1
+835,15,Other,Bachelor's,130240,Unemployed,9th,39,Yes,Private,9,No,2,3.0,1
+836,20,Female,High School,30876,Healthcare,12th,17,Yes,Charter,1,Yes,1,0.3,0
+837,13,Female,Bachelor's,16787,Service,11th,41,No,Private,3,No,2,3.6,1
+838,20,Other,Bachelor's,40462,Healthcare,7th,19,Yes,Public,5,Yes,2,3.2,0
+839,12,Male,Master's,8563,Healthcare,6th,5,No,Charter,3,No,5,0.6,1
+840,25,Male,None,79675,Service,6th,11,No,Charter,4,Yes,4,0.2,1
+841,12,Other,Bachelor's,140490,Teacher,9th,1,Yes,Charter,3,Yes,4,2.2,1
+842,16,Other,High School,5901,Service,10th,6,No,Private,4,Yes,2,0.6,0
+843,17,Female,PhD,18316,Teacher,10th,15,Yes,Private,1,No,3,3.3,0
+844,17,Other,Bachelor's,67829,Healthcare,12th,2,Yes,Charter,8,No,3,1.4,0
+845,14,Female,None,140081,Teacher,12th,44,No,Private,4,No,1,3.7,1
+846,18,Other,Master's,47423,Unemployed,7th,2,Yes,Private,7,No,1,2.3,0
+847,20,Male,High School,76085,Service,12th,26,No,Charter,2,No,5,0.7,0
+848,22,Male,Master's,6235,Unemployed,7th,49,Yes,Charter,2,Yes,2,0.6,0
+849,23,Other,PhD,22251,Healthcare,11th,42,No,Private,6,Yes,1,2.3,0
+850,21,Female,Bachelor's,147994,Service,12th,39,No,Charter,2,Yes,1,3.0,1
+851,19,Male,Bachelor's,144767,Healthcare,9th,37,No,Charter,6,No,2,3.1,1
+852,17,Female,None,740,Unemployed,7th,32,Yes,Charter,2,No,5,1.1,0
+853,23,Other,Bachelor's,142771,Healthcare,9th,27,No,Charter,4,Yes,1,0.8,1
+854,19,Other,High School,95867,Service,6th,0,Yes,Private,7,No,5,0.1,0
+855,23,Male,PhD,130187,Service,7th,7,Yes,Charter,8,No,4,2.7,1
+856,16,Other,Master's,68210,Healthcare,6th,36,Yes,Public,3,Yes,5,0.3,1
+857,19,Male,PhD,77339,Service,8th,31,Yes,Charter,9,Yes,3,1.7,1
+858,21,Female,Bachelor's,73326,Service,9th,47,Yes,Public,2,No,3,2.4,0
+859,23,Male,Master's,100029,Healthcare,8th,42,No,Charter,8,No,5,3.7,1
+860,15,Male,None,20947,Unemployed,7th,36,Yes,Public,8,Yes,3,1.2,0
+861,21,Female,PhD,4496,Service,6th,3,No,Public,4,No,4,1.0,1
+862,19,Male,Master's,46189,Service,7th,29,No,Charter,1,Yes,2,2.6,0
+863,21,Male,Master's,105702,Service,8th,5,Yes,Charter,1,Yes,3,2.5,1
+864,23,Other,Master's,30278,Service,7th,45,No,Charter,2,Yes,3,1.3,0
+865,13,Female,High School,101014,Healthcare,11th,18,No,Public,9,No,5,3.7,0
+866,23,Male,PhD,145486,Unemployed,10th,31,Yes,Private,2,Yes,4,3.4,1
+867,23,Female,Master's,14085,Unemployed,8th,8,No,Private,2,Yes,2,0.9,0
+868,16,Female,PhD,100890,Teacher,7th,11,Yes,Charter,6,No,5,1.0,1
+869,20,Male,Master's,66562,Service,6th,10,Yes,Private,7,Yes,5,2.0,1
+870,15,Other,None,130221,Service,7th,45,Yes,Private,7,No,4,3.1,1
+871,22,Female,None,26572,Teacher,6th,15,No,Charter,9,No,2,0.2,0
+872,17,Male,None,103893,Unemployed,10th,0,No,Public,6,No,4,2.8,0
+873,12,Female,Bachelor's,125717,Engineer,7th,44,No,Charter,8,Yes,2,2.6,1
+874,20,Other,Master's,141692,Engineer,12th,20,No,Private,6,Yes,4,0.9,1
+875,12,Other,Bachelor's,102487,Unemployed,12th,29,Yes,Public,2,No,5,2.7,1
+876,16,Other,PhD,74576,Service,10th,12,Yes,Private,1,No,5,3.8,1
+877,15,Male,Bachelor's,92677,Engineer,8th,33,No,Public,5,No,1,0.2,0
+878,24,Male,PhD,130335,Healthcare,6th,3,Yes,Private,9,Yes,3,1.3,1
+879,23,Other,PhD,85591,Healthcare,12th,27,No,Charter,8,No,4,1.8,1
+880,24,Male,PhD,4558,Teacher,11th,37,Yes,Private,4,No,1,3.6,1
+881,24,Other,Bachelor's,139642,Unemployed,8th,30,Yes,Private,5,No,3,3.8,1
+882,25,Male,Master's,103429,Unemployed,6th,26,Yes,Public,5,Yes,4,1.8,1
+883,14,Other,Bachelor's,101477,Engineer,10th,4,Yes,Private,6,No,2,3.0,0
+884,24,Female,Master's,32351,Service,12th,24,Yes,Charter,3,Yes,3,2.1,0
+885,17,Other,Master's,98832,Unemployed,9th,2,No,Charter,5,Yes,5,2.2,1
+886,13,Other,PhD,59079,Engineer,7th,32,No,Charter,2,No,1,1.1,0
+887,14,Male,Bachelor's,97684,Engineer,10th,3,Yes,Public,10,No,3,0.9,0
+888,16,Male,Master's,15988,Unemployed,6th,24,No,Public,1,No,3,1.2,0
+889,20,Male,None,98676,Engineer,6th,19,Yes,Private,1,Yes,5,2.2,1
+890,13,Male,Master's,149912,Teacher,6th,33,Yes,Private,10,Yes,4,0.1,1
+891,21,Male,None,7231,Teacher,6th,25,Yes,Private,7,Yes,2,3.6,1
+892,19,Male,Bachelor's,146576,Unemployed,7th,4,Yes,Public,2,No,5,0.6,1
+893,25,Female,Bachelor's,61036,Service,8th,34,No,Public,4,Yes,2,0.9,1
+894,13,Other,Bachelor's,130613,Teacher,11th,27,Yes,Private,5,No,4,2.1,1
+895,22,Other,Master's,117357,Teacher,9th,28,No,Public,7,No,3,2.8,0
+896,24,Other,High School,85052,Unemployed,7th,8,Yes,Public,2,No,2,0.4,0
+897,16,Female,Master's,110767,Healthcare,6th,37,Yes,Charter,6,Yes,1,1.3,1
+898,18,Other,Master's,131777,Engineer,7th,49,No,Charter,1,Yes,1,3.9,1
+899,19,Female,PhD,60621,Teacher,10th,5,Yes,Private,7,Yes,5,1.0,1
+900,12,Female,PhD,49054,Healthcare,11th,18,Yes,Private,9,No,4,1.3,1
+901,17,Female,Master's,100139,Service,6th,43,No,Charter,5,Yes,5,3.3,1
+902,12,Other,None,121176,Healthcare,9th,10,No,Public,5,Yes,5,0.2,1
+903,13,Female,PhD,114342,Unemployed,6th,1,No,Private,4,No,5,1.9,1
+904,12,Other,Master's,119672,Service,11th,46,Yes,Private,3,No,1,1.5,0
+905,22,Other,High School,65337,Service,9th,43,Yes,Private,9,Yes,1,1.3,1
+906,16,Male,None,122675,Healthcare,11th,43,No,Public,5,No,5,1.1,0
+907,21,Male,Bachelor's,18031,Unemployed,9th,8,No,Charter,8,Yes,1,0.4,0
+908,20,Female,Master's,81673,Teacher,8th,20,Yes,Private,9,No,4,1.3,1
+909,17,Female,Master's,863,Healthcare,12th,23,Yes,Charter,5,No,5,0.2,1
+910,22,Other,None,48687,Teacher,8th,33,No,Charter,10,Yes,1,3.1,1
+911,22,Female,PhD,54969,Healthcare,7th,21,No,Public,9,No,2,1.6,0
+912,12,Female,PhD,59425,Teacher,7th,2,No,Public,2,No,5,1.8,1
+913,24,Other,PhD,104320,Healthcare,9th,11,No,Public,9,No,5,3.6,1
+914,12,Female,Bachelor's,58283,Service,6th,27,Yes,Public,4,Yes,4,2.6,1
+915,13,Female,None,67304,Engineer,12th,29,Yes,Public,6,No,3,0.0,0
+916,20,Other,None,35631,Service,10th,25,Yes,Public,6,No,3,3.8,1
+917,14,Other,PhD,55987,Teacher,10th,47,Yes,Private,6,Yes,4,0.9,1
+918,12,Male,PhD,34090,Unemployed,6th,20,No,Charter,2,Yes,4,0.4,1
+919,16,Other,High School,10979,Service,6th,27,Yes,Public,7,No,4,3.1,1
+920,18,Male,High School,90517,Engineer,8th,25,No,Private,6,No,3,2.0,0
+921,17,Female,Master's,100231,Teacher,10th,32,Yes,Charter,1,No,4,1.7,1
+922,23,Other,Master's,92923,Service,9th,20,Yes,Public,2,Yes,1,1.0,1
+923,12,Other,None,69524,Healthcare,11th,34,Yes,Public,7,No,5,2.2,0
+924,16,Other,None,56967,Unemployed,7th,33,No,Private,1,Yes,5,1.1,1
+925,16,Female,Bachelor's,129500,Teacher,11th,40,Yes,Charter,1,Yes,2,3.6,1
+926,17,Male,Bachelor's,77862,Service,8th,50,No,Public,1,No,2,0.9,0
+927,14,Female,High School,71877,Teacher,10th,46,No,Charter,8,No,5,3.5,1
+928,16,Female,Master's,3846,Healthcare,12th,17,Yes,Private,4,Yes,1,2.2,0
+929,18,Other,High School,51187,Engineer,6th,10,No,Public,4,No,3,3.3,0
+930,16,Male,High School,57029,Service,12th,22,Yes,Charter,2,No,3,2.9,0
+931,16,Female,Master's,59823,Teacher,12th,47,No,Private,1,Yes,1,2.8,1
+932,16,Other,Bachelor's,87025,Teacher,10th,21,Yes,Private,10,No,3,1.3,0
+933,21,Female,Master's,80040,Teacher,9th,16,No,Public,9,Yes,4,0.9,1
+934,21,Female,PhD,91185,Engineer,8th,4,No,Charter,7,No,5,0.8,1
+935,14,Other,PhD,114732,Teacher,6th,43,Yes,Public,4,Yes,5,3.4,1
+936,12,Other,PhD,121947,Unemployed,11th,10,Yes,Public,6,Yes,1,3.3,1
+937,16,Male,None,107718,Unemployed,9th,29,Yes,Charter,2,No,3,1.8,0
+938,25,Female,Bachelor's,143328,Teacher,11th,14,Yes,Charter,7,Yes,2,0.5,1
+939,20,Other,Bachelor's,2734,Unemployed,7th,26,No,Charter,2,Yes,2,1.5,0
+940,25,Other,None,29366,Service,8th,34,No,Private,10,No,3,2.5,0
+941,12,Male,High School,1134,Unemployed,9th,32,No,Private,8,No,2,1.8,0
+942,14,Male,PhD,97121,Teacher,9th,19,No,Charter,8,No,1,3.1,0
+943,24,Other,PhD,134704,Healthcare,11th,15,Yes,Private,1,Yes,1,4.0,1
+944,24,Male,High School,36522,Service,6th,33,No,Public,8,Yes,3,0.8,0
+945,15,Other,Master's,139055,Engineer,7th,1,Yes,Charter,2,Yes,2,1.8,1
+946,25,Female,Master's,9040,Teacher,11th,34,No,Public,6,No,1,1.7,0
+947,12,Male,Bachelor's,140165,Engineer,9th,39,Yes,Charter,1,Yes,1,1.2,1
+948,12,Female,None,52743,Healthcare,8th,27,Yes,Public,5,Yes,4,0.8,1
+949,19,Female,Bachelor's,15213,Engineer,9th,46,Yes,Charter,7,No,4,0.3,1
+950,13,Female,Master's,72880,Teacher,10th,38,Yes,Public,10,Yes,1,3.5,1
+951,23,Other,High School,38516,Teacher,8th,5,Yes,Charter,1,No,3,1.7,0
+952,19,Female,Bachelor's,42730,Healthcare,8th,8,No,Charter,2,No,5,2.0,1
+953,18,Female,PhD,46093,Teacher,9th,19,Yes,Private,7,No,5,3.7,1
+954,21,Female,PhD,120453,Healthcare,6th,0,No,Public,6,Yes,1,3.1,1
+955,21,Other,High School,80874,Healthcare,8th,7,No,Private,3,Yes,1,0.5,1
+956,13,Female,Master's,46696,Teacher,10th,22,Yes,Public,10,Yes,1,2.3,0
+957,17,Female,PhD,91550,Unemployed,11th,2,No,Private,2,No,3,1.8,0
+958,17,Male,PhD,107422,Healthcare,6th,3,No,Charter,10,No,4,3.2,1
+959,14,Other,None,40893,Teacher,6th,24,No,Private,4,No,1,2.9,0
+960,22,Female,Bachelor's,62032,Unemployed,6th,46,Yes,Private,3,Yes,1,2.8,1
+961,13,Male,Master's,18282,Healthcare,8th,37,Yes,Charter,7,Yes,2,1.4,0
+962,23,Other,Bachelor's,27172,Unemployed,6th,14,Yes,Private,8,Yes,3,3.2,0
+963,12,Other,Master's,102167,Service,9th,20,Yes,Charter,2,Yes,1,0.2,1
+964,17,Other,PhD,27215,Service,6th,34,No,Public,10,Yes,2,0.6,0
+965,23,Other,None,78774,Unemployed,10th,45,No,Private,7,No,5,1.3,0
+966,16,Other,Bachelor's,106356,Healthcare,7th,13,No,Charter,8,Yes,1,0.3,1
+967,25,Other,PhD,16031,Teacher,10th,35,No,Charter,6,No,1,0.9,0
+968,25,Female,Master's,85096,Engineer,8th,11,No,Private,6,No,2,3.3,0
+969,22,Female,Bachelor's,38484,Teacher,6th,16,No,Public,10,Yes,3,3.8,0
+970,20,Female,Bachelor's,144439,Engineer,6th,38,Yes,Private,1,No,1,1.2,0
+971,12,Female,PhD,72531,Engineer,9th,8,No,Charter,4,Yes,5,1.1,1
+972,18,Male,Bachelor's,120898,Healthcare,11th,34,No,Public,1,Yes,1,1.1,1
+973,16,Female,None,82533,Unemployed,6th,12,No,Private,4,No,5,1.1,0
+974,16,Other,None,6511,Teacher,12th,14,Yes,Charter,2,Yes,4,0.1,0
+975,25,Female,PhD,94972,Unemployed,10th,17,No,Private,5,Yes,4,3.7,1
+976,13,Female,Master's,142710,Service,8th,50,No,Public,10,No,5,0.9,1
+977,22,Other,PhD,90241,Healthcare,7th,32,Yes,Public,9,No,3,1.7,0
+978,14,Female,None,122878,Healthcare,6th,5,No,Public,10,No,1,0.0,0
+979,18,Female,High School,132630,Service,7th,26,Yes,Public,3,No,1,3.4,1
+980,17,Female,High School,34211,Teacher,6th,22,Yes,Public,8,No,4,2.9,0
+981,23,Male,Bachelor's,31806,Service,8th,26,No,Private,3,No,5,3.8,1
+982,13,Female,Bachelor's,91647,Teacher,11th,33,No,Public,6,Yes,1,3.1,1
+983,17,Other,High School,61654,Engineer,10th,45,Yes,Public,4,Yes,1,1.3,1
+984,13,Other,None,125979,Healthcare,8th,37,No,Charter,8,Yes,3,1.0,1
+985,13,Female,Bachelor's,135003,Teacher,7th,13,No,Public,6,No,2,2.8,0
+986,13,Female,PhD,53013,Unemployed,6th,35,Yes,Charter,8,Yes,4,1.5,1
+987,25,Female,PhD,35530,Unemployed,7th,7,Yes,Charter,1,No,4,2.3,1
+988,22,Other,None,117078,Healthcare,10th,34,No,Charter,6,Yes,2,0.0,1
+989,14,Other,Bachelor's,41220,Service,12th,18,Yes,Private,1,No,1,0.2,0
+990,13,Male,PhD,123392,Service,8th,29,No,Private,1,Yes,3,2.1,1
+991,15,Male,Bachelor's,63560,Teacher,7th,13,No,Charter,8,No,3,2.3,0
+992,20,Male,Bachelor's,100132,Service,7th,19,No,Private,7,No,4,3.0,1
+993,17,Other,PhD,14330,Healthcare,10th,48,No,Public,3,No,3,0.5,0
+994,12,Male,High School,93578,Teacher,12th,24,Yes,Private,6,No,2,2.1,0
+995,19,Female,PhD,67765,Engineer,6th,39,No,Public,9,Yes,1,0.8,1
+996,23,Female,None,87991,Service,12th,23,Yes,Public,7,Yes,2,0.4,1
+997,25,Other,Master's,25202,Service,7th,13,No,Private,3,No,5,1.6,1
+998,18,Male,PhD,110531,Teacher,10th,25,No,Private,6,No,4,0.7,1
+999,21,Female,Bachelor's,129419,Unemployed,6th,37,Yes,Charter,4,No,3,0.9,0

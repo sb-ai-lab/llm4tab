@@ -1,0 +1,10 @@
+{
+  "dataset": "reading",
+  "method": "gpt-4o-mini",
+  "iter": 4,
+  "seed": 4,
+  "acc": 0.6427927927927928,
+  "f1_score": 0.570750134916352,
+  "roc_auc": 0.6427927927927928,
+  "tree_path": "./trees/reading/gpt-4o-mini/reading_gpt-4o-mini_examples_3_desc_False_temp_100_maxdepth_2_iter_4_dialogue.txt"
+}

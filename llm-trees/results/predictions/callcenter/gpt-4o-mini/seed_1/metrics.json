@@ -1,0 +1,10 @@
+{
+  "dataset": "callcenter",
+  "method": "gpt-4o-mini",
+  "iter": 1,
+  "seed": 1,
+  "acc": 0.5625,
+  "f1_score": 0.24682427053407635,
+  "roc_auc": 0.5624999999999999,
+  "tree_path": "./trees/callcenter/gpt-4o-mini/callcenter_gpt-4o-mini_examples_3_desc_False_temp_100_maxdepth_2_iter_1_dialogue.txt"
+}

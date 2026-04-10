@@ -1,0 +1,27 @@
+\begin{table}[ht]
+\sisetup{
+  separate-uncertainty = true,
+  table-align-uncertainty = true,
+  table-figures-uncertainty = 1,
+}
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+
+\begin{tabular}{lcccccccccccc}
+\toprule
+Dataset & \multicolumn{3}{c}{GPT-4o-mini} & \multicolumn{3}{c}{Qwen3-1.7B} & \multicolumn{3}{c}{Qwen3-8B} & \multicolumn{3}{c}{Qwen3-14B} \\
+ & 0-shot & 4-shot & 16-shot & 0-shot & 4-shot & 16-shot & 0-shot & 4-shot & 16-shot & 0-shot & 4-shot & 16-shot \\
+\midrule
+MLP0 & \num{0.608 \pm 0.004} & \num{0.645 \pm 0.065} & \num{0.708 \pm 0.055} & \num{0.570 \pm 0.004} & \num{0.641 \pm 0.052} & \num{0.662 \pm 0.039} & \num{0.564 \pm 0.001} & \num{0.639 \pm 0.070} & \num{0.713 \pm 0.059} & \num{0.602 \pm 0.000} & \num{0.688 \pm 0.088} & \num{0.748 \pm 0.059} \\
+MLP1 & \num{0.596 \pm 0.007} & \num{0.593 \pm 0.023} & \num{0.578 \pm 0.033} & \num{0.564 \pm 0.002} & \num{0.597 \pm 0.019} & \num{0.596 \pm 0.013} & \num{0.562 \pm 0.004} & \num{0.587 \pm 0.032} & \num{0.568 \pm 0.051} & \num{0.562 \pm 0.000} & \num{0.584 \pm 0.032} & \num{0.579 \pm 0.053} \\
+MLP2 & \num{0.563 \pm 0.010} & \num{0.558 \pm 0.023} & \num{0.566 \pm 0.020} & \num{0.534 \pm 0.001} & \num{0.555 \pm 0.016} & \num{0.556 \pm 0.012} & \num{0.547 \pm 0.004} & \num{0.564 \pm 0.022} & \num{0.580 \pm 0.030} & \num{0.535 \pm 0.000} & \num{0.564 \pm 0.029} & \num{0.577 \pm 0.028} \\
+MLP3 & \num{0.603 \pm 0.008} & \num{0.569 \pm 0.035} & \num{0.581 \pm 0.026} & \num{0.540 \pm 0.002} & \num{0.580 \pm 0.022} & \num{0.577 \pm 0.012} & \num{0.566 \pm 0.011} & \num{0.576 \pm 0.027} & \num{0.573 \pm 0.027} & \num{0.583 \pm 0.001} & \num{0.587 \pm 0.041} & \num{0.587 \pm 0.031} \\
+MLP5 & \num{0.546 \pm 0.006} & \num{0.542 \pm 0.014} & \num{0.541 \pm 0.013} & \num{0.532 \pm 0.001} & \num{0.518 \pm 0.013} & \num{0.520 \pm 0.017} & \num{0.527 \pm 0.007} & \num{0.536 \pm 0.016} & \num{0.538 \pm 0.018} & \num{0.541 \pm 0.000} & \num{0.537 \pm 0.015} & \num{0.543 \pm 0.026} \\
+MLP7 & \num{0.533 \pm 0.005} & \num{0.538 \pm 0.019} & \num{0.541 \pm 0.012} & \num{0.583 \pm 0.002} & \num{0.532 \pm 0.017} & \num{0.545 \pm 0.015} & \num{0.523 \pm 0.006} & \num{0.534 \pm 0.018} & \num{0.535 \pm 0.018} & \num{0.537 \pm 0.000} & \num{0.534 \pm 0.017} & \num{0.540 \pm 0.019} \\
+MLP9 & \num{0.526 \pm 0.007} & \num{0.526 \pm 0.012} & \num{0.525 \pm 0.009} & \num{0.523 \pm 0.008} & \num{0.516 \pm 0.012} & \num{0.518 \pm 0.011} & \num{0.526 \pm 0.009} & \num{0.525 \pm 0.016} & \num{0.529 \pm 0.014} & \num{0.521 \pm 0.000} & \num{0.528 \pm 0.012} & \num{0.523 \pm 0.011} \\
+\bottomrule
+\end{tabular}
+\caption{Model performance on synthetic datasets across shots}
+\label{tab:synthetic_models_shots}
+\end{table}

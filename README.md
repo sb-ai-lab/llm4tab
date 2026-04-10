@@ -12,6 +12,17 @@ The framework supports:
 
 ---
 
+# Main Results: ROC-AUC in 0-shot configuration for 4 LLMs (generation regime)
+
+For detailed results, see [RESULTS.md](RESULTS.md).
+
+| Dataset Type | Qwen3-1.7B | Qwen3-8B | Qwen3-14B | GPT-4o-mini | TabPFN (16-shot) | TabICL (16-shot) |
+|--------------|------------|----------|-----------|-------------|------------------|------------------|
+| Real Datasets | 0.640 ± 0.004 | 0.736 ± 0.000 | 0.733 ± 0.000 | 0.729 ± 0.007 | 0.767 ± 0.052 | 0.738 ± 0.048 |
+| New Datasets | 0.587 ± 0.003 | 0.657 ± 0.001 | 0.657 ± 0.000 | 0.684 ± 0.006 | 0.699 ± 0.065 | 0.660 ± 0.050 |
+| MLP-Synthetic | 0.544 ± 0.004 | 0.545 ± 0.018 | 0.554 ± 0.029 | 0.568 ± 0.033 | 0.651 ± 0.051 | 0.626 ± 0.048 |
+| LLM-Synthetic | 0.569 ± 0.006 | 0.669 ± 0.000 | 0.657 ± 0.000 | 0.738 ± 0.005 | 0.762 ± 0.051 | 0.698 ± 0.051 |
+
 ## Quick Start
 
 ### Prerequisites
@@ -360,6 +371,29 @@ results/llm_probs/
 ```
 
 Each `.pkl` file contains a dictionary with `pred_probs`, `true_labels`, `pred_labels`, `timestamp`, `params`, and metadata.
+
+---
+
+## Generating Result Tables 
+
+To obtain ready-to-use LaTeX tables (broken down by shots and serializations) for all datasets:
+
+1. In `config.yaml`, set the `TGEN_LOCAL_DATASET_PATH` parameter to the desired aggregation table:
+   - `agr_all_prompt1` — for the first prompt configuration (default)
+   - `agr_all_prompt2` — for the second prompt configuration
+   - `agr_all_prompt3` — for the third prompt configuration
+   
+   All available aggregation tables are located in the `datasets/` folder.
+
+2. Run the `run_gen` script from the `gen_tables` folder:
+
+   ```bash
+   python gen_tables/run_gen
+   ```
+
+The generated LaTeX tables will appear in the `results/` folder.
+
+Note: All final tables are also collected in `RESULTS.md` in the repository root — you can view them directly in Markdown format.
 
 ---
 

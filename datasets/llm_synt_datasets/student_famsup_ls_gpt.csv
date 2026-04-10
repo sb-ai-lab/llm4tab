@@ -1,0 +1,1001 @@
+,Student_ID,Age,Gender,GPA,Hours_Studied_Per_Week,Family_Income,Parent_Education_Level,Participation_In_Extracurriculars,Number_of_Siblings,label
+0,1,15,Male,4.0,18,69127,Bachelor’s Degree,No,3,1
+1,2,17,Male,3.9,7,48098,Doctorate,No,2,0
+2,3,17,Female,3.7,7,45007,Some College,Yes,4,0
+3,4,18,Male,3.6,11,45272,Some College,Yes,3,0
+4,5,16,Female,4.0,17,58898,Bachelor’s Degree,No,0,1
+5,6,15,Female,3.1,16,49739,Master’s Degree,Yes,4,1
+6,7,15,Male,3.0,11,34702,High School Diploma,Yes,2,0
+7,8,16,Female,3.6,9,45881,Some College,No,4,0
+8,9,17,Female,2.0,20,39912,Master’s Degree,Yes,4,1
+9,10,17,Female,2.5,9,73663,High School Diploma,Yes,2,0
+10,11,15,Male,3.1,9,73101,Master’s Degree,Yes,1,1
+11,12,18,Female,2.0,20,72009,Doctorate,No,0,1
+12,13,16,Female,2.8,16,74284,Doctorate,No,2,1
+13,14,18,Male,3.7,9,31384,Some College,No,0,0
+14,15,18,Male,3.5,12,47416,High School Diploma,Yes,4,0
+15,16,17,Male,3.3,8,68352,Doctorate,Yes,4,1
+16,17,18,Male,3.2,19,78906,High School Diploma,No,1,1
+17,18,16,Female,3.4,19,46559,Bachelor’s Degree,Yes,4,1
+18,19,16,Male,3.8,7,64285,Some College,No,0,1
+19,20,17,Female,2.0,16,77001,Some College,No,2,0
+20,21,17,Female,2.2,11,53707,High School Diploma,Yes,2,0
+21,22,18,Male,4.0,15,29975,Master’s Degree,No,0,0
+22,23,17,Male,2.6,10,77917,Master’s Degree,No,4,0
+23,24,18,Male,3.0,14,57062,Some College,Yes,3,0
+24,25,17,Female,2.9,11,53593,High School Diploma,No,0,0
+25,26,17,Female,3.1,7,76156,High School Diploma,No,0,1
+26,27,18,Female,2.5,18,28950,Some College,No,0,0
+27,28,16,Female,2.0,11,54092,Some College,No,4,0
+28,29,16,Female,2.4,9,50466,Master’s Degree,No,3,0
+29,30,16,Female,2.8,8,56529,High School Diploma,No,3,0
+30,31,15,Female,3.5,9,36527,Doctorate,Yes,4,0
+31,32,16,Male,2.0,8,74552,Master’s Degree,No,0,0
+32,33,18,Female,2.2,13,63704,Bachelor’s Degree,No,4,0
+33,34,15,Female,3.8,6,50086,Master’s Degree,Yes,4,1
+34,35,15,Male,2.6,14,60309,Doctorate,Yes,2,0
+35,36,17,Male,3.4,12,35920,Bachelor’s Degree,Yes,4,0
+36,37,16,Female,2.8,18,47267,Master’s Degree,Yes,0,1
+37,38,17,Female,2.5,16,57953,Master’s Degree,No,4,1
+38,39,18,Female,2.6,16,76020,Master’s Degree,Yes,1,1
+39,40,17,Female,3.4,16,26233,Doctorate,No,0,1
+40,41,17,Male,3.2,6,59328,Doctorate,No,3,1
+41,42,16,Male,3.8,9,34141,Some College,No,3,0
+42,43,15,Male,2.5,15,70002,Master’s Degree,Yes,2,0
+43,44,18,Male,3.8,19,27999,Master’s Degree,No,3,1
+44,45,17,Female,2.8,6,49655,Bachelor’s Degree,No,4,0
+45,46,18,Female,2.2,8,78723,High School Diploma,Yes,2,0
+46,47,16,Male,2.7,6,59071,High School Diploma,Yes,4,0
+47,48,18,Male,3.7,15,33579,Bachelor’s Degree,No,0,0
+48,49,17,Male,2.3,11,62329,Master’s Degree,Yes,1,0
+49,50,15,Male,2.6,11,60993,Doctorate,Yes,3,0
+50,51,18,Female,3.6,13,46406,High School Diploma,Yes,3,0
+51,52,17,Male,2.6,9,53328,Master’s Degree,No,0,0
+52,53,18,Female,2.1,8,26792,Bachelor’s Degree,No,3,0
+53,54,18,Female,3.9,18,53919,Doctorate,No,3,1
+54,55,15,Female,3.4,19,32072,High School Diploma,No,3,0
+55,56,15,Female,2.5,20,41608,Some College,No,3,0
+56,57,17,Male,2.7,19,48367,Bachelor’s Degree,No,1,1
+57,58,15,Female,2.8,15,62622,Doctorate,Yes,1,0
+58,59,17,Female,2.6,7,69358,Bachelor’s Degree,No,2,0
+59,60,17,Male,3.0,13,26353,Bachelor’s Degree,Yes,3,0
+60,61,16,Female,3.6,20,44256,High School Diploma,No,2,0
+61,62,17,Male,2.2,6,48127,Doctorate,No,0,0
+62,63,18,Female,3.5,14,38399,Bachelor’s Degree,No,3,0
+63,64,15,Female,2.7,16,40937,High School Diploma,Yes,0,0
+64,65,17,Female,2.4,18,30784,High School Diploma,Yes,4,0
+65,66,17,Male,2.6,6,29094,Some College,No,3,0
+66,67,16,Female,3.6,18,32724,Master’s Degree,No,4,1
+67,68,17,Female,3.3,10,78659,Bachelor’s Degree,Yes,2,1
+68,69,16,Male,2.4,8,54014,Doctorate,No,1,0
+69,70,16,Male,3.2,15,78744,Some College,No,2,1
+70,71,17,Female,3.6,15,38435,Bachelor’s Degree,Yes,3,0
+71,72,17,Female,2.9,13,31606,Doctorate,Yes,1,0
+72,73,17,Male,3.1,17,38299,High School Diploma,No,2,0
+73,74,18,Female,3.2,14,37041,High School Diploma,Yes,2,0
+74,75,15,Male,2.6,8,61007,Bachelor’s Degree,Yes,3,0
+75,76,16,Female,2.0,11,65328,Some College,No,3,0
+76,77,16,Male,3.8,8,61779,Master’s Degree,No,2,1
+77,78,15,Female,2.5,9,62933,High School Diploma,Yes,3,0
+78,79,18,Male,2.7,6,35096,Doctorate,Yes,1,0
+79,80,17,Male,2.9,6,65343,Doctorate,No,0,0
+80,81,15,Male,2.0,20,76721,High School Diploma,No,0,0
+81,82,16,Female,2.8,14,44963,Some College,Yes,1,0
+82,83,17,Male,2.4,11,54000,Doctorate,No,2,0
+83,84,15,Male,2.4,12,74097,Master’s Degree,No,3,0
+84,85,15,Female,3.4,18,32835,High School Diploma,No,1,0
+85,86,18,Male,2.3,12,73476,Doctorate,Yes,0,0
+86,87,16,Male,3.3,7,77708,Doctorate,No,2,1
+87,88,15,Male,3.0,9,43543,Bachelor’s Degree,Yes,0,0
+88,89,16,Female,2.6,7,35612,Some College,Yes,3,0
+89,90,17,Female,2.7,6,28805,High School Diploma,Yes,1,0
+90,91,17,Female,3.4,11,53530,Bachelor’s Degree,No,2,1
+91,92,17,Female,3.2,11,49657,Bachelor’s Degree,Yes,4,0
+92,93,17,Male,2.6,20,44638,Some College,No,3,0
+93,94,16,Male,2.1,7,55018,High School Diploma,No,0,0
+94,95,18,Male,2.2,6,68387,Bachelor’s Degree,No,2,0
+95,96,17,Male,3.4,7,68026,Bachelor’s Degree,No,2,1
+96,97,18,Male,2.7,8,52607,Doctorate,No,2,0
+97,98,17,Male,3.1,20,35172,Doctorate,Yes,0,1
+98,99,15,Female,2.9,10,73686,High School Diploma,No,4,0
+99,100,16,Male,3.0,14,48172,Doctorate,No,4,0
+100,101,16,Male,3.2,8,38899,Bachelor’s Degree,No,1,0
+101,102,18,Female,3.6,7,65325,Bachelor’s Degree,Yes,0,1
+102,103,16,Male,3.0,14,45265,High School Diploma,Yes,0,0
+103,104,16,Male,2.8,14,34318,Bachelor’s Degree,No,3,0
+104,105,17,Male,3.1,9,55739,Master’s Degree,No,3,1
+105,106,18,Female,2.8,6,27565,Doctorate,No,4,0
+106,107,15,Female,2.9,18,53146,Some College,Yes,1,0
+107,108,16,Female,3.0,9,76437,High School Diploma,No,3,0
+108,109,15,Male,3.2,12,67780,Bachelor’s Degree,No,0,1
+109,110,15,Female,3.7,19,62309,Bachelor’s Degree,No,2,1
+110,111,16,Male,3.4,17,65416,High School Diploma,Yes,4,1
+111,112,15,Female,2.7,20,36060,High School Diploma,Yes,1,0
+112,113,16,Female,2.6,16,40334,Master’s Degree,Yes,4,1
+113,114,15,Male,2.0,12,31732,Doctorate,No,0,0
+114,115,17,Female,3.4,18,30144,Master’s Degree,No,2,1
+115,116,18,Male,3.1,17,28753,High School Diploma,Yes,4,0
+116,117,15,Female,3.7,9,49379,Bachelor’s Degree,Yes,4,0
+117,118,17,Female,3.3,7,68857,Bachelor’s Degree,Yes,2,1
+118,119,17,Female,2.5,19,51452,Doctorate,No,4,1
+119,120,17,Male,3.3,12,49724,Some College,Yes,3,0
+120,121,16,Male,4.0,10,63399,Some College,No,2,1
+121,122,18,Male,2.6,15,52837,Bachelor’s Degree,No,4,0
+122,123,18,Female,3.8,10,69870,High School Diploma,No,0,1
+123,124,15,Male,2.1,12,59325,Some College,No,4,0
+124,125,16,Female,2.7,20,55724,Doctorate,No,2,1
+125,126,16,Female,3.6,7,55232,High School Diploma,No,3,1
+126,127,15,Male,3.2,17,48046,Some College,No,0,0
+127,128,18,Male,3.6,15,67722,Some College,Yes,1,1
+128,129,16,Male,2.8,19,47849,Bachelor’s Degree,Yes,2,1
+129,130,18,Female,2.3,19,60505,Doctorate,Yes,2,1
+130,131,15,Male,2.6,20,49702,Some College,No,3,0
+131,132,18,Female,3.0,16,48320,Master’s Degree,Yes,1,1
+132,133,15,Female,3.0,18,60388,High School Diploma,No,3,0
+133,134,17,Male,2.1,12,45711,Bachelor’s Degree,Yes,1,0
+134,135,15,Male,3.9,11,71197,Master’s Degree,Yes,0,1
+135,136,18,Male,3.1,12,75405,Master’s Degree,No,2,1
+136,137,18,Female,3.5,17,30707,High School Diploma,Yes,4,0
+137,138,17,Female,3.3,11,50386,High School Diploma,Yes,0,1
+138,139,15,Female,3.8,20,70048,Bachelor’s Degree,Yes,4,1
+139,140,16,Female,3.3,17,47491,Doctorate,No,2,1
+140,141,15,Male,2.9,19,28889,Master’s Degree,No,0,1
+141,142,15,Male,2.1,10,77081,Some College,Yes,4,0
+142,143,18,Male,3.8,11,34071,Bachelor’s Degree,Yes,1,0
+143,144,18,Female,3.2,7,45689,Some College,No,1,0
+144,145,17,Male,3.3,17,62169,Bachelor’s Degree,Yes,0,1
+145,146,15,Female,3.5,18,28818,Some College,No,3,0
+146,147,15,Female,3.0,15,54210,Bachelor’s Degree,Yes,4,0
+147,148,17,Female,3.2,9,70796,Master’s Degree,Yes,1,1
+148,149,17,Male,2.4,20,79569,Doctorate,No,1,1
+149,150,15,Female,3.1,17,64891,High School Diploma,No,0,1
+150,151,17,Female,2.6,7,75107,Doctorate,No,4,0
+151,152,17,Female,2.5,20,52020,Doctorate,No,1,1
+152,153,18,Female,2.3,14,56471,High School Diploma,Yes,1,0
+153,154,17,Female,2.4,8,34322,Bachelor’s Degree,No,0,0
+154,155,17,Female,3.2,10,42775,Bachelor’s Degree,No,0,0
+155,156,17,Male,2.8,7,55274,Some College,No,0,0
+156,157,16,Male,2.2,6,75037,Doctorate,No,3,0
+157,158,17,Female,2.1,20,73438,High School Diploma,Yes,2,0
+158,159,15,Female,2.9,19,71583,Doctorate,Yes,4,1
+159,160,15,Female,2.2,7,77104,Some College,No,2,0
+160,161,17,Male,2.5,11,56399,Some College,No,1,0
+161,162,17,Male,2.7,11,59668,High School Diploma,No,3,0
+162,163,15,Female,3.2,16,50520,Some College,Yes,0,1
+163,164,16,Male,3.3,15,48811,High School Diploma,Yes,4,0
+164,165,16,Male,3.9,10,44605,Some College,No,3,0
+165,166,17,Female,3.8,14,78827,Some College,Yes,0,1
+166,167,17,Female,3.0,7,66054,High School Diploma,Yes,0,0
+167,168,16,Male,3.2,19,53308,Doctorate,No,0,1
+168,169,15,Female,3.3,19,34358,Doctorate,No,1,1
+169,170,16,Female,2.8,13,73492,Some College,No,1,0
+170,171,16,Female,2.3,9,79784,Doctorate,Yes,4,0
+171,172,16,Female,3.3,17,53590,Bachelor’s Degree,Yes,2,1
+172,173,18,Female,3.6,7,28712,Master’s Degree,Yes,4,0
+173,174,15,Male,2.4,15,30072,Doctorate,Yes,4,0
+174,175,17,Female,2.5,7,73263,Bachelor’s Degree,Yes,4,0
+175,176,18,Male,2.6,8,41902,Some College,No,2,0
+176,177,15,Male,2.0,7,44153,High School Diploma,No,4,0
+177,178,17,Male,2.2,10,43338,Master’s Degree,No,0,0
+178,179,15,Female,3.9,18,51082,Bachelor’s Degree,Yes,1,1
+179,180,17,Female,2.0,11,31440,Some College,Yes,2,0
+180,181,17,Male,3.5,13,45174,Doctorate,Yes,1,0
+181,182,18,Female,3.2,14,27263,Master’s Degree,Yes,1,0
+182,183,17,Female,3.1,9,62664,Doctorate,No,3,1
+183,184,18,Male,2.4,13,71016,Master’s Degree,No,2,0
+184,185,17,Female,3.2,13,30795,Some College,No,3,0
+185,186,15,Male,3.4,15,44823,Doctorate,Yes,3,0
+186,187,15,Male,3.7,6,79611,High School Diploma,No,4,1
+187,188,17,Male,2.2,19,51843,Bachelor’s Degree,Yes,0,1
+188,189,18,Female,3.2,15,77373,Some College,No,4,1
+189,190,18,Male,2.7,11,40992,Master’s Degree,Yes,4,0
+190,191,15,Male,3.7,15,67005,High School Diploma,Yes,1,1
+191,192,16,Male,2.3,8,43114,Bachelor’s Degree,Yes,2,0
+192,193,18,Male,2.1,10,49705,Bachelor’s Degree,Yes,4,0
+193,194,17,Male,2.7,18,59335,Some College,No,4,0
+194,195,15,Female,3.2,20,70409,High School Diploma,Yes,2,1
+195,196,16,Male,3.6,7,54963,Master’s Degree,No,1,1
+196,197,18,Female,3.0,13,32447,Master’s Degree,No,2,0
+197,198,17,Male,3.9,17,32506,Doctorate,Yes,0,1
+198,199,16,Male,3.5,7,39487,Some College,Yes,2,0
+199,200,15,Female,2.9,7,36191,Bachelor’s Degree,Yes,1,0
+200,201,18,Male,3.4,20,64822,High School Diploma,Yes,3,1
+201,202,18,Female,2.9,20,57600,Bachelor’s Degree,Yes,0,1
+202,203,17,Male,3.7,12,53633,High School Diploma,Yes,3,1
+203,204,18,Female,3.8,6,68517,Some College,Yes,2,1
+204,205,18,Female,3.5,17,66553,Doctorate,No,3,1
+205,206,17,Male,2.4,19,57748,Some College,No,2,0
+206,207,15,Male,3.4,6,26036,Master’s Degree,Yes,1,0
+207,208,17,Male,2.4,20,26616,Bachelor’s Degree,No,4,1
+208,209,17,Male,2.1,10,27129,Doctorate,No,3,0
+209,210,16,Female,2.0,13,37234,Some College,Yes,1,0
+210,211,15,Male,2.5,17,72954,Bachelor’s Degree,Yes,0,1
+211,212,16,Male,2.2,18,26057,Doctorate,Yes,2,1
+212,213,15,Male,2.4,19,61005,High School Diploma,Yes,1,0
+213,214,15,Female,2.9,16,42483,Doctorate,No,2,1
+214,215,16,Female,3.7,9,50674,Some College,No,2,1
+215,216,15,Male,2.8,17,50107,Bachelor’s Degree,No,3,1
+216,217,15,Female,3.1,9,38057,Bachelor’s Degree,No,3,0
+217,218,16,Female,3.1,10,48339,Some College,No,1,0
+218,219,18,Male,3.5,17,38956,Master’s Degree,No,4,1
+219,220,16,Male,2.9,10,36572,Doctorate,Yes,0,0
+220,221,16,Male,2.9,13,59705,Doctorate,Yes,1,0
+221,222,16,Female,2.6,9,62978,High School Diploma,Yes,4,0
+222,223,15,Female,2.5,19,52880,Bachelor’s Degree,No,2,1
+223,224,15,Female,3.5,6,47911,Doctorate,Yes,3,0
+224,225,16,Female,2.9,20,79475,Bachelor’s Degree,Yes,2,1
+225,226,16,Male,3.4,20,29547,Bachelor’s Degree,No,3,1
+226,227,15,Female,3.7,10,29501,Master’s Degree,Yes,4,0
+227,228,17,Male,3.4,8,45640,Master’s Degree,Yes,2,0
+228,229,16,Female,2.2,18,41828,High School Diploma,No,4,0
+229,230,18,Female,2.1,10,63676,Master’s Degree,Yes,3,0
+230,231,17,Female,3.5,8,79475,Some College,Yes,2,1
+231,232,17,Male,2.5,18,51289,Bachelor’s Degree,No,0,1
+232,233,17,Male,2.6,6,39460,Doctorate,Yes,4,0
+233,234,17,Female,3.7,11,78584,Master’s Degree,Yes,1,1
+234,235,16,Female,3.9,16,65232,High School Diploma,Yes,4,1
+235,236,18,Female,2.6,18,73995,High School Diploma,No,3,0
+236,237,17,Female,4.0,6,49284,Some College,No,0,0
+237,238,15,Female,2.4,17,40386,High School Diploma,No,2,0
+238,239,15,Female,2.4,10,30339,Master’s Degree,Yes,1,0
+239,240,18,Male,2.2,15,66175,Doctorate,Yes,2,0
+240,241,15,Male,3.7,10,38438,Doctorate,Yes,2,0
+241,242,18,Female,2.8,7,26985,Some College,Yes,2,0
+242,243,16,Female,3.8,14,56367,High School Diploma,Yes,4,1
+243,244,16,Male,3.1,13,69567,Bachelor’s Degree,No,2,1
+244,245,18,Male,3.9,15,56799,Doctorate,No,1,1
+245,246,17,Male,2.0,16,26448,Bachelor’s Degree,Yes,3,1
+246,247,18,Female,3.6,11,46590,Doctorate,Yes,1,0
+247,248,17,Female,2.2,7,69536,Doctorate,Yes,1,0
+248,249,18,Female,3.0,13,34684,Some College,No,2,0
+249,250,18,Male,2.0,14,40674,Bachelor’s Degree,No,4,0
+250,251,16,Male,3.5,18,68863,Doctorate,No,0,1
+251,252,15,Male,2.4,19,60282,High School Diploma,No,3,0
+252,253,17,Male,3.4,17,30329,Bachelor’s Degree,No,2,1
+253,254,18,Male,3.2,20,71739,Bachelor’s Degree,Yes,0,1
+254,255,16,Female,3.9,11,35358,High School Diploma,No,4,0
+255,256,17,Male,2.2,15,42665,Doctorate,Yes,1,0
+256,257,16,Male,3.8,6,42216,Bachelor’s Degree,Yes,4,0
+257,258,17,Male,2.6,13,27825,Master’s Degree,Yes,0,0
+258,259,16,Male,2.4,16,64439,Bachelor’s Degree,Yes,4,1
+259,260,15,Female,3.9,18,28134,Master’s Degree,Yes,3,1
+260,261,16,Male,3.4,20,34025,Bachelor’s Degree,No,4,1
+261,262,17,Female,3.0,13,60692,Doctorate,Yes,2,0
+262,263,18,Female,3.6,18,45037,Some College,No,3,0
+263,264,16,Female,2.9,11,78793,Master’s Degree,No,2,0
+264,265,16,Female,3.9,15,53398,Master’s Degree,No,4,1
+265,266,15,Female,3.9,9,75840,Master’s Degree,No,1,1
+266,267,16,Male,2.6,20,53835,High School Diploma,Yes,2,0
+267,268,17,Male,2.2,6,60070,Bachelor’s Degree,No,4,0
+268,269,17,Female,3.6,15,49775,Master’s Degree,Yes,2,0
+269,270,18,Male,3.3,20,74358,Bachelor’s Degree,No,2,1
+270,271,18,Male,3.2,16,52770,Master’s Degree,Yes,0,1
+271,272,16,Female,2.6,11,31415,Master’s Degree,Yes,3,0
+272,273,16,Male,2.9,19,65189,Master’s Degree,No,4,1
+273,274,16,Male,2.5,15,67774,Master’s Degree,Yes,0,0
+274,275,16,Male,2.2,19,72268,Bachelor’s Degree,Yes,3,1
+275,276,18,Female,3.6,20,75099,High School Diploma,No,1,1
+276,277,18,Male,2.4,16,40542,Master’s Degree,No,4,1
+277,278,17,Male,2.5,13,61576,Doctorate,Yes,4,0
+278,279,15,Male,2.4,9,36921,Bachelor’s Degree,Yes,3,0
+279,280,18,Female,3.7,16,38188,Master’s Degree,Yes,2,1
+280,281,17,Male,3.2,19,53740,Bachelor’s Degree,Yes,3,1
+281,282,15,Male,3.1,17,64688,Bachelor’s Degree,No,3,1
+282,283,15,Female,3.4,10,36420,Master’s Degree,Yes,4,0
+283,284,16,Female,3.2,18,26034,Doctorate,Yes,0,1
+284,285,17,Female,3.5,8,70085,Master’s Degree,Yes,2,1
+285,286,18,Female,3.1,8,70395,Doctorate,No,2,1
+286,287,15,Female,3.1,14,49823,Bachelor’s Degree,Yes,2,0
+287,288,17,Male,2.9,6,53103,Master’s Degree,Yes,2,0
+288,289,18,Female,2.4,6,33996,Some College,Yes,4,0
+289,290,18,Male,3.6,10,79675,Some College,No,0,1
+290,291,16,Male,2.5,13,47675,Bachelor’s Degree,Yes,4,0
+291,292,16,Female,2.8,11,40675,Master’s Degree,Yes,2,0
+292,293,16,Female,2.1,15,70442,Doctorate,No,1,0
+293,294,18,Female,3.9,13,50902,High School Diploma,No,0,1
+294,295,15,Male,3.1,7,73320,Bachelor’s Degree,No,0,1
+295,296,15,Female,3.9,16,44839,Doctorate,Yes,2,1
+296,297,15,Female,2.1,16,56147,Some College,Yes,1,0
+297,298,17,Male,2.4,6,60304,Some College,No,2,0
+298,299,18,Male,3.0,13,79461,High School Diploma,Yes,0,0
+299,300,16,Male,2.9,6,79314,Some College,Yes,4,0
+300,301,17,Female,3.0,14,54201,High School Diploma,No,3,0
+301,302,17,Female,3.9,8,29536,Bachelor’s Degree,Yes,4,0
+302,303,18,Male,2.6,9,66763,Some College,No,2,0
+303,304,15,Male,3.2,8,79851,Some College,Yes,4,1
+304,305,15,Female,2.2,18,27030,High School Diploma,Yes,3,0
+305,306,18,Female,2.3,7,39645,Some College,Yes,3,0
+306,307,16,Male,3.1,20,25379,Master’s Degree,No,1,1
+307,308,18,Female,3.3,13,37688,High School Diploma,Yes,4,0
+308,309,17,Female,3.3,12,78474,High School Diploma,Yes,4,1
+309,310,15,Female,3.6,20,52643,Some College,Yes,0,1
+310,311,16,Male,2.7,9,76360,Some College,Yes,4,0
+311,312,17,Male,3.9,9,31187,Master’s Degree,No,4,0
+312,313,17,Female,2.1,15,76720,High School Diploma,Yes,2,0
+313,314,18,Female,2.8,16,78202,High School Diploma,Yes,0,0
+314,315,17,Male,2.6,6,41597,Some College,No,3,0
+315,316,17,Male,2.2,16,63934,Doctorate,Yes,0,1
+316,317,18,Male,2.7,10,53175,High School Diploma,Yes,0,0
+317,318,16,Female,2.9,10,67025,Bachelor’s Degree,No,4,0
+318,319,15,Female,3.6,20,46482,High School Diploma,Yes,2,0
+319,320,15,Male,2.8,14,79410,Bachelor’s Degree,Yes,3,0
+320,321,17,Female,3.3,16,29044,Some College,Yes,4,0
+321,322,16,Female,4.0,9,75469,Master’s Degree,No,3,1
+322,323,16,Male,3.0,20,64225,Some College,Yes,4,0
+323,324,15,Male,2.3,7,31718,Doctorate,No,4,0
+324,325,18,Male,3.4,12,32009,Master’s Degree,Yes,2,0
+325,326,16,Female,3.0,9,62140,High School Diploma,No,2,0
+326,327,15,Female,3.2,18,44988,Master’s Degree,Yes,3,1
+327,328,18,Female,2.7,7,67445,Bachelor’s Degree,Yes,3,0
+328,329,17,Male,3.9,6,72168,Bachelor’s Degree,No,3,1
+329,330,15,Male,2.4,19,60567,Master’s Degree,Yes,0,1
+330,331,16,Female,3.4,8,63835,Bachelor’s Degree,Yes,2,1
+331,332,17,Male,3.1,19,59148,Some College,Yes,3,1
+332,333,18,Female,3.8,12,61209,Bachelor’s Degree,Yes,0,1
+333,334,16,Male,3.7,17,58671,Master’s Degree,No,4,1
+334,335,18,Female,2.8,8,66827,Some College,Yes,2,0
+335,336,16,Male,3.9,6,39700,Master’s Degree,No,2,0
+336,337,18,Female,3.4,19,55250,Some College,No,4,1
+337,338,17,Female,3.4,15,63166,Doctorate,Yes,2,1
+338,339,18,Male,2.2,14,71262,Doctorate,No,1,0
+339,340,18,Male,3.6,10,59962,Doctorate,Yes,2,1
+340,341,15,Male,3.4,20,77803,High School Diploma,No,0,1
+341,342,16,Female,2.5,8,37057,High School Diploma,Yes,3,0
+342,343,15,Female,2.7,19,58083,Bachelor’s Degree,No,0,1
+343,344,16,Female,2.3,13,50893,Master’s Degree,Yes,4,0
+344,345,16,Female,2.6,18,78472,Some College,Yes,4,0
+345,346,17,Male,3.9,19,35861,Doctorate,Yes,2,1
+346,347,18,Male,2.4,18,29545,Bachelor’s Degree,No,4,1
+347,348,18,Male,2.4,7,42539,Master’s Degree,Yes,0,0
+348,349,17,Female,2.1,6,56226,Some College,No,4,0
+349,350,16,Female,2.6,12,32443,High School Diploma,Yes,1,0
+350,351,16,Male,2.6,17,45330,Some College,Yes,3,0
+351,352,18,Male,3.3,16,41739,Doctorate,Yes,0,1
+352,353,18,Female,3.5,20,33713,Some College,Yes,3,0
+353,354,15,Male,3.0,19,29832,Doctorate,Yes,3,1
+354,355,15,Male,3.7,10,39380,Bachelor’s Degree,Yes,2,0
+355,356,16,Male,3.8,12,77157,High School Diploma,Yes,1,1
+356,357,16,Female,3.2,12,63856,High School Diploma,No,1,1
+357,358,16,Male,3.1,17,61783,Bachelor’s Degree,Yes,1,1
+358,359,16,Male,3.3,16,34759,Master’s Degree,No,3,1
+359,360,16,Male,2.8,10,31821,Bachelor’s Degree,No,3,0
+360,361,16,Female,4.0,19,27786,Master’s Degree,Yes,3,1
+361,362,16,Male,3.3,20,32564,Bachelor’s Degree,No,2,1
+362,363,18,Male,3.1,9,42034,Some College,No,2,0
+363,364,16,Male,3.8,10,44187,Some College,No,3,0
+364,365,17,Female,2.6,7,37838,Master’s Degree,Yes,0,0
+365,366,15,Male,3.4,8,79853,Some College,Yes,2,1
+366,367,17,Female,2.2,7,74452,Master’s Degree,No,0,0
+367,368,15,Female,3.7,14,61774,High School Diploma,Yes,0,1
+368,369,17,Female,3.2,7,52685,Some College,Yes,2,1
+369,370,18,Female,2.5,19,72537,Bachelor’s Degree,No,1,1
+370,371,17,Male,2.3,18,41557,High School Diploma,No,1,0
+371,372,18,Female,3.2,11,62684,High School Diploma,No,2,1
+372,373,17,Male,2.1,15,50803,Master’s Degree,Yes,1,0
+373,374,17,Male,2.8,19,39526,Bachelor’s Degree,Yes,0,1
+374,375,15,Male,4.0,10,40592,Bachelor’s Degree,No,4,0
+375,376,17,Male,3.0,7,52039,High School Diploma,No,0,0
+376,377,15,Male,2.6,6,63290,High School Diploma,Yes,1,0
+377,378,15,Female,2.1,16,58276,Master’s Degree,Yes,3,1
+378,379,17,Male,2.8,19,28903,Bachelor’s Degree,Yes,0,1
+379,380,17,Female,3.7,14,72480,Bachelor’s Degree,Yes,3,1
+380,381,15,Female,3.7,15,65456,High School Diploma,No,3,1
+381,382,18,Female,3.8,7,41249,Master’s Degree,Yes,3,0
+382,383,16,Male,2.5,12,49325,Some College,Yes,1,0
+383,384,17,Female,2.7,9,26841,Doctorate,No,4,0
+384,385,16,Female,2.6,11,73030,Doctorate,No,0,0
+385,386,15,Male,2.7,20,43080,Master’s Degree,No,0,1
+386,387,15,Female,2.9,15,58824,Doctorate,Yes,1,0
+387,388,16,Male,2.3,16,76446,Bachelor’s Degree,Yes,4,1
+388,389,18,Male,3.4,17,61098,High School Diploma,Yes,3,1
+389,390,15,Female,3.1,9,74817,Some College,No,3,1
+390,391,17,Male,3.3,9,69242,Doctorate,No,4,1
+391,392,15,Female,3.8,16,45039,Doctorate,No,3,1
+392,393,18,Male,4.0,12,27605,Doctorate,No,3,0
+393,394,17,Female,2.7,19,77690,High School Diploma,No,0,0
+394,395,15,Male,2.5,18,62452,High School Diploma,Yes,1,0
+395,396,18,Female,3.9,7,31500,Master’s Degree,Yes,2,0
+396,397,18,Female,4.0,20,33050,High School Diploma,Yes,2,0
+397,398,16,Female,3.9,18,52196,Doctorate,No,1,1
+398,399,17,Male,2.9,20,45925,Some College,Yes,0,0
+399,400,18,Female,2.8,9,69398,Bachelor’s Degree,Yes,0,0
+400,401,18,Female,2.5,10,52817,High School Diploma,No,1,0
+401,402,17,Male,3.1,14,48283,High School Diploma,No,4,0
+402,403,18,Female,2.4,9,37044,High School Diploma,No,2,0
+403,404,15,Male,3.7,12,47099,Doctorate,Yes,0,0
+404,405,16,Male,3.7,10,64690,Master’s Degree,Yes,0,1
+405,406,18,Female,3.9,8,46290,Bachelor’s Degree,Yes,4,0
+406,407,15,Female,2.1,10,75576,Master’s Degree,No,4,0
+407,408,16,Male,2.3,18,71156,Some College,No,0,0
+408,409,18,Male,3.4,11,34334,Master’s Degree,No,2,0
+409,410,18,Female,2.2,12,25451,Master’s Degree,Yes,1,0
+410,411,15,Female,3.2,9,41503,Bachelor’s Degree,Yes,4,0
+411,412,16,Male,3.4,18,63141,Some College,No,2,1
+412,413,15,Male,3.1,7,51518,Some College,No,4,1
+413,414,15,Male,2.6,13,33210,High School Diploma,Yes,0,0
+414,415,17,Male,2.7,11,77295,Doctorate,Yes,1,0
+415,416,18,Male,3.3,9,64933,High School Diploma,No,4,1
+416,417,15,Female,2.5,11,67233,Some College,No,2,0
+417,418,17,Female,3.4,17,72951,Bachelor’s Degree,Yes,2,1
+418,419,15,Female,2.7,9,41180,Doctorate,No,4,0
+419,420,17,Male,2.1,8,47596,Doctorate,No,3,0
+420,421,16,Male,2.8,10,68216,Doctorate,Yes,0,0
+421,422,18,Male,3.6,8,65415,High School Diploma,Yes,4,1
+422,423,18,Female,3.4,10,58693,Bachelor’s Degree,No,4,1
+423,424,18,Female,3.6,9,45710,Bachelor’s Degree,No,3,0
+424,425,16,Male,3.4,12,79383,Bachelor’s Degree,Yes,1,1
+425,426,15,Female,2.1,10,42110,Bachelor’s Degree,Yes,1,0
+426,427,16,Female,3.1,17,60227,Some College,Yes,1,1
+427,428,17,Female,2.5,20,76804,High School Diploma,Yes,1,0
+428,429,16,Male,3.9,15,77730,Bachelor’s Degree,No,4,1
+429,430,17,Female,3.9,6,38648,Bachelor’s Degree,Yes,1,0
+430,431,18,Male,3.7,10,36327,Some College,No,4,0
+431,432,16,Male,2.9,6,28975,High School Diploma,No,0,0
+432,433,18,Male,3.0,18,66613,Doctorate,Yes,4,1
+433,434,17,Male,2.9,19,33738,High School Diploma,No,1,0
+434,435,15,Female,3.2,19,44183,Some College,No,2,0
+435,436,15,Male,3.2,13,39197,Master’s Degree,Yes,4,0
+436,437,18,Male,2.5,10,32882,Some College,No,4,0
+437,438,17,Male,3.2,8,72909,Bachelor’s Degree,Yes,4,1
+438,439,16,Male,2.7,18,47147,Some College,No,4,0
+439,440,18,Female,3.8,7,46955,Bachelor’s Degree,No,3,0
+440,441,18,Male,2.3,20,56399,Some College,Yes,0,0
+441,442,15,Female,3.9,12,72839,Bachelor’s Degree,Yes,2,1
+442,443,18,Male,2.0,10,38750,Some College,Yes,1,0
+443,444,16,Male,2.5,17,43285,Some College,Yes,0,0
+444,445,15,Male,3.0,7,50534,Doctorate,No,3,0
+445,446,16,Male,2.3,9,26651,Some College,Yes,0,0
+446,447,18,Female,3.5,12,45985,High School Diploma,Yes,3,0
+447,448,16,Male,3.9,19,79121,Doctorate,No,0,1
+448,449,18,Female,2.5,6,39164,Bachelor’s Degree,No,2,0
+449,450,17,Male,3.5,16,65537,High School Diploma,Yes,3,1
+450,451,18,Male,2.9,18,61754,Some College,Yes,3,0
+451,452,18,Female,3.4,14,60610,Doctorate,Yes,0,1
+452,453,17,Male,3.2,10,33543,Some College,No,1,0
+453,454,15,Male,2.1,18,26396,High School Diploma,No,1,0
+454,455,18,Female,3.4,20,45095,Some College,No,3,0
+455,456,17,Female,3.9,17,45659,Bachelor’s Degree,No,4,1
+456,457,18,Female,3.0,13,69363,Some College,Yes,2,0
+457,458,15,Male,3.4,17,68855,Bachelor’s Degree,No,2,1
+458,459,17,Male,3.2,18,61147,Doctorate,No,0,1
+459,460,18,Male,3.3,10,40226,Doctorate,No,0,0
+460,461,18,Female,3.8,19,55925,Some College,Yes,4,1
+461,462,15,Female,3.9,9,51876,Bachelor’s Degree,Yes,0,1
+462,463,18,Male,2.4,13,33255,Master’s Degree,No,2,0
+463,464,16,Male,2.6,19,42089,High School Diploma,Yes,1,0
+464,465,18,Female,2.7,11,61012,High School Diploma,No,0,0
+465,466,16,Female,2.5,18,61015,Bachelor’s Degree,Yes,4,1
+466,467,18,Female,2.0,6,53442,Doctorate,No,0,0
+467,468,18,Male,3.7,19,47219,Doctorate,No,2,1
+468,469,17,Male,3.9,15,57086,Doctorate,Yes,3,1
+469,470,16,Male,2.5,16,43903,Master’s Degree,No,1,1
+470,471,18,Male,3.2,9,48538,Doctorate,No,3,0
+471,472,17,Male,3.0,14,31934,High School Diploma,Yes,0,0
+472,473,18,Female,3.0,13,33088,Some College,No,0,0
+473,474,18,Male,3.3,20,34974,High School Diploma,No,3,0
+474,475,18,Male,3.4,6,77440,High School Diploma,Yes,2,1
+475,476,15,Female,3.7,7,67275,High School Diploma,No,1,1
+476,477,17,Female,2.1,6,79303,Bachelor’s Degree,No,3,0
+477,478,17,Male,3.5,19,50627,Doctorate,Yes,2,1
+478,479,16,Male,2.3,19,33772,High School Diploma,No,1,0
+479,480,18,Female,2.1,20,60891,Bachelor’s Degree,Yes,1,1
+480,481,17,Male,2.1,19,26638,High School Diploma,No,3,0
+481,482,16,Female,2.5,19,33270,High School Diploma,No,2,0
+482,483,16,Male,3.1,8,64901,Some College,No,4,1
+483,484,18,Female,3.3,12,45948,Bachelor’s Degree,No,2,0
+484,485,17,Female,2.9,13,54205,Master’s Degree,Yes,2,0
+485,486,18,Female,3.4,20,44244,Some College,No,4,0
+486,487,17,Female,2.9,10,55790,Doctorate,No,3,0
+487,488,16,Male,2.7,11,49352,Doctorate,No,1,0
+488,489,17,Male,2.8,14,50162,Some College,No,1,0
+489,490,16,Female,3.9,6,64871,Master’s Degree,No,3,1
+490,491,18,Female,2.0,11,68796,Some College,Yes,2,0
+491,492,16,Female,3.8,19,34958,High School Diploma,No,3,0
+492,493,18,Male,2.4,14,60430,High School Diploma,Yes,2,0
+493,494,16,Female,2.9,20,70696,Doctorate,No,1,1
+494,495,18,Male,3.7,13,34345,Some College,No,0,0
+495,496,18,Male,3.7,6,37458,Master’s Degree,No,1,0
+496,497,18,Male,3.7,8,47736,Some College,No,1,0
+497,498,16,Female,2.6,12,48966,High School Diploma,Yes,0,0
+498,499,16,Male,3.9,7,37598,Some College,Yes,4,0
+499,500,17,Male,2.0,15,73228,Some College,Yes,1,0
+500,501,16,Female,3.7,19,60917,Doctorate,Yes,0,1
+501,502,17,Male,2.4,20,70269,Some College,Yes,3,0
+502,503,17,Male,3.9,13,73653,Doctorate,Yes,2,1
+503,504,18,Female,3.8,6,66778,Master’s Degree,Yes,3,1
+504,505,17,Female,2.6,14,31536,High School Diploma,No,4,0
+505,506,15,Male,3.7,18,31114,Master’s Degree,Yes,0,1
+506,507,18,Female,3.4,14,35056,Bachelor’s Degree,No,2,0
+507,508,18,Female,2.1,12,79066,Some College,Yes,2,0
+508,509,16,Female,3.5,16,68592,High School Diploma,Yes,0,1
+509,510,17,Female,3.5,8,74470,Some College,Yes,3,1
+510,511,17,Male,2.4,20,42345,Some College,No,1,0
+511,512,17,Male,2.1,15,37346,Master’s Degree,Yes,4,0
+512,513,18,Male,2.3,9,28363,Some College,Yes,4,0
+513,514,18,Male,3.5,8,35638,Some College,Yes,0,0
+514,515,17,Male,3.5,9,76832,Bachelor’s Degree,Yes,2,1
+515,516,17,Female,3.6,8,41866,Some College,No,2,0
+516,517,16,Female,2.5,18,31225,Bachelor’s Degree,Yes,3,1
+517,518,17,Male,3.7,14,31984,Some College,Yes,1,0
+518,519,16,Male,2.0,15,28185,Doctorate,Yes,2,0
+519,520,16,Male,2.6,17,55412,High School Diploma,No,2,0
+520,521,15,Female,2.4,8,25988,Master’s Degree,Yes,3,0
+521,522,18,Female,3.7,11,54022,Bachelor’s Degree,Yes,2,1
+522,523,15,Male,2.5,13,75329,Some College,No,1,0
+523,524,15,Female,3.4,15,73369,Some College,No,3,1
+524,525,16,Female,3.9,17,62850,High School Diploma,No,4,1
+525,526,15,Male,2.0,11,26509,Master’s Degree,No,2,0
+526,527,16,Female,3.6,6,64852,Master’s Degree,No,2,1
+527,528,15,Male,3.3,16,69786,High School Diploma,Yes,2,1
+528,529,15,Female,2.7,11,69468,Master’s Degree,No,1,0
+529,530,17,Male,3.0,7,78065,Doctorate,No,2,0
+530,531,16,Male,2.5,6,68200,High School Diploma,No,1,0
+531,532,17,Male,2.5,7,79533,Master’s Degree,No,0,0
+532,533,18,Female,2.7,7,46837,Bachelor’s Degree,Yes,0,0
+533,534,18,Male,3.2,16,75145,Some College,Yes,0,1
+534,535,17,Male,2.9,18,35991,Doctorate,Yes,4,1
+535,536,16,Male,2.6,16,37730,High School Diploma,Yes,1,0
+536,537,18,Female,3.4,12,38218,Bachelor’s Degree,No,0,0
+537,538,15,Female,2.2,6,77866,Master’s Degree,Yes,0,0
+538,539,16,Female,3.2,20,52528,Master’s Degree,No,1,1
+539,540,16,Female,3.5,9,37049,Master’s Degree,No,3,0
+540,541,17,Male,3.4,12,44852,Doctorate,Yes,3,0
+541,542,15,Female,3.6,14,65956,High School Diploma,Yes,3,1
+542,543,17,Male,3.8,15,75604,Bachelor’s Degree,Yes,3,1
+543,544,16,Male,2.8,8,71869,Master’s Degree,Yes,1,0
+544,545,16,Male,2.7,14,72720,High School Diploma,Yes,3,0
+545,546,16,Female,3.6,11,35398,Bachelor’s Degree,Yes,0,0
+546,547,15,Male,2.7,9,63139,Doctorate,Yes,2,0
+547,548,17,Male,3.9,6,64540,High School Diploma,No,1,1
+548,549,16,Female,3.9,17,78293,Doctorate,No,1,1
+549,550,15,Female,3.7,15,36368,Master’s Degree,Yes,1,0
+550,551,15,Female,2.4,19,67300,Doctorate,No,2,1
+551,552,17,Male,3.7,16,78157,Some College,No,2,1
+552,553,18,Male,3.7,19,42675,High School Diploma,No,3,0
+553,554,15,Female,2.8,15,44210,Master’s Degree,Yes,3,0
+554,555,17,Male,4.0,9,50705,Master’s Degree,No,2,1
+555,556,17,Female,3.7,7,78704,Some College,No,2,1
+556,557,18,Male,4.0,18,68699,Some College,Yes,3,1
+557,558,18,Female,3.7,10,49028,Doctorate,Yes,4,0
+558,559,15,Female,2.9,8,65966,Master’s Degree,No,4,0
+559,560,17,Female,3.4,19,63472,Some College,No,4,1
+560,561,15,Female,2.7,18,53992,Doctorate,Yes,3,1
+561,562,17,Male,2.8,18,44540,Bachelor’s Degree,Yes,4,1
+562,563,16,Male,3.0,13,62960,Doctorate,No,1,0
+563,564,16,Male,3.0,12,53940,Bachelor’s Degree,Yes,4,0
+564,565,16,Male,3.4,12,26255,Master’s Degree,Yes,1,0
+565,566,16,Female,2.7,8,68176,Master’s Degree,Yes,4,0
+566,567,17,Male,2.9,8,44996,Master’s Degree,No,1,0
+567,568,15,Male,3.7,13,49887,Doctorate,No,1,0
+568,569,17,Male,3.6,18,76978,Some College,No,3,1
+569,570,16,Male,2.6,9,26347,Master’s Degree,No,0,0
+570,571,15,Female,2.9,12,73029,Doctorate,No,3,0
+571,572,18,Male,3.0,8,43176,Bachelor’s Degree,Yes,1,0
+572,573,17,Female,2.9,6,34721,Master’s Degree,Yes,3,0
+573,574,17,Female,3.5,18,44348,Doctorate,No,4,1
+574,575,18,Female,2.1,6,63855,Bachelor’s Degree,No,0,0
+575,576,15,Female,2.6,10,32916,Master’s Degree,No,4,0
+576,577,16,Male,3.3,15,55998,Bachelor’s Degree,No,3,1
+577,578,16,Male,2.7,18,52051,Doctorate,No,2,1
+578,579,18,Female,2.8,11,38341,Master’s Degree,No,4,0
+579,580,17,Male,3.4,8,29550,Bachelor’s Degree,No,2,0
+580,581,15,Female,2.4,20,41569,High School Diploma,No,1,0
+581,582,16,Male,2.6,15,58408,Bachelor’s Degree,No,4,0
+582,583,17,Male,3.8,6,54717,Master’s Degree,Yes,0,1
+583,584,18,Male,3.9,18,59674,Doctorate,No,4,1
+584,585,18,Male,2.1,15,74220,Bachelor’s Degree,No,1,0
+585,586,17,Male,3.1,10,67967,High School Diploma,No,1,1
+586,587,15,Female,3.4,15,70424,Some College,Yes,1,1
+587,588,15,Male,3.5,9,37868,High School Diploma,No,1,0
+588,589,15,Male,2.9,9,42142,High School Diploma,Yes,0,0
+589,590,18,Female,3.2,7,59575,Master’s Degree,Yes,2,1
+590,591,15,Male,3.4,7,31448,Doctorate,Yes,4,0
+591,592,16,Female,2.6,12,72524,Doctorate,Yes,3,0
+592,593,18,Male,3.6,18,73606,Bachelor’s Degree,No,3,1
+593,594,17,Male,3.1,11,38184,Doctorate,Yes,2,0
+594,595,15,Male,3.6,7,45955,Doctorate,Yes,4,0
+595,596,17,Male,2.5,15,68047,Some College,No,0,0
+596,597,18,Female,2.3,20,58583,Doctorate,No,1,1
+597,598,17,Female,3.6,12,64525,Bachelor’s Degree,Yes,3,1
+598,599,15,Male,2.4,18,76541,Bachelor’s Degree,Yes,1,1
+599,600,15,Female,3.1,11,26966,High School Diploma,Yes,1,0
+600,601,15,Male,2.2,6,30279,Doctorate,Yes,4,0
+601,602,18,Male,3.2,19,53921,Doctorate,No,1,1
+602,603,16,Male,4.0,20,76928,Master’s Degree,No,4,1
+603,604,18,Female,3.4,15,72960,Doctorate,No,1,1
+604,605,16,Female,2.8,15,65229,Doctorate,No,3,0
+605,606,16,Female,3.1,12,25834,Some College,No,1,0
+606,607,16,Male,2.4,8,75182,Master’s Degree,No,2,0
+607,608,18,Female,2.3,16,49541,Doctorate,No,1,1
+608,609,15,Male,2.5,15,45722,Some College,Yes,0,0
+609,610,18,Male,3.9,11,50666,Doctorate,No,4,1
+610,611,18,Female,3.8,16,48201,Bachelor’s Degree,No,0,1
+611,612,17,Male,3.2,8,48433,Some College,No,3,0
+612,613,18,Male,3.6,7,59184,Master’s Degree,No,2,1
+613,614,16,Male,3.2,18,58891,Bachelor’s Degree,No,4,1
+614,615,15,Female,3.9,8,51122,Doctorate,No,0,1
+615,616,17,Female,3.8,9,29732,High School Diploma,No,2,0
+616,617,15,Female,3.8,13,49360,High School Diploma,No,4,0
+617,618,18,Female,2.3,14,45266,Bachelor’s Degree,Yes,0,0
+618,619,15,Female,3.1,8,35250,High School Diploma,Yes,3,0
+619,620,15,Male,2.8,18,79747,Bachelor’s Degree,No,0,1
+620,621,17,Female,3.8,19,51450,High School Diploma,Yes,1,1
+621,622,16,Female,3.6,12,64968,Bachelor’s Degree,Yes,1,1
+622,623,18,Male,3.4,16,74587,High School Diploma,No,2,1
+623,624,16,Female,3.5,13,65218,Doctorate,No,3,1
+624,625,17,Female,2.9,14,40250,Bachelor’s Degree,No,0,0
+625,626,18,Female,3.4,18,49062,Some College,Yes,2,0
+626,627,16,Male,3.7,14,52220,High School Diploma,Yes,4,1
+627,628,16,Female,2.4,6,39461,Doctorate,Yes,1,0
+628,629,18,Female,2.5,12,33834,Doctorate,No,4,0
+629,630,18,Male,2.5,19,55158,Bachelor’s Degree,No,2,1
+630,631,18,Male,2.8,8,65207,Master’s Degree,Yes,4,0
+631,632,15,Male,2.3,18,66311,Bachelor’s Degree,No,4,1
+632,633,16,Female,2.6,6,28018,Bachelor’s Degree,Yes,4,0
+633,634,17,Female,2.6,17,29901,Master’s Degree,Yes,4,1
+634,635,18,Female,2.0,17,66175,Master’s Degree,Yes,4,1
+635,636,17,Male,4.0,13,49238,Bachelor’s Degree,No,0,0
+636,637,17,Male,3.7,12,34397,Master’s Degree,No,4,0
+637,638,17,Female,3.7,17,48446,Some College,No,1,0
+638,639,17,Male,2.1,17,56348,Doctorate,No,2,1
+639,640,17,Male,3.8,12,31725,Master’s Degree,No,4,0
+640,641,15,Male,3.7,8,69042,Some College,Yes,4,1
+641,642,17,Male,2.1,16,72052,Master’s Degree,No,3,1
+642,643,16,Male,2.6,14,60102,Master’s Degree,Yes,2,0
+643,644,17,Female,3.6,20,35394,High School Diploma,Yes,3,0
+644,645,16,Female,2.5,8,63971,High School Diploma,No,3,0
+645,646,15,Female,2.5,10,71178,Master’s Degree,No,2,0
+646,647,15,Female,2.3,16,61167,Doctorate,Yes,4,1
+647,648,17,Female,3.4,15,52983,Doctorate,No,1,1
+648,649,18,Female,3.2,6,59856,Some College,Yes,1,1
+649,650,18,Female,2.8,7,62806,High School Diploma,No,2,0
+650,651,16,Male,3.0,17,59455,High School Diploma,Yes,0,0
+651,652,15,Female,3.2,8,57564,Master’s Degree,No,0,1
+652,653,18,Female,2.2,11,30387,Bachelor’s Degree,No,3,0
+653,654,15,Female,3.7,20,69985,Some College,Yes,2,1
+654,655,18,Female,3.8,10,39649,Bachelor’s Degree,Yes,4,0
+655,656,15,Female,2.9,20,69571,Doctorate,Yes,3,1
+656,657,18,Female,2.7,13,57503,High School Diploma,No,3,0
+657,658,18,Male,2.6,11,55110,Doctorate,Yes,2,0
+658,659,18,Female,3.4,19,50048,Some College,No,4,1
+659,660,16,Male,3.9,10,69322,Master’s Degree,Yes,3,1
+660,661,17,Female,2.5,20,35629,Doctorate,Yes,0,1
+661,662,16,Male,3.0,10,37769,High School Diploma,Yes,2,0
+662,663,17,Female,3.9,15,66983,Master’s Degree,Yes,4,1
+663,664,17,Female,3.1,16,59375,Bachelor’s Degree,No,2,1
+664,665,18,Female,2.4,17,54044,Master’s Degree,No,2,1
+665,666,16,Male,3.7,15,73047,Doctorate,No,2,1
+666,667,16,Female,2.1,15,33694,Master’s Degree,Yes,0,0
+667,668,16,Male,2.1,17,33582,High School Diploma,No,0,0
+668,669,16,Female,2.9,18,69521,Doctorate,Yes,2,1
+669,670,16,Male,3.1,10,48723,Master’s Degree,No,0,0
+670,671,18,Female,3.3,10,35051,High School Diploma,No,0,0
+671,672,17,Male,2.6,11,76797,Doctorate,Yes,2,0
+672,673,16,Male,3.8,7,69220,Master’s Degree,No,4,1
+673,674,15,Female,2.6,10,78930,Doctorate,No,4,0
+674,675,18,Female,3.1,6,42925,High School Diploma,Yes,1,0
+675,676,15,Female,3.4,16,72783,High School Diploma,No,4,1
+676,677,18,Female,3.3,6,31415,Master’s Degree,Yes,1,0
+677,678,17,Male,3.1,15,52223,Master’s Degree,Yes,1,1
+678,679,18,Female,3.2,10,55121,Bachelor’s Degree,Yes,0,1
+679,680,15,Male,3.1,15,71114,Doctorate,Yes,2,1
+680,681,16,Male,3.7,11,79726,Bachelor’s Degree,No,0,1
+681,682,18,Male,3.3,11,68215,Bachelor’s Degree,Yes,2,1
+682,683,16,Female,3.5,18,61020,Master’s Degree,No,3,1
+683,684,16,Male,2.2,10,65364,High School Diploma,No,3,0
+684,685,15,Female,3.5,16,46258,Bachelor’s Degree,Yes,4,1
+685,686,15,Female,2.2,9,27813,Bachelor’s Degree,Yes,3,0
+686,687,18,Male,3.7,10,74015,Doctorate,No,1,1
+687,688,16,Male,2.8,8,40149,Doctorate,Yes,0,0
+688,689,15,Female,2.1,14,59842,Bachelor’s Degree,Yes,1,0
+689,690,17,Male,2.3,12,39468,Some College,No,0,0
+690,691,18,Female,3.6,16,72188,Doctorate,No,3,1
+691,692,18,Female,3.7,17,40382,Master’s Degree,Yes,3,1
+692,693,16,Female,2.4,12,33571,High School Diploma,No,0,0
+693,694,16,Male,2.3,6,79903,Bachelor’s Degree,No,1,0
+694,695,15,Female,3.6,16,48442,Some College,No,4,0
+695,696,16,Female,3.1,17,64195,Master’s Degree,No,2,1
+696,697,16,Male,2.7,14,53905,Master’s Degree,No,3,0
+697,698,15,Female,2.5,6,36945,Doctorate,No,0,0
+698,699,16,Female,2.7,13,34583,Bachelor’s Degree,No,2,0
+699,700,18,Male,2.9,7,33729,High School Diploma,No,4,0
+700,701,18,Female,2.6,18,59928,Bachelor’s Degree,Yes,3,1
+701,702,17,Male,2.9,12,29185,Bachelor’s Degree,No,2,0
+702,703,17,Male,2.3,14,36751,Bachelor’s Degree,Yes,2,0
+703,704,18,Female,2.7,14,67520,Bachelor’s Degree,No,0,0
+704,705,15,Female,3.7,16,71341,Doctorate,Yes,2,1
+705,706,17,Female,2.7,7,56303,Master’s Degree,No,3,0
+706,707,17,Male,3.7,14,26908,Bachelor’s Degree,No,4,0
+707,708,15,Male,3.9,8,38291,High School Diploma,No,0,0
+708,709,18,Male,2.7,11,74102,Doctorate,No,4,0
+709,710,16,Male,3.8,12,37781,High School Diploma,Yes,2,0
+710,711,16,Female,3.5,19,60710,Some College,Yes,4,1
+711,712,16,Female,3.2,17,78172,Doctorate,Yes,0,1
+712,713,17,Male,3.3,8,25674,Master’s Degree,Yes,1,0
+713,714,15,Female,2.6,12,60151,Doctorate,Yes,1,0
+714,715,16,Male,3.2,14,65439,Bachelor’s Degree,Yes,0,1
+715,716,17,Female,2.5,10,60497,Master’s Degree,Yes,4,0
+716,717,17,Male,2.9,19,54217,High School Diploma,Yes,2,0
+717,718,15,Male,2.9,6,29381,Some College,Yes,0,0
+718,719,15,Male,2.0,6,35679,High School Diploma,No,1,0
+719,720,18,Male,2.3,14,37636,Some College,Yes,3,0
+720,721,18,Male,3.2,7,61833,High School Diploma,Yes,3,1
+721,722,17,Male,3.4,20,42581,Bachelor’s Degree,No,0,1
+722,723,18,Female,3.0,11,77839,High School Diploma,No,4,0
+723,724,17,Female,3.9,15,66269,Doctorate,No,4,1
+724,725,18,Male,2.1,17,27477,High School Diploma,No,4,0
+725,726,16,Male,3.5,6,63847,High School Diploma,Yes,4,1
+726,727,17,Male,2.5,16,77803,High School Diploma,No,0,0
+727,728,15,Male,2.2,8,59033,Some College,Yes,0,0
+728,729,18,Female,3.9,9,35583,Some College,No,0,0
+729,730,16,Female,2.6,20,70844,High School Diploma,Yes,2,0
+730,731,18,Male,2.6,15,65299,Bachelor’s Degree,Yes,4,0
+731,732,17,Female,2.1,10,78960,Doctorate,No,4,0
+732,733,16,Female,3.6,10,70519,Some College,Yes,0,1
+733,734,17,Male,2.8,12,67255,Doctorate,Yes,3,0
+734,735,15,Male,3.0,12,74085,High School Diploma,Yes,1,0
+735,736,15,Female,2.7,6,70663,Bachelor’s Degree,Yes,0,0
+736,737,17,Female,3.1,19,74483,Doctorate,No,0,1
+737,738,16,Female,3.9,11,25771,High School Diploma,No,4,0
+738,739,16,Male,3.6,9,52555,Master’s Degree,Yes,0,1
+739,740,16,Male,2.5,15,55754,Doctorate,Yes,0,0
+740,741,18,Male,2.5,15,25158,Master’s Degree,Yes,0,0
+741,742,17,Female,2.6,11,57540,Some College,Yes,0,0
+742,743,15,Female,3.9,7,35042,Some College,No,1,0
+743,744,18,Male,3.6,19,59435,Doctorate,Yes,3,1
+744,745,15,Male,2.1,13,29979,Doctorate,No,1,0
+745,746,18,Female,2.4,20,67286,High School Diploma,No,2,0
+746,747,17,Male,2.6,10,62245,Some College,Yes,2,0
+747,748,15,Male,3.9,6,33483,High School Diploma,No,1,0
+748,749,16,Male,3.6,15,27180,Some College,No,1,0
+749,750,17,Female,3.9,12,54411,High School Diploma,No,1,1
+750,751,17,Female,3.9,11,32747,Bachelor’s Degree,Yes,1,0
+751,752,18,Female,2.2,9,60401,Doctorate,Yes,4,0
+752,753,18,Female,3.6,12,68601,High School Diploma,Yes,0,1
+753,754,18,Female,3.8,18,68072,Some College,Yes,1,1
+754,755,15,Female,4.0,7,48095,Doctorate,Yes,1,0
+755,756,16,Female,2.2,17,74555,Doctorate,Yes,3,1
+756,757,17,Male,3.8,11,28274,Master’s Degree,Yes,0,0
+757,758,16,Female,2.2,14,51841,Bachelor’s Degree,No,0,0
+758,759,17,Male,2.9,10,40005,Doctorate,Yes,4,0
+759,760,16,Male,4.0,13,30161,High School Diploma,No,2,0
+760,761,18,Male,3.7,20,43970,High School Diploma,No,0,0
+761,762,16,Female,3.4,9,41331,Master’s Degree,No,4,0
+762,763,16,Male,3.0,11,32232,High School Diploma,No,3,0
+763,764,15,Male,2.4,15,31900,Master’s Degree,No,3,0
+764,765,18,Male,2.8,17,47309,Doctorate,Yes,4,1
+765,766,16,Male,2.9,18,68817,Bachelor’s Degree,Yes,2,1
+766,767,15,Male,3.1,14,29583,Some College,Yes,1,0
+767,768,15,Male,2.7,17,72801,Master’s Degree,No,1,1
+768,769,18,Female,3.1,15,38877,Some College,No,2,0
+769,770,18,Male,2.9,11,57149,Master’s Degree,Yes,1,0
+770,771,15,Male,2.9,12,37599,Bachelor’s Degree,No,4,0
+771,772,17,Female,3.1,6,76460,Bachelor’s Degree,No,4,1
+772,773,18,Male,2.8,6,44550,Master’s Degree,No,1,0
+773,774,16,Female,3.7,8,41452,Bachelor’s Degree,No,2,0
+774,775,15,Male,2.5,20,74617,Doctorate,No,1,1
+775,776,16,Female,2.4,12,25377,Master’s Degree,Yes,1,0
+776,777,17,Male,3.8,12,78736,Bachelor’s Degree,Yes,3,1
+777,778,15,Female,3.2,11,36665,Doctorate,No,2,0
+778,779,17,Male,3.4,15,62968,High School Diploma,Yes,0,1
+779,780,16,Female,3.6,10,60927,High School Diploma,No,1,1
+780,781,17,Male,2.9,7,52225,Doctorate,Yes,0,0
+781,782,15,Male,3.5,16,78806,High School Diploma,Yes,0,1
+782,783,15,Female,2.8,14,49042,Doctorate,Yes,3,0
+783,784,16,Male,3.2,19,77075,Master’s Degree,Yes,2,1
+784,785,15,Female,2.7,6,67358,Some College,Yes,3,0
+785,786,18,Female,2.3,11,55255,High School Diploma,Yes,3,0
+786,787,16,Female,2.7,20,37019,Some College,Yes,3,0
+787,788,16,Female,2.1,19,69753,Master’s Degree,No,3,1
+788,789,18,Female,2.5,9,43342,Master’s Degree,No,1,0
+789,790,18,Male,3.3,15,63558,Doctorate,No,4,1
+790,791,18,Male,3.2,17,64422,Master’s Degree,No,4,1
+791,792,17,Female,2.3,14,65914,Master’s Degree,No,4,0
+792,793,16,Female,3.7,17,61712,Some College,No,0,1
+793,794,18,Female,3.1,11,74754,Doctorate,Yes,0,1
+794,795,16,Male,3.4,6,73835,Doctorate,Yes,2,1
+795,796,15,Male,2.7,10,67811,Master’s Degree,No,4,0
+796,797,15,Female,3.3,10,62707,Master’s Degree,No,0,1
+797,798,18,Female,3.0,13,77911,High School Diploma,No,1,0
+798,799,15,Male,3.0,13,64699,Doctorate,Yes,3,0
+799,800,18,Female,2.6,9,70470,Master’s Degree,Yes,3,0
+800,801,18,Male,2.0,20,57480,Doctorate,No,2,1
+801,802,16,Female,3.1,7,36953,Some College,No,2,0
+802,803,17,Female,4.0,9,26030,Some College,No,4,0
+803,804,16,Male,4.0,12,54418,High School Diploma,No,4,1
+804,805,16,Female,2.1,8,63703,Doctorate,Yes,0,0
+805,806,18,Female,3.0,18,77358,Some College,No,3,0
+806,807,16,Female,2.6,12,54695,Bachelor’s Degree,Yes,4,0
+807,808,17,Male,2.5,15,53570,Some College,No,2,0
+808,809,16,Female,3.8,13,46505,Some College,Yes,2,0
+809,810,17,Male,2.2,6,45341,Bachelor’s Degree,Yes,3,0
+810,811,15,Male,2.8,13,27718,Some College,No,2,0
+811,812,17,Male,3.1,9,28041,Bachelor’s Degree,No,3,0
+812,813,17,Female,3.8,10,37927,High School Diploma,Yes,3,0
+813,814,18,Female,3.6,8,76852,Bachelor’s Degree,Yes,1,1
+814,815,18,Female,3.3,6,60114,Bachelor’s Degree,Yes,0,1
+815,816,18,Female,2.6,12,53093,Doctorate,Yes,2,0
+816,817,17,Female,2.0,13,31500,Master’s Degree,No,3,0
+817,818,17,Male,3.3,16,36565,Bachelor’s Degree,Yes,4,1
+818,819,17,Female,3.5,11,36980,Some College,No,0,0
+819,820,16,Female,3.1,19,51456,Master’s Degree,No,1,1
+820,821,18,Female,2.4,12,36172,Bachelor’s Degree,No,3,0
+821,822,15,Female,2.6,20,62022,High School Diploma,No,4,0
+822,823,15,Male,2.9,12,77714,Some College,Yes,0,0
+823,824,16,Male,2.1,15,40936,Doctorate,Yes,2,0
+824,825,16,Female,3.5,19,43177,Doctorate,No,1,1
+825,826,18,Female,3.9,12,54990,Bachelor’s Degree,No,3,1
+826,827,17,Female,2.4,13,73368,High School Diploma,Yes,4,0
+827,828,16,Male,2.5,11,45629,Master’s Degree,No,3,0
+828,829,15,Male,3.2,19,60663,Master’s Degree,No,4,1
+829,830,16,Female,3.4,16,65326,Doctorate,No,1,1
+830,831,16,Male,3.7,16,50264,Some College,Yes,2,1
+831,832,15,Male,2.6,11,60999,Master’s Degree,No,0,0
+832,833,17,Male,3.8,15,46134,High School Diploma,Yes,2,0
+833,834,18,Male,2.6,11,52267,Master’s Degree,No,2,0
+834,835,15,Female,2.9,16,68543,High School Diploma,No,0,0
+835,836,15,Male,2.5,10,25954,Some College,No,4,0
+836,837,17,Male,2.5,20,63898,Master’s Degree,Yes,4,1
+837,838,18,Male,3.6,14,33965,Bachelor’s Degree,Yes,3,0
+838,839,18,Female,3.1,10,76409,High School Diploma,No,4,1
+839,840,15,Male,3.9,14,69921,Master’s Degree,No,1,1
+840,841,16,Male,3.3,20,52703,High School Diploma,No,1,1
+841,842,15,Female,3.8,13,57877,Master’s Degree,No,3,1
+842,843,16,Female,2.5,19,45617,Doctorate,Yes,0,1
+843,844,16,Male,3.8,7,31815,Doctorate,Yes,3,0
+844,845,18,Female,3.8,9,46019,Master’s Degree,Yes,1,0
+845,846,15,Male,2.3,7,58403,High School Diploma,Yes,0,0
+846,847,18,Male,2.6,15,49594,Doctorate,Yes,1,0
+847,848,16,Female,3.9,19,32641,Bachelor’s Degree,No,4,1
+848,849,15,Female,3.2,14,35417,Some College,No,3,0
+849,850,18,Male,2.2,9,42806,Master’s Degree,No,3,0
+850,851,17,Female,2.0,7,33705,Some College,Yes,3,0
+851,852,18,Female,2.6,10,69089,Some College,Yes,3,0
+852,853,15,Male,2.6,18,62251,Some College,Yes,3,0
+853,854,15,Female,2.5,11,26563,Bachelor’s Degree,Yes,0,0
+854,855,16,Male,3.5,19,71065,Master’s Degree,Yes,4,1
+855,856,17,Male,3.2,9,74968,Bachelor’s Degree,Yes,4,1
+856,857,18,Male,2.2,12,29529,Bachelor’s Degree,No,2,0
+857,858,16,Female,3.6,8,34645,Doctorate,Yes,4,0
+858,859,15,Male,3.9,20,70519,Master’s Degree,Yes,2,1
+859,860,18,Male,2.8,18,52845,Master’s Degree,No,0,1
+860,861,17,Female,3.6,9,36933,Some College,No,3,0
+861,862,15,Female,3.7,11,37065,Master’s Degree,No,2,0
+862,863,17,Female,3.7,14,38661,Master’s Degree,Yes,4,0
+863,864,18,Male,3.4,9,78225,Bachelor’s Degree,No,2,1
+864,865,17,Male,2.7,17,40973,Master’s Degree,No,0,1
+865,866,18,Male,3.7,11,70864,Master’s Degree,No,1,1
+866,867,15,Male,3.7,14,41401,Master’s Degree,Yes,3,0
+867,868,17,Male,2.3,6,35053,Bachelor’s Degree,Yes,0,0
+868,869,15,Male,3.6,18,70975,Master’s Degree,Yes,1,1
+869,870,16,Male,3.9,19,71135,Bachelor’s Degree,No,0,1
+870,871,17,Male,3.6,18,64438,High School Diploma,Yes,2,1
+871,872,15,Male,3.0,13,49880,Bachelor’s Degree,No,0,0
+872,873,16,Male,3.5,9,35442,Bachelor’s Degree,Yes,4,0
+873,874,15,Male,3.2,17,55776,Some College,Yes,2,1
+874,875,17,Male,3.3,19,63347,High School Diploma,No,0,1
+875,876,18,Male,2.4,17,37330,Doctorate,Yes,3,1
+876,877,15,Female,2.3,6,38938,High School Diploma,No,1,0
+877,878,17,Female,2.8,16,64842,Some College,No,3,0
+878,879,18,Male,3.6,19,61190,Some College,Yes,0,1
+879,880,17,Female,3.9,10,33481,Some College,No,0,0
+880,881,15,Female,2.9,9,64382,Doctorate,Yes,4,0
+881,882,17,Female,3.1,7,58279,Some College,Yes,0,1
+882,883,16,Female,3.9,14,63325,Some College,Yes,0,1
+883,884,18,Female,3.4,20,30741,Master’s Degree,Yes,2,1
+884,885,17,Female,2.3,11,40679,Bachelor’s Degree,No,0,0
+885,886,17,Male,2.6,12,45587,High School Diploma,Yes,1,0
+886,887,18,Female,3.6,8,66473,Doctorate,Yes,0,1
+887,888,15,Female,3.6,11,65537,Some College,No,3,1
+888,889,18,Female,3.8,14,37385,Some College,Yes,4,0
+889,890,17,Male,3.0,15,47903,Doctorate,No,3,0
+890,891,18,Female,3.1,12,53505,Bachelor’s Degree,No,4,1
+891,892,15,Female,3.4,13,26706,Bachelor’s Degree,Yes,1,0
+892,893,17,Female,2.5,11,65446,Bachelor’s Degree,Yes,1,0
+893,894,16,Male,2.7,15,64826,Bachelor’s Degree,No,4,0
+894,895,16,Male,2.5,11,40613,Master’s Degree,Yes,4,0
+895,896,16,Female,2.5,15,60028,Bachelor’s Degree,No,2,0
+896,897,18,Female,3.0,9,30659,Master’s Degree,No,4,0
+897,898,16,Female,2.9,11,31033,Bachelor’s Degree,No,4,0
+898,899,15,Female,2.9,9,31045,High School Diploma,No,2,0
+899,900,15,Female,2.6,17,64722,Doctorate,Yes,2,1
+900,901,15,Male,2.1,17,39120,Some College,Yes,3,0
+901,902,17,Female,3.6,17,70110,Doctorate,No,4,1
+902,903,15,Male,2.2,12,30273,Bachelor’s Degree,Yes,1,0
+903,904,16,Male,2.7,10,39185,Master’s Degree,Yes,4,0
+904,905,15,Male,2.4,19,52939,Bachelor’s Degree,No,4,1
+905,906,17,Male,2.5,10,30259,Some College,No,1,0
+906,907,15,Male,3.2,11,34635,Bachelor’s Degree,No,4,0
+907,908,17,Female,2.6,16,33715,High School Diploma,Yes,2,0
+908,909,18,Female,3.9,12,53833,Some College,No,0,1
+909,910,18,Male,2.4,13,63013,Doctorate,Yes,3,0
+910,911,15,Female,3.8,19,73290,Master’s Degree,Yes,3,1
+911,912,17,Male,2.9,12,63708,Bachelor’s Degree,Yes,2,0
+912,913,16,Male,2.6,11,37313,Bachelor’s Degree,Yes,2,0
+913,914,15,Female,3.4,9,74192,Doctorate,No,4,1
+914,915,15,Male,3.5,20,50499,Bachelor’s Degree,Yes,2,1
+915,916,15,Male,3.2,8,68923,Bachelor’s Degree,Yes,3,1
+916,917,18,Male,2.3,6,34424,Doctorate,Yes,0,0
+917,918,17,Female,2.7,9,43637,Master’s Degree,Yes,0,0
+918,919,17,Male,2.5,16,73987,High School Diploma,Yes,1,0
+919,920,17,Male,2.2,18,63836,Bachelor’s Degree,Yes,1,1
+920,921,18,Female,2.8,10,58133,Master’s Degree,Yes,1,0
+921,922,17,Female,3.1,8,38371,Master’s Degree,No,0,0
+922,923,18,Female,2.5,7,51378,Doctorate,Yes,3,0
+923,924,16,Female,2.5,11,75863,Bachelor’s Degree,No,1,0
+924,925,18,Male,3.0,6,53581,Bachelor’s Degree,Yes,2,0
+925,926,15,Male,3.6,10,39093,Some College,No,4,0
+926,927,18,Female,3.3,17,74454,Master’s Degree,Yes,2,1
+927,928,18,Female,3.2,7,26337,High School Diploma,No,3,0
+928,929,17,Female,2.6,12,44776,Some College,No,0,0
+929,930,16,Male,3.7,13,27122,Doctorate,Yes,1,0
+930,931,17,Female,2.2,18,41553,Doctorate,No,3,1
+931,932,16,Male,2.8,14,53234,Bachelor’s Degree,No,0,0
+932,933,16,Female,2.1,12,53214,Doctorate,No,4,0
+933,934,15,Male,3.9,11,49663,Some College,No,3,0
+934,935,15,Male,2.9,14,55516,Some College,No,0,0
+935,936,17,Female,3.9,15,33590,Bachelor’s Degree,No,2,0
+936,937,17,Female,2.7,11,27959,Bachelor’s Degree,No,0,0
+937,938,16,Female,2.2,16,67978,Master’s Degree,Yes,2,1
+938,939,15,Female,3.2,6,53174,Bachelor’s Degree,Yes,0,1
+939,940,15,Female,2.2,16,73117,Bachelor’s Degree,No,0,1
+940,941,16,Male,3.1,18,45304,Bachelor’s Degree,No,2,1
+941,942,15,Female,2.7,14,55202,High School Diploma,No,2,0
+942,943,17,Male,3.6,19,26873,Bachelor’s Degree,Yes,4,1
+943,944,17,Female,3.1,10,45720,Bachelor’s Degree,No,0,0
+944,945,15,Female,2.5,20,28578,High School Diploma,Yes,1,0
+945,946,16,Male,2.4,17,50497,Master’s Degree,Yes,4,1
+946,947,18,Female,3.7,18,65799,Some College,Yes,0,1
+947,948,16,Female,3.9,18,77838,Some College,Yes,3,1
+948,949,16,Male,2.7,19,60111,Doctorate,Yes,3,1
+949,950,17,Female,3.8,7,53542,Master’s Degree,No,1,1
+950,951,16,Female,3.6,20,63337,Master’s Degree,Yes,3,1
+951,952,15,Male,3.6,6,58971,Bachelor’s Degree,No,0,1
+952,953,16,Female,3.1,7,57960,Some College,No,3,1
+953,954,16,Male,3.4,17,41785,Bachelor’s Degree,Yes,1,1
+954,955,18,Female,3.5,11,48649,Master’s Degree,Yes,2,0
+955,956,15,Male,2.4,14,75806,Some College,Yes,1,0
+956,957,15,Female,2.3,18,30321,Bachelor’s Degree,Yes,0,1
+957,958,17,Male,2.8,7,45337,High School Diploma,No,1,0
+958,959,18,Male,2.4,15,56484,Some College,Yes,4,0
+959,960,16,Male,3.6,11,46039,Bachelor’s Degree,Yes,0,0
+960,961,18,Female,3.8,9,45035,High School Diploma,No,4,0
+961,962,15,Male,2.6,12,70546,Master’s Degree,No,1,0
+962,963,16,Male,3.3,13,74400,Bachelor’s Degree,Yes,2,1
+963,964,17,Female,2.8,19,26844,Bachelor’s Degree,Yes,0,1
+964,965,17,Male,3.3,16,70765,Bachelor’s Degree,Yes,3,1
+965,966,16,Female,3.1,16,25896,Some College,No,0,0
+966,967,17,Female,3.1,18,75487,Doctorate,Yes,3,1
+967,968,15,Female,2.4,19,72429,Doctorate,Yes,0,1
+968,969,15,Male,3.5,18,57763,Bachelor’s Degree,Yes,4,1
+969,970,15,Female,3.3,18,37762,Some College,Yes,0,0
+970,971,16,Male,2.3,15,73281,High School Diploma,Yes,1,0
+971,972,16,Female,3.0,18,77313,Doctorate,No,0,1
+972,973,18,Male,2.5,9,31923,Bachelor’s Degree,No,3,0
+973,974,15,Female,3.5,13,73403,Doctorate,No,3,1
+974,975,17,Female,2.2,8,72196,Doctorate,Yes,2,0
+975,976,18,Female,2.0,10,71900,Doctorate,No,3,0
+976,977,17,Female,2.9,10,50584,High School Diploma,Yes,2,0
+977,978,15,Female,2.8,20,55377,High School Diploma,Yes,4,0
+978,979,15,Male,2.2,6,75738,Master’s Degree,No,2,0
+979,980,15,Male,4.0,12,46991,Bachelor’s Degree,No,1,0
+980,981,18,Female,3.9,20,43907,High School Diploma,Yes,2,0
+981,982,16,Male,3.7,6,55179,Master’s Degree,Yes,1,1
+982,983,17,Female,2.2,16,30230,Doctorate,Yes,3,1
+983,984,15,Male,2.5,17,45994,High School Diploma,Yes,4,0
+984,985,17,Male,2.6,13,52358,High School Diploma,Yes,2,0
+985,986,18,Male,3.6,9,35332,Doctorate,No,4,0
+986,987,18,Female,2.8,6,71194,Bachelor’s Degree,No,1,0
+987,988,15,Female,2.0,14,65335,High School Diploma,Yes,1,0
+988,989,16,Male,4.0,20,61547,Doctorate,Yes,4,1
+989,990,16,Female,2.7,7,28298,Master’s Degree,No,1,0
+990,991,16,Male,2.6,19,58521,Bachelor’s Degree,Yes,1,1
+991,992,17,Male,3.9,6,48909,Bachelor’s Degree,Yes,4,0
+992,993,15,Male,2.9,14,27988,Bachelor’s Degree,No,2,0
+993,994,15,Female,3.3,16,52230,Bachelor’s Degree,Yes,4,1
+994,995,15,Female,3.4,19,49894,Doctorate,No,1,1
+995,996,16,Male,2.5,20,40701,Bachelor’s Degree,No,4,1
+996,997,18,Female,3.3,6,62739,Bachelor’s Degree,No,2,1
+997,998,15,Female,3.9,12,75162,Some College,No,0,1
+998,999,15,Male,2.6,13,65911,Some College,Yes,3,0
+999,1000,15,Male,2.0,18,31722,Some College,Yes,3,0

@@ -1,0 +1,1001 @@
+,Age,Gender,Income,Education,Occupation,Marital Status,Number of Children,Frequency of Purchases,Spend per Purchase,Location,Demographic,Marketing Engagement,Past Purchase History,Response to Previous Campaigns,label
+0,56,Female,19171.73949330819,Doctorate,Artist,Married,2,Weekly,24.03950683025824,Los Angeles,Urban,False,True,0,0
+1,57,Female,11029.224714790122,Bachelor's Degree,Medicine,Single,1,Weekly,26.364247048639054,Philadelphia,Urban,False,False,0,0
+2,42,Male,40592.64473611898,Bachelor's Degree,Medicine,Divorced,1,Weekly,80.66583652537122,Los Angeles,Rural,True,False,0,1
+3,20,Female,44015.376929388985,High School,Science,Single,3,Daily,96.90688297671034,Chicago,Rural,True,False,1,0
+4,19,Female,32007.624686980063,Master's Degree,Lawyer,Married,3,Monthly,25.602818815699486,New York,Rural,False,False,0,0
+5,19,Male,20397.083143409443,Doctorate,Arts,Married,2,Weekly,79.76195410250031,Chicago,Rural,False,False,0,0
+6,48,Female,14424.625102595975,Master's Degree,Lawyer,Married,1,Daily,44.98095607205338,Chicago,Urban,True,False,0,0
+7,42,Male,37134.804157912426,High School,Artist,Divorced,0,Daily,11.407276606707454,New York,Rural,True,False,0,0
+8,41,Male,19942.12020444026,Doctorate,Teacher,Divorced,0,Monthly,16.664018656068134,San Antonio,Rural,True,False,1,0
+9,26,Female,26544.90124263246,Doctorate,Science,Divorced,1,Daily,75.66455605042577,San Diego,Rural,True,True,1,0
+10,52,Male,45662.239361149754,High School,Artist,Single,2,Monthly,33.046149048519155,Los Angeles,Urban,True,True,0,0
+11,59,Male,20085.96011676981,Doctorate,Science,Married,3,Daily,55.77136220482325,Phoenix,Urban,True,True,1,0
+12,32,Female,21439.908274581125,Doctorate,Science,Divorced,2,Weekly,89.2421055113732,Chicago,Urban,False,True,1,0
+13,23,Male,20922.02186084168,Doctorate,Arts,Single,2,Weekly,20.9879159230606,New York,Urban,False,True,1,0
+14,44,Male,50900.738296124655,High School,Teacher,Divorced,1,Monthly,47.56699028339011,Philadelphia,Urban,True,False,0,1
+15,41,Female,26160.146601037763,Doctorate,Medicine,Married,3,Daily,15.840302239808342,Chicago,Rural,False,False,1,0
+16,19,Female,17404.346497669994,Doctorate,Engineer,Divorced,0,Weekly,55.24111209059753,Phoenix,Urban,True,False,1,1
+17,18,Male,17244.743604561154,Doctorate,Doctor,Single,3,Monthly,70.49219926652907,Los Angeles,Rural,True,True,1,1
+18,55,Male,41615.29152967897,Bachelor's Degree,Arts,Divorced,2,Daily,23.564578956888653,Los Angeles,Rural,False,True,1,0
+19,37,Male,21012.052378277414,Bachelor's Degree,Teacher,Divorced,2,Monthly,25.69297861044923,New York,Rural,False,True,0,0
+20,57,Male,27053.317552512926,High School,Doctor,Divorced,2,Weekly,72.62059594105739,San Antonio,Rural,False,False,0,0
+21,19,Female,58270.967564439685,High School,Artist,Divorced,2,Daily,35.09842173329637,Los Angeles,Rural,False,True,0,0
+22,41,Male,54388.50493804799,Doctorate,Teacher,Married,3,Weekly,70.20894292428058,Phoenix,Urban,False,False,1,1
+23,52,Female,24196.048736873287,Bachelor's Degree,Doctor,Single,1,Monthly,68.67651335523405,New York,Rural,True,False,1,1
+24,31,Male,47324.570255901206,Doctorate,Medicine,Divorced,2,Daily,37.72547126671503,San Diego,Rural,True,True,0,0
+25,39,Male,58650.52773762228,High School,Teacher,Single,3,Monthly,49.09549289593858,Philadelphia,Rural,True,False,1,0
+26,50,Male,46122.60576307527,Master's Degree,Lawyer,Divorced,3,Daily,13.924339457899038,Houston,Rural,False,True,0,0
+27,23,Male,10772.83082644337,Doctorate,Artist,Married,1,Daily,61.50632222537545,Houston,Urban,False,True,1,0
+28,38,Male,23423.74284450784,Master's Degree,Medicine,Single,0,Weekly,94.25392967447029,Chicago,Urban,False,False,0,0
+29,49,Female,27932.339064808195,Master's Degree,Teacher,Single,1,Weekly,76.6691755978784,New York,Urban,True,False,0,0
+30,56,Male,50468.057773925684,Master's Degree,Doctor,Married,3,Daily,17.343476236021633,San Antonio,Urban,False,True,0,1
+31,18,Male,29839.191360694418,Bachelor's Degree,Lawyer,Divorced,2,Monthly,43.802465737594964,Chicago,Rural,True,True,0,1
+32,42,Male,59092.04441552655,Bachelor's Degree,Doctor,Single,1,Daily,13.361336987429297,Phoenix,Urban,False,True,0,1
+33,54,Female,48499.67765493054,Doctorate,Lawyer,Married,2,Weekly,14.651354905174692,Houston,Rural,True,True,1,0
+34,57,Female,58792.60397312673,Doctorate,Doctor,Single,2,Daily,45.89388113003151,Los Angeles,Rural,False,True,0,0
+35,54,Male,14043.648330859884,Master's Degree,Engineer,Married,0,Weekly,92.36923548638325,San Antonio,Rural,False,False,0,0
+36,42,Female,23996.69484729714,Doctorate,Artist,Divorced,3,Monthly,49.210560881010196,Philadelphia,Urban,True,False,0,0
+37,33,Male,16008.232390282108,High School,Arts,Married,2,Daily,38.02719784521648,Phoenix,Rural,True,False,0,0
+38,43,Female,50345.64885253897,Doctorate,Engineer,Single,1,Daily,45.86542609576361,Chicago,Rural,True,False,0,1
+39,48,Male,56671.81540397415,Doctorate,Engineer,Married,0,Monthly,94.98264374126506,Houston,Rural,False,True,0,0
+40,41,Female,38668.35208359666,High School,Engineer,Married,2,Monthly,94.73183278988726,Los Angeles,Urban,True,False,0,1
+41,46,Male,15038.900068871331,Bachelor's Degree,Artist,Divorced,1,Monthly,40.28987933998539,Chicago,Rural,True,False,0,1
+42,43,Male,23034.726411795156,Master's Degree,Lawyer,Single,0,Weekly,66.60485621018955,Philadelphia,Rural,False,True,1,0
+43,53,Male,47530.737582042915,Doctorate,Teacher,Married,2,Weekly,32.501480429449416,San Diego,Rural,True,False,0,0
+44,54,Male,43992.23899501229,Master's Degree,Engineer,Divorced,0,Weekly,91.229761601161,Phoenix,Rural,False,True,0,0
+45,30,Female,29460.083936708157,Doctorate,Artist,Married,2,Daily,38.73822738313734,Phoenix,Urban,False,False,1,0
+46,33,Male,24660.538584903225,High School,Lawyer,Divorced,0,Daily,81.24211393532637,New York,Urban,True,True,0,0
+47,56,Female,12793.557733867503,Master's Degree,Science,Married,2,Monthly,20.536031478484528,Houston,Urban,False,False,0,0
+48,34,Male,14205.340305749873,High School,Medicine,Single,0,Weekly,90.2707217899099,Chicago,Urban,True,True,0,0
+49,36,Female,53156.9260994502,Bachelor's Degree,Lawyer,Married,2,Monthly,98.74009574405838,Houston,Rural,False,False,1,0
+50,36,Female,37920.21248679025,Master's Degree,Doctor,Single,2,Monthly,49.10066600394442,Philadelphia,Urban,False,False,0,0
+51,37,Male,15876.312338855245,High School,Science,Married,2,Daily,31.375582416322295,New York,Urban,False,True,1,0
+52,50,Male,58161.126972030565,Doctorate,Artist,Married,0,Monthly,90.2028802328264,Phoenix,Urban,True,False,1,1
+53,53,Female,58465.126780954946,Bachelor's Degree,Science,Married,0,Weekly,36.50445521554869,New York,Urban,False,False,1,1
+54,33,Female,55762.71708345532,Bachelor's Degree,Medicine,Single,3,Daily,34.96430646830194,Houston,Rural,False,False,0,0
+55,45,Male,58719.74038330832,Doctorate,Teacher,Single,2,Daily,35.178715645205116,Philadelphia,Rural,True,False,0,0
+56,46,Male,13810.018979958157,Bachelor's Degree,Doctor,Divorced,3,Daily,65.20736763422109,Chicago,Rural,False,False,0,0
+57,22,Male,28823.16834390248,High School,Doctor,Divorced,0,Monthly,63.47176438169216,San Antonio,Urban,False,True,1,0
+58,30,Male,11841.093381799568,Master's Degree,Engineer,Married,3,Monthly,87.82501386295479,New York,Urban,True,True,0,1
+59,20,Female,48449.37075902552,High School,Doctor,Single,2,Daily,31.697634909666867,New York,Rural,True,True,1,1
+60,30,Male,53911.03337395961,Doctorate,Medicine,Single,3,Monthly,20.220183297966614,Chicago,Rural,False,False,0,0
+61,20,Female,52609.075015927,Bachelor's Degree,Lawyer,Married,1,Weekly,81.26360555226697,New York,Rural,True,True,1,1
+62,32,Female,41968.06784871212,Master's Degree,Teacher,Divorced,1,Weekly,41.55288029259373,Chicago,Rural,False,True,1,0
+63,51,Male,35699.47445799054,Doctorate,Science,Single,2,Weekly,87.61273378720706,Philadelphia,Urban,False,False,0,0
+64,34,Male,22912.21941494792,Doctorate,Artist,Single,1,Daily,41.26720674028728,Phoenix,Urban,True,False,1,0
+65,40,Male,17595.134675614718,Bachelor's Degree,Medicine,Married,2,Monthly,56.371244937778975,San Diego,Rural,True,False,1,1
+66,36,Female,27254.131391119336,Bachelor's Degree,Artist,Single,0,Weekly,20.857228399054073,New York,Rural,False,False,0,0
+67,31,Male,26079.13823400145,Bachelor's Degree,Engineer,Divorced,0,Weekly,17.35831287539847,Phoenix,Urban,True,False,1,1
+68,34,Male,50310.06398965307,High School,Teacher,Married,3,Monthly,58.29315813885993,San Diego,Rural,False,False,0,0
+69,40,Female,46025.803069573245,Bachelor's Degree,Arts,Divorced,3,Monthly,74.20146272960972,San Antonio,Urban,False,True,1,0
+70,35,Male,36630.86332275116,Master's Degree,Medicine,Married,2,Daily,26.405549062836226,San Antonio,Urban,True,True,0,0
+71,43,Female,21660.820577490063,High School,Lawyer,Married,3,Weekly,81.02541147466044,Philadelphia,Rural,True,False,1,0
+72,39,Female,47271.9737092165,High School,Lawyer,Divorced,1,Daily,40.37021504847263,Houston,Rural,False,False,1,0
+73,23,Female,21861.339586799724,Bachelor's Degree,Artist,Single,1,Monthly,53.90288207278641,Phoenix,Urban,False,False,0,0
+74,48,Male,52115.70176490908,Master's Degree,Teacher,Divorced,3,Daily,98.41407552177458,San Antonio,Rural,False,False,0,0
+75,28,Female,50853.603547463994,High School,Arts,Single,2,Weekly,93.64383902148272,San Antonio,Urban,False,False,1,1
+76,22,Male,26183.961820212186,Master's Degree,Lawyer,Married,3,Daily,57.6856020863005,New York,Rural,False,False,0,0
+77,54,Female,56600.71711284671,High School,Teacher,Divorced,0,Weekly,40.294385037452855,Chicago,Urban,True,False,0,1
+78,19,Male,50493.72229273174,High School,Science,Married,0,Daily,20.50264577275132,San Antonio,Rural,False,True,1,0
+79,47,Male,52536.373000822736,Doctorate,Lawyer,Single,1,Daily,75.77807276832799,New York,Rural,False,True,1,0
+80,18,Female,38723.655658995594,Doctorate,Artist,Divorced,0,Daily,28.14645880429701,Phoenix,Urban,True,True,1,0
+81,36,Female,36153.27123845597,Doctorate,Engineer,Married,1,Daily,71.46838570754193,San Diego,Urban,False,False,0,0
+82,55,Female,31937.233769416955,High School,Engineer,Married,0,Monthly,44.55020992358903,Phoenix,Urban,False,False,1,0
+83,56,Male,56991.606180673756,Master's Degree,Teacher,Single,3,Monthly,89.07662038360944,New York,Rural,False,True,1,0
+84,53,Female,47620.15600194113,High School,Artist,Divorced,2,Daily,13.017919126220145,Phoenix,Rural,False,True,1,0
+85,27,Male,51062.86523360064,Master's Degree,Science,Married,3,Monthly,81.75658292015983,Philadelphia,Urban,True,False,0,1
+86,19,Male,39922.13506026135,Doctorate,Lawyer,Single,2,Monthly,41.112639415352746,Los Angeles,Rural,False,False,0,0
+87,23,Male,33100.290182206634,Bachelor's Degree,Teacher,Single,0,Weekly,19.071514271429784,New York,Urban,False,False,1,0
+88,29,Male,55937.526113037326,High School,Medicine,Married,3,Monthly,23.72851386228352,Houston,Urban,False,True,0,1
+89,46,Male,52021.98159902115,Master's Degree,Science,Married,1,Daily,98.63570790661011,Phoenix,Rural,False,True,1,0
+90,18,Female,35941.902856303604,Doctorate,Science,Married,2,Daily,76.982468665896,Chicago,Rural,True,True,0,0
+91,58,Male,30725.229210181384,Bachelor's Degree,Teacher,Single,1,Monthly,41.22578817066049,Chicago,Urban,True,False,1,1
+92,41,Female,18275.66587139869,High School,Medicine,Married,0,Daily,62.25295152502391,Phoenix,Rural,False,False,1,0
+93,24,Female,32949.44940085065,Doctorate,Arts,Single,3,Monthly,99.71868266613527,New York,Urban,True,False,1,0
+94,47,Female,20495.27965477929,Master's Degree,Arts,Single,0,Daily,13.28947010632854,Phoenix,Rural,False,True,0,0
+95,18,Female,32664.44173740138,Bachelor's Degree,Arts,Married,1,Weekly,60.36762981773961,San Antonio,Rural,True,False,1,1
+96,56,Female,23615.092736014973,Master's Degree,Arts,Single,3,Daily,12.284772009431038,Houston,Rural,False,True,1,0
+97,25,Male,21098.608096647473,Doctorate,Science,Divorced,2,Daily,63.55440817303786,New York,Urban,True,True,1,0
+98,50,Female,46040.65481552533,Master's Degree,Medicine,Single,3,Weekly,84.71978781102925,Houston,Rural,True,False,1,0
+99,31,Male,54816.79092605599,Master's Degree,Doctor,Divorced,0,Monthly,86.33152859201951,San Diego,Urban,True,False,1,1
+100,35,Female,50872.178086922046,Doctorate,Teacher,Single,2,Weekly,42.67532909755815,San Antonio,Rural,False,True,1,0
+101,55,Female,28137.89473329727,High School,Lawyer,Divorced,3,Weekly,78.72452147437848,San Diego,Urban,False,False,0,0
+102,40,Female,31260.675223461672,Master's Degree,Engineer,Single,0,Weekly,67.01303978435325,San Antonio,Urban,False,False,1,0
+103,21,Male,55028.615061819284,Bachelor's Degree,Science,Married,2,Weekly,92.28689259044491,Philadelphia,Rural,False,True,0,0
+104,51,Female,42571.01941759321,Bachelor's Degree,Lawyer,Divorced,0,Weekly,22.60166847944041,Los Angeles,Urban,True,False,1,1
+105,57,Male,41654.90316787238,High School,Science,Single,0,Daily,47.68934724028658,Houston,Rural,False,False,0,0
+106,19,Male,46901.68082131852,Master's Degree,Artist,Divorced,1,Daily,45.036605263777886,San Diego,Urban,False,False,1,0
+107,56,Female,57465.33985288828,Master's Degree,Science,Single,1,Daily,53.53794477391715,Chicago,Rural,True,False,1,0
+108,52,Female,52320.39246572786,Master's Degree,Artist,Divorced,1,Daily,79.38209833712398,Philadelphia,Urban,True,False,1,1
+109,18,Male,44420.119821386805,Bachelor's Degree,Engineer,Divorced,2,Monthly,16.99888096710614,Houston,Rural,True,False,0,1
+110,51,Male,25729.827840470545,Master's Degree,Teacher,Married,0,Daily,95.52136184387221,San Antonio,Urban,True,False,0,0
+111,33,Female,46611.24432047806,High School,Engineer,Divorced,0,Weekly,67.35084218105382,San Diego,Urban,False,True,0,0
+112,32,Female,12579.7903329355,Bachelor's Degree,Science,Single,3,Monthly,99.94181496092514,Chicago,Urban,False,False,1,0
+113,31,Male,46551.18357291408,Master's Degree,Medicine,Single,2,Monthly,81.58076541631877,San Antonio,Rural,False,True,1,0
+114,35,Female,42227.332531291104,Bachelor's Degree,Science,Divorced,3,Daily,16.925788146628825,Philadelphia,Urban,False,False,1,0
+115,40,Male,25764.51689153052,High School,Lawyer,Married,1,Daily,76.40701902158725,New York,Rural,True,False,0,0
+116,19,Male,53504.943695046495,Bachelor's Degree,Teacher,Divorced,0,Daily,44.55675009277532,San Diego,Urban,True,True,0,1
+117,46,Female,30096.545680462106,High School,Lawyer,Married,3,Monthly,45.845864557807204,Phoenix,Urban,True,True,0,0
+118,22,Female,10167.318102148962,High School,Arts,Single,1,Weekly,31.024697594491894,New York,Rural,True,True,0,0
+119,32,Male,29216.332357984084,Doctorate,Lawyer,Divorced,1,Daily,80.77105129739968,Los Angeles,Rural,False,True,0,0
+120,41,Male,40670.569460535386,High School,Science,Divorced,3,Daily,68.46819840931316,Philadelphia,Urban,True,False,0,0
+121,51,Male,11836.596871330681,Bachelor's Degree,Teacher,Single,0,Daily,66.68001306965378,San Antonio,Urban,True,True,0,1
+122,59,Female,34559.31704343133,High School,Medicine,Divorced,3,Monthly,30.19965146529946,San Diego,Urban,True,True,1,0
+123,21,Female,14574.341869887743,High School,Medicine,Divorced,2,Daily,89.98732718820794,New York,Rural,False,False,1,0
+124,32,Female,37542.868530456966,Master's Degree,Doctor,Divorced,1,Monthly,75.10781023197265,Chicago,Rural,False,True,0,0
+125,30,Female,59573.76675725241,Bachelor's Degree,Medicine,Married,3,Weekly,63.31670061935658,Chicago,Urban,False,False,0,1
+126,57,Female,23351.413508471065,Bachelor's Degree,Medicine,Divorced,3,Daily,24.16065937322734,San Diego,Urban,True,True,1,1
+127,42,Female,15291.7046914292,Master's Degree,Arts,Divorced,0,Monthly,96.51837593664166,New York,Urban,True,True,0,0
+128,27,Female,21431.258076246177,Master's Degree,Science,Single,3,Weekly,84.89207601619677,Philadelphia,Rural,True,False,0,0
+129,30,Female,59059.30890137117,High School,Medicine,Divorced,1,Daily,80.18608556360293,Phoenix,Urban,False,True,0,1
+130,58,Female,27093.608301934306,Doctorate,Science,Single,0,Daily,80.99262836836698,Houston,Rural,False,False,0,0
+131,44,Male,48549.21462660678,High School,Doctor,Single,0,Weekly,65.88239659907293,Los Angeles,Rural,False,False,0,0
+132,46,Male,42378.68217009538,Doctorate,Artist,Divorced,0,Monthly,83.93616526666969,San Antonio,Urban,False,True,1,0
+133,40,Male,23681.333314083295,High School,Lawyer,Married,2,Daily,86.87887970154094,San Antonio,Urban,True,True,1,0
+134,49,Male,44024.96510373565,Bachelor's Degree,Teacher,Divorced,2,Daily,96.69129880961187,San Diego,Rural,True,True,1,1
+135,33,Female,58226.02361351043,Master's Degree,Engineer,Married,2,Monthly,46.84006056835387,Houston,Rural,True,False,1,1
+136,52,Male,42583.34126879425,Doctorate,Doctor,Divorced,3,Monthly,97.13740851232495,Phoenix,Urban,True,True,1,1
+137,25,Female,52239.16140584438,Doctorate,Science,Divorced,0,Daily,92.06524314639199,Chicago,Urban,False,False,1,1
+138,42,Male,39916.363256121345,Bachelor's Degree,Lawyer,Married,1,Daily,24.474292217037107,Phoenix,Rural,True,True,0,1
+139,41,Male,59217.5703701452,High School,Medicine,Married,1,Weekly,45.32442007660163,Phoenix,Urban,True,False,0,1
+140,28,Female,53006.11985946023,Bachelor's Degree,Engineer,Divorced,1,Monthly,19.44371605763574,New York,Rural,True,False,0,1
+141,32,Male,40907.78671590595,Doctorate,Engineer,Single,3,Weekly,39.38151774195927,Chicago,Urban,True,True,1,1
+142,47,Male,13928.924857751037,Bachelor's Degree,Science,Single,1,Monthly,28.077318087606475,Chicago,Rural,True,False,0,1
+143,57,Female,45323.786324345056,Bachelor's Degree,Engineer,Single,0,Monthly,65.16497573790454,New York,Rural,False,False,0,0
+144,45,Female,26972.5096271403,Master's Degree,Science,Divorced,2,Weekly,83.55679929662443,Chicago,Urban,True,True,1,0
+145,59,Male,46241.327993702915,Doctorate,Science,Married,0,Daily,65.41678197480185,Los Angeles,Urban,False,False,1,0
+146,25,Female,31682.766697819443,Doctorate,Teacher,Single,1,Weekly,68.79367173135971,Philadelphia,Rural,False,True,1,0
+147,20,Male,30163.06805619159,High School,Artist,Single,2,Monthly,33.19145996600923,Houston,Urban,False,True,1,0
+148,41,Male,27296.749627348145,Doctorate,Arts,Single,0,Monthly,62.080786771515406,Houston,Rural,True,False,0,0
+149,53,Female,55035.09320056293,Bachelor's Degree,Science,Single,2,Monthly,35.54690757477805,Philadelphia,Rural,True,True,0,1
+150,57,Female,21789.604697960494,Bachelor's Degree,Medicine,Single,2,Weekly,31.378899243148986,Phoenix,Rural,True,True,1,1
+151,55,Male,22361.553720158852,Doctorate,Artist,Divorced,1,Monthly,42.33100324597891,Chicago,Urban,False,True,1,0
+152,42,Female,22906.671635056377,High School,Artist,Divorced,0,Daily,31.332507139750255,San Antonio,Urban,False,True,0,0
+153,31,Male,32438.878691570153,Doctorate,Arts,Married,0,Daily,32.384284532886696,Los Angeles,Rural,True,True,0,0
+154,37,Male,40276.90788224414,Master's Degree,Artist,Married,0,Daily,73.48470347009832,San Diego,Rural,True,True,0,0
+155,37,Male,12854.342804465743,Master's Degree,Artist,Single,0,Daily,20.989892260902412,Phoenix,Urban,True,True,1,0
+156,50,Female,12078.642952519605,Bachelor's Degree,Lawyer,Married,1,Monthly,10.444598284096866,Chicago,Urban,False,True,1,0
+157,56,Male,35779.80142896251,Bachelor's Degree,Science,Single,3,Monthly,12.697623088541015,Philadelphia,Rural,False,False,0,0
+158,25,Female,14695.03578947092,Doctorate,Artist,Single,0,Monthly,25.94348105026473,Chicago,Urban,True,True,0,0
+159,27,Male,22207.364521118714,Bachelor's Degree,Medicine,Divorced,3,Daily,12.734835372715317,San Diego,Urban,False,False,1,0
+160,18,Male,42944.27351163286,High School,Medicine,Married,0,Weekly,41.371630051777345,Chicago,Rural,False,False,1,0
+161,26,Female,59666.846867931425,High School,Engineer,Married,0,Monthly,76.46042883261939,Houston,Rural,True,False,0,1
+162,21,Female,50392.29709706293,Bachelor's Degree,Artist,Married,2,Monthly,88.2010562986514,New York,Rural,False,False,1,0
+163,42,Male,41510.43741645721,Bachelor's Degree,Science,Divorced,0,Monthly,44.97022911433112,New York,Urban,True,False,1,1
+164,52,Male,13659.796188422182,Master's Degree,Medicine,Single,1,Weekly,78.34098951305793,New York,Urban,True,False,0,0
+165,19,Male,11282.103290321784,Bachelor's Degree,Engineer,Married,1,Daily,32.14626929181984,Houston,Urban,True,False,1,1
+166,23,Female,45774.545354963724,Master's Degree,Artist,Married,2,Monthly,10.68065874803279,San Antonio,Urban,False,True,1,0
+167,53,Female,13013.369514478043,High School,Artist,Single,2,Weekly,24.969844696882795,Houston,Rural,True,False,0,0
+168,44,Female,36613.01066695201,Doctorate,Medicine,Single,3,Weekly,74.45356068008742,New York,Urban,False,False,1,0
+169,47,Male,44055.89269824914,Bachelor's Degree,Science,Married,2,Monthly,36.5750460298279,New York,Rural,True,False,0,1
+170,53,Male,14351.948129382932,Bachelor's Degree,Engineer,Married,1,Monthly,95.62630079859913,San Antonio,Rural,False,True,0,0
+171,45,Male,20602.241995411332,Bachelor's Degree,Medicine,Single,0,Daily,91.53019943089843,San Diego,Rural,True,False,1,1
+172,54,Male,46597.90337928173,Doctorate,Lawyer,Divorced,1,Daily,18.59817824512014,Houston,Rural,True,True,0,0
+173,22,Male,46843.687247209105,Bachelor's Degree,Engineer,Divorced,0,Daily,26.06013687049949,Philadelphia,Urban,True,False,1,1
+174,49,Female,22844.192382285742,High School,Artist,Married,1,Daily,98.90069681933986,Los Angeles,Urban,True,False,1,0
+175,59,Male,45879.88828290881,High School,Teacher,Divorced,3,Weekly,19.36986844457497,Chicago,Rural,False,False,1,0
+176,53,Male,54709.543733205915,Master's Degree,Engineer,Married,2,Weekly,41.94966752487436,Houston,Urban,True,False,0,1
+177,22,Male,42008.411191408304,Doctorate,Arts,Single,2,Weekly,30.774627023861086,Chicago,Urban,False,False,0,0
+178,40,Male,28147.2135922996,Master's Degree,Doctor,Divorced,1,Weekly,60.60671342901188,Houston,Urban,True,True,1,1
+179,33,Male,31134.455669809475,Master's Degree,Medicine,Married,3,Monthly,93.44600375315073,Philadelphia,Urban,False,True,0,0
+180,22,Female,48429.990239425424,High School,Engineer,Single,0,Weekly,33.13425397888719,San Diego,Urban,False,True,1,0
+181,33,Female,17965.201030949014,High School,Arts,Married,2,Weekly,40.750705170722874,New York,Urban,False,True,1,0
+182,26,Female,51264.30541164484,Bachelor's Degree,Science,Single,3,Weekly,56.4111484926848,Los Angeles,Rural,True,True,0,1
+183,54,Male,35057.64995910048,High School,Doctor,Single,1,Daily,44.256096412892205,San Diego,Rural,False,False,0,0
+184,20,Female,25233.956954902038,High School,Science,Married,2,Weekly,23.8412034701228,Los Angeles,Rural,False,False,0,0
+185,27,Female,16626.23363709242,Bachelor's Degree,Engineer,Divorced,1,Daily,64.56276439758797,Phoenix,Rural,True,False,1,1
+186,52,Male,17318.699608112456,High School,Doctor,Married,1,Daily,30.929622252884208,Philadelphia,Rural,False,False,0,0
+187,49,Female,56822.45869418303,Doctorate,Doctor,Married,3,Monthly,67.67436832211857,Philadelphia,Urban,False,False,0,1
+188,40,Male,13067.481355533408,Master's Degree,Doctor,Single,0,Weekly,53.61414283169782,Chicago,Urban,True,False,1,1
+189,26,Male,18533.23792749992,High School,Engineer,Single,1,Monthly,25.99897490661234,San Diego,Rural,True,False,0,1
+190,56,Male,21632.27692813405,Doctorate,Lawyer,Married,3,Weekly,48.347504550133436,San Antonio,Urban,False,True,0,0
+191,52,Male,30706.487626446353,Bachelor's Degree,Science,Married,0,Weekly,96.74400479341159,San Antonio,Rural,False,True,1,0
+192,55,Male,48014.49115610675,Bachelor's Degree,Medicine,Divorced,0,Daily,39.115035542032636,Chicago,Rural,True,True,1,1
+193,35,Male,12131.660464351637,High School,Teacher,Married,3,Monthly,50.89396011039648,Houston,Rural,True,True,0,0
+194,21,Female,22173.898420243364,Bachelor's Degree,Medicine,Divorced,0,Daily,45.50286507130318,Phoenix,Rural,True,False,1,1
+195,58,Male,42934.60731037218,High School,Engineer,Single,3,Daily,35.14309425412448,Chicago,Rural,False,False,0,0
+196,38,Female,34772.60517304909,Doctorate,Teacher,Single,3,Daily,65.25402262840555,Houston,Urban,False,True,1,0
+197,22,Female,35611.096040633725,High School,Medicine,Married,3,Daily,77.15865317336548,New York,Urban,True,False,1,0
+198,41,Male,35428.964472378924,Doctorate,Doctor,Divorced,1,Monthly,97.36749619036031,Los Angeles,Urban,True,False,1,1
+199,22,Female,51526.722820241994,Doctorate,Medicine,Single,1,Monthly,17.39545007287846,Houston,Urban,True,False,0,1
+200,57,Female,29096.981982644797,Bachelor's Degree,Teacher,Married,3,Weekly,33.46419699279249,New York,Urban,True,False,1,1
+201,27,Female,24641.101835048237,Doctorate,Doctor,Single,0,Daily,92.8267463097467,San Diego,Rural,False,False,0,0
+202,28,Male,15540.398108990352,Bachelor's Degree,Science,Married,0,Monthly,59.50827464123404,Chicago,Urban,False,False,0,0
+203,47,Female,43799.11377931777,Master's Degree,Arts,Married,3,Daily,35.73161103152441,San Diego,Rural,True,True,1,0
+204,29,Female,22612.05100866808,High School,Arts,Married,1,Weekly,75.5641609445452,San Antonio,Urban,False,False,1,0
+205,39,Female,23466.564915101255,Doctorate,Artist,Married,1,Weekly,21.85558961091057,San Antonio,Rural,True,False,1,0
+206,32,Female,52035.151400560004,High School,Arts,Divorced,0,Daily,76.90814074689484,Los Angeles,Urban,False,True,1,1
+207,46,Male,38858.6391643775,High School,Medicine,Married,2,Weekly,60.223809263407034,San Diego,Urban,False,True,1,0
+208,18,Male,19697.693363388746,Doctorate,Doctor,Single,2,Daily,59.95764543720576,San Diego,Rural,True,True,1,1
+209,19,Male,49189.58922426986,Doctorate,Lawyer,Single,1,Weekly,85.59675822539643,Houston,Urban,False,False,1,0
+210,51,Female,43918.94114275709,Doctorate,Teacher,Divorced,2,Weekly,88.89856856453805,Philadelphia,Rural,False,True,1,0
+211,21,Female,54309.789023253725,Master's Degree,Doctor,Married,1,Daily,10.169189517241957,San Antonio,Urban,False,False,0,1
+212,21,Male,29383.67973751971,High School,Science,Divorced,3,Daily,67.80929733147048,San Diego,Urban,False,False,1,0
+213,21,Male,34329.88311218766,Bachelor's Degree,Doctor,Divorced,2,Monthly,54.843011403710825,Phoenix,Urban,False,False,1,0
+214,29,Female,45384.046737045785,Master's Degree,Lawyer,Divorced,3,Daily,23.270727403565555,San Antonio,Urban,True,True,0,0
+215,45,Female,59917.375569647484,Doctorate,Arts,Married,0,Daily,67.37979380232068,Houston,Rural,True,True,1,0
+216,23,Female,47360.979387101885,Master's Degree,Engineer,Single,3,Daily,26.602862782027543,Philadelphia,Rural,False,True,1,0
+217,47,Female,23653.54049864062,High School,Teacher,Married,2,Daily,15.0522493074589,Los Angeles,Rural,False,True,1,0
+218,46,Male,34045.300037653484,High School,Doctor,Married,3,Weekly,66.80535813610356,Phoenix,Urban,True,False,1,1
+219,18,Female,10351.460190680958,High School,Arts,Single,3,Daily,77.62375774261412,San Diego,Urban,False,True,0,0
+220,41,Male,24109.353734660006,Doctorate,Science,Divorced,2,Weekly,32.45915798645555,San Diego,Rural,False,True,0,0
+221,42,Female,13268.307878219262,High School,Lawyer,Divorced,3,Weekly,91.57937080099698,New York,Urban,False,False,1,0
+222,44,Male,54991.667284363626,Bachelor's Degree,Medicine,Divorced,3,Monthly,89.39220528538542,Philadelphia,Rural,False,False,0,0
+223,31,Female,59064.854524862334,Bachelor's Degree,Artist,Divorced,2,Weekly,27.20716313183101,New York,Urban,True,True,1,1
+224,29,Male,15704.789244396668,Bachelor's Degree,Artist,Divorced,1,Daily,86.5554452057024,San Antonio,Urban,True,False,1,1
+225,51,Male,37127.29016977115,Master's Degree,Arts,Married,0,Weekly,17.355281117210044,Phoenix,Rural,True,False,1,0
+226,22,Female,52498.7685740331,Bachelor's Degree,Doctor,Single,3,Monthly,68.58761204358588,Phoenix,Rural,False,True,0,0
+227,55,Female,32961.9938798479,Doctorate,Teacher,Divorced,0,Monthly,88.4922130020229,Chicago,Urban,False,False,0,0
+228,39,Male,16312.689139630673,Master's Degree,Arts,Single,2,Daily,50.61154097628893,Chicago,Rural,False,True,1,0
+229,19,Male,33196.56884061664,Doctorate,Lawyer,Married,1,Monthly,19.492632996096752,Houston,Urban,True,True,0,0
+230,36,Male,19780.46365222575,Doctorate,Doctor,Married,3,Daily,67.11241757952735,San Antonio,Urban,True,True,0,1
+231,57,Female,32380.147016010847,Bachelor's Degree,Lawyer,Single,2,Monthly,42.67906629706094,Los Angeles,Rural,True,False,0,1
+232,50,Female,11669.180089319061,Doctorate,Artist,Divorced,0,Weekly,65.37682225628218,Phoenix,Urban,False,True,0,0
+233,28,Female,58356.33076295852,Master's Degree,Artist,Divorced,0,Daily,75.26669932246517,Chicago,Rural,False,False,0,0
+234,48,Female,16491.32244758588,High School,Engineer,Divorced,0,Daily,84.06626015993375,Chicago,Rural,False,True,1,0
+235,45,Female,50953.175693082805,Bachelor's Degree,Arts,Divorced,3,Daily,52.405110903953315,San Antonio,Rural,False,True,1,0
+236,41,Male,51412.46262186092,Doctorate,Arts,Single,3,Daily,20.16488875700562,Chicago,Rural,True,True,1,0
+237,51,Male,32517.54894527063,Bachelor's Degree,Teacher,Married,2,Weekly,76.42622110046655,Houston,Urban,False,True,1,0
+238,52,Male,46964.73675823866,Bachelor's Degree,Doctor,Divorced,3,Monthly,25.739329345836346,New York,Rural,False,True,0,0
+239,40,Male,27019.004633333745,Bachelor's Degree,Engineer,Divorced,1,Monthly,29.13799387339865,Los Angeles,Urban,True,True,0,1
+240,31,Female,21638.15735506444,High School,Teacher,Married,2,Weekly,68.56916928028727,Phoenix,Urban,True,True,1,0
+241,44,Male,28975.14516873593,Bachelor's Degree,Lawyer,Married,3,Weekly,44.23604940733687,Phoenix,Urban,False,True,0,0
+242,42,Male,11358.750804542207,Bachelor's Degree,Science,Single,3,Daily,36.2996407415708,Los Angeles,Urban,False,True,1,0
+243,45,Male,58140.5178537013,Master's Degree,Engineer,Divorced,3,Monthly,57.940829808539945,Los Angeles,Urban,False,False,0,1
+244,55,Male,13417.04677661302,High School,Arts,Married,3,Daily,52.189116891805526,New York,Rural,True,True,1,0
+245,58,Male,47159.65993658017,Doctorate,Teacher,Single,0,Daily,63.389941309664586,New York,Rural,True,True,1,0
+246,33,Male,49728.913935009514,Bachelor's Degree,Lawyer,Divorced,2,Weekly,87.01264844537855,San Antonio,Urban,True,False,0,1
+247,54,Female,15746.649852978342,High School,Engineer,Married,0,Monthly,84.635811938508,San Diego,Rural,True,False,1,1
+248,40,Male,25847.329389555962,Doctorate,Arts,Divorced,2,Daily,40.673412981086194,Houston,Urban,False,False,1,0
+249,55,Female,45131.688654275815,Doctorate,Science,Divorced,3,Weekly,80.80753016389933,Los Angeles,Rural,False,False,0,0
+250,51,Male,59192.01564277189,Doctorate,Science,Single,1,Weekly,32.89524227576623,New York,Urban,False,False,0,1
+251,44,Male,23840.71538956529,High School,Engineer,Married,0,Daily,66.02677261567706,Phoenix,Urban,False,True,0,0
+252,30,Female,52706.799882525214,High School,Arts,Divorced,3,Daily,40.49745844048765,Philadelphia,Urban,True,False,0,1
+253,59,Male,56587.68597164082,High School,Medicine,Married,0,Daily,83.63860018734228,Philadelphia,Urban,True,True,1,1
+254,58,Male,43771.01037735446,Bachelor's Degree,Teacher,Divorced,0,Monthly,34.72583729675676,New York,Rural,False,True,0,0
+255,25,Female,45701.63222334282,Doctorate,Artist,Married,0,Weekly,95.95544603364901,Chicago,Urban,False,True,1,0
+256,40,Female,51479.37784326252,High School,Science,Single,1,Weekly,69.87628917802496,New York,Urban,False,False,1,1
+257,36,Female,37479.18283610718,High School,Engineer,Single,2,Monthly,77.48656879928197,Chicago,Urban,True,True,0,1
+258,19,Female,39934.620115954865,Bachelor's Degree,Doctor,Divorced,1,Daily,65.13161215103372,Houston,Urban,False,False,1,0
+259,19,Female,51450.88662727455,Bachelor's Degree,Medicine,Single,0,Daily,47.98308341148751,Los Angeles,Urban,True,True,1,1
+260,32,Male,16150.164756187281,High School,Science,Divorced,0,Monthly,83.50508823026901,Phoenix,Rural,True,False,1,0
+261,35,Male,13880.732236572043,High School,Artist,Single,1,Weekly,50.1777564761424,Chicago,Rural,True,True,0,0
+262,32,Female,14943.680882031771,Master's Degree,Medicine,Single,2,Daily,12.467827897539188,Houston,Urban,False,True,0,0
+263,45,Male,17129.707204095437,Doctorate,Engineer,Married,2,Monthly,12.29029839151758,Houston,Rural,False,True,1,0
+264,48,Female,39799.442109174095,High School,Arts,Married,3,Weekly,85.75510255702085,San Diego,Rural,False,True,1,0
+265,21,Male,58601.26282482956,Bachelor's Degree,Medicine,Divorced,2,Monthly,22.221014235754343,Chicago,Urban,False,False,1,1
+266,44,Male,11167.604816409295,Master's Degree,Artist,Divorced,0,Weekly,21.704300426002483,Chicago,Urban,True,False,0,0
+267,54,Male,32206.38565828758,Bachelor's Degree,Lawyer,Married,0,Daily,35.956489403687115,San Antonio,Rural,False,True,1,0
+268,49,Male,37070.38036737926,High School,Engineer,Married,0,Weekly,25.150326032721722,Philadelphia,Urban,True,True,1,1
+269,59,Female,45450.68621435159,Bachelor's Degree,Engineer,Married,1,Monthly,34.322292291770495,Houston,Urban,True,False,1,1
+270,18,Female,16959.835067284774,Master's Degree,Artist,Divorced,1,Monthly,28.657810286880217,Philadelphia,Urban,True,False,0,0
+271,57,Male,49626.06959814596,Master's Degree,Artist,Divorced,0,Daily,52.7991433738144,Houston,Rural,True,True,0,0
+272,44,Female,46107.16177279529,High School,Science,Single,0,Weekly,81.14588148473965,Houston,Urban,True,False,0,0
+273,58,Female,57202.104691269895,High School,Teacher,Divorced,1,Weekly,62.985836991818786,Chicago,Rural,False,True,1,0
+274,41,Male,40287.76515695284,Doctorate,Engineer,Divorced,1,Daily,87.9019431062097,Phoenix,Urban,False,False,1,0
+275,21,Female,33824.16918891463,Master's Degree,Engineer,Married,0,Daily,86.22719687863544,San Diego,Rural,True,True,0,1
+276,20,Male,35521.62445021161,Bachelor's Degree,Artist,Divorced,2,Weekly,52.91591214860354,Philadelphia,Rural,True,True,0,1
+277,27,Male,24969.77941858406,Doctorate,Lawyer,Single,0,Monthly,28.963446748048284,New York,Rural,True,True,1,0
+278,25,Female,14490.6077141387,Bachelor's Degree,Science,Divorced,0,Daily,66.96156976105908,San Antonio,Urban,True,False,0,1
+279,22,Female,50459.15855695155,High School,Lawyer,Divorced,1,Monthly,17.974424257271117,New York,Rural,False,False,0,0
+280,21,Male,13300.49220701208,Master's Degree,Medicine,Divorced,1,Daily,95.29192233680237,Chicago,Urban,True,True,1,0
+281,55,Male,13843.103763808176,Master's Degree,Doctor,Single,3,Weekly,14.520341031757638,Chicago,Rural,True,False,1,1
+282,48,Male,24050.22494543568,Doctorate,Science,Single,3,Weekly,33.95512112639837,Phoenix,Urban,True,True,1,0
+283,18,Female,20963.698096193788,High School,Artist,Divorced,0,Monthly,68.30357013914755,Phoenix,Urban,True,True,1,0
+284,49,Male,39293.239422675964,Doctorate,Arts,Single,1,Weekly,74.25573692559308,Houston,Urban,False,True,0,0
+285,47,Female,17143.798066970587,Master's Degree,Medicine,Single,3,Monthly,24.276173007374016,Chicago,Rural,False,False,1,0
+286,28,Male,30122.331871683447,High School,Science,Married,1,Daily,14.216671767484282,San Diego,Rural,False,True,1,0
+287,41,Female,10190.996132929155,High School,Lawyer,Married,3,Daily,93.77986348547276,New York,Urban,True,True,1,0
+288,44,Female,38590.45818035769,Bachelor's Degree,Science,Divorced,0,Monthly,91.89488294689528,San Diego,Rural,False,True,1,0
+289,34,Female,34690.70202284644,High School,Lawyer,Divorced,0,Monthly,10.392694268527817,San Antonio,Urban,True,True,1,0
+290,54,Female,48051.88951253915,High School,Lawyer,Divorced,0,Weekly,34.207122843584735,Houston,Urban,True,False,1,0
+291,59,Male,34928.53997528546,Master's Degree,Lawyer,Married,2,Monthly,19.987977212663328,San Diego,Rural,True,False,1,0
+292,24,Female,30825.22159519395,High School,Lawyer,Divorced,1,Daily,69.16181339531157,Los Angeles,Rural,False,False,1,0
+293,53,Female,40387.60611263613,Bachelor's Degree,Engineer,Divorced,3,Weekly,76.33868953888461,Phoenix,Rural,False,True,0,0
+294,57,Male,38958.76276873611,High School,Lawyer,Divorced,2,Daily,15.22827568723148,Phoenix,Rural,False,True,0,0
+295,27,Male,28954.70243359681,Doctorate,Doctor,Single,0,Weekly,47.227840742677174,New York,Urban,True,False,1,1
+296,29,Female,10496.19105639178,Master's Degree,Engineer,Single,3,Weekly,70.97880407130579,Houston,Urban,False,False,1,0
+297,34,Female,58800.69116396068,Master's Degree,Arts,Married,1,Monthly,44.43222912135719,New York,Rural,True,False,1,0
+298,49,Male,27090.185274609128,Master's Degree,Doctor,Divorced,3,Daily,43.456536541569726,San Diego,Rural,True,True,0,1
+299,30,Female,52353.04134919497,High School,Medicine,Divorced,3,Daily,64.55319084401317,San Diego,Rural,True,False,1,0
+300,21,Female,45506.77158990329,High School,Doctor,Single,3,Daily,77.26999659370246,San Antonio,Rural,False,False,0,0
+301,57,Female,49259.47715742042,Doctorate,Lawyer,Single,2,Monthly,60.51641886535624,Phoenix,Urban,True,True,0,0
+302,24,Male,41120.68207829983,Bachelor's Degree,Teacher,Married,2,Monthly,98.34879914672031,San Diego,Rural,False,True,1,0
+303,45,Female,50493.00936802931,Master's Degree,Lawyer,Single,3,Weekly,52.298944134214295,San Antonio,Urban,True,False,0,1
+304,43,Male,10392.07953859584,Doctorate,Engineer,Divorced,3,Weekly,47.407796801731514,Phoenix,Urban,False,True,0,0
+305,38,Female,41045.4295108854,Bachelor's Degree,Arts,Single,1,Weekly,59.191942782906544,Philadelphia,Urban,False,True,0,0
+306,23,Male,20459.273270396392,Master's Degree,Lawyer,Married,0,Monthly,81.38285865970656,Los Angeles,Urban,False,False,0,0
+307,58,Male,57571.49051809161,Doctorate,Medicine,Divorced,1,Weekly,61.25858016103933,Los Angeles,Urban,True,False,1,1
+308,40,Male,41117.16323086231,Bachelor's Degree,Arts,Divorced,0,Monthly,41.95369508067624,New York,Urban,True,True,0,1
+309,19,Female,29639.688790467168,Bachelor's Degree,Medicine,Single,3,Monthly,30.88358460109954,Los Angeles,Urban,True,True,0,1
+310,41,Female,52760.3492509185,Doctorate,Engineer,Married,1,Daily,43.928698773365205,Houston,Rural,True,True,1,1
+311,41,Female,18894.406202451173,Master's Degree,Medicine,Divorced,1,Daily,32.122669537553776,Philadelphia,Urban,False,True,1,0
+312,27,Female,17690.35123208039,Master's Degree,Teacher,Single,2,Daily,14.042016909605426,Philadelphia,Urban,True,True,0,0
+313,37,Female,55921.32160727043,High School,Science,Divorced,1,Weekly,65.98356061338944,Philadelphia,Rural,True,False,1,0
+314,44,Male,52363.58338609297,High School,Doctor,Single,0,Monthly,55.53621169614385,Los Angeles,Urban,True,True,0,1
+315,18,Male,53338.517725300015,High School,Engineer,Married,3,Daily,74.7243907250112,San Diego,Urban,True,True,0,1
+316,43,Female,17190.717515740685,Master's Degree,Science,Divorced,2,Weekly,90.33024047378271,Philadelphia,Rural,False,True,0,0
+317,37,Male,20234.0054528642,High School,Medicine,Married,3,Monthly,63.4422232728654,Phoenix,Rural,False,True,1,0
+318,21,Male,53974.82853640632,High School,Teacher,Divorced,3,Monthly,85.22433351194644,Philadelphia,Rural,False,True,0,0
+319,41,Female,17579.75374000497,High School,Engineer,Divorced,0,Monthly,93.79089737967698,San Antonio,Rural,True,False,1,1
+320,23,Male,58653.90814861664,Master's Degree,Science,Single,0,Daily,49.37337339473888,San Diego,Urban,False,True,0,1
+321,45,Male,46586.23682821065,Doctorate,Science,Married,0,Daily,48.03662773122482,Chicago,Rural,False,True,1,0
+322,44,Male,16267.82378961928,Doctorate,Teacher,Divorced,1,Monthly,29.843959122019577,Phoenix,Urban,False,True,0,0
+323,33,Male,37224.847955193254,Bachelor's Degree,Medicine,Divorced,1,Monthly,56.58366711839698,New York,Urban,False,False,0,0
+324,34,Female,24827.995610296537,High School,Teacher,Married,0,Weekly,80.26586678808108,San Antonio,Urban,True,False,1,0
+325,58,Male,17951.250187013065,Master's Degree,Medicine,Divorced,2,Weekly,92.88950689869183,San Antonio,Rural,True,True,0,0
+326,34,Male,12594.764975920543,High School,Artist,Single,1,Daily,87.08835013731341,San Antonio,Urban,False,False,1,0
+327,18,Male,34125.02101176803,Doctorate,Medicine,Single,0,Monthly,80.39541367821215,Los Angeles,Rural,False,False,1,0
+328,31,Female,14875.716282044872,Doctorate,Teacher,Married,2,Weekly,59.17872844700626,New York,Rural,True,True,1,0
+329,22,Female,53132.023557458946,High School,Medicine,Single,2,Monthly,45.68983137909669,Los Angeles,Urban,False,True,0,1
+330,48,Male,24502.276598121844,Doctorate,Arts,Divorced,0,Daily,16.38024183021568,Phoenix,Rural,True,True,0,0
+331,33,Female,41399.6691302049,Doctorate,Medicine,Married,0,Weekly,45.16138998873453,Philadelphia,Urban,False,True,0,0
+332,50,Male,53899.22484924174,High School,Arts,Divorced,0,Weekly,17.55275822392865,New York,Urban,False,True,1,1
+333,19,Male,29072.052070665573,High School,Artist,Single,2,Monthly,20.45718608729014,San Antonio,Urban,False,False,1,0
+334,37,Male,23815.955423292682,Bachelor's Degree,Engineer,Married,3,Weekly,50.510487382733,Chicago,Urban,False,False,0,0
+335,22,Female,37774.77120529301,Bachelor's Degree,Doctor,Married,0,Monthly,56.77338366050358,San Antonio,Urban,True,False,0,1
+336,42,Female,41535.02355793925,Doctorate,Doctor,Single,1,Weekly,64.32734805034376,San Antonio,Urban,True,True,0,1
+337,37,Male,14603.34930412377,Doctorate,Teacher,Divorced,2,Weekly,34.066182507178716,Chicago,Rural,True,False,1,0
+338,44,Female,45331.49349393548,Doctorate,Arts,Married,2,Monthly,63.79014544324328,Philadelphia,Rural,True,True,0,0
+339,42,Male,57236.812939153984,Bachelor's Degree,Teacher,Married,2,Weekly,66.2684292577398,Phoenix,Urban,True,False,1,1
+340,21,Female,37099.50374448829,Master's Degree,Engineer,Single,3,Daily,85.5821445997984,Chicago,Rural,False,False,0,0
+341,55,Male,10415.9971113596,Bachelor's Degree,Doctor,Divorced,3,Monthly,17.587118315021534,New York,Rural,True,True,0,1
+342,46,Female,31919.249001538064,Master's Degree,Medicine,Married,2,Daily,70.3607972844093,Chicago,Rural,True,False,1,0
+343,40,Male,55576.064666265826,Doctorate,Science,Married,0,Weekly,34.37256952332753,San Diego,Rural,False,True,1,0
+344,20,Male,39854.78850933599,Doctorate,Doctor,Single,3,Monthly,85.46426504587224,Phoenix,Urban,True,False,1,1
+345,30,Female,29872.40784495458,Bachelor's Degree,Engineer,Divorced,3,Monthly,56.93041217501921,Los Angeles,Rural,False,True,1,0
+346,23,Female,26680.339451452157,Doctorate,Lawyer,Married,1,Daily,69.98167427741521,San Diego,Urban,True,False,1,0
+347,55,Male,32127.275740737277,Doctorate,Teacher,Married,2,Weekly,84.22689136123068,Phoenix,Rural,True,False,1,0
+348,30,Male,35131.56213150652,High School,Teacher,Single,3,Monthly,35.293427324292544,Los Angeles,Rural,False,False,1,0
+349,18,Female,15594.030827456192,High School,Artist,Married,1,Daily,77.20989755803461,Los Angeles,Urban,True,False,1,0
+350,52,Female,10398.220237272557,Doctorate,Lawyer,Divorced,3,Weekly,58.199843339170535,Philadelphia,Urban,True,False,0,0
+351,41,Female,25389.79158403728,Doctorate,Science,Married,3,Weekly,41.89824539137494,Chicago,Rural,True,False,1,0
+352,38,Female,13882.038799439064,High School,Teacher,Divorced,1,Daily,87.29350940513392,Chicago,Urban,True,False,1,0
+353,33,Female,31960.53006248587,Bachelor's Degree,Engineer,Married,2,Daily,46.99842479923958,San Diego,Rural,False,True,0,0
+354,40,Male,47031.30744471853,High School,Doctor,Married,1,Weekly,36.71080138178655,Phoenix,Urban,False,True,0,0
+355,49,Female,22076.84208508409,Bachelor's Degree,Science,Divorced,3,Weekly,56.73021137021846,Houston,Urban,False,True,1,0
+356,36,Male,47469.52264005795,Doctorate,Medicine,Divorced,0,Daily,47.41975931709897,Phoenix,Urban,True,True,0,0
+357,57,Female,18584.695385272476,Bachelor's Degree,Doctor,Divorced,0,Weekly,61.78684485575335,Philadelphia,Rural,True,True,0,1
+358,46,Male,59021.77851351859,High School,Science,Married,0,Weekly,90.61072998569009,San Antonio,Rural,True,True,1,0
+359,18,Male,49637.905678640636,High School,Teacher,Married,2,Monthly,89.70577878175959,Los Angeles,Rural,False,False,0,0
+360,42,Female,44863.770952692845,Doctorate,Engineer,Married,0,Weekly,85.89935510090949,Los Angeles,Rural,True,False,1,1
+361,24,Male,19172.109820171725,Bachelor's Degree,Engineer,Married,2,Monthly,11.203091493345607,Phoenix,Rural,True,False,0,1
+362,19,Male,53867.52265664193,Doctorate,Science,Married,3,Monthly,15.990825512280058,New York,Urban,True,False,0,1
+363,30,Female,31673.61163778172,Doctorate,Artist,Divorced,1,Daily,50.17482012368753,Los Angeles,Rural,False,False,0,0
+364,21,Male,46136.887611940234,Bachelor's Degree,Science,Divorced,3,Monthly,44.13038834624041,Chicago,Rural,False,True,1,0
+365,45,Female,14768.580113652932,Doctorate,Science,Married,3,Daily,62.53422289582276,Philadelphia,Rural,True,False,1,0
+366,49,Female,17016.225909675748,High School,Teacher,Married,2,Monthly,69.62355522474473,San Antonio,Rural,False,True,0,0
+367,34,Male,40270.587875379366,High School,Medicine,Single,3,Weekly,62.09260790607465,Phoenix,Rural,False,False,0,0
+368,30,Female,29310.599640851535,Doctorate,Teacher,Married,3,Daily,29.342137333275627,Phoenix,Rural,False,False,0,0
+369,28,Male,13848.583469043704,Bachelor's Degree,Doctor,Divorced,1,Monthly,69.35596917766932,San Diego,Urban,False,False,0,0
+370,20,Female,41818.71407666872,High School,Arts,Married,3,Daily,72.5176863004355,Philadelphia,Urban,False,True,0,0
+371,27,Female,50746.98642702696,Doctorate,Medicine,Divorced,2,Weekly,80.80375066365782,Chicago,Urban,False,False,1,1
+372,45,Male,33199.50657322125,Bachelor's Degree,Arts,Married,0,Monthly,84.18942026913423,Houston,Rural,False,False,0,0
+373,23,Male,20053.25760249726,Doctorate,Medicine,Divorced,0,Monthly,99.6541906148901,Phoenix,Rural,False,False,1,0
+374,50,Female,13362.795698368393,Doctorate,Teacher,Divorced,0,Monthly,82.12131926864276,Philadelphia,Rural,True,True,1,0
+375,52,Female,25201.51362239998,High School,Engineer,Divorced,3,Monthly,42.43841444273375,Los Angeles,Rural,True,False,1,1
+376,52,Male,10857.489095759905,Doctorate,Doctor,Married,3,Monthly,85.34076650475869,Los Angeles,Rural,True,True,0,1
+377,22,Female,39346.82532794535,High School,Lawyer,Married,0,Monthly,75.97032576655181,Chicago,Rural,True,True,1,0
+378,37,Female,53420.5393970691,Master's Degree,Arts,Single,2,Daily,66.97653881495617,Philadelphia,Urban,True,False,0,1
+379,21,Female,33058.3450626955,Bachelor's Degree,Engineer,Single,2,Monthly,84.95487116821681,Los Angeles,Urban,False,False,0,0
+380,40,Female,41582.175754144584,Master's Degree,Engineer,Divorced,2,Daily,68.3775061091934,Chicago,Rural,True,True,0,1
+381,24,Female,18967.800514462047,Doctorate,Arts,Single,1,Monthly,50.76199632408497,Phoenix,Rural,False,False,0,0
+382,50,Female,44981.97848110608,Doctorate,Medicine,Single,3,Weekly,91.9191731380981,Houston,Rural,False,False,1,0
+383,30,Female,51689.59754594137,Bachelor's Degree,Lawyer,Single,1,Monthly,63.35561624572991,San Diego,Urban,False,False,0,1
+384,46,Male,14228.268904861892,Doctorate,Lawyer,Divorced,3,Weekly,69.31408691190092,San Antonio,Rural,True,True,1,0
+385,44,Female,24325.977446356148,Master's Degree,Engineer,Divorced,2,Daily,90.76292792118387,San Antonio,Urban,True,True,0,1
+386,32,Female,13119.703429913861,Doctorate,Lawyer,Divorced,0,Monthly,45.63654298728444,New York,Rural,False,False,1,0
+387,36,Female,49470.471095679284,Master's Degree,Lawyer,Single,1,Monthly,52.21964899428208,Phoenix,Rural,False,False,0,0
+388,32,Male,58653.83989561492,Bachelor's Degree,Engineer,Divorced,3,Monthly,39.36285262370321,San Diego,Urban,False,False,0,1
+389,27,Male,27765.987423694383,High School,Artist,Married,1,Weekly,90.84142575579116,Chicago,Rural,False,True,0,0
+390,40,Male,51465.71170628797,Master's Degree,Lawyer,Single,3,Weekly,22.343363933746886,Phoenix,Rural,False,False,0,0
+391,41,Female,23682.02089303858,Bachelor's Degree,Science,Married,0,Monthly,98.58110493109906,Chicago,Urban,True,False,1,1
+392,51,Male,46250.303814955936,Doctorate,Doctor,Divorced,3,Daily,87.59826762923699,San Antonio,Urban,True,True,1,1
+393,30,Female,54475.96555218816,Doctorate,Doctor,Divorced,0,Weekly,52.37806206008591,New York,Urban,False,False,0,1
+394,36,Female,15850.586242897309,Doctorate,Doctor,Divorced,2,Monthly,78.62022628073817,Phoenix,Rural,True,True,1,1
+395,54,Female,46811.990506691654,Doctorate,Doctor,Single,2,Weekly,30.684405321785658,San Antonio,Rural,True,True,0,1
+396,55,Male,52735.17250465987,High School,Arts,Divorced,3,Monthly,26.45540018819354,Chicago,Rural,False,False,1,0
+397,55,Female,38563.02349685487,High School,Arts,Single,3,Monthly,94.50054640371475,San Diego,Urban,False,True,1,0
+398,48,Female,26882.46509996173,Doctorate,Engineer,Divorced,0,Monthly,29.6386781096955,Chicago,Rural,True,True,0,1
+399,21,Male,53533.45170627588,Bachelor's Degree,Engineer,Married,0,Weekly,33.88331004417779,New York,Urban,True,True,0,1
+400,25,Female,12002.955952534725,Bachelor's Degree,Medicine,Divorced,1,Monthly,91.75910966914377,San Antonio,Urban,True,False,1,1
+401,33,Female,48021.21558412359,Master's Degree,Engineer,Single,2,Daily,79.25040046738424,Philadelphia,Rural,False,False,1,0
+402,38,Female,12272.625021789798,High School,Medicine,Divorced,3,Monthly,91.95451454929795,Chicago,Rural,True,True,1,0
+403,47,Female,31908.930662417224,Bachelor's Degree,Science,Married,3,Monthly,77.83606633852041,San Diego,Urban,False,True,0,0
+404,50,Female,55748.29325389843,Doctorate,Medicine,Divorced,1,Daily,64.96936576165348,Chicago,Rural,True,True,1,0
+405,48,Female,21846.66624533243,High School,Artist,Married,3,Monthly,93.46196625276674,Phoenix,Rural,False,True,1,0
+406,25,Female,21721.280000575734,Master's Degree,Medicine,Married,0,Monthly,36.439831555695164,San Diego,Urban,True,False,1,0
+407,34,Female,19615.494801681372,Doctorate,Doctor,Single,2,Daily,89.63696059264039,Houston,Rural,False,True,1,0
+408,53,Female,10514.224796784601,Doctorate,Engineer,Married,3,Monthly,49.20803114108588,Los Angeles,Rural,False,True,0,0
+409,57,Male,52476.71077439507,Bachelor's Degree,Doctor,Married,2,Weekly,93.57675059038547,Houston,Urban,True,True,0,1
+410,29,Male,27071.263480214915,High School,Engineer,Divorced,1,Monthly,32.19927542248658,Phoenix,Rural,False,True,0,0
+411,37,Female,38894.55563470442,Master's Degree,Medicine,Married,2,Weekly,94.73796192559969,New York,Urban,True,False,1,0
+412,43,Female,52806.624950687175,Bachelor's Degree,Lawyer,Divorced,3,Monthly,36.89714217331277,San Diego,Urban,False,True,0,1
+413,47,Female,40189.849596454806,Doctorate,Engineer,Single,0,Weekly,53.72356860213683,Houston,Rural,True,True,0,1
+414,32,Male,18220.276453943938,High School,Doctor,Married,1,Daily,14.072427011699908,Houston,Urban,True,False,1,1
+415,35,Male,53650.9697014858,Doctorate,Science,Divorced,3,Weekly,60.45218281009438,Houston,Urban,False,True,1,1
+416,22,Male,13783.055195205543,High School,Medicine,Divorced,0,Weekly,29.322629871701988,New York,Urban,False,False,1,0
+417,57,Male,42935.88193635111,Doctorate,Lawyer,Divorced,1,Daily,61.11768675844725,San Antonio,Rural,True,True,0,0
+418,45,Female,22983.5419475207,Master's Degree,Doctor,Married,3,Monthly,22.987828064944274,San Antonio,Rural,True,False,1,1
+419,39,Male,40698.51531626163,High School,Engineer,Divorced,1,Weekly,90.79692098587527,San Antonio,Urban,False,False,1,0
+420,33,Male,50285.72628341089,High School,Arts,Single,0,Daily,85.11318573357448,San Diego,Rural,True,False,1,0
+421,31,Male,50420.28694468454,Bachelor's Degree,Artist,Divorced,0,Daily,34.81816639971531,San Diego,Urban,False,False,1,1
+422,39,Male,31038.06008829629,Bachelor's Degree,Doctor,Divorced,0,Weekly,46.6973294502459,Phoenix,Urban,False,False,0,0
+423,21,Female,45737.66382219729,High School,Science,Divorced,2,Monthly,79.62148915576483,San Antonio,Rural,True,True,1,0
+424,36,Male,44067.65066206744,Bachelor's Degree,Medicine,Married,0,Daily,90.93343230322206,Chicago,Urban,True,False,0,1
+425,30,Female,36889.146737068826,High School,Medicine,Divorced,2,Weekly,26.360098049562573,Los Angeles,Rural,False,False,0,0
+426,21,Male,18410.18278832591,High School,Doctor,Divorced,2,Weekly,38.5925227792446,San Antonio,Urban,True,True,1,1
+427,19,Female,56715.20570837452,Master's Degree,Science,Single,0,Daily,35.7129634640288,Phoenix,Rural,False,False,0,0
+428,22,Female,29911.389697900584,Bachelor's Degree,Teacher,Single,0,Monthly,84.96367440168052,Phoenix,Rural,False,True,0,0
+429,21,Female,35023.865793335906,Bachelor's Degree,Doctor,Divorced,3,Weekly,56.268589829613376,Philadelphia,Rural,False,False,0,0
+430,20,Female,45642.29979304775,Doctorate,Lawyer,Divorced,3,Daily,75.55337689056815,Philadelphia,Rural,False,False,0,0
+431,52,Female,30010.6137924836,Doctorate,Science,Divorced,0,Monthly,80.21703416346955,New York,Rural,False,True,0,0
+432,50,Male,25224.62663744754,High School,Science,Single,2,Daily,30.040847121077647,San Antonio,Rural,False,True,0,0
+433,42,Male,18546.820121042416,Doctorate,Science,Married,1,Weekly,75.18092928507544,Phoenix,Rural,False,True,1,0
+434,58,Male,17981.245071608362,Doctorate,Doctor,Single,2,Monthly,12.133697828006653,Philadelphia,Rural,True,True,1,1
+435,34,Male,53420.4761973467,Doctorate,Engineer,Single,1,Weekly,29.232832741329556,San Diego,Urban,True,False,1,1
+436,43,Female,49080.773959819955,Master's Degree,Science,Divorced,3,Weekly,62.9516998884838,Philadelphia,Rural,True,False,0,0
+437,43,Male,45471.94323169874,Master's Degree,Medicine,Divorced,2,Monthly,56.18647753811009,San Antonio,Rural,False,False,1,0
+438,34,Male,25877.728993475088,Doctorate,Artist,Married,1,Weekly,40.370885106780605,Houston,Urban,False,True,0,0
+439,31,Female,12564.69244906078,Doctorate,Artist,Married,0,Monthly,53.59520670407643,San Antonio,Rural,False,True,1,0
+440,59,Male,24819.60034376417,Master's Degree,Lawyer,Married,3,Daily,34.1356930970422,Houston,Rural,False,False,0,0
+441,35,Male,11733.635211303319,High School,Teacher,Divorced,1,Daily,32.18679150741847,Phoenix,Urban,False,False,0,0
+442,53,Male,15556.85736660062,Bachelor's Degree,Arts,Divorced,2,Daily,22.699683461921598,San Diego,Rural,False,False,1,0
+443,37,Female,36757.616684017514,Bachelor's Degree,Doctor,Married,3,Weekly,12.70191989341647,New York,Rural,True,True,0,1
+444,36,Male,27590.250320517625,Master's Degree,Engineer,Married,0,Monthly,36.04955694575391,Philadelphia,Rural,False,True,0,0
+445,27,Male,26514.23337510422,High School,Medicine,Single,2,Daily,48.66605775071597,San Diego,Urban,True,True,1,0
+446,21,Female,36180.02735763059,Doctorate,Science,Married,0,Monthly,99.2766472514779,New York,Urban,False,True,0,0
+447,24,Male,53278.11915861017,Doctorate,Teacher,Single,2,Weekly,70.64550084430041,Philadelphia,Urban,False,True,0,1
+448,44,Female,40157.50600614735,Doctorate,Doctor,Single,1,Weekly,22.90558330098033,San Diego,Urban,False,False,0,0
+449,57,Male,43057.03392143483,Bachelor's Degree,Doctor,Divorced,0,Weekly,21.78763686947567,Phoenix,Urban,False,False,1,0
+450,44,Female,27065.932297502608,Bachelor's Degree,Engineer,Single,3,Daily,51.880324054553746,New York,Rural,False,True,0,0
+451,37,Male,48872.77335911928,Master's Degree,Lawyer,Single,2,Weekly,69.74420273674525,Phoenix,Rural,True,True,0,0
+452,54,Female,38195.978337781184,Doctorate,Artist,Single,1,Weekly,85.58383169831396,San Diego,Rural,False,False,0,0
+453,29,Male,52579.715965210955,High School,Lawyer,Single,1,Monthly,72.8049506954653,Houston,Rural,True,False,1,0
+454,53,Female,39059.77118604783,Master's Degree,Medicine,Married,2,Monthly,93.18583637151951,Philadelphia,Rural,True,False,1,0
+455,48,Male,44231.309713248316,High School,Artist,Divorced,1,Daily,40.84578328851165,San Diego,Urban,False,True,1,0
+456,51,Male,54713.2559128207,Master's Degree,Medicine,Divorced,1,Monthly,90.20800657572421,Philadelphia,Urban,True,True,0,1
+457,36,Male,14604.937709979491,Doctorate,Medicine,Married,2,Monthly,90.8909100763613,Philadelphia,Rural,True,True,1,0
+458,39,Female,59441.77656945823,Master's Degree,Engineer,Divorced,0,Monthly,17.29347494185511,San Antonio,Urban,False,False,1,1
+459,46,Male,13290.588034528824,Doctorate,Arts,Divorced,0,Monthly,39.424692190300775,San Antonio,Urban,True,False,1,0
+460,37,Female,25761.971732472542,Master's Degree,Engineer,Divorced,3,Monthly,69.9955376391435,Houston,Rural,False,True,0,0
+461,26,Female,31296.885423346972,Master's Degree,Arts,Divorced,0,Monthly,26.79759458179143,Houston,Urban,False,False,0,0
+462,39,Male,21301.659839432607,Doctorate,Doctor,Single,3,Monthly,53.06419630964702,Los Angeles,Urban,False,True,0,0
+463,36,Female,58773.65141570109,Master's Degree,Science,Divorced,1,Monthly,67.39967276610324,Los Angeles,Urban,False,False,1,1
+464,36,Female,22615.596353484354,Bachelor's Degree,Engineer,Single,3,Daily,97.93285088906583,San Diego,Urban,False,False,1,0
+465,24,Female,33309.07955637785,High School,Lawyer,Single,1,Weekly,40.35725528207377,Los Angeles,Urban,True,False,1,0
+466,41,Female,58758.998798775414,High School,Arts,Single,0,Weekly,66.53075781192146,San Diego,Urban,True,False,0,1
+467,28,Male,37523.58885514703,High School,Science,Single,3,Monthly,97.2389631055761,Chicago,Urban,False,True,1,0
+468,50,Female,18096.150331610686,Bachelor's Degree,Lawyer,Married,2,Weekly,41.92557010571914,Philadelphia,Urban,True,False,0,1
+469,42,Male,29363.720571242065,Master's Degree,Artist,Single,3,Weekly,15.530166111770875,San Antonio,Urban,False,True,0,0
+470,34,Female,17571.615718498164,Bachelor's Degree,Engineer,Divorced,3,Daily,20.008787260439686,Los Angeles,Rural,True,True,0,1
+471,51,Male,40998.42824370821,Bachelor's Degree,Doctor,Married,2,Weekly,42.728082302750465,Philadelphia,Urban,False,True,0,0
+472,36,Male,36498.51705107103,Master's Degree,Teacher,Single,0,Weekly,25.48774292073638,Philadelphia,Rural,True,True,1,0
+473,48,Female,14030.770258480088,Doctorate,Arts,Single,3,Monthly,55.22417891442389,Phoenix,Rural,False,True,0,0
+474,29,Female,49173.47800246339,High School,Science,Divorced,0,Daily,39.07897314997035,Chicago,Urban,False,True,0,0
+475,23,Female,50084.214659565245,Master's Degree,Artist,Single,2,Weekly,94.23435234237036,New York,Rural,True,False,1,0
+476,29,Female,11103.307434114542,High School,Arts,Married,3,Monthly,30.40215868674313,Los Angeles,Rural,True,True,0,0
+477,56,Male,12728.270414134948,Master's Degree,Science,Divorced,1,Weekly,29.469949986774434,New York,Rural,True,True,0,0
+478,28,Female,39400.02317148142,High School,Doctor,Married,3,Weekly,29.63568966339459,San Antonio,Rural,False,True,1,0
+479,38,Male,57897.29299630688,Bachelor's Degree,Science,Divorced,2,Daily,61.44468845346495,Philadelphia,Rural,False,True,1,0
+480,22,Female,36170.06854610041,Bachelor's Degree,Teacher,Divorced,1,Monthly,66.27969637338097,Los Angeles,Urban,True,True,0,1
+481,45,Male,39900.45586643748,Doctorate,Science,Single,0,Daily,53.49648564696927,San Diego,Rural,True,False,0,0
+482,21,Male,11290.469643159087,Doctorate,Science,Married,2,Daily,60.208630809406586,Philadelphia,Urban,True,True,1,0
+483,24,Male,19263.842516677003,Doctorate,Engineer,Married,3,Daily,39.73523262990548,San Diego,Rural,False,False,1,0
+484,42,Female,59201.57571395651,Doctorate,Doctor,Single,3,Weekly,32.12626982440602,New York,Urban,True,False,1,1
+485,22,Female,17127.82775165578,High School,Teacher,Single,3,Weekly,70.5150831518834,San Antonio,Urban,False,True,0,0
+486,44,Female,30683.933949263017,Doctorate,Lawyer,Married,3,Weekly,98.9685988341136,San Diego,Urban,False,False,0,0
+487,33,Female,15737.679970691774,High School,Artist,Married,0,Weekly,65.57762035560805,Chicago,Rural,False,True,1,0
+488,29,Male,24030.0406618958,High School,Science,Divorced,2,Monthly,39.243051496597715,Chicago,Rural,False,False,1,0
+489,41,Male,30483.643464625955,Master's Degree,Arts,Divorced,3,Weekly,27.529614791850328,Houston,Urban,False,False,0,0
+490,50,Female,50208.278249194205,High School,Arts,Married,0,Weekly,90.11242481022227,San Antonio,Urban,False,False,0,1
+491,30,Female,38427.6127802306,Bachelor's Degree,Medicine,Divorced,3,Daily,21.970881901659588,Houston,Urban,True,False,1,1
+492,43,Female,59576.638791369325,High School,Arts,Divorced,2,Monthly,53.542228587458254,San Antonio,Rural,False,True,1,0
+493,35,Female,18072.891703212004,High School,Science,Divorced,2,Daily,30.214219606739636,San Diego,Urban,True,False,1,0
+494,59,Male,12165.763662715597,Master's Degree,Arts,Divorced,0,Daily,61.0651849740466,San Antonio,Urban,False,False,0,0
+495,30,Male,25865.27387102433,Bachelor's Degree,Artist,Married,3,Daily,26.447604938869233,Chicago,Rural,True,False,1,1
+496,55,Male,25934.48019952618,Bachelor's Degree,Medicine,Divorced,2,Daily,52.448454167553585,San Diego,Urban,False,False,1,0
+497,41,Female,54828.73292345051,Doctorate,Engineer,Married,0,Weekly,61.94053741491158,New York,Rural,False,True,1,0
+498,40,Male,47492.996564413435,Master's Degree,Engineer,Married,1,Monthly,24.815846191285438,San Diego,Rural,False,True,0,0
+499,51,Male,39702.473278340556,High School,Doctor,Single,3,Daily,17.341743305022934,San Antonio,Urban,False,False,0,0
+500,35,Male,30015.641808649703,High School,Science,Divorced,3,Monthly,87.71319054215317,Philadelphia,Urban,False,False,1,0
+501,33,Male,37870.24821570936,High School,Science,Married,3,Monthly,69.67244833508326,Chicago,Urban,True,False,0,0
+502,27,Male,16646.402135399134,Master's Degree,Medicine,Divorced,1,Daily,22.386676095852522,Los Angeles,Urban,True,True,0,0
+503,30,Male,30813.139034395368,High School,Doctor,Married,3,Monthly,38.13382224174701,San Diego,Rural,True,True,0,1
+504,56,Male,29296.975546846366,Bachelor's Degree,Teacher,Married,2,Monthly,72.24900866798873,Chicago,Rural,False,True,1,0
+505,19,Female,31409.19699335864,Doctorate,Doctor,Divorced,1,Monthly,38.09707629122165,Chicago,Urban,False,False,0,0
+506,22,Male,30266.268032347667,Master's Degree,Arts,Divorced,1,Daily,43.32089671161191,New York,Rural,True,True,1,0
+507,31,Male,57814.594075668065,Master's Degree,Arts,Divorced,0,Daily,91.29232945856175,Phoenix,Rural,True,False,0,0
+508,45,Female,34282.343266713855,High School,Science,Married,0,Monthly,87.15078436328119,Chicago,Rural,True,False,0,0
+509,35,Female,44127.02393835785,High School,Science,Married,1,Monthly,55.951336785565324,Los Angeles,Rural,False,False,1,0
+510,28,Female,16865.001635778513,Bachelor's Degree,Medicine,Married,1,Monthly,77.6642631361013,San Diego,Urban,False,False,0,0
+511,39,Female,16584.345171810353,High School,Artist,Divorced,3,Weekly,32.70832625216377,Los Angeles,Urban,False,True,0,0
+512,24,Female,33773.78576163668,Bachelor's Degree,Science,Divorced,0,Monthly,85.27979732228827,Philadelphia,Urban,False,True,0,0
+513,54,Female,40215.64911201599,Master's Degree,Medicine,Married,3,Monthly,73.84499396419477,Phoenix,Urban,False,False,1,0
+514,48,Male,25212.09319135979,Doctorate,Science,Single,1,Weekly,89.77423257641276,San Antonio,Urban,False,True,1,0
+515,53,Male,44759.37331050328,Bachelor's Degree,Science,Married,0,Weekly,79.79547670470994,San Diego,Urban,False,False,0,0
+516,30,Female,28456.809690460224,Doctorate,Arts,Married,0,Weekly,25.071377006618967,San Antonio,Urban,True,True,0,0
+517,42,Male,59136.9770455193,Bachelor's Degree,Doctor,Married,0,Weekly,88.22573716627785,Phoenix,Urban,False,True,1,1
+518,39,Male,51012.66594724449,Bachelor's Degree,Medicine,Married,2,Daily,34.9182972542811,San Antonio,Rural,False,True,1,0
+519,51,Female,25578.586979111446,High School,Artist,Married,3,Monthly,14.92594362324873,San Diego,Urban,True,False,1,0
+520,19,Male,55750.07688737636,Doctorate,Arts,Single,1,Monthly,77.75637902939856,Los Angeles,Rural,True,False,1,0
+521,18,Male,45278.13558248455,Doctorate,Lawyer,Married,1,Monthly,43.73424319149979,San Diego,Urban,False,False,1,0
+522,53,Female,15401.447874578964,Bachelor's Degree,Science,Single,1,Daily,45.26298051554545,Chicago,Rural,True,True,1,1
+523,56,Female,53872.60633015844,Bachelor's Degree,Science,Single,2,Weekly,80.02416758348792,Chicago,Rural,True,True,0,1
+524,35,Female,47728.46806028683,Bachelor's Degree,Doctor,Married,3,Weekly,45.87782447917576,Chicago,Urban,True,True,0,1
+525,31,Female,26294.067130789517,Bachelor's Degree,Teacher,Divorced,1,Monthly,10.053814495131578,New York,Rural,True,True,0,1
+526,24,Male,37777.47849428099,Master's Degree,Lawyer,Divorced,1,Weekly,49.478275022144935,Los Angeles,Rural,False,True,1,0
+527,58,Female,51999.88803021717,Bachelor's Degree,Medicine,Single,2,Weekly,36.82595810530037,Phoenix,Urban,True,True,0,1
+528,39,Female,24180.396170856813,High School,Lawyer,Single,2,Weekly,27.11158896868351,Houston,Urban,True,False,1,0
+529,18,Female,22348.058349594627,High School,Medicine,Divorced,0,Weekly,11.190593161476459,San Diego,Rural,True,False,0,0
+530,34,Female,54409.567483065206,Doctorate,Artist,Divorced,3,Monthly,89.05742767404655,Philadelphia,Rural,False,False,0,0
+531,24,Female,45046.768250899964,Bachelor's Degree,Artist,Married,0,Weekly,68.92528136485987,New York,Rural,True,False,1,1
+532,23,Female,21025.4393568324,High School,Science,Divorced,1,Daily,96.00845205398404,Houston,Urban,False,True,1,0
+533,53,Male,29610.889671677007,High School,Artist,Married,1,Monthly,84.62355762557259,San Diego,Urban,False,True,0,0
+534,31,Male,48398.498903091575,Master's Degree,Science,Married,1,Daily,94.42577256113182,San Antonio,Urban,True,False,0,0
+535,48,Female,13451.846845568745,High School,Artist,Single,3,Weekly,42.03619961235765,San Antonio,Rural,False,False,0,0
+536,38,Male,16613.435754924085,Bachelor's Degree,Teacher,Divorced,2,Weekly,60.795584230509064,Houston,Rural,False,True,0,0
+537,32,Female,45633.28094932722,Doctorate,Arts,Divorced,1,Weekly,26.21427829593573,Houston,Rural,True,True,1,0
+538,42,Female,11267.430213196923,Master's Degree,Doctor,Married,2,Weekly,75.27583759190998,San Diego,Urban,True,False,1,1
+539,41,Male,24898.86177479219,High School,Medicine,Married,0,Weekly,45.75443255564137,Houston,Rural,False,True,0,0
+540,34,Male,38520.47457018208,Bachelor's Degree,Medicine,Single,2,Daily,59.200953840758054,San Antonio,Urban,False,False,1,0
+541,34,Male,18311.468102582934,High School,Artist,Single,0,Daily,90.12129596161938,Philadelphia,Urban,False,False,1,0
+542,37,Female,38948.26601479022,Doctorate,Engineer,Married,2,Monthly,51.853270079881895,Philadelphia,Urban,True,False,0,1
+543,43,Male,27106.630005594747,Doctorate,Engineer,Single,3,Daily,27.13032775855428,New York,Rural,True,True,0,1
+544,50,Male,25609.594189319396,Master's Degree,Teacher,Married,2,Weekly,42.69298165082292,Houston,Rural,True,False,1,0
+545,53,Female,52251.98244483212,Bachelor's Degree,Engineer,Married,0,Weekly,15.625624735936974,San Diego,Rural,False,True,1,0
+546,45,Female,34014.71293956779,Master's Degree,Engineer,Single,2,Weekly,28.365794969194052,San Antonio,Urban,False,True,1,0
+547,37,Male,58363.559518514885,High School,Doctor,Divorced,1,Weekly,82.50419968932145,New York,Rural,False,False,1,0
+548,30,Female,44033.618661286855,Doctorate,Doctor,Married,3,Weekly,11.987726077106176,San Antonio,Urban,True,True,1,1
+549,19,Male,46405.82186680832,Master's Degree,Science,Single,3,Weekly,61.6206952024039,Chicago,Rural,True,False,0,0
+550,30,Female,15969.050566909838,Doctorate,Lawyer,Divorced,1,Weekly,39.324212561750386,San Diego,Urban,False,False,1,0
+551,23,Male,52570.287394573694,High School,Medicine,Divorced,2,Daily,26.36358875536049,San Diego,Urban,False,True,1,1
+552,54,Male,17027.356399777145,Bachelor's Degree,Engineer,Single,0,Daily,85.28778016848132,Phoenix,Rural,False,False,1,0
+553,52,Male,23254.06421692863,Bachelor's Degree,Lawyer,Single,3,Monthly,33.30138473138256,New York,Rural,False,True,1,0
+554,20,Male,36623.545394194865,Doctorate,Science,Single,0,Weekly,44.17636643394839,Phoenix,Urban,False,False,1,0
+555,36,Female,48110.60291570885,Bachelor's Degree,Arts,Married,2,Monthly,66.10416093639164,San Antonio,Rural,True,False,0,1
+556,28,Male,46400.61288980987,High School,Lawyer,Married,1,Daily,69.24766955554557,Phoenix,Rural,True,False,1,0
+557,47,Female,56132.2569801786,Master's Degree,Engineer,Married,1,Weekly,85.2774036921871,Philadelphia,Rural,False,False,0,0
+558,23,Female,47033.1790533313,Doctorate,Teacher,Single,3,Daily,56.62093882384881,Philadelphia,Urban,False,True,0,0
+559,50,Male,13744.792100099186,High School,Lawyer,Single,2,Weekly,55.44203061251253,Houston,Rural,False,False,0,0
+560,42,Male,11823.052541280922,Doctorate,Medicine,Single,2,Daily,74.71680584597306,San Antonio,Rural,True,True,0,0
+561,35,Male,29663.07425496076,Doctorate,Teacher,Divorced,1,Daily,61.38163483769303,Phoenix,Rural,False,False,1,0
+562,47,Male,14974.733443648232,Doctorate,Engineer,Divorced,1,Weekly,60.817587210658175,New York,Urban,True,False,1,1
+563,21,Female,44258.725663889025,Bachelor's Degree,Teacher,Single,2,Monthly,35.37265200375265,New York,Rural,False,False,1,0
+564,25,Male,37366.234216974306,Bachelor's Degree,Arts,Single,0,Monthly,40.89479401580034,Chicago,Rural,True,False,0,1
+565,29,Female,47171.75869780972,Bachelor's Degree,Artist,Married,1,Weekly,10.949601020517086,San Antonio,Rural,False,False,0,0
+566,33,Male,47308.98192761362,High School,Medicine,Divorced,0,Daily,68.38146580216281,Chicago,Rural,True,True,1,0
+567,32,Male,55441.32488584312,Doctorate,Lawyer,Divorced,2,Monthly,26.564029484519217,Philadelphia,Rural,True,False,1,0
+568,43,Female,59775.54840079332,High School,Medicine,Married,0,Daily,98.61890298317556,San Diego,Urban,True,True,0,1
+569,47,Female,31275.28296359214,Doctorate,Science,Married,1,Daily,10.789949075313652,Chicago,Urban,False,False,1,0
+570,45,Female,30151.565564136832,Doctorate,Arts,Divorced,0,Weekly,94.18550407010189,Philadelphia,Urban,False,True,0,0
+571,31,Male,31432.213960426587,High School,Engineer,Divorced,3,Daily,78.87846695728476,San Diego,Urban,False,True,1,0
+572,32,Female,13189.727812679894,Master's Degree,Arts,Divorced,1,Weekly,98.46521915992308,Chicago,Rural,False,False,1,0
+573,40,Male,50092.0084226403,Master's Degree,Engineer,Married,0,Weekly,76.67823415466961,Phoenix,Urban,True,True,0,1
+574,58,Female,34461.36273749596,Master's Degree,Artist,Single,2,Weekly,93.18786103473022,Houston,Urban,False,False,1,0
+575,56,Female,15911.919623607026,Master's Degree,Teacher,Divorced,1,Weekly,70.6634080682461,Chicago,Urban,False,False,1,0
+576,39,Male,24115.69171053601,Doctorate,Science,Divorced,1,Daily,72.254810272122,San Antonio,Rural,True,True,1,0
+577,57,Male,35724.48011560194,Master's Degree,Medicine,Married,3,Weekly,62.38631180118012,San Antonio,Urban,True,True,0,0
+578,33,Male,29302.54678259179,Doctorate,Teacher,Single,0,Weekly,87.72769471754405,Chicago,Urban,False,True,0,0
+579,38,Male,53887.47024313125,Master's Degree,Doctor,Divorced,1,Daily,15.598458237312189,San Antonio,Rural,False,True,1,0
+580,32,Female,51972.661710477536,Master's Degree,Arts,Married,1,Weekly,21.61641222377933,Houston,Rural,False,True,1,0
+581,24,Male,13765.071679923487,Master's Degree,Doctor,Single,0,Monthly,98.93116683591718,Chicago,Urban,True,True,1,1
+582,27,Male,27594.241717350324,Doctorate,Teacher,Married,3,Daily,74.84110673164805,San Antonio,Rural,True,False,1,0
+583,26,Male,10972.402518404058,Bachelor's Degree,Science,Married,3,Weekly,51.13536933391987,Los Angeles,Rural,False,True,1,0
+584,31,Female,38421.59771652517,Master's Degree,Engineer,Single,3,Weekly,55.86908057233846,New York,Urban,True,False,1,1
+585,38,Female,12861.83467584047,Bachelor's Degree,Science,Single,1,Daily,96.2984685871369,San Diego,Urban,False,True,0,0
+586,46,Female,45450.07556631898,High School,Teacher,Single,0,Monthly,17.431494223174944,Los Angeles,Urban,True,True,0,0
+587,37,Male,14348.351012796653,High School,Medicine,Divorced,3,Monthly,45.3618402044404,Philadelphia,Urban,True,True,1,0
+588,34,Female,56881.9889978951,Doctorate,Science,Single,2,Weekly,96.46716724942199,Houston,Urban,True,True,1,1
+589,19,Male,44645.44555123839,High School,Artist,Divorced,1,Daily,96.02588324576473,San Antonio,Urban,True,False,0,0
+590,21,Female,52665.8593333293,Doctorate,Lawyer,Married,0,Monthly,19.338070918227075,Philadelphia,Rural,False,True,1,0
+591,29,Male,52592.296291944396,Master's Degree,Teacher,Divorced,0,Daily,41.226305533982725,Houston,Urban,True,False,0,1
+592,52,Female,27103.471732877766,Doctorate,Lawyer,Married,0,Daily,77.55386110697138,Chicago,Urban,True,True,0,0
+593,56,Female,32275.89072465806,Bachelor's Degree,Medicine,Divorced,3,Weekly,68.89118136875719,New York,Urban,False,False,0,0
+594,48,Female,28602.17839061037,Bachelor's Degree,Lawyer,Single,2,Monthly,62.3093929740445,New York,Rural,False,True,1,0
+595,52,Female,35697.7723345354,Bachelor's Degree,Lawyer,Divorced,3,Daily,90.01109710998635,Chicago,Urban,False,False,1,0
+596,40,Male,21515.961234143877,Master's Degree,Lawyer,Divorced,3,Daily,41.81258728546486,New York,Urban,False,False,1,0
+597,59,Male,58745.21364051175,Bachelor's Degree,Doctor,Single,2,Weekly,67.69223718718192,New York,Rural,True,False,1,1
+598,48,Female,29044.51813123313,Master's Degree,Science,Single,1,Weekly,63.652838459490724,Chicago,Urban,False,False,0,0
+599,32,Male,52190.64318291531,Bachelor's Degree,Medicine,Divorced,2,Weekly,70.94304700045024,Los Angeles,Urban,True,False,1,1
+600,34,Female,37240.05426380492,Doctorate,Doctor,Divorced,3,Daily,34.40280280425293,Los Angeles,Urban,False,False,1,0
+601,44,Female,16965.97411890232,Bachelor's Degree,Lawyer,Divorced,2,Monthly,49.99560566059725,Philadelphia,Rural,False,False,1,0
+602,48,Male,31611.55297522541,High School,Lawyer,Single,1,Daily,42.3708005100761,New York,Rural,False,True,1,0
+603,34,Female,10491.377628489392,Doctorate,Doctor,Divorced,2,Weekly,49.97655531293539,Los Angeles,Urban,True,True,0,1
+604,29,Female,44646.01146123943,Master's Degree,Artist,Married,0,Daily,61.20848748737105,Philadelphia,Rural,False,True,1,0
+605,57,Male,38464.89670673976,Master's Degree,Teacher,Married,1,Monthly,74.99944888062817,Philadelphia,Rural,False,False,0,0
+606,51,Male,11354.056683502553,High School,Science,Married,1,Weekly,26.35872379850748,San Diego,Rural,True,False,0,0
+607,33,Male,16664.21290410866,High School,Artist,Divorced,1,Daily,37.371146452123256,Phoenix,Rural,False,False,0,0
+608,39,Female,31932.450921799224,High School,Artist,Married,0,Daily,51.252713148367555,San Antonio,Urban,True,False,0,0
+609,54,Male,24632.75488337039,Bachelor's Degree,Science,Single,2,Weekly,29.82946540938243,San Diego,Rural,False,True,0,0
+610,45,Female,43346.77087786086,Doctorate,Teacher,Married,2,Daily,21.61775756282156,Houston,Rural,True,True,0,0
+611,44,Male,32241.967967026478,Master's Degree,Artist,Divorced,1,Daily,94.86845056640222,Chicago,Urban,True,False,0,0
+612,48,Female,56617.40708168554,Bachelor's Degree,Artist,Single,2,Monthly,99.79050369381933,Los Angeles,Rural,False,True,0,0
+613,28,Male,44834.449393659845,Master's Degree,Engineer,Married,2,Monthly,41.30041627439985,Chicago,Urban,False,True,1,0
+614,35,Female,35711.35056329888,Master's Degree,Science,Divorced,0,Daily,77.66151286305308,Houston,Urban,True,True,0,0
+615,35,Male,39634.803332143885,Bachelor's Degree,Artist,Married,1,Weekly,52.212244574609514,Philadelphia,Urban,False,False,0,0
+616,53,Female,13302.765391108003,Bachelor's Degree,Medicine,Married,2,Weekly,69.56296557169821,Chicago,Urban,True,True,0,1
+617,55,Male,12854.716895397185,High School,Arts,Divorced,2,Daily,11.072618468041789,Los Angeles,Rural,True,True,1,0
+618,33,Male,13848.459150400868,Bachelor's Degree,Teacher,Single,1,Weekly,61.54844796595781,Phoenix,Rural,True,True,0,1
+619,25,Male,43583.01154989494,Bachelor's Degree,Artist,Divorced,1,Monthly,12.248567405366451,San Diego,Rural,False,False,0,0
+620,48,Female,36352.507824628185,High School,Science,Single,1,Weekly,62.41915691994663,San Diego,Rural,False,True,0,0
+621,54,Male,39389.922468584235,Doctorate,Artist,Single,3,Weekly,28.25679148550787,Philadelphia,Urban,True,True,1,0
+622,44,Male,11330.418303884206,Master's Degree,Engineer,Divorced,3,Monthly,71.82472915031593,Chicago,Urban,False,False,1,0
+623,44,Female,25290.6755641832,High School,Artist,Divorced,0,Monthly,66.55124057945,Houston,Urban,False,True,1,0
+624,23,Female,40914.25105068599,Bachelor's Degree,Doctor,Single,1,Monthly,82.82753232910672,Phoenix,Urban,False,True,0,0
+625,37,Female,25708.103191848604,High School,Artist,Married,1,Daily,24.98531923445636,Phoenix,Urban,True,False,0,0
+626,43,Male,10732.356363624336,Bachelor's Degree,Teacher,Divorced,0,Monthly,30.959123153663352,San Diego,Urban,True,False,1,1
+627,18,Female,25473.128822309118,Master's Degree,Artist,Divorced,0,Weekly,10.209106551873724,Chicago,Urban,True,False,0,0
+628,40,Female,32890.24662796033,Doctorate,Science,Married,1,Daily,19.31275572819262,San Antonio,Rural,True,True,1,0
+629,49,Female,32644.168020775585,Doctorate,Medicine,Married,0,Monthly,37.33615416025894,Phoenix,Rural,True,True,1,0
+630,33,Male,49778.918812879325,Doctorate,Teacher,Single,3,Monthly,76.02785563280037,Philadelphia,Urban,False,False,0,0
+631,53,Male,18246.701342636552,Doctorate,Engineer,Single,1,Weekly,70.94118371343075,San Diego,Rural,True,True,1,1
+632,46,Male,32778.339099505436,Doctorate,Lawyer,Divorced,2,Daily,48.23050073717677,New York,Urban,False,False,0,0
+633,31,Female,59280.03669764002,Master's Degree,Doctor,Divorced,2,Weekly,19.63262207899343,Los Angeles,Urban,True,False,0,1
+634,21,Female,31507.136604841315,Master's Degree,Lawyer,Divorced,0,Daily,18.851042943119182,San Diego,Rural,True,True,1,0
+635,59,Female,22641.87003451446,Doctorate,Doctor,Married,1,Daily,10.333216614917516,Chicago,Rural,True,True,0,1
+636,59,Male,28766.06728865069,Bachelor's Degree,Doctor,Married,0,Monthly,31.15281689307268,Phoenix,Urban,True,False,0,1
+637,59,Male,10845.639996080366,Bachelor's Degree,Doctor,Divorced,3,Weekly,10.633862316172767,New York,Rural,True,False,1,1
+638,31,Female,21839.879272809005,Doctorate,Lawyer,Single,3,Daily,22.217126778991094,San Antonio,Urban,True,False,0,0
+639,50,Male,15007.749875338346,Doctorate,Artist,Divorced,1,Daily,33.45954893496429,New York,Rural,False,False,1,0
+640,21,Male,18326.9256748635,Doctorate,Teacher,Divorced,2,Daily,11.667811023489996,Phoenix,Urban,False,False,1,0
+641,19,Male,25294.740663075994,High School,Doctor,Single,3,Weekly,75.86854635578507,Los Angeles,Urban,True,False,1,1
+642,47,Male,28077.00938814783,Master's Degree,Teacher,Married,2,Weekly,67.14367571059694,San Diego,Urban,False,True,0,0
+643,59,Female,45747.641177588855,Master's Degree,Science,Single,1,Weekly,22.988083931873337,San Diego,Rural,False,False,0,0
+644,47,Male,46801.77002130327,Doctorate,Arts,Single,0,Monthly,96.37711493157722,Houston,Rural,True,True,1,0
+645,28,Female,17193.80776948901,Master's Degree,Teacher,Single,2,Weekly,57.263850470046556,Chicago,Rural,True,True,0,0
+646,58,Male,53898.91912498295,High School,Science,Divorced,2,Weekly,26.009565286104966,San Diego,Urban,False,False,1,1
+647,22,Female,39881.62199344502,Master's Degree,Artist,Married,2,Monthly,14.761668994359795,Chicago,Rural,True,False,0,0
+648,33,Female,35369.488254257856,Doctorate,Engineer,Married,1,Weekly,92.50804028068721,Phoenix,Rural,False,False,0,0
+649,35,Female,34618.35243506245,Bachelor's Degree,Engineer,Divorced,1,Daily,32.53062406432474,Phoenix,Rural,False,False,0,0
+650,56,Female,41854.29444273577,Master's Degree,Science,Divorced,3,Weekly,93.69420346666772,Philadelphia,Urban,False,True,1,0
+651,26,Male,30316.61154818839,High School,Doctor,Divorced,1,Weekly,21.270702306587207,Los Angeles,Urban,False,False,1,0
+652,23,Male,41555.85139461174,Master's Degree,Teacher,Single,2,Daily,25.730648909502932,Philadelphia,Urban,True,True,0,0
+653,21,Female,43670.98644557163,Master's Degree,Artist,Single,3,Daily,55.824216900634234,Philadelphia,Urban,False,False,0,0
+654,52,Female,59799.682455034985,Bachelor's Degree,Arts,Married,2,Weekly,13.740386344503271,San Antonio,Rural,True,True,0,1
+655,27,Male,45120.268293310095,Master's Degree,Doctor,Divorced,1,Weekly,87.23250325239889,San Diego,Rural,True,True,0,1
+656,31,Female,11575.65215411058,High School,Teacher,Single,1,Weekly,43.185263992376136,San Antonio,Urban,True,True,1,0
+657,44,Female,30323.13589760361,Doctorate,Lawyer,Married,0,Monthly,72.0263269384765,Chicago,Rural,True,False,1,0
+658,29,Male,37101.353483318984,Master's Degree,Arts,Married,0,Daily,95.70340705260914,Los Angeles,Urban,True,False,0,0
+659,48,Female,42257.504165045175,High School,Teacher,Divorced,2,Monthly,33.20006393835922,San Diego,Urban,True,True,0,0
+660,56,Female,27083.728690922708,Doctorate,Artist,Married,0,Monthly,83.63310230150212,Houston,Rural,True,False,1,0
+661,49,Male,26172.142755009838,Master's Degree,Engineer,Married,2,Daily,88.51551070193334,Houston,Rural,True,True,1,1
+662,52,Female,13644.922593582749,Bachelor's Degree,Science,Married,0,Monthly,20.75039955678572,Houston,Urban,False,True,1,0
+663,41,Female,53322.55316245207,Doctorate,Doctor,Single,3,Daily,86.79563187104817,San Antonio,Urban,False,False,0,1
+664,41,Male,32375.144484975408,Doctorate,Doctor,Divorced,3,Weekly,66.08240683730429,Los Angeles,Rural,False,True,0,0
+665,22,Male,45683.01415560769,Doctorate,Doctor,Married,1,Monthly,47.60955969558487,Philadelphia,Rural,True,False,1,1
+666,43,Female,47943.40672089748,Bachelor's Degree,Science,Married,0,Daily,27.25041869472469,San Antonio,Urban,True,True,0,1
+667,31,Female,39219.79607947287,High School,Science,Married,1,Monthly,40.47501062013693,New York,Urban,False,False,1,0
+668,50,Female,46303.06630312372,Master's Degree,Teacher,Single,2,Daily,57.49858588028028,New York,Rural,False,False,0,0
+669,38,Male,48921.42033907,High School,Artist,Single,2,Daily,13.164332524407474,San Diego,Urban,False,False,0,0
+670,29,Male,43618.09289660972,Master's Degree,Lawyer,Married,3,Daily,54.77647841869902,Los Angeles,Rural,True,False,1,0
+671,45,Female,21878.00072838849,Doctorate,Arts,Divorced,0,Monthly,60.73633913008595,Phoenix,Urban,False,True,1,0
+672,43,Female,44166.3181313865,Master's Degree,Arts,Divorced,1,Monthly,38.73027680075696,San Antonio,Urban,False,False,1,0
+673,31,Male,14096.921951907307,Doctorate,Medicine,Married,2,Weekly,76.12833599644406,Los Angeles,Rural,False,False,0,0
+674,35,Female,34677.18297947265,Master's Degree,Medicine,Single,1,Weekly,14.682137952650221,Philadelphia,Rural,True,True,1,0
+675,28,Female,49336.15073667704,Doctorate,Arts,Divorced,2,Monthly,35.62072649618173,Philadelphia,Urban,True,True,0,0
+676,43,Male,41027.842351172934,Doctorate,Lawyer,Single,1,Weekly,67.36622330882994,Chicago,Urban,True,False,0,0
+677,19,Male,53796.651109310245,High School,Doctor,Divorced,1,Weekly,12.472350626168637,Chicago,Urban,True,True,1,1
+678,29,Male,46239.348747919306,Doctorate,Lawyer,Divorced,2,Daily,76.90176060130112,Los Angeles,Urban,True,False,0,0
+679,38,Male,25058.77934986794,Bachelor's Degree,Science,Married,0,Weekly,50.505775337418235,New York,Urban,True,True,1,1
+680,35,Male,41292.05974911879,Doctorate,Engineer,Divorced,2,Weekly,89.70034992270683,Phoenix,Urban,False,False,0,0
+681,19,Male,39674.82079109257,High School,Medicine,Divorced,1,Weekly,11.978363332866062,New York,Rural,False,False,1,0
+682,41,Male,17281.432335271173,High School,Medicine,Single,1,Monthly,10.19657285715239,Phoenix,Rural,False,True,0,0
+683,29,Male,13626.115847724072,Doctorate,Science,Divorced,0,Weekly,56.954062123022645,Chicago,Urban,False,True,0,0
+684,45,Male,25777.673722155545,Doctorate,Medicine,Single,1,Daily,72.32626114850737,Houston,Urban,False,True,1,0
+685,51,Male,28327.55936896131,Master's Degree,Doctor,Married,0,Weekly,42.54465865828506,San Diego,Rural,True,False,1,1
+686,45,Male,18821.988523517517,Bachelor's Degree,Lawyer,Single,1,Daily,62.0707539051419,Houston,Urban,True,False,1,1
+687,59,Female,17957.954199691492,Doctorate,Teacher,Divorced,2,Monthly,69.92477448866762,San Antonio,Rural,False,False,1,0
+688,26,Female,40335.810098500195,Doctorate,Artist,Single,0,Weekly,17.752219439413267,Los Angeles,Urban,True,True,0,0
+689,44,Male,30016.49342053791,Master's Degree,Teacher,Divorced,3,Daily,70.58002133120758,Phoenix,Urban,False,False,1,0
+690,47,Female,19528.80232585969,Bachelor's Degree,Teacher,Single,3,Weekly,87.72011226984787,Los Angeles,Rural,False,True,1,0
+691,47,Female,43221.1893296339,High School,Engineer,Single,1,Monthly,79.75736203052072,Phoenix,Rural,True,True,0,1
+692,57,Female,35444.262758712284,High School,Teacher,Married,1,Daily,19.22466962702915,San Diego,Urban,False,False,1,0
+693,40,Male,57585.12031952686,High School,Arts,Single,0,Monthly,41.516787189876496,San Antonio,Rural,False,False,0,0
+694,39,Female,32132.742413021657,Master's Degree,Teacher,Married,1,Weekly,60.9043174973239,Philadelphia,Urban,False,False,0,0
+695,49,Female,52430.327594938986,High School,Science,Single,3,Weekly,34.24955016732895,New York,Urban,False,True,1,1
+696,30,Female,42386.0027210306,Bachelor's Degree,Arts,Divorced,0,Daily,59.11747118014921,New York,Urban,False,False,0,0
+697,26,Female,30434.9781135467,Doctorate,Doctor,Married,0,Daily,98.10276005079098,Phoenix,Rural,False,True,1,0
+698,43,Male,16285.295325605783,High School,Medicine,Single,3,Daily,35.76518759007468,San Diego,Urban,True,False,1,0
+699,55,Female,30885.428348648795,Doctorate,Science,Single,0,Monthly,72.80779558169299,Chicago,Urban,False,True,1,0
+700,29,Male,17440.4357259088,Master's Degree,Doctor,Single,3,Weekly,58.649740785003175,New York,Rural,True,True,1,1
+701,53,Female,55300.95355221816,Bachelor's Degree,Artist,Divorced,0,Weekly,62.39303225332678,Los Angeles,Urban,True,False,1,1
+702,50,Female,43200.61140338011,High School,Science,Single,2,Daily,13.547582660832667,Philadelphia,Urban,True,True,0,0
+703,22,Male,44508.55353021661,Master's Degree,Teacher,Divorced,2,Monthly,66.5653510075211,Los Angeles,Rural,True,True,1,0
+704,39,Male,30683.276179160348,Master's Degree,Engineer,Single,0,Weekly,49.86559096731395,Phoenix,Rural,True,False,0,1
+705,40,Female,32018.711151260533,Doctorate,Teacher,Single,0,Weekly,88.60250060572942,New York,Rural,True,False,0,0
+706,25,Male,35604.42883493319,High School,Lawyer,Single,2,Monthly,45.644902969192,New York,Urban,False,False,0,0
+707,49,Female,48096.71878715485,Doctorate,Arts,Single,3,Monthly,22.357303762744394,Chicago,Rural,False,False,1,0
+708,22,Female,48342.444890888655,Doctorate,Arts,Single,3,Weekly,76.128563021981,Chicago,Rural,True,False,1,0
+709,45,Female,43292.88831081386,Master's Degree,Engineer,Single,2,Daily,57.65802535202117,Phoenix,Rural,False,False,1,0
+710,37,Male,39763.842055202724,Bachelor's Degree,Doctor,Divorced,1,Daily,15.724129274001761,Phoenix,Rural,False,False,1,0
+711,40,Female,19562.106453806067,High School,Artist,Divorced,2,Weekly,71.66813083928795,New York,Rural,False,False,0,0
+712,34,Female,34337.55241761578,Doctorate,Doctor,Married,3,Monthly,16.349505733890513,Los Angeles,Urban,False,True,1,0
+713,49,Female,42375.989778508156,Master's Degree,Engineer,Single,2,Weekly,77.83913818405472,New York,Rural,False,False,0,0
+714,38,Female,41493.62000915894,High School,Teacher,Divorced,2,Weekly,20.114733906237326,San Diego,Rural,False,False,1,0
+715,56,Male,23847.730906230492,High School,Doctor,Divorced,1,Monthly,29.59298189715092,Houston,Urban,True,False,0,1
+716,42,Male,36215.74691700605,High School,Arts,Divorced,0,Monthly,52.70078618600709,Los Angeles,Urban,False,True,1,0
+717,21,Female,55756.9410202448,Master's Degree,Teacher,Single,0,Monthly,28.597886640253478,New York,Rural,False,True,1,0
+718,48,Female,41527.80154545976,Master's Degree,Doctor,Divorced,2,Daily,24.012333798033964,San Antonio,Rural,True,True,0,1
+719,33,Female,55387.540012061894,High School,Lawyer,Divorced,2,Weekly,42.35181596685492,Philadelphia,Rural,True,False,1,0
+720,41,Male,21021.894244630697,High School,Science,Divorced,1,Monthly,89.94449768603555,San Antonio,Rural,True,False,0,0
+721,23,Female,58366.405567673486,Doctorate,Arts,Divorced,0,Daily,72.67261892797275,New York,Urban,False,False,0,1
+722,45,Female,25864.449188795268,High School,Lawyer,Married,3,Monthly,78.49053846545998,Phoenix,Urban,True,True,1,0
+723,46,Male,54070.5166161625,High School,Arts,Married,0,Weekly,61.92425110103557,Philadelphia,Rural,False,False,0,0
+724,38,Female,29323.128216396763,High School,Doctor,Divorced,2,Daily,17.065888160824887,Houston,Urban,True,False,0,1
+725,33,Male,28811.468918059552,Doctorate,Medicine,Divorced,0,Monthly,94.77150285343781,San Antonio,Rural,False,False,0,0
+726,39,Male,33535.04997455308,High School,Artist,Single,0,Monthly,42.06249051434021,Phoenix,Rural,True,True,1,0
+727,47,Male,55453.12714483657,Doctorate,Lawyer,Married,2,Daily,50.17191214869334,Philadelphia,Urban,True,False,0,1
+728,28,Female,33736.05635641064,Bachelor's Degree,Teacher,Single,3,Monthly,27.582306476374754,Los Angeles,Rural,True,True,1,1
+729,23,Female,36521.21101636213,High School,Medicine,Married,0,Monthly,55.15292494057824,Los Angeles,Rural,False,False,1,0
+730,23,Male,37041.35319857698,Doctorate,Arts,Single,3,Weekly,72.3590584926987,Chicago,Rural,True,True,1,0
+731,53,Male,43288.262013268366,Bachelor's Degree,Engineer,Single,3,Daily,91.61799196058523,San Antonio,Urban,True,False,0,1
+732,19,Female,49706.72808661362,Master's Degree,Arts,Divorced,3,Monthly,54.777638442470746,Philadelphia,Rural,False,False,0,0
+733,24,Male,31901.089817516466,High School,Medicine,Single,3,Weekly,56.90563524221838,San Antonio,Rural,False,False,1,0
+734,28,Female,27950.038403963186,Master's Degree,Doctor,Married,3,Daily,90.41589742539861,San Diego,Rural,True,False,0,1
+735,37,Male,16515.899404564545,High School,Medicine,Single,3,Daily,13.74796201059823,Houston,Urban,True,True,0,0
+736,41,Female,53723.75516418212,Bachelor's Degree,Medicine,Single,1,Daily,30.986879897945467,Los Angeles,Urban,True,True,1,1
+737,34,Male,28632.85649470736,Doctorate,Artist,Divorced,2,Weekly,81.11182363534975,Phoenix,Rural,True,False,0,0
+738,49,Female,47044.160336099274,Master's Degree,Engineer,Married,1,Weekly,36.52312328969752,Phoenix,Rural,True,True,0,1
+739,44,Male,32967.300508641136,High School,Engineer,Married,3,Daily,32.00863986858694,Houston,Rural,True,False,1,1
+740,58,Male,20913.65993907469,Bachelor's Degree,Teacher,Divorced,0,Weekly,18.040591206268015,Phoenix,Urban,True,False,1,1
+741,33,Female,13776.354301294343,Master's Degree,Arts,Married,0,Daily,61.75633771768734,Phoenix,Rural,False,True,1,0
+742,50,Female,33705.10379211335,Doctorate,Doctor,Divorced,0,Weekly,41.01369361542746,Houston,Urban,False,True,1,0
+743,30,Male,21906.242162699935,Bachelor's Degree,Medicine,Married,1,Monthly,81.09770500150955,Los Angeles,Urban,True,True,0,1
+744,18,Female,31694.402424273972,Master's Degree,Science,Divorced,0,Daily,35.866228046093426,Phoenix,Rural,True,True,1,0
+745,40,Female,18778.988881730817,Bachelor's Degree,Science,Single,2,Daily,35.816198108248,New York,Urban,True,False,0,1
+746,54,Male,49642.00226367635,High School,Doctor,Single,3,Daily,89.31677910526825,Chicago,Rural,False,True,0,0
+747,21,Female,18236.544804053086,Doctorate,Teacher,Single,1,Daily,50.80746075618413,Chicago,Rural,False,True,0,0
+748,18,Male,35156.67773741599,Doctorate,Lawyer,Married,3,Weekly,80.05053061608028,Chicago,Rural,False,False,1,0
+749,51,Male,26647.83071857091,Doctorate,Engineer,Married,0,Daily,52.06486019031329,New York,Rural,True,True,0,1
+750,34,Female,12854.953922258817,Master's Degree,Lawyer,Single,3,Monthly,58.187200196032094,San Diego,Urban,True,True,1,0
+751,27,Female,38242.071835871335,Bachelor's Degree,Artist,Single,1,Monthly,11.153948455954524,Houston,Rural,True,False,1,1
+752,18,Male,56625.197654869124,High School,Teacher,Married,1,Monthly,82.01373835525756,Chicago,Urban,False,False,0,1
+753,23,Male,12996.257766054072,Doctorate,Doctor,Married,0,Weekly,18.010876140640796,Philadelphia,Rural,False,False,0,0
+754,22,Male,28331.885004822823,Master's Degree,Teacher,Married,2,Daily,63.22165336478885,Chicago,Rural,False,False,0,0
+755,26,Male,51872.544741736696,Master's Degree,Lawyer,Married,0,Weekly,16.456180937268247,Chicago,Urban,False,True,1,1
+756,36,Female,10970.062280910772,Master's Degree,Artist,Divorced,3,Weekly,99.28672881322206,Los Angeles,Rural,True,False,0,0
+757,39,Female,50728.26060567514,Bachelor's Degree,Engineer,Divorced,2,Daily,38.34568557268835,Chicago,Rural,True,False,1,1
+758,52,Male,46641.916863620776,Doctorate,Arts,Single,3,Monthly,49.12103334848232,Chicago,Rural,False,False,0,0
+759,45,Male,10488.969015288094,Bachelor's Degree,Science,Divorced,1,Weekly,10.439601941822675,Phoenix,Rural,False,True,1,0
+760,33,Male,42967.8693639422,High School,Teacher,Married,1,Monthly,78.02977416110348,New York,Rural,True,False,0,0
+761,59,Female,36469.53106737667,High School,Science,Married,2,Monthly,78.65631121118311,Houston,Urban,False,True,0,0
+762,34,Female,28858.939589212176,Bachelor's Degree,Artist,Married,3,Monthly,93.43037440912674,Philadelphia,Urban,False,True,0,0
+763,25,Female,36560.05234097981,Bachelor's Degree,Science,Single,3,Monthly,28.924856011167524,Houston,Rural,False,True,1,0
+764,26,Male,24089.582375463302,Doctorate,Medicine,Single,1,Weekly,18.416811123811854,Houston,Rural,True,False,1,0
+765,30,Male,38466.731595361256,Bachelor's Degree,Doctor,Single,1,Daily,83.07709681517215,New York,Rural,True,False,0,1
+766,32,Female,48164.74559986408,Bachelor's Degree,Arts,Married,1,Monthly,97.60299095370586,San Diego,Rural,True,False,1,1
+767,25,Male,33407.09709353679,Doctorate,Medicine,Single,3,Monthly,70.95706177020935,San Antonio,Rural,True,True,1,0
+768,50,Female,56653.88265330726,Bachelor's Degree,Science,Single,2,Weekly,91.25463763323681,Philadelphia,Rural,True,True,1,1
+769,59,Female,13034.153447534116,Doctorate,Engineer,Single,3,Monthly,25.072344149503824,Phoenix,Urban,False,False,0,0
+770,36,Male,36830.37546318871,Doctorate,Engineer,Single,0,Weekly,52.53182677394701,Philadelphia,Urban,True,True,0,1
+771,33,Male,52730.95128942389,High School,Science,Married,1,Monthly,17.504114839188357,Phoenix,Rural,False,True,1,0
+772,35,Female,27281.008445039475,Master's Degree,Engineer,Divorced,0,Monthly,45.27982395002336,Philadelphia,Urban,True,True,0,1
+773,46,Male,51794.42040631212,Master's Degree,Lawyer,Single,3,Daily,32.54346520747871,Chicago,Urban,True,False,0,1
+774,40,Female,53282.2518186366,High School,Artist,Divorced,2,Daily,59.562149022531514,New York,Rural,True,True,1,0
+775,30,Female,34667.07940261903,Master's Degree,Lawyer,Single,3,Daily,10.262054605040987,Los Angeles,Rural,True,False,0,0
+776,37,Female,32710.720988262372,Master's Degree,Lawyer,Single,1,Weekly,50.37693324559608,Philadelphia,Urban,False,True,0,0
+777,38,Male,42302.3472048298,Bachelor's Degree,Doctor,Single,2,Daily,71.93970274669623,San Diego,Urban,False,True,1,0
+778,42,Male,51471.443521698995,High School,Teacher,Divorced,2,Daily,54.140418706235494,Chicago,Rural,True,False,0,0
+779,18,Male,33005.85916016628,Master's Degree,Doctor,Divorced,3,Weekly,67.0417278393456,San Antonio,Urban,True,True,0,1
+780,51,Male,56224.71413870264,Master's Degree,Engineer,Divorced,3,Weekly,16.69855765946641,Chicago,Urban,True,False,0,1
+781,49,Female,38554.65812172573,Master's Degree,Science,Divorced,0,Weekly,68.32919145349643,San Diego,Urban,False,True,1,0
+782,39,Male,14289.714244974475,Doctorate,Engineer,Married,0,Monthly,42.105085237801575,San Antonio,Urban,False,True,0,0
+783,55,Male,58386.9977329543,Doctorate,Artist,Single,3,Monthly,65.2061661869954,Houston,Urban,True,True,0,1
+784,58,Male,54074.290979445526,Master's Degree,Lawyer,Single,0,Monthly,19.45877951922745,Los Angeles,Urban,True,False,1,1
+785,29,Female,13291.492168157689,Bachelor's Degree,Artist,Divorced,2,Daily,21.02332751652675,Houston,Rural,False,True,0,0
+786,43,Male,13523.033883347915,High School,Engineer,Single,1,Monthly,77.71016601800964,Chicago,Rural,False,False,0,0
+787,56,Female,10253.94064878636,Master's Degree,Engineer,Married,0,Monthly,70.21481637852531,Philadelphia,Rural,True,True,1,1
+788,38,Female,23240.81608891594,Doctorate,Engineer,Divorced,2,Weekly,55.50907216871975,Philadelphia,Urban,False,False,1,0
+789,50,Male,24026.39109277005,Bachelor's Degree,Medicine,Divorced,1,Monthly,56.64915307358411,San Antonio,Rural,False,True,1,0
+790,37,Female,30546.645248137913,Doctorate,Artist,Divorced,2,Daily,64.99210703877321,Philadelphia,Rural,True,False,0,0
+791,45,Male,55248.0940084957,Master's Degree,Lawyer,Divorced,2,Daily,77.4753172105189,Los Angeles,Rural,False,True,0,0
+792,35,Male,35072.073684895535,High School,Lawyer,Married,0,Monthly,79.41023337613633,Chicago,Urban,True,True,1,0
+793,19,Male,35096.77903904303,Bachelor's Degree,Medicine,Divorced,2,Daily,78.16825930359923,New York,Urban,False,True,1,0
+794,21,Male,48307.8550791389,Doctorate,Arts,Single,2,Monthly,22.196518620467863,Chicago,Rural,False,True,1,0
+795,36,Male,22638.2929975582,Master's Degree,Teacher,Divorced,3,Weekly,94.91978310844685,Chicago,Urban,True,False,1,0
+796,57,Female,49081.772272160524,Master's Degree,Teacher,Married,0,Daily,94.3934153841431,Los Angeles,Urban,True,True,0,0
+797,30,Male,25113.835024822423,Bachelor's Degree,Lawyer,Married,0,Weekly,19.901594901478923,Phoenix,Rural,False,True,0,0
+798,50,Male,12303.45848377338,High School,Teacher,Divorced,3,Daily,65.18533246688054,San Antonio,Rural,False,True,1,0
+799,19,Female,55279.10687865661,Master's Degree,Lawyer,Single,3,Monthly,84.29124932166567,Phoenix,Urban,True,True,1,1
+800,43,Male,26122.490485532482,High School,Engineer,Divorced,1,Weekly,91.35577586709003,Chicago,Urban,False,True,0,0
+801,43,Female,32223.998898889553,Master's Degree,Teacher,Single,0,Weekly,46.79137155440553,Phoenix,Rural,True,False,1,0
+802,44,Male,34242.93698580518,Master's Degree,Doctor,Married,1,Weekly,23.270734042741104,Chicago,Rural,False,False,1,0
+803,47,Male,48180.15335440068,High School,Science,Married,1,Daily,14.821890364666714,Los Angeles,Rural,True,True,1,0
+804,58,Female,37244.08430146967,Doctorate,Engineer,Divorced,3,Daily,40.691815503043046,San Diego,Rural,False,True,1,0
+805,42,Female,39384.23751975054,Master's Degree,Engineer,Divorced,3,Monthly,42.770895115735485,Chicago,Urban,False,True,0,0
+806,53,Male,43498.49620483283,Doctorate,Lawyer,Single,2,Monthly,36.78136447967339,Houston,Urban,False,True,0,0
+807,59,Female,25164.051303272263,Master's Degree,Lawyer,Single,3,Daily,97.53639439892973,San Diego,Rural,False,True,0,0
+808,41,Female,21628.403712841427,Bachelor's Degree,Engineer,Married,2,Weekly,83.20662042082117,Phoenix,Rural,True,False,1,1
+809,44,Male,38807.96649129831,Doctorate,Engineer,Divorced,0,Monthly,56.66436774480164,Phoenix,Urban,False,False,1,0
+810,21,Male,42711.788997265896,Master's Degree,Teacher,Single,1,Monthly,54.039047272760925,Philadelphia,Urban,False,True,1,0
+811,55,Male,45332.1260874467,Master's Degree,Teacher,Married,1,Daily,11.216554452974805,San Diego,Rural,True,False,1,0
+812,53,Female,18804.131651585813,Bachelor's Degree,Arts,Divorced,1,Monthly,73.40442727705162,New York,Rural,False,True,1,0
+813,19,Male,28660.368455256343,High School,Engineer,Married,2,Daily,19.513054349137064,Los Angeles,Rural,False,False,0,0
+814,59,Male,23151.291787139202,Doctorate,Teacher,Single,3,Daily,62.99292431406009,New York,Urban,True,False,0,0
+815,39,Female,38057.510621758716,Bachelor's Degree,Doctor,Divorced,2,Daily,90.53822806349677,Los Angeles,Urban,False,False,1,0
+816,48,Male,50512.95652586435,Master's Degree,Arts,Married,2,Monthly,21.572162066050222,Chicago,Rural,True,True,1,0
+817,34,Female,38620.38629838826,Bachelor's Degree,Arts,Married,2,Monthly,70.26501308837658,Chicago,Rural,True,True,1,1
+818,56,Male,32334.436087233244,Doctorate,Engineer,Married,2,Daily,71.9119082309792,Los Angeles,Rural,True,True,1,1
+819,49,Female,19811.71408439278,High School,Lawyer,Single,3,Daily,23.363486470475596,Philadelphia,Rural,True,True,0,0
+820,20,Male,54393.64659256652,Master's Degree,Doctor,Married,2,Daily,48.84941927294051,Los Angeles,Rural,True,True,1,1
+821,54,Female,10272.185459584529,Doctorate,Artist,Married,1,Weekly,16.76286578598279,Phoenix,Rural,True,True,0,0
+822,20,Female,48030.32906950309,Doctorate,Artist,Married,2,Monthly,58.27693447720274,New York,Rural,True,False,0,0
+823,28,Female,59945.23498815384,Doctorate,Teacher,Married,3,Daily,38.84382078899925,Phoenix,Urban,False,False,1,1
+824,31,Female,37871.46396321598,Bachelor's Degree,Engineer,Divorced,2,Weekly,72.83564746434146,New York,Urban,True,False,1,1
+825,33,Male,39128.445460740564,High School,Artist,Single,3,Weekly,58.976483407912156,Philadelphia,Urban,True,False,0,0
+826,51,Female,14052.978193880157,High School,Medicine,Married,0,Weekly,47.88068758833034,Philadelphia,Rural,True,True,0,0
+827,24,Male,29864.564647295287,High School,Science,Single,3,Weekly,29.145426951724577,Philadelphia,Urban,True,True,1,0
+828,45,Female,30242.99448090722,Doctorate,Doctor,Married,0,Daily,21.680466915035016,Chicago,Rural,False,True,0,0
+829,56,Male,40334.46615989429,High School,Medicine,Married,0,Monthly,96.5441823017391,Chicago,Urban,False,False,1,0
+830,59,Male,49348.789969060046,Master's Degree,Lawyer,Divorced,1,Daily,69.20099020325675,San Diego,Rural,False,False,1,0
+831,20,Female,23702.07948521379,High School,Artist,Single,2,Monthly,44.57446821581163,New York,Urban,False,True,1,0
+832,49,Male,11831.48487994097,Doctorate,Lawyer,Single,0,Daily,36.31735754958232,New York,Rural,True,False,0,0
+833,59,Female,58066.731559740314,High School,Lawyer,Married,1,Weekly,64.33698597069308,San Antonio,Urban,False,False,0,1
+834,53,Female,36534.75948817607,High School,Artist,Married,0,Monthly,55.71076744030428,Phoenix,Rural,False,False,0,0
+835,52,Female,27479.259789219603,Master's Degree,Science,Married,3,Monthly,92.78838407174885,San Diego,Urban,False,False,0,0
+836,51,Male,37114.99878105396,Bachelor's Degree,Engineer,Single,3,Weekly,30.140054764387862,Houston,Urban,True,False,1,1
+837,50,Female,29717.057317533214,High School,Engineer,Married,2,Daily,54.03069101841516,Philadelphia,Rural,False,False,1,0
+838,50,Male,19600.812548397444,Master's Degree,Artist,Divorced,3,Weekly,99.78243336513752,New York,Urban,False,True,0,0
+839,20,Male,46742.526024980056,Master's Degree,Medicine,Divorced,1,Weekly,62.220567897922756,New York,Urban,False,True,1,0
+840,56,Male,41239.76993593626,Bachelor's Degree,Engineer,Divorced,1,Monthly,36.62404467236769,San Diego,Urban,False,False,0,0
+841,33,Male,26026.808340324777,High School,Artist,Divorced,0,Daily,87.49300599750164,Philadelphia,Rural,True,True,1,0
+842,50,Female,42530.32616260517,Doctorate,Engineer,Married,1,Weekly,20.140617397131102,Los Angeles,Rural,True,True,0,1
+843,51,Female,51893.663505968136,Master's Degree,Science,Divorced,1,Weekly,66.09829903831518,San Antonio,Urban,False,False,1,1
+844,30,Male,31914.930401658294,Doctorate,Artist,Married,1,Daily,56.31140046410204,Houston,Urban,True,False,0,0
+845,49,Male,17372.65046330898,Bachelor's Degree,Teacher,Married,3,Monthly,82.71442270128551,Houston,Rural,True,True,1,1
+846,58,Female,11918.077739398732,Doctorate,Science,Married,0,Daily,38.49382543695121,Phoenix,Urban,True,False,1,0
+847,19,Female,30758.1793302052,High School,Artist,Married,2,Weekly,97.68744667994297,Chicago,Rural,False,False,0,0
+848,48,Female,24579.40640805787,High School,Science,Divorced,2,Monthly,62.16692123816364,San Antonio,Rural,True,True,0,0
+849,56,Male,18469.824981578928,Doctorate,Arts,Married,0,Weekly,76.45161494090753,San Antonio,Urban,True,False,1,0
+850,32,Male,33096.26021028675,High School,Doctor,Married,3,Daily,99.70149501412118,Philadelphia,Rural,True,True,0,1
+851,57,Male,11552.843801757781,Master's Degree,Arts,Single,2,Monthly,85.67065647452031,Philadelphia,Urban,False,True,0,0
+852,27,Male,57706.58207855363,Master's Degree,Arts,Single,1,Daily,67.57976814133802,Los Angeles,Rural,False,True,1,0
+853,57,Male,38351.63917506138,Bachelor's Degree,Medicine,Single,3,Monthly,48.211534646736,San Antonio,Urban,True,False,0,1
+854,39,Male,10039.47555466094,Bachelor's Degree,Doctor,Divorced,1,Daily,92.31548090636723,Los Angeles,Urban,False,False,0,0
+855,41,Female,18196.586047660137,Bachelor's Degree,Science,Divorced,3,Weekly,63.94874878248595,New York,Rural,False,True,0,0
+856,59,Female,17914.15253496868,High School,Lawyer,Married,2,Weekly,32.248546636498915,Philadelphia,Rural,False,True,1,0
+857,35,Female,19822.065761139293,Master's Degree,Medicine,Married,2,Monthly,74.1989556551145,New York,Urban,True,False,0,0
+858,39,Male,15147.307235014308,Master's Degree,Science,Single,1,Daily,87.2125365019211,Philadelphia,Rural,True,False,1,0
+859,27,Male,50165.22867590168,Master's Degree,Artist,Married,1,Weekly,66.92249821703297,Houston,Urban,False,False,1,1
+860,57,Male,29979.925581043393,Bachelor's Degree,Arts,Married,0,Daily,62.32824053821784,Los Angeles,Urban,False,True,0,0
+861,59,Female,46356.55984409637,Master's Degree,Lawyer,Single,1,Monthly,71.28254913555264,San Antonio,Rural,True,False,1,0
+862,41,Male,43527.025325304545,Master's Degree,Lawyer,Married,0,Monthly,74.75139709029747,Phoenix,Rural,False,True,1,0
+863,43,Male,12825.784539837867,Doctorate,Doctor,Married,0,Monthly,56.4351290672881,Houston,Rural,True,True,1,1
+864,49,Female,37049.31177640418,Master's Degree,Doctor,Single,0,Monthly,87.10569518553076,Los Angeles,Urban,True,False,1,1
+865,21,Male,20023.45238831795,Bachelor's Degree,Science,Single,1,Daily,24.245763045318824,New York,Urban,True,False,0,1
+866,34,Male,30557.446617006935,Master's Degree,Doctor,Married,2,Monthly,51.82205216006485,San Antonio,Urban,False,False,1,0
+867,33,Male,55639.36926932627,High School,Arts,Single,0,Monthly,81.12339135475244,San Diego,Urban,True,True,0,1
+868,59,Male,21567.435660007526,High School,Teacher,Divorced,2,Weekly,36.089261158047364,Chicago,Urban,False,False,1,0
+869,23,Male,19146.766064210628,Bachelor's Degree,Doctor,Divorced,0,Monthly,63.97339720672902,San Diego,Urban,True,True,0,1
+870,20,Female,53563.23426350786,High School,Doctor,Single,3,Daily,14.029154981963819,Phoenix,Rural,True,False,1,1
+871,41,Female,15233.031695394813,Bachelor's Degree,Teacher,Divorced,2,Weekly,38.49421913446716,San Diego,Rural,False,True,1,0
+872,44,Female,32076.700518944846,Bachelor's Degree,Teacher,Divorced,0,Weekly,54.14089676678063,San Antonio,Urban,False,True,0,0
+873,50,Male,23455.98763190052,High School,Science,Married,2,Daily,21.73165117433126,New York,Urban,True,False,1,0
+874,33,Female,30645.559479460662,Master's Degree,Science,Married,2,Daily,64.81260502362242,New York,Urban,False,True,1,0
+875,46,Male,42391.85193041133,Doctorate,Science,Single,3,Monthly,94.63573305509898,Houston,Urban,True,False,1,0
+876,57,Male,51090.072962710015,High School,Science,Married,3,Monthly,33.62577438398897,San Antonio,Urban,True,True,1,1
+877,23,Female,12416.220442769845,Doctorate,Doctor,Single,0,Daily,24.75282358422504,New York,Rural,False,True,0,0
+878,27,Female,23943.596313048245,Doctorate,Teacher,Divorced,1,Monthly,72.39677216963429,Phoenix,Urban,False,True,0,0
+879,19,Female,59987.06361290463,Master's Degree,Doctor,Single,2,Daily,33.51206192082242,San Antonio,Rural,False,True,0,0
+880,22,Male,44416.53811663384,High School,Doctor,Divorced,1,Daily,98.43871703442123,Los Angeles,Urban,False,True,1,0
+881,24,Male,56086.33347258307,High School,Engineer,Single,0,Monthly,82.42533853672879,Philadelphia,Urban,True,True,1,1
+882,25,Male,34140.50466641852,High School,Science,Married,2,Daily,81.29709444477206,Philadelphia,Urban,True,False,0,0
+883,38,Male,25742.057770436768,High School,Doctor,Single,2,Monthly,50.97958748277419,New York,Rural,False,True,0,0
+884,35,Female,14787.709933167884,Bachelor's Degree,Medicine,Married,2,Daily,18.311125505088903,San Antonio,Urban,False,True,0,0
+885,21,Female,29941.07634620287,Doctorate,Arts,Divorced,3,Weekly,82.29370605644154,Phoenix,Rural,False,True,0,0
+886,27,Male,26823.05812886061,Bachelor's Degree,Artist,Married,3,Monthly,46.54739193037939,Philadelphia,Rural,True,True,0,1
+887,24,Female,27673.87375641894,Bachelor's Degree,Teacher,Single,0,Daily,88.69730987768307,Philadelphia,Rural,True,False,0,1
+888,55,Male,58652.26747570805,High School,Engineer,Single,1,Weekly,73.45569557848413,Houston,Urban,False,True,1,1
+889,48,Male,53509.83452461211,Master's Degree,Arts,Married,2,Daily,73.52942002135494,San Antonio,Rural,True,True,0,0
+890,18,Male,19159.912256331743,High School,Engineer,Single,3,Monthly,66.859735928748,Houston,Rural,False,True,1,0
+891,38,Female,10742.80612537519,Master's Degree,Science,Married,3,Daily,28.838963444231535,San Antonio,Rural,True,False,1,0
+892,43,Male,26560.41511642608,High School,Arts,Single,1,Monthly,57.958879122707266,Chicago,Urban,True,True,1,0
+893,34,Female,46940.069163409484,High School,Medicine,Divorced,0,Monthly,75.67105722825171,Chicago,Rural,False,False,0,0
+894,30,Male,39293.15252639608,Bachelor's Degree,Doctor,Divorced,3,Daily,92.2100228628031,Chicago,Urban,False,False,1,0
+895,18,Male,50367.28106001843,Doctorate,Arts,Married,3,Monthly,82.10543529657923,San Antonio,Rural,True,True,0,0
+896,53,Female,48520.58935343219,Bachelor's Degree,Doctor,Single,2,Weekly,69.70263498608435,Phoenix,Rural,True,False,1,1
+897,26,Male,18585.499448684408,High School,Medicine,Single,2,Daily,71.1242511169201,San Antonio,Urban,False,True,1,0
+898,49,Male,23115.246569221978,High School,Artist,Divorced,1,Daily,61.04158367791357,Phoenix,Urban,False,True,0,0
+899,39,Male,29812.367340820296,High School,Artist,Single,2,Weekly,88.78341369945099,Philadelphia,Rural,True,True,0,0
+900,23,Female,45434.04192559526,Bachelor's Degree,Science,Divorced,3,Monthly,38.88418944874964,New York,Urban,True,False,1,1
+901,21,Male,57151.03548228681,Doctorate,Teacher,Divorced,1,Weekly,44.646285037380146,Los Angeles,Rural,False,True,1,0
+902,36,Male,31031.51184394097,High School,Engineer,Divorced,1,Monthly,11.75523828494682,San Antonio,Urban,False,True,1,0
+903,18,Female,50128.037407581396,Doctorate,Teacher,Divorced,2,Daily,35.933692219966275,San Diego,Urban,True,True,1,1
+904,41,Male,10339.408701179489,High School,Teacher,Divorced,0,Daily,40.63969720894766,Houston,Urban,False,True,1,0
+905,27,Male,16759.152708571502,Bachelor's Degree,Artist,Single,1,Weekly,44.00171415184703,San Diego,Rural,False,True,1,0
+906,49,Female,13294.608251598635,Bachelor's Degree,Teacher,Divorced,0,Weekly,19.982820778732588,Chicago,Urban,False,False,1,0
+907,18,Male,25270.674927137567,Bachelor's Degree,Medicine,Divorced,3,Daily,90.83114512415908,Houston,Urban,False,False,0,0
+908,36,Male,24755.443009214265,Bachelor's Degree,Artist,Single,0,Weekly,24.68032076050109,Philadelphia,Urban,True,True,0,1
+909,52,Female,58772.52620674756,Master's Degree,Arts,Divorced,1,Monthly,38.194841002436085,San Antonio,Urban,True,True,0,1
+910,49,Female,45136.91496447934,High School,Arts,Single,1,Monthly,73.91559399311447,Chicago,Rural,False,False,1,0
+911,32,Female,20806.790615546037,High School,Teacher,Divorced,2,Monthly,92.93119625948773,Houston,Rural,False,False,0,0
+912,53,Male,52992.72451675608,Doctorate,Engineer,Divorced,0,Daily,17.703959754049148,San Antonio,Urban,False,False,0,1
+913,48,Female,10697.450934595572,Master's Degree,Lawyer,Married,3,Daily,72.64282662902023,Phoenix,Rural,False,True,1,0
+914,46,Female,36032.76768670558,Doctorate,Doctor,Divorced,3,Monthly,22.699868349938434,Philadelphia,Urban,False,True,0,0
+915,26,Male,46146.53361193018,Bachelor's Degree,Doctor,Divorced,2,Daily,49.71469030750618,Chicago,Rural,True,False,1,1
+916,38,Female,44660.477110943386,Doctorate,Medicine,Married,0,Daily,85.27458120681031,Chicago,Urban,True,False,0,0
+917,19,Male,11014.01574472904,Bachelor's Degree,Engineer,Single,3,Weekly,29.33691457824983,Houston,Urban,False,False,0,0
+918,36,Female,49681.62071277905,Master's Degree,Doctor,Divorced,1,Weekly,12.625360171666703,Chicago,Urban,False,False,1,0
+919,20,Female,47337.16538990799,Doctorate,Science,Divorced,3,Monthly,26.618612130432787,San Diego,Rural,True,False,1,0
+920,47,Male,43626.12021190697,Doctorate,Lawyer,Married,3,Monthly,19.989533252962957,Phoenix,Rural,True,False,1,0
+921,59,Female,33122.840853257396,Doctorate,Medicine,Divorced,0,Weekly,64.71634157491079,Chicago,Urban,False,False,1,0
+922,44,Male,10621.279689696614,High School,Science,Divorced,1,Monthly,18.82520637062118,Philadelphia,Rural,False,True,0,0
+923,26,Male,48128.555639577644,Doctorate,Arts,Divorced,2,Daily,57.777313085962824,Phoenix,Urban,True,True,0,0
+924,41,Male,21669.813472906346,Bachelor's Degree,Artist,Married,3,Weekly,68.57224211290418,New York,Rural,True,False,1,1
+925,39,Male,33802.93847509984,Master's Degree,Arts,Married,2,Weekly,62.26634258176167,Phoenix,Rural,False,True,1,0
+926,41,Female,31171.940244989622,Bachelor's Degree,Artist,Married,3,Monthly,16.001407032672212,New York,Rural,True,False,0,1
+927,45,Male,39752.31724618806,Master's Degree,Arts,Divorced,0,Weekly,97.26011877008668,Los Angeles,Rural,True,True,0,0
+928,53,Female,32495.639054275267,Doctorate,Medicine,Divorced,0,Daily,38.53008727608736,San Antonio,Urban,True,False,0,0
+929,56,Female,52538.92451663302,High School,Artist,Single,2,Weekly,57.09632166000955,Houston,Urban,False,True,1,1
+930,40,Female,57762.13841436718,Master's Degree,Lawyer,Divorced,3,Daily,23.487651899789647,Philadelphia,Rural,False,False,0,0
+931,43,Male,16517.036178453593,Doctorate,Medicine,Divorced,2,Daily,10.142147897012068,San Diego,Urban,True,True,0,0
+932,28,Male,23312.284969700173,Doctorate,Medicine,Single,0,Monthly,40.04334205383137,San Antonio,Urban,False,True,1,0
+933,44,Male,42701.15388293802,High School,Doctor,Married,3,Weekly,33.51955563468117,Phoenix,Rural,False,False,1,0
+934,33,Male,54823.64286296477,High School,Science,Divorced,2,Daily,95.04863070002588,San Diego,Urban,True,False,1,1
+935,41,Female,26498.744764513824,Master's Degree,Artist,Divorced,3,Daily,57.941711264243416,Phoenix,Urban,True,False,1,0
+936,56,Male,40567.85065491912,Master's Degree,Arts,Divorced,0,Weekly,15.017463862329521,Houston,Urban,False,False,1,0
+937,46,Female,36128.64101309048,Bachelor's Degree,Artist,Divorced,2,Daily,10.271878422054513,Philadelphia,Rural,True,False,1,1
+938,53,Female,48288.166052377,Master's Degree,Medicine,Married,0,Weekly,94.0827969186725,Houston,Rural,True,False,1,0
+939,57,Female,53373.85117479863,High School,Lawyer,Single,3,Daily,22.536702046639075,New York,Urban,True,False,1,1
+940,32,Female,56349.42374088977,Bachelor's Degree,Artist,Divorced,2,Weekly,10.03692604952574,Philadelphia,Rural,False,False,1,0
+941,34,Male,42583.98974392135,Doctorate,Science,Single,2,Daily,23.366568183140572,Philadelphia,Urban,True,False,1,0
+942,37,Male,18138.80505126844,Doctorate,Arts,Divorced,0,Daily,48.37654508427755,Chicago,Rural,False,False,1,0
+943,44,Female,44002.30281871349,Doctorate,Engineer,Divorced,2,Daily,45.10144546728046,Los Angeles,Urban,True,True,0,1
+944,45,Male,54378.15359080957,Doctorate,Doctor,Married,3,Daily,21.481882202502366,San Diego,Urban,False,True,0,1
+945,55,Female,50128.2267174312,Master's Degree,Lawyer,Married,3,Monthly,96.3663538410758,Los Angeles,Rural,True,True,1,0
+946,31,Female,38150.64715858315,Bachelor's Degree,Science,Divorced,2,Daily,69.77374885490339,Houston,Urban,True,True,1,1
+947,24,Male,34391.14186909405,High School,Teacher,Divorced,0,Daily,44.898789567677476,Houston,Urban,False,False,1,0
+948,38,Male,26440.090228922683,Doctorate,Artist,Married,3,Weekly,24.27734679846388,Los Angeles,Urban,False,False,1,0
+949,34,Male,53678.76528798671,High School,Engineer,Married,2,Monthly,37.87137624816563,Houston,Urban,False,False,0,1
+950,48,Female,10433.454492256553,Master's Degree,Artist,Married,0,Daily,56.84684802773631,Los Angeles,Urban,False,True,1,0
+951,43,Female,17734.24240924306,Doctorate,Engineer,Single,2,Monthly,32.48807187321364,New York,Rural,False,True,1,0
+952,40,Female,59658.18694667392,Bachelor's Degree,Teacher,Single,1,Weekly,96.24949178332481,Los Angeles,Urban,True,False,1,1
+953,18,Female,39117.87275319829,Master's Degree,Teacher,Single,3,Weekly,81.97864685157158,New York,Rural,False,True,0,0
+954,36,Male,22004.23509683219,High School,Engineer,Single,3,Daily,36.027383676928274,Los Angeles,Rural,True,True,0,1
+955,44,Female,40212.975799346255,Master's Degree,Medicine,Married,3,Daily,59.19630813489215,New York,Urban,True,False,0,0
+956,54,Female,39429.30486746271,Bachelor's Degree,Lawyer,Married,2,Monthly,96.46552794054188,Houston,Rural,False,False,1,0
+957,21,Female,20176.77612409024,Doctorate,Doctor,Married,1,Monthly,97.6402450881036,Los Angeles,Urban,True,False,1,1
+958,25,Female,10653.826708730743,High School,Science,Divorced,2,Weekly,82.96574187073715,Houston,Rural,False,True,0,0
+959,19,Male,18518.36253907656,Master's Degree,Doctor,Divorced,3,Daily,58.03528723043,Philadelphia,Urban,False,True,1,0
+960,28,Female,29733.00439749729,Bachelor's Degree,Lawyer,Divorced,3,Weekly,17.824560462302877,Philadelphia,Urban,False,True,0,0
+961,59,Female,23190.303747317877,Master's Degree,Lawyer,Single,1,Daily,43.858127196567835,San Antonio,Rural,False,False,0,0
+962,52,Male,27492.511804542744,Bachelor's Degree,Medicine,Single,0,Daily,33.63702511294663,Philadelphia,Urban,True,False,1,1
+963,39,Male,46179.03502199904,Bachelor's Degree,Lawyer,Single,1,Daily,76.84493474677757,Los Angeles,Rural,True,True,0,1
+964,45,Female,34785.850503913774,High School,Medicine,Married,1,Monthly,75.40034223323913,Phoenix,Rural,False,False,1,0
+965,41,Male,24205.207461371647,High School,Teacher,Single,3,Daily,98.38696407720677,Houston,Rural,True,True,0,0
+966,30,Female,39968.17758691328,Master's Degree,Arts,Single,2,Weekly,76.06661779052902,Houston,Rural,True,False,0,0
+967,20,Male,56578.249000395925,Master's Degree,Doctor,Married,3,Weekly,79.95660182551661,Houston,Urban,False,False,1,1
+968,53,Male,46980.398450006855,Bachelor's Degree,Medicine,Divorced,2,Weekly,70.42312080071162,Houston,Urban,True,False,0,1
+969,39,Male,11314.886334233428,High School,Arts,Married,0,Monthly,32.9248450411794,San Antonio,Urban,False,False,0,0
+970,23,Male,58684.60674250994,High School,Arts,Single,3,Monthly,22.877325587558254,Houston,Rural,False,True,1,0
+971,46,Female,33587.81546954371,High School,Doctor,Divorced,2,Daily,20.222858564080738,Chicago,Urban,False,True,0,0
+972,55,Female,27819.32392615141,Doctorate,Medicine,Single,3,Monthly,53.52481060764997,Chicago,Urban,True,True,0,0
+973,57,Male,17345.44545114635,Bachelor's Degree,Arts,Single,1,Daily,56.97414676581192,Chicago,Rural,False,True,1,0
+974,33,Male,11826.018969068693,Doctorate,Engineer,Married,3,Daily,78.34858344608378,San Antonio,Rural,False,True,1,0
+975,46,Female,25074.420767717973,Doctorate,Medicine,Divorced,1,Weekly,37.16511948036056,Los Angeles,Rural,True,True,0,0
+976,41,Male,27152.20028965051,Doctorate,Medicine,Divorced,1,Weekly,80.19644144863537,Philadelphia,Urban,False,True,1,0
+977,57,Female,12457.92618107138,Doctorate,Artist,Single,3,Weekly,10.752909398572976,Chicago,Rural,False,False,1,0
+978,36,Female,59612.0957430561,Doctorate,Artist,Single,0,Daily,52.32666004224173,San Antonio,Urban,True,False,0,1
+979,31,Male,20713.590465512978,Master's Degree,Science,Single,0,Weekly,55.51680685198999,Chicago,Rural,False,False,0,0
+980,28,Female,30899.96084601758,Master's Degree,Lawyer,Married,0,Monthly,67.36532481416214,San Antonio,Urban,False,True,0,0
+981,22,Female,38008.59477836792,Master's Degree,Teacher,Divorced,1,Monthly,43.62096574351725,Philadelphia,Rural,True,True,0,0
+982,42,Male,25982.60311276503,Doctorate,Lawyer,Single,3,Weekly,15.482100418437437,New York,Urban,False,False,0,0
+983,21,Male,18732.503272768405,Doctorate,Medicine,Divorced,3,Daily,55.25587557991781,San Diego,Rural,True,True,1,0
+984,29,Male,55629.21089624115,Master's Degree,Lawyer,Single,2,Monthly,88.46796212658502,Philadelphia,Rural,False,True,0,0
+985,43,Male,19785.387581939394,Doctorate,Arts,Single,1,Weekly,53.46049929387388,New York,Urban,False,False,1,0
+986,30,Female,36353.54692567291,Master's Degree,Teacher,Married,0,Daily,24.175049326822347,New York,Rural,True,False,0,0
+987,42,Male,59002.59714882424,Doctorate,Artist,Divorced,1,Weekly,70.08415422249115,San Diego,Rural,False,False,0,0
+988,25,Female,29463.319840452416,Bachelor's Degree,Lawyer,Divorced,3,Daily,87.72193028252313,Phoenix,Urban,False,True,1,0
+989,39,Female,59354.118200298515,Bachelor's Degree,Lawyer,Married,3,Weekly,84.16850414359368,San Diego,Rural,True,False,1,1
+990,21,Male,38099.067081318964,Doctorate,Doctor,Single,2,Weekly,33.8137400692927,San Antonio,Urban,True,True,0,1
+991,42,Female,50181.75735768467,High School,Science,Single,1,Monthly,59.45406161606383,Houston,Urban,True,True,0,1
+992,47,Male,18411.542160184155,Doctorate,Lawyer,Single,0,Monthly,43.52747075225154,Philadelphia,Urban,True,True,0,0
+993,33,Male,40595.204238366205,Doctorate,Lawyer,Divorced,1,Monthly,94.834873914279,Chicago,Urban,True,True,1,0
+994,46,Male,27019.241883877457,Master's Degree,Lawyer,Divorced,3,Daily,24.883338296186736,New York,Rural,True,False,0,0
+995,49,Female,36268.0240909749,High School,Engineer,Married,2,Weekly,60.32672919818636,San Diego,Urban,True,False,1,1
+996,22,Female,24333.029064351147,Bachelor's Degree,Engineer,Married,2,Daily,92.30118857928471,Phoenix,Urban,False,True,0,0
+997,50,Female,24627.02142407849,Bachelor's Degree,Teacher,Divorced,2,Monthly,58.016928788288546,Los Angeles,Rural,True,True,0,1
+998,21,Female,28404.281883310712,Doctorate,Artist,Divorced,1,Weekly,31.98103303276707,Los Angeles,Urban,True,False,0,0
+999,33,Female,45120.87640751823,Doctorate,Doctor,Married,3,Weekly,38.4663113853062,Phoenix,Rural,False,False,0,0

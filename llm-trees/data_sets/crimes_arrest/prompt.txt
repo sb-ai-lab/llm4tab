@@ -1,0 +1,18 @@
+I want you to induce a decision tree classifier based on features. I first give an example below.
+Then, I provide you with Features and want you to build a decision tree with a maximum depth of 2 using the most important features.
+The tree should classify arrest outcome (no arrest / arrest made).
+
+Features: sepal length (cm), sepal width (cm), petal length (cm), petal width (cm)
+
+Decision tree:
+|--- petal width (cm) <= 0.80
+||--- class: setosa
+|--- petal width (cm) > 0.80
+||--- petal width (cm) <= 1.75
+|||--- class: versicolor
+||--- petal width (cm) > 1.75
+|||--- class: virginica
+
+Features: Date, Beat, District, Ward, Community Area, X Coordinate, Y Coordinate, Latitude, Longitude, Primary Type (BATTERY / THEFT / OTHER OFFENSE / CRIMINAL TRESPASS / ASSAULT / PUBLIC PEACE VIOLATION / WEAPONS VIOLATION / CRIMINAL SEXUAL ASSAULT / CRIMINAL DAMAGE / DECEPTIVE PRACTICE / etc.), Description (SIMPLE / OVER $500 / DOMESTIC BATTERY SIMPLE / TELEPHONE THREAT / RETAIL THEFT / $500 AND UNDER / TO LAND / VEHICLE TITLE / REGISTRATION OFFENSE / RECKLESS CONDUCT / TO STATE SUP LAND / etc.), Location Description (NURSING / RETIREMENT HOME / STREET / GAS STATION / APARTMENT / CTA BUS / RESIDENCE - PORCH / HALLWAY / DEPARTMENT STORE / BAR OR TAVERN / SMALL RETAIL STORE / RESTAURANT / etc.), Domestic (0 / 1), FBI Code (08B / 06 / 08A / 26 / 24 / 15 / 02 / 14 / 04B / 11 / etc.), Year (2025)
+
+Decision Tree:

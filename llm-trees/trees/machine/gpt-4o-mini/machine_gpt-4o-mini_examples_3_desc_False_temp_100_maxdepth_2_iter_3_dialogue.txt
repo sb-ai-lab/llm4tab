@@ -1,0 +1,67 @@
+To construct a decision tree classifier based on the provided features (Temperature, Vibration, Power_Usage, Humidity, and Machine_Type), we need to identify the most important features that contribute to classifying the machine status (normal operation / at risk of failure). 
+
+Given the requirement of a maximum depth of 2 for the decision tree, I will create a hypothetical tree based on common intuitions about these features. Ideally, the actual construction of a decision tree requires data to evaluate feature importance, but here’s how a decision tree might look based on common patterns one might expect.
+
+### Decision Tree:
+```
+|--- Temperature <= 75
+|   |--- Vibration <= 0.5
+|   |   |--- class: normal operation
+|   |--- Vibration > 0.5
+|   |   |--- class: at risk of failure
+|--- Temperature > 75
+|   |--- Power_Usage <= 100
+|   |   |--- class: normal operation
+|   |--- Power_Usage > 100
+|   |   |--- class: at risk of failure
+```
+
+### Explanation:
+1. **Temperature** is used as the first decision node, as it’s highly indicative of machine health.
+2. The second level has two branches based on **Vibration** when Temperature is less than or equal to 75, and **Power_Usage** when Temperature is greater than 75. This arrangement gauges current operational conditions more closely.
+3. The leaves (classifications) suggest whether the machine is in a state of normal operation or at risk of failure based on the combinations of the features examined.
+
+Remember, without actual data to evaluate which features are the strongest predictors for the classes, this decision tree is hypothetical and based on typical analysis patterns.
+
+
+#########################
+
+
+Based on the decision tree structure provided earlier, I will create a Python function that predicts the machine status (normal operation / at risk of failure) using the specified features. The function will return both the prediction and a list that includes the truth values of the inner nodes.
+
+Here is the Python function:
+
+```python
+def predict(X: dict):
+    nodes = 3 * [None]  # A list to hold the truth values of the inner nodes
+    
+    # First decision node: Check Temperature
+    nodes[0] = X["Temperature"] <= 75  # This threshold is chosen based on common operational temperatures
+    
+    if nodes[0]:  # If Temperature is less than or equal to 75
+        # Second decision node: Check Vibration
+        nodes[1] = X["Vibration"] <= 0.5  # Assuming 0.5 as a threshold for acceptable vibration levels
+        
+        if nodes[1]:  # If Vibration is less than or equal to 0.5
+            prediction = 0  # Normal operation
+        else:  # If Vibration is greater than 0.5
+            prediction = 1  # At risk of failure
+    else:  # If Temperature is greater than 75
+        # Second decision node: Check Power_Usage
+        nodes[1] = X["Power_Usage"] <= 100  # Assuming 100 as a threshold for acceptable power usage
+        
+        if nodes[1]:  # If Power_Usage is less than or equal to 100
+            prediction = 0  # Normal operation
+        else:  # If Power_Usage is greater than 100
+            prediction = 1  # At risk of failure
+
+    return prediction, nodes
+```
+
+### Explanation:
+- The `predict` function takes a dictionary `X` as input, containing the relevant features.
+- It initializes a list `nodes` to keep track of the conditions for each inner node.
+- The first decision checks if the `Temperature` is less than or equal to 75.
+- If true, the second decision checks if the `Vibration` level is less than or equal to 0.5, leading to either a prediction of normal operation (0) or at risk of failure (1).
+- If the first condition is false, it checks `Power_Usage`, leading to similar predictions based on its value.
+- Finally, the function returns the prediction along with the nodes' truth values, indicating which conditions were satisfied.

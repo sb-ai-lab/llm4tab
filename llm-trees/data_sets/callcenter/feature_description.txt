@@ -1,0 +1,16 @@
+Features:
+Call_center_employee_communication_skills_evaluation: client's evaluation of call center employee communication skills.
+Satisfaction_with_the_doctors_response: client's satisfaction with the doctor's response.
+How_often_do_you_receive_call_center_news: frequency of receiving call center news.
+Gender: client's gender (Female / Male).
+Age: client's age group (40-49 / 30-39 / 18-24 / 25-29 / 60 and above / Under 18 / 50-59).
+Education: client's education level (Bachelor / Diploma / High school / Less than high school / Master / Doctor / Other).
+Nationality: client's nationality group (Kuwaiti / Other nationality / Unspecified).
+Marital_Status: client's marital status (Married / Single / Widow / Widower).
+Governorate: client's governorate or region (Farwaniya / Capital / Around / AlAhmadi / Jahra / Mubarak AlKabir).
+Aware_151: whether the client is aware of service 151 (Yes / No).
+Call_151: whether the client has called service 151 (Yes / No).
+The_reason_of_the_call: main reason for the call (Vaccination / Inquiries / Inquiries_COVID19 / Medical_Consultation / Complaints).
+
+Target variable:
+target: satisfaction class (0 = dissatisfied / 1 = satisfied)

@@ -1,0 +1,1001 @@
+,Age,Gender,Race,Criminal History,Prior Offense Type,Violation Type,Employment Status,Income Level,Education Level,Family Structure,label
+0,23,Female,Asian,0,Assault,Property theft,Employed,Middle,Master's degree,Yes,1
+1,57,Male,Other,4,Theft,Property theft,Unemployed,Middle,Bachelor's degree,No,1
+2,30,Female,Asian,4,Assault,Domestic violence,Unemployed,Middle,Bachelor's degree,No,1
+3,54,Male,White,0,Theft,Other,Unemployed,Middle,Master's degree,No,0
+4,16,Male,Other,2,Assault,Other,Unemployed,Low,High school diploma,No,1
+5,28,Female,Asian,1,Theft,Property theft,Employed,High,High school diploma,No,1
+6,56,Male,Other,3,Theft,Other,Employed,High,Bachelor's degree,No,1
+7,63,Male,Other,3,Assault,Drug offenses,Employed,Middle,High school diploma,Yes,1
+8,61,Female,White,0,Theft,Drug offenses,Unemployed,Low,Bachelor's degree,No,1
+9,46,Female,Black,3,Property damage,Drug offenses,Employed,Middle,Master's degree,Yes,1
+10,52,Female,Other,4,Theft,Other,Employed,Low,High school diploma,Yes,1
+11,26,Female,Asian,0,Theft,Drug offenses,Unemployed,Low,Bachelor's degree,Yes,1
+12,55,Male,Other,1,Assault,Other,Unemployed,Middle,Bachelor's degree,No,1
+13,46,Male,Black,3,Battery,Property theft,Employed,High,Bachelor's degree,No,1
+14,29,Female,Asian,4,Theft,Property theft,Unemployed,High,Bachelor's degree,Yes,1
+15,35,Female,Asian,0,Assault,Property theft,Employed,Low,Bachelor's degree,Yes,1
+16,16,Female,Other,3,Battery,Property theft,Unemployed,Low,Master's degree,Yes,1
+17,33,Male,White,3,Assault,Other,Unemployed,High,Master's degree,No,1
+18,63,Female,Other,4,Assault,Other,Employed,Middle,Master's degree,No,1
+19,63,Female,Black,4,Property damage,Domestic violence,Employed,High,Bachelor's degree,Yes,1
+20,47,Male,Black,4,Assault,Other,Employed,High,Bachelor's degree,No,1
+21,20,Male,Black,1,Theft,Property theft,Unemployed,Low,High school diploma,No,1
+22,57,Female,White,2,Theft,Drug offenses,Unemployed,Low,Bachelor's degree,Yes,1
+23,45,Male,Black,2,Theft,Property theft,Unemployed,Low,Master's degree,Yes,1
+24,28,Male,Asian,2,Theft,Drug offenses,Unemployed,High,Bachelor's degree,Yes,0
+25,44,Female,Black,4,Battery,Drug offenses,Unemployed,High,Master's degree,No,1
+26,39,Male,Other,1,Battery,Other,Unemployed,High,Bachelor's degree,Yes,1
+27,18,Male,White,2,Property damage,Domestic violence,Unemployed,High,Bachelor's degree,Yes,0
+28,53,Female,Asian,0,Theft,Property theft,Unemployed,High,High school diploma,Yes,0
+29,39,Female,Asian,0,Assault,Drug offenses,Employed,Low,High school diploma,Yes,1
+30,31,Female,Black,1,Property damage,Domestic violence,Unemployed,High,Bachelor's degree,No,0
+31,28,Male,Black,0,Battery,Property theft,Employed,High,High school diploma,No,1
+32,30,Female,Other,0,Property damage,Drug offenses,Unemployed,Middle,Master's degree,No,0
+33,33,Female,Asian,0,Battery,Domestic violence,Unemployed,Low,Master's degree,No,1
+34,59,Male,Asian,2,Assault,Drug offenses,Unemployed,Low,High school diploma,Yes,1
+35,32,Female,Other,2,Theft,Drug offenses,Unemployed,High,Master's degree,Yes,0
+36,21,Male,Black,0,Assault,Other,Unemployed,High,High school diploma,No,1
+37,17,Male,Black,2,Battery,Other,Employed,High,Master's degree,Yes,1
+38,19,Male,Other,1,Theft,Other,Unemployed,High,High school diploma,Yes,0
+39,46,Male,Asian,1,Assault,Drug offenses,Employed,Middle,Master's degree,Yes,1
+40,19,Female,Black,4,Property damage,Domestic violence,Employed,High,High school diploma,Yes,1
+41,28,Female,Asian,1,Theft,Other,Unemployed,High,Bachelor's degree,No,0
+42,35,Female,Other,1,Assault,Drug offenses,Unemployed,Middle,Bachelor's degree,No,1
+43,32,Female,Black,1,Battery,Other,Employed,Low,High school diploma,Yes,1
+44,33,Male,Asian,3,Assault,Domestic violence,Employed,Low,High school diploma,No,1
+45,60,Male,White,4,Theft,Property theft,Employed,High,High school diploma,No,1
+46,16,Female,Black,2,Battery,Drug offenses,Employed,Middle,Bachelor's degree,No,1
+47,18,Male,White,4,Battery,Drug offenses,Employed,Middle,Master's degree,No,1
+48,35,Female,White,3,Property damage,Domestic violence,Unemployed,High,Master's degree,No,1
+49,61,Male,White,0,Theft,Other,Unemployed,High,Master's degree,Yes,0
+50,32,Female,Asian,1,Property damage,Domestic violence,Unemployed,High,Master's degree,No,0
+51,53,Male,Asian,1,Theft,Domestic violence,Unemployed,High,Master's degree,Yes,0
+52,23,Female,Black,4,Battery,Domestic violence,Employed,High,Master's degree,No,1
+53,39,Female,Black,3,Theft,Other,Employed,Low,High school diploma,Yes,1
+54,45,Female,Other,4,Theft,Other,Unemployed,High,Bachelor's degree,No,1
+55,39,Male,Other,1,Theft,Domestic violence,Employed,Low,Master's degree,Yes,0
+56,45,Female,Asian,0,Assault,Drug offenses,Unemployed,Low,Bachelor's degree,No,1
+57,27,Female,Other,4,Theft,Drug offenses,Employed,Middle,High school diploma,Yes,1
+58,38,Female,Asian,4,Theft,Other,Unemployed,High,Master's degree,Yes,1
+59,34,Female,White,4,Battery,Domestic violence,Employed,High,Bachelor's degree,No,1
+60,53,Male,White,4,Battery,Other,Employed,High,High school diploma,No,1
+61,29,Female,Other,2,Property damage,Drug offenses,Unemployed,Low,Master's degree,No,1
+62,24,Male,Asian,4,Property damage,Drug offenses,Employed,Low,Master's degree,Yes,1
+63,55,Female,Black,3,Battery,Domestic violence,Employed,High,Bachelor's degree,No,1
+64,28,Male,Asian,3,Property damage,Domestic violence,Unemployed,Middle,Master's degree,Yes,1
+65,49,Male,Black,2,Theft,Domestic violence,Unemployed,Middle,High school diploma,Yes,0
+66,64,Female,White,0,Battery,Domestic violence,Unemployed,Middle,High school diploma,No,1
+67,24,Male,Asian,4,Theft,Other,Unemployed,Low,High school diploma,Yes,1
+68,28,Female,Black,4,Battery,Property theft,Employed,High,Master's degree,No,1
+69,33,Female,Black,1,Property damage,Drug offenses,Unemployed,Middle,Bachelor's degree,Yes,0
+70,31,Male,Asian,1,Battery,Property theft,Employed,Middle,Bachelor's degree,Yes,1
+71,32,Female,Asian,1,Assault,Property theft,Employed,High,Master's degree,No,1
+72,53,Female,Other,0,Battery,Other,Employed,Middle,High school diploma,No,1
+73,38,Male,Other,2,Theft,Other,Unemployed,High,Master's degree,No,0
+74,27,Female,Asian,3,Battery,Domestic violence,Unemployed,Middle,Master's degree,Yes,1
+75,22,Male,Asian,4,Property damage,Drug offenses,Employed,Low,Master's degree,No,1
+76,50,Female,Asian,3,Theft,Drug offenses,Unemployed,High,Master's degree,Yes,1
+77,63,Male,Black,4,Assault,Other,Employed,Low,Master's degree,No,1
+78,29,Female,Black,4,Assault,Property theft,Employed,Middle,High school diploma,Yes,1
+79,45,Male,Black,4,Property damage,Other,Employed,High,High school diploma,No,1
+80,29,Male,Other,0,Assault,Drug offenses,Unemployed,Middle,Bachelor's degree,No,1
+81,31,Male,Black,1,Theft,Property theft,Unemployed,High,Master's degree,No,0
+82,21,Female,Asian,0,Assault,Other,Unemployed,Low,Master's degree,No,1
+83,44,Male,Asian,0,Property damage,Property theft,Unemployed,High,Master's degree,Yes,0
+84,29,Female,Black,0,Battery,Other,Employed,Middle,High school diploma,No,1
+85,24,Female,Other,1,Battery,Other,Unemployed,Low,High school diploma,No,1
+86,50,Female,White,1,Battery,Other,Unemployed,Middle,Master's degree,Yes,1
+87,30,Male,Black,0,Assault,Property theft,Employed,Low,Bachelor's degree,No,1
+88,62,Male,Other,2,Battery,Property theft,Unemployed,High,Bachelor's degree,No,1
+89,56,Male,Asian,3,Assault,Domestic violence,Employed,High,Bachelor's degree,Yes,1
+90,38,Male,Black,3,Theft,Property theft,Employed,High,High school diploma,Yes,1
+91,35,Female,White,2,Theft,Property theft,Unemployed,Middle,High school diploma,Yes,0
+92,49,Female,Other,2,Theft,Other,Unemployed,Middle,Master's degree,Yes,0
+93,63,Female,White,0,Battery,Property theft,Unemployed,Middle,High school diploma,Yes,1
+94,24,Male,Other,1,Battery,Property theft,Employed,Middle,High school diploma,Yes,1
+95,52,Male,Asian,0,Assault,Other,Employed,Middle,High school diploma,Yes,1
+96,38,Male,Black,0,Battery,Property theft,Employed,High,Master's degree,No,1
+97,49,Male,Asian,4,Assault,Property theft,Unemployed,Middle,High school diploma,Yes,1
+98,20,Female,Black,1,Assault,Domestic violence,Unemployed,High,High school diploma,Yes,1
+99,19,Male,Other,3,Property damage,Other,Unemployed,High,Bachelor's degree,Yes,1
+100,63,Male,Other,0,Property damage,Drug offenses,Employed,High,Bachelor's degree,Yes,0
+101,43,Male,Black,0,Battery,Domestic violence,Employed,Middle,Master's degree,No,1
+102,16,Female,White,4,Battery,Property theft,Employed,Middle,Master's degree,No,1
+103,45,Male,Black,4,Theft,Drug offenses,Employed,Middle,High school diploma,Yes,1
+104,23,Male,Black,3,Property damage,Domestic violence,Unemployed,High,Master's degree,No,1
+105,62,Female,Black,3,Theft,Drug offenses,Employed,Middle,High school diploma,No,1
+106,40,Male,Other,1,Property damage,Property theft,Unemployed,Middle,High school diploma,No,1
+107,54,Male,Asian,0,Property damage,Drug offenses,Unemployed,High,High school diploma,Yes,0
+108,21,Male,White,4,Theft,Drug offenses,Unemployed,Middle,Master's degree,No,1
+109,46,Male,Other,0,Property damage,Drug offenses,Unemployed,High,Bachelor's degree,Yes,0
+110,61,Female,Asian,4,Assault,Other,Employed,Low,Bachelor's degree,Yes,1
+111,46,Male,White,0,Battery,Property theft,Unemployed,Middle,Bachelor's degree,No,1
+112,25,Female,Asian,1,Theft,Drug offenses,Employed,Middle,Bachelor's degree,No,0
+113,17,Female,White,0,Property damage,Other,Employed,Low,Master's degree,Yes,0
+114,34,Male,Asian,0,Battery,Property theft,Unemployed,Middle,High school diploma,Yes,1
+115,27,Female,White,0,Property damage,Domestic violence,Employed,Middle,Bachelor's degree,No,0
+116,30,Male,White,2,Battery,Property theft,Unemployed,Low,High school diploma,No,1
+117,45,Female,Other,0,Assault,Other,Unemployed,High,High school diploma,No,1
+118,57,Male,White,4,Assault,Other,Unemployed,High,Master's degree,Yes,1
+119,25,Female,Other,2,Battery,Other,Employed,High,Bachelor's degree,Yes,1
+120,59,Female,Asian,3,Theft,Domestic violence,Unemployed,Middle,Bachelor's degree,Yes,1
+121,25,Male,White,1,Property damage,Drug offenses,Employed,Middle,Master's degree,No,0
+122,61,Female,Black,3,Battery,Drug offenses,Unemployed,Low,High school diploma,Yes,1
+123,39,Male,Other,2,Assault,Other,Employed,Middle,Bachelor's degree,No,1
+124,56,Female,Asian,0,Theft,Property theft,Unemployed,High,Bachelor's degree,No,0
+125,39,Female,White,0,Assault,Drug offenses,Unemployed,Low,Bachelor's degree,No,1
+126,16,Male,Black,4,Theft,Drug offenses,Employed,Middle,Bachelor's degree,No,1
+127,62,Male,Other,1,Battery,Other,Unemployed,Middle,Bachelor's degree,Yes,1
+128,34,Male,Asian,1,Theft,Drug offenses,Unemployed,Low,Bachelor's degree,No,1
+129,47,Female,White,1,Assault,Other,Employed,High,Master's degree,Yes,1
+130,28,Female,Black,4,Battery,Property theft,Employed,Middle,Bachelor's degree,Yes,1
+131,27,Female,Black,3,Assault,Drug offenses,Employed,Low,Bachelor's degree,No,1
+132,50,Male,White,4,Property damage,Drug offenses,Employed,Middle,High school diploma,No,1
+133,64,Female,White,3,Assault,Domestic violence,Unemployed,Middle,High school diploma,No,1
+134,44,Female,Black,1,Assault,Property theft,Unemployed,High,Master's degree,Yes,1
+135,27,Female,Asian,0,Theft,Domestic violence,Unemployed,Middle,Master's degree,No,0
+136,44,Female,White,3,Battery,Other,Employed,High,High school diploma,No,1
+137,59,Female,Other,0,Theft,Property theft,Unemployed,Low,Bachelor's degree,No,1
+138,20,Female,White,3,Theft,Drug offenses,Employed,High,Bachelor's degree,Yes,1
+139,47,Female,White,3,Assault,Domestic violence,Employed,Middle,High school diploma,Yes,1
+140,47,Female,White,0,Assault,Other,Employed,Low,Master's degree,No,1
+141,16,Female,Black,2,Battery,Property theft,Employed,Low,High school diploma,No,1
+142,52,Male,Other,1,Assault,Domestic violence,Unemployed,Middle,Bachelor's degree,Yes,1
+143,21,Female,Asian,0,Assault,Property theft,Unemployed,High,High school diploma,Yes,1
+144,42,Female,Asian,2,Battery,Other,Unemployed,High,High school diploma,Yes,1
+145,19,Female,White,1,Assault,Domestic violence,Employed,Low,Bachelor's degree,Yes,1
+146,54,Male,Other,1,Property damage,Domestic violence,Unemployed,High,Master's degree,No,0
+147,58,Male,Black,4,Assault,Other,Unemployed,High,High school diploma,Yes,1
+148,25,Male,Asian,1,Property damage,Drug offenses,Unemployed,High,High school diploma,Yes,0
+149,33,Male,Black,0,Battery,Other,Employed,High,Master's degree,No,1
+150,40,Female,Other,2,Battery,Drug offenses,Unemployed,High,Master's degree,Yes,1
+151,55,Male,Asian,1,Assault,Drug offenses,Unemployed,Middle,Master's degree,Yes,1
+152,16,Female,Asian,4,Property damage,Drug offenses,Employed,High,High school diploma,Yes,1
+153,31,Male,Other,3,Property damage,Property theft,Unemployed,Middle,Bachelor's degree,Yes,1
+154,48,Male,Other,4,Assault,Property theft,Unemployed,Low,Bachelor's degree,Yes,1
+155,29,Female,Black,4,Assault,Drug offenses,Employed,Middle,Master's degree,No,1
+156,45,Male,White,4,Theft,Other,Employed,High,High school diploma,No,1
+157,27,Male,Other,1,Property damage,Drug offenses,Unemployed,Low,High school diploma,Yes,1
+158,38,Female,Other,2,Theft,Property theft,Employed,Middle,High school diploma,No,1
+159,63,Female,White,0,Theft,Drug offenses,Employed,High,Bachelor's degree,Yes,0
+160,27,Male,White,4,Property damage,Property theft,Employed,High,Master's degree,Yes,1
+161,27,Female,White,0,Assault,Other,Unemployed,Middle,High school diploma,No,1
+162,47,Male,Asian,1,Property damage,Other,Employed,Low,Bachelor's degree,No,0
+163,32,Male,Asian,0,Assault,Drug offenses,Employed,High,High school diploma,Yes,1
+164,58,Male,Other,4,Property damage,Drug offenses,Employed,Middle,High school diploma,Yes,1
+165,31,Female,Black,0,Battery,Property theft,Unemployed,Low,Master's degree,No,1
+166,59,Female,Other,4,Assault,Property theft,Unemployed,Middle,Master's degree,No,1
+167,44,Female,Asian,0,Theft,Drug offenses,Unemployed,Middle,Bachelor's degree,Yes,0
+168,19,Male,Black,2,Theft,Other,Employed,Middle,High school diploma,Yes,0
+169,23,Male,White,0,Battery,Other,Unemployed,Low,High school diploma,Yes,1
+170,24,Female,Other,0,Battery,Property theft,Unemployed,High,Master's degree,No,1
+171,36,Female,Other,4,Assault,Property theft,Employed,Low,High school diploma,Yes,1
+172,56,Female,Black,4,Theft,Domestic violence,Unemployed,Low,Master's degree,Yes,1
+173,17,Female,Other,3,Property damage,Domestic violence,Employed,Middle,High school diploma,Yes,1
+174,59,Female,Other,1,Property damage,Drug offenses,Unemployed,Middle,High school diploma,No,1
+175,51,Male,Asian,0,Battery,Property theft,Employed,High,Master's degree,Yes,1
+176,28,Female,Other,1,Battery,Drug offenses,Employed,High,Bachelor's degree,No,1
+177,64,Male,Other,1,Property damage,Property theft,Employed,Low,Bachelor's degree,No,0
+178,23,Female,White,3,Battery,Drug offenses,Unemployed,Middle,High school diploma,Yes,1
+179,58,Female,White,3,Assault,Property theft,Unemployed,High,High school diploma,No,1
+180,55,Female,Other,4,Property damage,Property theft,Employed,Low,High school diploma,No,1
+181,46,Female,Asian,4,Theft,Drug offenses,Employed,Middle,Master's degree,No,1
+182,39,Male,Black,4,Theft,Other,Unemployed,Low,Bachelor's degree,No,1
+183,17,Female,Other,2,Theft,Domestic violence,Employed,Low,Master's degree,No,0
+184,40,Female,White,1,Theft,Other,Unemployed,Middle,High school diploma,No,1
+185,51,Female,White,2,Theft,Drug offenses,Unemployed,Middle,Bachelor's degree,No,0
+186,39,Female,White,4,Theft,Drug offenses,Unemployed,Middle,Bachelor's degree,No,1
+187,44,Male,Other,4,Battery,Domestic violence,Unemployed,Middle,Master's degree,Yes,1
+188,16,Female,Asian,4,Property damage,Drug offenses,Unemployed,High,High school diploma,No,1
+189,32,Male,Black,0,Battery,Domestic violence,Employed,High,High school diploma,Yes,1
+190,32,Female,Asian,4,Battery,Domestic violence,Unemployed,High,Master's degree,Yes,1
+191,46,Male,Asian,4,Property damage,Other,Unemployed,High,Master's degree,No,1
+192,37,Male,Asian,3,Battery,Domestic violence,Employed,Middle,Master's degree,Yes,1
+193,24,Male,White,3,Battery,Other,Unemployed,High,Bachelor's degree,No,1
+194,51,Female,Asian,3,Theft,Drug offenses,Employed,Low,High school diploma,No,1
+195,63,Male,Other,1,Battery,Other,Employed,Middle,Bachelor's degree,No,1
+196,51,Male,Other,2,Property damage,Drug offenses,Employed,High,Bachelor's degree,Yes,0
+197,23,Male,Asian,1,Property damage,Drug offenses,Unemployed,Middle,Bachelor's degree,Yes,0
+198,33,Female,White,0,Property damage,Domestic violence,Unemployed,Middle,Bachelor's degree,No,0
+199,60,Male,Other,4,Theft,Property theft,Unemployed,Low,High school diploma,No,1
+200,50,Male,Other,1,Battery,Property theft,Employed,Low,Master's degree,No,1
+201,55,Female,Asian,0,Property damage,Drug offenses,Unemployed,High,High school diploma,No,1
+202,37,Male,Asian,0,Theft,Property theft,Unemployed,Middle,Master's degree,No,0
+203,46,Male,Asian,3,Assault,Other,Unemployed,Middle,High school diploma,Yes,1
+204,31,Female,Black,2,Battery,Drug offenses,Employed,High,High school diploma,No,1
+205,26,Male,White,2,Battery,Domestic violence,Unemployed,Low,Bachelor's degree,Yes,1
+206,37,Male,Asian,2,Property damage,Drug offenses,Employed,Middle,Master's degree,Yes,0
+207,50,Female,Asian,2,Property damage,Drug offenses,Employed,Low,Bachelor's degree,Yes,0
+208,23,Male,Black,4,Property damage,Property theft,Unemployed,High,Bachelor's degree,Yes,1
+209,22,Female,White,2,Battery,Property theft,Unemployed,Middle,Master's degree,No,1
+210,44,Female,Asian,0,Property damage,Drug offenses,Unemployed,Middle,Bachelor's degree,No,0
+211,26,Male,White,4,Theft,Drug offenses,Unemployed,Middle,High school diploma,No,1
+212,41,Female,Other,1,Assault,Other,Unemployed,Middle,Master's degree,No,1
+213,40,Male,Asian,4,Battery,Drug offenses,Unemployed,High,High school diploma,No,1
+214,23,Male,Black,2,Battery,Property theft,Unemployed,Low,Master's degree,No,1
+215,29,Female,Other,3,Property damage,Domestic violence,Employed,Low,Master's degree,Yes,1
+216,45,Female,Other,1,Battery,Domestic violence,Employed,High,Master's degree,Yes,1
+217,36,Male,Asian,1,Property damage,Other,Unemployed,Low,High school diploma,Yes,1
+218,33,Male,Black,4,Battery,Property theft,Employed,High,High school diploma,No,1
+219,28,Male,White,3,Theft,Domestic violence,Unemployed,Low,High school diploma,No,1
+220,62,Male,Asian,0,Assault,Property theft,Unemployed,High,Master's degree,Yes,1
+221,55,Male,White,0,Battery,Domestic violence,Employed,Low,Bachelor's degree,No,1
+222,26,Female,Other,4,Assault,Drug offenses,Employed,Low,Master's degree,Yes,1
+223,45,Female,White,4,Theft,Property theft,Unemployed,Middle,Bachelor's degree,No,1
+224,55,Male,Asian,1,Assault,Property theft,Unemployed,High,Master's degree,Yes,1
+225,53,Female,Black,2,Property damage,Domestic violence,Employed,Middle,Bachelor's degree,Yes,0
+226,49,Male,White,4,Property damage,Other,Employed,Middle,Bachelor's degree,Yes,1
+227,28,Female,Black,1,Property damage,Drug offenses,Unemployed,Low,Bachelor's degree,Yes,1
+228,40,Female,Black,4,Battery,Other,Employed,High,High school diploma,No,1
+229,22,Male,Asian,1,Battery,Domestic violence,Employed,Middle,Master's degree,No,1
+230,41,Male,White,2,Battery,Domestic violence,Unemployed,High,High school diploma,No,1
+231,36,Male,Other,0,Assault,Domestic violence,Employed,Middle,Master's degree,Yes,1
+232,33,Male,Asian,3,Theft,Other,Unemployed,High,Master's degree,No,1
+233,49,Male,White,2,Assault,Domestic violence,Unemployed,Middle,Master's degree,Yes,1
+234,28,Female,White,0,Theft,Property theft,Unemployed,High,Master's degree,No,0
+235,46,Male,Other,3,Theft,Other,Unemployed,Middle,Master's degree,No,1
+236,50,Female,White,1,Theft,Drug offenses,Unemployed,Middle,High school diploma,No,1
+237,18,Female,Asian,4,Assault,Other,Employed,Middle,Bachelor's degree,No,1
+238,64,Male,Black,1,Property damage,Other,Employed,Low,High school diploma,No,1
+239,52,Male,Black,0,Battery,Other,Unemployed,Low,Bachelor's degree,Yes,1
+240,29,Female,White,1,Battery,Other,Employed,High,Master's degree,Yes,1
+241,19,Male,White,4,Assault,Drug offenses,Employed,Middle,Master's degree,Yes,1
+242,26,Male,Black,1,Theft,Property theft,Employed,Low,High school diploma,Yes,0
+243,54,Male,Other,0,Battery,Other,Employed,Middle,Master's degree,Yes,1
+244,32,Female,White,1,Battery,Other,Unemployed,Middle,Master's degree,Yes,1
+245,27,Female,Black,4,Property damage,Other,Unemployed,High,Bachelor's degree,Yes,1
+246,26,Female,Other,0,Property damage,Drug offenses,Employed,Low,Master's degree,Yes,0
+247,34,Male,Other,4,Property damage,Property theft,Unemployed,Middle,Bachelor's degree,Yes,1
+248,58,Female,White,2,Theft,Property theft,Unemployed,Low,High school diploma,Yes,1
+249,52,Male,White,1,Theft,Domestic violence,Unemployed,Low,High school diploma,Yes,1
+250,49,Female,Other,1,Theft,Other,Unemployed,Middle,High school diploma,Yes,0
+251,40,Female,Asian,3,Battery,Domestic violence,Unemployed,High,Bachelor's degree,No,1
+252,44,Female,Black,1,Battery,Domestic violence,Employed,Low,Master's degree,No,1
+253,35,Male,Asian,4,Property damage,Property theft,Unemployed,Low,Master's degree,No,1
+254,20,Female,Other,0,Assault,Property theft,Employed,High,Bachelor's degree,Yes,1
+255,61,Female,Black,1,Property damage,Domestic violence,Unemployed,Low,Master's degree,No,1
+256,49,Male,Asian,3,Assault,Drug offenses,Employed,Low,High school diploma,No,1
+257,60,Female,Other,0,Assault,Property theft,Employed,High,Master's degree,Yes,1
+258,43,Male,Asian,0,Battery,Other,Unemployed,High,Bachelor's degree,Yes,1
+259,37,Female,Other,2,Theft,Domestic violence,Employed,High,Master's degree,No,0
+260,61,Male,Black,2,Battery,Other,Employed,Middle,Master's degree,Yes,1
+261,40,Male,Other,1,Assault,Other,Employed,Middle,Master's degree,No,1
+262,54,Female,Other,4,Battery,Domestic violence,Employed,High,Bachelor's degree,Yes,1
+263,42,Female,Black,0,Battery,Drug offenses,Employed,High,Bachelor's degree,No,1
+264,33,Female,Asian,1,Theft,Property theft,Unemployed,Low,Bachelor's degree,Yes,1
+265,49,Female,Black,3,Property damage,Other,Employed,Middle,High school diploma,No,1
+266,32,Female,Other,2,Battery,Other,Employed,Low,High school diploma,No,1
+267,33,Female,Asian,3,Assault,Property theft,Unemployed,High,Master's degree,Yes,1
+268,31,Male,Asian,2,Property damage,Property theft,Unemployed,Middle,Master's degree,No,0
+269,27,Male,White,3,Battery,Drug offenses,Employed,Middle,High school diploma,Yes,1
+270,51,Male,Other,4,Assault,Property theft,Employed,Low,Bachelor's degree,No,1
+271,53,Female,White,1,Assault,Property theft,Unemployed,High,Bachelor's degree,No,1
+272,25,Male,Asian,1,Battery,Property theft,Employed,High,Bachelor's degree,No,1
+273,53,Female,Asian,1,Property damage,Drug offenses,Unemployed,Low,High school diploma,Yes,1
+274,25,Female,Black,2,Theft,Drug offenses,Unemployed,Low,Bachelor's degree,No,1
+275,27,Female,Black,0,Battery,Drug offenses,Unemployed,Middle,High school diploma,Yes,1
+276,47,Female,Asian,2,Battery,Drug offenses,Unemployed,Low,Master's degree,Yes,1
+277,42,Female,Black,2,Assault,Other,Unemployed,High,High school diploma,Yes,1
+278,45,Male,Other,0,Battery,Domestic violence,Employed,Low,Bachelor's degree,Yes,1
+279,19,Male,Other,2,Battery,Drug offenses,Unemployed,High,High school diploma,No,1
+280,21,Male,Black,0,Assault,Other,Unemployed,High,Master's degree,No,1
+281,24,Female,Black,3,Theft,Domestic violence,Unemployed,Middle,High school diploma,Yes,1
+282,62,Male,Asian,4,Assault,Domestic violence,Employed,High,High school diploma,Yes,1
+283,32,Male,Black,1,Property damage,Domestic violence,Employed,High,High school diploma,No,1
+284,64,Male,Other,2,Theft,Other,Unemployed,High,Bachelor's degree,Yes,0
+285,54,Male,Asian,0,Assault,Drug offenses,Employed,High,High school diploma,No,1
+286,30,Female,White,2,Theft,Property theft,Unemployed,Middle,Master's degree,No,0
+287,40,Male,White,2,Battery,Drug offenses,Employed,High,High school diploma,No,1
+288,38,Female,White,1,Battery,Domestic violence,Employed,Low,High school diploma,No,1
+289,43,Female,Asian,4,Assault,Other,Employed,Middle,High school diploma,No,1
+290,27,Female,White,2,Assault,Other,Employed,Low,Master's degree,Yes,1
+291,26,Female,White,0,Property damage,Other,Employed,Low,High school diploma,Yes,0
+292,29,Female,Black,2,Theft,Other,Unemployed,High,Master's degree,No,0
+293,31,Male,Black,4,Assault,Other,Employed,High,Bachelor's degree,Yes,1
+294,38,Male,Asian,3,Property damage,Other,Employed,High,Bachelor's degree,Yes,1
+295,44,Male,White,3,Assault,Drug offenses,Unemployed,Low,Master's degree,Yes,1
+296,37,Male,White,4,Theft,Domestic violence,Unemployed,Low,High school diploma,No,1
+297,37,Male,White,1,Assault,Domestic violence,Unemployed,Low,Bachelor's degree,Yes,1
+298,38,Male,Asian,3,Theft,Other,Unemployed,High,Master's degree,Yes,1
+299,35,Male,Other,4,Battery,Other,Employed,Low,Master's degree,No,1
+300,55,Male,Other,1,Battery,Other,Employed,High,Bachelor's degree,No,1
+301,56,Female,White,4,Theft,Drug offenses,Unemployed,High,Bachelor's degree,Yes,1
+302,58,Male,Other,3,Battery,Drug offenses,Unemployed,Middle,Bachelor's degree,No,1
+303,64,Male,Other,2,Battery,Other,Unemployed,Middle,High school diploma,No,1
+304,53,Male,Asian,4,Theft,Drug offenses,Employed,Low,Bachelor's degree,Yes,1
+305,34,Female,Black,3,Theft,Property theft,Employed,Low,Master's degree,No,1
+306,26,Male,Other,1,Theft,Other,Unemployed,Middle,Bachelor's degree,No,0
+307,51,Male,Asian,2,Theft,Drug offenses,Unemployed,High,High school diploma,No,1
+308,18,Male,Other,4,Battery,Other,Employed,High,High school diploma,Yes,1
+309,59,Male,Other,3,Battery,Drug offenses,Employed,Low,Master's degree,Yes,1
+310,24,Male,Asian,0,Theft,Other,Employed,Low,Bachelor's degree,No,0
+311,31,Male,White,4,Theft,Drug offenses,Unemployed,High,High school diploma,No,1
+312,53,Male,Asian,4,Property damage,Drug offenses,Unemployed,Low,Bachelor's degree,No,1
+313,46,Female,White,0,Property damage,Property theft,Employed,High,High school diploma,Yes,0
+314,20,Female,Other,2,Theft,Other,Unemployed,Low,Bachelor's degree,Yes,1
+315,34,Male,Other,2,Theft,Property theft,Unemployed,High,Bachelor's degree,No,0
+316,35,Female,Asian,2,Assault,Other,Employed,Low,Bachelor's degree,Yes,1
+317,30,Male,Other,0,Battery,Domestic violence,Employed,Low,Master's degree,No,1
+318,56,Male,White,0,Battery,Domestic violence,Employed,High,High school diploma,No,1
+319,36,Female,Other,4,Theft,Domestic violence,Unemployed,High,Master's degree,Yes,1
+320,48,Female,Black,0,Property damage,Domestic violence,Employed,Middle,Bachelor's degree,Yes,0
+321,20,Male,White,1,Property damage,Other,Employed,Low,Master's degree,Yes,0
+322,34,Female,Asian,0,Property damage,Domestic violence,Unemployed,Middle,High school diploma,No,1
+323,63,Male,Black,3,Assault,Other,Unemployed,Middle,High school diploma,No,1
+324,50,Female,Black,4,Property damage,Domestic violence,Employed,High,Master's degree,Yes,1
+325,17,Female,Black,4,Property damage,Property theft,Employed,Middle,High school diploma,Yes,1
+326,38,Female,White,0,Property damage,Other,Employed,High,Bachelor's degree,No,0
+327,64,Male,White,3,Assault,Domestic violence,Unemployed,Middle,Bachelor's degree,No,1
+328,37,Male,Black,4,Theft,Property theft,Employed,Low,Bachelor's degree,No,1
+329,55,Female,Asian,2,Theft,Other,Employed,Low,High school diploma,No,1
+330,59,Female,White,3,Assault,Drug offenses,Employed,Low,Master's degree,Yes,1
+331,35,Male,White,0,Property damage,Drug offenses,Employed,Low,Master's degree,Yes,0
+332,34,Male,Asian,0,Assault,Other,Unemployed,Middle,High school diploma,No,1
+333,52,Female,Black,3,Battery,Other,Employed,Middle,Bachelor's degree,No,1
+334,27,Male,Black,0,Theft,Property theft,Employed,Middle,Bachelor's degree,Yes,0
+335,63,Male,White,2,Theft,Property theft,Employed,Low,Master's degree,Yes,0
+336,56,Male,Black,0,Assault,Property theft,Employed,Low,High school diploma,No,1
+337,57,Male,Black,1,Assault,Other,Employed,Low,High school diploma,Yes,1
+338,23,Male,Black,3,Battery,Drug offenses,Employed,High,High school diploma,Yes,1
+339,27,Female,White,1,Assault,Domestic violence,Employed,Middle,Master's degree,Yes,1
+340,31,Male,White,0,Assault,Other,Unemployed,Middle,High school diploma,No,1
+341,20,Male,Black,2,Battery,Domestic violence,Employed,High,Master's degree,Yes,1
+342,31,Male,Asian,4,Battery,Property theft,Employed,Low,Bachelor's degree,Yes,1
+343,62,Female,Asian,3,Battery,Domestic violence,Unemployed,Low,Master's degree,Yes,1
+344,25,Male,White,0,Property damage,Property theft,Unemployed,Middle,Master's degree,Yes,0
+345,20,Male,Asian,1,Battery,Domestic violence,Unemployed,Low,High school diploma,No,1
+346,26,Female,Asian,1,Battery,Other,Employed,High,High school diploma,No,1
+347,28,Male,Asian,0,Battery,Domestic violence,Unemployed,Low,Master's degree,Yes,1
+348,25,Male,Black,1,Property damage,Other,Unemployed,High,High school diploma,Yes,0
+349,20,Male,Other,1,Assault,Property theft,Unemployed,Low,High school diploma,No,1
+350,63,Male,Black,2,Battery,Drug offenses,Employed,High,Bachelor's degree,Yes,1
+351,33,Male,Asian,4,Theft,Domestic violence,Employed,Low,Master's degree,No,1
+352,33,Female,White,2,Property damage,Domestic violence,Employed,Low,Master's degree,No,0
+353,62,Female,Asian,2,Battery,Domestic violence,Employed,Middle,Bachelor's degree,No,1
+354,20,Male,Other,0,Theft,Property theft,Unemployed,High,Bachelor's degree,No,0
+355,56,Female,Other,4,Battery,Other,Unemployed,Middle,Master's degree,Yes,1
+356,39,Male,Asian,2,Battery,Domestic violence,Unemployed,Low,High school diploma,Yes,1
+357,18,Male,Asian,2,Theft,Other,Employed,Middle,Bachelor's degree,Yes,0
+358,52,Female,Asian,3,Assault,Other,Unemployed,High,Bachelor's degree,No,1
+359,20,Female,Other,4,Assault,Property theft,Unemployed,Middle,Master's degree,No,1
+360,43,Female,White,1,Assault,Domestic violence,Employed,High,Bachelor's degree,No,1
+361,57,Male,Asian,3,Assault,Drug offenses,Unemployed,High,Master's degree,No,1
+362,41,Female,Black,4,Assault,Domestic violence,Unemployed,Low,Master's degree,Yes,1
+363,64,Male,Black,2,Assault,Other,Unemployed,Low,Bachelor's degree,No,1
+364,27,Male,Other,1,Theft,Drug offenses,Unemployed,High,High school diploma,No,1
+365,37,Male,White,2,Assault,Domestic violence,Unemployed,High,High school diploma,Yes,1
+366,58,Female,Asian,1,Battery,Property theft,Unemployed,Middle,Bachelor's degree,Yes,1
+367,56,Female,Asian,4,Theft,Property theft,Employed,Low,High school diploma,Yes,1
+368,37,Female,White,1,Battery,Property theft,Employed,High,Bachelor's degree,Yes,1
+369,57,Female,Asian,3,Assault,Domestic violence,Unemployed,Middle,High school diploma,No,1
+370,46,Female,Other,3,Property damage,Property theft,Unemployed,Low,High school diploma,No,1
+371,47,Female,Other,0,Theft,Drug offenses,Employed,Middle,High school diploma,No,1
+372,21,Female,Black,0,Assault,Domestic violence,Unemployed,Middle,Bachelor's degree,No,1
+373,41,Male,Other,0,Assault,Other,Unemployed,High,High school diploma,No,1
+374,50,Female,White,4,Battery,Property theft,Employed,Middle,Bachelor's degree,No,1
+375,60,Female,White,0,Property damage,Drug offenses,Unemployed,Low,Master's degree,No,1
+376,55,Male,White,1,Theft,Other,Unemployed,High,High school diploma,Yes,0
+377,29,Male,Asian,0,Assault,Property theft,Employed,High,Bachelor's degree,No,1
+378,40,Male,Black,4,Assault,Drug offenses,Unemployed,High,High school diploma,No,1
+379,52,Female,Asian,2,Assault,Property theft,Unemployed,Middle,Master's degree,Yes,1
+380,33,Male,Asian,3,Assault,Property theft,Employed,Low,Bachelor's degree,Yes,1
+381,32,Male,White,1,Property damage,Drug offenses,Employed,Low,Master's degree,Yes,0
+382,43,Female,Other,0,Theft,Domestic violence,Unemployed,Low,High school diploma,No,1
+383,26,Male,Black,0,Assault,Property theft,Employed,Middle,Master's degree,No,1
+384,16,Male,Other,0,Property damage,Domestic violence,Unemployed,Middle,Master's degree,Yes,0
+385,30,Female,Other,0,Property damage,Other,Unemployed,Middle,Master's degree,No,0
+386,39,Male,Other,4,Battery,Drug offenses,Employed,Low,High school diploma,Yes,1
+387,24,Male,Other,3,Battery,Other,Unemployed,Middle,Master's degree,No,1
+388,51,Male,White,2,Assault,Domestic violence,Employed,High,Bachelor's degree,No,1
+389,51,Female,Black,2,Assault,Other,Unemployed,Middle,Bachelor's degree,Yes,1
+390,37,Male,Other,0,Battery,Domestic violence,Unemployed,Low,Bachelor's degree,Yes,1
+391,16,Male,White,1,Battery,Drug offenses,Employed,Middle,High school diploma,No,1
+392,40,Female,Other,0,Theft,Other,Employed,High,Bachelor's degree,No,0
+393,31,Male,Asian,2,Assault,Domestic violence,Unemployed,Middle,High school diploma,Yes,1
+394,50,Female,Black,2,Theft,Property theft,Employed,Middle,High school diploma,Yes,0
+395,32,Female,Other,4,Property damage,Other,Unemployed,High,High school diploma,Yes,1
+396,28,Male,Asian,4,Assault,Other,Unemployed,Low,Bachelor's degree,No,1
+397,48,Male,Asian,0,Assault,Property theft,Employed,Middle,Master's degree,Yes,1
+398,61,Male,Asian,3,Assault,Other,Unemployed,Low,Master's degree,Yes,1
+399,28,Female,Other,1,Battery,Other,Unemployed,Low,Bachelor's degree,No,1
+400,30,Male,White,0,Property damage,Domestic violence,Unemployed,Middle,High school diploma,No,1
+401,60,Male,Asian,3,Battery,Drug offenses,Employed,Middle,Bachelor's degree,No,1
+402,39,Male,Other,3,Battery,Domestic violence,Unemployed,Middle,Master's degree,Yes,1
+403,49,Female,White,0,Property damage,Property theft,Employed,High,Master's degree,Yes,0
+404,40,Female,Asian,4,Assault,Drug offenses,Employed,Middle,Bachelor's degree,Yes,1
+405,40,Male,White,3,Property damage,Other,Unemployed,Low,Bachelor's degree,Yes,1
+406,41,Male,Black,1,Battery,Domestic violence,Unemployed,Low,High school diploma,Yes,1
+407,26,Female,White,1,Property damage,Other,Unemployed,Low,Master's degree,Yes,1
+408,44,Female,Other,1,Theft,Drug offenses,Unemployed,Middle,High school diploma,No,1
+409,19,Male,Other,1,Theft,Domestic violence,Employed,Low,High school diploma,Yes,0
+410,34,Male,Black,1,Property damage,Domestic violence,Employed,Middle,Master's degree,No,0
+411,55,Female,Asian,2,Battery,Drug offenses,Unemployed,Low,Master's degree,No,1
+412,42,Female,Other,0,Assault,Domestic violence,Unemployed,High,Master's degree,No,1
+413,34,Male,White,4,Battery,Domestic violence,Employed,Middle,Bachelor's degree,Yes,1
+414,19,Male,Other,3,Theft,Domestic violence,Employed,High,High school diploma,Yes,1
+415,59,Female,Black,2,Battery,Drug offenses,Employed,Middle,High school diploma,No,1
+416,49,Male,Asian,3,Assault,Property theft,Unemployed,Low,Bachelor's degree,Yes,1
+417,23,Male,Asian,3,Property damage,Domestic violence,Employed,High,High school diploma,No,1
+418,34,Male,White,0,Theft,Property theft,Employed,High,High school diploma,No,1
+419,43,Female,Asian,4,Property damage,Domestic violence,Unemployed,Middle,High school diploma,No,1
+420,26,Male,Black,2,Property damage,Drug offenses,Unemployed,Middle,High school diploma,Yes,0
+421,47,Female,White,1,Theft,Drug offenses,Unemployed,High,High school diploma,Yes,0
+422,33,Female,Asian,4,Battery,Property theft,Unemployed,Low,High school diploma,Yes,1
+423,60,Female,Other,2,Battery,Drug offenses,Employed,Low,Master's degree,No,1
+424,25,Female,Asian,2,Battery,Domestic violence,Employed,High,Bachelor's degree,No,1
+425,36,Female,Black,1,Property damage,Property theft,Employed,High,Master's degree,No,0
+426,25,Male,Black,3,Theft,Drug offenses,Unemployed,Middle,Bachelor's degree,No,1
+427,51,Male,Other,0,Property damage,Property theft,Unemployed,High,Bachelor's degree,Yes,0
+428,55,Female,White,3,Assault,Property theft,Employed,Middle,High school diploma,No,1
+429,47,Male,White,4,Assault,Drug offenses,Employed,High,Master's degree,No,1
+430,40,Female,Other,2,Theft,Domestic violence,Unemployed,Low,Bachelor's degree,No,1
+431,38,Male,White,3,Property damage,Domestic violence,Employed,Low,Master's degree,Yes,1
+432,16,Female,Black,4,Battery,Property theft,Unemployed,High,Master's degree,No,1
+433,46,Female,Black,0,Theft,Other,Employed,Low,Bachelor's degree,No,0
+434,63,Male,Other,4,Theft,Other,Employed,High,Master's degree,No,1
+435,21,Female,Asian,1,Assault,Property theft,Employed,Middle,High school diploma,Yes,1
+436,62,Female,Asian,3,Theft,Other,Unemployed,Middle,High school diploma,No,1
+437,47,Male,Asian,0,Assault,Drug offenses,Unemployed,Middle,Bachelor's degree,No,1
+438,36,Female,Other,0,Theft,Domestic violence,Employed,Low,Master's degree,Yes,0
+439,29,Male,Asian,1,Theft,Drug offenses,Unemployed,Middle,Master's degree,No,0
+440,22,Male,Asian,0,Theft,Property theft,Employed,High,Bachelor's degree,Yes,0
+441,58,Male,Black,1,Property damage,Other,Employed,Middle,Master's degree,Yes,0
+442,50,Male,Other,3,Property damage,Property theft,Unemployed,High,Master's degree,Yes,1
+443,37,Male,Other,1,Assault,Drug offenses,Unemployed,Middle,High school diploma,No,1
+444,42,Male,Black,2,Theft,Drug offenses,Employed,Middle,High school diploma,No,1
+445,39,Female,Other,3,Battery,Drug offenses,Unemployed,Low,High school diploma,No,1
+446,26,Male,White,0,Battery,Other,Employed,Middle,Master's degree,Yes,1
+447,60,Female,White,4,Battery,Property theft,Unemployed,Low,Master's degree,Yes,1
+448,41,Female,Asian,3,Battery,Domestic violence,Employed,High,Bachelor's degree,Yes,1
+449,31,Female,Other,1,Theft,Drug offenses,Employed,High,Bachelor's degree,No,0
+450,63,Female,Other,3,Property damage,Property theft,Employed,High,High school diploma,No,1
+451,24,Female,White,0,Battery,Drug offenses,Employed,High,High school diploma,Yes,1
+452,36,Male,Asian,3,Property damage,Other,Employed,Middle,Master's degree,No,1
+453,51,Male,Black,0,Theft,Domestic violence,Employed,Low,Bachelor's degree,No,0
+454,63,Male,White,4,Property damage,Property theft,Employed,Low,High school diploma,Yes,1
+455,22,Male,Black,3,Theft,Domestic violence,Employed,Low,Bachelor's degree,Yes,1
+456,60,Male,Asian,2,Assault,Other,Employed,High,Bachelor's degree,No,1
+457,58,Female,Asian,1,Battery,Domestic violence,Employed,High,Bachelor's degree,No,1
+458,27,Male,Asian,3,Assault,Property theft,Employed,High,Bachelor's degree,No,1
+459,60,Female,Black,0,Assault,Other,Employed,High,Bachelor's degree,No,1
+460,58,Male,White,0,Assault,Other,Employed,Low,Master's degree,Yes,1
+461,44,Female,Asian,0,Assault,Domestic violence,Employed,Middle,Bachelor's degree,No,1
+462,40,Male,Black,3,Assault,Drug offenses,Employed,Middle,Master's degree,No,1
+463,35,Male,White,2,Property damage,Drug offenses,Unemployed,Middle,Bachelor's degree,No,0
+464,61,Female,Other,3,Assault,Property theft,Unemployed,High,Bachelor's degree,Yes,1
+465,39,Male,Asian,1,Theft,Domestic violence,Employed,High,Bachelor's degree,Yes,0
+466,32,Female,Black,0,Property damage,Drug offenses,Employed,Middle,Bachelor's degree,Yes,0
+467,63,Female,Other,4,Theft,Other,Employed,Middle,Master's degree,Yes,1
+468,51,Male,Black,2,Theft,Drug offenses,Unemployed,High,Master's degree,No,0
+469,35,Female,Asian,0,Assault,Drug offenses,Employed,Middle,Bachelor's degree,No,1
+470,41,Male,White,4,Property damage,Domestic violence,Employed,Low,High school diploma,Yes,1
+471,58,Male,Asian,1,Assault,Drug offenses,Unemployed,High,Master's degree,Yes,1
+472,55,Male,Asian,1,Property damage,Domestic violence,Unemployed,Middle,Bachelor's degree,Yes,0
+473,54,Female,Black,3,Assault,Domestic violence,Employed,Middle,Master's degree,No,1
+474,56,Male,White,2,Battery,Other,Unemployed,High,Bachelor's degree,Yes,1
+475,29,Female,White,4,Theft,Property theft,Employed,Middle,Bachelor's degree,No,1
+476,59,Female,Other,3,Property damage,Drug offenses,Employed,Middle,Master's degree,Yes,1
+477,19,Female,White,1,Theft,Other,Employed,Low,High school diploma,No,1
+478,17,Female,Other,2,Theft,Domestic violence,Unemployed,High,High school diploma,Yes,0
+479,58,Female,Asian,0,Property damage,Drug offenses,Unemployed,Low,Master's degree,No,1
+480,23,Female,Black,3,Theft,Drug offenses,Unemployed,Middle,Bachelor's degree,No,1
+481,62,Male,White,1,Property damage,Property theft,Employed,High,Master's degree,No,0
+482,42,Male,Other,2,Property damage,Domestic violence,Unemployed,Low,High school diploma,Yes,1
+483,34,Male,White,3,Assault,Domestic violence,Unemployed,Middle,High school diploma,Yes,1
+484,43,Female,Black,0,Theft,Drug offenses,Employed,Low,Master's degree,Yes,0
+485,61,Female,White,0,Theft,Other,Employed,Middle,Master's degree,No,0
+486,53,Female,Other,1,Assault,Other,Employed,High,High school diploma,No,1
+487,30,Female,Other,0,Theft,Drug offenses,Employed,Low,Master's degree,Yes,0
+488,58,Male,Other,4,Battery,Property theft,Unemployed,Low,Master's degree,Yes,1
+489,57,Male,Other,0,Theft,Property theft,Unemployed,Low,High school diploma,No,1
+490,49,Male,Other,2,Property damage,Domestic violence,Unemployed,High,Master's degree,No,0
+491,38,Female,Other,0,Battery,Other,Employed,Low,Master's degree,No,1
+492,20,Female,Other,4,Theft,Domestic violence,Employed,Low,High school diploma,Yes,1
+493,53,Female,Asian,0,Property damage,Other,Unemployed,Low,High school diploma,No,1
+494,60,Female,Black,0,Property damage,Other,Unemployed,High,High school diploma,Yes,0
+495,57,Male,Asian,1,Theft,Other,Unemployed,High,Bachelor's degree,Yes,0
+496,61,Male,Other,1,Property damage,Property theft,Unemployed,Middle,Master's degree,Yes,0
+497,27,Female,Other,2,Battery,Property theft,Employed,Middle,Master's degree,No,1
+498,47,Male,Black,0,Property damage,Domestic violence,Unemployed,Middle,Bachelor's degree,Yes,0
+499,54,Female,Black,0,Battery,Other,Employed,High,Bachelor's degree,Yes,1
+500,16,Male,Asian,1,Battery,Domestic violence,Unemployed,Middle,High school diploma,No,1
+501,22,Female,Black,0,Assault,Other,Unemployed,Middle,Bachelor's degree,Yes,1
+502,27,Female,Black,0,Assault,Drug offenses,Employed,Middle,High school diploma,Yes,1
+503,57,Male,Asian,4,Property damage,Other,Employed,Low,Bachelor's degree,Yes,1
+504,56,Female,Other,4,Battery,Drug offenses,Employed,Low,High school diploma,No,1
+505,21,Female,Other,1,Battery,Drug offenses,Employed,Middle,High school diploma,No,1
+506,27,Male,White,3,Battery,Other,Unemployed,High,Bachelor's degree,No,1
+507,48,Male,Asian,0,Theft,Drug offenses,Unemployed,Low,High school diploma,No,1
+508,59,Male,Black,0,Theft,Domestic violence,Unemployed,Low,Bachelor's degree,Yes,1
+509,42,Female,White,0,Property damage,Other,Unemployed,High,High school diploma,Yes,0
+510,31,Female,Black,1,Assault,Domestic violence,Unemployed,High,Bachelor's degree,Yes,1
+511,38,Male,White,3,Theft,Other,Unemployed,Middle,High school diploma,No,1
+512,53,Male,White,4,Battery,Drug offenses,Unemployed,Middle,High school diploma,Yes,1
+513,43,Male,Black,4,Property damage,Property theft,Unemployed,Low,High school diploma,No,1
+514,26,Female,Asian,0,Assault,Domestic violence,Unemployed,Low,Bachelor's degree,Yes,1
+515,16,Female,White,0,Property damage,Domestic violence,Unemployed,Middle,Bachelor's degree,No,0
+516,64,Female,White,0,Battery,Domestic violence,Unemployed,Low,High school diploma,No,1
+517,42,Female,White,2,Theft,Property theft,Unemployed,Low,Bachelor's degree,No,1
+518,56,Male,White,3,Assault,Other,Employed,High,Master's degree,No,1
+519,17,Male,White,2,Theft,Domestic violence,Unemployed,Low,High school diploma,Yes,1
+520,18,Female,Other,3,Battery,Drug offenses,Employed,High,High school diploma,No,1
+521,29,Female,Black,0,Assault,Drug offenses,Employed,Middle,High school diploma,No,1
+522,38,Female,Black,1,Theft,Property theft,Unemployed,Middle,Bachelor's degree,No,0
+523,55,Female,Black,0,Battery,Drug offenses,Unemployed,Middle,Master's degree,Yes,1
+524,35,Female,White,3,Battery,Other,Unemployed,Low,High school diploma,No,1
+525,27,Male,Other,0,Theft,Drug offenses,Unemployed,Low,Bachelor's degree,No,1
+526,49,Female,Other,2,Battery,Property theft,Employed,Middle,Master's degree,No,1
+527,52,Male,White,1,Battery,Property theft,Unemployed,Middle,Master's degree,Yes,1
+528,64,Female,Asian,0,Theft,Drug offenses,Employed,High,Master's degree,No,0
+529,50,Female,Black,4,Property damage,Drug offenses,Employed,High,Bachelor's degree,No,1
+530,34,Male,Black,2,Theft,Drug offenses,Employed,High,High school diploma,Yes,0
+531,32,Female,Other,0,Assault,Property theft,Employed,Low,High school diploma,No,1
+532,62,Male,Other,3,Property damage,Drug offenses,Employed,Low,Bachelor's degree,No,1
+533,50,Male,Other,0,Assault,Domestic violence,Employed,Low,Master's degree,No,1
+534,50,Female,Asian,2,Battery,Domestic violence,Unemployed,High,Master's degree,No,1
+535,41,Male,Other,0,Assault,Property theft,Unemployed,High,Bachelor's degree,Yes,1
+536,59,Male,White,1,Theft,Domestic violence,Unemployed,Low,Master's degree,No,1
+537,40,Male,White,0,Theft,Domestic violence,Unemployed,High,Master's degree,Yes,0
+538,40,Female,Black,2,Property damage,Drug offenses,Unemployed,Middle,Master's degree,Yes,0
+539,27,Female,Black,3,Battery,Other,Unemployed,Low,Master's degree,No,1
+540,24,Female,Black,2,Theft,Property theft,Unemployed,Low,Bachelor's degree,Yes,1
+541,25,Male,Asian,2,Assault,Drug offenses,Employed,Low,Bachelor's degree,Yes,1
+542,41,Male,Other,1,Assault,Property theft,Employed,High,High school diploma,Yes,1
+543,59,Female,Black,1,Theft,Property theft,Employed,Middle,High school diploma,Yes,0
+544,43,Male,Other,1,Theft,Drug offenses,Employed,Middle,Master's degree,Yes,0
+545,46,Female,Black,1,Battery,Drug offenses,Unemployed,High,High school diploma,Yes,1
+546,24,Male,White,4,Battery,Other,Employed,Middle,Master's degree,No,1
+547,20,Male,Other,1,Battery,Other,Unemployed,Low,Bachelor's degree,Yes,1
+548,44,Male,Black,3,Battery,Other,Unemployed,Middle,Master's degree,No,1
+549,46,Male,Black,2,Assault,Other,Unemployed,Low,Master's degree,No,1
+550,19,Female,White,4,Assault,Other,Unemployed,Middle,Master's degree,No,1
+551,20,Male,Asian,3,Battery,Other,Unemployed,Low,High school diploma,No,1
+552,33,Male,Black,1,Property damage,Property theft,Unemployed,Middle,Master's degree,No,0
+553,41,Female,Other,2,Theft,Other,Unemployed,High,Bachelor's degree,Yes,0
+554,21,Female,Asian,3,Assault,Other,Unemployed,Middle,High school diploma,Yes,1
+555,49,Female,Black,1,Assault,Drug offenses,Unemployed,Middle,Bachelor's degree,Yes,1
+556,52,Female,White,1,Battery,Property theft,Unemployed,Middle,High school diploma,Yes,1
+557,19,Male,White,2,Battery,Drug offenses,Unemployed,Low,Bachelor's degree,Yes,1
+558,18,Male,Asian,2,Battery,Drug offenses,Employed,High,Master's degree,No,1
+559,46,Female,Asian,2,Theft,Drug offenses,Unemployed,High,High school diploma,No,1
+560,19,Female,Asian,1,Battery,Drug offenses,Employed,High,Bachelor's degree,No,1
+561,62,Female,Other,3,Battery,Domestic violence,Employed,Middle,High school diploma,No,1
+562,22,Male,Black,3,Battery,Domestic violence,Employed,Low,Master's degree,Yes,1
+563,48,Male,Black,3,Assault,Domestic violence,Employed,Low,Master's degree,No,1
+564,31,Male,Black,3,Assault,Property theft,Unemployed,Middle,High school diploma,Yes,1
+565,51,Female,Asian,4,Theft,Domestic violence,Unemployed,High,Master's degree,Yes,1
+566,30,Male,Black,4,Battery,Drug offenses,Employed,High,Master's degree,Yes,1
+567,48,Male,Asian,3,Battery,Domestic violence,Unemployed,High,Master's degree,Yes,1
+568,22,Male,White,3,Battery,Property theft,Unemployed,Low,Master's degree,No,1
+569,47,Male,White,4,Battery,Other,Unemployed,High,Bachelor's degree,Yes,1
+570,52,Female,White,3,Assault,Other,Unemployed,Low,Bachelor's degree,Yes,1
+571,31,Female,Other,0,Battery,Other,Employed,Low,Master's degree,No,1
+572,50,Female,Asian,4,Property damage,Other,Unemployed,Middle,High school diploma,Yes,1
+573,34,Male,Asian,1,Assault,Drug offenses,Unemployed,Low,Bachelor's degree,Yes,1
+574,46,Female,Other,1,Theft,Other,Unemployed,Middle,High school diploma,No,1
+575,30,Male,Black,0,Assault,Domestic violence,Employed,High,High school diploma,Yes,1
+576,52,Female,Black,2,Assault,Other,Employed,Middle,Bachelor's degree,No,1
+577,47,Female,Asian,3,Battery,Other,Unemployed,Low,High school diploma,No,1
+578,23,Male,Other,1,Theft,Drug offenses,Unemployed,Low,Bachelor's degree,Yes,1
+579,20,Male,Asian,3,Battery,Drug offenses,Unemployed,Middle,Master's degree,Yes,1
+580,37,Female,Other,2,Theft,Other,Unemployed,High,Master's degree,No,0
+581,32,Female,White,1,Theft,Drug offenses,Employed,Low,Master's degree,No,0
+582,44,Male,Asian,3,Assault,Property theft,Unemployed,High,Bachelor's degree,Yes,1
+583,43,Male,Black,1,Theft,Other,Employed,Middle,Master's degree,No,0
+584,48,Female,Black,2,Battery,Other,Unemployed,Middle,High school diploma,Yes,1
+585,31,Female,Other,3,Theft,Property theft,Unemployed,Low,Master's degree,No,1
+586,39,Female,Other,2,Property damage,Drug offenses,Unemployed,Middle,Bachelor's degree,No,0
+587,63,Male,Asian,3,Assault,Property theft,Employed,High,High school diploma,Yes,1
+588,61,Male,White,2,Assault,Domestic violence,Unemployed,High,Master's degree,No,1
+589,24,Male,White,4,Theft,Property theft,Unemployed,Low,Master's degree,Yes,1
+590,34,Male,White,3,Property damage,Drug offenses,Unemployed,Low,Bachelor's degree,Yes,1
+591,24,Female,Black,1,Theft,Other,Unemployed,High,Bachelor's degree,No,0
+592,19,Male,Asian,0,Property damage,Property theft,Unemployed,Low,Bachelor's degree,Yes,1
+593,37,Male,Black,2,Assault,Domestic violence,Employed,Low,Bachelor's degree,Yes,1
+594,52,Male,Other,2,Property damage,Domestic violence,Employed,High,Master's degree,Yes,0
+595,17,Male,Black,3,Property damage,Other,Unemployed,Middle,Master's degree,No,1
+596,20,Female,White,1,Battery,Drug offenses,Employed,Middle,Bachelor's degree,Yes,1
+597,25,Male,Asian,4,Property damage,Domestic violence,Unemployed,High,High school diploma,No,1
+598,57,Male,Black,4,Battery,Drug offenses,Employed,High,Bachelor's degree,Yes,1
+599,47,Male,White,3,Theft,Property theft,Unemployed,Middle,Master's degree,No,1
+600,56,Female,White,0,Property damage,Property theft,Unemployed,High,High school diploma,No,1
+601,35,Female,White,4,Battery,Domestic violence,Unemployed,Low,High school diploma,No,1
+602,31,Female,Asian,1,Property damage,Drug offenses,Employed,High,Master's degree,Yes,0
+603,49,Male,Other,2,Property damage,Drug offenses,Employed,Low,Master's degree,No,0
+604,49,Female,Black,0,Assault,Drug offenses,Unemployed,High,Bachelor's degree,Yes,1
+605,26,Female,Asian,1,Theft,Drug offenses,Employed,Low,High school diploma,No,1
+606,62,Female,Asian,0,Assault,Property theft,Unemployed,High,Bachelor's degree,No,1
+607,58,Female,Asian,3,Theft,Property theft,Unemployed,High,Master's degree,No,1
+608,52,Male,White,4,Theft,Domestic violence,Employed,Middle,High school diploma,Yes,1
+609,57,Male,White,1,Theft,Property theft,Employed,High,Bachelor's degree,No,0
+610,37,Female,White,4,Property damage,Domestic violence,Unemployed,Middle,Bachelor's degree,No,1
+611,60,Female,Black,3,Battery,Other,Employed,Low,High school diploma,No,1
+612,34,Male,Black,2,Battery,Domestic violence,Unemployed,Middle,High school diploma,No,1
+613,51,Male,White,3,Property damage,Property theft,Unemployed,Middle,Bachelor's degree,No,1
+614,53,Male,Asian,0,Battery,Drug offenses,Unemployed,Middle,Master's degree,Yes,1
+615,48,Male,Other,4,Battery,Other,Unemployed,Low,High school diploma,Yes,1
+616,20,Female,Asian,0,Property damage,Drug offenses,Employed,High,High school diploma,No,1
+617,27,Male,Asian,4,Battery,Other,Unemployed,Low,Master's degree,No,1
+618,30,Female,Asian,4,Assault,Drug offenses,Employed,Middle,High school diploma,Yes,1
+619,57,Male,Black,4,Property damage,Drug offenses,Employed,Middle,High school diploma,Yes,1
+620,18,Female,White,1,Battery,Property theft,Employed,Low,High school diploma,Yes,1
+621,34,Female,Other,2,Assault,Domestic violence,Employed,Low,High school diploma,Yes,1
+622,49,Female,Asian,1,Assault,Property theft,Unemployed,High,High school diploma,Yes,1
+623,50,Female,Black,1,Assault,Other,Unemployed,Middle,Bachelor's degree,No,1
+624,38,Female,Asian,0,Property damage,Drug offenses,Unemployed,Low,Bachelor's degree,No,1
+625,22,Female,Asian,4,Property damage,Domestic violence,Unemployed,High,Master's degree,Yes,1
+626,37,Male,White,3,Assault,Drug offenses,Unemployed,High,Master's degree,Yes,1
+627,63,Female,Asian,3,Assault,Property theft,Unemployed,Low,Master's degree,Yes,1
+628,19,Male,Other,0,Theft,Other,Unemployed,High,Master's degree,No,0
+629,39,Female,Other,3,Theft,Property theft,Employed,Middle,Bachelor's degree,Yes,1
+630,17,Female,White,0,Battery,Property theft,Unemployed,Middle,High school diploma,No,1
+631,48,Female,Black,2,Theft,Other,Unemployed,Middle,Master's degree,Yes,0
+632,45,Male,Other,0,Theft,Property theft,Unemployed,High,Master's degree,Yes,0
+633,47,Male,Asian,4,Assault,Other,Unemployed,High,High school diploma,No,1
+634,62,Female,Black,3,Battery,Other,Employed,High,High school diploma,Yes,1
+635,51,Male,Asian,4,Assault,Domestic violence,Employed,Low,High school diploma,Yes,1
+636,26,Female,White,4,Theft,Domestic violence,Employed,High,Bachelor's degree,Yes,1
+637,45,Female,Black,0,Assault,Other,Unemployed,Middle,Master's degree,No,1
+638,18,Male,Asian,4,Assault,Other,Unemployed,Low,Bachelor's degree,No,1
+639,49,Female,Black,2,Theft,Other,Unemployed,Middle,Master's degree,Yes,0
+640,43,Male,Black,2,Battery,Domestic violence,Employed,Low,Master's degree,No,1
+641,56,Male,White,4,Battery,Property theft,Unemployed,Middle,High school diploma,No,1
+642,50,Female,Asian,0,Property damage,Property theft,Employed,High,Master's degree,Yes,0
+643,19,Female,Black,2,Theft,Domestic violence,Unemployed,High,High school diploma,No,1
+644,58,Male,Asian,1,Theft,Other,Employed,Low,High school diploma,Yes,0
+645,34,Female,White,1,Property damage,Drug offenses,Unemployed,High,High school diploma,Yes,0
+646,19,Female,Black,1,Assault,Domestic violence,Unemployed,Low,High school diploma,No,1
+647,58,Male,Black,2,Property damage,Property theft,Unemployed,Low,Bachelor's degree,Yes,1
+648,64,Female,Other,3,Battery,Property theft,Unemployed,Middle,Master's degree,Yes,1
+649,64,Female,Asian,0,Battery,Property theft,Unemployed,High,Master's degree,Yes,1
+650,53,Female,Asian,2,Battery,Drug offenses,Unemployed,Middle,Master's degree,Yes,1
+651,64,Male,Black,2,Property damage,Drug offenses,Employed,Low,Master's degree,Yes,0
+652,50,Female,White,2,Property damage,Property theft,Unemployed,Middle,High school diploma,No,1
+653,43,Female,Other,0,Theft,Drug offenses,Unemployed,Middle,High school diploma,Yes,0
+654,52,Female,Asian,4,Battery,Domestic violence,Employed,High,Master's degree,No,1
+655,30,Female,Other,3,Assault,Property theft,Unemployed,Low,Master's degree,Yes,1
+656,20,Female,Black,1,Property damage,Property theft,Unemployed,Middle,Bachelor's degree,No,0
+657,26,Male,Other,3,Battery,Other,Employed,Middle,High school diploma,No,1
+658,30,Female,White,1,Battery,Domestic violence,Employed,Middle,Master's degree,No,1
+659,53,Male,Other,2,Property damage,Drug offenses,Unemployed,Low,Master's degree,Yes,1
+660,18,Female,White,1,Assault,Property theft,Unemployed,High,High school diploma,No,1
+661,30,Female,Black,3,Battery,Domestic violence,Unemployed,Middle,Bachelor's degree,No,1
+662,22,Female,Black,0,Assault,Other,Employed,High,Bachelor's degree,No,1
+663,16,Female,Asian,2,Assault,Drug offenses,Unemployed,Low,Bachelor's degree,No,1
+664,47,Male,Asian,1,Battery,Drug offenses,Employed,High,High school diploma,No,1
+665,61,Female,Black,2,Theft,Property theft,Employed,High,High school diploma,Yes,0
+666,64,Male,Other,4,Assault,Domestic violence,Unemployed,Middle,Bachelor's degree,Yes,1
+667,50,Female,Asian,1,Theft,Domestic violence,Employed,Middle,High school diploma,No,1
+668,54,Female,Black,2,Assault,Property theft,Unemployed,High,High school diploma,Yes,1
+669,61,Female,Other,3,Property damage,Domestic violence,Employed,Middle,High school diploma,Yes,1
+670,35,Female,White,0,Property damage,Property theft,Unemployed,Middle,Bachelor's degree,No,0
+671,23,Female,Asian,0,Battery,Other,Unemployed,Low,High school diploma,Yes,1
+672,29,Male,Other,1,Property damage,Property theft,Employed,High,Master's degree,Yes,0
+673,64,Female,White,1,Property damage,Domestic violence,Employed,Low,Master's degree,Yes,0
+674,24,Female,White,4,Theft,Property theft,Employed,Low,High school diploma,Yes,1
+675,24,Female,White,2,Battery,Drug offenses,Unemployed,Low,Master's degree,No,1
+676,43,Male,Other,0,Theft,Domestic violence,Employed,High,High school diploma,Yes,0
+677,49,Male,Other,3,Battery,Other,Unemployed,High,Master's degree,No,1
+678,25,Female,Other,2,Battery,Domestic violence,Employed,Middle,High school diploma,Yes,1
+679,27,Female,Black,2,Property damage,Drug offenses,Employed,Low,High school diploma,No,1
+680,19,Male,Asian,4,Theft,Other,Unemployed,Middle,Master's degree,No,1
+681,63,Male,Other,4,Theft,Domestic violence,Unemployed,Low,High school diploma,Yes,1
+682,34,Male,White,1,Theft,Property theft,Employed,Low,Bachelor's degree,Yes,0
+683,62,Female,Other,1,Assault,Drug offenses,Employed,High,Master's degree,Yes,1
+684,45,Male,White,3,Theft,Other,Employed,High,Master's degree,Yes,1
+685,22,Female,Other,2,Battery,Drug offenses,Unemployed,Low,High school diploma,Yes,1
+686,18,Male,Other,4,Property damage,Other,Employed,Low,Bachelor's degree,No,1
+687,34,Female,Black,4,Battery,Property theft,Unemployed,Low,Bachelor's degree,Yes,1
+688,33,Female,Black,0,Battery,Property theft,Unemployed,Low,High school diploma,Yes,1
+689,63,Female,Asian,2,Theft,Drug offenses,Unemployed,Low,High school diploma,No,1
+690,63,Female,Asian,3,Battery,Property theft,Unemployed,Middle,High school diploma,Yes,1
+691,25,Male,Asian,0,Property damage,Property theft,Employed,Middle,Bachelor's degree,Yes,0
+692,16,Male,Asian,1,Assault,Property theft,Unemployed,Low,Bachelor's degree,Yes,1
+693,22,Male,Asian,0,Property damage,Domestic violence,Unemployed,Middle,High school diploma,Yes,0
+694,31,Female,Asian,4,Assault,Other,Unemployed,Low,Bachelor's degree,Yes,1
+695,61,Male,White,0,Property damage,Drug offenses,Unemployed,High,Master's degree,Yes,0
+696,56,Female,Black,4,Battery,Domestic violence,Employed,Low,Bachelor's degree,No,1
+697,53,Male,Other,1,Battery,Other,Employed,Low,Master's degree,Yes,1
+698,19,Male,Other,3,Theft,Drug offenses,Unemployed,High,Master's degree,Yes,1
+699,59,Female,Black,2,Property damage,Domestic violence,Unemployed,Low,Master's degree,No,1
+700,62,Male,Other,4,Battery,Domestic violence,Unemployed,High,Bachelor's degree,No,1
+701,46,Male,White,4,Battery,Domestic violence,Unemployed,Low,High school diploma,Yes,1
+702,39,Male,Other,2,Theft,Domestic violence,Unemployed,High,Bachelor's degree,Yes,0
+703,63,Female,Other,1,Assault,Domestic violence,Employed,Middle,Bachelor's degree,No,1
+704,57,Female,Other,2,Theft,Domestic violence,Employed,Middle,Bachelor's degree,No,0
+705,43,Female,Asian,0,Battery,Property theft,Employed,Middle,Master's degree,No,1
+706,20,Female,Black,4,Assault,Other,Unemployed,High,Master's degree,No,1
+707,56,Male,Other,2,Property damage,Other,Unemployed,High,High school diploma,No,1
+708,51,Female,White,1,Property damage,Domestic violence,Unemployed,High,Bachelor's degree,Yes,0
+709,25,Female,Black,0,Battery,Other,Unemployed,High,High school diploma,Yes,1
+710,22,Male,Asian,4,Theft,Drug offenses,Unemployed,High,High school diploma,Yes,1
+711,48,Male,Other,3,Property damage,Property theft,Unemployed,Middle,High school diploma,No,1
+712,20,Female,Asian,1,Battery,Other,Unemployed,High,High school diploma,No,1
+713,22,Female,Asian,3,Battery,Drug offenses,Unemployed,Low,Master's degree,No,1
+714,29,Female,Asian,3,Property damage,Other,Employed,High,High school diploma,Yes,1
+715,56,Male,Asian,3,Assault,Other,Employed,Middle,Master's degree,No,1
+716,55,Female,Black,2,Assault,Other,Unemployed,Low,Master's degree,No,1
+717,31,Female,Black,0,Property damage,Drug offenses,Employed,Low,High school diploma,Yes,0
+718,40,Male,Other,0,Battery,Domestic violence,Employed,High,High school diploma,No,1
+719,25,Female,Other,4,Property damage,Domestic violence,Unemployed,Low,High school diploma,Yes,1
+720,60,Male,White,1,Theft,Property theft,Unemployed,High,Master's degree,No,0
+721,61,Male,Black,1,Theft,Drug offenses,Unemployed,High,High school diploma,No,1
+722,41,Female,Black,4,Property damage,Domestic violence,Unemployed,High,Bachelor's degree,No,1
+723,35,Female,Asian,0,Battery,Drug offenses,Employed,High,High school diploma,No,1
+724,22,Female,Other,3,Battery,Drug offenses,Unemployed,Low,High school diploma,No,1
+725,44,Female,Other,2,Property damage,Property theft,Unemployed,High,Bachelor's degree,No,0
+726,62,Male,Other,0,Assault,Other,Employed,High,Master's degree,No,1
+727,53,Male,Asian,1,Assault,Property theft,Unemployed,Low,High school diploma,Yes,1
+728,22,Female,White,3,Theft,Other,Unemployed,Middle,Master's degree,Yes,1
+729,24,Male,Black,0,Battery,Drug offenses,Employed,Low,Bachelor's degree,Yes,1
+730,37,Female,Other,4,Property damage,Other,Employed,Low,Master's degree,No,1
+731,27,Male,Other,4,Theft,Drug offenses,Employed,High,Bachelor's degree,No,1
+732,22,Female,Asian,1,Theft,Domestic violence,Unemployed,Low,Bachelor's degree,Yes,1
+733,25,Male,Asian,4,Theft,Domestic violence,Employed,Low,Bachelor's degree,Yes,1
+734,41,Male,Other,4,Assault,Drug offenses,Unemployed,High,High school diploma,Yes,1
+735,45,Female,Black,1,Property damage,Property theft,Employed,Low,Bachelor's degree,Yes,0
+736,31,Female,Asian,2,Theft,Drug offenses,Unemployed,High,High school diploma,Yes,0
+737,63,Female,Black,1,Property damage,Drug offenses,Unemployed,Middle,Bachelor's degree,No,0
+738,58,Female,Asian,2,Property damage,Drug offenses,Unemployed,Middle,Bachelor's degree,No,0
+739,39,Female,White,1,Assault,Other,Employed,Low,High school diploma,No,1
+740,25,Male,Black,4,Theft,Other,Employed,Middle,Master's degree,Yes,1
+741,64,Male,Asian,3,Assault,Other,Unemployed,High,High school diploma,Yes,1
+742,59,Male,White,1,Property damage,Domestic violence,Unemployed,High,Bachelor's degree,No,0
+743,34,Female,White,0,Property damage,Domestic violence,Unemployed,Middle,Bachelor's degree,No,0
+744,41,Female,Asian,0,Assault,Domestic violence,Unemployed,Low,Bachelor's degree,No,1
+745,31,Male,Other,0,Theft,Other,Unemployed,High,Master's degree,No,0
+746,49,Male,Asian,4,Battery,Other,Unemployed,High,Bachelor's degree,Yes,1
+747,35,Female,Asian,4,Theft,Drug offenses,Unemployed,Low,Master's degree,Yes,1
+748,63,Female,Other,3,Battery,Property theft,Employed,Low,Master's degree,Yes,1
+749,49,Male,Asian,1,Theft,Other,Unemployed,Middle,High school diploma,Yes,0
+750,26,Male,White,4,Theft,Other,Employed,Middle,Bachelor's degree,Yes,1
+751,23,Female,Asian,0,Property damage,Domestic violence,Employed,High,High school diploma,Yes,0
+752,33,Female,White,0,Assault,Property theft,Employed,High,High school diploma,Yes,1
+753,22,Female,Asian,4,Assault,Domestic violence,Employed,Middle,High school diploma,No,1
+754,56,Male,White,1,Assault,Drug offenses,Unemployed,Low,Bachelor's degree,Yes,1
+755,25,Female,Asian,0,Battery,Property theft,Unemployed,Middle,High school diploma,No,1
+756,43,Female,Asian,4,Property damage,Domestic violence,Employed,Middle,Bachelor's degree,Yes,1
+757,51,Male,Other,4,Property damage,Property theft,Employed,High,Bachelor's degree,No,1
+758,61,Female,Asian,4,Battery,Other,Unemployed,High,Master's degree,No,1
+759,19,Male,Black,4,Property damage,Other,Employed,Low,Master's degree,Yes,1
+760,20,Female,Black,4,Battery,Drug offenses,Employed,Low,Bachelor's degree,Yes,1
+761,31,Male,Black,1,Assault,Other,Unemployed,Low,Master's degree,Yes,1
+762,52,Male,Asian,1,Property damage,Drug offenses,Unemployed,Middle,High school diploma,Yes,0
+763,34,Female,Asian,1,Theft,Domestic violence,Employed,High,High school diploma,Yes,0
+764,16,Female,Asian,0,Assault,Other,Unemployed,Low,Bachelor's degree,No,1
+765,34,Female,White,4,Battery,Property theft,Employed,Middle,High school diploma,No,1
+766,38,Male,Other,1,Property damage,Domestic violence,Unemployed,Middle,High school diploma,Yes,0
+767,39,Female,Asian,1,Theft,Domestic violence,Unemployed,Low,Bachelor's degree,No,1
+768,38,Female,Asian,2,Theft,Other,Unemployed,Low,High school diploma,No,1
+769,35,Female,Asian,4,Property damage,Drug offenses,Unemployed,High,Bachelor's degree,No,1
+770,41,Male,Other,1,Theft,Domestic violence,Employed,Low,High school diploma,Yes,0
+771,61,Female,Other,3,Assault,Property theft,Unemployed,Middle,Bachelor's degree,Yes,1
+772,51,Female,Asian,1,Property damage,Other,Unemployed,Low,Bachelor's degree,Yes,1
+773,38,Female,Asian,2,Assault,Drug offenses,Unemployed,Low,Master's degree,No,1
+774,40,Female,Other,3,Battery,Other,Employed,Low,Master's degree,No,1
+775,54,Male,White,4,Battery,Domestic violence,Unemployed,Middle,High school diploma,Yes,1
+776,45,Male,White,4,Battery,Property theft,Unemployed,High,High school diploma,Yes,1
+777,43,Male,Black,0,Property damage,Domestic violence,Unemployed,Low,Bachelor's degree,Yes,1
+778,27,Male,Other,2,Assault,Drug offenses,Unemployed,High,Master's degree,Yes,1
+779,29,Male,White,1,Theft,Other,Employed,Low,Bachelor's degree,Yes,0
+780,38,Male,Black,2,Property damage,Property theft,Unemployed,High,Master's degree,Yes,0
+781,64,Female,Other,3,Property damage,Drug offenses,Employed,High,Master's degree,No,1
+782,51,Male,Asian,1,Assault,Drug offenses,Employed,High,Bachelor's degree,No,1
+783,25,Male,White,3,Assault,Property theft,Unemployed,High,High school diploma,No,1
+784,60,Male,White,4,Property damage,Drug offenses,Unemployed,Low,High school diploma,Yes,1
+785,34,Male,White,4,Property damage,Domestic violence,Unemployed,Middle,Bachelor's degree,No,1
+786,60,Female,White,0,Theft,Domestic violence,Unemployed,Low,Master's degree,Yes,1
+787,31,Male,White,1,Battery,Domestic violence,Employed,High,Master's degree,No,1
+788,16,Male,Black,4,Property damage,Drug offenses,Employed,High,Master's degree,No,1
+789,28,Male,White,1,Battery,Drug offenses,Unemployed,Low,Master's degree,Yes,1
+790,34,Male,Other,2,Assault,Property theft,Unemployed,High,Bachelor's degree,No,1
+791,16,Female,White,2,Assault,Drug offenses,Employed,Low,Bachelor's degree,No,1
+792,62,Female,Black,2,Assault,Domestic violence,Unemployed,High,Master's degree,Yes,1
+793,40,Female,Black,0,Battery,Drug offenses,Employed,Middle,Master's degree,Yes,1
+794,18,Female,Asian,2,Assault,Domestic violence,Unemployed,Low,Bachelor's degree,No,1
+795,38,Female,Black,0,Assault,Other,Employed,High,High school diploma,No,1
+796,30,Male,White,2,Assault,Drug offenses,Unemployed,Middle,High school diploma,No,1
+797,26,Male,Asian,4,Property damage,Property theft,Unemployed,Middle,High school diploma,No,1
+798,16,Male,White,3,Assault,Other,Employed,Middle,Master's degree,No,1
+799,60,Female,Black,0,Property damage,Other,Employed,Low,High school diploma,No,1
+800,49,Female,Black,1,Battery,Domestic violence,Employed,High,High school diploma,Yes,1
+801,17,Male,Other,2,Battery,Other,Employed,Low,High school diploma,Yes,1
+802,38,Male,White,1,Battery,Drug offenses,Employed,High,Master's degree,Yes,1
+803,47,Male,Asian,4,Battery,Other,Employed,Middle,Bachelor's degree,No,1
+804,37,Male,Other,3,Theft,Drug offenses,Unemployed,High,Bachelor's degree,No,1
+805,50,Female,Other,0,Theft,Other,Employed,Middle,Bachelor's degree,Yes,0
+806,61,Male,Asian,1,Assault,Domestic violence,Employed,High,Bachelor's degree,Yes,1
+807,46,Male,Black,0,Theft,Domestic violence,Employed,High,Master's degree,Yes,0
+808,43,Female,Other,4,Battery,Drug offenses,Employed,High,Bachelor's degree,Yes,1
+809,42,Male,Other,4,Theft,Property theft,Unemployed,High,Bachelor's degree,No,1
+810,40,Female,Black,3,Assault,Property theft,Unemployed,High,Bachelor's degree,No,1
+811,29,Female,Other,0,Battery,Other,Unemployed,Middle,High school diploma,No,1
+812,48,Male,Black,2,Property damage,Property theft,Employed,Middle,Master's degree,Yes,0
+813,20,Female,Asian,4,Battery,Domestic violence,Unemployed,Low,High school diploma,No,1
+814,31,Female,Asian,1,Property damage,Drug offenses,Unemployed,Low,High school diploma,No,1
+815,34,Male,White,4,Property damage,Property theft,Unemployed,High,Master's degree,No,1
+816,18,Male,Asian,4,Property damage,Other,Employed,Middle,Bachelor's degree,No,1
+817,23,Male,Other,3,Property damage,Other,Unemployed,High,High school diploma,No,1
+818,30,Female,Other,2,Property damage,Domestic violence,Employed,Low,Master's degree,No,0
+819,16,Male,Black,2,Assault,Property theft,Employed,High,High school diploma,Yes,1
+820,29,Male,White,0,Property damage,Property theft,Employed,Low,High school diploma,No,1
+821,29,Female,White,0,Battery,Drug offenses,Employed,Middle,High school diploma,Yes,1
+822,34,Male,Other,2,Assault,Other,Unemployed,High,High school diploma,Yes,1
+823,61,Female,Other,0,Battery,Drug offenses,Unemployed,Middle,Bachelor's degree,Yes,1
+824,58,Male,White,1,Battery,Other,Unemployed,Middle,Bachelor's degree,No,1
+825,50,Male,White,1,Property damage,Property theft,Employed,Middle,High school diploma,Yes,0
+826,25,Female,Black,1,Assault,Domestic violence,Unemployed,Middle,Bachelor's degree,Yes,1
+827,37,Female,Black,3,Battery,Domestic violence,Employed,High,Bachelor's degree,No,1
+828,63,Male,Black,2,Property damage,Other,Unemployed,Low,Bachelor's degree,No,1
+829,26,Female,Black,0,Assault,Other,Employed,Middle,High school diploma,No,1
+830,20,Male,Black,4,Theft,Domestic violence,Unemployed,Middle,Master's degree,No,1
+831,55,Female,Black,4,Battery,Drug offenses,Employed,Middle,Bachelor's degree,No,1
+832,46,Male,Other,2,Battery,Domestic violence,Unemployed,Low,High school diploma,Yes,1
+833,23,Female,Asian,0,Battery,Property theft,Unemployed,High,Master's degree,Yes,1
+834,51,Female,Asian,2,Theft,Domestic violence,Employed,High,Bachelor's degree,Yes,0
+835,21,Male,White,4,Battery,Drug offenses,Unemployed,High,High school diploma,No,1
+836,34,Female,Other,3,Theft,Property theft,Unemployed,High,Bachelor's degree,No,1
+837,18,Female,Other,0,Battery,Domestic violence,Unemployed,Low,High school diploma,No,1
+838,43,Male,Asian,3,Property damage,Property theft,Unemployed,Middle,Bachelor's degree,Yes,1
+839,43,Male,Asian,2,Assault,Other,Unemployed,Middle,Bachelor's degree,Yes,1
+840,60,Male,Other,3,Battery,Drug offenses,Employed,High,Master's degree,No,1
+841,26,Female,Other,0,Theft,Property theft,Unemployed,Low,High school diploma,No,1
+842,55,Male,Asian,2,Battery,Other,Unemployed,Low,High school diploma,Yes,1
+843,39,Male,Asian,0,Assault,Property theft,Employed,Low,Bachelor's degree,Yes,1
+844,57,Female,White,1,Battery,Other,Employed,Low,Master's degree,Yes,1
+845,22,Female,Asian,4,Theft,Domestic violence,Unemployed,Low,Bachelor's degree,No,1
+846,38,Female,White,4,Theft,Other,Unemployed,High,Master's degree,No,1
+847,35,Male,Asian,3,Assault,Drug offenses,Unemployed,Middle,Bachelor's degree,No,1
+848,49,Male,Asian,1,Battery,Property theft,Unemployed,Middle,Master's degree,Yes,1
+849,42,Female,Other,4,Assault,Property theft,Employed,High,Master's degree,Yes,1
+850,64,Female,Black,0,Property damage,Drug offenses,Unemployed,Middle,Bachelor's degree,Yes,0
+851,23,Male,Other,3,Property damage,Drug offenses,Unemployed,Low,High school diploma,Yes,1
+852,62,Male,Other,0,Property damage,Property theft,Unemployed,Low,Master's degree,Yes,1
+853,32,Male,Asian,1,Theft,Property theft,Employed,High,Master's degree,No,0
+854,24,Female,White,1,Property damage,Other,Unemployed,Middle,Master's degree,No,0
+855,54,Male,White,0,Assault,Drug offenses,Unemployed,Low,Bachelor's degree,No,1
+856,16,Female,White,0,Assault,Other,Unemployed,High,Master's degree,No,1
+857,44,Male,White,0,Assault,Domestic violence,Employed,Low,Bachelor's degree,Yes,1
+858,32,Female,Asian,3,Theft,Property theft,Employed,High,Master's degree,No,1
+859,19,Female,Other,3,Theft,Domestic violence,Unemployed,Low,Bachelor's degree,No,1
+860,55,Male,Asian,1,Theft,Property theft,Unemployed,High,Bachelor's degree,Yes,0
+861,27,Female,Other,1,Battery,Other,Employed,Low,High school diploma,Yes,1
+862,27,Male,Other,1,Property damage,Property theft,Employed,Middle,Bachelor's degree,No,0
+863,30,Male,Asian,1,Property damage,Property theft,Unemployed,High,High school diploma,Yes,0
+864,36,Female,Black,1,Theft,Other,Employed,Low,High school diploma,Yes,0
+865,27,Female,White,3,Property damage,Property theft,Unemployed,High,High school diploma,Yes,1
+866,51,Female,Black,2,Property damage,Drug offenses,Unemployed,High,Master's degree,Yes,0
+867,49,Female,Black,4,Battery,Property theft,Employed,High,Bachelor's degree,Yes,1
+868,49,Female,Black,1,Assault,Domestic violence,Employed,Middle,High school diploma,Yes,1
+869,63,Male,Asian,4,Theft,Property theft,Unemployed,Low,Bachelor's degree,No,1
+870,38,Female,Asian,1,Assault,Domestic violence,Unemployed,Low,Master's degree,Yes,1
+871,50,Male,Asian,0,Battery,Property theft,Unemployed,Middle,High school diploma,No,1
+872,35,Female,Other,1,Battery,Other,Unemployed,High,Master's degree,No,1
+873,24,Female,White,3,Property damage,Drug offenses,Employed,High,Master's degree,Yes,1
+874,32,Female,Other,2,Battery,Other,Employed,Middle,Master's degree,Yes,1
+875,16,Female,Asian,2,Theft,Other,Employed,Middle,Bachelor's degree,Yes,0
+876,37,Female,Asian,4,Assault,Property theft,Employed,Low,Bachelor's degree,No,1
+877,26,Male,Black,1,Assault,Drug offenses,Employed,High,Master's degree,Yes,1
+878,61,Male,Asian,2,Assault,Domestic violence,Unemployed,High,Master's degree,No,1
+879,60,Male,Other,2,Assault,Drug offenses,Unemployed,Low,Bachelor's degree,No,1
+880,33,Male,Black,0,Assault,Domestic violence,Employed,Middle,Master's degree,Yes,1
+881,27,Female,Other,3,Property damage,Other,Unemployed,Middle,High school diploma,No,1
+882,29,Male,Black,2,Theft,Drug offenses,Employed,High,Master's degree,No,0
+883,27,Female,Other,2,Property damage,Property theft,Employed,Middle,High school diploma,Yes,0
+884,32,Male,White,0,Assault,Drug offenses,Employed,Middle,Master's degree,Yes,1
+885,24,Male,Asian,0,Property damage,Domestic violence,Unemployed,Middle,Bachelor's degree,Yes,0
+886,43,Male,White,1,Theft,Drug offenses,Unemployed,Low,Master's degree,Yes,1
+887,59,Male,Asian,2,Theft,Drug offenses,Employed,Low,Bachelor's degree,No,0
+888,20,Female,Other,2,Assault,Domestic violence,Unemployed,Low,Master's degree,No,1
+889,54,Male,Asian,1,Property damage,Property theft,Employed,Middle,High school diploma,Yes,0
+890,28,Male,White,0,Battery,Other,Unemployed,High,High school diploma,No,1
+891,45,Male,Other,4,Battery,Domestic violence,Unemployed,Low,Bachelor's degree,Yes,1
+892,31,Female,Other,2,Assault,Domestic violence,Unemployed,Middle,Bachelor's degree,No,1
+893,60,Male,Asian,4,Property damage,Drug offenses,Unemployed,High,Bachelor's degree,No,1
+894,17,Male,White,2,Assault,Drug offenses,Employed,Middle,Master's degree,No,1
+895,35,Male,White,1,Assault,Other,Employed,High,High school diploma,No,1
+896,31,Female,Black,2,Battery,Domestic violence,Employed,Middle,Master's degree,No,1
+897,55,Male,Other,4,Property damage,Domestic violence,Unemployed,Middle,Bachelor's degree,Yes,1
+898,37,Male,Other,0,Theft,Property theft,Employed,Middle,Master's degree,Yes,0
+899,53,Female,Black,4,Property damage,Property theft,Unemployed,Middle,Bachelor's degree,Yes,1
+900,37,Male,Asian,3,Assault,Other,Employed,Middle,Bachelor's degree,No,1
+901,33,Female,Other,3,Theft,Domestic violence,Employed,Middle,High school diploma,Yes,1
+902,61,Female,Other,0,Theft,Property theft,Unemployed,Middle,Bachelor's degree,Yes,0
+903,18,Female,White,2,Battery,Other,Employed,High,Bachelor's degree,No,1
+904,56,Male,Black,4,Theft,Domestic violence,Employed,Low,Bachelor's degree,No,1
+905,60,Male,Asian,3,Property damage,Property theft,Unemployed,Middle,Bachelor's degree,Yes,1
+906,25,Female,Other,3,Theft,Other,Employed,Low,High school diploma,No,1
+907,21,Male,Other,0,Battery,Other,Employed,Low,Bachelor's degree,No,1
+908,22,Male,Other,1,Assault,Property theft,Unemployed,Middle,High school diploma,Yes,1
+909,27,Male,Asian,0,Property damage,Drug offenses,Employed,Middle,High school diploma,Yes,0
+910,43,Female,Other,0,Theft,Other,Unemployed,Low,Bachelor's degree,Yes,1
+911,27,Male,Other,1,Battery,Property theft,Unemployed,Middle,High school diploma,Yes,1
+912,16,Male,Asian,2,Battery,Other,Unemployed,Middle,Master's degree,Yes,1
+913,16,Female,Other,1,Theft,Property theft,Unemployed,Low,High school diploma,Yes,1
+914,29,Female,Asian,1,Assault,Domestic violence,Employed,High,High school diploma,Yes,1
+915,57,Female,White,4,Assault,Drug offenses,Unemployed,High,Bachelor's degree,No,1
+916,24,Male,White,4,Theft,Drug offenses,Unemployed,Low,Bachelor's degree,No,1
+917,46,Female,Black,1,Theft,Domestic violence,Unemployed,Low,High school diploma,Yes,1
+918,62,Female,Asian,3,Theft,Drug offenses,Employed,Middle,High school diploma,Yes,1
+919,61,Male,Other,1,Theft,Domestic violence,Unemployed,High,Master's degree,Yes,0
+920,19,Female,White,3,Assault,Other,Employed,Middle,High school diploma,Yes,1
+921,32,Female,Black,4,Property damage,Domestic violence,Unemployed,Low,High school diploma,No,1
+922,39,Male,White,1,Theft,Drug offenses,Unemployed,Low,Bachelor's degree,No,1
+923,58,Male,Black,4,Battery,Other,Employed,High,High school diploma,No,1
+924,48,Female,White,4,Assault,Property theft,Employed,High,High school diploma,Yes,1
+925,18,Female,White,3,Assault,Other,Unemployed,Low,Bachelor's degree,No,1
+926,57,Female,Asian,1,Property damage,Property theft,Unemployed,High,Bachelor's degree,Yes,0
+927,40,Male,Other,1,Battery,Domestic violence,Employed,Middle,Master's degree,Yes,1
+928,37,Female,White,3,Battery,Drug offenses,Unemployed,Middle,Master's degree,No,1
+929,39,Female,White,4,Battery,Drug offenses,Employed,Middle,Bachelor's degree,No,1
+930,48,Male,White,4,Battery,Other,Unemployed,High,High school diploma,Yes,1
+931,30,Female,Black,4,Assault,Domestic violence,Employed,Low,Master's degree,Yes,1
+932,27,Male,White,4,Theft,Property theft,Unemployed,Low,High school diploma,No,1
+933,49,Male,Other,2,Assault,Drug offenses,Unemployed,Low,Bachelor's degree,No,1
+934,44,Male,Asian,3,Battery,Property theft,Employed,Low,High school diploma,Yes,1
+935,64,Female,White,4,Property damage,Property theft,Employed,Middle,Master's degree,Yes,1
+936,29,Female,Black,0,Assault,Property theft,Unemployed,Middle,Master's degree,No,1
+937,21,Male,Black,3,Theft,Domestic violence,Unemployed,High,Bachelor's degree,Yes,1
+938,29,Male,White,0,Property damage,Drug offenses,Employed,Low,Master's degree,Yes,0
+939,46,Male,Black,3,Theft,Drug offenses,Unemployed,Middle,Bachelor's degree,No,1
+940,34,Female,Black,2,Property damage,Domestic violence,Unemployed,Middle,Bachelor's degree,Yes,0
+941,46,Female,Other,2,Property damage,Property theft,Employed,High,High school diploma,Yes,0
+942,22,Male,Other,0,Assault,Domestic violence,Unemployed,High,High school diploma,No,1
+943,57,Male,Black,1,Theft,Domestic violence,Employed,Middle,Bachelor's degree,No,0
+944,64,Male,White,2,Assault,Drug offenses,Employed,High,Master's degree,No,1
+945,56,Male,Black,1,Battery,Other,Employed,Middle,Master's degree,Yes,1
+946,46,Male,Asian,2,Theft,Domestic violence,Unemployed,High,High school diploma,No,1
+947,54,Male,Asian,2,Battery,Property theft,Employed,Low,Bachelor's degree,No,1
+948,42,Male,White,4,Property damage,Domestic violence,Employed,Low,Master's degree,No,1
+949,47,Male,Asian,0,Theft,Drug offenses,Unemployed,High,Master's degree,Yes,0
+950,18,Male,Other,1,Property damage,Drug offenses,Employed,Middle,High school diploma,Yes,0
+951,34,Male,Asian,4,Battery,Domestic violence,Unemployed,High,Bachelor's degree,Yes,1
+952,26,Male,Black,4,Battery,Property theft,Unemployed,Low,Master's degree,Yes,1
+953,44,Female,Other,3,Assault,Other,Employed,High,High school diploma,Yes,1
+954,51,Female,Other,0,Battery,Drug offenses,Employed,Low,Master's degree,No,1
+955,54,Male,Black,4,Property damage,Drug offenses,Employed,Middle,High school diploma,Yes,1
+956,47,Male,White,2,Theft,Property theft,Unemployed,High,Bachelor's degree,Yes,0
+957,58,Male,Asian,0,Theft,Domestic violence,Unemployed,Middle,Master's degree,No,0
+958,41,Male,Black,2,Theft,Domestic violence,Employed,Low,Master's degree,No,0
+959,63,Male,Other,3,Property damage,Domestic violence,Unemployed,Middle,Bachelor's degree,No,1
+960,57,Male,Other,2,Property damage,Other,Employed,High,Master's degree,No,0
+961,57,Male,Other,2,Battery,Domestic violence,Employed,Low,Bachelor's degree,No,1
+962,20,Male,Other,0,Theft,Domestic violence,Unemployed,Low,High school diploma,No,1
+963,29,Female,Other,2,Property damage,Drug offenses,Employed,Middle,Bachelor's degree,No,0
+964,39,Female,Asian,4,Assault,Domestic violence,Employed,Middle,Master's degree,No,1
+965,24,Male,Black,2,Assault,Domestic violence,Unemployed,Low,Master's degree,Yes,1
+966,59,Female,Black,0,Theft,Property theft,Employed,High,High school diploma,Yes,0
+967,27,Female,Black,1,Property damage,Drug offenses,Employed,Low,Master's degree,No,0
+968,50,Female,Other,2,Property damage,Domestic violence,Employed,Middle,High school diploma,Yes,0
+969,56,Female,Black,1,Property damage,Other,Employed,High,Master's degree,Yes,0
+970,32,Male,Black,2,Assault,Drug offenses,Employed,High,Master's degree,No,1
+971,44,Male,Black,3,Theft,Drug offenses,Employed,Low,High school diploma,Yes,1
+972,64,Female,White,4,Assault,Drug offenses,Employed,Middle,High school diploma,Yes,1
+973,51,Female,Black,0,Battery,Drug offenses,Unemployed,Low,High school diploma,Yes,1
+974,44,Female,Other,0,Battery,Property theft,Unemployed,Middle,Bachelor's degree,No,1
+975,54,Female,White,3,Battery,Other,Unemployed,Low,Master's degree,No,1
+976,59,Male,Black,0,Theft,Drug offenses,Employed,Middle,Bachelor's degree,Yes,0
+977,52,Female,Black,4,Property damage,Domestic violence,Employed,Low,High school diploma,No,1
+978,33,Male,Other,4,Property damage,Domestic violence,Employed,High,Bachelor's degree,Yes,1
+979,64,Male,Black,2,Assault,Property theft,Employed,Middle,High school diploma,Yes,1
+980,46,Female,White,0,Battery,Property theft,Unemployed,Middle,Bachelor's degree,Yes,1
+981,64,Male,Other,0,Battery,Drug offenses,Employed,High,Master's degree,Yes,1
+982,59,Female,Other,3,Assault,Domestic violence,Unemployed,Low,Master's degree,No,1
+983,28,Female,Black,1,Theft,Other,Unemployed,Low,High school diploma,No,1
+984,17,Female,Asian,0,Property damage,Other,Employed,Middle,Bachelor's degree,No,0
+985,48,Male,White,1,Theft,Domestic violence,Unemployed,High,High school diploma,Yes,0
+986,39,Female,Other,4,Assault,Property theft,Employed,Low,Bachelor's degree,No,1
+987,51,Female,Asian,2,Battery,Drug offenses,Unemployed,High,High school diploma,No,1
+988,57,Female,Asian,4,Assault,Drug offenses,Employed,Low,Bachelor's degree,Yes,1
+989,24,Female,White,1,Property damage,Domestic violence,Unemployed,Middle,Bachelor's degree,No,0
+990,39,Female,Black,0,Assault,Other,Employed,Low,Master's degree,No,1
+991,33,Male,Asian,3,Property damage,Property theft,Unemployed,High,Master's degree,No,1
+992,37,Female,Other,3,Theft,Domestic violence,Unemployed,High,Bachelor's degree,Yes,1
+993,34,Female,Other,0,Theft,Property theft,Employed,High,Bachelor's degree,No,0
+994,23,Male,Other,3,Battery,Other,Unemployed,High,High school diploma,Yes,1
+995,46,Female,Black,3,Theft,Property theft,Unemployed,Low,Master's degree,No,1
+996,41,Female,Asian,0,Theft,Drug offenses,Employed,High,Bachelor's degree,Yes,0
+997,61,Female,Asian,4,Assault,Domestic violence,Unemployed,Low,Master's degree,No,1
+998,53,Male,Asian,3,Assault,Other,Employed,High,Master's degree,Yes,1
+999,55,Female,Black,1,Property damage,Domestic violence,Employed,High,Bachelor's degree,Yes,0

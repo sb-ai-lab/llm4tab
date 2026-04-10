@@ -1,0 +1,49 @@
+\begin{table*}[ht]
+\sisetup{
+  separate-uncertainty = true,
+  table-align-uncertainty = true,
+  table-figures-uncertainty = 1,
+}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.05}
+
+\adjustbox{max width=\textwidth}{
+\begin{tabular}{llcccccccccccccccccc}
+\toprule
+& & \multicolumn{18}{c}{\textbf{Models}} \\
+\cmidrule(lr){3-20}
+Dataset & Serialization & \multicolumn{6}{c}{Qwen3-8B} & \multicolumn{6}{c}{Qwen3-14B} & \multicolumn{6}{c}{GPT-4o-mini} \\
+\cmidrule(lr){3-8}
+\cmidrule(lr){9-14}
+\cmidrule(lr){15-20}
+ &  & shot 0 & shot 4 & shot 8 & shot 16 & shot 32 & shot 64 & shot 0 & shot 4 & shot 8 & shot 16 & shot 32 & shot 64 & shot 0 & shot 4 & shot 8 & shot 16 & shot 32 & shot 64 \\
+\midrule
+\multirow{2}{*}{mlp0\_f5\_h0\_no\_noise\_ReLU} & feat\_val\_mask & \num{0.564 \pm 0.001} & \num{0.639 \pm 0.070} & \num{0.676 \pm 0.063} & \num{0.713 \pm 0.059} & \num{0.717 \pm 0.042} & \num{0.746 \pm 0.039} & \num{0.602 \pm 0.000} & \num{0.688 \pm 0.088} & \num{0.707 \pm 0.079} & \num{0.748 \pm 0.059} & \num{0.759 \pm 0.047} & \num{0.778 \pm 0.044} & \num{0.608 \pm 0.004} & \num{0.645 \pm 0.065} & \num{0.689 \pm 0.079} & \num{0.708 \pm 0.055} & \num{0.741 \pm 0.040} & \num{0.740 \pm 0.047} \\
+ & markdown\_mask & \num{0.548 \pm 0.010} & \num{0.644 \pm 0.068} & \num{0.684 \pm 0.081} & \num{0.702 \pm 0.058} & \num{0.721 \pm 0.047} & \num{0.739 \pm 0.044} & \num{0.571 \pm 0.000} & \num{0.683 \pm 0.093} & \num{0.718 \pm 0.084} & \num{0.761 \pm 0.060} & \num{0.775 \pm 0.040} & \num{0.782 \pm 0.040} & -- & -- & -- & -- & -- & -- \\
+\midrule
+\multirow{2}{*}{mlp1\_f10\_h10\_no\_noise\_ReLU} & feat\_val\_mask & \num{0.562 \pm 0.004} & \num{0.587 \pm 0.032} & \num{0.573 \pm 0.034} & \num{0.568 \pm 0.051} & \num{0.568 \pm 0.041} & \num{0.579 \pm 0.039} & \num{0.562 \pm 0.000} & \num{0.584 \pm 0.032} & \num{0.580 \pm 0.048} & \num{0.579 \pm 0.053} & \num{0.596 \pm 0.042} & \num{0.594 \pm 0.031} & \num{0.596 \pm 0.007} & \num{0.593 \pm 0.023} & \num{0.591 \pm 0.034} & \num{0.578 \pm 0.033} & \num{0.578 \pm 0.032} & \num{0.580 \pm 0.025} \\
+ & markdown\_mask & \num{0.516 \pm 0.007} & \num{0.583 \pm 0.038} & \num{0.582 \pm 0.040} & \num{0.579 \pm 0.038} & \num{0.581 \pm 0.032} & \num{0.573 \pm 0.025} & \num{0.585 \pm 0.000} & \num{0.586 \pm 0.044} & \num{0.583 \pm 0.052} & \num{0.593 \pm 0.039} & \num{0.587 \pm 0.034} & \num{0.583 \pm 0.038} & -- & -- & -- & -- & -- & -- \\
+\midrule
+\multirow{2}{*}{mlp2\_f15\_h15\_no\_noise\_ReLU} & feat\_val\_mask & \num{0.547 \pm 0.004} & \num{0.564 \pm 0.022} & \num{0.582 \pm 0.033} & \num{0.580 \pm 0.030} & \num{0.581 \pm 0.035} & \num{0.578 \pm 0.031} & \num{0.535 \pm 0.000} & \num{0.564 \pm 0.029} & \num{0.576 \pm 0.030} & \num{0.577 \pm 0.028} & \num{0.574 \pm 0.025} & \num{0.580 \pm 0.028} & \num{0.563 \pm 0.010} & \num{0.558 \pm 0.023} & \num{0.567 \pm 0.033} & \num{0.566 \pm 0.020} & \num{0.565 \pm 0.020} & \num{0.565 \pm 0.018} \\
+ & markdown\_mask & \num{0.529 \pm 0.004} & \num{0.560 \pm 0.036} & \num{0.579 \pm 0.037} & \num{0.578 \pm 0.034} & \num{0.575 \pm 0.036} & \num{0.570 \pm 0.021} & \num{0.551 \pm 0.000} & \num{0.567 \pm 0.033} & \num{0.577 \pm 0.028} & \num{0.579 \pm 0.033} & \num{0.575 \pm 0.031} & \num{0.579 \pm 0.020} & -- & -- & -- & -- & -- & -- \\
+\midrule
+\multirow{2}{*}{mlp3\_f20\_h20\_no\_noise\_ReLU} & feat\_val\_mask & \num{0.566 \pm 0.011} & \num{0.576 \pm 0.027} & \num{0.565 \pm 0.035} & \num{0.573 \pm 0.027} & \num{0.562 \pm 0.033} & \num{0.583 \pm 0.025} & \num{0.583 \pm 0.001} & \num{0.587 \pm 0.041} & \num{0.580 \pm 0.034} & \num{0.587 \pm 0.031} & \num{0.567 \pm 0.033} & \num{0.580 \pm 0.034} & \num{0.603 \pm 0.008} & \num{0.569 \pm 0.035} & \num{0.573 \pm 0.030} & \num{0.581 \pm 0.026} & \num{0.574 \pm 0.023} & \num{0.575 \pm 0.018} \\
+ & markdown\_mask & \num{0.544 \pm 0.004} & \num{0.559 \pm 0.038} & \num{0.561 \pm 0.025} & \num{0.565 \pm 0.033} & \num{0.565 \pm 0.019} & \num{0.566 \pm 0.024} & \num{0.600 \pm 0.001} & \num{0.585 \pm 0.041} & \num{0.577 \pm 0.038} & \num{0.586 \pm 0.028} & \num{0.567 \pm 0.025} & \num{0.571 \pm 0.037} & -- & -- & -- & -- & -- & -- \\
+\midrule
+\multirow{2}{*}{mlp5\_f30\_h30\_no\_noise\_ReLU} & feat\_val\_mask & \num{0.527 \pm 0.007} & \num{0.536 \pm 0.016} & \num{0.536 \pm 0.022} & \num{0.538 \pm 0.018} & \num{0.540 \pm 0.019} & \num{0.538 \pm 0.018} & \num{0.541 \pm 0.000} & \num{0.537 \pm 0.015} & \num{0.538 \pm 0.021} & \num{0.543 \pm 0.026} & \num{0.536 \pm 0.019} & \num{0.547 \pm 0.014} & \num{0.546 \pm 0.006} & \num{0.542 \pm 0.014} & \num{0.542 \pm 0.016} & \num{0.541 \pm 0.013} & \num{0.538 \pm 0.017} & \num{0.539 \pm 0.010} \\
+ & markdown\_mask & \num{0.526 \pm 0.007} & \num{0.536 \pm 0.026} & \num{0.532 \pm 0.020} & \num{0.534 \pm 0.021} & \num{0.534 \pm 0.015} & \num{0.543 \pm 0.020} & \num{0.527 \pm 0.001} & \num{0.535 \pm 0.018} & \num{0.542 \pm 0.020} & \num{0.544 \pm 0.013} & \num{0.534 \pm 0.012} & \num{0.549 \pm 0.012} & -- & -- & -- & -- & -- & -- \\
+\midrule
+\multirow{2}{*}{mlp7\_f40\_h40\_no\_noise\_ReLU} & feat\_val\_mask & \num{0.523 \pm 0.006} & \num{0.534 \pm 0.018} & \num{0.532 \pm 0.017} & \num{0.535 \pm 0.018} & \num{0.527 \pm 0.014} & \num{0.530 \pm 0.014} & \num{0.537 \pm 0.000} & \num{0.534 \pm 0.017} & \num{0.531 \pm 0.019} & \num{0.540 \pm 0.019} & \num{0.544 \pm 0.015} & \num{0.545 \pm 0.017} & \num{0.533 \pm 0.005} & \num{0.538 \pm 0.019} & \num{0.534 \pm 0.012} & \num{0.541 \pm 0.012} & \num{0.535 \pm 0.016} & \num{0.538 \pm 0.014} \\
+ & markdown\_mask & \num{0.518 \pm 0.011} & \num{0.528 \pm 0.017} & \num{0.531 \pm 0.020} & \num{0.538 \pm 0.020} & \num{0.536 \pm 0.024} & \num{0.535 \pm 0.016} & \num{0.526 \pm 0.001} & \num{0.543 \pm 0.020} & \num{0.544 \pm 0.019} & \num{0.548 \pm 0.013} & \num{0.553 \pm 0.025} & \num{0.552 \pm 0.017} & -- & -- & -- & -- & -- & -- \\
+\midrule
+\multirow{2}{*}{mlp9\_f50\_h50\_no\_noise\_ReLU} & feat\_val\_mask & \num{0.526 \pm 0.009} & \num{0.525 \pm 0.016} & \num{0.523 \pm 0.014} & \num{0.529 \pm 0.014} & \num{0.524 \pm 0.011} & \num{0.522 \pm 0.019} & \num{0.521 \pm 0.000} & \num{0.528 \pm 0.012} & \num{0.528 \pm 0.019} & \num{0.523 \pm 0.011} & \num{0.529 \pm 0.015} & \num{0.536 \pm 0.019} & \num{0.526 \pm 0.007} & \num{0.526 \pm 0.012} & \num{0.528 \pm 0.014} & \num{0.525 \pm 0.009} & \num{0.528 \pm 0.012} & \num{0.527 \pm 0.011} \\
+ & markdown\_mask & \num{0.519 \pm 0.009} & \num{0.525 \pm 0.011} & \num{0.530 \pm 0.016} & \num{0.526 \pm 0.018} & \num{0.532 \pm 0.023} & \num{0.523 \pm 0.014} & \num{0.526 \pm 0.000} & \num{0.528 \pm 0.017} & \num{0.525 \pm 0.013} & \num{0.531 \pm 0.016} & \num{0.539 \pm 0.013} & \num{0.539 \pm 0.014} & -- & -- & -- & -- & -- & -- \\
+\bottomrule
+\end{tabular}
+}
+
+\caption{synthetic - serializations}
+\label{tab:serialization_results}
+\end{table*}

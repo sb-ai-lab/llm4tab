@@ -1,0 +1,1001 @@
+,Age,Job_Experience,Salary_Expectation,Location,Relocation,Current_Job_Tenure,Job_Shift_In_Last_12_Months,Current_Job_Level,Employment_Status,Gender,Education,Current_Job_Description,Applicant_Background,Applicant_Referral,Applicant_Interest,Location_str,Employment_Status_str,label
+0,56,14,55447,2,0,9,0,4,1,Female,High School,IT,Business,No,Low,Other,Part-time,0
+1,46,3,74418,3,0,3,4,2,0,Female,Master's degree,IT,Creative,Yes,Medium,Other,Unemployed,0
+2,32,11,57190,1,1,4,2,1,1,Male,High School,Sales,Technical,Yes,Medium,US,Part-time,0
+3,25,12,46014,2,1,3,3,1,0,Male,Bachelor's degree,IT,Scientific,Yes,Medium,Other,Unemployed,1
+4,38,1,92999,1,0,2,3,3,2,Male,Master's degree,IT,Creative,No,Low,US,Full-time,1
+5,56,18,70278,2,0,4,2,1,1,Female,PhD,Sales,Business,Yes,Low,Other,Part-time,0
+6,36,18,21780,3,1,8,0,1,0,Female,Bachelor's degree,HR,Business,Yes,Low,Other,Unemployed,1
+7,40,3,79258,2,0,7,0,4,1,Female,Bachelor's degree,Marketing,Scientific,No,Medium,Other,Part-time,0
+8,28,3,62192,2,0,7,1,1,1,Female,Master's degree,Marketing,Business,Yes,Low,Other,Part-time,0
+9,28,10,79300,1,1,7,4,1,0,Male,Bachelor's degree,Finance,Technical,No,Medium,US,Unemployed,1
+10,41,4,63923,1,1,7,4,1,1,Female,Bachelor's degree,HR,Scientific,No,Medium,US,Part-time,0
+11,53,19,22395,2,0,6,4,3,1,Female,Bachelor's degree,Finance,Creative,No,High,Other,Part-time,1
+12,57,10,35779,3,0,7,1,3,1,Male,Bachelor's degree,Marketing,Scientific,No,High,Other,Part-time,1
+13,41,9,91028,3,0,7,4,4,1,Male,Bachelor's degree,Sales,Scientific,Yes,High,Other,Part-time,1
+14,20,7,49722,1,1,7,2,1,2,Male,Bachelor's degree,IT,Creative,No,Medium,US,Full-time,1
+15,39,5,27111,3,0,9,1,3,1,Female,Bachelor's degree,Marketing,Business,No,High,Other,Part-time,1
+16,19,5,29984,1,0,6,2,3,1,Female,Bachelor's degree,HR,Creative,Yes,High,US,Part-time,1
+17,41,7,92328,3,1,0,1,4,0,Female,PhD,Marketing,Technical,Yes,High,Other,Unemployed,0
+18,47,14,46924,2,1,3,4,2,2,Female,Bachelor's degree,HR,Business,Yes,Low,Other,Full-time,1
+19,55,13,72703,1,0,3,2,1,0,Female,PhD,HR,Scientific,No,Medium,US,Unemployed,0
+20,19,10,52577,1,1,4,2,3,0,Male,PhD,HR,Business,Yes,High,US,Unemployed,0
+21,38,11,27711,2,1,9,2,4,0,Male,High School,Finance,Business,No,Low,Other,Unemployed,0
+22,50,12,24096,1,0,5,1,4,2,Female,High School,Sales,Technical,No,Low,US,Full-time,1
+23,29,7,86555,3,1,3,3,4,0,Female,PhD,Marketing,Business,Yes,Low,Other,Unemployed,0
+24,39,17,95012,3,1,1,4,3,0,Female,PhD,Sales,Business,Yes,High,Other,Unemployed,0
+25,42,0,28254,1,0,5,2,1,0,Female,Bachelor's degree,IT,Business,Yes,Low,US,Unemployed,0
+26,44,14,97120,3,1,7,3,2,1,Female,High School,Marketing,Scientific,Yes,Medium,Other,Part-time,0
+27,59,7,25965,1,0,7,4,1,0,Male,Master's degree,Sales,Business,Yes,Low,US,Unemployed,0
+28,45,10,97000,2,0,6,4,4,2,Male,High School,Sales,Creative,Yes,Low,Other,Full-time,0
+29,33,11,97975,1,1,5,2,4,2,Male,PhD,IT,Business,No,Low,US,Full-time,1
+30,32,11,77987,2,1,1,2,2,1,Female,PhD,HR,Technical,No,Low,Other,Part-time,0
+31,20,3,52963,3,1,6,1,1,2,Female,Bachelor's degree,Marketing,Business,Yes,Medium,Other,Full-time,0
+32,54,15,23273,2,0,4,3,4,2,Male,Bachelor's degree,Marketing,Business,No,High,Other,Full-time,1
+33,24,3,35330,3,1,5,3,4,1,Male,High School,IT,Scientific,No,Medium,Other,Part-time,1
+34,38,4,41494,1,0,9,2,1,0,Female,Bachelor's degree,HR,Creative,No,Medium,US,Unemployed,0
+35,26,4,96422,3,1,7,4,4,1,Male,Master's degree,Marketing,Business,No,High,Other,Part-time,0
+36,56,7,23212,1,1,7,2,1,0,Male,Master's degree,Marketing,Creative,No,Low,US,Unemployed,0
+37,35,9,21080,1,1,2,4,4,0,Female,Bachelor's degree,Marketing,Technical,No,High,US,Unemployed,1
+38,21,16,52675,2,0,6,4,1,2,Male,Master's degree,HR,Scientific,Yes,High,Other,Full-time,0
+39,42,8,42007,2,1,0,2,2,1,Male,Master's degree,IT,Creative,Yes,Medium,Other,Part-time,0
+40,31,18,66815,2,1,0,0,4,2,Male,High School,Marketing,Scientific,Yes,High,Other,Full-time,0
+41,26,13,20639,2,0,6,3,2,2,Female,Master's degree,Sales,Business,No,Low,Other,Full-time,1
+42,43,7,83593,3,0,9,4,4,0,Male,PhD,HR,Technical,Yes,Medium,Other,Unemployed,0
+43,19,8,98038,3,1,8,4,4,2,Male,PhD,Finance,Scientific,Yes,Low,Other,Full-time,0
+44,37,10,23736,3,1,6,0,3,1,Male,High School,IT,Business,Yes,Medium,Other,Part-time,0
+45,45,0,36473,1,1,9,1,1,2,Female,Bachelor's degree,Sales,Creative,No,Low,US,Full-time,1
+46,24,13,54019,3,0,4,0,2,2,Female,High School,Marketing,Technical,Yes,High,Other,Full-time,0
+47,25,4,56820,3,0,7,0,2,0,Male,Bachelor's degree,Finance,Technical,No,High,Other,Unemployed,0
+48,52,13,77589,3,0,1,4,2,1,Female,Bachelor's degree,IT,Creative,Yes,High,Other,Part-time,1
+49,31,3,85807,2,0,8,3,1,2,Male,Bachelor's degree,HR,Creative,Yes,Low,Other,Full-time,0
+50,34,0,38414,3,1,5,0,3,0,Female,Bachelor's degree,Finance,Technical,Yes,Medium,Other,Unemployed,0
+51,53,18,44220,1,0,8,1,2,2,Female,Bachelor's degree,Finance,Scientific,No,Medium,US,Full-time,1
+52,57,7,80531,2,0,1,2,1,1,Male,High School,Sales,Technical,No,Medium,Other,Part-time,0
+53,21,14,62425,1,0,2,0,4,2,Male,Bachelor's degree,IT,Creative,No,High,US,Full-time,1
+54,19,14,29387,3,1,7,0,2,2,Male,Master's degree,Sales,Scientific,No,Low,Other,Full-time,1
+55,23,8,96815,2,1,0,1,2,0,Female,Master's degree,Sales,Business,No,Medium,Other,Unemployed,0
+56,59,8,47584,1,0,9,3,3,2,Male,Bachelor's degree,Marketing,Technical,Yes,Low,US,Full-time,1
+57,21,9,64783,3,0,6,0,2,0,Female,Master's degree,HR,Creative,Yes,Medium,Other,Unemployed,0
+58,46,19,59809,1,1,6,0,2,1,Female,PhD,Finance,Business,No,High,US,Part-time,0
+59,35,8,74327,1,1,0,3,4,2,Male,High School,IT,Technical,No,Low,US,Full-time,1
+60,43,2,30857,1,1,8,1,1,1,Female,High School,HR,Technical,Yes,Medium,US,Part-time,0
+61,51,19,62261,3,1,7,0,1,1,Male,Bachelor's degree,HR,Scientific,No,Medium,Other,Part-time,1
+62,27,10,93588,3,1,3,3,3,2,Female,Bachelor's degree,IT,Creative,Yes,Medium,Other,Full-time,1
+63,53,5,36995,1,1,9,0,4,0,Male,PhD,HR,Business,No,Medium,US,Unemployed,0
+64,31,1,33580,2,1,4,2,1,1,Female,Bachelor's degree,Marketing,Technical,Yes,High,Other,Part-time,0
+65,48,6,38240,2,1,1,4,4,1,Female,Master's degree,HR,Scientific,No,Medium,Other,Part-time,0
+66,32,17,95752,3,0,8,2,1,2,Male,PhD,Marketing,Business,No,Medium,Other,Full-time,0
+67,25,1,66111,3,0,5,0,4,2,Female,Master's degree,Finance,Business,Yes,High,Other,Full-time,0
+68,31,16,54866,3,0,2,1,3,2,Male,High School,Finance,Technical,Yes,Medium,Other,Full-time,0
+69,40,10,93401,3,0,6,4,2,2,Female,Master's degree,Sales,Business,No,Low,Other,Full-time,0
+70,57,11,32211,3,0,8,2,3,2,Female,High School,Marketing,Technical,No,Low,Other,Full-time,0
+71,38,18,78985,2,0,2,3,1,2,Female,Master's degree,Finance,Scientific,Yes,Medium,Other,Full-time,0
+72,33,6,53268,3,1,1,1,3,0,Male,High School,HR,Scientific,No,High,Other,Unemployed,0
+73,35,19,23646,1,1,6,2,2,1,Male,Bachelor's degree,IT,Business,Yes,High,US,Part-time,1
+74,41,5,75371,1,0,6,3,3,0,Male,Master's degree,IT,Technical,Yes,High,US,Unemployed,0
+75,43,0,62816,2,0,3,0,1,0,Male,High School,Marketing,Creative,No,Medium,Other,Unemployed,0
+76,42,16,64112,1,1,8,3,1,2,Male,Master's degree,Sales,Scientific,Yes,Medium,US,Full-time,1
+77,58,10,71048,2,1,7,2,3,1,Female,PhD,HR,Technical,Yes,Low,Other,Part-time,0
+78,46,17,74911,2,1,0,2,2,0,Female,Bachelor's degree,Marketing,Technical,No,High,Other,Unemployed,1
+79,32,16,95446,1,0,0,0,3,2,Male,High School,IT,Technical,Yes,Medium,US,Full-time,1
+80,18,6,21778,3,1,4,3,2,2,Female,PhD,Marketing,Business,Yes,Medium,Other,Full-time,1
+81,42,16,65752,1,0,5,3,4,1,Female,Master's degree,HR,Creative,Yes,Medium,US,Part-time,0
+82,24,19,90726,1,0,2,0,2,0,Female,PhD,Finance,Business,Yes,High,US,Unemployed,0
+83,26,8,47289,2,1,8,3,4,0,Female,Master's degree,HR,Scientific,No,High,Other,Unemployed,1
+84,41,16,64788,1,1,9,0,3,0,Male,Bachelor's degree,Finance,Business,Yes,Low,US,Unemployed,1
+85,18,19,24747,2,0,5,1,2,2,Female,PhD,Finance,Technical,No,High,Other,Full-time,1
+86,25,7,94822,3,1,3,2,4,1,Male,Bachelor's degree,Finance,Business,Yes,Medium,Other,Part-time,1
+87,41,16,20045,3,1,6,1,4,1,Male,High School,Marketing,Technical,No,Low,Other,Part-time,0
+88,28,6,27758,3,0,7,4,4,0,Female,Master's degree,IT,Creative,Yes,High,Other,Unemployed,1
+89,34,0,43437,1,1,8,4,1,2,Male,Master's degree,Marketing,Business,No,High,US,Full-time,1
+90,25,12,39585,2,0,5,4,3,0,Female,Bachelor's degree,IT,Business,Yes,High,Other,Unemployed,1
+91,52,18,29854,3,0,5,0,4,1,Female,Bachelor's degree,HR,Business,Yes,High,Other,Part-time,1
+92,52,18,72076,2,1,7,3,2,2,Female,High School,Sales,Technical,Yes,Medium,Other,Full-time,0
+93,50,16,76950,2,0,4,1,4,0,Male,PhD,HR,Technical,Yes,High,Other,Unemployed,0
+94,22,12,37349,3,0,2,1,1,0,Male,Master's degree,Marketing,Business,No,Medium,Other,Unemployed,1
+95,59,15,41348,3,1,2,1,3,2,Male,Master's degree,Marketing,Business,No,Medium,Other,Full-time,0
+96,56,7,54296,2,1,5,1,1,1,Female,High School,IT,Creative,Yes,Medium,Other,Part-time,0
+97,58,18,39455,3,1,1,4,1,2,Female,High School,Marketing,Creative,No,Low,Other,Full-time,0
+98,45,17,98824,2,0,5,1,1,0,Female,Bachelor's degree,Finance,Scientific,Yes,Medium,Other,Unemployed,1
+99,24,0,74021,2,0,5,3,2,0,Male,Bachelor's degree,Marketing,Creative,Yes,High,Other,Unemployed,0
+100,26,13,91923,3,1,7,4,3,0,Female,PhD,IT,Creative,No,Low,Other,Unemployed,0
+101,25,18,59293,1,0,6,1,3,0,Female,High School,IT,Creative,No,High,US,Unemployed,0
+102,29,14,66116,3,1,7,0,2,1,Male,PhD,Finance,Technical,No,Medium,Other,Part-time,0
+103,51,17,60484,1,1,8,2,3,1,Male,High School,IT,Creative,Yes,High,US,Part-time,0
+104,50,1,50215,2,0,5,2,1,0,Male,Master's degree,Sales,Creative,Yes,Low,Other,Unemployed,0
+105,40,16,23404,2,1,2,2,3,1,Female,High School,HR,Business,No,Low,Other,Part-time,0
+106,41,17,57260,1,0,9,4,2,1,Female,High School,Marketing,Technical,Yes,High,US,Part-time,0
+107,54,5,85642,2,0,2,1,1,1,Female,Master's degree,Sales,Scientific,No,High,Other,Part-time,0
+108,52,18,66009,1,1,0,4,2,0,Male,High School,Marketing,Scientific,No,High,US,Unemployed,0
+109,57,3,49605,1,0,4,3,4,2,Male,PhD,Sales,Creative,No,Low,US,Full-time,1
+110,39,0,73205,2,1,3,0,1,2,Male,Bachelor's degree,Marketing,Scientific,No,Medium,Other,Full-time,0
+111,44,7,57569,1,0,8,0,1,2,Male,Bachelor's degree,Finance,Scientific,No,High,US,Full-time,1
+112,52,6,25580,3,0,8,2,3,0,Female,PhD,IT,Scientific,No,Medium,Other,Unemployed,0
+113,18,2,25400,3,0,4,2,1,1,Female,Master's degree,IT,Creative,Yes,Low,Other,Part-time,1
+114,52,9,59643,2,1,9,2,2,1,Female,High School,Finance,Scientific,Yes,High,Other,Part-time,0
+115,54,9,59015,2,0,3,1,3,0,Female,PhD,Sales,Creative,No,High,Other,Unemployed,0
+116,31,18,91713,1,1,6,3,4,0,Female,Bachelor's degree,HR,Business,No,Low,US,Unemployed,1
+117,20,13,92805,1,0,5,3,2,2,Female,Bachelor's degree,Sales,Business,No,High,US,Full-time,1
+118,18,1,34974,1,0,3,3,4,2,Female,PhD,IT,Scientific,Yes,Medium,US,Full-time,1
+119,22,0,34037,1,1,9,3,4,0,Female,Bachelor's degree,HR,Business,No,Low,US,Unemployed,1
+120,43,17,36167,3,1,1,2,4,2,Male,PhD,Marketing,Creative,No,Low,Other,Full-time,0
+121,31,6,63148,3,1,0,0,1,1,Male,Bachelor's degree,HR,Business,No,High,Other,Part-time,1
+122,56,7,92153,2,1,3,2,2,0,Female,PhD,Sales,Scientific,Yes,Low,Other,Unemployed,0
+123,44,0,41534,1,1,3,3,2,0,Male,High School,Finance,Creative,No,High,US,Unemployed,0
+124,26,2,76879,1,0,0,2,1,1,Female,High School,Marketing,Technical,Yes,High,US,Part-time,0
+125,32,7,85839,2,0,5,3,3,1,Female,High School,Sales,Creative,Yes,Low,Other,Part-time,0
+126,32,14,49756,1,1,3,4,4,1,Male,High School,Marketing,Business,No,High,US,Part-time,0
+127,43,4,32683,1,0,0,0,2,2,Female,Bachelor's degree,HR,Technical,Yes,Medium,US,Full-time,1
+128,59,2,69485,1,0,0,4,1,0,Female,Master's degree,IT,Creative,Yes,Medium,US,Unemployed,0
+129,30,18,31025,1,0,0,1,4,2,Female,PhD,Sales,Technical,Yes,High,US,Full-time,1
+130,49,0,38715,1,1,7,2,3,1,Female,Master's degree,Finance,Technical,No,Medium,US,Part-time,0
+131,56,14,90097,2,0,9,1,3,2,Female,Bachelor's degree,HR,Technical,Yes,High,Other,Full-time,1
+132,49,7,95705,1,0,7,2,4,1,Female,Bachelor's degree,Sales,Creative,No,Medium,US,Part-time,1
+133,21,1,37116,2,0,1,4,3,2,Female,Master's degree,Finance,Business,No,Low,Other,Full-time,1
+134,47,2,56744,1,1,6,3,2,2,Male,Master's degree,Sales,Creative,No,High,US,Full-time,1
+135,54,13,22124,3,0,7,3,2,1,Male,Bachelor's degree,HR,Business,Yes,High,Other,Part-time,1
+136,40,13,58051,3,0,7,2,2,2,Female,Bachelor's degree,Sales,Creative,No,High,Other,Full-time,1
+137,56,10,27176,3,1,9,3,3,0,Male,PhD,Marketing,Creative,Yes,High,Other,Unemployed,0
+138,32,15,84818,3,1,6,4,2,2,Female,High School,HR,Creative,Yes,High,Other,Full-time,0
+139,46,3,38676,2,0,4,3,1,2,Female,High School,Sales,Business,Yes,High,Other,Full-time,0
+140,53,19,65177,2,0,0,4,2,0,Female,PhD,IT,Creative,Yes,Low,Other,Unemployed,0
+141,30,4,20997,1,1,8,1,2,1,Female,Master's degree,Sales,Technical,No,Low,US,Part-time,0
+142,49,13,79330,3,1,6,4,3,0,Male,Bachelor's degree,Marketing,Creative,No,Medium,Other,Unemployed,1
+143,24,15,63769,2,1,1,0,2,2,Male,Master's degree,Finance,Technical,Yes,High,Other,Full-time,0
+144,39,17,98653,1,1,5,0,4,1,Male,High School,Finance,Scientific,No,Medium,US,Part-time,0
+145,45,6,31231,1,1,1,0,1,2,Male,High School,Finance,Scientific,No,Medium,US,Full-time,1
+146,19,9,92976,2,1,0,2,3,2,Female,Master's degree,IT,Business,No,Low,Other,Full-time,0
+147,59,6,75965,3,1,6,2,1,0,Male,High School,Marketing,Business,Yes,Medium,Other,Unemployed,0
+148,23,0,81517,1,0,1,2,4,0,Female,Bachelor's degree,HR,Scientific,No,Low,US,Unemployed,0
+149,45,18,47387,3,1,1,4,3,1,Female,PhD,Finance,Creative,Yes,Medium,Other,Part-time,0
+150,45,15,24090,3,1,4,2,3,1,Male,Master's degree,Marketing,Creative,No,High,Other,Part-time,0
+151,37,18,44945,3,0,4,1,2,1,Female,Bachelor's degree,Sales,Creative,Yes,Medium,Other,Part-time,1
+152,47,3,60239,1,1,6,0,1,2,Male,Bachelor's degree,IT,Scientific,Yes,Low,US,Full-time,1
+153,28,17,23743,3,1,0,4,4,0,Male,High School,Marketing,Technical,Yes,Low,Other,Unemployed,1
+154,45,1,50924,1,0,7,0,4,0,Male,Bachelor's degree,Marketing,Business,No,Low,US,Unemployed,0
+155,42,0,30196,3,1,2,2,3,0,Male,Master's degree,HR,Technical,Yes,Medium,Other,Unemployed,0
+156,56,14,88860,1,0,3,4,2,1,Male,Bachelor's degree,Marketing,Scientific,No,Medium,US,Part-time,1
+157,50,4,61400,3,0,8,3,3,0,Female,PhD,HR,Technical,Yes,Low,Other,Unemployed,0
+158,18,19,68795,2,0,3,1,3,0,Male,Bachelor's degree,IT,Creative,No,High,Other,Unemployed,1
+159,44,10,71553,3,0,9,2,3,0,Male,Bachelor's degree,IT,Creative,Yes,High,Other,Unemployed,1
+160,30,9,44111,3,1,4,2,3,1,Female,PhD,Sales,Technical,No,Medium,Other,Part-time,0
+161,58,1,83083,1,0,6,1,4,0,Male,Bachelor's degree,HR,Scientific,Yes,Medium,US,Unemployed,0
+162,20,2,81600,1,0,3,1,4,1,Male,Bachelor's degree,HR,Technical,Yes,Low,US,Part-time,0
+163,56,11,70022,3,1,0,3,3,0,Female,High School,Finance,Creative,Yes,Medium,Other,Unemployed,0
+164,23,19,23199,2,0,8,2,3,0,Female,Master's degree,Finance,Creative,No,Medium,Other,Unemployed,1
+165,25,4,70897,2,0,3,2,2,0,Male,High School,Sales,Scientific,Yes,Low,Other,Unemployed,0
+166,44,4,58038,1,0,8,0,3,1,Female,Master's degree,IT,Technical,Yes,Low,US,Part-time,0
+167,26,5,75038,2,0,5,4,4,1,Male,PhD,Finance,Creative,Yes,Medium,Other,Part-time,0
+168,54,8,27897,3,1,0,4,1,0,Female,PhD,Marketing,Creative,Yes,High,Other,Unemployed,0
+169,50,1,84541,1,0,2,0,4,2,Male,PhD,IT,Technical,No,Medium,US,Full-time,1
+170,59,11,34892,3,1,1,4,2,1,Male,Master's degree,Marketing,Technical,Yes,High,Other,Part-time,0
+171,41,2,28271,1,1,8,1,4,1,Male,Master's degree,HR,Business,Yes,High,US,Part-time,0
+172,32,19,44815,1,0,0,4,1,0,Female,Master's degree,IT,Scientific,No,High,US,Unemployed,0
+173,49,11,65612,1,0,8,4,3,2,Male,PhD,Sales,Scientific,No,Low,US,Full-time,1
+174,49,16,53357,1,0,8,0,1,0,Female,Master's degree,HR,Technical,No,Low,US,Unemployed,0
+175,41,9,95088,2,0,7,3,3,1,Male,Bachelor's degree,HR,Scientific,Yes,Low,Other,Part-time,1
+176,58,13,36267,3,1,7,4,3,1,Male,High School,Marketing,Creative,No,Medium,Other,Part-time,0
+177,29,16,38268,3,1,0,4,4,0,Male,PhD,HR,Technical,No,Low,Other,Unemployed,1
+178,56,17,34263,3,1,7,3,4,0,Male,High School,Finance,Technical,No,Low,Other,Unemployed,0
+179,19,18,90935,1,0,9,0,4,2,Male,Bachelor's degree,IT,Technical,Yes,Medium,US,Full-time,1
+180,20,16,79660,2,1,2,3,2,2,Female,Master's degree,Finance,Business,Yes,Medium,Other,Full-time,0
+181,54,13,85527,3,0,6,0,4,1,Female,High School,Marketing,Scientific,Yes,High,Other,Part-time,0
+182,34,8,83379,2,0,0,1,2,2,Female,Bachelor's degree,Marketing,Business,No,Medium,Other,Full-time,1
+183,19,7,61271,1,0,0,0,4,2,Male,Bachelor's degree,IT,Creative,Yes,Medium,US,Full-time,1
+184,19,1,86612,3,0,9,1,3,1,Male,High School,HR,Scientific,No,Low,Other,Part-time,0
+185,45,12,27235,2,0,4,1,2,1,Female,PhD,Sales,Business,No,High,Other,Part-time,0
+186,40,6,36417,1,1,4,0,1,1,Male,High School,Marketing,Technical,No,High,US,Part-time,0
+187,54,8,54609,2,1,7,2,2,1,Male,PhD,IT,Business,Yes,Medium,Other,Part-time,0
+188,49,10,53902,3,0,6,0,2,0,Male,Master's degree,Sales,Technical,No,Low,Other,Unemployed,0
+189,50,13,43645,3,1,7,4,1,1,Female,PhD,HR,Business,No,Low,Other,Part-time,0
+190,18,3,82873,1,0,5,4,2,1,Female,Master's degree,Marketing,Business,Yes,Low,US,Part-time,0
+191,36,12,84558,1,0,5,2,3,1,Female,High School,IT,Business,No,Low,US,Part-time,0
+192,19,1,82233,1,0,1,1,4,2,Female,Master's degree,IT,Technical,No,Medium,US,Full-time,1
+193,43,4,43401,2,1,5,2,1,1,Female,Bachelor's degree,IT,Business,No,Low,Other,Part-time,0
+194,49,10,27771,2,0,4,4,4,0,Male,Master's degree,Marketing,Scientific,Yes,High,Other,Unemployed,0
+195,23,5,61335,2,0,2,2,3,0,Male,PhD,Sales,Scientific,No,High,Other,Unemployed,0
+196,49,17,94451,1,1,5,0,1,1,Male,PhD,IT,Scientific,Yes,Medium,US,Part-time,0
+197,21,9,99434,3,1,7,2,4,0,Male,PhD,HR,Technical,Yes,Low,Other,Unemployed,0
+198,28,3,87449,3,1,8,1,4,2,Female,Master's degree,IT,Technical,No,Low,Other,Full-time,0
+199,34,8,21942,2,0,0,0,3,1,Female,PhD,Sales,Scientific,No,Low,Other,Part-time,0
+200,55,5,40388,2,0,2,3,4,0,Male,PhD,Marketing,Scientific,No,Low,Other,Unemployed,0
+201,41,1,77042,3,1,2,4,3,0,Female,Bachelor's degree,IT,Scientific,No,Medium,Other,Unemployed,0
+202,22,16,73740,3,0,7,4,2,1,Male,Master's degree,IT,Creative,Yes,Low,Other,Part-time,0
+203,51,4,85873,2,1,0,2,3,0,Male,Bachelor's degree,HR,Scientific,Yes,Medium,Other,Unemployed,0
+204,23,5,67024,2,1,4,0,2,1,Male,PhD,HR,Business,No,Low,Other,Part-time,0
+205,39,11,43450,3,0,2,3,1,0,Male,PhD,IT,Creative,Yes,Low,Other,Unemployed,0
+206,28,9,76965,1,0,1,0,4,2,Female,PhD,IT,Creative,No,High,US,Full-time,1
+207,33,5,30057,2,1,7,4,3,0,Male,Master's degree,HR,Technical,No,Medium,Other,Unemployed,0
+208,50,7,28983,3,1,2,0,3,0,Female,High School,Sales,Business,No,High,Other,Unemployed,0
+209,26,1,39995,3,1,6,3,4,1,Male,PhD,Finance,Technical,No,Medium,Other,Part-time,1
+210,23,11,97681,3,1,0,2,4,0,Male,PhD,Finance,Technical,Yes,Low,Other,Unemployed,0
+211,33,12,58886,3,0,5,1,1,1,Male,PhD,IT,Business,Yes,Low,Other,Part-time,0
+212,46,6,22673,1,1,2,0,1,2,Male,PhD,HR,Technical,No,Medium,US,Full-time,1
+213,20,9,54890,3,1,7,1,3,1,Female,Master's degree,Marketing,Business,No,High,Other,Part-time,0
+214,37,12,97513,2,1,5,4,1,1,Male,High School,Marketing,Business,Yes,Medium,Other,Part-time,0
+215,53,16,43466,1,0,1,2,2,0,Female,High School,Finance,Technical,Yes,Medium,US,Unemployed,0
+216,36,13,70406,3,0,5,2,1,2,Male,High School,Sales,Scientific,Yes,Low,Other,Full-time,0
+217,43,1,23688,1,1,6,0,1,1,Male,PhD,Finance,Technical,No,High,US,Part-time,0
+218,20,10,89284,2,0,4,2,3,0,Male,PhD,IT,Creative,Yes,Medium,Other,Unemployed,0
+219,36,0,33665,3,0,2,0,2,0,Female,High School,Sales,Technical,No,High,Other,Unemployed,0
+220,37,18,40641,2,0,3,0,1,1,Male,High School,Marketing,Business,No,High,Other,Part-time,0
+221,49,3,52500,3,1,3,1,2,0,Male,PhD,HR,Creative,Yes,Medium,Other,Unemployed,0
+222,24,18,55797,3,1,5,2,2,1,Male,PhD,HR,Business,No,High,Other,Part-time,0
+223,58,10,65950,3,0,9,0,2,1,Male,Bachelor's degree,IT,Scientific,Yes,Low,Other,Part-time,1
+224,50,7,45046,3,1,0,1,4,1,Male,Bachelor's degree,Finance,Scientific,No,Low,Other,Part-time,1
+225,57,10,29638,3,1,3,3,4,2,Female,Bachelor's degree,IT,Creative,No,Low,Other,Full-time,1
+226,56,3,41173,1,0,9,1,4,1,Female,High School,HR,Scientific,No,Low,US,Part-time,0
+227,35,16,33222,3,0,3,1,4,0,Male,Master's degree,Marketing,Scientific,No,High,Other,Unemployed,0
+228,57,6,70064,3,1,9,0,3,2,Male,PhD,HR,Technical,No,Low,Other,Full-time,0
+229,18,7,57010,1,0,0,4,1,0,Female,Bachelor's degree,Sales,Technical,No,Medium,US,Unemployed,1
+230,28,2,38095,1,1,8,4,4,2,Male,Master's degree,HR,Scientific,Yes,Low,US,Full-time,1
+231,45,1,21439,1,1,3,4,3,2,Female,PhD,HR,Scientific,Yes,Medium,US,Full-time,1
+232,42,14,25375,1,0,6,1,1,2,Male,Master's degree,Sales,Technical,No,Medium,US,Full-time,1
+233,40,4,40600,1,1,2,0,4,2,Male,High School,Finance,Scientific,Yes,Low,US,Full-time,1
+234,48,0,22466,1,1,9,2,1,0,Female,High School,HR,Scientific,No,Low,US,Unemployed,0
+235,47,3,65097,3,0,2,1,4,1,Male,High School,IT,Business,Yes,High,Other,Part-time,0
+236,59,14,73276,3,0,7,1,3,0,Female,Bachelor's degree,HR,Scientific,Yes,Medium,Other,Unemployed,1
+237,52,19,70117,2,0,7,0,2,1,Female,PhD,IT,Creative,No,Low,Other,Part-time,0
+238,24,18,66971,3,1,0,3,2,0,Female,High School,Sales,Business,Yes,High,Other,Unemployed,0
+239,33,2,26928,3,0,9,1,1,2,Male,Bachelor's degree,HR,Creative,No,Low,Other,Full-time,0
+240,43,19,75309,1,0,1,3,3,2,Female,Bachelor's degree,Sales,Scientific,Yes,Low,US,Full-time,1
+241,19,10,94647,1,0,7,3,2,1,Female,Bachelor's degree,Sales,Technical,No,Low,US,Part-time,1
+242,18,16,60888,3,0,0,4,4,1,Male,Bachelor's degree,Finance,Business,Yes,Medium,Other,Part-time,1
+243,29,12,63832,2,1,7,0,2,0,Male,High School,HR,Technical,No,Low,Other,Unemployed,0
+244,22,10,29404,1,1,7,3,1,1,Male,Bachelor's degree,IT,Business,Yes,High,US,Part-time,1
+245,54,1,53639,3,0,1,0,1,0,Male,High School,IT,Technical,No,Low,Other,Unemployed,0
+246,49,8,98118,3,1,3,4,3,1,Male,High School,HR,Business,Yes,Low,Other,Part-time,0
+247,26,1,80598,2,0,5,0,1,1,Male,Bachelor's degree,Finance,Business,No,High,Other,Part-time,0
+248,58,8,86399,2,0,8,1,2,1,Female,High School,Finance,Creative,Yes,High,Other,Part-time,0
+249,52,8,47684,1,1,7,3,2,2,Male,PhD,Finance,Technical,No,Medium,US,Full-time,1
+250,36,7,88591,2,1,7,0,2,2,Female,PhD,IT,Creative,Yes,Medium,Other,Full-time,0
+251,33,16,97722,3,0,6,2,2,0,Male,Master's degree,Sales,Creative,No,Medium,Other,Unemployed,0
+252,20,0,22682,3,0,8,0,3,1,Female,PhD,Finance,Technical,No,Medium,Other,Part-time,1
+253,37,10,58046,2,1,1,3,4,0,Female,High School,IT,Business,No,High,Other,Unemployed,0
+254,41,7,41832,2,0,2,4,4,1,Male,High School,IT,Creative,No,Low,Other,Part-time,0
+255,50,9,36997,2,1,9,4,3,2,Male,PhD,Sales,Technical,Yes,Low,Other,Full-time,0
+256,41,6,54640,2,0,7,3,1,2,Female,Bachelor's degree,HR,Business,Yes,Low,Other,Full-time,1
+257,28,2,96882,1,0,5,1,4,1,Male,Bachelor's degree,HR,Creative,Yes,Medium,US,Part-time,0
+258,25,2,60491,2,1,9,1,1,1,Male,High School,Finance,Creative,No,High,Other,Part-time,0
+259,53,17,83043,1,1,8,4,4,2,Female,Bachelor's degree,Finance,Creative,No,High,US,Full-time,1
+260,55,4,92725,3,1,9,4,1,2,Female,Master's degree,Sales,Business,No,High,Other,Full-time,0
+261,57,11,65520,2,1,3,3,3,0,Female,Master's degree,Finance,Creative,No,Low,Other,Unemployed,0
+262,37,11,82919,1,1,7,1,2,2,Male,PhD,Sales,Business,No,Medium,US,Full-time,1
+263,52,18,84442,2,1,9,4,1,1,Male,PhD,IT,Scientific,Yes,High,Other,Part-time,0
+264,42,5,41770,3,1,2,1,2,0,Male,Bachelor's degree,Finance,Creative,Yes,Medium,Other,Unemployed,1
+265,52,1,67498,3,0,2,4,1,1,Male,High School,IT,Scientific,Yes,High,Other,Part-time,0
+266,42,11,81477,3,0,7,0,1,0,Female,PhD,Marketing,Technical,No,Medium,Other,Unemployed,0
+267,46,18,20244,2,0,4,2,1,1,Male,Master's degree,Sales,Creative,No,High,Other,Part-time,0
+268,35,4,52788,2,1,2,0,1,2,Female,PhD,Marketing,Technical,No,Medium,Other,Full-time,0
+269,35,11,99453,1,1,9,4,1,1,Male,PhD,Finance,Technical,No,High,US,Part-time,0
+270,19,16,77737,3,1,0,2,2,0,Male,Master's degree,IT,Technical,No,High,Other,Unemployed,0
+271,52,16,66489,2,0,2,2,1,1,Female,High School,Finance,Scientific,No,Medium,Other,Part-time,0
+272,33,9,91303,3,1,8,4,2,0,Male,PhD,Marketing,Business,No,Medium,Other,Unemployed,0
+273,58,16,48390,3,1,4,4,3,1,Male,PhD,Finance,Scientific,Yes,Low,Other,Part-time,0
+274,53,14,30247,1,0,9,1,4,2,Female,PhD,HR,Scientific,Yes,Medium,US,Full-time,1
+275,50,11,89051,1,1,1,4,1,2,Male,Bachelor's degree,Marketing,Technical,No,High,US,Full-time,1
+276,21,15,79719,1,0,6,3,4,1,Female,PhD,Finance,Creative,No,High,US,Part-time,0
+277,50,18,54678,1,0,1,4,2,1,Female,Master's degree,IT,Business,No,Medium,US,Part-time,0
+278,31,7,96286,3,1,3,3,3,1,Female,High School,Finance,Technical,Yes,Low,Other,Part-time,0
+279,38,16,49583,1,1,6,4,3,0,Female,High School,IT,Business,Yes,Medium,US,Unemployed,0
+280,37,4,28076,1,1,3,1,3,1,Male,Master's degree,HR,Scientific,No,High,US,Part-time,0
+281,25,15,38006,1,0,6,3,4,1,Male,Bachelor's degree,Finance,Business,Yes,High,US,Part-time,1
+282,24,5,35051,1,0,6,0,2,0,Male,Master's degree,HR,Business,Yes,Low,US,Unemployed,1
+283,20,7,24314,3,0,0,3,1,2,Female,High School,Marketing,Creative,Yes,Medium,Other,Full-time,1
+284,34,17,48670,1,1,5,1,1,1,Male,Master's degree,IT,Technical,No,High,US,Part-time,0
+285,50,11,87551,3,1,8,3,2,1,Male,Bachelor's degree,Marketing,Business,Yes,High,Other,Part-time,1
+286,29,14,30236,2,1,1,4,4,2,Male,High School,IT,Business,Yes,High,Other,Full-time,1
+287,39,8,55568,3,1,2,4,1,2,Male,Bachelor's degree,HR,Scientific,No,Medium,Other,Full-time,1
+288,39,12,80314,3,0,9,1,2,0,Female,Master's degree,Sales,Scientific,No,Medium,Other,Unemployed,0
+289,47,14,36352,1,0,4,2,1,1,Female,PhD,Finance,Business,Yes,Low,US,Part-time,0
+290,55,9,65650,2,0,8,4,3,1,Male,Master's degree,HR,Technical,No,High,Other,Part-time,0
+291,55,15,30346,2,0,3,0,1,0,Female,Bachelor's degree,IT,Business,Yes,High,Other,Unemployed,1
+292,25,6,45156,2,1,0,1,4,2,Male,Master's degree,IT,Business,Yes,Low,Other,Full-time,1
+293,44,16,75904,2,1,3,3,2,0,Male,PhD,IT,Creative,No,High,Other,Unemployed,0
+294,44,6,34035,3,1,5,3,4,2,Male,Bachelor's degree,IT,Technical,No,Low,Other,Full-time,1
+295,51,13,36108,2,0,4,0,2,0,Female,Master's degree,Finance,Creative,Yes,Low,Other,Unemployed,0
+296,38,14,22853,3,0,0,4,3,2,Male,Bachelor's degree,Marketing,Technical,No,High,Other,Full-time,1
+297,47,6,24176,3,1,3,1,2,0,Female,Bachelor's degree,Sales,Technical,No,Medium,Other,Unemployed,1
+298,50,8,45920,3,1,5,0,1,2,Female,High School,Finance,Technical,Yes,Medium,Other,Full-time,0
+299,45,18,74850,2,0,9,4,1,2,Male,High School,IT,Creative,Yes,Medium,Other,Full-time,0
+300,50,15,26829,1,1,9,1,3,2,Female,Bachelor's degree,Finance,Creative,Yes,Medium,US,Full-time,1
+301,22,7,93927,1,0,3,3,2,2,Female,Master's degree,HR,Creative,Yes,High,US,Full-time,1
+302,36,17,60667,2,0,8,1,3,2,Male,Master's degree,IT,Scientific,Yes,Low,Other,Full-time,0
+303,21,17,85842,1,0,4,2,1,1,Female,Master's degree,Sales,Creative,Yes,Low,US,Part-time,0
+304,52,19,55843,1,1,7,1,4,2,Female,PhD,IT,Scientific,No,High,US,Full-time,1
+305,34,6,70808,3,1,8,2,3,1,Male,Bachelor's degree,Sales,Scientific,No,Medium,Other,Part-time,1
+306,45,2,50543,3,0,9,1,4,2,Male,Bachelor's degree,Sales,Scientific,Yes,Low,Other,Full-time,0
+307,47,17,92780,2,1,4,2,4,1,Female,PhD,Marketing,Business,No,High,Other,Part-time,0
+308,46,9,26611,2,0,5,3,2,1,Male,Bachelor's degree,Marketing,Business,No,High,Other,Part-time,1
+309,23,6,66902,1,0,0,4,3,0,Male,Bachelor's degree,Finance,Business,Yes,Medium,US,Unemployed,1
+310,52,16,53043,3,0,6,2,4,2,Female,PhD,Finance,Scientific,No,High,Other,Full-time,0
+311,58,13,25271,2,0,3,2,4,0,Female,High School,Sales,Scientific,No,Low,Other,Unemployed,0
+312,54,2,92867,2,1,1,3,2,0,Male,Bachelor's degree,IT,Technical,Yes,Low,Other,Unemployed,0
+313,41,11,97089,2,0,4,2,2,2,Female,PhD,HR,Scientific,No,High,Other,Full-time,0
+314,46,12,78745,2,0,2,0,1,0,Male,Master's degree,HR,Business,No,Low,Other,Unemployed,0
+315,48,1,82077,2,1,5,3,4,2,Male,High School,IT,Scientific,Yes,High,Other,Full-time,0
+316,52,2,79119,2,0,7,0,1,0,Female,Master's degree,IT,Scientific,No,Low,Other,Unemployed,0
+317,50,4,31573,1,0,6,3,4,2,Female,Bachelor's degree,Marketing,Technical,No,Medium,US,Full-time,1
+318,38,10,41409,3,1,2,2,1,2,Male,High School,HR,Scientific,No,Low,Other,Full-time,0
+319,49,7,44464,3,1,7,0,2,2,Male,PhD,Sales,Creative,Yes,Medium,Other,Full-time,0
+320,40,11,62840,2,1,1,2,3,1,Male,Bachelor's degree,Finance,Technical,Yes,Medium,Other,Part-time,1
+321,50,6,68785,3,0,9,3,2,0,Male,PhD,Marketing,Scientific,No,High,Other,Unemployed,0
+322,20,14,40662,3,1,8,2,1,1,Female,High School,HR,Scientific,No,Medium,Other,Part-time,1
+323,35,16,38228,3,1,3,0,1,0,Male,Master's degree,IT,Technical,Yes,Low,Other,Unemployed,0
+324,42,3,80721,2,0,0,0,3,0,Female,Bachelor's degree,HR,Scientific,Yes,Low,Other,Unemployed,0
+325,59,12,69223,2,0,7,2,4,0,Female,Bachelor's degree,Sales,Business,No,Medium,Other,Unemployed,1
+326,48,17,27386,3,0,6,1,1,1,Male,PhD,Marketing,Creative,Yes,High,Other,Part-time,0
+327,20,0,26862,3,0,4,3,1,0,Female,High School,IT,Creative,No,Medium,Other,Unemployed,1
+328,57,15,60108,2,0,9,3,1,1,Female,PhD,Sales,Business,No,Low,Other,Part-time,0
+329,41,12,95023,1,1,4,2,3,2,Male,High School,Finance,Scientific,Yes,Low,US,Full-time,1
+330,49,9,47201,3,1,6,1,2,0,Female,Bachelor's degree,Marketing,Scientific,Yes,Medium,Other,Unemployed,1
+331,39,11,88578,1,1,4,0,1,0,Female,High School,Sales,Creative,No,Medium,US,Unemployed,0
+332,40,1,69966,3,0,7,4,3,2,Male,Bachelor's degree,Sales,Scientific,No,Medium,Other,Full-time,0
+333,19,2,74774,1,0,5,4,1,2,Male,High School,IT,Creative,Yes,Low,US,Full-time,1
+334,44,9,30386,1,0,4,2,4,0,Male,Master's degree,Finance,Creative,No,Low,US,Unemployed,0
+335,59,1,97228,1,1,8,1,3,2,Male,High School,Sales,Business,Yes,Low,US,Full-time,1
+336,19,12,35225,2,1,1,1,1,1,Male,Master's degree,Marketing,Creative,Yes,High,Other,Part-time,1
+337,43,12,36693,1,0,0,3,3,1,Male,High School,Sales,Scientific,Yes,Low,US,Part-time,0
+338,34,17,92197,1,1,7,0,1,0,Male,High School,HR,Scientific,Yes,Low,US,Unemployed,0
+339,57,2,63021,1,0,2,1,2,1,Female,PhD,Marketing,Technical,Yes,High,US,Part-time,0
+340,50,6,38261,3,1,6,4,1,1,Female,PhD,Marketing,Scientific,No,High,Other,Part-time,0
+341,26,13,47378,1,1,9,0,3,0,Male,Bachelor's degree,Sales,Technical,Yes,High,US,Unemployed,1
+342,56,19,31937,3,1,7,0,4,2,Female,PhD,IT,Creative,Yes,High,Other,Full-time,0
+343,46,16,86330,1,0,5,2,4,0,Female,High School,Marketing,Scientific,Yes,High,US,Unemployed,0
+344,59,11,67366,1,1,9,1,4,1,Male,PhD,HR,Business,Yes,High,US,Part-time,0
+345,43,15,92322,2,1,8,2,1,0,Female,High School,IT,Business,Yes,Medium,Other,Unemployed,0
+346,52,11,60160,3,0,6,1,2,0,Male,Master's degree,IT,Business,Yes,Medium,Other,Unemployed,0
+347,42,14,65313,1,1,9,3,1,1,Female,High School,IT,Creative,Yes,Medium,US,Part-time,0
+348,41,9,47032,3,0,4,2,4,1,Male,Bachelor's degree,Marketing,Creative,No,Medium,Other,Part-time,1
+349,30,6,37358,3,0,7,2,3,0,Female,Master's degree,IT,Technical,No,Low,Other,Unemployed,0
+350,24,19,81710,2,0,1,4,4,1,Female,Bachelor's degree,Sales,Business,No,High,Other,Part-time,1
+351,53,4,68821,2,0,6,2,3,1,Female,Bachelor's degree,IT,Technical,No,Low,Other,Part-time,0
+352,37,0,48365,2,0,3,1,2,1,Male,Bachelor's degree,HR,Technical,Yes,High,Other,Part-time,0
+353,18,16,33189,2,1,8,4,3,1,Female,PhD,Finance,Scientific,No,High,Other,Part-time,1
+354,25,2,96749,2,0,0,2,1,1,Female,Bachelor's degree,HR,Scientific,Yes,Low,Other,Part-time,0
+355,33,12,27248,2,0,6,2,1,1,Male,Master's degree,Marketing,Business,No,Medium,Other,Part-time,0
+356,31,13,24369,2,0,5,3,1,2,Male,High School,IT,Creative,No,Low,Other,Full-time,0
+357,29,17,83763,2,0,7,2,3,0,Female,Bachelor's degree,IT,Scientific,Yes,Low,Other,Unemployed,1
+358,40,3,28050,1,1,4,0,1,1,Female,Master's degree,Sales,Creative,Yes,High,US,Part-time,0
+359,32,17,48605,3,0,0,4,1,0,Female,Bachelor's degree,IT,Technical,No,High,Other,Unemployed,1
+360,45,4,69616,2,1,0,0,1,2,Female,High School,HR,Technical,No,High,Other,Full-time,0
+361,51,15,74479,2,0,8,4,2,1,Male,Master's degree,Marketing,Technical,No,Medium,Other,Part-time,0
+362,19,0,60883,3,1,9,3,3,0,Female,Master's degree,Finance,Technical,No,Low,Other,Unemployed,0
+363,49,13,53055,1,0,5,2,3,1,Female,High School,IT,Business,Yes,Low,US,Part-time,0
+364,40,14,88731,3,0,9,2,4,1,Male,Master's degree,Finance,Technical,No,Medium,Other,Part-time,0
+365,39,8,27450,3,1,4,2,3,1,Female,High School,IT,Scientific,No,Low,Other,Part-time,0
+366,42,14,22925,2,0,0,4,2,1,Female,Master's degree,Marketing,Technical,No,Low,Other,Part-time,0
+367,39,16,70272,3,1,5,2,3,1,Female,Master's degree,HR,Creative,No,High,Other,Part-time,0
+368,39,3,25310,3,0,5,0,2,1,Male,High School,Marketing,Scientific,No,Medium,Other,Part-time,0
+369,59,11,51817,2,1,2,2,2,1,Male,High School,Finance,Creative,Yes,High,Other,Part-time,0
+370,23,4,64528,2,0,7,3,3,2,Female,Master's degree,IT,Creative,Yes,Medium,Other,Full-time,0
+371,32,4,75779,2,0,0,0,4,2,Female,Master's degree,Finance,Business,Yes,High,Other,Full-time,0
+372,54,10,96310,2,1,0,2,1,1,Male,High School,HR,Business,Yes,Low,Other,Part-time,0
+373,50,5,35457,3,0,5,2,1,1,Female,PhD,Marketing,Creative,Yes,Medium,Other,Part-time,0
+374,25,6,62311,3,0,9,1,3,2,Female,High School,Finance,Creative,No,Medium,Other,Full-time,0
+375,22,13,23980,1,0,0,4,3,2,Male,Master's degree,Finance,Technical,Yes,High,US,Full-time,1
+376,56,10,40886,1,0,5,0,2,2,Male,Master's degree,HR,Scientific,Yes,Medium,US,Full-time,1
+377,21,12,97112,3,0,0,1,3,1,Male,Master's degree,IT,Technical,No,Low,Other,Part-time,0
+378,23,1,70877,1,0,5,3,2,0,Female,High School,Finance,Business,Yes,Low,US,Unemployed,0
+379,49,6,56181,3,1,2,4,4,0,Female,Master's degree,HR,Business,Yes,Low,Other,Unemployed,0
+380,47,19,53262,1,1,7,0,3,0,Female,PhD,IT,Technical,Yes,High,US,Unemployed,0
+381,52,3,20947,2,1,5,2,1,0,Female,Bachelor's degree,IT,Scientific,Yes,Medium,Other,Unemployed,0
+382,57,7,20022,1,0,0,0,1,1,Male,PhD,Marketing,Creative,No,High,US,Part-time,0
+383,33,19,21128,2,1,4,2,3,0,Female,High School,HR,Technical,No,Low,Other,Unemployed,0
+384,30,18,99522,2,0,7,4,2,2,Female,Master's degree,IT,Business,Yes,Medium,Other,Full-time,0
+385,59,12,52322,2,0,2,2,1,2,Male,High School,Marketing,Scientific,No,Low,Other,Full-time,0
+386,47,13,68929,2,0,5,3,2,0,Male,Bachelor's degree,Sales,Business,Yes,Medium,Other,Unemployed,1
+387,36,9,29808,1,0,4,2,3,2,Female,High School,HR,Scientific,No,Medium,US,Full-time,1
+388,34,10,72882,3,1,5,3,3,1,Male,Master's degree,Sales,Scientific,No,High,Other,Part-time,0
+389,36,1,41725,2,0,9,4,1,0,Male,Bachelor's degree,IT,Scientific,No,Medium,Other,Unemployed,0
+390,45,8,92534,1,1,0,4,3,0,Female,Bachelor's degree,HR,Technical,No,Low,US,Unemployed,1
+391,43,16,59950,2,0,6,0,4,1,Female,Master's degree,Marketing,Technical,No,Medium,Other,Part-time,0
+392,54,2,40557,1,1,8,3,4,2,Female,Master's degree,IT,Technical,No,Low,US,Full-time,1
+393,43,5,41825,1,1,1,3,1,1,Female,Master's degree,HR,Scientific,No,High,US,Part-time,0
+394,40,4,28998,1,1,9,1,4,1,Male,High School,HR,Scientific,No,Low,US,Part-time,0
+395,26,4,56080,3,1,4,1,2,2,Male,PhD,Sales,Business,No,Medium,Other,Full-time,0
+396,29,14,77797,1,1,9,1,1,1,Female,High School,IT,Creative,No,Low,US,Part-time,0
+397,18,16,35802,1,1,3,2,1,2,Female,High School,Marketing,Technical,No,Low,US,Full-time,1
+398,18,8,31167,3,0,5,1,2,2,Male,PhD,Marketing,Scientific,Yes,Medium,Other,Full-time,1
+399,51,2,62407,3,1,5,3,4,1,Female,Master's degree,IT,Business,No,Low,Other,Part-time,0
+400,49,19,33338,1,0,1,2,4,2,Female,Master's degree,IT,Business,Yes,Medium,US,Full-time,1
+401,42,16,96289,3,1,1,4,4,1,Female,PhD,Finance,Business,No,High,Other,Part-time,0
+402,57,9,91520,2,0,3,0,1,2,Female,PhD,Sales,Technical,Yes,Low,Other,Full-time,0
+403,18,2,38895,2,1,0,1,1,0,Male,High School,IT,Technical,Yes,High,Other,Unemployed,1
+404,33,17,67910,3,1,8,4,4,2,Female,Bachelor's degree,IT,Creative,Yes,Low,Other,Full-time,1
+405,56,17,85898,3,0,6,3,3,2,Male,PhD,Finance,Business,No,Low,Other,Full-time,0
+406,22,16,23454,1,1,6,0,4,1,Female,High School,Finance,Technical,No,High,US,Part-time,1
+407,39,2,80797,3,1,2,4,2,2,Female,Bachelor's degree,HR,Business,No,Low,Other,Full-time,0
+408,46,2,70637,1,1,2,0,1,0,Male,Master's degree,Marketing,Scientific,No,Low,US,Unemployed,0
+409,20,5,25349,2,0,0,1,2,0,Female,Master's degree,Sales,Business,Yes,High,Other,Unemployed,1
+410,29,12,59963,3,1,2,3,2,2,Male,High School,HR,Creative,No,Low,Other,Full-time,0
+411,43,14,95583,1,0,2,0,1,2,Female,High School,IT,Technical,No,Medium,US,Full-time,1
+412,33,8,27750,1,1,3,4,3,0,Female,PhD,Finance,Scientific,No,Low,US,Unemployed,0
+413,54,3,42463,2,1,3,1,4,1,Female,Master's degree,Marketing,Technical,No,Low,Other,Part-time,0
+414,39,13,94935,3,0,2,1,2,0,Female,High School,HR,Scientific,No,Low,Other,Unemployed,0
+415,46,4,78792,2,1,9,4,1,0,Female,Master's degree,Marketing,Business,No,High,Other,Unemployed,0
+416,31,1,33686,1,1,7,4,2,2,Male,Master's degree,Finance,Business,No,Medium,US,Full-time,1
+417,45,10,83528,1,0,7,0,4,2,Male,PhD,HR,Creative,No,Medium,US,Full-time,1
+418,22,8,42787,3,1,0,2,3,0,Female,Bachelor's degree,HR,Creative,Yes,Low,Other,Unemployed,1
+419,47,2,34776,1,0,6,1,3,1,Female,PhD,Marketing,Scientific,Yes,High,US,Part-time,0
+420,22,8,77427,3,0,1,0,3,0,Male,High School,Finance,Creative,No,High,Other,Unemployed,0
+421,29,2,81086,2,0,0,4,1,0,Male,PhD,IT,Creative,No,Medium,Other,Unemployed,0
+422,33,1,83308,3,1,2,0,1,1,Female,PhD,HR,Creative,No,High,Other,Part-time,0
+423,43,11,35797,3,0,3,4,3,0,Female,Master's degree,IT,Creative,No,Low,Other,Unemployed,0
+424,43,9,25302,1,0,5,3,4,0,Male,PhD,Finance,Business,Yes,Low,US,Unemployed,0
+425,38,8,83172,1,1,9,4,4,2,Female,High School,HR,Creative,Yes,High,US,Full-time,1
+426,56,14,58059,3,0,4,4,1,1,Male,Bachelor's degree,HR,Business,No,Low,Other,Part-time,1
+427,53,7,20908,1,1,3,4,3,2,Female,PhD,IT,Business,Yes,Medium,US,Full-time,1
+428,50,4,80252,1,1,7,2,4,2,Male,PhD,Sales,Technical,Yes,Low,US,Full-time,1
+429,47,10,32877,1,1,3,4,4,1,Male,Bachelor's degree,IT,Business,No,High,US,Part-time,1
+430,54,1,34239,3,1,9,1,4,1,Female,High School,IT,Business,No,Medium,Other,Part-time,0
+431,40,14,47313,1,0,1,1,1,0,Male,High School,Sales,Creative,No,Low,US,Unemployed,0
+432,27,5,62103,3,0,2,0,3,2,Female,PhD,Finance,Business,Yes,Medium,Other,Full-time,0
+433,22,7,68408,1,0,5,2,2,1,Female,Master's degree,Finance,Scientific,Yes,High,US,Part-time,0
+434,53,4,30534,2,0,7,0,3,2,Female,PhD,HR,Creative,No,Low,Other,Full-time,0
+435,51,15,63060,1,0,7,1,3,2,Female,Bachelor's degree,Marketing,Creative,No,Low,US,Full-time,1
+436,48,17,37189,1,1,8,1,1,1,Male,Bachelor's degree,Marketing,Creative,Yes,Medium,US,Part-time,1
+437,27,5,30967,3,0,6,3,4,0,Female,Bachelor's degree,HR,Technical,Yes,Low,Other,Unemployed,1
+438,36,4,85563,3,0,1,4,4,2,Female,PhD,Marketing,Creative,No,Low,Other,Full-time,0
+439,49,15,28660,1,0,7,1,1,1,Female,PhD,IT,Business,Yes,Low,US,Part-time,0
+440,18,12,59823,2,1,6,0,1,0,Female,High School,IT,Scientific,No,Low,Other,Unemployed,0
+441,22,4,75842,1,1,7,0,1,2,Male,Master's degree,Sales,Creative,No,High,US,Full-time,1
+442,21,12,29616,1,0,2,4,1,1,Female,PhD,Sales,Creative,Yes,Low,US,Part-time,1
+443,33,16,95976,2,1,6,4,1,2,Male,High School,HR,Scientific,Yes,Medium,Other,Full-time,0
+444,41,17,68738,3,0,9,3,2,1,Male,PhD,HR,Creative,Yes,High,Other,Part-time,0
+445,33,7,33107,1,0,8,2,3,1,Male,High School,HR,Technical,No,Medium,US,Part-time,0
+446,19,12,81404,3,1,2,0,3,2,Female,High School,IT,Business,No,Medium,Other,Full-time,0
+447,45,18,35954,3,1,9,4,3,2,Female,Master's degree,Marketing,Scientific,No,Medium,Other,Full-time,0
+448,49,2,36943,2,0,5,0,4,1,Female,PhD,HR,Scientific,No,High,Other,Part-time,0
+449,44,7,60725,2,0,1,4,2,0,Female,High School,HR,Technical,No,High,Other,Unemployed,0
+450,37,1,65434,3,1,1,1,3,2,Male,Bachelor's degree,IT,Business,No,High,Other,Full-time,0
+451,41,7,30110,1,0,4,0,4,1,Male,Bachelor's degree,IT,Technical,Yes,Low,US,Part-time,1
+452,29,12,36462,3,1,4,1,2,1,Female,Bachelor's degree,IT,Business,No,Medium,Other,Part-time,1
+453,52,12,99232,1,0,6,0,2,0,Female,Master's degree,Marketing,Technical,No,High,US,Unemployed,0
+454,50,0,74081,1,1,1,2,4,0,Female,High School,HR,Creative,No,Medium,US,Unemployed,0
+455,50,5,72799,2,0,6,3,2,0,Female,Master's degree,Finance,Technical,No,High,Other,Unemployed,0
+456,54,18,86567,1,0,4,1,4,2,Female,PhD,Finance,Scientific,Yes,High,US,Full-time,1
+457,29,15,71224,1,1,5,4,3,1,Female,PhD,HR,Scientific,No,High,US,Part-time,0
+458,20,7,76063,3,0,7,2,4,1,Female,High School,HR,Scientific,Yes,Medium,Other,Part-time,0
+459,18,0,75240,2,0,9,0,2,1,Male,Bachelor's degree,HR,Technical,Yes,Low,Other,Part-time,0
+460,50,15,37868,1,1,3,1,3,0,Male,High School,HR,Scientific,No,High,US,Unemployed,0
+461,57,8,95973,1,0,6,0,3,1,Male,High School,Marketing,Scientific,No,High,US,Part-time,0
+462,27,12,42222,2,0,5,0,1,2,Male,High School,Finance,Creative,Yes,High,Other,Full-time,1
+463,46,10,99794,3,0,9,0,1,0,Female,Master's degree,Sales,Creative,Yes,Low,Other,Unemployed,0
+464,30,12,83924,2,1,1,3,2,0,Female,PhD,Finance,Business,No,Medium,Other,Unemployed,0
+465,29,9,98513,2,1,7,3,4,0,Female,High School,Finance,Business,Yes,Medium,Other,Unemployed,0
+466,48,3,74649,1,1,9,4,4,0,Female,High School,IT,Business,No,Medium,US,Unemployed,0
+467,19,5,30223,1,0,8,1,2,2,Female,High School,HR,Technical,No,Medium,US,Full-time,1
+468,52,6,68166,3,0,4,2,3,1,Male,Master's degree,HR,Business,Yes,High,Other,Part-time,0
+469,40,4,59369,1,0,9,2,2,2,Female,Master's degree,HR,Technical,No,Low,US,Full-time,1
+470,34,10,89392,1,0,3,2,2,1,Male,Master's degree,IT,Technical,No,High,US,Part-time,0
+471,43,12,79526,2,1,5,0,3,2,Female,High School,Marketing,Business,No,Low,Other,Full-time,0
+472,25,18,32661,1,0,7,3,4,0,Male,Bachelor's degree,Marketing,Business,Yes,Medium,US,Unemployed,1
+473,46,9,35591,3,0,2,1,2,0,Female,Bachelor's degree,Sales,Technical,Yes,Low,Other,Unemployed,1
+474,43,9,91718,2,0,9,0,4,2,Male,Bachelor's degree,Marketing,Creative,Yes,High,Other,Full-time,1
+475,27,10,75235,3,1,0,3,2,2,Female,PhD,Marketing,Scientific,No,High,Other,Full-time,0
+476,43,6,27970,2,0,3,3,3,1,Female,High School,HR,Scientific,Yes,Medium,Other,Part-time,0
+477,51,17,67922,1,0,3,1,3,2,Female,Bachelor's degree,Finance,Scientific,Yes,High,US,Full-time,1
+478,58,3,50755,2,0,0,1,1,2,Female,Bachelor's degree,Marketing,Creative,Yes,High,Other,Full-time,0
+479,24,1,39416,2,0,8,1,3,1,Male,Bachelor's degree,Marketing,Technical,No,Low,Other,Part-time,1
+480,21,13,33672,1,0,2,0,1,1,Female,High School,IT,Business,No,High,US,Part-time,1
+481,28,12,66996,1,1,4,4,2,1,Male,Bachelor's degree,Sales,Technical,Yes,Medium,US,Part-time,1
+482,46,11,94095,3,0,5,1,4,2,Female,Bachelor's degree,IT,Technical,Yes,Medium,Other,Full-time,1
+483,53,6,20064,3,0,7,4,3,1,Male,High School,HR,Business,Yes,High,Other,Part-time,0
+484,42,1,88835,1,0,5,0,3,0,Female,PhD,Finance,Creative,No,Medium,US,Unemployed,0
+485,38,12,90385,1,0,2,4,3,0,Female,Master's degree,Sales,Scientific,Yes,Low,US,Unemployed,0
+486,53,13,25639,1,0,5,2,2,0,Male,Bachelor's degree,IT,Scientific,No,Low,US,Unemployed,1
+487,27,16,31055,2,0,0,4,1,2,Female,Master's degree,Marketing,Technical,No,High,Other,Full-time,1
+488,54,8,79220,2,0,3,1,2,0,Female,PhD,Marketing,Creative,No,High,Other,Unemployed,0
+489,26,16,49427,2,0,5,0,4,2,Male,PhD,Sales,Scientific,Yes,Low,Other,Full-time,1
+490,41,7,84666,1,0,6,1,2,2,Female,Bachelor's degree,Marketing,Creative,Yes,Medium,US,Full-time,1
+491,52,1,84274,3,0,9,2,4,0,Male,High School,IT,Business,No,High,Other,Unemployed,0
+492,52,12,30866,1,1,2,1,3,1,Female,PhD,IT,Technical,No,High,US,Part-time,0
+493,53,2,23889,2,1,8,1,4,2,Male,Master's degree,Marketing,Technical,No,Medium,Other,Full-time,0
+494,35,15,68226,2,1,6,1,4,0,Male,Master's degree,Marketing,Creative,No,High,Other,Unemployed,0
+495,56,5,51335,1,1,0,3,1,2,Male,Master's degree,HR,Scientific,Yes,Medium,US,Full-time,1
+496,49,18,70547,1,0,1,2,4,1,Male,Master's degree,Finance,Creative,Yes,Medium,US,Part-time,0
+497,41,6,46162,2,1,0,1,4,1,Female,PhD,Sales,Business,No,Medium,Other,Part-time,0
+498,40,9,44687,2,1,8,1,2,0,Female,Bachelor's degree,IT,Scientific,No,Medium,Other,Unemployed,1
+499,49,8,30995,2,0,8,1,3,2,Male,Bachelor's degree,Sales,Scientific,No,Medium,Other,Full-time,1
+500,54,1,76488,1,1,6,0,2,2,Female,Master's degree,HR,Creative,Yes,Low,US,Full-time,1
+501,29,14,22631,2,1,9,3,2,2,Female,Bachelor's degree,IT,Business,No,Medium,Other,Full-time,1
+502,30,4,54954,2,0,2,0,3,2,Female,Master's degree,HR,Scientific,Yes,Low,Other,Full-time,0
+503,40,3,25967,3,0,4,3,3,0,Male,Master's degree,HR,Technical,No,Medium,Other,Unemployed,0
+504,42,19,84471,1,0,3,1,4,1,Female,High School,Marketing,Business,Yes,High,US,Part-time,0
+505,52,3,57116,3,1,6,2,4,0,Female,PhD,Sales,Scientific,Yes,Low,Other,Unemployed,0
+506,58,17,54227,3,1,8,4,1,2,Male,PhD,Sales,Creative,No,High,Other,Full-time,0
+507,47,3,21942,2,0,1,4,2,2,Female,Master's degree,Marketing,Scientific,Yes,Medium,Other,Full-time,0
+508,34,16,67664,1,0,7,1,3,1,Male,PhD,Sales,Technical,Yes,Medium,US,Part-time,0
+509,37,11,48069,2,1,8,0,4,2,Male,Bachelor's degree,Marketing,Business,Yes,High,Other,Full-time,1
+510,42,16,34407,1,0,9,2,3,0,Male,Master's degree,IT,Scientific,Yes,Medium,US,Unemployed,0
+511,39,9,79201,3,1,9,3,4,0,Female,High School,HR,Technical,No,High,Other,Unemployed,0
+512,30,0,74348,1,0,8,1,1,1,Female,Bachelor's degree,HR,Scientific,No,Medium,US,Part-time,0
+513,36,17,37878,2,0,9,2,1,0,Male,High School,Sales,Scientific,No,Medium,Other,Unemployed,0
+514,53,17,98629,2,1,6,2,3,0,Male,High School,Finance,Business,No,Low,Other,Unemployed,0
+515,29,13,75420,2,0,8,3,1,0,Male,PhD,HR,Creative,No,High,Other,Unemployed,0
+516,58,14,63168,1,0,8,2,3,0,Male,PhD,Marketing,Creative,Yes,Medium,US,Unemployed,0
+517,36,11,74862,3,0,2,0,4,2,Male,Master's degree,Finance,Technical,Yes,High,Other,Full-time,0
+518,29,3,48004,3,1,3,0,2,0,Male,PhD,Finance,Technical,Yes,Low,Other,Unemployed,1
+519,26,2,40471,1,0,1,0,1,1,Female,High School,HR,Technical,Yes,High,US,Part-time,1
+520,24,19,80167,2,0,9,2,4,1,Male,High School,HR,Business,No,Low,Other,Part-time,0
+521,45,11,85308,3,0,2,0,2,0,Male,Bachelor's degree,HR,Creative,No,High,Other,Unemployed,1
+522,31,6,34568,2,0,4,3,2,1,Male,High School,Marketing,Technical,Yes,High,Other,Part-time,0
+523,48,10,29466,1,0,4,2,2,0,Female,Master's degree,Finance,Technical,No,Low,US,Unemployed,0
+524,36,0,77324,2,0,5,4,4,1,Female,Master's degree,Sales,Scientific,Yes,Medium,Other,Part-time,0
+525,33,5,35467,3,1,6,2,4,1,Female,PhD,Marketing,Scientific,Yes,Medium,Other,Part-time,0
+526,22,14,95955,3,1,6,3,3,0,Female,PhD,IT,Technical,No,Medium,Other,Unemployed,0
+527,52,14,72948,2,0,0,4,2,0,Male,PhD,HR,Scientific,No,High,Other,Unemployed,0
+528,29,18,36676,1,1,1,2,2,2,Female,Master's degree,Finance,Scientific,No,High,US,Full-time,1
+529,42,10,51514,2,1,8,0,2,0,Male,High School,Marketing,Scientific,No,Medium,Other,Unemployed,0
+530,38,1,42650,1,0,9,1,3,0,Male,PhD,IT,Business,No,High,US,Unemployed,0
+531,53,13,97701,2,1,1,1,2,2,Male,Bachelor's degree,Marketing,Technical,No,High,Other,Full-time,1
+532,40,1,30683,3,1,5,0,4,0,Male,PhD,Marketing,Technical,No,Medium,Other,Unemployed,0
+533,33,3,79819,1,1,0,1,2,0,Male,Master's degree,Sales,Scientific,Yes,Low,US,Unemployed,0
+534,56,16,24860,1,1,2,1,1,2,Male,PhD,Sales,Business,No,High,US,Full-time,1
+535,59,2,23729,1,1,1,0,4,0,Female,High School,Marketing,Scientific,Yes,High,US,Unemployed,0
+536,56,12,51351,3,1,2,0,3,0,Female,PhD,IT,Business,Yes,High,Other,Unemployed,0
+537,31,8,82744,2,1,4,2,2,2,Female,Master's degree,Finance,Technical,No,High,Other,Full-time,0
+538,48,6,44346,3,1,9,2,1,2,Female,Master's degree,Finance,Scientific,Yes,Low,Other,Full-time,0
+539,22,14,94155,1,0,5,0,3,1,Female,Bachelor's degree,HR,Technical,No,Medium,US,Part-time,1
+540,52,10,96700,2,0,8,3,3,0,Male,Master's degree,HR,Business,Yes,High,Other,Unemployed,0
+541,40,19,26955,3,1,9,1,4,1,Female,Bachelor's degree,Finance,Creative,Yes,Medium,Other,Part-time,1
+542,46,1,85642,1,1,3,2,3,1,Female,High School,Marketing,Business,Yes,High,US,Part-time,0
+543,28,14,90290,1,0,6,1,3,2,Female,Master's degree,Marketing,Creative,No,Low,US,Full-time,1
+544,35,13,64293,3,1,5,4,3,0,Male,PhD,Sales,Technical,Yes,Medium,Other,Unemployed,0
+545,29,19,81336,3,1,1,0,3,0,Male,High School,Sales,Technical,Yes,Low,Other,Unemployed,0
+546,26,10,41662,3,0,9,3,2,2,Male,PhD,HR,Scientific,Yes,High,Other,Full-time,1
+547,27,2,26408,1,0,7,4,2,1,Female,PhD,Finance,Creative,No,Low,US,Part-time,1
+548,34,16,60403,3,0,6,4,2,2,Female,PhD,Marketing,Business,Yes,Low,Other,Full-time,0
+549,55,11,21225,1,1,6,4,2,0,Female,High School,Finance,Technical,No,High,US,Unemployed,0
+550,24,14,32196,3,1,7,0,1,2,Female,High School,IT,Creative,Yes,High,Other,Full-time,1
+551,30,15,89786,1,0,0,2,2,0,Female,Master's degree,Finance,Business,Yes,Medium,US,Unemployed,0
+552,57,4,35372,1,0,0,0,3,1,Male,PhD,IT,Creative,Yes,High,US,Part-time,0
+553,59,19,37279,2,1,7,2,2,0,Female,Bachelor's degree,Sales,Business,No,Medium,Other,Unemployed,1
+554,26,5,74240,3,0,3,4,2,1,Male,Master's degree,Sales,Business,Yes,Low,Other,Part-time,0
+555,44,18,58187,3,1,4,4,4,1,Female,High School,HR,Business,Yes,Low,Other,Part-time,0
+556,19,4,68481,1,1,7,3,3,0,Male,Bachelor's degree,Finance,Business,Yes,Medium,US,Unemployed,0
+557,22,2,48475,1,0,4,2,2,0,Male,High School,Finance,Creative,Yes,High,US,Unemployed,1
+558,46,0,64552,1,0,9,4,2,1,Male,Bachelor's degree,IT,Creative,No,High,US,Part-time,0
+559,54,5,87969,2,1,3,1,2,2,Male,Master's degree,Sales,Scientific,Yes,Low,Other,Full-time,0
+560,55,14,96534,2,0,5,3,1,0,Female,Bachelor's degree,IT,Creative,Yes,Medium,Other,Unemployed,1
+561,36,1,26858,1,0,4,0,2,1,Female,Master's degree,Sales,Creative,Yes,Low,US,Part-time,0
+562,25,2,94486,3,0,6,3,4,1,Female,High School,IT,Scientific,Yes,Low,Other,Part-time,0
+563,18,16,94474,3,0,9,1,3,2,Male,Bachelor's degree,Sales,Creative,No,High,Other,Full-time,1
+564,39,11,45168,2,1,6,2,3,0,Female,PhD,IT,Business,Yes,Medium,Other,Unemployed,0
+565,34,17,52099,2,1,3,0,2,1,Female,PhD,Sales,Technical,Yes,Low,Other,Part-time,0
+566,24,14,91180,1,1,4,0,2,2,Female,High School,IT,Technical,No,High,US,Full-time,1
+567,42,11,81455,3,1,2,2,2,1,Female,Bachelor's degree,Finance,Scientific,Yes,Low,Other,Part-time,1
+568,21,15,74240,1,0,3,3,3,0,Male,PhD,HR,Creative,Yes,Low,US,Unemployed,0
+569,53,7,94796,2,0,3,4,3,2,Male,Master's degree,IT,Creative,Yes,High,Other,Full-time,0
+570,23,13,74592,3,1,2,3,1,1,Female,Bachelor's degree,HR,Scientific,No,High,Other,Part-time,1
+571,48,16,67458,3,1,9,1,4,2,Female,Bachelor's degree,Finance,Technical,Yes,Medium,Other,Full-time,1
+572,36,7,78046,2,0,4,4,1,0,Female,PhD,Finance,Business,No,Low,Other,Unemployed,0
+573,56,14,36488,1,1,4,3,4,2,Male,Master's degree,Sales,Creative,No,Medium,US,Full-time,1
+574,44,13,78841,1,1,6,2,1,0,Male,Master's degree,HR,Scientific,No,High,US,Unemployed,0
+575,27,17,20395,3,0,3,1,3,1,Male,Master's degree,Marketing,Business,No,High,Other,Part-time,1
+576,43,19,72669,2,1,3,1,1,0,Female,Bachelor's degree,Sales,Scientific,No,Low,Other,Unemployed,1
+577,36,6,30845,3,0,8,1,4,1,Male,High School,HR,Scientific,No,Medium,Other,Part-time,0
+578,56,2,56059,2,0,5,4,2,1,Male,Bachelor's degree,IT,Scientific,No,Medium,Other,Part-time,0
+579,20,11,38394,1,1,3,0,4,0,Male,Bachelor's degree,IT,Technical,Yes,Low,US,Unemployed,1
+580,30,2,65906,2,0,1,4,2,1,Male,PhD,Finance,Technical,Yes,Low,Other,Part-time,0
+581,45,19,79332,1,1,5,3,3,2,Male,High School,Marketing,Scientific,No,Medium,US,Full-time,1
+582,37,13,57305,2,0,1,0,4,1,Female,Master's degree,IT,Creative,No,High,Other,Part-time,0
+583,45,14,62628,3,1,4,3,1,0,Female,PhD,HR,Business,No,High,Other,Unemployed,0
+584,25,13,41352,1,1,5,0,4,2,Female,Bachelor's degree,HR,Creative,No,Low,US,Full-time,1
+585,58,6,71993,3,1,3,4,2,2,Female,High School,IT,Technical,No,Medium,Other,Full-time,0
+586,56,16,59386,3,0,2,1,3,1,Male,Master's degree,HR,Business,No,Medium,Other,Part-time,0
+587,18,11,76624,1,0,6,2,1,1,Female,Master's degree,HR,Scientific,Yes,Medium,US,Part-time,0
+588,20,19,77065,1,1,1,1,4,0,Female,Bachelor's degree,Finance,Creative,Yes,High,US,Unemployed,1
+589,30,3,28539,3,0,5,4,2,2,Female,Master's degree,Marketing,Creative,No,High,Other,Full-time,0
+590,45,8,21263,3,1,3,0,1,0,Male,Master's degree,Finance,Scientific,No,Medium,Other,Unemployed,0
+591,42,5,33305,3,1,5,1,3,1,Female,High School,Marketing,Creative,No,Medium,Other,Part-time,0
+592,50,15,73817,3,0,3,4,1,2,Male,PhD,HR,Technical,Yes,Low,Other,Full-time,0
+593,55,1,44398,1,1,3,3,3,0,Male,High School,Marketing,Scientific,No,Low,US,Unemployed,0
+594,23,7,95801,1,0,3,2,1,0,Male,PhD,HR,Creative,Yes,Medium,US,Unemployed,0
+595,49,10,69107,3,1,8,1,4,0,Female,PhD,HR,Scientific,Yes,Medium,Other,Unemployed,0
+596,38,12,52152,2,0,6,0,2,0,Male,PhD,Finance,Business,Yes,High,Other,Unemployed,0
+597,33,16,50624,2,1,2,3,4,0,Female,Master's degree,Finance,Scientific,No,Medium,Other,Unemployed,0
+598,38,7,76132,1,1,2,4,4,2,Female,High School,Sales,Creative,No,Low,US,Full-time,1
+599,28,17,72979,3,0,5,2,3,0,Female,Master's degree,IT,Technical,Yes,High,Other,Unemployed,0
+600,54,17,78013,3,1,5,0,3,2,Male,Bachelor's degree,Sales,Scientific,Yes,Low,Other,Full-time,1
+601,53,13,83797,1,1,3,4,3,0,Male,High School,Sales,Scientific,Yes,Low,US,Unemployed,0
+602,52,14,71798,2,0,8,4,4,1,Female,PhD,Marketing,Creative,Yes,High,Other,Part-time,0
+603,36,5,36650,2,1,3,1,1,1,Male,Master's degree,HR,Technical,No,Low,Other,Part-time,0
+604,37,10,46014,2,0,8,1,1,0,Male,Master's degree,HR,Technical,Yes,Medium,Other,Unemployed,0
+605,35,12,96421,1,1,3,0,4,1,Male,High School,HR,Business,No,Low,US,Part-time,0
+606,58,0,27434,2,0,1,4,4,2,Female,High School,IT,Business,Yes,High,Other,Full-time,0
+607,31,5,50028,1,1,1,1,2,0,Male,PhD,Marketing,Creative,No,High,US,Unemployed,0
+608,32,8,86558,1,1,4,2,3,2,Male,PhD,Marketing,Technical,Yes,High,US,Full-time,1
+609,48,7,44331,3,1,3,2,3,0,Female,Bachelor's degree,HR,Technical,No,Low,Other,Unemployed,1
+610,18,10,87573,2,0,6,4,4,1,Male,PhD,Sales,Business,No,Medium,Other,Part-time,0
+611,20,18,94292,1,0,4,1,4,2,Female,Master's degree,IT,Business,No,High,US,Full-time,1
+612,33,8,66326,2,0,5,0,1,1,Male,Bachelor's degree,Sales,Creative,Yes,Medium,Other,Part-time,1
+613,40,16,24123,2,0,9,0,4,1,Male,Bachelor's degree,Finance,Technical,No,High,Other,Part-time,1
+614,28,11,36603,3,1,3,0,1,0,Male,Bachelor's degree,Marketing,Scientific,Yes,Medium,Other,Unemployed,1
+615,29,13,85941,2,1,1,2,4,2,Male,High School,Marketing,Business,No,Medium,Other,Full-time,0
+616,27,14,62597,3,0,9,1,2,1,Male,PhD,Sales,Creative,No,Medium,Other,Part-time,0
+617,49,15,83238,1,0,8,1,2,0,Male,Bachelor's degree,IT,Technical,Yes,High,US,Unemployed,1
+618,33,19,62719,2,0,9,2,1,0,Female,High School,Marketing,Technical,No,Low,Other,Unemployed,0
+619,25,0,61751,1,1,6,0,3,0,Male,High School,Sales,Business,No,Low,US,Unemployed,0
+620,55,9,37693,2,0,3,0,2,1,Male,Bachelor's degree,IT,Creative,Yes,Low,Other,Part-time,1
+621,29,7,57697,1,0,2,4,1,0,Male,Bachelor's degree,Sales,Scientific,No,Medium,US,Unemployed,1
+622,41,17,49992,2,1,9,3,4,2,Female,Master's degree,IT,Business,No,High,Other,Full-time,0
+623,45,0,83825,2,1,2,1,4,2,Female,Bachelor's degree,HR,Creative,No,Medium,Other,Full-time,0
+624,25,1,29522,2,0,8,1,1,1,Female,Master's degree,IT,Technical,No,High,Other,Part-time,1
+625,45,0,65406,2,1,4,1,3,2,Male,Bachelor's degree,Finance,Scientific,Yes,Medium,Other,Full-time,0
+626,53,0,32121,2,0,2,3,1,0,Male,Bachelor's degree,HR,Creative,No,High,Other,Unemployed,0
+627,43,8,34219,2,1,4,4,1,1,Female,PhD,Sales,Scientific,No,High,Other,Part-time,0
+628,25,12,21617,2,0,1,3,2,0,Female,Bachelor's degree,HR,Creative,No,High,Other,Unemployed,1
+629,45,0,63016,2,0,3,0,1,1,Female,Bachelor's degree,HR,Creative,No,Medium,Other,Part-time,0
+630,45,12,70672,2,0,9,0,1,1,Male,Master's degree,Sales,Creative,No,Low,Other,Part-time,0
+631,54,19,44276,1,0,1,1,4,0,Female,Master's degree,Sales,Creative,No,Medium,US,Unemployed,0
+632,58,6,92240,3,1,1,2,2,2,Male,PhD,Finance,Scientific,No,Medium,Other,Full-time,0
+633,53,1,75735,2,1,7,1,4,2,Male,Bachelor's degree,Sales,Business,No,High,Other,Full-time,0
+634,44,5,37959,3,1,0,2,4,1,Male,Bachelor's degree,Marketing,Scientific,Yes,High,Other,Part-time,1
+635,34,6,48522,2,1,6,3,3,0,Female,Master's degree,Marketing,Creative,Yes,Low,Other,Unemployed,0
+636,26,13,76087,2,0,4,0,3,0,Male,High School,Finance,Scientific,Yes,Low,Other,Unemployed,0
+637,50,17,29953,1,0,7,2,2,1,Female,High School,IT,Scientific,Yes,High,US,Part-time,0
+638,37,14,46567,1,1,0,3,2,2,Female,High School,IT,Scientific,No,Low,US,Full-time,1
+639,30,1,80523,3,1,6,0,3,0,Female,Master's degree,Marketing,Creative,No,Low,Other,Unemployed,0
+640,45,9,82708,1,1,4,2,3,2,Female,Master's degree,Sales,Scientific,Yes,High,US,Full-time,1
+641,46,11,42560,1,1,3,1,3,2,Male,High School,Finance,Technical,Yes,Medium,US,Full-time,1
+642,30,16,78390,3,1,6,1,3,1,Male,High School,IT,Creative,Yes,Low,Other,Part-time,0
+643,52,7,88149,1,0,9,1,3,1,Male,Bachelor's degree,IT,Scientific,No,High,US,Part-time,1
+644,23,10,56660,2,0,1,3,4,2,Male,Master's degree,HR,Technical,No,Low,Other,Full-time,0
+645,35,2,65104,3,0,0,1,2,0,Female,Master's degree,Marketing,Scientific,Yes,Low,Other,Unemployed,0
+646,22,5,77805,3,1,0,4,4,0,Female,High School,Sales,Business,Yes,High,Other,Unemployed,0
+647,42,8,44496,2,1,0,0,4,1,Female,High School,Finance,Scientific,Yes,Low,Other,Part-time,0
+648,19,5,23515,1,1,4,3,1,2,Female,PhD,IT,Scientific,Yes,Low,US,Full-time,1
+649,27,8,24454,3,1,9,1,4,0,Male,Master's degree,HR,Business,Yes,Low,Other,Unemployed,1
+650,47,6,42873,3,0,6,0,3,0,Female,PhD,Marketing,Creative,No,Medium,Other,Unemployed,0
+651,22,8,93920,2,0,1,2,3,1,Male,Bachelor's degree,Marketing,Business,Yes,Medium,Other,Part-time,1
+652,50,17,33727,2,1,9,1,1,2,Female,PhD,Finance,Creative,No,Low,Other,Full-time,0
+653,18,11,89070,1,0,7,0,1,0,Female,High School,IT,Business,Yes,High,US,Unemployed,0
+654,35,7,69979,3,0,3,4,1,1,Female,Master's degree,Finance,Scientific,Yes,Low,Other,Part-time,0
+655,49,7,45465,1,1,2,2,1,0,Female,Master's degree,Finance,Scientific,No,Low,US,Unemployed,0
+656,28,17,73900,1,1,9,4,1,0,Male,PhD,HR,Creative,Yes,Medium,US,Unemployed,0
+657,38,19,79799,2,1,7,0,4,0,Male,PhD,Marketing,Creative,No,Medium,Other,Unemployed,0
+658,43,14,41330,3,1,1,4,1,1,Male,Bachelor's degree,Sales,Technical,No,Medium,Other,Part-time,1
+659,42,6,28302,3,1,2,0,4,2,Male,Bachelor's degree,Marketing,Technical,Yes,Low,Other,Full-time,1
+660,39,10,98443,3,1,2,0,2,1,Female,High School,Marketing,Scientific,Yes,Low,Other,Part-time,0
+661,44,19,92717,2,0,9,4,1,2,Female,High School,HR,Scientific,No,High,Other,Full-time,0
+662,30,15,32875,2,0,0,0,1,0,Male,High School,Sales,Technical,No,Low,Other,Unemployed,0
+663,50,3,47219,2,1,5,1,4,2,Male,PhD,IT,Technical,Yes,Low,Other,Full-time,0
+664,51,5,56182,2,0,1,0,2,0,Female,PhD,Sales,Creative,No,Medium,Other,Unemployed,0
+665,58,2,62269,2,1,0,3,4,0,Female,Master's degree,IT,Business,Yes,Medium,Other,Unemployed,0
+666,52,8,99781,3,1,1,0,4,1,Male,High School,Sales,Creative,No,Medium,Other,Part-time,0
+667,18,9,26457,1,1,5,3,1,0,Male,PhD,Finance,Technical,Yes,Medium,US,Unemployed,1
+668,38,13,26749,3,1,3,0,3,1,Male,Master's degree,Sales,Scientific,No,Medium,Other,Part-time,0
+669,23,10,53064,1,0,5,0,3,2,Female,High School,HR,Technical,No,High,US,Full-time,1
+670,45,17,29821,2,1,8,4,4,2,Male,Bachelor's degree,IT,Scientific,Yes,High,Other,Full-time,1
+671,34,11,98655,1,0,9,1,1,0,Male,Bachelor's degree,Marketing,Scientific,No,High,US,Unemployed,1
+672,22,11,27664,3,1,9,1,2,1,Male,PhD,HR,Scientific,No,Medium,Other,Part-time,1
+673,48,12,49281,3,1,7,2,3,0,Male,Master's degree,IT,Scientific,No,Medium,Other,Unemployed,0
+674,22,12,51821,1,1,0,4,2,1,Male,Bachelor's degree,IT,Business,No,Medium,US,Part-time,1
+675,55,18,44647,2,0,7,4,3,1,Female,Master's degree,Marketing,Technical,No,High,Other,Part-time,0
+676,20,18,89918,2,1,8,1,1,1,Male,Master's degree,Finance,Creative,No,Medium,Other,Part-time,0
+677,40,13,94944,3,1,5,4,4,2,Female,Bachelor's degree,HR,Scientific,No,High,Other,Full-time,1
+678,54,3,47603,1,1,9,1,2,1,Male,Master's degree,Marketing,Scientific,Yes,Medium,US,Part-time,0
+679,54,12,66458,2,0,4,4,2,2,Male,Bachelor's degree,Marketing,Creative,No,Low,Other,Full-time,1
+680,27,7,90605,2,0,5,0,4,1,Male,PhD,Finance,Creative,No,High,Other,Part-time,0
+681,27,18,39623,3,0,5,1,2,2,Female,High School,HR,Scientific,Yes,Low,Other,Full-time,1
+682,36,11,64440,2,1,8,1,3,2,Female,High School,Marketing,Creative,No,High,Other,Full-time,0
+683,34,17,27704,1,0,3,3,4,2,Female,PhD,Finance,Creative,No,Medium,US,Full-time,1
+684,38,5,47460,3,1,1,4,3,0,Male,Bachelor's degree,HR,Business,Yes,Medium,Other,Unemployed,1
+685,31,17,93511,3,0,8,4,3,1,Male,Bachelor's degree,Sales,Creative,No,Low,Other,Part-time,1
+686,26,18,26565,1,0,1,1,1,0,Female,Bachelor's degree,IT,Technical,No,Medium,US,Unemployed,1
+687,18,4,24870,3,1,9,0,3,1,Female,Bachelor's degree,Finance,Technical,Yes,High,Other,Part-time,1
+688,30,8,38909,2,0,8,0,1,1,Male,PhD,IT,Technical,Yes,Medium,Other,Part-time,0
+689,21,2,29117,2,1,1,0,2,0,Female,High School,Sales,Scientific,No,Medium,Other,Unemployed,1
+690,18,9,87474,1,1,7,4,2,2,Male,Master's degree,Marketing,Technical,No,High,US,Full-time,1
+691,57,18,64322,2,0,8,3,1,1,Female,Master's degree,Marketing,Business,Yes,Low,Other,Part-time,0
+692,49,2,40128,1,1,9,1,3,2,Female,High School,HR,Technical,No,Low,US,Full-time,1
+693,51,14,89001,1,1,8,2,4,0,Female,PhD,Finance,Scientific,Yes,Medium,US,Unemployed,0
+694,45,0,20440,2,0,9,3,4,2,Male,Master's degree,Finance,Business,Yes,High,Other,Full-time,0
+695,48,6,80955,1,0,8,2,1,1,Male,High School,HR,Technical,Yes,Low,US,Part-time,0
+696,25,11,69613,2,1,1,3,2,1,Female,PhD,IT,Business,No,Low,Other,Part-time,0
+697,56,16,90949,3,0,3,0,2,1,Male,Master's degree,Marketing,Business,Yes,Medium,Other,Part-time,0
+698,43,19,31663,3,1,6,4,4,0,Male,Bachelor's degree,Marketing,Scientific,Yes,High,Other,Unemployed,1
+699,51,4,39547,1,1,1,2,1,1,Male,Bachelor's degree,Finance,Scientific,Yes,Low,US,Part-time,0
+700,20,3,20005,2,0,0,3,4,0,Male,PhD,Finance,Business,No,Medium,Other,Unemployed,1
+701,29,11,27038,2,0,2,4,3,2,Female,Bachelor's degree,HR,Technical,No,Medium,Other,Full-time,1
+702,18,19,26414,3,0,3,2,3,1,Male,PhD,Sales,Scientific,No,Medium,Other,Part-time,1
+703,22,17,89506,3,0,7,1,1,1,Male,High School,IT,Business,Yes,Medium,Other,Part-time,0
+704,47,16,96586,2,1,5,3,1,1,Female,High School,Sales,Creative,No,Low,Other,Part-time,0
+705,47,18,22606,1,1,1,1,3,2,Male,Master's degree,Sales,Creative,No,High,US,Full-time,1
+706,34,8,36482,3,0,8,0,2,1,Male,PhD,Finance,Scientific,Yes,Medium,Other,Part-time,0
+707,40,3,91873,1,0,1,1,1,0,Male,Master's degree,Finance,Technical,Yes,Medium,US,Unemployed,0
+708,32,1,53948,1,1,4,1,3,2,Female,Master's degree,Finance,Creative,No,Low,US,Full-time,1
+709,54,3,40875,3,1,3,3,3,2,Female,High School,Sales,Creative,No,Medium,Other,Full-time,0
+710,38,1,33057,1,1,6,0,2,2,Male,Master's degree,IT,Creative,Yes,Medium,US,Full-time,1
+711,31,14,52400,1,1,7,1,2,2,Male,Bachelor's degree,Finance,Technical,No,High,US,Full-time,1
+712,19,1,91458,2,0,4,4,2,2,Female,Master's degree,Marketing,Technical,Yes,Medium,Other,Full-time,0
+713,28,3,88607,1,1,9,2,2,0,Female,PhD,IT,Scientific,Yes,Low,US,Unemployed,0
+714,56,5,47503,2,1,4,1,4,2,Female,Bachelor's degree,Marketing,Scientific,No,High,Other,Full-time,1
+715,55,6,43765,3,0,1,0,2,1,Male,High School,IT,Creative,No,Low,Other,Part-time,0
+716,51,9,66612,3,1,7,1,4,2,Male,PhD,Finance,Technical,No,High,Other,Full-time,0
+717,55,18,29428,2,1,1,2,1,2,Female,Bachelor's degree,HR,Business,No,High,Other,Full-time,1
+718,51,18,51419,3,0,9,0,3,2,Male,PhD,Finance,Creative,Yes,Medium,Other,Full-time,0
+719,35,11,85195,1,0,5,3,4,2,Male,Bachelor's degree,Sales,Scientific,No,Medium,US,Full-time,1
+720,47,2,93695,1,0,7,0,1,2,Male,PhD,Sales,Technical,No,Medium,US,Full-time,1
+721,32,12,59142,1,1,5,3,1,0,Male,PhD,IT,Scientific,No,Low,US,Unemployed,0
+722,44,17,91540,3,1,3,0,4,0,Male,Bachelor's degree,Sales,Scientific,Yes,Medium,Other,Unemployed,1
+723,51,7,58289,1,0,3,2,1,2,Male,High School,Finance,Technical,No,Medium,US,Full-time,1
+724,55,14,96948,3,0,5,2,1,0,Male,High School,Marketing,Creative,No,High,Other,Unemployed,0
+725,50,0,78951,1,1,3,0,4,1,Female,PhD,Finance,Technical,Yes,Medium,US,Part-time,0
+726,41,2,31755,2,0,7,1,1,2,Female,PhD,IT,Creative,Yes,Medium,Other,Full-time,0
+727,32,7,23890,3,0,8,2,2,1,Female,High School,Sales,Scientific,Yes,Medium,Other,Part-time,0
+728,47,3,37175,3,0,0,3,2,1,Female,High School,Marketing,Technical,Yes,Medium,Other,Part-time,0
+729,59,15,94727,1,1,3,3,3,2,Female,Master's degree,HR,Business,Yes,High,US,Full-time,1
+730,34,9,85687,3,1,3,4,1,1,Female,High School,Marketing,Creative,No,Medium,Other,Part-time,0
+731,22,11,44288,3,1,1,3,3,1,Female,PhD,Marketing,Business,Yes,High,Other,Part-time,1
+732,46,13,66629,2,1,5,4,2,1,Female,Bachelor's degree,Finance,Creative,Yes,Low,Other,Part-time,1
+733,21,13,67800,2,1,2,0,2,2,Female,High School,HR,Technical,Yes,Medium,Other,Full-time,0
+734,27,1,57367,1,1,6,0,2,2,Male,Master's degree,IT,Business,Yes,Medium,US,Full-time,1
+735,34,4,97810,2,0,4,0,1,1,Male,Master's degree,IT,Technical,Yes,Medium,Other,Part-time,0
+736,27,4,97754,1,1,3,1,1,2,Female,Master's degree,Marketing,Creative,Yes,High,US,Full-time,1
+737,34,5,88513,1,1,4,1,2,2,Male,Bachelor's degree,Marketing,Creative,Yes,Medium,US,Full-time,1
+738,37,12,49022,1,0,7,4,3,1,Male,High School,Sales,Creative,Yes,Medium,US,Part-time,0
+739,41,8,89329,3,1,2,3,3,2,Female,High School,HR,Creative,No,Low,Other,Full-time,0
+740,22,14,79414,2,1,6,3,4,0,Female,High School,Marketing,Scientific,No,High,Other,Unemployed,0
+741,51,13,21659,1,0,5,0,2,2,Female,Bachelor's degree,Sales,Creative,No,High,US,Full-time,1
+742,23,6,77941,2,0,0,2,3,0,Male,Bachelor's degree,HR,Business,Yes,Low,Other,Unemployed,1
+743,19,19,57930,1,0,6,1,2,1,Male,PhD,IT,Creative,Yes,High,US,Part-time,0
+744,30,1,63473,2,1,6,1,3,2,Female,Master's degree,Sales,Technical,Yes,Medium,Other,Full-time,0
+745,28,6,75598,2,0,0,0,4,1,Male,Master's degree,HR,Scientific,No,Medium,Other,Part-time,0
+746,40,5,36040,1,1,8,1,4,1,Male,High School,Sales,Business,Yes,Low,US,Part-time,0
+747,33,16,89806,3,1,5,0,2,1,Male,Bachelor's degree,Marketing,Scientific,Yes,High,Other,Part-time,1
+748,48,1,33286,2,1,1,4,3,1,Female,Bachelor's degree,Finance,Scientific,Yes,High,Other,Part-time,0
+749,28,2,89139,3,1,4,3,1,1,Male,High School,IT,Scientific,No,High,Other,Part-time,0
+750,33,4,75916,3,0,3,2,4,2,Male,High School,Marketing,Technical,No,Low,Other,Full-time,0
+751,25,4,37600,1,0,6,3,2,0,Male,PhD,Marketing,Scientific,Yes,Medium,US,Unemployed,1
+752,21,0,22291,1,1,7,3,2,2,Male,Master's degree,HR,Scientific,No,Low,US,Full-time,1
+753,57,7,33123,1,0,0,4,3,2,Male,Master's degree,Sales,Creative,Yes,Medium,US,Full-time,1
+754,21,11,23811,2,1,4,1,2,2,Male,Master's degree,IT,Technical,Yes,Low,Other,Full-time,1
+755,42,3,98883,1,1,2,2,4,2,Male,PhD,Marketing,Business,No,Medium,US,Full-time,1
+756,20,12,51276,1,1,0,1,2,0,Female,High School,HR,Business,No,High,US,Unemployed,0
+757,49,14,74145,2,0,2,3,2,2,Female,High School,IT,Business,No,High,Other,Full-time,0
+758,20,10,66619,2,1,5,0,1,1,Male,Master's degree,Sales,Technical,No,High,Other,Part-time,0
+759,44,9,90678,1,1,6,3,1,2,Female,Master's degree,Marketing,Business,Yes,Low,US,Full-time,1
+760,46,2,46714,1,0,7,1,4,2,Male,PhD,Marketing,Technical,Yes,Low,US,Full-time,1
+761,49,13,75685,1,0,3,3,3,0,Male,Bachelor's degree,Marketing,Creative,No,Low,US,Unemployed,1
+762,36,15,32194,1,0,2,0,1,0,Male,Bachelor's degree,IT,Creative,No,High,US,Unemployed,1
+763,38,9,93062,3,0,4,4,3,1,Female,Master's degree,IT,Technical,Yes,Medium,Other,Part-time,0
+764,22,9,84037,3,1,8,1,4,2,Male,PhD,IT,Business,Yes,High,Other,Full-time,0
+765,35,11,39362,1,0,5,3,1,2,Male,Master's degree,IT,Technical,Yes,High,US,Full-time,1
+766,45,8,74499,3,1,8,1,3,2,Female,Bachelor's degree,HR,Technical,Yes,Medium,Other,Full-time,1
+767,59,0,66281,2,0,5,4,1,1,Female,Master's degree,Finance,Scientific,No,Medium,Other,Part-time,0
+768,39,4,82813,3,0,1,3,4,0,Male,Bachelor's degree,HR,Technical,No,Medium,Other,Unemployed,0
+769,38,19,64852,3,0,4,3,4,1,Female,Bachelor's degree,Marketing,Scientific,No,Medium,Other,Part-time,1
+770,23,7,67836,1,0,8,1,1,2,Female,Bachelor's degree,HR,Creative,Yes,High,US,Full-time,1
+771,18,10,24595,3,0,7,1,3,0,Male,High School,Sales,Scientific,Yes,Low,Other,Unemployed,1
+772,22,11,35402,3,0,6,0,2,0,Male,High School,IT,Technical,No,High,Other,Unemployed,1
+773,58,0,85283,3,1,0,4,2,1,Male,Master's degree,Sales,Creative,No,Medium,Other,Part-time,0
+774,29,19,62723,3,0,3,0,1,0,Female,Bachelor's degree,Sales,Scientific,No,Low,Other,Unemployed,1
+775,43,10,71322,2,0,6,3,3,0,Female,High School,Marketing,Technical,Yes,Low,Other,Unemployed,0
+776,51,4,66764,1,0,6,1,2,2,Female,Master's degree,IT,Creative,No,High,US,Full-time,1
+777,31,14,44911,1,0,5,3,4,2,Male,Master's degree,Sales,Scientific,Yes,High,US,Full-time,1
+778,43,4,39405,2,1,7,3,3,0,Female,Master's degree,Marketing,Technical,No,High,Other,Unemployed,0
+779,44,11,78122,3,0,5,2,2,0,Female,Master's degree,IT,Technical,No,Low,Other,Unemployed,0
+780,26,4,23447,2,0,9,2,3,1,Male,Master's degree,Finance,Business,No,Low,Other,Part-time,1
+781,43,16,73143,3,0,2,3,1,1,Male,PhD,Marketing,Business,Yes,Low,Other,Part-time,0
+782,39,16,82906,2,0,3,1,3,0,Male,Bachelor's degree,HR,Scientific,Yes,Medium,Other,Unemployed,1
+783,47,11,30662,1,1,2,3,2,2,Female,Master's degree,IT,Scientific,Yes,Medium,US,Full-time,1
+784,34,14,83001,1,0,0,2,1,0,Male,PhD,Sales,Scientific,Yes,High,US,Unemployed,0
+785,43,14,78282,1,1,9,1,3,0,Female,Bachelor's degree,Sales,Technical,Yes,Low,US,Unemployed,1
+786,53,5,24899,3,0,4,3,4,2,Female,High School,HR,Scientific,Yes,High,Other,Full-time,0
+787,18,11,48582,3,1,0,4,2,2,Male,Master's degree,HR,Technical,No,Low,Other,Full-time,1
+788,25,19,87471,2,1,0,4,1,1,Male,PhD,Sales,Scientific,Yes,High,Other,Part-time,0
+789,52,17,62213,2,0,1,3,3,1,Male,High School,IT,Technical,No,Medium,Other,Part-time,0
+790,32,13,95871,1,0,3,1,4,1,Male,PhD,Marketing,Technical,Yes,Low,US,Part-time,0
+791,39,1,94081,3,1,5,3,2,1,Male,Bachelor's degree,HR,Business,No,Medium,Other,Part-time,0
+792,31,8,57830,2,1,7,3,4,2,Female,Bachelor's degree,HR,Creative,No,Low,Other,Full-time,1
+793,43,4,27066,3,0,2,2,3,0,Female,High School,HR,Technical,Yes,High,Other,Unemployed,0
+794,45,19,30712,3,1,0,4,3,1,Female,PhD,Finance,Scientific,No,Low,Other,Part-time,0
+795,40,0,85365,1,1,2,2,1,1,Male,Master's degree,IT,Business,Yes,Medium,US,Part-time,0
+796,31,2,50806,1,1,2,2,4,2,Female,Master's degree,IT,Scientific,Yes,Low,US,Full-time,1
+797,41,5,32210,3,0,4,3,1,2,Male,High School,IT,Scientific,Yes,High,Other,Full-time,0
+798,19,4,56972,3,1,3,2,2,0,Male,High School,IT,Technical,Yes,Low,Other,Unemployed,0
+799,43,4,54136,3,1,3,4,1,0,Female,High School,IT,Technical,No,Medium,Other,Unemployed,0
+800,31,0,64297,3,1,8,2,2,2,Female,PhD,Sales,Creative,Yes,High,Other,Full-time,0
+801,24,16,35945,1,0,6,4,3,1,Male,Master's degree,HR,Technical,No,Medium,US,Part-time,1
+802,20,18,62477,2,0,3,2,3,1,Female,Master's degree,Sales,Technical,No,Low,Other,Part-time,0
+803,40,13,99180,1,1,2,4,4,1,Male,Master's degree,Finance,Creative,No,Medium,US,Part-time,0
+804,35,11,90453,2,0,5,2,2,0,Female,High School,Marketing,Scientific,Yes,Low,Other,Unemployed,0
+805,55,9,97413,3,1,2,2,3,1,Female,Master's degree,HR,Creative,No,High,Other,Part-time,0
+806,52,19,33224,2,0,5,1,4,1,Female,Bachelor's degree,Finance,Creative,Yes,Medium,Other,Part-time,1
+807,32,17,23052,1,0,8,4,4,2,Female,High School,Sales,Creative,No,Medium,US,Full-time,1
+808,42,10,47272,1,1,5,4,1,1,Female,Master's degree,Marketing,Business,Yes,Low,US,Part-time,0
+809,54,1,61150,3,0,3,4,4,2,Male,PhD,Finance,Scientific,Yes,Medium,Other,Full-time,0
+810,45,17,37316,1,0,4,0,3,1,Female,High School,Marketing,Business,Yes,Medium,US,Part-time,0
+811,27,6,73389,3,0,5,2,1,0,Female,Bachelor's degree,Finance,Business,Yes,High,Other,Unemployed,1
+812,56,14,83332,1,1,2,4,2,1,Female,Bachelor's degree,Sales,Technical,No,Low,US,Part-time,1
+813,34,10,27240,1,0,7,0,2,1,Male,PhD,Marketing,Creative,No,Low,US,Part-time,0
+814,56,17,88774,3,0,3,1,3,2,Male,PhD,Finance,Creative,Yes,High,Other,Full-time,0
+815,39,11,63175,2,1,7,4,3,2,Male,High School,Sales,Business,No,High,Other,Full-time,0
+816,43,5,20565,1,0,9,4,1,2,Male,High School,HR,Technical,Yes,Low,US,Full-time,1
+817,42,19,91094,2,0,9,0,1,1,Male,Bachelor's degree,Sales,Technical,Yes,High,Other,Part-time,1
+818,34,12,36375,1,0,2,2,3,1,Female,PhD,Sales,Technical,No,High,US,Part-time,0
+819,30,19,45710,1,0,9,1,3,0,Female,High School,HR,Scientific,Yes,High,US,Unemployed,0
+820,37,15,69895,1,0,6,4,2,1,Female,Bachelor's degree,Sales,Business,Yes,Low,US,Part-time,1
+821,42,17,96639,1,1,8,2,2,0,Male,PhD,HR,Scientific,Yes,High,US,Unemployed,0
+822,21,9,35174,2,1,3,1,2,2,Male,Bachelor's degree,HR,Technical,Yes,Medium,Other,Full-time,1
+823,27,7,47597,2,0,7,3,3,2,Female,Master's degree,HR,Technical,Yes,Medium,Other,Full-time,1
+824,20,17,94289,1,0,2,3,4,2,Male,PhD,Finance,Technical,No,Low,US,Full-time,1
+825,58,0,58397,1,0,6,1,3,0,Male,High School,Marketing,Creative,No,High,US,Unemployed,0
+826,35,7,91854,2,1,2,0,3,1,Male,High School,Finance,Business,No,Medium,Other,Part-time,0
+827,53,5,53069,3,1,6,1,2,2,Female,Master's degree,HR,Creative,Yes,Low,Other,Full-time,0
+828,39,4,60274,3,0,9,1,3,1,Female,PhD,Marketing,Scientific,Yes,Medium,Other,Part-time,0
+829,51,14,94237,2,0,9,0,1,1,Male,Bachelor's degree,Marketing,Creative,Yes,High,Other,Part-time,1
+830,25,14,92498,1,1,5,0,3,2,Male,High School,HR,Business,Yes,Low,US,Full-time,1
+831,57,1,58197,1,0,1,2,3,0,Male,Master's degree,Marketing,Creative,Yes,Medium,US,Unemployed,0
+832,36,0,68634,3,1,2,2,3,1,Male,Master's degree,Marketing,Technical,Yes,Low,Other,Part-time,0
+833,59,10,50041,3,1,5,0,3,2,Female,PhD,Finance,Scientific,No,Medium,Other,Full-time,0
+834,58,9,27248,2,0,3,3,4,1,Male,PhD,Marketing,Scientific,Yes,Medium,Other,Part-time,0
+835,54,17,22203,3,1,5,3,3,1,Female,High School,HR,Technical,No,High,Other,Part-time,0
+836,23,17,71986,2,0,0,1,1,1,Female,Master's degree,IT,Technical,Yes,High,Other,Part-time,0
+837,43,16,45370,3,0,9,4,1,1,Female,Bachelor's degree,IT,Technical,No,Medium,Other,Part-time,1
+838,51,7,55247,3,0,0,1,3,1,Male,Master's degree,IT,Business,Yes,Low,Other,Part-time,0
+839,23,14,95922,3,0,2,1,2,0,Female,Bachelor's degree,HR,Creative,No,Low,Other,Unemployed,1
+840,54,7,20434,1,0,7,4,4,0,Female,Bachelor's degree,IT,Scientific,No,High,US,Unemployed,1
+841,50,16,82982,1,0,7,0,3,2,Male,High School,Finance,Creative,Yes,Medium,US,Full-time,1
+842,39,11,85180,1,1,3,3,3,0,Male,Master's degree,HR,Technical,Yes,High,US,Unemployed,0
+843,38,7,54474,3,1,5,1,3,0,Male,Bachelor's degree,HR,Technical,No,Medium,Other,Unemployed,1
+844,23,13,44644,2,1,7,4,2,0,Female,PhD,HR,Creative,Yes,Medium,Other,Unemployed,1
+845,23,3,58493,2,1,6,2,2,1,Male,Bachelor's degree,Marketing,Scientific,Yes,High,Other,Part-time,0
+846,21,0,23959,2,0,6,1,2,1,Female,PhD,Marketing,Business,Yes,Low,Other,Part-time,1
+847,47,0,67289,2,1,3,3,4,2,Female,PhD,Marketing,Creative,No,High,Other,Full-time,0
+848,28,18,31143,1,1,8,0,1,2,Male,Master's degree,Sales,Technical,Yes,Medium,US,Full-time,1
+849,47,15,59593,1,1,9,1,4,2,Female,PhD,Finance,Technical,No,High,US,Full-time,1
+850,48,13,59115,3,0,5,1,2,1,Female,Bachelor's degree,HR,Business,No,Low,Other,Part-time,1
+851,41,15,42540,3,1,2,4,1,0,Female,PhD,HR,Creative,Yes,Low,Other,Unemployed,0
+852,26,4,55481,2,0,4,2,1,0,Female,Master's degree,Marketing,Business,No,Medium,Other,Unemployed,0
+853,20,8,97097,1,1,4,2,2,1,Male,High School,HR,Business,Yes,High,US,Part-time,0
+854,48,1,42578,2,0,4,0,2,2,Female,Bachelor's degree,HR,Scientific,Yes,Low,Other,Full-time,0
+855,57,17,32787,3,0,7,3,4,2,Male,Bachelor's degree,IT,Scientific,No,High,Other,Full-time,1
+856,54,5,92048,3,1,8,0,2,2,Female,Master's degree,HR,Technical,No,Low,Other,Full-time,0
+857,53,8,72879,2,0,8,1,1,1,Female,Master's degree,Sales,Creative,No,Medium,Other,Part-time,0
+858,41,0,30596,3,0,5,1,3,2,Male,Master's degree,Marketing,Scientific,No,Medium,Other,Full-time,0
+859,48,8,80669,2,1,5,2,2,2,Female,Master's degree,Finance,Technical,No,High,Other,Full-time,0
+860,23,15,39930,1,1,8,3,2,1,Female,Bachelor's degree,Finance,Creative,Yes,Medium,US,Part-time,1
+861,19,12,67950,2,1,3,4,4,0,Female,High School,IT,Technical,No,Low,Other,Unemployed,0
+862,37,8,38687,1,0,5,3,4,1,Female,PhD,Finance,Scientific,Yes,Medium,US,Part-time,0
+863,45,12,72833,1,0,3,1,2,1,Female,PhD,Finance,Technical,Yes,Low,US,Part-time,0
+864,28,8,55989,3,0,0,4,1,1,Female,High School,Marketing,Creative,No,Low,Other,Part-time,0
+865,21,10,50183,3,1,6,3,1,1,Male,High School,Marketing,Creative,No,Medium,Other,Part-time,0
+866,32,3,40758,3,0,9,3,3,0,Male,High School,Sales,Technical,No,Low,Other,Unemployed,0
+867,23,1,21082,2,0,5,4,2,2,Male,Master's degree,IT,Creative,No,Low,Other,Full-time,1
+868,47,5,65891,2,0,8,1,4,1,Female,Bachelor's degree,Finance,Technical,No,High,Other,Part-time,1
+869,55,13,65810,3,0,6,3,1,0,Female,Bachelor's degree,Sales,Creative,Yes,High,Other,Unemployed,1
+870,19,3,66901,2,0,6,4,3,2,Female,Bachelor's degree,IT,Technical,Yes,High,Other,Full-time,0
+871,32,5,91062,3,0,1,1,2,2,Male,Master's degree,Finance,Technical,Yes,Medium,Other,Full-time,0
+872,28,18,41563,2,0,8,4,1,2,Female,Bachelor's degree,Finance,Technical,No,High,Other,Full-time,1
+873,25,5,92008,1,1,9,4,2,1,Male,Master's degree,Marketing,Business,No,Low,US,Part-time,0
+874,43,1,22775,1,1,8,3,2,1,Female,Bachelor's degree,HR,Creative,Yes,Medium,US,Part-time,0
+875,22,17,35828,3,1,5,1,1,2,Female,High School,IT,Scientific,No,Medium,Other,Full-time,1
+876,23,12,37974,2,0,2,3,1,2,Female,PhD,Finance,Technical,No,Medium,Other,Full-time,1
+877,43,8,42388,2,0,0,0,1,2,Male,PhD,IT,Business,No,Medium,Other,Full-time,0
+878,21,18,38615,1,1,3,0,2,2,Female,Master's degree,Sales,Scientific,Yes,Low,US,Full-time,1
+879,36,12,57886,1,0,2,1,2,2,Male,Bachelor's degree,Sales,Technical,No,Low,US,Full-time,1
+880,37,10,42838,3,1,0,4,3,2,Female,PhD,HR,Scientific,Yes,High,Other,Full-time,0
+881,50,0,60728,1,0,2,3,4,0,Female,High School,Finance,Business,No,Medium,US,Unemployed,0
+882,37,6,98000,3,0,3,3,2,2,Male,High School,Marketing,Scientific,No,High,Other,Full-time,0
+883,29,14,72798,1,1,7,1,4,1,Female,High School,Finance,Technical,Yes,Low,US,Part-time,0
+884,18,0,92776,1,1,8,1,1,1,Female,Master's degree,IT,Scientific,No,Medium,US,Part-time,0
+885,43,11,90478,2,1,2,0,2,1,Female,Master's degree,Sales,Scientific,No,Low,Other,Part-time,0
+886,31,6,39622,1,1,5,2,3,2,Female,Bachelor's degree,IT,Technical,No,High,US,Full-time,1
+887,55,14,33536,1,1,9,1,3,1,Male,High School,HR,Business,Yes,Low,US,Part-time,0
+888,54,18,87136,3,0,4,2,4,0,Male,Bachelor's degree,Sales,Business,No,Medium,Other,Unemployed,1
+889,28,0,25700,1,0,5,1,1,2,Female,Bachelor's degree,Marketing,Scientific,No,Medium,US,Full-time,1
+890,53,16,58839,3,0,3,4,4,1,Female,High School,Sales,Creative,No,High,Other,Part-time,0
+891,30,16,30248,1,1,9,4,1,0,Male,Bachelor's degree,Finance,Scientific,No,Medium,US,Unemployed,1
+892,20,2,65291,1,1,5,0,3,0,Female,PhD,Finance,Creative,No,Low,US,Unemployed,0
+893,50,11,37177,3,1,6,0,4,1,Male,Master's degree,Sales,Scientific,Yes,Low,Other,Part-time,0
+894,23,5,39483,2,1,8,2,3,0,Female,Bachelor's degree,HR,Business,Yes,Low,Other,Unemployed,1
+895,27,10,63815,3,1,9,1,3,1,Male,High School,Finance,Scientific,No,Low,Other,Part-time,0
+896,22,2,58533,3,1,6,3,1,0,Male,Master's degree,Finance,Scientific,No,High,Other,Unemployed,0
+897,40,7,20026,3,0,5,0,4,2,Male,Master's degree,Marketing,Creative,Yes,Low,Other,Full-time,0
+898,27,13,80611,2,0,0,3,4,2,Male,Bachelor's degree,Sales,Business,No,High,Other,Full-time,1
+899,19,13,44660,1,0,1,3,3,2,Female,PhD,Finance,Creative,No,Low,US,Full-time,1
+900,30,9,75103,3,0,0,1,3,2,Female,Bachelor's degree,HR,Scientific,No,High,Other,Full-time,1
+901,57,1,72253,3,0,8,2,1,2,Male,PhD,IT,Technical,No,Low,Other,Full-time,0
+902,19,13,62082,2,1,9,1,2,1,Male,Master's degree,Sales,Scientific,No,Low,Other,Part-time,0
+903,37,8,36258,3,1,9,0,2,2,Male,Bachelor's degree,Marketing,Scientific,No,High,Other,Full-time,1
+904,18,2,35389,1,1,8,3,3,2,Male,High School,Finance,Creative,No,Medium,US,Full-time,1
+905,54,7,47685,2,1,6,1,2,2,Female,Bachelor's degree,HR,Technical,No,Medium,Other,Full-time,1
+906,26,15,79220,1,1,1,1,2,2,Male,PhD,Sales,Technical,Yes,Medium,US,Full-time,1
+907,34,1,47195,1,1,5,1,2,0,Male,PhD,HR,Creative,Yes,High,US,Unemployed,0
+908,26,5,41797,2,0,3,0,2,2,Male,Bachelor's degree,HR,Business,No,Medium,Other,Full-time,1
+909,28,11,91310,3,1,0,2,3,2,Male,PhD,Marketing,Technical,No,Medium,Other,Full-time,0
+910,32,4,86332,1,1,0,1,2,1,Male,Master's degree,Sales,Technical,No,High,US,Part-time,0
+911,41,1,82907,1,1,4,0,2,0,Male,Bachelor's degree,Finance,Creative,No,Medium,US,Unemployed,0
+912,55,15,27188,1,1,1,3,1,1,Male,PhD,Marketing,Business,Yes,Medium,US,Part-time,0
+913,52,4,43696,1,0,3,4,3,2,Female,Bachelor's degree,Finance,Business,Yes,Medium,US,Full-time,1
+914,47,14,22024,2,0,0,0,4,1,Male,Bachelor's degree,IT,Scientific,Yes,High,Other,Part-time,1
+915,48,11,93202,2,1,3,4,4,1,Male,High School,HR,Scientific,Yes,High,Other,Part-time,0
+916,22,3,55985,1,0,5,1,1,2,Male,Bachelor's degree,IT,Creative,No,Medium,US,Full-time,1
+917,31,14,26584,3,0,9,1,1,0,Female,High School,HR,Business,No,Medium,Other,Unemployed,0
+918,28,10,47044,1,1,3,0,3,0,Female,PhD,Marketing,Creative,No,High,US,Unemployed,1
+919,26,15,25285,3,1,0,4,4,1,Female,High School,Finance,Scientific,Yes,Medium,Other,Part-time,1
+920,51,5,83115,1,1,6,1,2,2,Male,High School,Finance,Creative,No,High,US,Full-time,1
+921,29,13,27370,3,1,1,3,1,1,Male,High School,Marketing,Creative,No,Medium,Other,Part-time,1
+922,52,17,37903,1,1,8,2,4,1,Male,Master's degree,Sales,Technical,Yes,High,US,Part-time,0
+923,52,11,52499,3,0,2,2,3,1,Female,High School,IT,Technical,Yes,Low,Other,Part-time,0
+924,18,10,42995,1,1,7,1,2,2,Male,Bachelor's degree,IT,Technical,Yes,Low,US,Full-time,1
+925,57,12,55200,1,1,7,4,3,2,Female,High School,Finance,Scientific,Yes,High,US,Full-time,1
+926,39,10,90402,3,1,2,1,1,0,Female,Bachelor's degree,Finance,Creative,Yes,Low,Other,Unemployed,1
+927,46,15,33566,2,0,3,4,4,2,Female,High School,Finance,Technical,No,Medium,Other,Full-time,0
+928,25,14,57822,3,1,1,3,4,1,Female,Master's degree,Marketing,Technical,No,High,Other,Part-time,0
+929,28,14,71222,2,1,3,4,4,1,Female,PhD,Sales,Technical,Yes,High,Other,Part-time,0
+930,58,3,70668,1,1,8,1,4,0,Male,High School,IT,Scientific,No,Medium,US,Unemployed,0
+931,54,10,83853,3,0,1,3,2,2,Male,High School,HR,Scientific,No,Medium,Other,Full-time,0
+932,31,18,74643,3,1,2,0,2,1,Female,Master's degree,Marketing,Creative,No,High,Other,Part-time,0
+933,47,14,42333,3,1,3,2,3,0,Male,High School,IT,Creative,No,Medium,Other,Unemployed,0
+934,52,3,35958,2,1,4,1,2,0,Male,Bachelor's degree,Sales,Creative,Yes,High,Other,Unemployed,0
+935,38,12,72442,2,0,0,1,1,1,Female,High School,Marketing,Technical,No,Medium,Other,Part-time,0
+936,54,18,40954,1,1,6,1,1,1,Female,High School,IT,Business,No,High,US,Part-time,0
+937,22,1,95174,2,1,9,3,4,2,Male,PhD,Marketing,Scientific,No,Medium,Other,Full-time,0
+938,36,13,29675,2,1,6,0,1,0,Male,PhD,IT,Technical,Yes,Medium,Other,Unemployed,0
+939,31,3,51661,1,0,8,4,3,1,Male,High School,IT,Technical,No,Low,US,Part-time,0
+940,43,15,84289,3,1,3,0,2,0,Male,Master's degree,Sales,Creative,Yes,Low,Other,Unemployed,0
+941,21,19,37184,3,1,5,3,2,2,Female,PhD,HR,Creative,Yes,Low,Other,Full-time,1
+942,42,13,67963,1,1,1,1,2,1,Male,High School,Sales,Technical,Yes,Medium,US,Part-time,0
+943,59,14,45822,3,0,3,2,1,2,Female,PhD,IT,Scientific,Yes,High,Other,Full-time,0
+944,42,2,82303,2,0,1,1,2,0,Female,High School,Marketing,Scientific,No,Medium,Other,Unemployed,0
+945,35,7,96465,1,1,9,4,4,2,Male,PhD,Sales,Technical,Yes,Low,US,Full-time,1
+946,57,15,25267,1,0,4,2,4,2,Male,PhD,HR,Business,Yes,Medium,US,Full-time,1
+947,25,9,72647,1,0,6,1,4,0,Male,Bachelor's degree,IT,Business,Yes,Low,US,Unemployed,1
+948,56,3,82814,3,0,0,2,1,2,Female,High School,Sales,Scientific,Yes,Low,Other,Full-time,0
+949,57,17,56025,1,1,9,0,2,0,Female,High School,Sales,Creative,Yes,High,US,Unemployed,0
+950,31,1,97605,1,1,9,3,1,1,Female,High School,Sales,Business,No,High,US,Part-time,0
+951,49,16,20981,1,0,6,1,2,0,Female,High School,Sales,Business,Yes,Low,US,Unemployed,0
+952,55,12,63436,3,0,9,4,3,0,Male,PhD,Marketing,Creative,No,Low,Other,Unemployed,0
+953,50,3,38472,2,0,5,0,3,1,Female,Bachelor's degree,HR,Business,No,Medium,Other,Part-time,0
+954,40,10,39336,1,1,5,1,1,0,Female,Bachelor's degree,HR,Technical,Yes,Low,US,Unemployed,1
+955,32,6,45587,2,1,7,0,4,1,Male,Master's degree,IT,Business,No,Medium,Other,Part-time,0
+956,50,11,97192,3,0,7,4,1,1,Female,High School,Finance,Creative,No,Low,Other,Part-time,0
+957,42,9,73013,3,0,5,1,4,0,Female,Master's degree,Marketing,Technical,No,High,Other,Unemployed,0
+958,34,6,29665,3,0,2,4,2,2,Male,PhD,IT,Business,Yes,High,Other,Full-time,0
+959,50,12,47097,3,0,4,2,4,2,Female,Master's degree,IT,Scientific,Yes,Low,Other,Full-time,0
+960,19,6,72474,2,1,1,4,4,1,Female,High School,Sales,Technical,Yes,Medium,Other,Part-time,0
+961,31,16,91973,1,0,4,2,2,2,Female,Bachelor's degree,Finance,Technical,Yes,Medium,US,Full-time,1
+962,57,9,45185,3,1,8,1,3,2,Female,Bachelor's degree,Finance,Scientific,Yes,Medium,Other,Full-time,1
+963,57,9,95911,3,0,9,2,2,0,Male,High School,Marketing,Scientific,Yes,Low,Other,Unemployed,0
+964,56,3,50484,2,0,0,1,1,1,Female,PhD,Finance,Business,Yes,Low,Other,Part-time,0
+965,23,19,65610,2,0,9,1,1,1,Male,High School,IT,Business,No,High,Other,Part-time,0
+966,23,3,70807,3,0,4,3,1,0,Female,PhD,Finance,Creative,No,High,Other,Unemployed,0
+967,20,6,70907,1,0,5,1,1,2,Male,Bachelor's degree,Finance,Creative,Yes,Low,US,Full-time,1
+968,24,0,77389,1,1,6,2,1,1,Male,PhD,HR,Technical,No,High,US,Part-time,0
+969,25,11,45835,3,0,8,3,3,2,Male,High School,IT,Scientific,Yes,Medium,Other,Full-time,1
+970,59,12,73790,2,0,5,3,3,1,Female,High School,Finance,Scientific,Yes,Medium,Other,Part-time,0
+971,32,9,96960,3,0,4,1,4,1,Female,High School,Finance,Creative,Yes,Low,Other,Part-time,0
+972,46,14,29643,3,1,6,4,1,1,Female,PhD,Sales,Technical,No,Medium,Other,Part-time,0
+973,50,12,95846,2,1,0,4,2,1,Male,PhD,Finance,Technical,Yes,Low,Other,Part-time,0
+974,47,8,38951,3,1,4,3,1,2,Female,PhD,Finance,Creative,Yes,Medium,Other,Full-time,0
+975,56,8,35233,3,1,1,1,3,2,Female,Bachelor's degree,HR,Creative,Yes,Low,Other,Full-time,1
+976,44,14,33200,3,0,3,4,1,2,Female,Master's degree,IT,Creative,Yes,Medium,Other,Full-time,0
+977,53,9,72275,2,0,6,1,3,2,Female,Master's degree,Marketing,Business,No,Medium,Other,Full-time,0
+978,46,9,96068,1,0,4,1,4,0,Male,High School,IT,Technical,Yes,High,US,Unemployed,0
+979,55,7,41291,1,1,5,3,4,1,Male,Bachelor's degree,Sales,Technical,No,High,US,Part-time,1
+980,50,15,62448,2,0,1,3,4,1,Female,PhD,IT,Technical,No,High,Other,Part-time,0
+981,54,16,50580,1,0,2,0,3,1,Female,High School,Finance,Creative,Yes,High,US,Part-time,0
+982,44,4,41346,3,1,6,4,1,0,Female,Bachelor's degree,Sales,Creative,Yes,High,Other,Unemployed,0
+983,50,3,30619,1,1,1,4,1,2,Male,High School,IT,Creative,No,High,US,Full-time,1
+984,21,17,21766,3,1,5,4,2,1,Female,Bachelor's degree,Sales,Creative,No,Low,Other,Part-time,1
+985,39,18,23549,1,0,4,2,3,2,Male,Bachelor's degree,Marketing,Scientific,No,Low,US,Full-time,1
+986,19,3,38693,2,0,9,1,2,2,Male,Master's degree,IT,Creative,No,High,Other,Full-time,1
+987,27,6,82019,1,1,0,3,4,0,Female,High School,Finance,Business,Yes,Low,US,Unemployed,0
+988,22,9,68328,1,0,9,4,1,0,Female,PhD,Sales,Scientific,No,High,US,Unemployed,0
+989,27,17,97701,1,1,3,0,3,2,Female,Master's degree,HR,Scientific,No,Low,US,Full-time,1
+990,50,18,45301,2,1,1,4,2,1,Male,Master's degree,Sales,Creative,No,Medium,Other,Part-time,0
+991,55,3,64763,1,0,3,1,2,1,Male,PhD,HR,Technical,No,Low,US,Part-time,0
+992,30,9,40765,2,1,0,1,2,0,Female,Bachelor's degree,Finance,Creative,Yes,Low,Other,Unemployed,1
+993,48,0,64787,3,1,1,3,1,0,Male,PhD,Marketing,Technical,Yes,Low,Other,Unemployed,0
+994,53,17,27425,1,1,7,2,1,0,Female,High School,HR,Creative,Yes,Medium,US,Unemployed,0
+995,41,4,32857,2,0,5,3,1,0,Female,PhD,Marketing,Creative,No,High,Other,Unemployed,0
+996,32,14,72771,2,1,1,4,3,0,Male,Bachelor's degree,Sales,Technical,No,Low,Other,Unemployed,1
+997,46,16,42444,1,1,5,0,1,0,Male,PhD,Finance,Technical,Yes,Low,US,Unemployed,0
+998,25,2,61457,3,1,9,3,3,0,Male,Bachelor's degree,HR,Technical,Yes,Medium,Other,Unemployed,0
+999,22,11,99741,2,1,8,2,2,1,Male,Bachelor's degree,Sales,Technical,No,High,Other,Part-time,1

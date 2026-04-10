@@ -1,0 +1,64 @@
+To build a decision tree classifier for classifying postpartum depression status using a maximum depth of 2, we will assume that we've analyzed the provided features and selected the most important ones based on our hypothetical data analysis. Let's use the following features that may have an impact on postpartum depression:
+
+1. **Feeling about motherhood** (Neutral, Happy, Sad)
+2. **Support Received** (High, Medium, Low)
+
+Let's assume these features are indicative of a mother's mental health post childbirth, and we'll classify them as follows:
+
+### Decision Tree:
+```
+|--- Feeling about motherhood == Sad
+|   |--- class: has postpartum depression
+|--- Feeling about motherhood != Sad
+|   |--- Support Received == Low
+|   |   |--- class: has postpartum depression
+|   |--- Support Received != Low
+|   |   |--- class: does not have postpartum depression
+```
+
+### Explanation:
+- The first split is based on **Feeling about motherhood**. If a mother feels *Sad*, that indicates a higher likelihood of having postpartum depression.
+- If she does not feel Sad, we look at the **Support Received**. If she reports *Low* support, she’s also classified as having postpartum depression.
+- In all other cases (either feeling Happy or Neutral and receiving High or Medium support), the classification would be that she does not have postpartum depression.
+
+This structure allows us to make a simple yet effective classification based on the specified maximum depth of 2 while relying on two critical features impacting postpartum depression status.
+
+
+#########################
+
+
+Below is the Python function for the decision tree based on the features we've previously outlined to classify postpartum depression status. This implementation considers a maximum depth of 2, using the features "Feeling about motherhood" and "Recieved Support." The function returns a prediction along with a list that indicates which conditions of the inner nodes were satisfied.
+
+```python
+def predict(X: dict):
+    # Initialize the nodes list to track the truth values of the inner nodes.
+    nodes = [None, None]  # Maximum depth of 2
+    # Check first condition: Feeling about motherhood
+    nodes[0] = (X["Feeling about motherhood"] == "Sad")
+    
+    if nodes[0]:  # If the mother feels sad
+        prediction = 1  # has postpartum depression
+    else:  # If the mother does NOT feel sad
+        # Check second condition: Recieved Support
+        nodes[1] = (X["Recieved Support"] == "Low")
+        if nodes[1]:  # If support is low
+            prediction = 1  # has postpartum depression
+        else:
+            prediction = 0  # does not have postpartum depression
+    
+    return prediction, nodes
+
+# Example of how to call the function
+# X = {
+#     "Feeling about motherhood": "Sad",
+#     "Recieved Support": "High"
+# }
+# prediction, nodes_truth_values = predict(X)
+# print(prediction)  # Returns 1 (has postpartum depression)
+# print(nodes_truth_values)  # Returns [1, 0] since the first node condition is true, and the second is false.
+```
+
+### Explanation:
+- The function checks the first node's condition against the feature **Feeling about motherhood**. If it exists and is equal to "Sad", it will classify the case as having postpartum depression (1).
+- If the first condition is not satisfied (i.e., the mother does not feel Sad), it checks the second condition using **Recieved Support**. If support is Low, it will also classify the case as having postpartum depression (1). Otherwise, it classifies as not having postpartum depression (0).
+- The function returns both the prediction and the list tracking the truth values of the inner nodes. Each entry in the list corresponds to a node condition, with `1` indicating the condition is satisfied and `0` indicating it is not.

@@ -1,0 +1,108 @@
+To build a decision tree classifier for credit scoring using the provided features, we will assume that we want to classify credit scoring into two classes: low credit scoring and high credit scoring. As specified, we will limit the decision tree depth to 2 and choose the most important features, but since you haven't provided specific importance criteria or sample data, the tree will be constructed based on common practices for decision trees.
+
+Let’s use the following features for our decision tree:
+- Debt
+- Overdue days
+- Credit history rating
+- INCOME
+- FAMILYSTATUS
+
+Here’s a hypothetical decision tree based on the features mentioned:
+
+```
+Decision Tree:
+|--- Credit history rating <= A2
+|   |--- Debt <= 5000
+|   |   |--- class: high credit scoring
+|   |--- Debt > 5000
+|   |   |--- class: low credit scoring
+|--- Credit history rating > A2
+|   |--- INCOME <= 40000
+|   |   |--- class: low credit scoring
+|   |--- INCOME > 40000
+|   |   |--- class: high credit scoring
+```
+
+### Explanation:
+- The first split is on the **Credit history rating**. This is a critical feature since it indicates the borrower's historical behavior in terms of credit.
+- The second split is based on **Debt** if the credit history is within the acceptable range (A2 and below).
+- If the credit history is above A2, we check **INCOME** to make further distinctions.
+
+Please note that this is a hypothetical classification tree based on plausible interpretations of the features. The actual decision tree may differ based on real data analysis and feature importance determined by training a model on actual credit scoring data.
+
+
+#########################
+
+
+Here's a Python function based on the decision tree we constructed for the credit scoring classification. This function takes a dictionary of features, evaluates the conditions of the inner nodes, and returns the prediction along with the truth values for each node.
+
+### Decision Tree Function
+
+```python
+def predict(X: dict):
+    # Create a list to hold the truth values of inner nodes
+    nodes = 3 * [None]
+    
+    # Define thresholds for decision nodes
+    # 1. Credit history rating <= A2
+    nodes[0] = X["Credit history rating"] <= "A2"  # Assuming string comparison for ratings
+    # 2. Debt <= 5000
+    nodes[1] = X["Debt"] <= 5000
+    # 3. INCOME <= 40000
+    nodes[2] = X["INCOME"] <= 40000
+
+    # Decision process based on the structure of the tree
+    if nodes[0]:  # If credit history rating is A2 or lower
+        if nodes[1]:  # If debt is less than or equal to 5000
+            prediction = 1  # high credit scoring
+        else:
+            prediction = 0  # low credit scoring
+    else:  # If credit history rating is above A2
+        if nodes[2]:  # If income is less than or equal to 40000
+            prediction = 0  # low credit scoring
+        else:
+            prediction = 1  # high credit scoring
+
+    return prediction, nodes
+```
+
+### Explanation of the Function
+1. **Inputs**: The function takes a single dictionary `X` containing the necessary features for scoring.
+2. **Nodes**: Three condition checks (nodes) are created:
+   - `nodes[0]`: Checks if the "Credit history rating" is less than or equal to "A2".
+   - `nodes[1]`: Checks if the "Debt" is `≤ 5000`.
+   - `nodes[2]`: Checks if the "INCOME" is `≤ 40000`.
+3. **Decision Making**: 
+   - Based on the evaluations of these nodes, the function determines the prediction:
+     - For `high credit scoring`, the value returned is `1`.
+     - For `low credit scoring`, the value returned is `0`.
+4. **Return Value**: The function returns the prediction (0 or 1) and the list of truth values for the inner nodes.
+
+### Usage Example
+Here's how you might call this function with a dictionary of feature values:
+
+```python
+features = {
+    'Debt': 3000,
+    'Overdue days': 5,
+    'Initial limit': 10000,
+    'BIRTHDATE': 631152000, # Example unix timestamp
+    'INCOME': 45000,
+    'PDN': 0.1,
+    'SEX': 'Male',
+    'EDU': 'University',
+    'TERM': 36,
+    'Credit history rating': 'A1',
+    'LV_AREA': 'MINSKAJa',
+    'LV_SETTLEMENTNAME': 'MINSK',
+    'INDUSTRYNAME': 'Finance and Insurance',
+    'UNDERAGECHILDRENCOUNT': 0,
+    'FAMILYSTATUS': 1,
+}
+
+prediction, nodes_truth_values = predict(features)
+print("Prediction:", prediction)  # 1 for high credit scoring or 0 for low credit scoring
+print("Nodes Truth Values:", nodes_truth_values)  # Truth values for the conditions checked
+```
+
+You can modify the input dictionary to test different cases based on your data.

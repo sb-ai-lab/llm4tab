@@ -1,0 +1,14 @@
+Features:
+social_connection_frequency: frequency of social interaction (Daily / Weekly / Never / Monthly / weekly / etc.).
+gathering_size_preference: preferred size of social gatherings (Small gatherings / Both / Large events / Never).
+valued_friendship_traits: traits most valued in friendship (Support / Loyalty / Honesty / All / All the three and trust / Understanding person / etc.).
+conflict_resolution_style: preferred conflict resolution style (Talk it out / Apologize first / Avoid conflict / Let time fix it).
+family_support_level: level of family support (Yes / Sometimes / No / Never / yes / etc.).
+social_battery_recharge: preferred way to recharge socially (Talking to someone / Alone time / None of the above / Social media).
+social_orientation_type: self-identified social orientation (Introvert / Ambivert / Extrovert / Not sure).
+social_anxiety_level: level of social anxiety (Avoid it / Neutral / Excited / Nervous).
+emotional_expression_method: way of expressing emotions (Stay silent / Talk openly / Talk openly, Express emotion strongly / Express emotion strongly / Other / etc.).
+primary_anger_sources: main anger triggers (Injustice / Being interrupted / Selfishness / Unnecessary criticism).
+
+Target variable:
+target: friendship-maintenance class (0 = uses texting/social media or rarely keeps in touch / 1 = maintains long-distance friendships through calls)

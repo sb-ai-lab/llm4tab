@@ -1,0 +1,27 @@
+\begin{table}[ht]
+\sisetup{
+  separate-uncertainty = true,
+  table-align-uncertainty = true,
+  table-figures-uncertainty = 1,
+}
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+
+\begin{tabular}{lcccccc}
+\toprule
+Dataset & GPT-4o-mini & Qwen3-1.7B & Qwen3-8B & Qwen3-14B & FeatLLM & LLM-tree \\
+\midrule
+stars & \num{0.995 \pm 0.001} & \num{0.616 \pm 0.001} & \num{0.982 \pm 0.000} & \num{0.990 \pm 0.000} & \num{0.959 \pm 0.024} & \num{0.631 \pm 0.120} \\
+machine & \num{0.545 \pm 0.016} & \num{0.533 \pm 0.003} & \num{0.536 \pm 0.000} & \num{0.512 \pm 0.000} & \num{0.551 \pm 0.009} & \num{0.504 \pm 0.002} \\
+callcenter & \num{0.522 \pm 0.010} & \num{0.586 \pm 0.001} & \num{0.510 \pm 0.000} & \num{0.543 \pm 0.000} & \num{0.638 \pm 0.052} & \num{0.557 \pm 0.011} \\
+bank\_credit\_scoring & \num{0.707 \pm 0.004} & \num{0.527 \pm 0.001} & \num{0.529 \pm 0.001} & \num{0.712 \pm 0.000} & \num{0.697 \pm 0.028} & \num{0.579 \pm 0.083} \\
+extrovert & \num{0.568 \pm 0.001} & \num{0.604 \pm 0.000} & \num{0.614 \pm 0.000} & \num{0.627 \pm 0.000} & \num{0.575 \pm 0.008} & \num{0.548 \pm 0.032} \\
+reading & \num{0.797 \pm 0.003} & \num{0.500 \pm 0.000} & \num{0.745 \pm 0.002} & \num{0.800 \pm 0.000} & \num{0.620 \pm 0.029} & \num{0.746 \pm 0.075} \\
+postpartum & \num{0.527 \pm 0.009} & \num{0.696 \pm 0.002} & \num{0.753 \pm 0.001} & \num{0.561 \pm 0.000} & \num{0.731 \pm 0.014} & \num{0.550 \pm 0.034} \\
+crimes\_arrest & \num{0.650 \pm 0.005} & \num{0.630 \pm 0.013} & \num{0.590 \pm 0.000} & \num{0.514 \pm 0.000} & \num{0.619 \pm 0.079} & \num{0.531 \pm 0.011} \\
+\bottomrule
+\end{tabular}
+\caption{Zero-shot performance on new datasets}
+\label{tab:new_datasets_zero_shot}
+\end{table}

@@ -1,0 +1,10 @@
+Features:
+Vmag: apparent visual magnitude of the star.
+Plx: parallax of the star.
+e_Plx: parallax measurement error.
+B-V: color index of the star.
+Amag: absolute magnitude of the star.
+SpType: spectral type of the star (G1V / F3V / F7IV / B8/B9V / K5V / F5V / B3III/IV / A4V+... / K3III / B9V / etc.).
+
+Target variable:
+target: star class (0 = dwarf star / 1 = giant star)
