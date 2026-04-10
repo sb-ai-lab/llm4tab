@@ -1,0 +1,1001 @@
+,Age,Gender,Race,Income Level,Parents' Education,School Type,Learning Disability,Access to Technology,Student Motivation,Teacher Evaluation,label
+0,13.0,male,white,medium,associate's degree,public,no,no,low,poor,0
+1,13.005005005005005,male,other,medium,Bachelor's degree,private,no,yes,high,good,1
+2,13.01001001001001,female,other,medium,high school diploma,private,no,yes,high,poor,0
+3,13.015015015015015,male,other,medium,associate's degree,public,yes,yes,medium,fair,0
+4,13.02002002002002,female,white,high,Bachelor's degree,public,yes,yes,high,fair,0
+5,13.025025025025025,male,black,high,Bachelor's degree,public,no,no,medium,fair,0
+6,13.03003003003003,male,black,medium,high school diploma,public,yes,yes,low,fair,0
+7,13.035035035035035,male,other,high,high school diploma,public,no,no,medium,poor,0
+8,13.04004004004004,male,white,high,high school diploma,public,yes,yes,high,excellent,1
+9,13.045045045045045,female,white,low,associate's degree,private,no,yes,high,poor,1
+10,13.05005005005005,female,other,high,Bachelor's degree,public,yes,yes,medium,fair,0
+11,13.055055055055055,female,other,high,associate's degree,public,no,no,low,fair,0
+12,13.06006006006006,male,white,low,Bachelor's degree,public,no,yes,high,fair,0
+13,13.065065065065065,male,white,medium,Bachelor's degree,private,no,no,medium,good,1
+14,13.07007007007007,female,other,medium,Bachelor's degree,private,yes,no,high,fair,1
+15,13.075075075075075,female,black,low,Bachelor's degree,public,yes,yes,high,poor,0
+16,13.08008008008008,male,black,high,associate's degree,private,no,yes,low,fair,1
+17,13.085085085085085,female,black,low,high school diploma,private,no,yes,high,poor,0
+18,13.09009009009009,female,white,low,associate's degree,public,no,yes,medium,excellent,0
+19,13.095095095095095,female,black,high,high school diploma,public,no,yes,high,fair,0
+20,13.1001001001001,female,black,high,Bachelor's degree,private,yes,yes,high,good,1
+21,13.105105105105105,female,other,low,associate's degree,private,yes,yes,low,fair,1
+22,13.11011011011011,male,other,medium,Bachelor's degree,public,yes,no,high,excellent,1
+23,13.115115115115115,male,black,low,associate's degree,public,yes,yes,medium,excellent,0
+24,13.12012012012012,female,other,medium,associate's degree,public,no,yes,low,fair,0
+25,13.125125125125125,male,black,medium,associate's degree,public,no,no,medium,poor,0
+26,13.13013013013013,male,white,medium,associate's degree,private,no,no,medium,excellent,1
+27,13.135135135135135,male,black,high,associate's degree,public,yes,yes,low,fair,0
+28,13.14014014014014,male,black,low,Bachelor's degree,public,no,yes,low,good,0
+29,13.145145145145145,male,white,medium,associate's degree,private,no,no,high,good,1
+30,13.15015015015015,male,white,low,Bachelor's degree,public,yes,no,medium,good,0
+31,13.155155155155155,male,black,medium,high school diploma,private,yes,no,low,good,0
+32,13.16016016016016,female,black,high,associate's degree,private,yes,yes,medium,fair,1
+33,13.165165165165165,female,black,high,associate's degree,private,no,no,high,excellent,1
+34,13.17017017017017,male,other,high,associate's degree,public,yes,yes,high,poor,0
+35,13.175175175175175,male,other,high,high school diploma,private,yes,yes,medium,fair,0
+36,13.18018018018018,female,black,low,high school diploma,public,no,yes,low,excellent,0
+37,13.185185185185185,female,black,medium,high school diploma,private,no,no,medium,poor,0
+38,13.19019019019019,male,black,medium,Bachelor's degree,public,no,yes,low,fair,0
+39,13.195195195195195,male,white,low,Bachelor's degree,public,no,no,low,good,0
+40,13.2002002002002,female,other,high,Bachelor's degree,private,yes,yes,low,excellent,1
+41,13.205205205205205,female,other,low,associate's degree,private,no,no,low,good,1
+42,13.21021021021021,female,black,low,Bachelor's degree,private,yes,yes,medium,good,1
+43,13.215215215215215,female,white,medium,Bachelor's degree,private,yes,yes,low,fair,1
+44,13.22022022022022,male,black,low,associate's degree,private,no,yes,low,fair,1
+45,13.225225225225225,male,black,low,associate's degree,public,yes,yes,low,good,0
+46,13.23023023023023,female,white,low,Bachelor's degree,private,no,no,high,fair,1
+47,13.235235235235235,female,black,high,associate's degree,private,no,yes,low,excellent,1
+48,13.24024024024024,male,other,high,high school diploma,public,no,no,medium,good,0
+49,13.245245245245245,male,black,medium,high school diploma,public,no,yes,low,excellent,0
+50,13.25025025025025,female,black,high,Bachelor's degree,public,no,yes,high,fair,0
+51,13.255255255255255,female,black,low,high school diploma,private,no,no,low,poor,0
+52,13.26026026026026,female,other,medium,high school diploma,private,yes,no,low,fair,0
+53,13.265265265265265,female,black,low,high school diploma,public,yes,yes,high,fair,0
+54,13.27027027027027,male,white,medium,high school diploma,private,yes,yes,medium,good,0
+55,13.275275275275275,male,white,low,high school diploma,private,no,no,medium,poor,0
+56,13.28028028028028,female,white,medium,high school diploma,private,no,no,low,good,0
+57,13.285285285285285,male,white,high,associate's degree,private,yes,yes,high,poor,1
+58,13.29029029029029,male,black,medium,associate's degree,private,no,no,medium,excellent,1
+59,13.295295295295295,male,white,high,high school diploma,private,no,yes,low,excellent,0
+60,13.3003003003003,female,other,medium,associate's degree,public,yes,no,low,fair,0
+61,13.305305305305305,female,white,high,associate's degree,public,yes,yes,high,poor,0
+62,13.31031031031031,male,black,medium,Bachelor's degree,public,yes,no,high,excellent,1
+63,13.315315315315315,male,other,low,Bachelor's degree,private,yes,yes,low,good,1
+64,13.32032032032032,female,white,medium,high school diploma,private,no,no,low,poor,0
+65,13.325325325325325,female,other,low,associate's degree,private,yes,no,medium,good,1
+66,13.33033033033033,female,other,medium,Bachelor's degree,public,no,no,high,fair,0
+67,13.335335335335335,male,white,medium,associate's degree,private,yes,no,medium,good,1
+68,13.34034034034034,female,black,low,associate's degree,private,no,yes,low,excellent,1
+69,13.345345345345345,male,white,high,high school diploma,public,yes,yes,medium,poor,0
+70,13.35035035035035,male,white,medium,Bachelor's degree,public,yes,yes,high,good,1
+71,13.355355355355355,female,black,medium,high school diploma,private,no,yes,low,good,0
+72,13.36036036036036,male,white,low,associate's degree,private,no,no,high,fair,1
+73,13.365365365365365,male,white,low,associate's degree,private,yes,no,high,fair,1
+74,13.37037037037037,female,white,high,associate's degree,public,no,no,high,fair,0
+75,13.375375375375375,female,other,low,high school diploma,public,yes,no,medium,good,0
+76,13.38038038038038,female,white,high,Bachelor's degree,private,no,yes,medium,fair,1
+77,13.385385385385385,male,black,high,Bachelor's degree,public,no,yes,medium,excellent,0
+78,13.39039039039039,male,white,high,Bachelor's degree,private,yes,no,medium,excellent,1
+79,13.395395395395395,male,other,medium,associate's degree,public,yes,yes,medium,excellent,0
+80,13.4004004004004,female,white,high,high school diploma,public,no,yes,low,excellent,0
+81,13.405405405405405,male,black,high,Bachelor's degree,private,no,yes,medium,poor,1
+82,13.41041041041041,male,black,low,Bachelor's degree,public,no,yes,high,poor,0
+83,13.415415415415415,female,other,medium,Bachelor's degree,public,yes,yes,high,good,1
+84,13.42042042042042,male,black,high,associate's degree,public,yes,no,high,good,1
+85,13.425425425425425,female,white,low,associate's degree,public,yes,no,medium,poor,0
+86,13.43043043043043,female,white,high,Bachelor's degree,public,yes,no,high,poor,0
+87,13.435435435435435,female,black,medium,high school diploma,private,no,no,medium,good,0
+88,13.44044044044044,male,white,medium,Bachelor's degree,private,no,yes,low,good,1
+89,13.445445445445445,male,white,high,Bachelor's degree,private,no,no,medium,excellent,1
+90,13.45045045045045,male,white,medium,Bachelor's degree,public,no,yes,high,poor,0
+91,13.455455455455455,female,white,low,Bachelor's degree,public,yes,no,low,excellent,0
+92,13.46046046046046,female,other,high,associate's degree,public,no,no,low,fair,0
+93,13.465465465465465,male,black,medium,Bachelor's degree,private,no,no,low,excellent,1
+94,13.47047047047047,female,black,high,Bachelor's degree,private,no,yes,medium,fair,1
+95,13.475475475475475,female,black,high,associate's degree,private,no,no,low,fair,1
+96,13.48048048048048,female,other,low,associate's degree,private,yes,yes,high,excellent,1
+97,13.485485485485485,male,black,medium,high school diploma,public,no,yes,medium,excellent,0
+98,13.49049049049049,female,black,low,associate's degree,public,no,yes,medium,excellent,0
+99,13.495495495495495,female,black,high,associate's degree,public,yes,no,medium,poor,0
+100,13.5005005005005,female,black,medium,Bachelor's degree,public,no,no,medium,good,0
+101,13.505505505505505,male,black,high,associate's degree,private,no,no,low,poor,1
+102,13.51051051051051,female,white,high,high school diploma,private,yes,no,medium,poor,0
+103,13.515515515515515,female,black,medium,Bachelor's degree,private,yes,no,medium,good,1
+104,13.52052052052052,female,white,low,high school diploma,private,yes,no,high,excellent,1
+105,13.525525525525525,female,other,medium,associate's degree,private,yes,yes,medium,fair,1
+106,13.53053053053053,male,black,low,associate's degree,private,no,no,medium,poor,1
+107,13.535535535535535,male,white,medium,high school diploma,private,no,yes,high,poor,0
+108,13.54054054054054,female,black,low,associate's degree,private,no,yes,high,excellent,1
+109,13.545545545545545,male,other,high,Bachelor's degree,private,no,no,high,fair,1
+110,13.55055055055055,male,white,high,associate's degree,public,yes,no,low,good,0
+111,13.555555555555555,male,other,low,associate's degree,private,no,no,low,poor,1
+112,13.56056056056056,male,white,low,associate's degree,private,yes,yes,medium,poor,1
+113,13.565565565565565,male,black,low,high school diploma,private,yes,no,medium,good,0
+114,13.57057057057057,male,other,low,high school diploma,public,yes,no,high,fair,0
+115,13.575575575575575,female,white,low,associate's degree,private,no,no,low,good,1
+116,13.58058058058058,female,white,low,high school diploma,public,no,no,medium,excellent,0
+117,13.585585585585585,female,black,high,high school diploma,private,no,no,medium,excellent,0
+118,13.59059059059059,female,white,medium,Bachelor's degree,private,no,yes,low,excellent,1
+119,13.595595595595595,male,black,low,high school diploma,public,yes,yes,medium,poor,0
+120,13.6006006006006,male,other,medium,high school diploma,private,no,yes,medium,excellent,0
+121,13.605605605605605,male,white,medium,Bachelor's degree,public,yes,no,high,excellent,1
+122,13.61061061061061,male,white,low,associate's degree,public,yes,yes,high,fair,0
+123,13.615615615615615,female,black,medium,Bachelor's degree,private,no,yes,low,fair,1
+124,13.62062062062062,male,black,low,Bachelor's degree,private,no,no,low,excellent,1
+125,13.625625625625625,female,other,medium,associate's degree,private,yes,no,low,fair,1
+126,13.63063063063063,female,black,high,high school diploma,public,no,no,low,good,0
+127,13.635635635635635,female,other,medium,high school diploma,private,yes,yes,high,poor,0
+128,13.64064064064064,female,other,medium,associate's degree,public,yes,yes,high,excellent,1
+129,13.645645645645645,female,white,high,high school diploma,private,no,yes,medium,excellent,0
+130,13.65065065065065,male,black,low,associate's degree,public,no,no,high,excellent,1
+131,13.655655655655655,female,other,medium,associate's degree,private,yes,no,low,good,1
+132,13.66066066066066,male,black,high,Bachelor's degree,private,yes,yes,low,excellent,1
+133,13.665665665665665,female,black,medium,associate's degree,public,yes,yes,low,fair,0
+134,13.67067067067067,male,white,low,Bachelor's degree,private,yes,no,medium,poor,1
+135,13.675675675675675,female,white,low,high school diploma,public,yes,yes,high,good,1
+136,13.68068068068068,female,black,low,associate's degree,private,yes,no,low,fair,1
+137,13.685685685685685,male,black,high,Bachelor's degree,private,yes,no,high,excellent,1
+138,13.69069069069069,female,white,medium,Bachelor's degree,public,yes,yes,high,excellent,1
+139,13.695695695695695,male,black,medium,associate's degree,public,no,yes,high,poor,0
+140,13.7007007007007,female,other,medium,Bachelor's degree,private,yes,yes,low,excellent,1
+141,13.705705705705705,female,other,medium,high school diploma,public,no,yes,low,excellent,0
+142,13.71071071071071,male,white,high,associate's degree,private,no,no,medium,fair,1
+143,13.715715715715715,female,white,medium,associate's degree,private,yes,no,low,good,1
+144,13.72072072072072,male,black,low,associate's degree,public,yes,no,medium,good,0
+145,13.725725725725725,female,white,low,high school diploma,public,no,yes,medium,fair,0
+146,13.73073073073073,female,white,medium,high school diploma,private,no,no,low,poor,0
+147,13.735735735735735,female,black,low,Bachelor's degree,public,yes,yes,low,good,0
+148,13.74074074074074,male,white,low,high school diploma,public,yes,yes,medium,poor,0
+149,13.745745745745745,male,white,low,associate's degree,public,yes,yes,high,good,1
+150,13.75075075075075,male,other,high,high school diploma,public,no,no,low,fair,0
+151,13.755755755755755,female,white,low,Bachelor's degree,private,no,no,medium,fair,1
+152,13.76076076076076,male,other,medium,Bachelor's degree,private,no,yes,high,excellent,1
+153,13.765765765765765,female,other,medium,Bachelor's degree,private,no,no,medium,good,1
+154,13.77077077077077,female,black,medium,associate's degree,private,no,no,low,good,1
+155,13.775775775775776,male,black,high,associate's degree,private,no,no,medium,poor,1
+156,13.78078078078078,male,white,high,associate's degree,private,yes,no,medium,poor,1
+157,13.785785785785786,female,black,low,Bachelor's degree,public,no,no,medium,poor,0
+158,13.79079079079079,male,black,medium,Bachelor's degree,private,no,yes,low,poor,1
+159,13.795795795795796,male,white,high,Bachelor's degree,public,yes,no,medium,poor,0
+160,13.8008008008008,female,black,low,Bachelor's degree,private,no,no,medium,good,1
+161,13.805805805805806,male,white,low,associate's degree,public,no,no,high,fair,0
+162,13.81081081081081,female,other,low,high school diploma,public,yes,no,medium,good,0
+163,13.815815815815816,female,black,high,high school diploma,private,yes,yes,medium,good,0
+164,13.82082082082082,female,other,medium,associate's degree,public,no,yes,high,fair,0
+165,13.825825825825826,female,other,high,associate's degree,public,no,yes,high,good,1
+166,13.83083083083083,female,other,medium,associate's degree,public,yes,no,low,fair,0
+167,13.835835835835836,female,black,medium,Bachelor's degree,public,no,no,high,good,1
+168,13.84084084084084,male,other,high,associate's degree,public,no,yes,high,good,1
+169,13.845845845845846,male,white,low,high school diploma,public,yes,yes,medium,fair,0
+170,13.85085085085085,male,black,low,Bachelor's degree,public,yes,yes,medium,poor,0
+171,13.855855855855856,female,black,low,associate's degree,private,yes,no,low,poor,1
+172,13.86086086086086,female,white,high,associate's degree,private,no,yes,high,poor,1
+173,13.865865865865866,male,other,high,Bachelor's degree,private,yes,no,low,fair,1
+174,13.87087087087087,male,black,medium,high school diploma,private,yes,yes,medium,excellent,0
+175,13.875875875875876,female,other,medium,Bachelor's degree,public,yes,no,medium,excellent,0
+176,13.88088088088088,female,white,high,associate's degree,public,no,yes,low,fair,0
+177,13.885885885885886,female,other,high,high school diploma,public,no,yes,high,poor,0
+178,13.89089089089089,male,black,medium,high school diploma,private,no,yes,low,excellent,0
+179,13.895895895895896,male,white,medium,Bachelor's degree,private,yes,yes,medium,poor,1
+180,13.9009009009009,male,other,low,Bachelor's degree,private,yes,yes,high,good,1
+181,13.905905905905906,female,other,medium,Bachelor's degree,private,no,yes,low,poor,1
+182,13.91091091091091,male,white,low,Bachelor's degree,private,yes,no,low,fair,1
+183,13.915915915915916,male,white,high,high school diploma,private,yes,no,medium,excellent,0
+184,13.92092092092092,female,white,high,Bachelor's degree,private,yes,no,low,good,1
+185,13.925925925925926,female,white,high,Bachelor's degree,public,yes,no,low,excellent,0
+186,13.93093093093093,female,white,medium,Bachelor's degree,private,no,no,low,fair,1
+187,13.935935935935936,female,white,medium,high school diploma,private,no,yes,high,fair,0
+188,13.94094094094094,male,white,low,Bachelor's degree,public,no,yes,medium,excellent,0
+189,13.945945945945946,female,white,high,associate's degree,public,yes,no,medium,good,0
+190,13.95095095095095,female,other,high,high school diploma,private,no,yes,medium,fair,0
+191,13.955955955955956,male,black,high,Bachelor's degree,private,yes,yes,medium,fair,1
+192,13.96096096096096,female,other,low,high school diploma,private,no,no,low,good,0
+193,13.965965965965966,male,other,low,associate's degree,private,no,yes,high,excellent,1
+194,13.97097097097097,male,other,low,high school diploma,public,no,yes,medium,poor,0
+195,13.975975975975976,female,other,high,associate's degree,public,yes,no,high,good,1
+196,13.98098098098098,male,black,medium,associate's degree,private,no,yes,low,poor,1
+197,13.985985985985986,male,other,medium,associate's degree,private,yes,no,high,poor,1
+198,13.99099099099099,female,other,low,high school diploma,public,no,no,medium,excellent,0
+199,13.995995995995996,male,other,low,Bachelor's degree,public,yes,no,high,poor,0
+200,14.001001001001,female,white,low,Bachelor's degree,private,no,yes,low,good,1
+201,14.006006006006006,male,other,low,associate's degree,private,no,no,medium,fair,1
+202,14.01101101101101,male,white,low,associate's degree,private,no,no,low,fair,1
+203,14.016016016016016,male,black,high,high school diploma,public,no,yes,medium,fair,0
+204,14.02102102102102,female,other,high,high school diploma,private,yes,yes,high,excellent,1
+205,14.026026026026026,female,other,medium,high school diploma,public,yes,yes,low,excellent,0
+206,14.03103103103103,male,white,low,associate's degree,private,no,no,low,poor,1
+207,14.036036036036036,male,white,low,high school diploma,private,no,no,low,good,0
+208,14.04104104104104,female,other,medium,associate's degree,public,yes,yes,high,fair,0
+209,14.046046046046046,male,black,medium,high school diploma,private,no,yes,low,excellent,0
+210,14.05105105105105,male,other,low,high school diploma,public,yes,no,high,poor,0
+211,14.056056056056056,female,black,medium,high school diploma,public,yes,no,medium,fair,0
+212,14.06106106106106,male,black,medium,high school diploma,public,yes,yes,medium,poor,0
+213,14.066066066066066,female,white,high,associate's degree,private,no,no,medium,fair,1
+214,14.07107107107107,male,black,medium,Bachelor's degree,private,no,no,high,poor,1
+215,14.076076076076076,male,other,medium,associate's degree,private,no,yes,medium,poor,1
+216,14.08108108108108,female,black,high,Bachelor's degree,private,no,no,high,excellent,1
+217,14.086086086086086,male,white,high,Bachelor's degree,private,no,yes,low,fair,1
+218,14.09109109109109,female,other,low,high school diploma,public,yes,yes,low,poor,0
+219,14.096096096096096,female,black,medium,associate's degree,private,yes,yes,high,excellent,1
+220,14.1011011011011,male,other,high,high school diploma,private,yes,no,low,good,0
+221,14.106106106106106,male,black,high,Bachelor's degree,public,no,no,low,good,0
+222,14.11111111111111,female,other,low,high school diploma,public,no,yes,low,good,0
+223,14.116116116116116,female,other,low,associate's degree,public,no,no,medium,poor,0
+224,14.12112112112112,female,white,medium,associate's degree,private,no,no,low,fair,1
+225,14.126126126126126,female,white,low,Bachelor's degree,private,no,yes,medium,poor,1
+226,14.13113113113113,male,other,low,associate's degree,public,no,no,medium,poor,0
+227,14.136136136136136,male,black,medium,high school diploma,public,no,no,low,fair,0
+228,14.14114114114114,female,black,low,associate's degree,private,no,no,medium,poor,1
+229,14.146146146146146,male,white,low,Bachelor's degree,private,no,yes,low,good,1
+230,14.15115115115115,female,other,medium,high school diploma,private,yes,no,medium,fair,0
+231,14.156156156156156,female,other,low,Bachelor's degree,private,no,yes,low,fair,1
+232,14.16116116116116,male,white,medium,high school diploma,public,yes,yes,medium,excellent,0
+233,14.166166166166166,female,black,high,Bachelor's degree,private,no,yes,medium,fair,1
+234,14.17117117117117,male,white,medium,associate's degree,private,yes,yes,high,poor,1
+235,14.176176176176176,female,white,medium,associate's degree,private,yes,yes,high,excellent,1
+236,14.18118118118118,male,black,low,high school diploma,private,no,yes,high,fair,0
+237,14.186186186186186,female,black,high,high school diploma,private,yes,yes,high,excellent,1
+238,14.19119119119119,female,other,high,Bachelor's degree,public,yes,no,low,fair,0
+239,14.196196196196196,male,black,medium,associate's degree,private,no,yes,high,good,1
+240,14.2012012012012,female,other,high,Bachelor's degree,public,no,no,low,fair,0
+241,14.206206206206206,female,black,medium,Bachelor's degree,public,no,no,high,excellent,1
+242,14.21121121121121,male,black,low,associate's degree,private,yes,no,medium,poor,1
+243,14.216216216216216,female,other,medium,associate's degree,public,yes,no,low,excellent,0
+244,14.22122122122122,male,other,low,associate's degree,private,yes,no,medium,excellent,1
+245,14.226226226226226,male,other,high,associate's degree,public,yes,yes,high,good,1
+246,14.23123123123123,female,white,high,associate's degree,private,yes,no,high,excellent,1
+247,14.236236236236236,male,white,low,high school diploma,public,no,no,low,poor,0
+248,14.24124124124124,male,black,high,high school diploma,private,no,yes,medium,excellent,0
+249,14.246246246246246,female,other,medium,associate's degree,private,no,yes,high,excellent,1
+250,14.25125125125125,male,other,high,high school diploma,public,yes,no,medium,excellent,0
+251,14.256256256256256,male,black,high,Bachelor's degree,public,yes,yes,low,excellent,0
+252,14.26126126126126,male,white,low,associate's degree,private,yes,yes,low,excellent,1
+253,14.266266266266266,male,black,low,high school diploma,public,no,yes,high,poor,0
+254,14.27127127127127,female,other,low,Bachelor's degree,private,yes,no,medium,poor,1
+255,14.276276276276276,female,black,low,Bachelor's degree,public,no,no,low,good,0
+256,14.28128128128128,female,black,high,high school diploma,public,no,no,low,excellent,0
+257,14.286286286286286,male,white,low,associate's degree,public,yes,no,high,excellent,1
+258,14.29129129129129,female,black,medium,high school diploma,private,no,no,medium,good,0
+259,14.296296296296296,female,black,low,associate's degree,public,yes,no,high,fair,0
+260,14.3013013013013,male,black,high,high school diploma,public,yes,no,low,excellent,0
+261,14.306306306306306,male,other,medium,associate's degree,private,no,yes,medium,excellent,1
+262,14.31131131131131,female,other,low,high school diploma,public,no,yes,high,good,1
+263,14.316316316316316,male,black,high,high school diploma,private,yes,yes,high,excellent,1
+264,14.32132132132132,female,other,high,Bachelor's degree,public,yes,yes,medium,fair,0
+265,14.326326326326326,male,white,low,Bachelor's degree,private,no,no,low,excellent,1
+266,14.33133133133133,male,white,high,associate's degree,public,yes,no,medium,excellent,0
+267,14.336336336336336,female,black,medium,associate's degree,private,no,no,medium,fair,1
+268,14.34134134134134,male,white,low,associate's degree,private,no,no,low,fair,1
+269,14.346346346346346,male,black,low,high school diploma,public,no,no,low,poor,0
+270,14.35135135135135,male,other,medium,Bachelor's degree,public,no,yes,high,excellent,1
+271,14.356356356356356,male,other,low,associate's degree,public,yes,yes,medium,excellent,0
+272,14.36136136136136,female,other,low,associate's degree,public,yes,yes,low,excellent,0
+273,14.366366366366366,male,other,high,Bachelor's degree,public,yes,no,medium,poor,0
+274,14.37137137137137,female,white,low,high school diploma,public,no,yes,medium,good,0
+275,14.376376376376376,female,white,high,associate's degree,public,yes,no,high,fair,0
+276,14.381381381381381,male,other,medium,high school diploma,public,yes,no,low,fair,0
+277,14.386386386386386,male,other,low,Bachelor's degree,public,no,no,high,good,1
+278,14.391391391391391,male,black,low,high school diploma,public,yes,no,medium,good,0
+279,14.396396396396396,male,white,low,high school diploma,private,yes,yes,medium,fair,0
+280,14.401401401401401,male,black,low,high school diploma,public,yes,no,medium,excellent,0
+281,14.406406406406406,male,white,medium,Bachelor's degree,private,yes,yes,low,fair,1
+282,14.411411411411411,male,black,medium,associate's degree,private,yes,no,high,fair,1
+283,14.416416416416416,female,other,high,associate's degree,public,no,yes,high,excellent,1
+284,14.421421421421421,female,white,high,associate's degree,private,yes,yes,medium,fair,1
+285,14.426426426426426,female,black,high,associate's degree,private,no,no,medium,poor,1
+286,14.431431431431431,female,other,high,Bachelor's degree,public,no,no,low,excellent,0
+287,14.436436436436436,male,black,medium,Bachelor's degree,public,no,yes,medium,fair,0
+288,14.441441441441441,female,black,low,associate's degree,public,yes,yes,low,excellent,0
+289,14.446446446446446,female,black,high,associate's degree,private,no,no,high,poor,1
+290,14.451451451451451,female,black,low,Bachelor's degree,public,yes,no,low,excellent,0
+291,14.456456456456456,male,white,high,high school diploma,public,no,no,medium,poor,0
+292,14.461461461461461,female,other,medium,associate's degree,private,no,yes,high,fair,1
+293,14.466466466466466,male,other,high,Bachelor's degree,private,yes,yes,medium,fair,1
+294,14.471471471471471,female,black,high,high school diploma,public,no,yes,medium,fair,0
+295,14.476476476476476,male,other,high,Bachelor's degree,private,yes,no,high,poor,1
+296,14.481481481481481,female,black,high,high school diploma,public,yes,yes,low,poor,0
+297,14.486486486486486,female,other,medium,high school diploma,private,yes,no,high,good,1
+298,14.491491491491491,male,black,high,associate's degree,public,yes,yes,low,excellent,0
+299,14.496496496496496,female,black,high,Bachelor's degree,private,yes,yes,high,poor,1
+300,14.501501501501501,male,black,medium,Bachelor's degree,public,no,yes,low,good,0
+301,14.506506506506506,male,white,high,Bachelor's degree,public,yes,yes,medium,excellent,0
+302,14.511511511511511,male,black,low,associate's degree,public,no,no,high,excellent,1
+303,14.516516516516516,female,other,low,associate's degree,public,yes,no,medium,excellent,0
+304,14.521521521521521,female,black,medium,associate's degree,public,yes,no,high,poor,0
+305,14.526526526526526,female,white,high,Bachelor's degree,public,yes,yes,low,excellent,0
+306,14.531531531531531,male,black,high,Bachelor's degree,private,no,no,low,excellent,1
+307,14.536536536536536,male,other,low,associate's degree,public,no,yes,medium,fair,0
+308,14.541541541541541,female,black,low,Bachelor's degree,private,no,yes,medium,fair,1
+309,14.546546546546546,male,white,low,associate's degree,public,no,yes,medium,good,0
+310,14.551551551551551,male,other,high,associate's degree,private,no,yes,high,poor,1
+311,14.556556556556556,male,other,high,associate's degree,public,yes,yes,low,good,0
+312,14.561561561561561,female,black,high,Bachelor's degree,public,yes,yes,low,fair,0
+313,14.566566566566566,female,white,low,Bachelor's degree,private,yes,yes,high,poor,1
+314,14.571571571571571,female,black,high,high school diploma,private,yes,no,high,good,1
+315,14.576576576576576,female,other,high,associate's degree,private,yes,no,low,excellent,1
+316,14.581581581581581,female,black,low,associate's degree,private,no,no,medium,excellent,1
+317,14.586586586586586,female,other,low,Bachelor's degree,public,no,yes,medium,good,0
+318,14.591591591591591,male,white,high,associate's degree,public,yes,yes,low,good,0
+319,14.596596596596596,male,black,medium,high school diploma,private,yes,yes,low,good,0
+320,14.601601601601601,male,white,high,Bachelor's degree,private,yes,yes,low,excellent,1
+321,14.606606606606606,male,black,low,Bachelor's degree,public,yes,no,medium,excellent,0
+322,14.611611611611611,male,white,high,associate's degree,private,yes,yes,medium,excellent,1
+323,14.616616616616616,male,white,low,high school diploma,public,no,no,high,good,1
+324,14.621621621621621,female,other,low,high school diploma,private,yes,no,low,poor,0
+325,14.626626626626626,female,black,low,high school diploma,private,yes,yes,low,excellent,0
+326,14.631631631631631,male,black,low,high school diploma,private,yes,no,medium,fair,0
+327,14.636636636636636,female,black,high,high school diploma,private,yes,yes,high,excellent,1
+328,14.641641641641641,female,other,high,associate's degree,private,no,no,medium,poor,1
+329,14.646646646646646,male,black,low,high school diploma,public,yes,yes,high,fair,0
+330,14.651651651651651,male,black,high,high school diploma,public,no,no,low,fair,0
+331,14.656656656656656,male,other,medium,high school diploma,public,yes,yes,low,excellent,0
+332,14.661661661661661,male,white,medium,Bachelor's degree,private,no,no,low,fair,1
+333,14.666666666666666,male,other,medium,associate's degree,private,yes,yes,medium,good,1
+334,14.671671671671671,male,other,medium,high school diploma,public,yes,yes,low,poor,0
+335,14.676676676676676,male,black,medium,high school diploma,private,no,no,high,poor,0
+336,14.681681681681681,male,other,medium,Bachelor's degree,private,no,yes,medium,fair,1
+337,14.686686686686686,female,black,medium,high school diploma,public,yes,yes,medium,excellent,0
+338,14.691691691691691,female,other,medium,high school diploma,public,no,no,high,fair,0
+339,14.696696696696696,male,other,low,Bachelor's degree,public,no,yes,high,excellent,1
+340,14.701701701701701,female,white,high,high school diploma,private,no,no,high,excellent,1
+341,14.706706706706706,male,other,medium,high school diploma,private,yes,no,medium,excellent,0
+342,14.711711711711711,female,other,high,Bachelor's degree,public,no,yes,low,fair,0
+343,14.716716716716716,male,other,medium,Bachelor's degree,public,yes,yes,low,good,0
+344,14.721721721721721,female,other,low,associate's degree,public,no,yes,low,fair,0
+345,14.726726726726726,female,black,high,Bachelor's degree,private,yes,no,low,poor,1
+346,14.731731731731731,female,black,high,high school diploma,public,no,no,high,fair,0
+347,14.736736736736736,male,white,low,high school diploma,private,yes,yes,high,good,1
+348,14.741741741741741,male,white,low,associate's degree,public,no,no,medium,good,0
+349,14.746746746746746,female,black,high,Bachelor's degree,public,no,yes,low,excellent,0
+350,14.751751751751751,male,black,low,Bachelor's degree,private,no,no,low,good,1
+351,14.756756756756756,male,white,high,Bachelor's degree,private,no,yes,low,fair,1
+352,14.761761761761761,female,black,low,Bachelor's degree,private,yes,no,low,good,1
+353,14.766766766766766,female,other,medium,Bachelor's degree,public,yes,yes,low,excellent,0
+354,14.771771771771771,male,white,medium,Bachelor's degree,public,no,no,medium,excellent,0
+355,14.776776776776776,male,white,low,associate's degree,private,yes,yes,medium,fair,1
+356,14.781781781781781,female,other,low,Bachelor's degree,private,no,no,low,poor,1
+357,14.786786786786786,female,other,low,Bachelor's degree,public,yes,yes,high,good,1
+358,14.791791791791791,female,black,low,high school diploma,public,no,no,low,fair,0
+359,14.796796796796796,male,black,high,high school diploma,private,yes,yes,high,fair,0
+360,14.801801801801801,male,black,medium,associate's degree,public,yes,no,medium,fair,0
+361,14.806806806806806,female,black,high,associate's degree,public,no,no,high,excellent,1
+362,14.811811811811811,female,white,high,high school diploma,private,no,no,medium,good,0
+363,14.816816816816816,female,black,high,high school diploma,public,no,no,high,fair,0
+364,14.821821821821821,female,white,medium,associate's degree,private,yes,no,low,good,1
+365,14.826826826826826,female,black,medium,associate's degree,private,no,no,low,poor,1
+366,14.831831831831831,male,white,low,high school diploma,private,no,yes,low,excellent,0
+367,14.836836836836836,female,other,high,high school diploma,public,yes,yes,low,excellent,0
+368,14.841841841841841,male,other,high,Bachelor's degree,private,no,yes,low,excellent,1
+369,14.846846846846846,male,black,low,associate's degree,private,no,no,high,good,1
+370,14.851851851851851,male,white,low,Bachelor's degree,private,no,yes,medium,good,1
+371,14.856856856856856,male,white,medium,Bachelor's degree,private,no,no,high,good,1
+372,14.861861861861861,male,white,high,high school diploma,public,no,no,high,fair,0
+373,14.866866866866866,female,other,high,high school diploma,public,yes,yes,medium,poor,0
+374,14.871871871871871,female,other,high,Bachelor's degree,private,yes,no,low,good,1
+375,14.876876876876876,female,black,high,Bachelor's degree,private,yes,no,low,excellent,1
+376,14.881881881881881,male,black,low,associate's degree,public,yes,yes,high,good,1
+377,14.886886886886886,female,other,high,high school diploma,public,yes,yes,low,good,0
+378,14.891891891891891,male,other,medium,associate's degree,private,no,yes,low,poor,1
+379,14.896896896896896,female,white,low,high school diploma,public,yes,yes,medium,excellent,0
+380,14.901901901901901,male,other,low,Bachelor's degree,private,yes,no,medium,excellent,1
+381,14.906906906906906,male,other,medium,Bachelor's degree,public,yes,no,high,good,1
+382,14.911911911911911,male,white,low,Bachelor's degree,public,no,yes,medium,fair,0
+383,14.916916916916916,male,black,high,associate's degree,public,yes,yes,low,fair,0
+384,14.921921921921921,male,black,medium,high school diploma,private,yes,yes,medium,excellent,0
+385,14.926926926926926,female,white,low,associate's degree,private,no,yes,low,poor,1
+386,14.931931931931931,male,other,medium,Bachelor's degree,public,yes,no,medium,fair,0
+387,14.936936936936936,female,black,low,high school diploma,public,no,no,medium,excellent,0
+388,14.941941941941941,female,white,low,associate's degree,public,yes,yes,high,excellent,1
+389,14.946946946946946,male,other,medium,associate's degree,public,yes,no,high,fair,0
+390,14.951951951951951,male,white,medium,Bachelor's degree,private,no,yes,high,fair,1
+391,14.956956956956956,male,black,low,high school diploma,public,no,yes,medium,fair,0
+392,14.961961961961961,female,white,low,Bachelor's degree,private,no,yes,medium,good,1
+393,14.966966966966966,female,black,high,associate's degree,private,yes,yes,high,good,1
+394,14.971971971971971,male,other,medium,associate's degree,private,no,no,high,excellent,1
+395,14.976976976976976,male,black,medium,high school diploma,public,yes,no,high,good,1
+396,14.981981981981981,male,other,low,associate's degree,public,yes,yes,medium,excellent,0
+397,14.986986986986986,male,other,medium,Bachelor's degree,private,no,yes,low,poor,1
+398,14.991991991991991,male,white,low,high school diploma,public,yes,yes,low,poor,0
+399,14.996996996996996,female,black,low,associate's degree,public,yes,yes,high,poor,0
+400,15.002002002002001,female,black,medium,associate's degree,public,yes,no,high,fair,0
+401,15.007007007007008,male,other,high,associate's degree,private,no,yes,high,good,1
+402,15.012012012012011,female,black,high,associate's degree,public,yes,no,medium,poor,0
+403,15.017017017017018,male,white,low,associate's degree,public,no,no,low,excellent,0
+404,15.022022022022021,female,black,medium,Bachelor's degree,private,no,yes,low,fair,1
+405,15.027027027027028,male,black,low,high school diploma,private,yes,yes,high,excellent,1
+406,15.032032032032031,female,white,low,associate's degree,public,yes,no,low,excellent,0
+407,15.037037037037038,female,other,low,Bachelor's degree,private,yes,no,low,excellent,1
+408,15.042042042042041,male,other,low,high school diploma,private,yes,no,low,good,0
+409,15.047047047047048,male,black,low,associate's degree,public,yes,yes,medium,good,0
+410,15.052052052052051,male,black,high,associate's degree,public,yes,yes,high,excellent,1
+411,15.057057057057058,male,white,medium,associate's degree,public,yes,no,high,poor,0
+412,15.062062062062061,female,black,low,high school diploma,private,yes,yes,low,good,0
+413,15.067067067067068,female,other,high,Bachelor's degree,private,yes,no,medium,poor,1
+414,15.072072072072071,female,other,low,high school diploma,private,no,no,high,fair,0
+415,15.077077077077078,female,other,high,associate's degree,private,yes,yes,low,fair,1
+416,15.082082082082081,male,other,high,high school diploma,public,no,yes,high,excellent,1
+417,15.087087087087088,male,other,high,Bachelor's degree,public,yes,yes,high,excellent,1
+418,15.092092092092091,male,black,high,Bachelor's degree,public,no,yes,high,poor,0
+419,15.097097097097098,female,other,high,associate's degree,private,no,yes,low,poor,1
+420,15.102102102102101,male,white,high,high school diploma,private,no,no,medium,good,0
+421,15.107107107107108,male,other,low,associate's degree,private,no,no,low,excellent,1
+422,15.112112112112111,male,other,medium,high school diploma,private,yes,yes,high,fair,0
+423,15.117117117117118,male,other,medium,associate's degree,public,no,yes,high,excellent,1
+424,15.122122122122121,female,black,medium,high school diploma,private,yes,yes,high,poor,0
+425,15.127127127127128,female,white,low,Bachelor's degree,public,no,yes,medium,poor,0
+426,15.132132132132131,male,other,high,associate's degree,private,no,yes,high,good,1
+427,15.137137137137138,male,black,medium,Bachelor's degree,public,yes,no,low,good,0
+428,15.142142142142141,male,other,medium,Bachelor's degree,public,no,no,high,excellent,1
+429,15.147147147147148,male,white,medium,Bachelor's degree,public,yes,yes,high,fair,0
+430,15.152152152152151,male,other,high,high school diploma,public,no,no,high,excellent,1
+431,15.157157157157158,female,black,low,Bachelor's degree,public,no,yes,low,poor,0
+432,15.162162162162161,female,other,medium,high school diploma,public,no,yes,high,fair,0
+433,15.167167167167168,female,black,high,associate's degree,private,yes,yes,low,fair,1
+434,15.172172172172171,male,white,high,associate's degree,public,no,no,low,excellent,0
+435,15.177177177177178,male,other,medium,associate's degree,private,yes,yes,medium,good,1
+436,15.182182182182181,male,black,low,Bachelor's degree,public,yes,yes,high,poor,0
+437,15.187187187187188,female,other,low,associate's degree,private,no,no,high,good,1
+438,15.192192192192191,female,black,medium,high school diploma,private,no,yes,medium,good,0
+439,15.197197197197198,female,black,low,high school diploma,private,yes,yes,high,fair,0
+440,15.202202202202201,male,black,low,associate's degree,public,no,yes,high,good,1
+441,15.207207207207208,female,other,medium,high school diploma,public,yes,no,medium,good,0
+442,15.212212212212211,female,other,low,high school diploma,private,yes,no,low,excellent,0
+443,15.217217217217218,female,white,high,associate's degree,private,no,yes,high,fair,1
+444,15.222222222222221,female,black,high,associate's degree,private,no,no,high,fair,1
+445,15.227227227227228,female,black,medium,high school diploma,private,no,yes,high,good,1
+446,15.232232232232231,female,black,high,high school diploma,private,no,yes,low,good,0
+447,15.237237237237238,female,white,low,Bachelor's degree,private,yes,yes,low,good,1
+448,15.242242242242241,male,white,low,associate's degree,public,no,yes,medium,fair,0
+449,15.247247247247248,female,black,medium,associate's degree,private,no,yes,high,excellent,1
+450,15.252252252252251,female,other,low,associate's degree,private,no,no,medium,poor,1
+451,15.257257257257258,male,white,medium,associate's degree,public,yes,yes,high,good,1
+452,15.262262262262261,female,other,medium,Bachelor's degree,private,no,no,high,fair,1
+453,15.267267267267268,female,other,high,high school diploma,private,yes,yes,medium,fair,0
+454,15.272272272272271,female,black,medium,associate's degree,private,no,yes,high,good,1
+455,15.277277277277278,male,white,medium,associate's degree,private,no,yes,high,good,1
+456,15.282282282282281,female,other,low,high school diploma,private,yes,yes,medium,fair,0
+457,15.287287287287288,male,other,medium,high school diploma,private,no,no,low,good,0
+458,15.292292292292291,female,black,low,Bachelor's degree,public,no,yes,high,poor,0
+459,15.297297297297298,female,other,high,high school diploma,public,yes,yes,high,poor,0
+460,15.302302302302301,male,other,medium,Bachelor's degree,public,yes,yes,high,poor,0
+461,15.307307307307308,male,black,low,associate's degree,private,yes,yes,high,good,1
+462,15.312312312312311,female,other,high,Bachelor's degree,public,no,yes,high,good,1
+463,15.317317317317318,female,other,low,high school diploma,public,yes,yes,high,poor,0
+464,15.322322322322321,male,other,low,high school diploma,private,no,yes,medium,poor,0
+465,15.327327327327328,female,other,low,associate's degree,public,yes,yes,low,poor,0
+466,15.332332332332332,female,white,high,Bachelor's degree,public,no,yes,high,excellent,1
+467,15.337337337337338,female,other,medium,Bachelor's degree,public,no,no,medium,good,0
+468,15.342342342342342,female,black,low,Bachelor's degree,public,no,no,medium,excellent,0
+469,15.347347347347348,female,other,low,high school diploma,private,yes,yes,high,good,1
+470,15.352352352352352,male,black,high,Bachelor's degree,private,no,no,high,poor,1
+471,15.357357357357358,female,other,low,high school diploma,private,yes,yes,high,fair,0
+472,15.362362362362362,male,white,low,high school diploma,private,yes,yes,low,fair,0
+473,15.367367367367368,female,black,low,high school diploma,private,no,yes,low,fair,0
+474,15.372372372372372,male,other,high,Bachelor's degree,private,yes,yes,high,good,1
+475,15.377377377377378,female,other,high,Bachelor's degree,public,no,yes,high,poor,0
+476,15.382382382382382,male,white,low,high school diploma,public,yes,yes,low,good,0
+477,15.387387387387388,female,other,medium,high school diploma,public,yes,yes,low,excellent,0
+478,15.392392392392392,male,white,medium,high school diploma,private,yes,no,high,fair,0
+479,15.397397397397398,female,black,high,high school diploma,private,no,yes,medium,fair,0
+480,15.402402402402402,male,black,medium,associate's degree,public,yes,yes,low,excellent,0
+481,15.407407407407408,female,other,medium,high school diploma,public,yes,no,high,poor,0
+482,15.412412412412412,female,other,low,Bachelor's degree,public,no,yes,high,fair,0
+483,15.417417417417418,male,white,high,high school diploma,public,yes,no,medium,poor,0
+484,15.422422422422422,male,white,low,associate's degree,public,yes,no,low,poor,0
+485,15.427427427427428,female,white,low,associate's degree,public,yes,yes,high,poor,0
+486,15.432432432432432,female,black,low,Bachelor's degree,public,yes,yes,high,good,1
+487,15.437437437437438,male,white,low,associate's degree,public,no,no,high,good,1
+488,15.442442442442442,male,white,low,associate's degree,private,yes,yes,low,good,1
+489,15.447447447447448,male,black,medium,Bachelor's degree,private,yes,no,low,fair,1
+490,15.452452452452452,male,other,medium,associate's degree,private,no,yes,medium,good,1
+491,15.457457457457458,male,black,high,Bachelor's degree,public,yes,no,medium,poor,0
+492,15.462462462462462,male,black,medium,associate's degree,public,no,no,high,excellent,1
+493,15.467467467467468,female,other,high,Bachelor's degree,private,no,yes,low,fair,1
+494,15.472472472472472,male,white,medium,associate's degree,public,yes,no,medium,good,0
+495,15.477477477477478,male,other,low,high school diploma,private,no,yes,low,fair,0
+496,15.482482482482482,male,black,low,high school diploma,public,no,no,high,excellent,1
+497,15.487487487487488,female,other,low,Bachelor's degree,public,no,yes,low,fair,0
+498,15.492492492492492,female,other,medium,associate's degree,private,yes,no,low,poor,1
+499,15.497497497497498,male,white,low,associate's degree,public,yes,yes,high,fair,0
+500,15.502502502502502,male,white,low,associate's degree,private,yes,yes,high,excellent,1
+501,15.507507507507508,male,other,high,high school diploma,public,no,no,medium,excellent,0
+502,15.512512512512512,male,white,high,high school diploma,private,no,yes,medium,fair,0
+503,15.517517517517518,male,other,low,high school diploma,public,yes,no,high,fair,0
+504,15.522522522522522,male,white,low,Bachelor's degree,public,no,yes,low,poor,0
+505,15.527527527527528,male,black,low,associate's degree,public,no,no,high,poor,0
+506,15.532532532532532,male,other,high,associate's degree,public,yes,yes,low,good,0
+507,15.537537537537538,male,black,medium,associate's degree,private,no,yes,low,poor,1
+508,15.542542542542542,female,other,high,associate's degree,private,yes,yes,high,fair,1
+509,15.547547547547548,female,black,high,associate's degree,private,no,no,high,good,1
+510,15.552552552552552,male,white,medium,Bachelor's degree,public,yes,no,low,poor,0
+511,15.557557557557558,male,white,low,Bachelor's degree,private,yes,yes,low,good,1
+512,15.562562562562562,male,other,low,high school diploma,private,no,yes,high,excellent,1
+513,15.567567567567568,male,white,medium,associate's degree,public,yes,yes,high,excellent,1
+514,15.572572572572572,male,other,high,high school diploma,public,yes,yes,low,fair,0
+515,15.577577577577578,male,black,low,high school diploma,public,yes,no,high,excellent,1
+516,15.582582582582582,male,other,high,Bachelor's degree,private,no,no,low,excellent,1
+517,15.587587587587588,male,black,high,high school diploma,private,yes,no,high,excellent,1
+518,15.592592592592592,female,other,medium,high school diploma,public,no,yes,medium,good,0
+519,15.597597597597598,male,black,medium,Bachelor's degree,public,yes,no,low,good,0
+520,15.602602602602602,male,black,high,Bachelor's degree,public,yes,yes,low,poor,0
+521,15.607607607607608,female,other,medium,high school diploma,public,yes,yes,low,excellent,0
+522,15.612612612612612,female,other,medium,high school diploma,private,no,yes,high,excellent,1
+523,15.617617617617618,female,other,medium,high school diploma,public,no,yes,low,excellent,0
+524,15.622622622622622,male,other,high,associate's degree,private,no,yes,low,poor,1
+525,15.627627627627628,male,white,low,associate's degree,private,no,no,low,fair,1
+526,15.632632632632632,female,black,medium,associate's degree,private,yes,no,high,excellent,1
+527,15.637637637637638,male,other,low,associate's degree,public,no,no,high,excellent,1
+528,15.642642642642642,male,white,low,high school diploma,public,yes,no,low,excellent,0
+529,15.647647647647648,female,other,high,associate's degree,public,no,yes,medium,excellent,0
+530,15.652652652652652,male,other,low,associate's degree,public,no,yes,high,excellent,1
+531,15.657657657657658,male,other,high,Bachelor's degree,private,no,no,high,excellent,1
+532,15.662662662662662,male,other,medium,associate's degree,private,no,no,low,excellent,1
+533,15.667667667667668,male,white,medium,associate's degree,public,no,no,low,good,0
+534,15.672672672672672,male,other,low,high school diploma,public,yes,yes,medium,poor,0
+535,15.677677677677679,female,white,high,Bachelor's degree,private,yes,no,high,excellent,1
+536,15.682682682682682,female,white,low,associate's degree,private,yes,no,high,good,1
+537,15.687687687687689,male,white,medium,high school diploma,public,yes,no,medium,poor,0
+538,15.692692692692692,male,white,medium,high school diploma,private,no,no,high,excellent,1
+539,15.697697697697699,female,white,medium,high school diploma,public,yes,no,low,excellent,0
+540,15.702702702702702,male,white,high,high school diploma,public,yes,no,medium,excellent,0
+541,15.707707707707709,male,white,medium,Bachelor's degree,public,yes,no,high,good,1
+542,15.712712712712712,male,white,high,high school diploma,private,no,yes,low,poor,0
+543,15.717717717717719,female,white,medium,high school diploma,private,no,yes,low,fair,0
+544,15.722722722722722,male,white,low,Bachelor's degree,private,no,yes,high,good,1
+545,15.727727727727729,male,black,high,Bachelor's degree,public,no,yes,low,good,0
+546,15.732732732732732,female,other,medium,high school diploma,public,no,yes,high,fair,0
+547,15.737737737737739,female,white,high,high school diploma,public,no,yes,low,fair,0
+548,15.742742742742742,male,other,high,high school diploma,private,yes,no,low,good,0
+549,15.747747747747749,female,other,low,high school diploma,private,no,yes,medium,poor,0
+550,15.752752752752752,female,white,low,Bachelor's degree,public,no,yes,high,excellent,1
+551,15.757757757757759,male,other,medium,Bachelor's degree,public,yes,no,medium,excellent,0
+552,15.762762762762762,male,white,high,associate's degree,public,no,yes,high,excellent,1
+553,15.767767767767769,male,other,high,associate's degree,private,yes,yes,low,poor,1
+554,15.772772772772772,female,other,low,high school diploma,private,no,yes,high,fair,0
+555,15.777777777777779,female,white,low,associate's degree,private,yes,no,low,good,1
+556,15.782782782782782,female,black,high,high school diploma,public,no,no,high,excellent,1
+557,15.787787787787789,female,black,high,Bachelor's degree,private,no,no,high,good,1
+558,15.792792792792792,female,other,high,high school diploma,private,no,no,low,good,0
+559,15.797797797797799,male,white,low,Bachelor's degree,public,yes,yes,high,fair,0
+560,15.802802802802802,male,black,low,high school diploma,private,yes,no,high,excellent,1
+561,15.807807807807809,male,white,medium,Bachelor's degree,private,yes,no,low,fair,1
+562,15.812812812812812,female,black,low,high school diploma,public,no,no,high,excellent,1
+563,15.817817817817819,female,black,high,high school diploma,private,yes,no,low,good,0
+564,15.822822822822822,female,other,high,associate's degree,public,yes,yes,high,good,1
+565,15.827827827827829,female,other,high,Bachelor's degree,private,yes,no,medium,good,1
+566,15.832832832832832,male,black,low,Bachelor's degree,public,no,yes,high,fair,0
+567,15.837837837837839,female,other,high,Bachelor's degree,private,yes,no,high,excellent,1
+568,15.842842842842842,female,other,low,high school diploma,private,no,yes,medium,good,0
+569,15.847847847847849,male,white,medium,high school diploma,private,yes,yes,high,excellent,1
+570,15.852852852852852,female,black,high,high school diploma,private,yes,no,high,good,1
+571,15.857857857857859,male,white,high,associate's degree,public,no,yes,low,excellent,0
+572,15.862862862862862,female,white,high,associate's degree,private,no,yes,low,excellent,1
+573,15.867867867867869,male,white,high,high school diploma,public,no,no,high,excellent,1
+574,15.872872872872872,male,other,high,associate's degree,private,yes,yes,low,good,1
+575,15.877877877877879,female,other,medium,Bachelor's degree,public,no,yes,medium,good,0
+576,15.882882882882882,female,white,low,associate's degree,private,yes,yes,medium,poor,1
+577,15.887887887887889,female,other,high,associate's degree,private,yes,no,high,excellent,1
+578,15.892892892892892,male,black,medium,high school diploma,public,no,yes,high,excellent,1
+579,15.897897897897899,female,white,low,associate's degree,private,no,no,high,poor,1
+580,15.902902902902902,male,other,high,associate's degree,public,yes,yes,low,fair,0
+581,15.907907907907909,female,black,high,Bachelor's degree,public,yes,no,high,good,1
+582,15.912912912912912,male,white,medium,associate's degree,public,no,yes,high,good,1
+583,15.917917917917919,male,other,medium,associate's degree,private,yes,yes,low,poor,1
+584,15.922922922922922,male,black,low,high school diploma,public,no,yes,medium,fair,0
+585,15.927927927927929,male,white,medium,Bachelor's degree,public,no,yes,medium,fair,0
+586,15.932932932932932,male,black,medium,Bachelor's degree,private,yes,yes,low,excellent,1
+587,15.937937937937939,female,other,medium,associate's degree,private,no,yes,low,excellent,1
+588,15.942942942942942,female,black,medium,Bachelor's degree,private,yes,yes,low,excellent,1
+589,15.947947947947949,female,white,medium,associate's degree,public,yes,no,medium,poor,0
+590,15.952952952952952,female,white,medium,associate's degree,private,yes,no,medium,good,1
+591,15.957957957957959,male,black,high,associate's degree,public,no,yes,medium,fair,0
+592,15.962962962962962,male,black,low,high school diploma,public,yes,yes,high,excellent,1
+593,15.967967967967969,female,other,medium,associate's degree,public,yes,no,low,excellent,0
+594,15.972972972972972,female,white,medium,Bachelor's degree,private,no,no,low,fair,1
+595,15.977977977977979,female,black,medium,Bachelor's degree,private,no,no,low,good,1
+596,15.982982982982982,male,other,low,Bachelor's degree,public,no,no,medium,fair,0
+597,15.987987987987989,female,white,low,associate's degree,public,no,no,medium,poor,0
+598,15.992992992992992,female,other,low,associate's degree,public,yes,no,medium,excellent,0
+599,15.997997997997999,female,black,high,Bachelor's degree,public,no,yes,high,excellent,1
+600,16.003003003003002,female,other,high,high school diploma,public,no,yes,low,poor,1
+601,16.00800800800801,female,black,medium,high school diploma,private,no,no,high,poor,1
+602,16.013013013013012,female,white,low,high school diploma,public,no,yes,low,fair,0
+603,16.01801801801802,female,other,low,Bachelor's degree,private,no,no,high,poor,1
+604,16.023023023023022,male,other,low,Bachelor's degree,private,no,no,medium,good,1
+605,16.02802802802803,female,other,low,Bachelor's degree,public,no,no,high,fair,0
+606,16.033033033033032,male,black,high,Bachelor's degree,private,yes,no,high,fair,1
+607,16.03803803803804,male,other,medium,associate's degree,public,no,no,high,fair,1
+608,16.043043043043042,male,other,medium,high school diploma,private,no,yes,high,poor,1
+609,16.04804804804805,male,black,high,associate's degree,private,no,no,low,good,1
+610,16.053053053053052,female,black,high,associate's degree,public,no,no,high,excellent,1
+611,16.05805805805806,male,other,medium,Bachelor's degree,private,no,yes,high,poor,1
+612,16.063063063063062,female,white,medium,high school diploma,public,yes,yes,medium,excellent,1
+613,16.06806806806807,female,other,low,Bachelor's degree,public,yes,no,low,good,0
+614,16.073073073073072,female,black,low,Bachelor's degree,private,no,yes,low,fair,1
+615,16.07807807807808,male,black,high,high school diploma,public,no,yes,medium,excellent,1
+616,16.083083083083082,female,white,low,associate's degree,public,yes,no,high,excellent,1
+617,16.08808808808809,female,other,medium,associate's degree,public,yes,yes,low,good,1
+618,16.093093093093092,female,white,low,associate's degree,private,yes,yes,high,good,1
+619,16.0980980980981,female,black,medium,Bachelor's degree,private,no,yes,medium,excellent,1
+620,16.103103103103102,male,black,medium,high school diploma,public,no,yes,medium,excellent,1
+621,16.10810810810811,female,other,high,high school diploma,public,no,yes,low,good,1
+622,16.113113113113112,female,black,high,Bachelor's degree,public,no,yes,medium,poor,1
+623,16.11811811811812,male,white,low,high school diploma,public,no,yes,high,fair,0
+624,16.123123123123122,female,black,low,associate's degree,private,no,no,medium,poor,1
+625,16.12812812812813,male,other,low,Bachelor's degree,private,yes,yes,low,good,1
+626,16.133133133133132,male,other,low,high school diploma,private,no,no,high,fair,0
+627,16.13813813813814,female,white,medium,Bachelor's degree,private,yes,no,medium,good,1
+628,16.143143143143142,male,white,medium,high school diploma,private,yes,yes,medium,excellent,1
+629,16.14814814814815,female,black,low,associate's degree,private,yes,yes,low,excellent,1
+630,16.153153153153152,male,other,medium,high school diploma,private,no,no,high,excellent,1
+631,16.15815815815816,female,other,high,associate's degree,private,no,yes,medium,poor,1
+632,16.163163163163162,female,black,low,associate's degree,private,yes,no,medium,poor,1
+633,16.16816816816817,male,white,high,Bachelor's degree,private,yes,no,medium,poor,1
+634,16.173173173173172,female,white,medium,Bachelor's degree,private,yes,no,high,fair,1
+635,16.17817817817818,male,black,low,high school diploma,private,yes,no,low,excellent,0
+636,16.183183183183182,female,black,low,Bachelor's degree,public,no,yes,low,excellent,0
+637,16.18818818818819,male,white,high,high school diploma,private,no,no,low,poor,1
+638,16.193193193193192,female,other,medium,high school diploma,private,no,no,medium,excellent,1
+639,16.1981981981982,male,white,medium,Bachelor's degree,private,yes,no,low,good,1
+640,16.203203203203202,male,other,medium,associate's degree,private,no,yes,medium,good,1
+641,16.20820820820821,male,black,high,high school diploma,private,no,no,low,fair,1
+642,16.213213213213212,female,white,medium,Bachelor's degree,private,no,no,medium,fair,1
+643,16.21821821821822,male,other,low,Bachelor's degree,private,no,yes,low,poor,1
+644,16.223223223223222,female,black,medium,Bachelor's degree,public,no,yes,low,poor,1
+645,16.22822822822823,female,white,medium,associate's degree,public,no,yes,high,poor,1
+646,16.233233233233232,male,black,low,associate's degree,private,no,yes,high,fair,1
+647,16.23823823823824,male,black,low,associate's degree,public,no,no,high,fair,0
+648,16.243243243243242,male,other,medium,associate's degree,public,no,yes,high,poor,1
+649,16.24824824824825,male,white,medium,associate's degree,private,yes,no,low,good,1
+650,16.253253253253252,female,other,high,high school diploma,private,yes,no,low,poor,1
+651,16.25825825825826,female,black,high,associate's degree,private,no,no,high,poor,1
+652,16.263263263263262,male,white,medium,associate's degree,private,no,yes,medium,good,1
+653,16.26826826826827,male,other,low,associate's degree,private,yes,no,low,excellent,1
+654,16.273273273273272,male,other,high,Bachelor's degree,private,yes,no,high,poor,1
+655,16.27827827827828,female,black,high,Bachelor's degree,private,yes,yes,medium,excellent,1
+656,16.283283283283282,male,white,medium,high school diploma,private,no,yes,high,good,1
+657,16.28828828828829,female,white,high,associate's degree,private,yes,no,high,good,1
+658,16.293293293293292,male,other,medium,associate's degree,private,yes,yes,medium,excellent,1
+659,16.2982982982983,male,other,low,associate's degree,public,no,no,low,good,0
+660,16.303303303303302,female,other,low,high school diploma,public,yes,yes,high,fair,0
+661,16.30830830830831,male,black,high,Bachelor's degree,private,yes,no,high,good,1
+662,16.313313313313312,female,white,low,associate's degree,private,yes,no,low,excellent,1
+663,16.31831831831832,male,other,low,high school diploma,private,yes,yes,high,fair,0
+664,16.323323323323322,male,white,medium,high school diploma,private,yes,no,medium,good,1
+665,16.32832832832833,male,black,medium,high school diploma,private,yes,no,medium,excellent,1
+666,16.333333333333332,male,black,medium,Bachelor's degree,private,yes,no,high,excellent,1
+667,16.33833833833834,male,black,low,high school diploma,private,no,yes,medium,poor,0
+668,16.343343343343342,male,white,medium,Bachelor's degree,public,no,no,high,excellent,1
+669,16.34834834834835,male,white,medium,associate's degree,private,yes,no,high,poor,1
+670,16.353353353353352,male,black,high,associate's degree,private,no,yes,medium,poor,1
+671,16.35835835835836,male,black,medium,Bachelor's degree,private,yes,no,high,excellent,1
+672,16.363363363363362,male,other,medium,high school diploma,private,no,yes,medium,poor,1
+673,16.36836836836837,male,white,high,Bachelor's degree,public,no,no,low,good,1
+674,16.373373373373372,female,other,low,high school diploma,private,no,yes,medium,fair,0
+675,16.37837837837838,female,white,high,Bachelor's degree,private,yes,no,medium,good,1
+676,16.383383383383382,male,black,medium,high school diploma,public,no,yes,medium,poor,1
+677,16.38838838838839,male,other,medium,associate's degree,private,yes,yes,medium,excellent,1
+678,16.393393393393392,male,white,medium,associate's degree,private,no,yes,medium,poor,1
+679,16.3983983983984,female,white,medium,associate's degree,private,yes,yes,high,good,1
+680,16.403403403403402,female,other,high,associate's degree,private,yes,yes,high,fair,1
+681,16.40840840840841,male,black,medium,Bachelor's degree,private,no,no,high,fair,1
+682,16.413413413413412,female,black,low,Bachelor's degree,private,yes,yes,low,good,1
+683,16.41841841841842,male,white,high,associate's degree,private,no,no,high,good,1
+684,16.423423423423422,female,black,low,Bachelor's degree,public,yes,no,high,excellent,1
+685,16.42842842842843,female,white,high,high school diploma,private,yes,yes,low,poor,1
+686,16.433433433433432,female,white,medium,high school diploma,private,no,yes,medium,excellent,1
+687,16.43843843843844,female,other,low,high school diploma,public,yes,yes,high,fair,0
+688,16.443443443443442,male,other,high,high school diploma,public,no,no,low,good,1
+689,16.44844844844845,male,white,low,high school diploma,private,yes,no,low,fair,0
+690,16.453453453453452,male,black,medium,associate's degree,private,no,yes,high,fair,1
+691,16.45845845845846,female,black,high,Bachelor's degree,private,no,no,medium,poor,1
+692,16.463463463463462,female,other,high,associate's degree,private,yes,no,medium,excellent,1
+693,16.46846846846847,female,other,medium,associate's degree,private,no,yes,high,good,1
+694,16.473473473473472,male,black,high,Bachelor's degree,public,no,no,high,poor,1
+695,16.47847847847848,male,other,low,Bachelor's degree,public,yes,yes,low,good,0
+696,16.483483483483482,male,black,low,high school diploma,private,yes,yes,medium,good,0
+697,16.48848848848849,male,other,medium,high school diploma,private,yes,no,low,good,1
+698,16.493493493493492,male,other,low,associate's degree,private,no,yes,medium,excellent,1
+699,16.4984984984985,female,other,high,high school diploma,public,no,no,high,excellent,1
+700,16.503503503503502,female,other,medium,associate's degree,private,yes,no,low,excellent,1
+701,16.50850850850851,female,black,low,associate's degree,public,no,no,medium,fair,0
+702,16.513513513513512,female,black,low,associate's degree,public,no,yes,low,excellent,0
+703,16.51851851851852,female,black,high,associate's degree,private,no,yes,high,excellent,1
+704,16.523523523523522,female,other,medium,high school diploma,private,no,yes,medium,good,1
+705,16.52852852852853,male,other,low,high school diploma,private,no,no,low,excellent,0
+706,16.533533533533532,female,white,medium,Bachelor's degree,public,yes,yes,high,good,1
+707,16.53853853853854,female,white,low,Bachelor's degree,private,yes,no,low,excellent,1
+708,16.543543543543542,female,black,high,Bachelor's degree,private,yes,no,high,excellent,1
+709,16.54854854854855,female,other,medium,high school diploma,public,yes,yes,low,good,1
+710,16.553553553553552,male,other,low,associate's degree,private,yes,yes,high,poor,1
+711,16.55855855855856,female,other,medium,associate's degree,private,no,no,medium,poor,1
+712,16.563563563563562,male,other,low,Bachelor's degree,private,no,no,high,fair,1
+713,16.56856856856857,female,other,medium,associate's degree,public,yes,yes,low,fair,1
+714,16.573573573573572,male,black,medium,associate's degree,public,yes,yes,medium,good,1
+715,16.57857857857858,female,black,medium,associate's degree,public,no,no,low,good,1
+716,16.583583583583582,female,other,medium,high school diploma,private,no,no,medium,good,1
+717,16.58858858858859,male,other,medium,Bachelor's degree,private,no,yes,high,poor,1
+718,16.593593593593592,male,white,medium,high school diploma,public,yes,yes,low,excellent,1
+719,16.5985985985986,male,black,low,high school diploma,public,no,yes,medium,good,0
+720,16.603603603603602,female,white,medium,Bachelor's degree,public,no,no,low,fair,1
+721,16.60860860860861,male,white,high,Bachelor's degree,private,yes,no,high,poor,1
+722,16.613613613613612,male,other,medium,high school diploma,public,yes,no,high,excellent,1
+723,16.61861861861862,female,other,low,associate's degree,public,yes,yes,high,fair,0
+724,16.623623623623622,male,other,low,Bachelor's degree,private,no,no,low,excellent,1
+725,16.62862862862863,male,white,low,high school diploma,private,no,no,low,poor,0
+726,16.633633633633632,female,white,medium,Bachelor's degree,public,no,no,high,excellent,1
+727,16.63863863863864,female,other,low,associate's degree,private,no,yes,high,good,1
+728,16.643643643643642,female,other,high,associate's degree,public,yes,yes,low,excellent,1
+729,16.64864864864865,female,white,medium,associate's degree,public,yes,no,low,poor,1
+730,16.653653653653652,male,black,medium,Bachelor's degree,private,no,no,high,good,1
+731,16.65865865865866,male,black,medium,associate's degree,public,no,no,high,good,1
+732,16.663663663663662,male,black,low,high school diploma,private,no,no,high,good,1
+733,16.66866866866867,female,white,high,Bachelor's degree,private,yes,yes,medium,poor,1
+734,16.673673673673672,female,black,medium,high school diploma,private,yes,no,medium,fair,1
+735,16.67867867867868,female,white,medium,high school diploma,public,no,no,high,fair,1
+736,16.683683683683682,female,white,low,associate's degree,public,yes,no,high,fair,0
+737,16.68868868868869,female,other,high,associate's degree,private,no,yes,medium,good,1
+738,16.693693693693692,male,other,low,associate's degree,public,no,no,low,fair,0
+739,16.6986986986987,female,other,high,high school diploma,private,no,no,low,good,1
+740,16.703703703703702,male,white,high,high school diploma,public,no,yes,medium,good,1
+741,16.70870870870871,female,other,medium,associate's degree,public,no,yes,medium,poor,1
+742,16.713713713713712,female,white,high,associate's degree,public,yes,no,medium,poor,1
+743,16.71871871871872,male,black,medium,associate's degree,public,yes,yes,medium,poor,1
+744,16.723723723723722,female,other,medium,high school diploma,private,yes,no,low,good,1
+745,16.72872872872873,male,white,high,associate's degree,private,yes,no,medium,excellent,1
+746,16.733733733733732,female,other,medium,Bachelor's degree,private,no,yes,low,excellent,1
+747,16.73873873873874,female,other,high,high school diploma,public,no,yes,low,good,1
+748,16.743743743743742,male,white,low,associate's degree,public,yes,no,high,fair,0
+749,16.74874874874875,female,black,low,Bachelor's degree,private,no,yes,low,excellent,1
+750,16.753753753753752,male,other,low,Bachelor's degree,private,yes,no,medium,excellent,1
+751,16.75875875875876,female,white,low,Bachelor's degree,private,no,no,medium,poor,1
+752,16.763763763763762,female,black,high,Bachelor's degree,private,no,no,medium,fair,1
+753,16.76876876876877,female,black,medium,Bachelor's degree,public,yes,yes,medium,good,1
+754,16.773773773773772,male,white,high,high school diploma,private,yes,no,medium,excellent,1
+755,16.77877877877878,male,white,high,Bachelor's degree,public,yes,no,low,good,1
+756,16.783783783783782,female,black,low,high school diploma,private,no,yes,low,good,0
+757,16.78878878878879,female,other,high,Bachelor's degree,public,no,yes,medium,good,1
+758,16.793793793793792,female,white,medium,high school diploma,public,no,yes,medium,fair,1
+759,16.7987987987988,female,black,low,associate's degree,public,yes,no,medium,excellent,0
+760,16.803803803803802,male,black,low,high school diploma,private,no,yes,medium,poor,0
+761,16.80880880880881,male,other,high,Bachelor's degree,public,no,yes,medium,excellent,1
+762,16.813813813813812,male,other,high,high school diploma,public,yes,yes,high,good,1
+763,16.81881881881882,female,white,low,associate's degree,public,no,yes,low,fair,0
+764,16.823823823823822,female,other,low,associate's degree,private,no,no,high,poor,1
+765,16.82882882882883,female,other,medium,Bachelor's degree,private,no,no,high,fair,1
+766,16.833833833833832,male,white,low,Bachelor's degree,private,no,yes,high,excellent,1
+767,16.83883883883884,male,other,medium,associate's degree,private,yes,yes,high,good,1
+768,16.843843843843842,female,black,medium,high school diploma,private,yes,no,low,good,1
+769,16.84884884884885,male,other,low,high school diploma,public,no,yes,low,poor,0
+770,16.853853853853852,female,black,low,Bachelor's degree,private,no,no,high,good,1
+771,16.85885885885886,female,other,high,high school diploma,public,no,no,low,good,1
+772,16.863863863863862,female,other,high,high school diploma,public,no,yes,medium,excellent,1
+773,16.86886886886887,female,black,medium,high school diploma,public,no,yes,high,excellent,1
+774,16.873873873873872,female,white,medium,Bachelor's degree,public,yes,yes,high,excellent,1
+775,16.87887887887888,male,black,low,Bachelor's degree,public,no,yes,high,poor,0
+776,16.883883883883883,female,black,high,high school diploma,public,yes,yes,high,fair,1
+777,16.88888888888889,female,other,high,high school diploma,public,no,yes,high,good,1
+778,16.893893893893893,female,black,medium,associate's degree,private,no,yes,high,excellent,1
+779,16.8988988988989,female,black,medium,associate's degree,private,yes,no,high,poor,1
+780,16.903903903903903,female,other,high,associate's degree,public,yes,no,low,fair,1
+781,16.90890890890891,male,black,low,high school diploma,private,no,yes,medium,good,0
+782,16.913913913913913,male,black,high,associate's degree,public,no,yes,low,good,1
+783,16.91891891891892,male,black,high,associate's degree,private,yes,no,medium,good,1
+784,16.923923923923923,male,black,low,Bachelor's degree,public,yes,yes,medium,good,0
+785,16.92892892892893,male,white,high,Bachelor's degree,public,no,yes,high,good,1
+786,16.933933933933933,male,white,medium,associate's degree,public,yes,no,low,excellent,1
+787,16.93893893893894,female,other,low,Bachelor's degree,private,yes,yes,high,excellent,1
+788,16.943943943943943,female,white,low,associate's degree,public,no,yes,high,poor,0
+789,16.94894894894895,female,other,low,associate's degree,private,no,yes,medium,excellent,1
+790,16.953953953953953,male,black,high,Bachelor's degree,public,yes,yes,high,good,1
+791,16.95895895895896,male,other,medium,high school diploma,public,yes,yes,low,poor,1
+792,16.963963963963963,male,white,medium,high school diploma,public,yes,yes,high,good,1
+793,16.96896896896897,male,black,low,associate's degree,public,yes,yes,low,fair,0
+794,16.973973973973973,male,black,high,high school diploma,public,yes,yes,high,good,1
+795,16.97897897897898,male,white,low,high school diploma,public,yes,no,low,excellent,0
+796,16.983983983983983,female,white,medium,associate's degree,public,yes,yes,low,poor,1
+797,16.98898898898899,female,other,high,high school diploma,private,no,no,low,poor,1
+798,16.993993993993993,male,other,high,Bachelor's degree,public,no,no,medium,good,1
+799,16.998998998999,female,black,medium,associate's degree,public,yes,no,medium,poor,1
+800,17.004004004004003,male,white,medium,high school diploma,public,yes,yes,medium,poor,1
+801,17.00900900900901,male,white,low,high school diploma,public,yes,yes,low,good,0
+802,17.014014014014016,female,black,high,Bachelor's degree,private,no,no,low,excellent,1
+803,17.01901901901902,female,other,high,Bachelor's degree,public,no,no,high,good,1
+804,17.024024024024023,male,black,medium,Bachelor's degree,public,no,no,high,fair,1
+805,17.02902902902903,male,black,low,high school diploma,private,yes,yes,low,poor,0
+806,17.034034034034036,female,black,high,associate's degree,private,yes,no,medium,fair,1
+807,17.03903903903904,female,black,low,associate's degree,public,yes,no,low,poor,0
+808,17.044044044044043,female,black,medium,Bachelor's degree,private,yes,no,high,excellent,1
+809,17.04904904904905,male,black,medium,Bachelor's degree,public,yes,no,medium,excellent,1
+810,17.054054054054056,male,other,medium,associate's degree,private,no,no,low,fair,1
+811,17.05905905905906,male,white,high,associate's degree,private,yes,no,high,poor,1
+812,17.064064064064063,female,white,low,high school diploma,private,yes,no,high,poor,0
+813,17.06906906906907,female,other,low,associate's degree,private,yes,yes,medium,excellent,1
+814,17.074074074074076,male,black,high,Bachelor's degree,private,yes,no,medium,fair,1
+815,17.07907907907908,male,white,high,associate's degree,public,no,no,low,excellent,1
+816,17.084084084084083,male,black,low,high school diploma,public,yes,yes,high,poor,0
+817,17.08908908908909,female,other,low,Bachelor's degree,private,no,yes,high,excellent,1
+818,17.094094094094096,female,other,medium,high school diploma,private,yes,no,low,good,1
+819,17.0990990990991,female,other,high,Bachelor's degree,private,yes,no,high,excellent,1
+820,17.104104104104103,male,black,high,associate's degree,private,no,yes,medium,poor,1
+821,17.10910910910911,male,other,medium,high school diploma,private,no,no,low,excellent,1
+822,17.114114114114116,male,white,high,high school diploma,private,yes,no,low,poor,1
+823,17.11911911911912,male,white,low,high school diploma,private,yes,yes,low,fair,0
+824,17.124124124124123,male,other,medium,associate's degree,private,yes,yes,low,good,1
+825,17.12912912912913,male,other,medium,associate's degree,public,yes,no,low,fair,1
+826,17.134134134134136,female,other,medium,Bachelor's degree,public,no,yes,medium,excellent,1
+827,17.13913913913914,male,black,medium,Bachelor's degree,private,yes,yes,low,excellent,1
+828,17.144144144144143,female,white,high,high school diploma,public,no,no,low,poor,1
+829,17.14914914914915,male,white,low,Bachelor's degree,private,yes,yes,medium,fair,1
+830,17.154154154154156,female,white,high,high school diploma,public,yes,yes,high,fair,1
+831,17.15915915915916,male,black,medium,Bachelor's degree,private,no,yes,low,good,1
+832,17.164164164164163,male,other,low,associate's degree,public,yes,yes,high,fair,0
+833,17.16916916916917,female,other,high,Bachelor's degree,public,yes,yes,medium,good,1
+834,17.174174174174176,female,other,low,associate's degree,public,no,no,high,excellent,1
+835,17.17917917917918,female,other,high,Bachelor's degree,public,yes,no,high,good,1
+836,17.184184184184183,female,other,low,associate's degree,private,yes,no,high,excellent,1
+837,17.18918918918919,male,white,low,associate's degree,public,yes,no,high,excellent,1
+838,17.194194194194196,male,black,high,associate's degree,public,no,no,medium,excellent,1
+839,17.1991991991992,male,other,low,Bachelor's degree,private,yes,yes,medium,good,1
+840,17.204204204204203,male,other,low,high school diploma,private,no,no,high,good,1
+841,17.20920920920921,female,other,high,high school diploma,private,no,yes,low,excellent,1
+842,17.214214214214216,female,black,high,high school diploma,public,no,yes,low,poor,1
+843,17.21921921921922,female,other,medium,associate's degree,private,yes,no,low,good,1
+844,17.224224224224223,female,black,high,Bachelor's degree,private,no,no,high,excellent,1
+845,17.22922922922923,male,other,medium,associate's degree,public,yes,no,medium,excellent,1
+846,17.234234234234236,male,white,medium,high school diploma,private,yes,yes,high,fair,1
+847,17.23923923923924,female,black,medium,high school diploma,private,no,yes,high,poor,1
+848,17.244244244244243,female,black,high,associate's degree,private,no,no,high,excellent,1
+849,17.24924924924925,female,white,high,high school diploma,public,no,yes,low,good,1
+850,17.254254254254256,female,white,low,Bachelor's degree,public,yes,no,medium,excellent,0
+851,17.25925925925926,female,white,high,high school diploma,private,no,yes,high,fair,1
+852,17.264264264264263,female,other,high,Bachelor's degree,private,no,yes,low,poor,1
+853,17.26926926926927,female,white,high,associate's degree,public,yes,no,high,good,1
+854,17.274274274274276,female,other,high,associate's degree,public,yes,no,low,fair,1
+855,17.27927927927928,female,other,low,high school diploma,private,no,no,high,fair,0
+856,17.284284284284283,male,black,medium,high school diploma,public,yes,yes,low,good,1
+857,17.28928928928929,male,other,high,high school diploma,private,yes,no,medium,fair,1
+858,17.294294294294296,male,white,medium,Bachelor's degree,private,no,yes,high,good,1
+859,17.2992992992993,male,other,high,high school diploma,public,yes,no,low,poor,1
+860,17.304304304304303,male,white,high,Bachelor's degree,public,no,yes,high,excellent,1
+861,17.30930930930931,male,black,low,Bachelor's degree,public,yes,yes,high,poor,0
+862,17.314314314314316,female,black,medium,Bachelor's degree,public,yes,no,medium,poor,1
+863,17.31931931931932,male,black,low,Bachelor's degree,private,yes,no,low,excellent,1
+864,17.324324324324323,female,white,high,associate's degree,private,yes,yes,high,fair,1
+865,17.32932932932933,male,black,low,associate's degree,private,yes,yes,high,fair,1
+866,17.334334334334336,female,other,high,Bachelor's degree,public,no,no,low,excellent,1
+867,17.33933933933934,male,white,high,high school diploma,public,yes,yes,high,good,1
+868,17.344344344344343,male,black,medium,associate's degree,public,no,no,low,good,1
+869,17.34934934934935,female,white,high,high school diploma,public,yes,no,low,fair,1
+870,17.354354354354356,male,other,low,high school diploma,public,yes,no,high,good,1
+871,17.35935935935936,male,black,high,high school diploma,public,no,no,low,good,1
+872,17.364364364364363,male,white,medium,Bachelor's degree,private,yes,no,low,good,1
+873,17.36936936936937,male,other,high,high school diploma,public,no,no,high,poor,1
+874,17.374374374374376,male,white,low,high school diploma,private,no,yes,medium,poor,0
+875,17.37937937937938,female,other,high,associate's degree,public,yes,yes,high,poor,1
+876,17.384384384384383,female,black,medium,associate's degree,private,no,no,high,excellent,1
+877,17.38938938938939,female,black,high,associate's degree,public,no,no,high,good,1
+878,17.394394394394396,female,white,high,Bachelor's degree,public,yes,no,low,fair,1
+879,17.3993993993994,male,black,low,high school diploma,public,no,no,medium,good,0
+880,17.404404404404403,female,white,medium,associate's degree,public,no,yes,medium,fair,1
+881,17.40940940940941,female,black,medium,associate's degree,private,no,yes,medium,poor,1
+882,17.414414414414416,female,white,low,Bachelor's degree,public,yes,no,high,excellent,1
+883,17.41941941941942,male,white,high,associate's degree,public,yes,yes,low,good,1
+884,17.424424424424423,male,white,low,Bachelor's degree,public,no,yes,medium,excellent,0
+885,17.42942942942943,female,black,low,Bachelor's degree,private,no,no,low,fair,1
+886,17.434434434434436,female,other,high,high school diploma,public,yes,yes,low,excellent,1
+887,17.43943943943944,male,other,low,associate's degree,public,yes,no,medium,good,0
+888,17.444444444444443,male,other,low,associate's degree,public,no,yes,low,good,0
+889,17.44944944944945,male,other,high,Bachelor's degree,private,no,yes,high,excellent,1
+890,17.454454454454456,female,white,low,associate's degree,public,no,no,medium,fair,0
+891,17.45945945945946,female,black,high,associate's degree,public,no,no,medium,good,1
+892,17.464464464464463,male,white,low,associate's degree,public,no,no,medium,excellent,0
+893,17.46946946946947,female,white,low,associate's degree,public,yes,yes,medium,fair,0
+894,17.474474474474476,female,white,low,associate's degree,public,yes,yes,medium,excellent,0
+895,17.47947947947948,male,black,high,high school diploma,public,yes,no,medium,poor,1
+896,17.484484484484483,female,white,medium,associate's degree,public,no,yes,high,poor,1
+897,17.48948948948949,female,white,medium,associate's degree,public,yes,no,high,fair,1
+898,17.494494494494496,male,white,medium,associate's degree,private,yes,no,low,good,1
+899,17.4994994994995,female,black,high,associate's degree,private,no,yes,low,fair,1
+900,17.504504504504503,male,other,medium,associate's degree,public,yes,yes,high,poor,1
+901,17.50950950950951,female,other,low,associate's degree,public,no,no,high,good,1
+902,17.514514514514516,male,black,low,high school diploma,public,no,yes,low,excellent,0
+903,17.51951951951952,female,black,medium,associate's degree,private,no,yes,low,fair,1
+904,17.524524524524523,female,other,high,high school diploma,public,no,no,low,poor,1
+905,17.52952952952953,male,other,high,high school diploma,private,no,yes,high,good,1
+906,17.534534534534536,female,other,medium,high school diploma,public,no,no,high,good,1
+907,17.53953953953954,female,white,medium,associate's degree,private,no,no,low,fair,1
+908,17.544544544544543,male,other,high,high school diploma,private,yes,yes,high,excellent,1
+909,17.54954954954955,female,other,low,associate's degree,private,yes,no,medium,good,1
+910,17.554554554554556,male,black,medium,Bachelor's degree,private,yes,no,high,good,1
+911,17.55955955955956,male,black,high,high school diploma,private,no,yes,high,excellent,1
+912,17.564564564564563,male,black,low,associate's degree,private,yes,no,medium,poor,1
+913,17.56956956956957,male,black,medium,associate's degree,public,no,no,medium,good,1
+914,17.574574574574577,female,white,medium,Bachelor's degree,public,yes,no,high,fair,1
+915,17.57957957957958,male,black,high,associate's degree,public,yes,no,high,fair,1
+916,17.584584584584583,male,white,medium,high school diploma,public,yes,no,high,fair,1
+917,17.58958958958959,female,white,low,high school diploma,private,yes,yes,medium,good,0
+918,17.594594594594597,male,white,medium,Bachelor's degree,public,no,no,low,poor,1
+919,17.5995995995996,female,black,medium,high school diploma,private,yes,no,medium,poor,1
+920,17.604604604604603,male,white,low,associate's degree,private,no,no,medium,excellent,1
+921,17.60960960960961,female,other,medium,associate's degree,public,yes,no,high,good,1
+922,17.614614614614617,female,white,medium,Bachelor's degree,private,no,yes,high,poor,1
+923,17.61961961961962,female,other,high,associate's degree,public,no,yes,medium,good,1
+924,17.624624624624623,female,white,low,high school diploma,public,yes,no,medium,excellent,0
+925,17.62962962962963,male,white,low,Bachelor's degree,public,no,no,medium,excellent,0
+926,17.634634634634637,female,black,medium,associate's degree,public,yes,no,low,good,1
+927,17.63963963963964,female,black,high,associate's degree,private,yes,yes,high,poor,1
+928,17.644644644644643,female,white,high,high school diploma,public,no,no,low,good,1
+929,17.64964964964965,female,white,high,associate's degree,private,no,no,low,poor,1
+930,17.654654654654657,male,black,high,Bachelor's degree,public,yes,no,high,good,1
+931,17.65965965965966,male,other,medium,Bachelor's degree,public,yes,no,high,good,1
+932,17.664664664664663,female,other,high,Bachelor's degree,public,no,no,high,fair,1
+933,17.66966966966967,female,other,medium,Bachelor's degree,private,no,no,medium,excellent,1
+934,17.674674674674677,male,white,high,Bachelor's degree,private,yes,no,high,fair,1
+935,17.67967967967968,female,white,medium,high school diploma,public,no,no,medium,poor,1
+936,17.684684684684683,female,black,medium,associate's degree,private,yes,yes,medium,fair,1
+937,17.68968968968969,male,black,medium,Bachelor's degree,private,yes,yes,medium,poor,1
+938,17.694694694694697,male,other,low,associate's degree,public,yes,no,high,good,1
+939,17.6996996996997,female,white,low,associate's degree,public,no,yes,low,good,0
+940,17.704704704704703,male,white,high,associate's degree,private,yes,no,high,poor,1
+941,17.70970970970971,female,other,high,high school diploma,public,no,no,low,fair,1
+942,17.714714714714717,female,white,medium,associate's degree,private,no,no,low,fair,1
+943,17.71971971971972,female,white,medium,associate's degree,public,yes,yes,low,fair,1
+944,17.724724724724723,male,other,low,Bachelor's degree,public,yes,yes,low,fair,0
+945,17.72972972972973,female,black,low,associate's degree,private,no,no,low,good,1
+946,17.734734734734737,male,other,high,Bachelor's degree,private,yes,no,medium,good,1
+947,17.73973973973974,male,black,low,high school diploma,private,no,yes,low,excellent,0
+948,17.744744744744743,female,white,high,high school diploma,public,yes,no,low,poor,1
+949,17.74974974974975,female,black,low,associate's degree,public,yes,no,high,fair,0
+950,17.754754754754757,male,black,high,associate's degree,private,no,no,low,good,1
+951,17.75975975975976,female,black,high,associate's degree,private,no,yes,low,fair,1
+952,17.764764764764763,male,white,high,associate's degree,public,no,no,medium,good,1
+953,17.76976976976977,female,other,medium,associate's degree,public,yes,no,low,good,1
+954,17.774774774774777,female,black,medium,high school diploma,public,no,no,high,fair,1
+955,17.77977977977978,female,white,high,Bachelor's degree,public,no,no,medium,poor,1
+956,17.784784784784783,male,black,high,high school diploma,public,no,no,low,excellent,1
+957,17.78978978978979,male,white,medium,high school diploma,public,no,no,high,good,1
+958,17.794794794794797,male,black,high,Bachelor's degree,private,no,no,low,fair,1
+959,17.7997997997998,male,white,high,high school diploma,public,no,yes,low,good,1
+960,17.804804804804803,male,other,high,associate's degree,public,yes,no,high,poor,1
+961,17.80980980980981,female,other,medium,Bachelor's degree,public,yes,yes,high,fair,1
+962,17.814814814814817,female,black,low,associate's degree,public,yes,no,low,fair,0
+963,17.81981981981982,male,white,high,high school diploma,private,yes,no,medium,fair,1
+964,17.824824824824823,male,black,medium,high school diploma,private,yes,no,low,excellent,1
+965,17.82982982982983,female,white,high,high school diploma,public,no,yes,high,good,1
+966,17.834834834834837,male,black,medium,high school diploma,private,yes,yes,low,good,1
+967,17.83983983983984,male,other,low,associate's degree,private,no,yes,high,good,1
+968,17.844844844844843,female,white,low,high school diploma,public,no,no,high,fair,0
+969,17.84984984984985,male,black,high,Bachelor's degree,public,yes,no,low,good,1
+970,17.854854854854857,male,other,low,high school diploma,private,yes,yes,low,poor,0
+971,17.85985985985986,male,other,medium,Bachelor's degree,public,no,no,medium,poor,1
+972,17.864864864864863,male,other,low,Bachelor's degree,private,yes,yes,low,excellent,1
+973,17.86986986986987,male,black,high,high school diploma,private,no,yes,high,fair,1
+974,17.874874874874877,female,other,medium,high school diploma,private,no,no,low,poor,1
+975,17.87987987987988,male,black,high,Bachelor's degree,public,no,no,medium,poor,1
+976,17.884884884884883,female,black,high,Bachelor's degree,public,yes,no,medium,poor,1
+977,17.88988988988989,female,white,low,Bachelor's degree,public,yes,no,high,fair,0
+978,17.894894894894897,male,white,high,high school diploma,public,yes,no,high,excellent,1
+979,17.8998998998999,male,black,low,high school diploma,private,yes,yes,medium,excellent,0
+980,17.904904904904903,male,other,low,high school diploma,public,yes,no,medium,poor,0
+981,17.90990990990991,male,white,medium,Bachelor's degree,public,yes,no,medium,poor,1
+982,17.914914914914917,male,other,medium,high school diploma,private,yes,yes,high,good,1
+983,17.91991991991992,female,white,medium,high school diploma,public,no,no,low,good,1
+984,17.924924924924923,female,black,high,associate's degree,private,no,yes,low,good,1
+985,17.92992992992993,male,black,high,high school diploma,private,yes,yes,high,poor,1
+986,17.934934934934937,male,other,high,associate's degree,private,no,yes,low,poor,1
+987,17.93993993993994,male,black,medium,high school diploma,private,yes,yes,low,excellent,1
+988,17.944944944944943,female,other,medium,Bachelor's degree,private,yes,no,high,good,1
+989,17.94994994994995,female,other,low,associate's degree,public,no,yes,medium,fair,0
+990,17.954954954954957,female,white,high,associate's degree,public,yes,no,low,poor,1
+991,17.95995995995996,male,other,high,high school diploma,public,no,no,medium,good,1
+992,17.964964964964963,female,other,medium,Bachelor's degree,public,yes,no,low,poor,1
+993,17.96996996996997,male,white,low,associate's degree,private,yes,yes,medium,fair,1
+994,17.974974974974977,male,other,high,high school diploma,private,yes,no,medium,good,1
+995,17.97997997997998,male,white,medium,associate's degree,private,yes,yes,high,excellent,1
+996,17.984984984984983,male,other,high,associate's degree,private,no,no,medium,poor,1
+997,17.98998998998999,female,black,low,associate's degree,public,yes,yes,medium,excellent,0
+998,17.994994994994997,female,white,medium,associate's degree,public,yes,yes,medium,poor,1
+999,18.0,female,black,medium,associate's degree,private,yes,yes,low,good,1

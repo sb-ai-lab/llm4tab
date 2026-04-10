@@ -1,0 +1,1001 @@
+,Defendant_ID,Age,Gender,Employment_Status,Prior_Convictions,Substance_Abuse,Violent_Crime_Prior,Community_Support,Education_Level,Release_Type,label
+0,1,58,Male,Unemployed,8,Yes,0,Yes,Associate's,Jail,1
+1,2,33,Male,Employed,8,No,1,No,Less than High School,Probation,1
+2,3,58,Male,Employed,2,Yes,0,No,Bachelor's,Probation,0
+3,4,42,Male,Unemployed,8,Yes,1,Yes,High School,Probation,1
+4,5,58,Male,Employed,3,Yes,1,No,High School,Jail,1
+5,6,58,Female,Employed,9,Yes,0,Yes,Less than High School,Parole,0
+6,7,42,Female,Employed,9,Yes,1,Yes,High School,Jail,0
+7,8,29,Female,Unemployed,7,Yes,0,Yes,Less than High School,Jail,1
+8,9,24,Female,Employed,2,No,1,No,High School,Jail,1
+9,10,40,Female,Unemployed,10,Yes,1,No,Associate's,Jail,1
+10,11,32,Male,Employed,4,Yes,1,No,Bachelor's,Parole,1
+11,12,69,Female,Employed,8,No,0,Yes,Bachelor's,Parole,0
+12,13,55,Male,Unemployed,10,Yes,0,No,High School,Parole,1
+13,14,21,Female,Unemployed,4,No,1,Yes,Bachelor's,Probation,1
+14,15,41,Male,Unemployed,1,No,0,No,Less than High School,Probation,0
+15,16,42,Male,Employed,8,Yes,1,No,Associate's,Parole,1
+16,17,41,Male,Unemployed,0,No,0,Yes,High School,Parole,0
+17,18,48,Male,Employed,6,No,0,No,Less than High School,Parole,0
+18,19,62,Female,Unemployed,5,No,1,Yes,Bachelor's,Parole,0
+19,20,36,Male,Unemployed,9,Yes,0,Yes,High School,Jail,1
+20,21,60,Female,Employed,3,Yes,1,No,Bachelor's,Probation,1
+21,22,70,Male,Unemployed,8,No,0,Yes,Less than High School,Probation,0
+22,23,61,Female,Unemployed,6,No,1,No,Less than High School,Probation,1
+23,24,67,Male,Unemployed,5,Yes,0,Yes,Bachelor's,Probation,1
+24,25,58,Female,Employed,8,No,0,Yes,Bachelor's,Probation,0
+25,26,33,Female,Employed,6,No,1,Yes,High School,Parole,0
+26,27,33,Female,Employed,7,No,1,Yes,Less than High School,Probation,0
+27,28,70,Female,Unemployed,10,No,1,No,Less than High School,Jail,1
+28,29,38,Female,Employed,6,No,1,No,Less than High School,Parole,1
+29,30,51,Male,Unemployed,4,No,1,No,Associate's,Parole,1
+30,31,41,Male,Unemployed,1,Yes,1,Yes,Bachelor's,Probation,1
+31,32,52,Male,Unemployed,3,No,0,Yes,High School,Parole,0
+32,33,20,Female,Employed,8,No,1,Yes,Less than High School,Parole,1
+33,34,21,Male,Employed,2,No,0,No,High School,Parole,0
+34,35,34,Male,Employed,5,Yes,0,Yes,Associate's,Jail,0
+35,36,36,Female,Employed,5,No,1,No,High School,Jail,1
+36,37,18,Female,Employed,5,Yes,0,Yes,Associate's,Jail,1
+37,38,66,Male,Unemployed,3,Yes,0,Yes,Less than High School,Jail,1
+38,39,34,Female,Unemployed,0,Yes,0,No,Bachelor's,Jail,1
+39,40,64,Female,Unemployed,10,No,1,Yes,Bachelor's,Probation,0
+40,41,37,Male,Employed,0,No,1,Yes,Associate's,Jail,0
+41,42,48,Male,Unemployed,2,No,1,No,High School,Jail,1
+42,43,51,Male,Employed,0,Yes,0,Yes,High School,Parole,0
+43,44,56,Female,Employed,1,No,0,No,Less than High School,Parole,0
+44,45,64,Male,Unemployed,6,Yes,0,Yes,High School,Jail,1
+45,46,21,Male,Employed,4,No,1,No,High School,Parole,1
+46,47,48,Male,Employed,1,No,0,No,High School,Parole,0
+47,48,43,Female,Employed,3,Yes,0,Yes,Less than High School,Parole,0
+48,49,37,Female,Employed,2,Yes,0,Yes,Less than High School,Parole,0
+49,50,58,Male,Employed,1,No,0,No,Less than High School,Probation,0
+50,51,25,Female,Unemployed,4,No,0,Yes,Less than High School,Parole,0
+51,52,62,Male,Unemployed,4,No,0,Yes,High School,Parole,0
+52,53,49,Male,Unemployed,9,Yes,0,No,Less than High School,Probation,1
+53,54,32,Female,Unemployed,6,No,1,No,Less than High School,Parole,1
+54,55,23,Female,Unemployed,10,No,0,No,Associate's,Parole,1
+55,56,43,Male,Employed,1,No,0,No,High School,Parole,0
+56,57,66,Male,Employed,10,No,1,No,Less than High School,Jail,1
+57,58,63,Male,Employed,4,No,0,No,Less than High School,Parole,0
+58,59,49,Female,Employed,10,No,1,No,Less than High School,Jail,1
+59,60,27,Male,Employed,7,No,1,Yes,Less than High School,Parole,0
+60,61,21,Female,Unemployed,0,No,1,No,High School,Probation,1
+61,62,52,Male,Employed,2,No,0,Yes,High School,Parole,0
+62,63,46,Male,Employed,3,No,1,No,High School,Jail,1
+63,64,65,Male,Employed,5,No,1,No,Bachelor's,Parole,1
+64,65,24,Male,Unemployed,0,Yes,0,No,High School,Probation,1
+65,66,24,Male,Employed,1,Yes,0,Yes,Associate's,Jail,0
+66,67,68,Female,Unemployed,3,Yes,0,Yes,High School,Jail,1
+67,68,59,Male,Employed,7,Yes,1,No,Less than High School,Parole,1
+68,69,48,Male,Unemployed,2,Yes,0,No,High School,Probation,1
+69,70,28,Male,Employed,0,No,1,Yes,Bachelor's,Jail,0
+70,71,21,Male,Unemployed,0,No,1,Yes,Bachelor's,Parole,0
+71,72,24,Female,Unemployed,6,No,0,No,High School,Parole,1
+72,73,36,Female,Employed,6,Yes,1,Yes,Associate's,Jail,0
+73,74,67,Male,Unemployed,3,Yes,1,No,Bachelor's,Parole,1
+74,75,39,Male,Employed,3,Yes,1,Yes,Less than High School,Probation,0
+75,76,55,Female,Unemployed,7,Yes,1,Yes,Associate's,Jail,1
+76,77,63,Male,Unemployed,10,No,0,Yes,Bachelor's,Parole,0
+77,78,59,Female,Unemployed,0,No,0,Yes,Associate's,Parole,0
+78,79,58,Female,Employed,0,No,0,Yes,Less than High School,Parole,0
+79,80,55,Male,Unemployed,1,No,1,Yes,Bachelor's,Probation,0
+80,81,49,Male,Unemployed,8,No,0,No,High School,Probation,0
+81,82,53,Male,Employed,9,Yes,0,Yes,Bachelor's,Parole,0
+82,83,56,Male,Unemployed,8,Yes,0,No,Bachelor's,Parole,1
+83,84,64,Female,Employed,2,Yes,1,No,Associate's,Parole,1
+84,85,59,Female,Unemployed,10,No,0,No,Bachelor's,Probation,0
+85,86,59,Male,Unemployed,10,Yes,1,Yes,High School,Probation,1
+86,87,41,Female,Employed,2,Yes,0,Yes,Bachelor's,Parole,0
+87,88,46,Female,Unemployed,5,Yes,1,No,High School,Probation,1
+88,89,40,Male,Unemployed,0,Yes,1,No,High School,Jail,1
+89,90,20,Female,Unemployed,0,No,1,Yes,Less than High School,Parole,0
+90,91,22,Male,Unemployed,10,Yes,1,Yes,Less than High School,Probation,1
+91,92,19,Female,Unemployed,2,Yes,0,Yes,Less than High School,Parole,1
+92,93,52,Female,Employed,5,No,1,Yes,Associate's,Jail,0
+93,94,26,Female,Unemployed,1,Yes,0,No,Less than High School,Probation,1
+94,95,22,Male,Employed,7,No,0,Yes,High School,Probation,1
+95,96,65,Female,Unemployed,8,Yes,1,No,Less than High School,Jail,1
+96,97,53,Female,Unemployed,8,Yes,0,Yes,High School,Parole,1
+97,98,20,Male,Unemployed,4,No,0,Yes,Less than High School,Jail,1
+98,99,62,Female,Employed,4,Yes,1,Yes,Bachelor's,Parole,0
+99,100,46,Female,Unemployed,6,No,1,Yes,Bachelor's,Jail,0
+100,101,27,Male,Employed,8,No,1,No,Less than High School,Jail,1
+101,102,26,Male,Employed,8,Yes,1,No,Less than High School,Jail,1
+102,103,67,Female,Unemployed,9,Yes,1,No,Bachelor's,Jail,1
+103,104,20,Male,Employed,4,No,0,No,High School,Parole,1
+104,105,22,Male,Unemployed,10,Yes,0,No,Bachelor's,Probation,1
+105,106,64,Female,Unemployed,0,Yes,0,Yes,Bachelor's,Parole,1
+106,107,29,Male,Employed,4,No,1,Yes,Associate's,Jail,0
+107,108,46,Male,Unemployed,9,Yes,1,No,Less than High School,Jail,1
+108,109,46,Female,Unemployed,9,Yes,1,No,Bachelor's,Parole,1
+109,110,18,Female,Employed,9,Yes,0,No,Bachelor's,Jail,1
+110,111,26,Male,Unemployed,3,Yes,0,Yes,Bachelor's,Jail,1
+111,112,58,Female,Unemployed,8,Yes,1,No,Associate's,Jail,1
+112,113,63,Male,Employed,4,No,0,Yes,Less than High School,Parole,0
+113,114,56,Male,Employed,7,No,1,Yes,Associate's,Parole,0
+114,115,20,Female,Unemployed,5,No,0,No,High School,Parole,1
+115,116,47,Male,Unemployed,2,Yes,1,No,Associate's,Probation,1
+116,117,62,Female,Unemployed,2,No,0,No,Bachelor's,Jail,0
+117,118,53,Male,Employed,6,No,0,Yes,Less than High School,Jail,0
+118,119,41,Female,Employed,10,Yes,1,No,High School,Jail,1
+119,120,64,Male,Unemployed,1,No,0,No,Associate's,Parole,0
+120,121,18,Male,Employed,9,No,0,No,High School,Parole,1
+121,122,42,Female,Unemployed,6,Yes,1,No,High School,Parole,1
+122,123,32,Male,Employed,0,No,1,No,High School,Jail,1
+123,124,58,Male,Employed,0,Yes,1,Yes,Bachelor's,Parole,0
+124,125,70,Male,Employed,3,Yes,0,Yes,Bachelor's,Parole,0
+125,126,37,Male,Unemployed,9,No,0,No,Less than High School,Probation,0
+126,127,27,Male,Employed,10,Yes,1,No,Associate's,Jail,1
+127,128,28,Female,Unemployed,7,No,1,No,Associate's,Probation,1
+128,129,45,Female,Unemployed,4,Yes,1,Yes,Associate's,Probation,1
+129,130,32,Male,Unemployed,4,No,0,Yes,Less than High School,Probation,0
+130,131,67,Female,Employed,4,No,1,Yes,Associate's,Jail,0
+131,132,52,Male,Employed,3,Yes,0,Yes,Associate's,Jail,0
+132,133,67,Male,Employed,2,No,1,No,Associate's,Parole,1
+133,134,68,Male,Unemployed,10,No,1,No,Bachelor's,Parole,1
+134,135,36,Male,Employed,4,No,1,Yes,Bachelor's,Probation,0
+135,136,28,Female,Employed,8,Yes,0,Yes,Less than High School,Probation,0
+136,137,53,Male,Unemployed,5,No,0,No,High School,Parole,0
+137,138,49,Female,Unemployed,0,Yes,0,No,Bachelor's,Parole,1
+138,139,32,Male,Unemployed,9,Yes,0,No,Associate's,Jail,1
+139,140,52,Female,Employed,2,No,1,No,Associate's,Jail,1
+140,141,70,Male,Employed,7,No,0,No,Less than High School,Parole,0
+141,142,68,Female,Employed,8,No,1,Yes,High School,Probation,0
+142,143,21,Male,Unemployed,4,No,0,No,Bachelor's,Probation,1
+143,144,49,Male,Employed,10,Yes,0,No,High School,Probation,0
+144,145,55,Male,Unemployed,0,Yes,0,Yes,Associate's,Parole,1
+145,146,65,Female,Unemployed,0,No,0,No,Associate's,Probation,0
+146,147,27,Male,Employed,2,Yes,0,No,High School,Jail,0
+147,148,60,Female,Unemployed,1,No,1,Yes,Less than High School,Parole,0
+148,149,66,Female,Employed,0,No,0,Yes,Bachelor's,Probation,0
+149,150,46,Male,Unemployed,4,No,1,No,Associate's,Parole,1
+150,151,70,Female,Unemployed,2,Yes,0,No,Associate's,Parole,1
+151,152,70,Female,Employed,5,Yes,0,No,Less than High School,Probation,0
+152,153,19,Male,Employed,3,No,1,No,High School,Jail,1
+153,154,25,Female,Unemployed,9,Yes,1,Yes,Associate's,Parole,1
+154,155,27,Female,Unemployed,8,No,1,Yes,Less than High School,Probation,0
+155,156,55,Male,Employed,2,No,0,No,Less than High School,Parole,0
+156,157,32,Male,Unemployed,6,No,1,No,Less than High School,Probation,1
+157,158,19,Male,Employed,4,Yes,0,Yes,High School,Jail,1
+158,159,38,Male,Unemployed,5,No,1,Yes,Bachelor's,Probation,0
+159,160,54,Female,Unemployed,0,Yes,0,No,Bachelor's,Jail,1
+160,161,61,Female,Unemployed,3,Yes,1,No,Associate's,Parole,1
+161,162,36,Female,Unemployed,6,No,1,No,Bachelor's,Probation,1
+162,163,19,Female,Unemployed,4,No,1,No,Bachelor's,Parole,1
+163,164,66,Male,Unemployed,0,No,0,No,Associate's,Probation,0
+164,165,36,Male,Employed,5,Yes,1,Yes,Less than High School,Jail,0
+165,166,19,Female,Employed,8,No,0,No,Bachelor's,Parole,1
+166,167,36,Female,Employed,5,Yes,1,No,Bachelor's,Jail,1
+167,168,55,Female,Unemployed,8,No,1,Yes,Associate's,Jail,0
+168,169,46,Female,Unemployed,1,Yes,0,No,High School,Jail,1
+169,170,39,Female,Unemployed,10,Yes,1,No,Associate's,Jail,1
+170,171,29,Male,Unemployed,4,Yes,1,No,Less than High School,Probation,1
+171,172,40,Male,Unemployed,3,No,0,Yes,Associate's,Probation,0
+172,173,53,Male,Employed,0,No,0,No,Associate's,Parole,0
+173,174,30,Male,Unemployed,0,Yes,1,No,High School,Jail,1
+174,175,28,Female,Employed,2,No,1,No,Less than High School,Probation,1
+175,176,19,Female,Unemployed,6,No,0,No,Associate's,Jail,1
+176,177,37,Male,Employed,0,Yes,1,No,Associate's,Probation,1
+177,178,39,Male,Employed,0,Yes,0,No,Less than High School,Parole,0
+178,179,62,Male,Unemployed,9,Yes,1,No,Less than High School,Jail,1
+179,180,35,Male,Employed,0,No,1,No,Associate's,Jail,1
+180,181,34,Male,Employed,6,Yes,1,No,Associate's,Jail,1
+181,182,62,Male,Unemployed,3,Yes,0,No,Associate's,Parole,1
+182,183,42,Female,Unemployed,2,Yes,1,No,Less than High School,Parole,1
+183,184,46,Male,Unemployed,9,Yes,0,No,Less than High School,Parole,1
+184,185,52,Male,Employed,0,No,0,No,Associate's,Parole,0
+185,186,64,Female,Unemployed,6,Yes,0,No,Bachelor's,Probation,1
+186,187,18,Male,Employed,4,Yes,0,Yes,Bachelor's,Parole,1
+187,188,23,Female,Employed,8,No,1,Yes,High School,Jail,1
+188,189,29,Female,Employed,1,No,0,No,Associate's,Parole,0
+189,190,67,Male,Unemployed,6,Yes,1,No,Associate's,Probation,1
+190,191,34,Female,Employed,0,No,1,No,Associate's,Jail,1
+191,192,49,Male,Employed,6,Yes,0,Yes,High School,Parole,0
+192,193,20,Female,Employed,1,No,0,Yes,Associate's,Parole,0
+193,194,60,Female,Unemployed,6,Yes,1,Yes,Less than High School,Jail,1
+194,195,19,Male,Unemployed,10,Yes,1,No,Associate's,Jail,1
+195,196,29,Female,Employed,7,No,1,No,Associate's,Jail,1
+196,197,23,Male,Unemployed,7,No,1,Yes,High School,Jail,1
+197,198,46,Female,Employed,0,No,1,Yes,Bachelor's,Jail,0
+198,199,32,Female,Employed,7,Yes,1,No,High School,Jail,1
+199,200,32,Male,Unemployed,9,No,1,No,Associate's,Jail,1
+200,201,66,Female,Unemployed,3,No,1,No,Bachelor's,Probation,1
+201,202,23,Female,Employed,4,No,1,No,High School,Parole,1
+202,203,64,Male,Employed,7,Yes,0,No,High School,Parole,0
+203,204,50,Male,Employed,8,Yes,0,Yes,Associate's,Jail,0
+204,205,70,Female,Unemployed,8,Yes,1,No,Less than High School,Jail,1
+205,206,58,Male,Unemployed,6,No,0,Yes,Bachelor's,Jail,0
+206,207,53,Male,Employed,0,Yes,0,Yes,High School,Parole,0
+207,208,69,Female,Unemployed,5,Yes,1,No,High School,Jail,1
+208,209,29,Male,Employed,7,Yes,0,No,High School,Jail,0
+209,210,38,Female,Unemployed,2,No,1,No,Bachelor's,Jail,1
+210,211,65,Female,Employed,7,Yes,1,Yes,Less than High School,Probation,0
+211,212,70,Female,Unemployed,6,No,1,No,High School,Parole,1
+212,213,51,Male,Unemployed,9,Yes,0,No,High School,Probation,1
+213,214,52,Male,Unemployed,0,No,0,No,Bachelor's,Probation,0
+214,215,22,Male,Employed,1,Yes,1,No,Less than High School,Parole,1
+215,216,58,Male,Employed,1,No,1,No,Associate's,Parole,1
+216,217,22,Female,Unemployed,4,No,1,No,Less than High School,Probation,1
+217,218,21,Female,Unemployed,7,Yes,0,No,Associate's,Jail,1
+218,219,41,Male,Unemployed,7,No,0,No,Bachelor's,Parole,0
+219,220,24,Male,Employed,6,No,0,No,High School,Probation,1
+220,221,37,Male,Unemployed,1,Yes,0,Yes,High School,Probation,1
+221,222,32,Female,Unemployed,3,Yes,1,Yes,Less than High School,Jail,1
+222,223,25,Male,Employed,5,No,0,No,Associate's,Probation,0
+223,224,46,Male,Unemployed,6,Yes,1,Yes,Less than High School,Probation,1
+224,225,44,Male,Unemployed,5,No,0,No,Less than High School,Probation,0
+225,226,18,Male,Employed,7,Yes,0,No,Associate's,Jail,1
+226,227,46,Male,Unemployed,10,No,0,No,Bachelor's,Probation,0
+227,228,67,Female,Employed,4,Yes,0,No,Bachelor's,Parole,0
+228,229,18,Female,Unemployed,5,Yes,1,No,Less than High School,Jail,1
+229,230,26,Female,Unemployed,9,Yes,1,Yes,High School,Probation,1
+230,231,47,Male,Unemployed,2,No,1,No,Associate's,Parole,1
+231,232,41,Female,Employed,0,No,1,No,Associate's,Parole,1
+232,233,26,Female,Unemployed,10,Yes,1,Yes,Bachelor's,Parole,1
+233,234,37,Male,Employed,4,Yes,0,Yes,Bachelor's,Probation,0
+234,235,43,Male,Employed,10,No,1,No,High School,Parole,1
+235,236,35,Male,Employed,2,No,1,Yes,High School,Jail,0
+236,237,63,Male,Employed,0,No,0,No,Associate's,Probation,0
+237,238,45,Male,Employed,9,Yes,0,Yes,Bachelor's,Jail,0
+238,239,23,Male,Employed,4,Yes,0,No,Bachelor's,Probation,1
+239,240,26,Male,Unemployed,5,No,0,Yes,Less than High School,Probation,0
+240,241,42,Female,Employed,0,No,0,No,Less than High School,Jail,0
+241,242,28,Female,Employed,4,Yes,0,No,Less than High School,Parole,0
+242,243,24,Male,Employed,4,Yes,0,Yes,High School,Parole,1
+243,244,49,Male,Unemployed,5,No,0,No,Less than High School,Probation,0
+244,245,55,Female,Unemployed,10,No,0,No,Bachelor's,Jail,0
+245,246,69,Male,Employed,8,Yes,1,No,Associate's,Parole,1
+246,247,68,Female,Employed,4,No,0,Yes,Bachelor's,Parole,0
+247,248,19,Male,Unemployed,7,No,1,No,High School,Parole,1
+248,249,30,Male,Employed,2,Yes,0,Yes,Associate's,Jail,0
+249,250,21,Male,Unemployed,10,Yes,0,Yes,Bachelor's,Parole,1
+250,251,65,Female,Employed,0,No,1,No,Less than High School,Parole,1
+251,252,23,Male,Unemployed,3,No,1,Yes,Bachelor's,Probation,1
+252,253,47,Male,Unemployed,0,Yes,1,Yes,High School,Probation,1
+253,254,27,Male,Unemployed,4,No,1,No,High School,Parole,1
+254,255,32,Female,Employed,4,Yes,0,No,Associate's,Probation,0
+255,256,55,Female,Unemployed,4,Yes,1,Yes,High School,Jail,1
+256,257,34,Female,Employed,7,No,1,No,Associate's,Probation,1
+257,258,64,Female,Unemployed,10,Yes,0,No,Bachelor's,Parole,1
+258,259,23,Female,Unemployed,6,Yes,0,No,High School,Probation,1
+259,260,32,Male,Unemployed,3,No,1,Yes,Associate's,Parole,0
+260,261,38,Female,Unemployed,0,Yes,1,Yes,Associate's,Jail,1
+261,262,21,Male,Employed,3,Yes,0,Yes,Less than High School,Jail,1
+262,263,21,Male,Employed,8,No,0,Yes,Associate's,Probation,1
+263,264,55,Male,Employed,10,Yes,0,No,High School,Jail,0
+264,265,69,Female,Employed,0,No,0,No,Bachelor's,Parole,0
+265,266,49,Male,Unemployed,2,Yes,1,No,Bachelor's,Parole,1
+266,267,57,Male,Employed,6,Yes,1,Yes,Associate's,Probation,0
+267,268,55,Male,Employed,2,No,0,No,Bachelor's,Parole,0
+268,269,27,Female,Unemployed,0,No,1,Yes,Associate's,Probation,0
+269,270,45,Female,Employed,0,Yes,0,No,Less than High School,Jail,0
+270,271,40,Male,Unemployed,1,Yes,1,No,Associate's,Jail,1
+271,272,28,Female,Unemployed,1,No,0,Yes,Associate's,Parole,0
+272,273,34,Male,Unemployed,4,Yes,1,Yes,High School,Probation,1
+273,274,51,Male,Employed,9,No,1,No,Bachelor's,Jail,1
+274,275,28,Female,Employed,10,No,0,No,Associate's,Jail,0
+275,276,60,Male,Employed,3,Yes,1,Yes,Associate's,Jail,0
+276,277,57,Male,Unemployed,1,No,0,Yes,Less than High School,Jail,0
+277,278,24,Female,Employed,8,No,0,Yes,Less than High School,Probation,1
+278,279,28,Female,Unemployed,7,Yes,1,No,Bachelor's,Probation,1
+279,280,19,Female,Unemployed,1,Yes,1,Yes,Bachelor's,Jail,1
+280,281,18,Male,Unemployed,6,Yes,0,No,Bachelor's,Parole,1
+281,282,30,Male,Employed,1,Yes,0,No,Associate's,Probation,0
+282,283,64,Female,Unemployed,9,No,0,Yes,Associate's,Parole,0
+283,284,70,Female,Employed,4,Yes,0,Yes,Less than High School,Jail,0
+284,285,40,Female,Unemployed,7,No,1,Yes,High School,Jail,0
+285,286,26,Female,Employed,8,Yes,1,Yes,High School,Parole,0
+286,287,30,Female,Employed,2,No,0,No,Bachelor's,Parole,0
+287,288,49,Female,Unemployed,9,No,1,Yes,Less than High School,Jail,0
+288,289,63,Female,Unemployed,10,Yes,0,Yes,Bachelor's,Probation,1
+289,290,33,Male,Employed,1,No,0,Yes,High School,Parole,0
+290,291,52,Female,Unemployed,7,Yes,1,Yes,Less than High School,Parole,1
+291,292,23,Female,Employed,7,No,1,No,Bachelor's,Jail,1
+292,293,35,Male,Employed,3,No,1,No,High School,Probation,1
+293,294,40,Female,Unemployed,4,Yes,0,Yes,Bachelor's,Jail,1
+294,295,39,Male,Employed,1,Yes,0,No,Bachelor's,Probation,0
+295,296,37,Male,Unemployed,0,No,0,No,Bachelor's,Parole,0
+296,297,70,Female,Employed,9,Yes,1,No,Associate's,Jail,1
+297,298,30,Female,Unemployed,7,No,0,No,High School,Jail,0
+298,299,45,Male,Unemployed,2,No,0,Yes,High School,Probation,0
+299,300,61,Female,Unemployed,1,Yes,1,Yes,Less than High School,Probation,1
+300,301,33,Male,Unemployed,5,Yes,1,No,Associate's,Probation,1
+301,302,51,Female,Employed,2,Yes,1,No,High School,Jail,1
+302,303,57,Female,Employed,2,No,1,No,Less than High School,Jail,1
+303,304,41,Male,Unemployed,5,Yes,0,Yes,High School,Parole,1
+304,305,47,Male,Unemployed,6,No,1,No,Less than High School,Jail,1
+305,306,25,Female,Unemployed,10,No,0,Yes,Bachelor's,Jail,0
+306,307,36,Female,Employed,2,No,1,No,Less than High School,Jail,1
+307,308,20,Female,Unemployed,8,Yes,0,No,High School,Jail,1
+308,309,47,Male,Unemployed,7,Yes,1,Yes,High School,Parole,1
+309,310,62,Female,Employed,6,No,0,Yes,Less than High School,Parole,0
+310,311,54,Male,Employed,3,Yes,1,Yes,Associate's,Parole,0
+311,312,52,Female,Employed,4,Yes,1,No,Associate's,Jail,1
+312,313,69,Male,Employed,3,Yes,1,Yes,Less than High School,Jail,0
+313,314,33,Male,Employed,7,Yes,1,No,Less than High School,Jail,1
+314,315,47,Male,Unemployed,8,Yes,0,No,Bachelor's,Probation,1
+315,316,21,Female,Unemployed,5,Yes,1,No,Bachelor's,Parole,1
+316,317,66,Female,Unemployed,2,No,0,Yes,Associate's,Jail,0
+317,318,27,Male,Employed,2,Yes,1,No,Associate's,Probation,1
+318,319,56,Male,Employed,10,Yes,1,Yes,Less than High School,Probation,0
+319,320,31,Female,Employed,4,Yes,1,No,Less than High School,Jail,1
+320,321,61,Male,Unemployed,6,Yes,1,No,Less than High School,Probation,1
+321,322,25,Male,Employed,9,Yes,0,Yes,Associate's,Parole,0
+322,323,29,Male,Unemployed,10,No,1,Yes,Associate's,Jail,0
+323,324,50,Male,Unemployed,4,No,1,Yes,Bachelor's,Probation,0
+324,325,38,Female,Employed,5,No,0,Yes,Bachelor's,Parole,0
+325,326,24,Male,Unemployed,10,No,1,Yes,Associate's,Probation,1
+326,327,23,Female,Employed,5,Yes,1,Yes,Bachelor's,Parole,1
+327,328,20,Male,Unemployed,10,Yes,1,No,Bachelor's,Probation,1
+328,329,27,Female,Unemployed,7,Yes,0,Yes,Less than High School,Jail,1
+329,330,18,Female,Employed,1,No,1,Yes,Bachelor's,Parole,0
+330,331,32,Female,Employed,7,No,0,No,High School,Jail,0
+331,332,26,Female,Employed,10,No,0,Yes,Associate's,Probation,0
+332,333,58,Female,Employed,6,Yes,0,No,High School,Parole,0
+333,334,18,Female,Employed,4,Yes,0,Yes,Associate's,Parole,1
+334,335,56,Female,Employed,4,No,0,Yes,Bachelor's,Parole,0
+335,336,18,Male,Employed,10,Yes,0,No,Associate's,Parole,1
+336,337,40,Male,Employed,6,Yes,1,Yes,Bachelor's,Jail,0
+337,338,60,Male,Unemployed,5,No,1,Yes,High School,Jail,0
+338,339,64,Female,Employed,2,No,0,Yes,Bachelor's,Jail,0
+339,340,30,Male,Employed,7,No,1,Yes,Associate's,Parole,0
+340,341,41,Male,Unemployed,2,No,0,Yes,Bachelor's,Jail,0
+341,342,25,Male,Unemployed,4,No,1,No,High School,Parole,1
+342,343,21,Male,Employed,5,Yes,1,No,High School,Probation,1
+343,344,53,Female,Employed,1,Yes,0,Yes,High School,Probation,0
+344,345,42,Male,Employed,8,No,1,No,High School,Jail,1
+345,346,19,Male,Unemployed,1,No,1,No,Bachelor's,Probation,1
+346,347,28,Male,Employed,10,No,1,Yes,Associate's,Probation,0
+347,348,49,Female,Employed,7,Yes,1,No,Less than High School,Probation,1
+348,349,42,Female,Unemployed,6,Yes,1,No,Bachelor's,Probation,1
+349,350,61,Male,Employed,4,Yes,0,No,Less than High School,Jail,0
+350,351,31,Male,Employed,4,Yes,0,Yes,High School,Parole,0
+351,352,41,Female,Employed,9,No,1,Yes,Less than High School,Parole,0
+352,353,50,Female,Employed,1,No,0,Yes,Less than High School,Jail,0
+353,354,43,Female,Employed,10,Yes,1,Yes,Associate's,Probation,0
+354,355,45,Female,Unemployed,3,Yes,1,Yes,Associate's,Parole,1
+355,356,64,Female,Employed,9,Yes,0,No,Bachelor's,Parole,0
+356,357,48,Male,Unemployed,2,No,0,Yes,Bachelor's,Jail,0
+357,358,38,Male,Unemployed,2,No,1,No,Bachelor's,Jail,1
+358,359,63,Male,Employed,5,Yes,0,No,Associate's,Parole,0
+359,360,47,Female,Employed,2,No,1,Yes,Less than High School,Probation,0
+360,361,37,Male,Unemployed,9,No,1,No,High School,Jail,1
+361,362,61,Female,Unemployed,10,No,1,Yes,Associate's,Probation,0
+362,363,48,Female,Employed,4,Yes,0,No,High School,Parole,0
+363,364,50,Male,Employed,7,No,1,Yes,Associate's,Probation,0
+364,365,66,Female,Employed,0,Yes,0,Yes,High School,Probation,0
+365,366,57,Female,Unemployed,1,Yes,0,No,Bachelor's,Probation,1
+366,367,53,Female,Unemployed,8,No,1,Yes,Bachelor's,Jail,0
+367,368,70,Female,Unemployed,1,Yes,0,No,High School,Jail,1
+368,369,61,Male,Employed,6,No,1,No,High School,Probation,1
+369,370,64,Male,Employed,9,Yes,0,No,Bachelor's,Probation,0
+370,371,33,Male,Unemployed,0,Yes,1,Yes,High School,Parole,1
+371,372,36,Male,Employed,7,No,1,Yes,Less than High School,Probation,0
+372,373,35,Female,Unemployed,0,Yes,0,Yes,Less than High School,Jail,1
+373,374,68,Male,Unemployed,3,No,1,Yes,High School,Parole,0
+374,375,46,Male,Employed,0,No,0,No,High School,Jail,0
+375,376,63,Male,Employed,1,No,0,No,Bachelor's,Probation,0
+376,377,70,Male,Unemployed,7,No,1,No,High School,Jail,1
+377,378,38,Female,Employed,2,No,0,Yes,Bachelor's,Jail,0
+378,379,31,Male,Employed,9,No,1,Yes,Bachelor's,Jail,0
+379,380,46,Female,Employed,3,No,1,No,High School,Jail,1
+380,381,18,Male,Employed,1,Yes,1,No,Less than High School,Jail,1
+381,382,39,Female,Unemployed,3,Yes,0,Yes,High School,Probation,1
+382,383,65,Male,Employed,4,Yes,0,Yes,Associate's,Probation,0
+383,384,67,Male,Unemployed,0,Yes,1,Yes,Associate's,Parole,1
+384,385,19,Male,Employed,5,Yes,0,No,Associate's,Jail,1
+385,386,70,Male,Employed,0,Yes,0,Yes,Bachelor's,Parole,0
+386,387,20,Female,Employed,0,No,1,No,Associate's,Parole,1
+387,388,45,Female,Employed,5,No,0,Yes,Associate's,Jail,0
+388,389,62,Female,Employed,6,Yes,0,Yes,Bachelor's,Jail,0
+389,390,52,Male,Employed,0,No,1,Yes,Less than High School,Parole,0
+390,391,70,Male,Employed,3,No,0,No,Associate's,Probation,0
+391,392,59,Male,Employed,7,No,0,Yes,Associate's,Parole,0
+392,393,25,Female,Unemployed,10,No,1,No,Associate's,Parole,1
+393,394,40,Male,Employed,7,Yes,1,No,Associate's,Parole,1
+394,395,57,Female,Employed,0,Yes,1,Yes,High School,Parole,0
+395,396,51,Male,Unemployed,4,Yes,0,Yes,Less than High School,Parole,1
+396,397,19,Female,Unemployed,2,Yes,1,Yes,High School,Probation,1
+397,398,68,Male,Employed,8,Yes,1,No,High School,Parole,1
+398,399,41,Male,Unemployed,5,No,0,No,Bachelor's,Parole,0
+399,400,45,Female,Unemployed,8,No,0,No,Bachelor's,Jail,0
+400,401,57,Female,Unemployed,3,No,1,No,Bachelor's,Jail,1
+401,402,24,Male,Employed,6,Yes,0,Yes,Associate's,Jail,1
+402,403,61,Female,Unemployed,10,Yes,0,No,High School,Probation,1
+403,404,30,Male,Employed,9,No,1,Yes,Less than High School,Parole,0
+404,405,35,Female,Employed,4,No,1,No,High School,Probation,1
+405,406,63,Female,Employed,8,No,0,No,High School,Jail,0
+406,407,49,Female,Unemployed,3,No,1,Yes,Less than High School,Parole,0
+407,408,36,Male,Unemployed,0,No,1,Yes,High School,Parole,0
+408,409,56,Female,Unemployed,10,Yes,1,No,Less than High School,Parole,1
+409,410,23,Female,Employed,3,No,1,No,High School,Jail,1
+410,411,69,Female,Unemployed,1,Yes,1,Yes,Bachelor's,Probation,1
+411,412,23,Female,Employed,6,Yes,0,No,Bachelor's,Probation,1
+412,413,22,Female,Unemployed,5,Yes,1,Yes,Less than High School,Jail,1
+413,414,22,Female,Employed,9,Yes,0,No,Bachelor's,Parole,1
+414,415,31,Female,Unemployed,0,No,0,No,High School,Jail,0
+415,416,55,Female,Unemployed,0,Yes,0,Yes,Bachelor's,Probation,1
+416,417,21,Female,Unemployed,2,Yes,0,No,Bachelor's,Probation,1
+417,418,30,Male,Employed,8,No,1,No,Bachelor's,Parole,1
+418,419,62,Male,Unemployed,1,No,0,Yes,Bachelor's,Jail,0
+419,420,70,Male,Unemployed,0,No,0,Yes,Associate's,Parole,0
+420,421,45,Female,Unemployed,1,No,0,Yes,Associate's,Parole,0
+421,422,65,Male,Employed,4,Yes,0,Yes,High School,Parole,0
+422,423,33,Male,Unemployed,9,Yes,1,Yes,High School,Jail,1
+423,424,39,Female,Unemployed,1,No,1,Yes,High School,Parole,0
+424,425,35,Female,Employed,3,No,0,No,High School,Parole,0
+425,426,38,Female,Employed,8,Yes,1,Yes,High School,Probation,0
+426,427,26,Female,Employed,10,Yes,0,Yes,Associate's,Probation,0
+427,428,46,Male,Unemployed,6,Yes,0,Yes,High School,Jail,1
+428,429,67,Male,Unemployed,10,No,0,No,High School,Parole,0
+429,430,62,Male,Unemployed,8,No,0,No,Less than High School,Parole,0
+430,431,46,Female,Unemployed,2,No,0,No,Associate's,Jail,0
+431,432,66,Male,Unemployed,3,Yes,1,Yes,High School,Jail,1
+432,433,49,Female,Unemployed,8,Yes,1,Yes,High School,Parole,1
+433,434,60,Female,Employed,4,No,1,No,Associate's,Parole,1
+434,435,38,Male,Employed,6,Yes,1,No,Less than High School,Probation,1
+435,436,53,Female,Unemployed,6,No,0,Yes,Associate's,Parole,0
+436,437,61,Female,Employed,0,No,1,Yes,Bachelor's,Probation,0
+437,438,29,Female,Employed,6,No,0,No,High School,Probation,0
+438,439,47,Female,Employed,0,No,0,No,Less than High School,Parole,0
+439,440,33,Female,Employed,4,Yes,1,No,High School,Parole,1
+440,441,46,Male,Unemployed,5,Yes,0,No,Associate's,Jail,1
+441,442,37,Male,Unemployed,0,Yes,0,No,High School,Parole,1
+442,443,37,Male,Employed,7,Yes,0,Yes,Less than High School,Probation,0
+443,444,29,Female,Unemployed,3,Yes,0,No,Bachelor's,Probation,1
+444,445,23,Male,Employed,4,Yes,1,Yes,Less than High School,Probation,1
+445,446,66,Female,Unemployed,0,Yes,1,Yes,High School,Parole,1
+446,447,47,Male,Unemployed,8,No,1,Yes,High School,Parole,0
+447,448,30,Male,Unemployed,2,Yes,1,Yes,Less than High School,Jail,1
+448,449,30,Female,Employed,7,No,1,Yes,Less than High School,Probation,0
+449,450,53,Male,Unemployed,8,No,0,No,Bachelor's,Parole,0
+450,451,37,Female,Employed,8,No,0,Yes,Less than High School,Jail,0
+451,452,50,Male,Unemployed,6,Yes,0,No,Bachelor's,Jail,1
+452,453,32,Male,Unemployed,2,No,0,Yes,Associate's,Parole,0
+453,454,19,Female,Employed,2,Yes,1,No,Associate's,Parole,1
+454,455,39,Male,Employed,1,No,0,No,Bachelor's,Parole,0
+455,456,19,Male,Unemployed,1,Yes,0,Yes,High School,Probation,1
+456,457,61,Female,Employed,7,Yes,1,No,Bachelor's,Parole,1
+457,458,40,Female,Unemployed,7,No,1,No,Bachelor's,Parole,1
+458,459,19,Male,Unemployed,9,No,1,Yes,Associate's,Parole,1
+459,460,36,Male,Unemployed,2,No,1,No,High School,Parole,1
+460,461,18,Male,Unemployed,1,No,1,Yes,Less than High School,Parole,0
+461,462,39,Female,Employed,2,Yes,1,Yes,High School,Parole,0
+462,463,20,Male,Employed,1,No,1,Yes,High School,Jail,0
+463,464,34,Male,Unemployed,8,Yes,1,No,Less than High School,Jail,1
+464,465,63,Female,Employed,6,No,1,No,Associate's,Parole,1
+465,466,45,Female,Unemployed,6,Yes,0,No,High School,Probation,1
+466,467,63,Female,Employed,7,Yes,0,Yes,High School,Probation,0
+467,468,21,Female,Employed,4,Yes,0,Yes,Less than High School,Probation,1
+468,469,41,Female,Unemployed,9,No,1,Yes,Associate's,Jail,0
+469,470,49,Female,Employed,9,Yes,1,No,Associate's,Jail,1
+470,471,57,Male,Unemployed,8,No,0,Yes,Associate's,Parole,0
+471,472,57,Male,Unemployed,9,No,1,No,Bachelor's,Parole,1
+472,473,21,Male,Employed,7,No,0,Yes,High School,Probation,1
+473,474,29,Female,Employed,7,Yes,1,Yes,Associate's,Probation,0
+474,475,24,Male,Unemployed,7,No,1,Yes,Bachelor's,Probation,1
+475,476,65,Female,Unemployed,8,No,0,No,Less than High School,Jail,0
+476,477,26,Male,Unemployed,2,Yes,0,Yes,High School,Probation,1
+477,478,30,Male,Employed,10,Yes,1,No,Less than High School,Jail,1
+478,479,23,Male,Unemployed,3,No,1,No,Bachelor's,Jail,1
+479,480,30,Female,Unemployed,9,Yes,1,Yes,Associate's,Parole,1
+480,481,37,Male,Employed,9,Yes,1,Yes,Bachelor's,Jail,0
+481,482,18,Female,Employed,2,No,1,No,Associate's,Probation,1
+482,483,24,Female,Employed,2,No,1,Yes,Associate's,Parole,0
+483,484,45,Male,Employed,4,No,1,Yes,Less than High School,Probation,0
+484,485,41,Female,Employed,3,No,0,Yes,Associate's,Parole,0
+485,486,28,Male,Unemployed,6,Yes,1,Yes,Bachelor's,Parole,1
+486,487,39,Female,Unemployed,4,Yes,0,No,Less than High School,Jail,1
+487,488,46,Female,Unemployed,2,No,0,Yes,Bachelor's,Jail,0
+488,489,68,Male,Unemployed,4,Yes,0,Yes,Associate's,Parole,1
+489,490,54,Female,Employed,3,Yes,0,No,Bachelor's,Jail,0
+490,491,65,Male,Employed,6,No,1,No,Less than High School,Probation,1
+491,492,51,Male,Unemployed,8,No,1,No,Less than High School,Jail,1
+492,493,65,Female,Unemployed,4,No,1,No,Less than High School,Jail,1
+493,494,25,Male,Employed,5,No,0,Yes,Less than High School,Parole,0
+494,495,23,Male,Unemployed,6,Yes,0,Yes,Less than High School,Parole,1
+495,496,44,Female,Unemployed,0,Yes,0,Yes,Associate's,Jail,1
+496,497,61,Female,Unemployed,1,No,1,No,High School,Probation,1
+497,498,29,Male,Employed,8,No,1,No,High School,Parole,1
+498,499,34,Female,Unemployed,7,Yes,0,Yes,Less than High School,Parole,1
+499,500,40,Female,Employed,2,Yes,1,Yes,Less than High School,Jail,0
+500,501,24,Female,Employed,8,Yes,0,Yes,Bachelor's,Jail,1
+501,502,27,Female,Unemployed,9,Yes,1,No,Associate's,Parole,1
+502,503,20,Female,Employed,9,No,1,Yes,Associate's,Probation,1
+503,504,18,Female,Unemployed,10,Yes,0,Yes,Bachelor's,Parole,1
+504,505,64,Female,Unemployed,10,Yes,0,Yes,Less than High School,Jail,1
+505,506,20,Male,Employed,5,No,0,No,Bachelor's,Parole,1
+506,507,45,Male,Unemployed,5,Yes,1,Yes,Bachelor's,Parole,1
+507,508,41,Male,Employed,7,Yes,0,No,Bachelor's,Parole,0
+508,509,37,Female,Unemployed,4,No,0,Yes,Bachelor's,Jail,0
+509,510,29,Female,Unemployed,2,No,0,Yes,High School,Probation,0
+510,511,49,Male,Unemployed,6,No,0,No,Bachelor's,Probation,0
+511,512,57,Male,Employed,8,Yes,0,Yes,High School,Jail,0
+512,513,33,Male,Employed,5,Yes,0,Yes,Less than High School,Probation,0
+513,514,49,Female,Employed,9,Yes,0,No,Associate's,Parole,0
+514,515,68,Female,Unemployed,8,No,1,Yes,Associate's,Parole,0
+515,516,21,Female,Employed,7,Yes,1,Yes,Associate's,Jail,1
+516,517,51,Male,Employed,9,No,0,Yes,High School,Probation,0
+517,518,59,Female,Employed,6,Yes,1,Yes,Bachelor's,Jail,0
+518,519,28,Male,Employed,0,Yes,1,Yes,Associate's,Probation,0
+519,520,62,Male,Unemployed,2,No,0,No,Less than High School,Parole,0
+520,521,22,Male,Unemployed,1,No,0,Yes,High School,Parole,0
+521,522,29,Male,Unemployed,0,No,1,Yes,Associate's,Jail,0
+522,523,55,Male,Employed,9,No,1,Yes,High School,Probation,0
+523,524,24,Male,Unemployed,8,Yes,0,Yes,High School,Jail,1
+524,525,68,Female,Employed,7,No,0,No,Associate's,Probation,0
+525,526,29,Female,Unemployed,5,No,0,Yes,Bachelor's,Parole,0
+526,527,50,Female,Unemployed,9,No,0,No,High School,Probation,0
+527,528,50,Male,Employed,4,Yes,1,No,High School,Jail,1
+528,529,52,Female,Employed,4,Yes,1,Yes,Associate's,Probation,0
+529,530,30,Male,Unemployed,6,Yes,0,Yes,Associate's,Parole,1
+530,531,61,Male,Unemployed,7,No,0,Yes,Less than High School,Parole,0
+531,532,37,Male,Employed,7,No,0,Yes,Associate's,Jail,0
+532,533,54,Male,Unemployed,0,No,0,No,Less than High School,Parole,0
+533,534,38,Female,Employed,8,No,1,No,Bachelor's,Parole,1
+534,535,28,Male,Employed,1,No,1,Yes,High School,Parole,0
+535,536,18,Male,Unemployed,10,Yes,0,Yes,High School,Parole,1
+536,537,66,Female,Employed,1,Yes,1,No,Less than High School,Parole,1
+537,538,58,Male,Unemployed,0,No,1,No,High School,Jail,1
+538,539,27,Female,Employed,3,Yes,1,Yes,Bachelor's,Parole,0
+539,540,24,Female,Employed,1,Yes,0,No,Bachelor's,Probation,0
+540,541,62,Female,Unemployed,5,No,0,Yes,Less than High School,Parole,0
+541,542,27,Male,Employed,4,No,1,No,Associate's,Jail,1
+542,543,52,Female,Unemployed,0,No,0,No,Less than High School,Probation,0
+543,544,36,Female,Unemployed,1,Yes,0,No,High School,Parole,1
+544,545,58,Female,Unemployed,8,No,1,Yes,Bachelor's,Jail,0
+545,546,55,Female,Unemployed,2,No,0,No,Associate's,Jail,0
+546,547,28,Female,Employed,1,No,1,Yes,Less than High School,Probation,0
+547,548,69,Female,Unemployed,9,No,1,No,High School,Probation,1
+548,549,54,Female,Unemployed,2,Yes,0,Yes,High School,Parole,1
+549,550,18,Male,Employed,5,No,0,Yes,Associate's,Parole,1
+550,551,58,Female,Unemployed,1,Yes,1,Yes,Associate's,Parole,1
+551,552,70,Male,Unemployed,10,No,1,Yes,Less than High School,Parole,0
+552,553,34,Female,Unemployed,1,No,0,Yes,Associate's,Parole,0
+553,554,68,Male,Unemployed,5,No,0,No,Associate's,Probation,0
+554,555,53,Male,Unemployed,10,No,1,Yes,High School,Jail,0
+555,556,68,Female,Unemployed,7,No,0,No,High School,Probation,0
+556,557,39,Male,Employed,2,Yes,0,Yes,Associate's,Jail,0
+557,558,26,Female,Employed,6,Yes,0,No,Less than High School,Parole,0
+558,559,67,Female,Employed,10,No,0,No,High School,Jail,0
+559,560,64,Male,Unemployed,9,No,1,Yes,Less than High School,Jail,0
+560,561,32,Female,Unemployed,8,Yes,0,No,Associate's,Jail,1
+561,562,28,Female,Employed,4,Yes,0,Yes,Less than High School,Jail,0
+562,563,32,Female,Unemployed,0,Yes,1,No,Associate's,Jail,1
+563,564,20,Male,Employed,8,Yes,1,No,High School,Probation,1
+564,565,37,Female,Employed,1,No,1,No,Bachelor's,Probation,1
+565,566,67,Female,Employed,5,Yes,1,No,Bachelor's,Parole,1
+566,567,28,Female,Unemployed,5,No,1,Yes,Associate's,Jail,0
+567,568,58,Female,Employed,10,Yes,0,Yes,Associate's,Jail,0
+568,569,43,Male,Unemployed,8,Yes,0,Yes,Less than High School,Jail,1
+569,570,18,Male,Employed,2,Yes,0,Yes,Associate's,Jail,0
+570,571,19,Male,Employed,0,Yes,1,No,Associate's,Parole,1
+571,572,67,Male,Employed,8,Yes,1,Yes,Less than High School,Jail,0
+572,573,18,Female,Unemployed,4,No,0,No,Less than High School,Probation,1
+573,574,70,Male,Employed,10,No,0,No,Bachelor's,Probation,0
+574,575,22,Male,Employed,5,Yes,0,Yes,High School,Parole,1
+575,576,28,Male,Employed,9,No,1,Yes,Associate's,Probation,0
+576,577,30,Male,Unemployed,9,Yes,1,Yes,Bachelor's,Parole,1
+577,578,38,Female,Employed,0,No,0,No,High School,Jail,0
+578,579,27,Male,Unemployed,5,Yes,0,Yes,Less than High School,Probation,1
+579,580,41,Male,Employed,3,Yes,1,Yes,Less than High School,Jail,0
+580,581,28,Female,Employed,5,No,1,Yes,Associate's,Parole,0
+581,582,56,Female,Unemployed,7,Yes,1,Yes,High School,Parole,1
+582,583,20,Female,Employed,5,No,0,Yes,High School,Probation,1
+583,584,68,Female,Employed,2,Yes,1,Yes,Bachelor's,Parole,0
+584,585,37,Male,Employed,6,Yes,0,No,Less than High School,Probation,0
+585,586,54,Female,Employed,10,No,0,No,High School,Jail,0
+586,587,52,Female,Employed,1,No,0,Yes,High School,Parole,0
+587,588,66,Female,Unemployed,9,Yes,0,Yes,Bachelor's,Probation,1
+588,589,55,Male,Employed,1,No,0,Yes,High School,Parole,0
+589,590,54,Male,Unemployed,9,Yes,0,Yes,Associate's,Parole,1
+590,591,23,Male,Unemployed,8,No,0,Yes,Less than High School,Probation,1
+591,592,70,Female,Unemployed,10,No,1,No,Less than High School,Jail,1
+592,593,62,Male,Employed,0,No,0,Yes,Associate's,Probation,0
+593,594,43,Female,Unemployed,10,No,0,Yes,Bachelor's,Probation,0
+594,595,47,Female,Unemployed,9,Yes,0,No,Bachelor's,Parole,1
+595,596,19,Male,Unemployed,7,Yes,0,No,High School,Probation,1
+596,597,27,Male,Employed,9,Yes,1,Yes,Associate's,Parole,0
+597,598,45,Female,Employed,7,No,0,No,High School,Probation,0
+598,599,23,Female,Employed,7,No,1,Yes,Less than High School,Probation,1
+599,600,63,Male,Employed,0,No,1,Yes,Less than High School,Probation,0
+600,601,54,Male,Employed,0,No,1,No,Less than High School,Probation,1
+601,602,63,Male,Unemployed,3,Yes,1,Yes,High School,Parole,1
+602,603,37,Male,Employed,2,No,1,Yes,Bachelor's,Probation,0
+603,604,42,Male,Employed,2,Yes,1,Yes,High School,Jail,0
+604,605,62,Male,Unemployed,10,Yes,1,No,High School,Parole,1
+605,606,50,Male,Employed,4,Yes,1,No,High School,Jail,1
+606,607,70,Male,Unemployed,9,Yes,1,Yes,Less than High School,Jail,1
+607,608,49,Male,Unemployed,10,No,0,No,Bachelor's,Parole,0
+608,609,20,Female,Employed,6,No,0,Yes,Associate's,Parole,1
+609,610,63,Male,Employed,8,Yes,0,No,Less than High School,Jail,0
+610,611,46,Male,Unemployed,1,Yes,1,Yes,Less than High School,Probation,1
+611,612,35,Female,Unemployed,3,Yes,1,No,Associate's,Probation,1
+612,613,64,Male,Unemployed,9,No,1,No,Less than High School,Probation,1
+613,614,44,Female,Employed,3,Yes,1,No,High School,Probation,1
+614,615,51,Female,Unemployed,8,No,1,Yes,Less than High School,Parole,0
+615,616,36,Male,Unemployed,5,Yes,1,No,Less than High School,Jail,1
+616,617,50,Male,Unemployed,8,Yes,1,No,Bachelor's,Parole,1
+617,618,69,Female,Unemployed,6,No,1,No,Bachelor's,Jail,1
+618,619,32,Male,Unemployed,0,Yes,0,No,Associate's,Jail,1
+619,620,23,Female,Employed,6,No,1,No,Less than High School,Probation,1
+620,621,21,Male,Employed,3,Yes,1,No,Associate's,Jail,1
+621,622,56,Female,Unemployed,5,No,1,No,Associate's,Jail,1
+622,623,44,Male,Unemployed,9,Yes,0,No,Less than High School,Probation,1
+623,624,58,Female,Employed,5,No,0,Yes,Less than High School,Jail,0
+624,625,29,Female,Employed,10,No,0,Yes,High School,Jail,0
+625,626,58,Female,Unemployed,0,Yes,0,Yes,Associate's,Jail,1
+626,627,60,Female,Unemployed,4,Yes,1,No,Associate's,Probation,1
+627,628,41,Male,Unemployed,9,No,0,No,Less than High School,Probation,0
+628,629,63,Female,Unemployed,8,Yes,1,No,Less than High School,Parole,1
+629,630,54,Male,Employed,8,No,1,No,Associate's,Probation,1
+630,631,31,Male,Employed,2,Yes,0,Yes,Less than High School,Probation,0
+631,632,35,Male,Unemployed,10,Yes,0,No,High School,Parole,1
+632,633,68,Male,Unemployed,9,No,0,No,Associate's,Jail,0
+633,634,56,Male,Unemployed,10,No,1,No,Less than High School,Probation,1
+634,635,48,Female,Employed,0,Yes,1,No,Associate's,Jail,1
+635,636,42,Female,Unemployed,5,No,1,Yes,Bachelor's,Probation,0
+636,637,27,Female,Employed,2,No,0,Yes,Associate's,Parole,0
+637,638,30,Female,Unemployed,8,Yes,1,No,High School,Jail,1
+638,639,44,Female,Unemployed,9,No,0,No,Associate's,Probation,0
+639,640,59,Male,Employed,1,Yes,0,Yes,Bachelor's,Probation,0
+640,641,26,Male,Unemployed,9,Yes,0,Yes,Bachelor's,Jail,1
+641,642,32,Male,Employed,8,Yes,0,Yes,Associate's,Probation,0
+642,643,27,Male,Unemployed,4,Yes,1,No,Bachelor's,Jail,1
+643,644,36,Male,Unemployed,4,No,0,No,Associate's,Jail,0
+644,645,65,Female,Employed,10,No,1,Yes,Associate's,Jail,0
+645,646,31,Female,Employed,6,No,0,Yes,Less than High School,Parole,0
+646,647,27,Female,Unemployed,3,No,1,Yes,Less than High School,Parole,0
+647,648,69,Male,Employed,0,No,1,Yes,High School,Parole,0
+648,649,45,Male,Unemployed,10,Yes,0,Yes,Bachelor's,Parole,1
+649,650,52,Male,Unemployed,8,Yes,0,Yes,High School,Parole,1
+650,651,67,Male,Unemployed,5,Yes,0,Yes,Associate's,Jail,1
+651,652,26,Female,Unemployed,0,Yes,0,No,Associate's,Probation,1
+652,653,24,Female,Employed,1,No,1,Yes,Bachelor's,Probation,0
+653,654,19,Male,Employed,6,Yes,1,Yes,Associate's,Jail,1
+654,655,63,Male,Unemployed,7,Yes,0,Yes,High School,Jail,1
+655,656,28,Male,Employed,3,Yes,0,No,Associate's,Probation,0
+656,657,20,Female,Employed,2,Yes,0,Yes,High School,Probation,0
+657,658,61,Male,Unemployed,8,Yes,0,No,High School,Parole,1
+658,659,39,Male,Unemployed,7,No,0,No,High School,Jail,0
+659,660,22,Female,Employed,1,Yes,0,Yes,Associate's,Jail,0
+660,661,63,Female,Employed,3,No,0,No,Less than High School,Probation,0
+661,662,67,Male,Employed,2,Yes,1,Yes,Associate's,Jail,0
+662,663,26,Male,Employed,9,Yes,1,No,Less than High School,Parole,1
+663,664,40,Female,Employed,3,No,1,Yes,Less than High School,Probation,0
+664,665,27,Male,Unemployed,5,Yes,0,No,Less than High School,Jail,1
+665,666,41,Female,Employed,5,Yes,0,No,Less than High School,Jail,0
+666,667,29,Female,Unemployed,10,Yes,0,Yes,Associate's,Probation,1
+667,668,22,Male,Unemployed,3,No,1,Yes,High School,Parole,1
+668,669,25,Male,Unemployed,8,Yes,0,Yes,Less than High School,Probation,1
+669,670,34,Male,Unemployed,7,No,0,Yes,High School,Probation,0
+670,671,47,Female,Employed,4,Yes,1,Yes,Less than High School,Probation,0
+671,672,69,Female,Unemployed,4,No,1,Yes,High School,Jail,0
+672,673,18,Female,Unemployed,0,Yes,0,Yes,High School,Probation,1
+673,674,53,Female,Employed,10,No,0,No,Bachelor's,Parole,0
+674,675,51,Female,Unemployed,4,No,0,No,Associate's,Jail,0
+675,676,62,Female,Unemployed,10,Yes,0,No,Less than High School,Probation,1
+676,677,62,Male,Employed,9,No,1,Yes,Less than High School,Parole,0
+677,678,34,Female,Unemployed,10,Yes,1,Yes,Associate's,Parole,1
+678,679,41,Male,Unemployed,2,Yes,1,No,Associate's,Jail,1
+679,680,67,Female,Employed,1,No,1,No,Less than High School,Jail,1
+680,681,52,Male,Unemployed,5,No,1,Yes,Bachelor's,Probation,0
+681,682,54,Female,Employed,0,Yes,1,No,High School,Parole,1
+682,683,54,Female,Employed,4,Yes,0,Yes,Bachelor's,Jail,0
+683,684,60,Female,Unemployed,9,Yes,0,No,Less than High School,Probation,1
+684,685,30,Male,Employed,0,Yes,0,Yes,Less than High School,Probation,0
+685,686,23,Male,Unemployed,5,Yes,1,Yes,Less than High School,Jail,1
+686,687,42,Female,Unemployed,7,Yes,0,Yes,Less than High School,Parole,1
+687,688,18,Female,Unemployed,8,No,1,Yes,Less than High School,Jail,1
+688,689,68,Male,Employed,10,Yes,0,No,Bachelor's,Jail,0
+689,690,34,Female,Unemployed,9,No,1,Yes,Bachelor's,Probation,0
+690,691,18,Male,Unemployed,5,No,0,No,Bachelor's,Parole,1
+691,692,70,Male,Unemployed,0,Yes,1,No,Bachelor's,Jail,1
+692,693,54,Male,Unemployed,10,Yes,1,No,Less than High School,Parole,1
+693,694,62,Female,Unemployed,2,Yes,1,No,Less than High School,Jail,1
+694,695,40,Male,Unemployed,7,Yes,1,Yes,Bachelor's,Jail,1
+695,696,60,Female,Employed,8,No,1,Yes,Bachelor's,Jail,0
+696,697,37,Male,Employed,8,Yes,1,Yes,Bachelor's,Parole,0
+697,698,35,Female,Employed,4,No,0,No,Bachelor's,Jail,0
+698,699,35,Male,Employed,4,Yes,0,No,High School,Probation,0
+699,700,29,Male,Employed,8,Yes,1,No,Associate's,Parole,1
+700,701,31,Female,Unemployed,3,No,0,No,High School,Parole,0
+701,702,25,Female,Unemployed,10,No,1,Yes,Associate's,Probation,0
+702,703,19,Female,Unemployed,7,Yes,1,No,High School,Jail,1
+703,704,30,Female,Employed,3,Yes,1,No,Bachelor's,Jail,1
+704,705,31,Female,Employed,9,Yes,0,Yes,Associate's,Probation,0
+705,706,21,Male,Unemployed,9,Yes,0,Yes,Associate's,Probation,1
+706,707,30,Female,Unemployed,5,Yes,1,No,Bachelor's,Parole,1
+707,708,36,Male,Unemployed,3,Yes,0,No,Associate's,Parole,1
+708,709,55,Female,Employed,10,Yes,0,No,High School,Probation,0
+709,710,57,Male,Employed,6,Yes,0,Yes,Associate's,Probation,0
+710,711,32,Female,Employed,2,Yes,1,No,High School,Parole,1
+711,712,30,Male,Employed,9,No,1,No,High School,Probation,1
+712,713,42,Female,Unemployed,9,Yes,1,No,Associate's,Probation,1
+713,714,33,Male,Unemployed,1,No,0,Yes,High School,Parole,0
+714,715,47,Female,Unemployed,1,No,0,Yes,Less than High School,Jail,0
+715,716,20,Female,Employed,8,Yes,1,No,Associate's,Jail,1
+716,717,45,Female,Unemployed,8,No,0,No,Less than High School,Jail,0
+717,718,69,Male,Employed,10,No,0,No,Less than High School,Parole,0
+718,719,65,Male,Employed,1,No,0,Yes,Bachelor's,Parole,0
+719,720,44,Male,Unemployed,2,No,1,Yes,Associate's,Parole,0
+720,721,39,Female,Unemployed,9,No,0,No,High School,Probation,0
+721,722,38,Male,Unemployed,3,No,0,No,Associate's,Jail,0
+722,723,28,Male,Employed,9,Yes,0,No,Less than High School,Probation,0
+723,724,47,Male,Unemployed,5,Yes,0,No,Less than High School,Probation,1
+724,725,41,Male,Employed,9,No,0,No,Bachelor's,Parole,0
+725,726,49,Male,Employed,10,Yes,1,No,Less than High School,Jail,1
+726,727,35,Female,Unemployed,1,Yes,0,Yes,Less than High School,Jail,1
+727,728,30,Female,Employed,9,No,1,No,High School,Probation,1
+728,729,23,Male,Employed,0,Yes,1,Yes,High School,Probation,0
+729,730,28,Female,Employed,5,No,1,No,Less than High School,Probation,1
+730,731,32,Female,Employed,9,Yes,1,No,Associate's,Parole,1
+731,732,23,Male,Unemployed,3,Yes,1,Yes,High School,Parole,1
+732,733,40,Female,Employed,5,Yes,0,Yes,Associate's,Probation,0
+733,734,42,Female,Unemployed,9,No,1,Yes,Less than High School,Probation,0
+734,735,27,Female,Employed,5,Yes,1,No,Bachelor's,Probation,1
+735,736,29,Male,Employed,10,No,0,No,Associate's,Probation,0
+736,737,57,Female,Employed,1,No,1,No,Bachelor's,Parole,1
+737,738,50,Female,Employed,4,No,0,No,Less than High School,Probation,0
+738,739,48,Male,Unemployed,7,Yes,1,No,Associate's,Probation,1
+739,740,52,Female,Unemployed,9,Yes,1,Yes,Less than High School,Parole,1
+740,741,34,Female,Employed,8,Yes,1,Yes,Associate's,Jail,0
+741,742,62,Male,Employed,3,Yes,0,Yes,High School,Jail,0
+742,743,53,Male,Unemployed,1,No,1,No,High School,Parole,1
+743,744,36,Female,Employed,10,Yes,1,Yes,Less than High School,Probation,0
+744,745,46,Male,Employed,10,No,0,Yes,Less than High School,Parole,0
+745,746,68,Male,Employed,7,No,1,Yes,Less than High School,Probation,0
+746,747,66,Male,Employed,7,Yes,1,No,High School,Parole,1
+747,748,38,Female,Employed,6,Yes,1,No,Bachelor's,Parole,1
+748,749,58,Male,Employed,8,Yes,0,No,High School,Probation,0
+749,750,59,Female,Employed,2,Yes,0,No,Associate's,Probation,0
+750,751,23,Male,Unemployed,10,Yes,0,No,High School,Parole,1
+751,752,67,Female,Employed,10,No,0,No,Bachelor's,Probation,0
+752,753,59,Female,Employed,2,No,0,No,High School,Jail,0
+753,754,52,Female,Employed,10,No,0,Yes,Bachelor's,Parole,0
+754,755,49,Male,Unemployed,5,Yes,1,No,Bachelor's,Jail,1
+755,756,56,Female,Unemployed,3,Yes,0,No,Less than High School,Parole,1
+756,757,52,Male,Unemployed,10,No,0,No,Associate's,Probation,0
+757,758,27,Female,Employed,2,Yes,1,No,Associate's,Probation,1
+758,759,26,Male,Unemployed,2,No,1,Yes,Associate's,Parole,0
+759,760,67,Male,Unemployed,10,Yes,1,Yes,Associate's,Parole,1
+760,761,24,Male,Unemployed,6,No,1,Yes,Associate's,Probation,1
+761,762,46,Male,Employed,5,Yes,0,Yes,High School,Jail,0
+762,763,32,Male,Employed,6,No,0,No,Associate's,Probation,0
+763,764,31,Female,Employed,3,No,1,Yes,Associate's,Probation,0
+764,765,32,Female,Unemployed,2,No,1,No,Associate's,Jail,1
+765,766,37,Male,Unemployed,9,No,1,No,Bachelor's,Parole,1
+766,767,42,Male,Unemployed,9,Yes,1,No,Less than High School,Jail,1
+767,768,50,Male,Unemployed,4,Yes,0,No,Bachelor's,Parole,1
+768,769,52,Male,Employed,0,Yes,1,Yes,High School,Parole,0
+769,770,58,Female,Employed,1,No,0,No,High School,Probation,0
+770,771,21,Male,Employed,3,No,0,Yes,Less than High School,Parole,1
+771,772,59,Female,Employed,7,No,0,No,Bachelor's,Probation,0
+772,773,42,Male,Unemployed,4,No,1,Yes,Bachelor's,Jail,0
+773,774,66,Male,Unemployed,9,Yes,0,No,High School,Parole,1
+774,775,67,Male,Employed,9,No,0,Yes,High School,Parole,0
+775,776,64,Male,Unemployed,9,No,1,Yes,Less than High School,Parole,0
+776,777,53,Female,Employed,1,Yes,1,No,Bachelor's,Parole,1
+777,778,67,Female,Employed,2,Yes,1,Yes,Bachelor's,Probation,0
+778,779,19,Male,Employed,2,Yes,0,No,Bachelor's,Parole,0
+779,780,70,Male,Employed,9,Yes,0,Yes,Bachelor's,Parole,0
+780,781,33,Male,Employed,9,No,0,Yes,Bachelor's,Probation,0
+781,782,29,Female,Unemployed,1,No,1,Yes,Associate's,Probation,0
+782,783,62,Male,Employed,5,Yes,1,No,Less than High School,Jail,1
+783,784,59,Female,Unemployed,3,Yes,0,Yes,Bachelor's,Probation,1
+784,785,25,Female,Unemployed,4,Yes,0,Yes,High School,Jail,1
+785,786,45,Male,Unemployed,6,No,0,Yes,Associate's,Parole,0
+786,787,45,Male,Unemployed,9,Yes,0,No,Bachelor's,Jail,1
+787,788,55,Male,Unemployed,0,Yes,0,Yes,High School,Jail,1
+788,789,57,Male,Unemployed,9,Yes,0,Yes,High School,Parole,1
+789,790,62,Female,Employed,5,No,0,Yes,Less than High School,Parole,0
+790,791,34,Female,Employed,7,Yes,1,No,Less than High School,Jail,1
+791,792,55,Female,Unemployed,0,Yes,0,No,Less than High School,Jail,1
+792,793,49,Male,Employed,2,Yes,0,Yes,Bachelor's,Probation,0
+793,794,24,Male,Unemployed,6,Yes,0,Yes,Less than High School,Probation,1
+794,795,68,Male,Employed,0,Yes,0,No,Less than High School,Probation,0
+795,796,44,Female,Unemployed,4,No,0,Yes,Associate's,Parole,0
+796,797,63,Female,Unemployed,4,Yes,0,No,Less than High School,Jail,1
+797,798,24,Male,Employed,2,No,1,No,Associate's,Parole,1
+798,799,59,Male,Unemployed,0,No,0,Yes,Less than High School,Probation,0
+799,800,47,Male,Employed,3,Yes,0,No,High School,Jail,0
+800,801,36,Female,Employed,10,No,1,Yes,High School,Parole,0
+801,802,51,Male,Employed,8,Yes,0,No,High School,Parole,0
+802,803,47,Male,Unemployed,6,No,1,No,Bachelor's,Jail,1
+803,804,48,Male,Unemployed,4,No,0,No,High School,Parole,0
+804,805,67,Female,Employed,5,Yes,1,No,Bachelor's,Jail,1
+805,806,35,Female,Unemployed,4,No,0,Yes,Associate's,Parole,0
+806,807,20,Female,Unemployed,1,Yes,1,No,Associate's,Parole,1
+807,808,40,Male,Employed,8,Yes,1,Yes,High School,Parole,0
+808,809,58,Female,Employed,6,No,0,No,Less than High School,Jail,0
+809,810,21,Female,Unemployed,10,Yes,1,No,Bachelor's,Parole,1
+810,811,55,Male,Employed,8,Yes,0,Yes,Associate's,Parole,0
+811,812,64,Female,Unemployed,1,Yes,1,Yes,Bachelor's,Jail,1
+812,813,21,Male,Employed,6,No,0,Yes,Less than High School,Parole,1
+813,814,47,Male,Unemployed,8,No,1,No,Less than High School,Parole,1
+814,815,21,Male,Employed,1,No,1,No,Bachelor's,Parole,1
+815,816,49,Male,Employed,1,Yes,0,No,Bachelor's,Probation,0
+816,817,22,Male,Unemployed,4,No,0,Yes,High School,Probation,1
+817,818,24,Male,Unemployed,0,Yes,0,No,Less than High School,Parole,1
+818,819,25,Male,Unemployed,2,Yes,1,Yes,Less than High School,Parole,1
+819,820,38,Female,Unemployed,2,Yes,0,Yes,Bachelor's,Parole,1
+820,821,47,Female,Unemployed,0,Yes,0,Yes,High School,Parole,1
+821,822,41,Male,Employed,6,No,1,No,Less than High School,Probation,1
+822,823,65,Female,Employed,8,No,0,Yes,High School,Parole,0
+823,824,26,Female,Employed,2,Yes,0,No,Less than High School,Jail,0
+824,825,29,Male,Unemployed,1,Yes,0,Yes,Associate's,Parole,1
+825,826,64,Female,Unemployed,5,Yes,1,Yes,High School,Jail,1
+826,827,55,Male,Employed,4,Yes,0,No,Less than High School,Jail,0
+827,828,44,Female,Employed,6,No,0,Yes,Associate's,Probation,0
+828,829,46,Male,Unemployed,0,Yes,1,Yes,Bachelor's,Probation,1
+829,830,50,Female,Unemployed,1,Yes,1,Yes,Less than High School,Probation,1
+830,831,32,Female,Employed,8,No,1,No,Bachelor's,Jail,1
+831,832,59,Male,Employed,9,No,1,No,Less than High School,Parole,1
+832,833,22,Male,Employed,1,Yes,0,No,Less than High School,Probation,0
+833,834,38,Male,Unemployed,6,No,1,Yes,Less than High School,Jail,0
+834,835,22,Male,Employed,4,No,0,Yes,High School,Probation,1
+835,836,48,Male,Employed,6,No,0,No,Bachelor's,Parole,0
+836,837,31,Male,Unemployed,7,Yes,1,Yes,High School,Probation,1
+837,838,38,Male,Unemployed,3,Yes,1,No,Associate's,Jail,1
+838,839,34,Male,Employed,6,Yes,0,No,High School,Jail,0
+839,840,56,Male,Unemployed,8,Yes,1,Yes,High School,Probation,1
+840,841,62,Male,Employed,7,No,1,Yes,Less than High School,Parole,0
+841,842,34,Female,Employed,7,No,0,Yes,Bachelor's,Probation,0
+842,843,70,Female,Employed,7,Yes,0,No,Associate's,Jail,0
+843,844,38,Female,Unemployed,7,Yes,1,Yes,Associate's,Probation,1
+844,845,36,Male,Unemployed,5,Yes,1,No,Bachelor's,Jail,1
+845,846,30,Female,Employed,7,No,0,Yes,Bachelor's,Parole,0
+846,847,31,Male,Unemployed,4,No,0,No,Associate's,Jail,0
+847,848,66,Female,Employed,1,No,0,No,High School,Probation,0
+848,849,51,Female,Unemployed,6,Yes,1,No,Less than High School,Probation,1
+849,850,49,Male,Unemployed,0,Yes,0,Yes,Associate's,Parole,1
+850,851,28,Male,Employed,10,No,1,No,Bachelor's,Jail,1
+851,852,63,Female,Unemployed,5,No,0,No,Bachelor's,Parole,0
+852,853,54,Female,Employed,8,No,0,Yes,High School,Parole,0
+853,854,43,Male,Unemployed,7,Yes,1,No,Associate's,Probation,1
+854,855,33,Male,Employed,4,No,1,No,Associate's,Probation,1
+855,856,54,Male,Employed,1,No,1,No,High School,Parole,1
+856,857,39,Female,Employed,4,Yes,1,Yes,Bachelor's,Parole,0
+857,858,30,Female,Unemployed,9,No,0,No,Associate's,Parole,0
+858,859,60,Female,Unemployed,0,No,1,Yes,Bachelor's,Jail,0
+859,860,53,Female,Unemployed,9,Yes,1,No,Associate's,Probation,1
+860,861,40,Male,Unemployed,9,No,1,Yes,Associate's,Jail,0
+861,862,25,Female,Employed,10,Yes,0,Yes,Bachelor's,Probation,0
+862,863,67,Female,Employed,10,Yes,1,Yes,Bachelor's,Jail,0
+863,864,46,Female,Unemployed,3,No,0,Yes,Less than High School,Probation,0
+864,865,55,Female,Unemployed,7,Yes,0,Yes,Bachelor's,Jail,1
+865,866,31,Female,Employed,7,No,1,No,High School,Jail,1
+866,867,59,Male,Employed,6,No,1,No,Bachelor's,Probation,1
+867,868,35,Male,Employed,0,Yes,0,No,Less than High School,Parole,0
+868,869,69,Male,Unemployed,2,Yes,0,Yes,Associate's,Parole,1
+869,870,33,Female,Unemployed,10,Yes,0,No,High School,Parole,1
+870,871,52,Female,Unemployed,1,Yes,1,Yes,Bachelor's,Probation,1
+871,872,53,Female,Unemployed,4,Yes,1,Yes,Less than High School,Probation,1
+872,873,35,Male,Unemployed,1,No,0,Yes,High School,Jail,0
+873,874,60,Male,Unemployed,10,No,0,Yes,High School,Parole,0
+874,875,31,Female,Unemployed,4,No,1,Yes,Less than High School,Parole,0
+875,876,68,Female,Employed,1,Yes,0,No,Associate's,Probation,0
+876,877,20,Male,Employed,5,No,1,No,Bachelor's,Parole,1
+877,878,18,Female,Unemployed,6,Yes,1,No,Associate's,Probation,1
+878,879,41,Female,Unemployed,6,No,1,Yes,High School,Parole,0
+879,880,64,Male,Unemployed,5,Yes,1,No,High School,Parole,1
+880,881,23,Female,Employed,8,No,1,No,High School,Probation,1
+881,882,49,Male,Employed,0,Yes,0,No,High School,Probation,0
+882,883,48,Female,Employed,1,No,0,No,High School,Jail,0
+883,884,56,Male,Unemployed,3,Yes,1,No,High School,Jail,1
+884,885,39,Female,Employed,6,No,1,Yes,Bachelor's,Parole,0
+885,886,43,Female,Unemployed,0,No,0,Yes,Less than High School,Probation,0
+886,887,27,Male,Employed,8,Yes,0,Yes,High School,Parole,0
+887,888,40,Female,Unemployed,5,Yes,0,No,Associate's,Jail,1
+888,889,48,Male,Employed,1,Yes,1,No,Associate's,Parole,1
+889,890,24,Female,Employed,2,Yes,1,No,Bachelor's,Parole,1
+890,891,18,Female,Employed,0,No,1,No,High School,Probation,1
+891,892,53,Female,Employed,9,No,1,Yes,Less than High School,Parole,0
+892,893,56,Female,Employed,7,No,1,Yes,Associate's,Parole,0
+893,894,21,Female,Unemployed,3,Yes,0,No,High School,Parole,1
+894,895,29,Female,Unemployed,8,No,0,No,Less than High School,Jail,0
+895,896,26,Male,Unemployed,6,Yes,0,Yes,Bachelor's,Probation,1
+896,897,51,Female,Unemployed,0,Yes,1,No,Associate's,Probation,1
+897,898,22,Female,Employed,3,Yes,0,Yes,Less than High School,Jail,1
+898,899,26,Male,Employed,0,Yes,0,No,Less than High School,Probation,0
+899,900,36,Male,Employed,2,Yes,0,No,Less than High School,Parole,0
+900,901,50,Female,Employed,4,No,1,No,Less than High School,Jail,1
+901,902,63,Male,Unemployed,2,No,0,Yes,Bachelor's,Jail,0
+902,903,33,Female,Employed,7,No,0,Yes,High School,Jail,0
+903,904,31,Male,Unemployed,10,No,0,Yes,Associate's,Parole,0
+904,905,34,Female,Employed,5,Yes,1,Yes,Associate's,Probation,0
+905,906,41,Male,Employed,0,Yes,1,No,Less than High School,Parole,1
+906,907,34,Male,Unemployed,6,No,0,Yes,Less than High School,Jail,0
+907,908,46,Male,Unemployed,1,No,0,Yes,Less than High School,Probation,0
+908,909,67,Male,Unemployed,5,Yes,0,No,Associate's,Probation,1
+909,910,64,Male,Employed,2,No,0,No,Associate's,Jail,0
+910,911,42,Female,Employed,1,No,1,No,Bachelor's,Parole,1
+911,912,27,Female,Unemployed,7,No,0,No,Bachelor's,Parole,0
+912,913,36,Male,Unemployed,9,Yes,1,No,Less than High School,Jail,1
+913,914,60,Female,Unemployed,4,No,0,Yes,High School,Jail,0
+914,915,36,Male,Unemployed,2,Yes,0,Yes,Bachelor's,Parole,1
+915,916,65,Female,Unemployed,0,No,1,No,High School,Parole,1
+916,917,49,Male,Unemployed,8,No,1,No,Bachelor's,Jail,1
+917,918,65,Female,Employed,5,Yes,1,No,Associate's,Probation,1
+918,919,52,Female,Employed,7,Yes,1,No,Associate's,Parole,1
+919,920,52,Male,Unemployed,3,Yes,1,Yes,Bachelor's,Probation,1
+920,921,26,Female,Unemployed,6,Yes,1,Yes,Bachelor's,Jail,1
+921,922,52,Male,Employed,9,Yes,1,Yes,Associate's,Jail,0
+922,923,25,Male,Employed,1,No,0,Yes,Less than High School,Jail,0
+923,924,31,Female,Employed,6,No,0,Yes,High School,Parole,0
+924,925,65,Female,Unemployed,1,No,0,Yes,Bachelor's,Jail,0
+925,926,35,Female,Unemployed,2,No,0,Yes,Bachelor's,Parole,0
+926,927,53,Male,Unemployed,2,No,0,Yes,Associate's,Jail,0
+927,928,18,Male,Employed,9,Yes,1,Yes,Bachelor's,Probation,1
+928,929,45,Male,Unemployed,2,Yes,0,Yes,Less than High School,Probation,1
+929,930,50,Male,Unemployed,5,Yes,1,Yes,High School,Parole,1
+930,931,44,Female,Employed,6,Yes,0,Yes,Associate's,Parole,0
+931,932,58,Female,Unemployed,6,No,0,Yes,Less than High School,Jail,0
+932,933,31,Female,Employed,6,Yes,1,No,Associate's,Parole,1
+933,934,49,Male,Unemployed,9,Yes,1,No,Less than High School,Probation,1
+934,935,62,Female,Employed,6,Yes,0,No,Less than High School,Jail,0
+935,936,37,Female,Unemployed,8,No,0,Yes,Less than High School,Jail,0
+936,937,31,Female,Employed,6,No,1,No,Less than High School,Jail,1
+937,938,33,Female,Employed,5,Yes,0,No,Less than High School,Jail,0
+938,939,22,Female,Unemployed,2,Yes,1,Yes,High School,Probation,1
+939,940,56,Male,Unemployed,1,Yes,0,No,High School,Parole,1
+940,941,53,Male,Unemployed,4,No,0,No,High School,Probation,0
+941,942,52,Male,Employed,7,No,1,No,Associate's,Parole,1
+942,943,39,Male,Employed,7,No,0,No,Associate's,Probation,0
+943,944,63,Female,Employed,2,No,0,No,Bachelor's,Probation,0
+944,945,47,Female,Employed,2,No,1,Yes,Less than High School,Parole,0
+945,946,38,Male,Employed,3,No,0,Yes,Less than High School,Jail,0
+946,947,32,Male,Unemployed,2,No,1,Yes,Associate's,Probation,0
+947,948,69,Female,Unemployed,1,No,0,Yes,Less than High School,Parole,0
+948,949,27,Female,Unemployed,2,No,1,Yes,Bachelor's,Jail,0
+949,950,30,Female,Employed,10,Yes,0,Yes,Less than High School,Probation,0
+950,951,35,Male,Unemployed,10,Yes,0,Yes,Associate's,Parole,1
+951,952,40,Male,Unemployed,9,Yes,0,No,Associate's,Probation,1
+952,953,49,Male,Employed,4,No,0,No,Bachelor's,Probation,0
+953,954,39,Male,Employed,10,Yes,1,Yes,Bachelor's,Parole,0
+954,955,62,Male,Unemployed,9,No,1,Yes,Bachelor's,Jail,0
+955,956,50,Female,Unemployed,8,Yes,0,Yes,High School,Parole,1
+956,957,47,Male,Employed,0,No,0,No,Bachelor's,Parole,0
+957,958,67,Male,Employed,1,No,1,No,High School,Parole,1
+958,959,62,Male,Employed,6,Yes,1,No,Bachelor's,Probation,1
+959,960,62,Female,Employed,9,Yes,1,Yes,High School,Probation,0
+960,961,25,Female,Unemployed,2,No,1,No,Associate's,Parole,1
+961,962,50,Female,Employed,0,Yes,1,Yes,Less than High School,Probation,0
+962,963,35,Female,Unemployed,10,No,0,No,Associate's,Probation,0
+963,964,47,Female,Employed,6,Yes,0,No,Less than High School,Parole,0
+964,965,23,Female,Employed,6,Yes,0,No,Associate's,Probation,1
+965,966,29,Female,Unemployed,0,No,0,No,Associate's,Jail,0
+966,967,22,Male,Unemployed,9,Yes,1,No,High School,Probation,1
+967,968,57,Male,Unemployed,0,Yes,0,No,High School,Probation,1
+968,969,36,Female,Unemployed,10,No,0,No,Less than High School,Parole,0
+969,970,64,Male,Unemployed,8,Yes,0,Yes,Associate's,Probation,1
+970,971,44,Male,Employed,4,No,1,Yes,High School,Jail,0
+971,972,29,Male,Employed,2,Yes,1,No,High School,Jail,1
+972,973,45,Male,Employed,10,Yes,1,Yes,Associate's,Jail,0
+973,974,53,Male,Employed,2,Yes,0,Yes,High School,Jail,0
+974,975,28,Female,Unemployed,1,Yes,1,No,High School,Probation,1
+975,976,39,Male,Unemployed,7,Yes,1,No,Associate's,Probation,1
+976,977,35,Male,Unemployed,7,Yes,0,Yes,High School,Probation,1
+977,978,50,Male,Unemployed,0,Yes,1,No,Less than High School,Probation,1
+978,979,35,Female,Employed,6,No,1,No,Less than High School,Jail,1
+979,980,45,Female,Unemployed,3,Yes,0,No,Less than High School,Parole,1
+980,981,52,Female,Unemployed,7,Yes,1,Yes,Bachelor's,Jail,1
+981,982,35,Female,Employed,3,Yes,0,Yes,Bachelor's,Probation,0
+982,983,20,Female,Unemployed,7,Yes,0,No,Bachelor's,Probation,1
+983,984,39,Female,Employed,1,No,0,Yes,High School,Jail,0
+984,985,64,Female,Employed,1,Yes,1,Yes,High School,Parole,0
+985,986,61,Female,Employed,7,No,0,No,Less than High School,Probation,0
+986,987,31,Female,Unemployed,10,No,0,No,Bachelor's,Jail,0
+987,988,18,Female,Employed,9,Yes,0,No,High School,Jail,1
+988,989,23,Female,Employed,8,No,1,Yes,Less than High School,Jail,1
+989,990,22,Male,Employed,6,No,0,No,Less than High School,Parole,1
+990,991,55,Female,Employed,3,No,0,No,Associate's,Jail,0
+991,992,40,Female,Unemployed,6,Yes,1,No,High School,Probation,1
+992,993,60,Female,Unemployed,8,No,0,Yes,Bachelor's,Jail,0
+993,994,35,Male,Unemployed,9,No,0,Yes,Bachelor's,Jail,0
+994,995,22,Male,Employed,3,Yes,0,No,Associate's,Jail,1
+995,996,48,Female,Unemployed,7,No,1,No,Less than High School,Probation,1
+996,997,21,Male,Unemployed,10,Yes,1,Yes,Less than High School,Jail,1
+997,998,35,Male,Employed,3,Yes,1,No,Associate's,Probation,1
+998,999,29,Female,Employed,3,Yes,1,Yes,High School,Jail,0
+999,1000,52,Female,Unemployed,3,No,1,No,Less than High School,Probation,1

@@ -1,0 +1,1001 @@
+,Age,Mammographic_density,Shape,Size,Margins,Architectural,label
+0,56,2,Asymmetric,2,Thick,Complex,0
+1,69,2,Normal,2,Normal,Uniform,0
+2,46,2,Irregular,3,Normal,Hilly,0
+3,32,2,Round,2,Hilly,Uniform,1
+4,60,2,Asymmetric,2,Normal,Inverted,1
+5,25,2,Asymmetric,3,Hilly,Uniform,0
+6,78,2,Round,1,Hilly,Hilly,1
+7,38,2,Normal,1,Hilly,Inverted,0
+8,56,2,Round,1,Normal,Uniform,1
+9,75,2,Irregular,3,Hilly,Uniform,1
+10,36,2,Round,2,Normal,Hilly,1
+11,40,2,Asymmetric,3,Hilly,Uniform,0
+12,28,2,Round,3,Inverted,Complex,1
+13,28,2,Normal,2,Hilly,Hilly,0
+14,41,2,Calcified mass,1,Inverted,Inverted,0
+15,70,2,Round,1,Hilly,Inverted,1
+16,53,2,Normal,3,Thick,Uniform,0
+17,57,2,Normal,1,Hilly,Inverted,0
+18,41,2,Asymmetric,3,Inverted,Hilly,0
+19,20,2,Normal,3,Inverted,Inverted,0
+20,39,2,Normal,2,Normal,Hilly,0
+21,70,2,Normal,2,Inverted,Complex,0
+22,19,2,Normal,2,Hilly,Uniform,0
+23,41,2,Irregular,3,Normal,Inverted,1
+24,61,2,Irregular,2,Inverted,Hilly,0
+25,47,2,Asymmetric,1,Hilly,Uniform,0
+26,55,2,Round,1,Thick,Uniform,1
+27,19,2,Normal,3,Hilly,Complex,0
+28,77,2,Round,3,Inverted,Hilly,1
+29,38,2,Round,2,Inverted,Complex,1
+30,50,2,Asymmetric,3,Thick,Complex,0
+31,29,2,Normal,3,Normal,Inverted,1
+32,75,2,Normal,1,Inverted,Inverted,0
+33,39,2,Calcified mass,1,Hilly,Hilly,0
+34,78,2,Round,2,Inverted,Uniform,1
+35,61,2,Round,3,Normal,Hilly,1
+36,42,2,Irregular,3,Thick,Uniform,1
+37,66,2,Calcified mass,1,Inverted,Complex,0
+38,44,2,Irregular,3,Thick,Uniform,1
+39,76,2,Irregular,1,Hilly,Hilly,0
+40,59,2,Irregular,2,Inverted,Hilly,0
+41,45,2,Asymmetric,1,Inverted,Uniform,0
+42,77,2,Asymmetric,3,Inverted,Complex,0
+43,33,2,Irregular,2,Hilly,Complex,0
+44,32,2,Calcified mass,1,Normal,Uniform,0
+45,79,2,Round,1,Inverted,Complex,1
+46,79,2,Calcified mass,2,Inverted,Inverted,0
+47,64,2,Normal,2,Inverted,Uniform,0
+48,79,2,Asymmetric,1,Inverted,Hilly,0
+49,68,2,Round,3,Inverted,Uniform,1
+50,61,2,Round,1,Thick,Hilly,1
+51,72,2,Normal,2,Inverted,Inverted,0
+52,69,2,Normal,1,Inverted,Complex,0
+53,74,2,Irregular,2,Normal,Uniform,1
+54,20,2,Asymmetric,2,Thick,Inverted,0
+55,54,2,Asymmetric,3,Thick,Uniform,0
+56,68,2,Calcified mass,2,Normal,Uniform,0
+57,24,2,Irregular,2,Inverted,Complex,0
+58,38,2,Irregular,3,Hilly,Inverted,0
+59,26,2,Irregular,2,Normal,Uniform,1
+60,56,2,Irregular,3,Inverted,Inverted,0
+61,35,2,Asymmetric,3,Normal,Inverted,1
+62,21,2,Asymmetric,2,Normal,Complex,0
+63,42,2,Irregular,2,Inverted,Hilly,0
+64,77,2,Calcified mass,1,Inverted,Uniform,0
+65,31,2,Round,3,Hilly,Complex,1
+66,67,2,Round,1,Inverted,Inverted,1
+67,75,2,Calcified mass,2,Normal,Complex,0
+68,26,2,Irregular,1,Normal,Hilly,0
+69,43,2,Asymmetric,3,Normal,Uniform,0
+70,70,2,Round,1,Inverted,Hilly,1
+71,19,2,Normal,3,Inverted,Uniform,0
+72,37,2,Normal,2,Inverted,Uniform,0
+73,45,2,Calcified mass,2,Hilly,Hilly,0
+74,64,2,Irregular,3,Inverted,Inverted,0
+75,77,2,Round,2,Thick,Uniform,1
+76,24,2,Irregular,2,Normal,Uniform,1
+77,61,2,Round,2,Normal,Complex,1
+78,78,2,Calcified mass,2,Normal,Inverted,1
+79,25,2,Calcified mass,3,Inverted,Uniform,0
+80,64,2,Normal,1,Inverted,Hilly,0
+81,52,2,Irregular,1,Normal,Complex,0
+82,31,2,Normal,2,Inverted,Hilly,0
+83,34,2,Irregular,1,Inverted,Uniform,1
+84,53,2,Normal,1,Inverted,Uniform,0
+85,67,2,Asymmetric,2,Inverted,Uniform,0
+86,57,2,Asymmetric,2,Normal,Uniform,0
+87,21,2,Asymmetric,1,Inverted,Hilly,0
+88,19,2,Asymmetric,3,Inverted,Inverted,0
+89,79,2,Round,2,Inverted,Inverted,1
+90,23,2,Asymmetric,3,Thick,Uniform,0
+91,71,2,Calcified mass,1,Inverted,Hilly,0
+92,59,2,Calcified mass,2,Hilly,Hilly,0
+93,21,2,Round,3,Hilly,Uniform,1
+94,71,2,Asymmetric,2,Thick,Hilly,0
+95,46,2,Asymmetric,1,Inverted,Complex,0
+96,35,2,Asymmetric,3,Thick,Uniform,0
+97,43,2,Normal,1,Thick,Complex,0
+98,61,2,Irregular,1,Normal,Uniform,1
+99,51,2,Normal,2,Inverted,Inverted,0
+100,27,2,Irregular,3,Hilly,Uniform,1
+101,79,2,Asymmetric,1,Inverted,Inverted,0
+102,53,2,Asymmetric,1,Hilly,Uniform,0
+103,31,2,Normal,3,Hilly,Hilly,0
+104,48,2,Normal,1,Inverted,Complex,0
+105,65,2,Irregular,1,Hilly,Inverted,0
+106,32,2,Calcified mass,3,Hilly,Uniform,0
+107,25,2,Irregular,3,Thick,Complex,0
+108,31,2,Normal,3,Inverted,Uniform,0
+109,40,2,Normal,3,Normal,Complex,0
+110,77,2,Round,2,Inverted,Complex,1
+111,74,2,Normal,3,Hilly,Uniform,0
+112,79,2,Round,2,Inverted,Inverted,1
+113,57,2,Calcified mass,2,Normal,Inverted,1
+114,38,2,Irregular,2,Inverted,Complex,0
+115,33,2,Irregular,1,Normal,Hilly,0
+116,62,2,Round,2,Thick,Hilly,1
+117,35,2,Irregular,2,Hilly,Uniform,1
+118,64,2,Normal,1,Normal,Uniform,0
+119,70,2,Asymmetric,1,Inverted,Uniform,0
+120,41,2,Round,1,Hilly,Complex,1
+121,43,2,Irregular,3,Thick,Uniform,1
+122,42,2,Round,1,Hilly,Uniform,1
+123,77,2,Round,1,Normal,Complex,1
+124,77,2,Asymmetric,2,Thick,Uniform,0
+125,77,2,Normal,1,Inverted,Uniform,0
+126,62,2,Round,3,Thick,Uniform,1
+127,58,2,Irregular,1,Thick,Inverted,0
+128,46,2,Calcified mass,3,Inverted,Uniform,0
+129,32,2,Round,1,Thick,Hilly,1
+130,62,2,Round,1,Thick,Hilly,1
+131,18,2,Asymmetric,1,Hilly,Uniform,0
+132,42,2,Normal,1,Inverted,Hilly,0
+133,24,2,Calcified mass,3,Hilly,Inverted,0
+134,26,2,Irregular,3,Hilly,Complex,0
+135,41,2,Calcified mass,2,Normal,Hilly,0
+136,18,2,Irregular,3,Hilly,Hilly,0
+137,61,2,Normal,1,Inverted,Uniform,0
+138,25,2,Irregular,2,Inverted,Inverted,0
+139,41,2,Asymmetric,2,Normal,Complex,0
+140,28,2,Asymmetric,2,Inverted,Uniform,0
+141,68,2,Asymmetric,1,Inverted,Uniform,0
+142,34,2,Asymmetric,3,Hilly,Inverted,0
+143,25,2,Calcified mass,1,Hilly,Complex,0
+144,52,2,Normal,2,Hilly,Inverted,0
+145,52,2,Irregular,1,Inverted,Complex,0
+146,50,2,Irregular,1,Thick,Inverted,0
+147,76,2,Asymmetric,3,Inverted,Uniform,0
+148,22,2,Asymmetric,3,Thick,Uniform,0
+149,59,2,Round,2,Thick,Uniform,1
+150,56,2,Normal,1,Inverted,Hilly,0
+151,75,2,Calcified mass,1,Thick,Inverted,0
+152,58,2,Irregular,3,Normal,Uniform,1
+153,45,2,Round,1,Hilly,Hilly,1
+154,24,2,Round,1,Normal,Inverted,1
+155,26,2,Irregular,1,Inverted,Complex,0
+156,25,2,Calcified mass,3,Hilly,Hilly,0
+157,29,2,Round,2,Thick,Uniform,1
+158,51,2,Round,2,Inverted,Uniform,1
+159,50,2,Normal,1,Hilly,Hilly,0
+160,65,2,Calcified mass,2,Thick,Hilly,0
+161,72,2,Round,3,Normal,Uniform,1
+162,40,2,Calcified mass,3,Hilly,Inverted,0
+163,79,2,Irregular,2,Thick,Complex,0
+164,41,2,Asymmetric,2,Normal,Uniform,0
+165,54,2,Round,1,Inverted,Complex,1
+166,52,2,Normal,2,Inverted,Inverted,0
+167,61,2,Irregular,1,Inverted,Hilly,0
+168,57,2,Calcified mass,1,Inverted,Complex,0
+169,39,2,Irregular,3,Inverted,Uniform,1
+170,44,2,Round,3,Hilly,Uniform,1
+171,52,2,Calcified mass,3,Hilly,Uniform,0
+172,18,2,Asymmetric,3,Inverted,Inverted,0
+173,52,2,Irregular,2,Thick,Uniform,1
+174,54,2,Round,3,Thick,Uniform,1
+175,64,2,Normal,2,Inverted,Uniform,0
+176,31,2,Calcified mass,3,Normal,Uniform,0
+177,20,2,Irregular,2,Thick,Uniform,1
+178,18,2,Irregular,1,Normal,Uniform,1
+179,22,2,Asymmetric,2,Hilly,Uniform,0
+180,43,2,Asymmetric,2,Normal,Inverted,1
+181,72,2,Normal,3,Hilly,Uniform,0
+182,31,2,Normal,2,Inverted,Uniform,0
+183,56,2,Round,1,Inverted,Complex,1
+184,44,2,Round,1,Inverted,Uniform,1
+185,26,2,Normal,3,Thick,Uniform,0
+186,32,2,Normal,1,Inverted,Inverted,0
+187,32,2,Calcified mass,2,Hilly,Hilly,0
+188,43,2,Asymmetric,1,Inverted,Hilly,0
+189,59,2,Round,3,Normal,Inverted,1
+190,77,2,Asymmetric,2,Hilly,Inverted,0
+191,30,2,Asymmetric,3,Inverted,Inverted,0
+192,68,2,Normal,2,Thick,Hilly,0
+193,49,2,Calcified mass,1,Hilly,Inverted,0
+194,56,2,Irregular,3,Hilly,Uniform,1
+195,66,2,Calcified mass,3,Normal,Uniform,0
+196,69,2,Calcified mass,2,Thick,Uniform,0
+197,78,2,Asymmetric,3,Inverted,Complex,0
+198,49,2,Calcified mass,2,Hilly,Complex,0
+199,21,2,Round,2,Hilly,Uniform,1
+200,47,2,Asymmetric,2,Normal,Uniform,0
+201,54,2,Round,2,Inverted,Hilly,1
+202,40,2,Irregular,1,Inverted,Hilly,0
+203,56,2,Asymmetric,2,Thick,Uniform,0
+204,62,2,Irregular,3,Hilly,Hilly,0
+205,32,2,Asymmetric,1,Hilly,Inverted,0
+206,60,2,Normal,3,Inverted,Uniform,0
+207,46,2,Calcified mass,1,Inverted,Uniform,0
+208,53,2,Normal,2,Hilly,Uniform,0
+209,30,2,Irregular,1,Inverted,Hilly,0
+210,49,2,Calcified mass,1,Normal,Complex,0
+211,24,2,Asymmetric,3,Inverted,Complex,0
+212,76,2,Calcified mass,3,Thick,Hilly,0
+213,68,2,Round,2,Hilly,Complex,1
+214,39,2,Calcified mass,1,Inverted,Uniform,0
+215,45,2,Round,1,Normal,Uniform,1
+216,19,2,Calcified mass,1,Thick,Hilly,0
+217,59,2,Round,2,Inverted,Complex,1
+218,62,2,Irregular,2,Inverted,Uniform,1
+219,79,2,Normal,2,Thick,Uniform,0
+220,74,2,Asymmetric,2,Normal,Inverted,1
+221,70,2,Calcified mass,2,Normal,Inverted,1
+222,23,2,Normal,3,Inverted,Uniform,0
+223,45,2,Asymmetric,1,Hilly,Hilly,0
+224,45,2,Asymmetric,1,Thick,Uniform,0
+225,61,2,Round,1,Thick,Uniform,1
+226,61,2,Irregular,1,Thick,Uniform,1
+227,37,2,Irregular,1,Normal,Uniform,1
+228,47,2,Normal,1,Hilly,Uniform,0
+229,79,2,Irregular,1,Inverted,Hilly,0
+230,28,2,Calcified mass,1,Inverted,Inverted,0
+231,75,2,Irregular,3,Inverted,Uniform,1
+232,72,2,Normal,1,Thick,Uniform,0
+233,45,2,Irregular,3,Hilly,Complex,0
+234,42,2,Calcified mass,2,Normal,Hilly,0
+235,56,2,Round,1,Hilly,Uniform,1
+236,79,2,Normal,2,Hilly,Complex,0
+237,50,2,Round,2,Normal,Uniform,1
+238,18,2,Round,2,Thick,Uniform,1
+239,74,2,Round,3,Hilly,Uniform,1
+240,44,2,Asymmetric,2,Inverted,Complex,0
+241,79,2,Asymmetric,2,Normal,Hilly,0
+242,74,2,Round,2,Inverted,Uniform,1
+243,69,2,Normal,1,Thick,Uniform,0
+244,30,2,Calcified mass,1,Normal,Uniform,0
+245,58,2,Calcified mass,3,Inverted,Uniform,0
+246,20,2,Irregular,3,Inverted,Inverted,0
+247,56,2,Normal,1,Hilly,Inverted,0
+248,23,2,Asymmetric,3,Hilly,Uniform,0
+249,25,2,Round,1,Hilly,Hilly,1
+250,44,2,Irregular,2,Normal,Uniform,1
+251,26,2,Calcified mass,2,Normal,Uniform,0
+252,79,2,Asymmetric,3,Thick,Inverted,0
+253,54,2,Asymmetric,1,Hilly,Uniform,0
+254,50,2,Round,1,Inverted,Uniform,1
+255,68,2,Calcified mass,3,Inverted,Uniform,0
+256,59,2,Normal,1,Thick,Hilly,0
+257,61,2,Asymmetric,2,Normal,Complex,0
+258,41,2,Round,3,Thick,Inverted,1
+259,32,2,Normal,3,Thick,Inverted,0
+260,76,2,Calcified mass,1,Thick,Complex,0
+261,71,2,Asymmetric,3,Thick,Uniform,0
+262,49,2,Normal,1,Inverted,Hilly,0
+263,49,2,Normal,1,Hilly,Hilly,0
+264,41,2,Normal,1,Inverted,Inverted,0
+265,58,2,Asymmetric,1,Thick,Hilly,0
+266,69,2,Asymmetric,1,Thick,Complex,0
+267,66,2,Irregular,3,Thick,Uniform,1
+268,79,2,Calcified mass,2,Hilly,Complex,0
+269,66,2,Round,2,Normal,Uniform,1
+270,75,2,Normal,3,Normal,Inverted,1
+271,69,2,Irregular,3,Inverted,Hilly,0
+272,29,2,Round,2,Normal,Uniform,1
+273,79,2,Irregular,2,Thick,Hilly,0
+274,56,2,Asymmetric,2,Thick,Uniform,0
+275,19,2,Normal,2,Thick,Uniform,0
+276,20,2,Round,2,Inverted,Uniform,1
+277,66,2,Round,1,Thick,Hilly,1
+278,54,2,Round,3,Normal,Uniform,1
+279,66,2,Round,1,Hilly,Uniform,1
+280,73,2,Round,2,Hilly,Uniform,1
+281,34,2,Irregular,2,Inverted,Hilly,0
+282,76,2,Normal,2,Normal,Uniform,0
+283,66,2,Asymmetric,1,Thick,Hilly,0
+284,19,2,Asymmetric,1,Hilly,Hilly,0
+285,19,2,Asymmetric,2,Normal,Inverted,1
+286,45,2,Asymmetric,1,Hilly,Hilly,0
+287,71,2,Irregular,1,Thick,Hilly,0
+288,40,2,Calcified mass,2,Hilly,Complex,0
+289,54,2,Normal,1,Inverted,Uniform,0
+290,49,2,Round,3,Inverted,Inverted,1
+291,50,2,Calcified mass,3,Hilly,Inverted,0
+292,18,2,Asymmetric,3,Normal,Inverted,1
+293,36,2,Calcified mass,3,Normal,Complex,0
+294,79,2,Normal,2,Normal,Hilly,0
+295,19,2,Round,2,Hilly,Uniform,1
+296,70,2,Round,2,Normal,Uniform,1
+297,61,2,Normal,3,Thick,Hilly,0
+298,43,2,Normal,3,Inverted,Complex,0
+299,49,2,Asymmetric,1,Thick,Hilly,0
+300,23,2,Round,1,Normal,Hilly,1
+301,49,2,Calcified mass,3,Thick,Complex,0
+302,72,2,Irregular,3,Normal,Inverted,1
+303,21,2,Irregular,3,Hilly,Inverted,0
+304,72,2,Normal,3,Thick,Uniform,0
+305,28,2,Asymmetric,1,Hilly,Uniform,0
+306,73,2,Irregular,3,Hilly,Inverted,0
+307,76,2,Round,1,Inverted,Uniform,1
+308,34,2,Normal,3,Normal,Hilly,0
+309,55,2,Calcified mass,3,Inverted,Uniform,0
+310,41,2,Normal,3,Normal,Hilly,0
+311,22,2,Calcified mass,1,Inverted,Inverted,0
+312,69,2,Normal,1,Normal,Uniform,0
+313,51,2,Normal,2,Hilly,Uniform,0
+314,23,2,Normal,3,Thick,Uniform,0
+315,39,2,Calcified mass,2,Thick,Uniform,0
+316,28,2,Calcified mass,2,Inverted,Inverted,0
+317,65,2,Normal,1,Inverted,Uniform,0
+318,33,2,Irregular,1,Inverted,Hilly,0
+319,50,2,Asymmetric,2,Inverted,Uniform,0
+320,26,2,Asymmetric,3,Hilly,Complex,0
+321,77,2,Asymmetric,1,Inverted,Uniform,0
+322,76,2,Calcified mass,3,Thick,Hilly,0
+323,23,2,Calcified mass,3,Hilly,Uniform,0
+324,33,2,Irregular,2,Normal,Hilly,0
+325,46,2,Asymmetric,2,Inverted,Complex,0
+326,20,2,Asymmetric,2,Inverted,Inverted,0
+327,37,2,Normal,2,Normal,Uniform,0
+328,77,2,Calcified mass,1,Inverted,Uniform,0
+329,76,2,Asymmetric,1,Normal,Inverted,1
+330,53,2,Irregular,2,Hilly,Hilly,0
+331,36,2,Irregular,1,Thick,Uniform,1
+332,43,2,Asymmetric,2,Normal,Inverted,1
+333,20,2,Calcified mass,3,Inverted,Uniform,0
+334,36,2,Irregular,3,Normal,Complex,0
+335,37,2,Normal,3,Inverted,Complex,0
+336,49,2,Irregular,2,Hilly,Uniform,1
+337,24,2,Round,3,Hilly,Uniform,1
+338,69,2,Round,1,Normal,Complex,1
+339,58,2,Calcified mass,3,Thick,Uniform,0
+340,50,2,Asymmetric,3,Inverted,Complex,0
+341,57,2,Calcified mass,3,Hilly,Uniform,0
+342,56,2,Calcified mass,1,Inverted,Complex,0
+343,35,2,Calcified mass,2,Inverted,Complex,0
+344,57,2,Calcified mass,1,Thick,Uniform,0
+345,18,2,Normal,2,Hilly,Inverted,0
+346,28,2,Normal,2,Normal,Uniform,0
+347,45,2,Irregular,3,Inverted,Uniform,1
+348,74,2,Round,2,Thick,Complex,1
+349,42,2,Calcified mass,1,Hilly,Complex,0
+350,67,2,Irregular,1,Hilly,Inverted,0
+351,40,2,Round,2,Hilly,Uniform,1
+352,48,2,Asymmetric,3,Hilly,Uniform,0
+353,47,2,Normal,3,Hilly,Hilly,0
+354,59,2,Round,1,Inverted,Uniform,1
+355,52,2,Asymmetric,3,Thick,Inverted,0
+356,24,2,Round,2,Hilly,Hilly,1
+357,77,2,Normal,2,Inverted,Hilly,0
+358,33,2,Normal,1,Inverted,Complex,0
+359,43,2,Irregular,2,Thick,Complex,0
+360,65,2,Calcified mass,1,Normal,Uniform,0
+361,74,2,Round,2,Normal,Hilly,1
+362,69,2,Round,1,Normal,Complex,1
+363,77,2,Asymmetric,3,Inverted,Inverted,0
+364,66,2,Normal,2,Normal,Complex,0
+365,19,2,Round,2,Inverted,Complex,1
+366,18,2,Normal,1,Hilly,Hilly,0
+367,65,2,Round,1,Inverted,Hilly,1
+368,79,2,Irregular,2,Thick,Uniform,1
+369,29,2,Calcified mass,1,Thick,Inverted,0
+370,22,2,Round,2,Hilly,Hilly,1
+371,54,2,Normal,3,Inverted,Uniform,0
+372,49,2,Irregular,1,Normal,Inverted,1
+373,76,2,Round,2,Normal,Inverted,1
+374,72,2,Asymmetric,3,Inverted,Hilly,0
+375,26,2,Calcified mass,3,Inverted,Inverted,0
+376,58,2,Round,2,Normal,Hilly,1
+377,52,2,Irregular,1,Thick,Complex,0
+378,36,2,Asymmetric,2,Thick,Uniform,0
+379,65,2,Irregular,3,Inverted,Complex,0
+380,33,2,Irregular,2,Hilly,Hilly,0
+381,20,2,Asymmetric,1,Normal,Hilly,0
+382,37,2,Irregular,3,Inverted,Complex,0
+383,41,2,Asymmetric,2,Inverted,Uniform,0
+384,71,2,Round,1,Normal,Uniform,1
+385,73,2,Asymmetric,3,Normal,Uniform,0
+386,50,2,Asymmetric,1,Thick,Hilly,0
+387,41,2,Calcified mass,3,Hilly,Inverted,0
+388,69,2,Asymmetric,2,Hilly,Hilly,0
+389,28,2,Asymmetric,1,Normal,Inverted,1
+390,66,2,Round,3,Inverted,Complex,1
+391,25,2,Calcified mass,1,Inverted,Uniform,0
+392,53,2,Normal,1,Inverted,Inverted,0
+393,55,2,Round,2,Normal,Uniform,1
+394,57,2,Round,1,Inverted,Hilly,1
+395,37,2,Normal,3,Thick,Complex,0
+396,79,2,Asymmetric,3,Normal,Uniform,0
+397,52,2,Irregular,3,Normal,Complex,0
+398,65,2,Calcified mass,3,Inverted,Uniform,0
+399,79,2,Irregular,2,Normal,Hilly,0
+400,42,2,Normal,1,Normal,Hilly,0
+401,52,2,Round,2,Normal,Uniform,1
+402,42,2,Round,1,Inverted,Hilly,1
+403,46,2,Calcified mass,1,Thick,Inverted,0
+404,35,2,Round,1,Thick,Complex,1
+405,63,2,Round,2,Normal,Uniform,1
+406,35,2,Calcified mass,1,Inverted,Uniform,0
+407,19,2,Calcified mass,2,Thick,Inverted,0
+408,71,2,Normal,3,Thick,Uniform,0
+409,52,2,Round,3,Thick,Uniform,1
+410,33,2,Round,1,Inverted,Uniform,1
+411,78,2,Normal,2,Inverted,Inverted,0
+412,58,2,Asymmetric,3,Normal,Uniform,0
+413,53,2,Asymmetric,2,Hilly,Uniform,0
+414,50,2,Asymmetric,2,Thick,Inverted,0
+415,21,2,Normal,1,Hilly,Hilly,0
+416,50,2,Round,3,Inverted,Uniform,1
+417,31,2,Normal,1,Inverted,Complex,0
+418,38,2,Normal,1,Inverted,Inverted,0
+419,65,2,Asymmetric,3,Hilly,Uniform,0
+420,37,2,Irregular,3,Inverted,Uniform,1
+421,73,2,Round,2,Normal,Complex,1
+422,25,2,Asymmetric,3,Inverted,Uniform,0
+423,24,2,Irregular,2,Inverted,Complex,0
+424,20,2,Irregular,2,Hilly,Complex,0
+425,34,2,Calcified mass,2,Inverted,Hilly,0
+426,50,2,Round,3,Inverted,Complex,1
+427,65,2,Irregular,1,Normal,Hilly,0
+428,29,2,Asymmetric,2,Thick,Inverted,0
+429,76,2,Calcified mass,1,Inverted,Hilly,0
+430,68,2,Round,1,Normal,Uniform,1
+431,39,2,Normal,3,Hilly,Uniform,0
+432,72,2,Asymmetric,1,Inverted,Inverted,0
+433,39,2,Irregular,1,Inverted,Inverted,0
+434,63,2,Irregular,3,Inverted,Uniform,1
+435,47,2,Asymmetric,2,Hilly,Hilly,0
+436,55,2,Irregular,1,Normal,Uniform,1
+437,55,2,Calcified mass,3,Hilly,Hilly,0
+438,62,2,Round,1,Inverted,Complex,1
+439,68,2,Calcified mass,1,Inverted,Hilly,0
+440,71,2,Irregular,2,Thick,Inverted,0
+441,25,2,Normal,1,Hilly,Uniform,0
+442,44,2,Round,3,Hilly,Hilly,1
+443,44,2,Round,1,Normal,Uniform,1
+444,51,2,Asymmetric,2,Normal,Uniform,0
+445,38,2,Asymmetric,2,Hilly,Complex,0
+446,47,2,Normal,3,Inverted,Complex,0
+447,50,2,Round,2,Thick,Inverted,1
+448,45,2,Normal,1,Normal,Uniform,0
+449,64,2,Asymmetric,2,Inverted,Uniform,0
+450,50,2,Asymmetric,3,Inverted,Uniform,0
+451,22,2,Round,2,Normal,Inverted,1
+452,77,2,Calcified mass,2,Inverted,Uniform,0
+453,78,2,Irregular,2,Inverted,Uniform,1
+454,65,2,Asymmetric,3,Thick,Uniform,0
+455,36,2,Asymmetric,2,Thick,Hilly,0
+456,21,2,Calcified mass,2,Inverted,Complex,0
+457,52,2,Calcified mass,1,Inverted,Hilly,0
+458,66,2,Normal,3,Inverted,Uniform,0
+459,34,2,Normal,2,Thick,Complex,0
+460,61,2,Irregular,3,Normal,Hilly,0
+461,45,2,Irregular,2,Normal,Complex,0
+462,47,2,Round,2,Hilly,Uniform,1
+463,46,2,Normal,2,Thick,Hilly,0
+464,63,2,Asymmetric,1,Hilly,Complex,0
+465,70,2,Normal,1,Thick,Complex,0
+466,23,2,Asymmetric,1,Inverted,Complex,0
+467,52,2,Calcified mass,3,Inverted,Hilly,0
+468,77,2,Normal,3,Inverted,Inverted,0
+469,58,2,Calcified mass,1,Thick,Hilly,0
+470,54,2,Irregular,3,Inverted,Uniform,1
+471,41,2,Irregular,2,Normal,Hilly,0
+472,46,2,Round,2,Normal,Complex,1
+473,66,2,Normal,2,Hilly,Uniform,0
+474,63,2,Calcified mass,1,Thick,Hilly,0
+475,70,2,Asymmetric,3,Thick,Hilly,0
+476,48,2,Irregular,1,Normal,Complex,0
+477,52,2,Irregular,3,Inverted,Uniform,1
+478,77,2,Asymmetric,2,Inverted,Uniform,0
+479,50,2,Calcified mass,1,Inverted,Uniform,0
+480,69,2,Calcified mass,3,Inverted,Hilly,0
+481,78,2,Normal,3,Normal,Uniform,0
+482,38,2,Normal,2,Normal,Uniform,0
+483,49,2,Round,1,Normal,Inverted,1
+484,40,2,Irregular,1,Hilly,Inverted,0
+485,50,2,Normal,1,Inverted,Uniform,0
+486,20,2,Calcified mass,2,Thick,Uniform,0
+487,35,2,Asymmetric,1,Inverted,Uniform,0
+488,42,2,Calcified mass,2,Hilly,Complex,0
+489,59,2,Irregular,2,Thick,Hilly,0
+490,48,2,Calcified mass,2,Inverted,Uniform,0
+491,71,2,Round,3,Normal,Complex,1
+492,75,2,Irregular,1,Inverted,Uniform,1
+493,20,2,Asymmetric,1,Inverted,Complex,0
+494,57,2,Round,2,Hilly,Hilly,1
+495,63,2,Irregular,2,Hilly,Hilly,0
+496,41,2,Asymmetric,1,Inverted,Inverted,0
+497,67,2,Round,2,Thick,Complex,1
+498,49,2,Round,1,Thick,Inverted,1
+499,64,2,Irregular,3,Hilly,Complex,0
+500,39,2,Normal,2,Hilly,Inverted,0
+501,40,2,Round,1,Normal,Hilly,1
+502,19,2,Round,2,Thick,Uniform,1
+503,44,2,Asymmetric,1,Inverted,Inverted,0
+504,59,2,Calcified mass,1,Thick,Complex,0
+505,19,2,Irregular,2,Normal,Complex,0
+506,43,2,Irregular,3,Hilly,Hilly,0
+507,34,2,Normal,1,Hilly,Complex,0
+508,57,2,Normal,1,Normal,Uniform,0
+509,50,2,Irregular,1,Inverted,Uniform,1
+510,26,2,Normal,3,Hilly,Inverted,0
+511,60,2,Asymmetric,3,Inverted,Uniform,0
+512,71,2,Irregular,2,Hilly,Hilly,0
+513,65,2,Normal,3,Inverted,Inverted,0
+514,56,2,Irregular,2,Normal,Inverted,1
+515,46,2,Calcified mass,2,Normal,Uniform,0
+516,59,2,Round,3,Hilly,Hilly,1
+517,72,2,Irregular,2,Thick,Complex,0
+518,43,2,Round,3,Inverted,Uniform,1
+519,52,2,Normal,2,Inverted,Uniform,0
+520,67,2,Round,3,Hilly,Uniform,1
+521,42,2,Irregular,3,Inverted,Uniform,1
+522,41,2,Calcified mass,2,Hilly,Uniform,0
+523,30,2,Normal,1,Thick,Uniform,0
+524,77,2,Irregular,2,Thick,Complex,0
+525,75,2,Normal,3,Thick,Inverted,0
+526,24,2,Asymmetric,1,Thick,Uniform,0
+527,74,2,Round,2,Normal,Complex,1
+528,53,2,Asymmetric,2,Normal,Hilly,0
+529,62,2,Irregular,2,Inverted,Uniform,1
+530,37,2,Calcified mass,1,Inverted,Inverted,0
+531,18,2,Normal,3,Hilly,Hilly,0
+532,25,2,Round,2,Hilly,Hilly,1
+533,63,2,Normal,2,Normal,Inverted,1
+534,33,2,Irregular,2,Hilly,Uniform,1
+535,31,2,Normal,2,Normal,Uniform,0
+536,29,2,Round,2,Inverted,Inverted,1
+537,68,2,Irregular,3,Inverted,Inverted,0
+538,40,2,Normal,3,Inverted,Inverted,0
+539,32,2,Calcified mass,2,Thick,Hilly,0
+540,45,2,Irregular,1,Thick,Complex,0
+541,51,2,Irregular,3,Thick,Uniform,1
+542,19,2,Calcified mass,1,Inverted,Uniform,0
+543,49,2,Asymmetric,3,Hilly,Uniform,0
+544,40,2,Round,2,Inverted,Complex,1
+545,39,2,Asymmetric,3,Thick,Inverted,0
+546,68,2,Normal,2,Thick,Uniform,0
+547,42,2,Calcified mass,3,Thick,Uniform,0
+548,75,2,Asymmetric,2,Inverted,Uniform,0
+549,79,2,Irregular,2,Thick,Inverted,0
+550,78,2,Normal,2,Inverted,Complex,0
+551,39,2,Normal,2,Thick,Uniform,0
+552,75,2,Asymmetric,1,Inverted,Complex,0
+553,75,2,Asymmetric,2,Inverted,Complex,0
+554,39,2,Calcified mass,1,Inverted,Uniform,0
+555,66,2,Round,1,Inverted,Uniform,1
+556,69,2,Asymmetric,2,Inverted,Uniform,0
+557,59,2,Asymmetric,1,Inverted,Uniform,0
+558,23,2,Irregular,3,Inverted,Uniform,1
+559,32,2,Normal,2,Inverted,Hilly,0
+560,71,2,Round,1,Hilly,Uniform,1
+561,60,2,Irregular,2,Inverted,Hilly,0
+562,77,2,Calcified mass,2,Thick,Uniform,0
+563,54,2,Calcified mass,2,Hilly,Uniform,0
+564,50,2,Asymmetric,1,Inverted,Complex,0
+565,25,2,Asymmetric,3,Hilly,Uniform,0
+566,70,2,Calcified mass,3,Normal,Inverted,1
+567,77,2,Asymmetric,1,Normal,Hilly,0
+568,61,2,Round,2,Inverted,Uniform,1
+569,61,2,Asymmetric,1,Inverted,Uniform,0
+570,22,2,Normal,1,Thick,Uniform,0
+571,56,2,Asymmetric,1,Hilly,Uniform,0
+572,21,2,Irregular,2,Normal,Uniform,1
+573,23,2,Round,1,Inverted,Inverted,1
+574,62,2,Irregular,2,Hilly,Uniform,1
+575,49,2,Irregular,1,Inverted,Uniform,1
+576,69,2,Normal,3,Inverted,Uniform,0
+577,47,2,Round,1,Normal,Complex,1
+578,64,2,Round,1,Normal,Uniform,1
+579,52,2,Round,3,Inverted,Inverted,1
+580,72,2,Round,2,Inverted,Complex,1
+581,57,2,Round,2,Inverted,Uniform,1
+582,69,2,Normal,1,Inverted,Uniform,0
+583,33,2,Asymmetric,3,Thick,Hilly,0
+584,30,2,Irregular,2,Thick,Complex,0
+585,67,2,Round,1,Thick,Hilly,1
+586,77,2,Asymmetric,3,Inverted,Complex,0
+587,59,2,Asymmetric,2,Inverted,Complex,0
+588,47,2,Irregular,2,Inverted,Inverted,0
+589,36,2,Normal,3,Thick,Hilly,0
+590,34,2,Calcified mass,3,Inverted,Inverted,0
+591,73,2,Calcified mass,3,Normal,Complex,0
+592,36,2,Asymmetric,3,Inverted,Uniform,0
+593,45,2,Irregular,1,Hilly,Complex,0
+594,75,2,Calcified mass,3,Inverted,Inverted,0
+595,72,2,Asymmetric,2,Hilly,Hilly,0
+596,43,2,Normal,2,Thick,Hilly,0
+597,54,2,Calcified mass,1,Hilly,Inverted,0
+598,43,2,Asymmetric,2,Thick,Hilly,0
+599,70,2,Asymmetric,2,Normal,Uniform,0
+600,79,2,Round,3,Hilly,Uniform,1
+601,40,2,Normal,2,Inverted,Uniform,0
+602,26,2,Round,1,Thick,Uniform,1
+603,29,2,Irregular,3,Inverted,Hilly,0
+604,70,2,Round,3,Inverted,Hilly,1
+605,18,2,Round,1,Thick,Complex,1
+606,75,2,Calcified mass,3,Hilly,Complex,0
+607,75,2,Asymmetric,3,Thick,Uniform,0
+608,18,2,Normal,1,Inverted,Uniform,0
+609,64,2,Round,3,Normal,Complex,1
+610,51,2,Normal,1,Thick,Complex,0
+611,49,2,Round,1,Hilly,Hilly,1
+612,79,2,Irregular,2,Inverted,Uniform,1
+613,71,2,Round,2,Normal,Uniform,1
+614,65,2,Calcified mass,3,Inverted,Complex,0
+615,42,2,Asymmetric,3,Thick,Uniform,0
+616,57,2,Irregular,1,Inverted,Uniform,1
+617,62,2,Round,3,Inverted,Uniform,1
+618,70,2,Normal,1,Hilly,Uniform,0
+619,18,2,Irregular,1,Inverted,Uniform,1
+620,33,2,Irregular,3,Normal,Uniform,1
+621,78,2,Round,1,Inverted,Complex,1
+622,56,2,Irregular,2,Hilly,Uniform,1
+623,22,2,Normal,3,Thick,Uniform,0
+624,39,2,Irregular,2,Thick,Uniform,1
+625,46,2,Normal,3,Inverted,Complex,0
+626,72,2,Round,1,Inverted,Uniform,1
+627,20,2,Asymmetric,3,Thick,Hilly,0
+628,29,2,Irregular,2,Inverted,Complex,0
+629,43,2,Asymmetric,1,Hilly,Uniform,0
+630,33,2,Normal,3,Inverted,Uniform,0
+631,68,2,Irregular,3,Thick,Uniform,1
+632,54,2,Calcified mass,3,Hilly,Uniform,0
+633,39,2,Asymmetric,2,Inverted,Uniform,0
+634,74,2,Irregular,2,Normal,Hilly,0
+635,46,2,Asymmetric,3,Hilly,Uniform,0
+636,31,2,Irregular,1,Normal,Hilly,0
+637,45,2,Round,1,Inverted,Uniform,1
+638,22,2,Asymmetric,2,Hilly,Hilly,0
+639,64,2,Calcified mass,1,Normal,Uniform,0
+640,66,2,Calcified mass,2,Thick,Uniform,0
+641,47,2,Normal,3,Thick,Hilly,0
+642,63,2,Irregular,2,Inverted,Complex,0
+643,79,2,Asymmetric,2,Hilly,Inverted,0
+644,69,2,Normal,3,Hilly,Uniform,0
+645,22,2,Asymmetric,1,Hilly,Inverted,0
+646,29,2,Irregular,2,Inverted,Uniform,1
+647,33,2,Calcified mass,2,Hilly,Uniform,0
+648,43,2,Round,3,Thick,Uniform,1
+649,43,2,Calcified mass,1,Normal,Uniform,0
+650,65,2,Normal,2,Thick,Uniform,0
+651,38,2,Round,3,Thick,Hilly,1
+652,56,2,Normal,2,Normal,Inverted,1
+653,53,2,Irregular,3,Thick,Hilly,0
+654,50,2,Round,1,Inverted,Uniform,1
+655,79,2,Normal,1,Normal,Uniform,0
+656,47,2,Irregular,1,Thick,Hilly,0
+657,54,2,Calcified mass,1,Inverted,Hilly,0
+658,40,2,Irregular,2,Thick,Complex,0
+659,75,2,Asymmetric,2,Inverted,Uniform,0
+660,27,2,Irregular,1,Hilly,Uniform,1
+661,71,2,Irregular,1,Thick,Hilly,0
+662,22,2,Asymmetric,1,Hilly,Hilly,0
+663,53,2,Normal,2,Inverted,Uniform,0
+664,51,2,Normal,1,Thick,Uniform,0
+665,69,2,Irregular,1,Normal,Complex,0
+666,48,2,Asymmetric,1,Hilly,Hilly,0
+667,27,2,Asymmetric,3,Inverted,Complex,0
+668,75,2,Calcified mass,1,Normal,Inverted,1
+669,36,2,Normal,3,Normal,Uniform,0
+670,75,2,Round,3,Normal,Inverted,1
+671,49,2,Normal,1,Normal,Inverted,1
+672,18,2,Normal,3,Thick,Inverted,0
+673,73,2,Calcified mass,1,Thick,Uniform,0
+674,22,2,Round,2,Thick,Uniform,1
+675,62,2,Calcified mass,2,Inverted,Uniform,0
+676,21,2,Round,2,Inverted,Complex,1
+677,33,2,Irregular,2,Inverted,Complex,0
+678,41,2,Round,3,Inverted,Uniform,1
+679,33,2,Calcified mass,1,Inverted,Uniform,0
+680,72,2,Normal,1,Thick,Inverted,0
+681,19,2,Round,1,Thick,Uniform,1
+682,66,2,Round,2,Inverted,Hilly,1
+683,45,2,Asymmetric,2,Inverted,Complex,0
+684,49,2,Normal,1,Inverted,Uniform,0
+685,44,2,Irregular,2,Hilly,Hilly,0
+686,37,2,Calcified mass,1,Inverted,Hilly,0
+687,41,2,Irregular,1,Normal,Hilly,0
+688,29,2,Normal,1,Thick,Hilly,0
+689,67,2,Round,1,Normal,Inverted,1
+690,52,2,Round,1,Thick,Hilly,1
+691,77,2,Normal,1,Thick,Inverted,0
+692,50,2,Round,1,Inverted,Inverted,1
+693,50,2,Round,2,Inverted,Hilly,1
+694,78,2,Round,1,Normal,Complex,1
+695,68,2,Calcified mass,1,Thick,Hilly,0
+696,60,2,Calcified mass,2,Normal,Hilly,0
+697,54,2,Asymmetric,2,Hilly,Hilly,0
+698,29,2,Irregular,2,Normal,Complex,0
+699,20,2,Normal,1,Inverted,Uniform,0
+700,18,2,Normal,3,Normal,Uniform,0
+701,50,2,Normal,3,Inverted,Inverted,0
+702,57,2,Asymmetric,2,Inverted,Inverted,0
+703,27,2,Calcified mass,3,Inverted,Complex,0
+704,60,2,Asymmetric,2,Hilly,Uniform,0
+705,61,2,Normal,1,Normal,Uniform,0
+706,46,2,Irregular,3,Normal,Inverted,1
+707,30,2,Round,1,Hilly,Uniform,1
+708,29,2,Calcified mass,3,Thick,Complex,0
+709,48,2,Calcified mass,1,Inverted,Complex,0
+710,63,2,Asymmetric,3,Normal,Uniform,0
+711,19,2,Calcified mass,1,Inverted,Uniform,0
+712,78,2,Normal,1,Hilly,Complex,0
+713,68,2,Normal,3,Thick,Inverted,0
+714,67,2,Asymmetric,1,Thick,Uniform,0
+715,52,2,Normal,1,Thick,Hilly,0
+716,40,2,Irregular,1,Hilly,Uniform,1
+717,34,2,Asymmetric,3,Inverted,Hilly,0
+718,43,2,Irregular,3,Inverted,Inverted,0
+719,25,2,Round,1,Inverted,Uniform,1
+720,46,2,Irregular,1,Inverted,Hilly,0
+721,43,2,Round,3,Inverted,Inverted,1
+722,27,2,Round,3,Thick,Uniform,1
+723,43,2,Irregular,1,Thick,Inverted,0
+724,79,2,Asymmetric,1,Inverted,Uniform,0
+725,51,2,Normal,1,Normal,Complex,0
+726,68,2,Normal,2,Inverted,Uniform,0
+727,58,2,Round,3,Inverted,Hilly,1
+728,24,2,Round,2,Hilly,Uniform,1
+729,21,2,Asymmetric,3,Hilly,Complex,0
+730,75,2,Calcified mass,3,Inverted,Inverted,0
+731,70,2,Irregular,3,Inverted,Complex,0
+732,67,2,Round,3,Inverted,Uniform,1
+733,62,2,Normal,3,Inverted,Uniform,0
+734,28,2,Asymmetric,3,Hilly,Complex,0
+735,46,2,Irregular,3,Inverted,Inverted,0
+736,73,2,Asymmetric,2,Thick,Complex,0
+737,53,2,Irregular,1,Thick,Uniform,1
+738,42,2,Irregular,1,Inverted,Uniform,1
+739,38,2,Round,2,Inverted,Hilly,1
+740,78,2,Asymmetric,2,Normal,Hilly,0
+741,74,2,Asymmetric,2,Normal,Uniform,0
+742,53,2,Normal,2,Normal,Uniform,0
+743,27,2,Normal,3,Inverted,Hilly,0
+744,54,2,Round,1,Inverted,Complex,1
+745,26,2,Round,3,Inverted,Inverted,1
+746,41,2,Calcified mass,1,Thick,Complex,0
+747,52,2,Normal,1,Inverted,Inverted,0
+748,66,2,Irregular,2,Thick,Hilly,0
+749,52,2,Asymmetric,3,Normal,Uniform,0
+750,65,2,Round,2,Normal,Complex,1
+751,53,2,Asymmetric,3,Normal,Complex,0
+752,35,2,Asymmetric,1,Inverted,Complex,0
+753,66,2,Calcified mass,2,Inverted,Inverted,0
+754,56,2,Normal,2,Hilly,Hilly,0
+755,49,2,Round,1,Hilly,Complex,1
+756,41,2,Asymmetric,1,Hilly,Complex,0
+757,40,2,Round,1,Inverted,Uniform,1
+758,79,2,Irregular,2,Inverted,Uniform,1
+759,49,2,Calcified mass,3,Hilly,Hilly,0
+760,54,2,Irregular,2,Hilly,Hilly,0
+761,29,2,Round,3,Inverted,Uniform,1
+762,66,2,Round,2,Hilly,Uniform,1
+763,72,2,Normal,2,Inverted,Uniform,0
+764,30,2,Asymmetric,1,Thick,Inverted,0
+765,40,2,Asymmetric,3,Inverted,Uniform,0
+766,42,2,Irregular,2,Hilly,Complex,0
+767,52,2,Calcified mass,2,Inverted,Uniform,0
+768,58,2,Asymmetric,1,Inverted,Hilly,0
+769,47,2,Normal,1,Inverted,Inverted,0
+770,34,2,Irregular,3,Thick,Complex,0
+771,66,2,Irregular,2,Normal,Uniform,1
+772,79,2,Normal,3,Hilly,Inverted,0
+773,37,2,Calcified mass,2,Normal,Inverted,1
+774,65,2,Normal,3,Normal,Complex,0
+775,42,2,Calcified mass,1,Normal,Uniform,0
+776,39,2,Normal,2,Inverted,Inverted,0
+777,30,2,Normal,3,Inverted,Inverted,0
+778,76,2,Round,1,Inverted,Uniform,1
+779,36,2,Irregular,1,Inverted,Inverted,0
+780,66,2,Normal,3,Normal,Uniform,0
+781,53,2,Normal,2,Inverted,Uniform,0
+782,29,2,Asymmetric,2,Normal,Uniform,0
+783,78,2,Irregular,1,Inverted,Uniform,1
+784,58,2,Asymmetric,2,Hilly,Hilly,0
+785,36,2,Irregular,2,Normal,Uniform,1
+786,29,2,Asymmetric,2,Inverted,Inverted,0
+787,26,2,Normal,1,Hilly,Complex,0
+788,24,2,Normal,3,Thick,Uniform,0
+789,45,2,Round,2,Normal,Hilly,1
+790,31,2,Asymmetric,1,Normal,Uniform,0
+791,48,2,Calcified mass,1,Thick,Uniform,0
+792,69,2,Round,3,Thick,Complex,1
+793,36,2,Asymmetric,2,Normal,Complex,0
+794,75,2,Asymmetric,2,Thick,Hilly,0
+795,64,2,Round,3,Inverted,Uniform,1
+796,33,2,Normal,3,Hilly,Uniform,0
+797,70,2,Asymmetric,1,Hilly,Hilly,0
+798,22,2,Normal,1,Hilly,Inverted,0
+799,52,2,Round,3,Inverted,Inverted,1
+800,29,2,Normal,2,Thick,Hilly,0
+801,42,2,Irregular,1,Inverted,Uniform,1
+802,69,2,Calcified mass,1,Thick,Hilly,0
+803,76,2,Asymmetric,2,Normal,Uniform,0
+804,38,2,Calcified mass,1,Hilly,Complex,0
+805,53,2,Normal,2,Thick,Hilly,0
+806,70,2,Asymmetric,2,Inverted,Uniform,0
+807,40,2,Normal,2,Normal,Hilly,0
+808,33,2,Irregular,3,Inverted,Hilly,0
+809,74,2,Round,3,Inverted,Uniform,1
+810,56,2,Asymmetric,3,Inverted,Uniform,0
+811,62,2,Irregular,2,Normal,Uniform,1
+812,70,2,Irregular,2,Hilly,Hilly,0
+813,59,2,Asymmetric,3,Thick,Inverted,0
+814,75,2,Normal,1,Normal,Hilly,0
+815,56,2,Irregular,2,Inverted,Hilly,0
+816,31,2,Calcified mass,1,Inverted,Uniform,0
+817,48,2,Irregular,1,Inverted,Hilly,0
+818,75,2,Normal,2,Thick,Hilly,0
+819,22,2,Normal,2,Inverted,Inverted,0
+820,52,2,Calcified mass,1,Inverted,Uniform,0
+821,40,2,Irregular,1,Normal,Hilly,0
+822,46,2,Normal,3,Hilly,Complex,0
+823,60,2,Asymmetric,3,Thick,Uniform,0
+824,28,2,Round,2,Normal,Inverted,1
+825,35,2,Round,3,Hilly,Hilly,1
+826,64,2,Round,3,Normal,Complex,1
+827,29,2,Irregular,3,Normal,Hilly,0
+828,26,2,Calcified mass,3,Inverted,Hilly,0
+829,27,2,Normal,1,Hilly,Uniform,0
+830,75,2,Asymmetric,2,Thick,Uniform,0
+831,61,2,Asymmetric,3,Thick,Uniform,0
+832,34,2,Irregular,1,Hilly,Complex,0
+833,78,2,Round,1,Inverted,Hilly,1
+834,55,2,Irregular,1,Inverted,Uniform,1
+835,24,2,Calcified mass,3,Normal,Inverted,1
+836,63,2,Calcified mass,3,Inverted,Uniform,0
+837,30,2,Normal,2,Hilly,Uniform,0
+838,57,2,Normal,3,Normal,Hilly,0
+839,59,2,Calcified mass,3,Thick,Hilly,0
+840,26,2,Calcified mass,1,Inverted,Complex,0
+841,67,2,Calcified mass,2,Thick,Complex,0
+842,44,2,Irregular,3,Hilly,Uniform,1
+843,75,2,Calcified mass,3,Normal,Hilly,0
+844,19,2,Asymmetric,1,Hilly,Uniform,0
+845,22,2,Round,1,Normal,Inverted,1
+846,46,2,Calcified mass,3,Inverted,Hilly,0
+847,54,2,Round,2,Inverted,Hilly,1
+848,55,2,Irregular,2,Inverted,Complex,0
+849,36,2,Round,1,Inverted,Inverted,1
+850,25,2,Irregular,1,Hilly,Uniform,1
+851,65,2,Asymmetric,3,Inverted,Hilly,0
+852,62,2,Irregular,1,Normal,Uniform,1
+853,18,2,Irregular,3,Normal,Hilly,0
+854,39,2,Normal,2,Thick,Uniform,0
+855,69,2,Calcified mass,2,Normal,Inverted,1
+856,34,2,Calcified mass,3,Hilly,Complex,0
+857,24,2,Asymmetric,1,Inverted,Inverted,0
+858,42,2,Asymmetric,2,Inverted,Uniform,0
+859,62,2,Calcified mass,1,Inverted,Complex,0
+860,21,2,Normal,2,Inverted,Inverted,0
+861,53,2,Calcified mass,3,Normal,Uniform,0
+862,23,2,Normal,3,Hilly,Hilly,0
+863,77,2,Asymmetric,3,Inverted,Hilly,0
+864,48,2,Round,2,Thick,Uniform,1
+865,36,2,Asymmetric,1,Hilly,Complex,0
+866,78,2,Asymmetric,1,Hilly,Hilly,0
+867,61,2,Irregular,1,Hilly,Complex,0
+868,71,2,Irregular,2,Inverted,Hilly,0
+869,56,2,Irregular,2,Hilly,Uniform,1
+870,44,2,Irregular,2,Normal,Inverted,1
+871,27,2,Normal,2,Hilly,Uniform,0
+872,43,2,Calcified mass,2,Inverted,Uniform,0
+873,36,2,Round,1,Hilly,Hilly,1
+874,56,2,Asymmetric,2,Thick,Uniform,0
+875,79,2,Normal,2,Thick,Uniform,0
+876,20,2,Round,1,Inverted,Complex,1
+877,62,2,Normal,2,Normal,Hilly,0
+878,30,2,Normal,1,Normal,Uniform,0
+879,67,2,Asymmetric,1,Inverted,Inverted,0
+880,45,2,Calcified mass,3,Inverted,Uniform,0
+881,79,2,Irregular,3,Hilly,Inverted,0
+882,75,2,Calcified mass,3,Inverted,Complex,0
+883,37,2,Asymmetric,3,Inverted,Uniform,0
+884,45,2,Asymmetric,2,Inverted,Uniform,0
+885,25,2,Asymmetric,3,Inverted,Complex,0
+886,78,2,Round,1,Inverted,Inverted,1
+887,58,2,Calcified mass,2,Normal,Complex,0
+888,56,2,Calcified mass,3,Hilly,Uniform,0
+889,18,2,Normal,1,Inverted,Hilly,0
+890,20,2,Normal,2,Thick,Hilly,0
+891,30,2,Normal,2,Normal,Inverted,1
+892,45,2,Asymmetric,3,Thick,Inverted,0
+893,79,2,Calcified mass,2,Normal,Hilly,0
+894,74,2,Asymmetric,1,Hilly,Inverted,0
+895,77,2,Round,2,Hilly,Complex,1
+896,66,2,Normal,1,Inverted,Uniform,0
+897,42,2,Asymmetric,2,Thick,Uniform,0
+898,73,2,Asymmetric,3,Normal,Complex,0
+899,50,2,Round,1,Hilly,Uniform,1
+900,55,2,Irregular,2,Inverted,Uniform,1
+901,70,2,Calcified mass,2,Hilly,Complex,0
+902,23,2,Irregular,2,Inverted,Inverted,0
+903,75,2,Normal,1,Normal,Complex,0
+904,61,2,Asymmetric,1,Hilly,Hilly,0
+905,62,2,Round,1,Hilly,Inverted,1
+906,49,2,Round,3,Normal,Hilly,1
+907,62,2,Calcified mass,3,Hilly,Inverted,0
+908,78,2,Irregular,1,Inverted,Uniform,1
+909,64,2,Calcified mass,2,Hilly,Complex,0
+910,38,2,Asymmetric,3,Thick,Uniform,0
+911,33,2,Calcified mass,1,Inverted,Inverted,0
+912,71,2,Round,2,Inverted,Inverted,1
+913,38,2,Round,3,Thick,Hilly,1
+914,28,2,Normal,2,Normal,Uniform,0
+915,77,2,Normal,2,Inverted,Hilly,0
+916,54,2,Asymmetric,2,Inverted,Hilly,0
+917,53,2,Irregular,2,Inverted,Uniform,1
+918,52,2,Calcified mass,3,Normal,Uniform,0
+919,36,2,Asymmetric,3,Normal,Hilly,0
+920,37,2,Normal,3,Inverted,Hilly,0
+921,74,2,Calcified mass,1,Hilly,Inverted,0
+922,35,2,Normal,3,Normal,Uniform,0
+923,64,2,Calcified mass,2,Hilly,Complex,0
+924,58,2,Irregular,3,Thick,Uniform,1
+925,66,2,Asymmetric,2,Inverted,Uniform,0
+926,31,2,Calcified mass,1,Hilly,Uniform,0
+927,32,2,Round,2,Inverted,Inverted,1
+928,48,2,Round,2,Hilly,Inverted,1
+929,18,2,Calcified mass,2,Thick,Uniform,0
+930,70,2,Calcified mass,1,Normal,Inverted,1
+931,71,2,Calcified mass,3,Thick,Uniform,0
+932,71,2,Round,3,Normal,Uniform,1
+933,20,2,Round,1,Normal,Complex,1
+934,33,2,Calcified mass,2,Inverted,Uniform,0
+935,40,2,Normal,3,Thick,Hilly,0
+936,74,2,Normal,1,Hilly,Hilly,0
+937,28,2,Irregular,3,Thick,Complex,0
+938,29,2,Asymmetric,1,Inverted,Complex,0
+939,27,2,Normal,2,Normal,Inverted,1
+940,49,2,Round,3,Inverted,Complex,1
+941,33,2,Normal,1,Inverted,Complex,0
+942,25,2,Irregular,3,Inverted,Hilly,0
+943,55,2,Irregular,3,Hilly,Inverted,0
+944,29,2,Asymmetric,3,Inverted,Complex,0
+945,41,2,Normal,3,Hilly,Complex,0
+946,45,2,Round,1,Hilly,Inverted,1
+947,70,2,Round,2,Inverted,Uniform,1
+948,25,2,Calcified mass,1,Hilly,Inverted,0
+949,75,2,Round,1,Inverted,Hilly,1
+950,45,2,Asymmetric,1,Normal,Uniform,0
+951,53,2,Asymmetric,2,Inverted,Uniform,0
+952,43,2,Round,3,Hilly,Inverted,1
+953,25,2,Round,3,Inverted,Hilly,1
+954,75,2,Calcified mass,3,Thick,Uniform,0
+955,77,2,Round,2,Hilly,Inverted,1
+956,67,2,Calcified mass,3,Normal,Complex,0
+957,45,2,Calcified mass,2,Normal,Inverted,1
+958,45,2,Round,3,Thick,Uniform,1
+959,54,2,Irregular,3,Inverted,Inverted,0
+960,58,2,Irregular,1,Hilly,Uniform,1
+961,53,2,Calcified mass,2,Inverted,Uniform,0
+962,44,2,Round,1,Normal,Inverted,1
+963,71,2,Irregular,1,Inverted,Uniform,1
+964,34,2,Round,1,Normal,Complex,1
+965,26,2,Round,2,Inverted,Inverted,1
+966,50,2,Round,2,Thick,Complex,1
+967,70,2,Normal,3,Inverted,Complex,0
+968,37,2,Round,1,Thick,Hilly,1
+969,30,2,Normal,3,Thick,Inverted,0
+970,45,2,Calcified mass,1,Inverted,Uniform,0
+971,65,2,Irregular,2,Inverted,Complex,0
+972,46,2,Irregular,2,Hilly,Hilly,0
+973,30,2,Irregular,2,Hilly,Inverted,0
+974,63,2,Irregular,1,Thick,Inverted,0
+975,52,2,Irregular,2,Thick,Uniform,1
+976,78,2,Irregular,1,Normal,Uniform,1
+977,23,2,Irregular,3,Normal,Complex,0
+978,35,2,Calcified mass,1,Hilly,Uniform,0
+979,68,2,Round,3,Hilly,Complex,1
+980,22,2,Asymmetric,1,Normal,Uniform,0
+981,64,2,Normal,3,Normal,Complex,0
+982,42,2,Asymmetric,2,Inverted,Uniform,0
+983,19,2,Asymmetric,3,Inverted,Uniform,0
+984,27,2,Round,2,Normal,Uniform,1
+985,73,2,Round,2,Inverted,Complex,1
+986,47,2,Round,3,Inverted,Hilly,1
+987,67,2,Irregular,1,Hilly,Inverted,0
+988,76,2,Calcified mass,1,Hilly,Uniform,0
+989,62,2,Irregular,1,Normal,Complex,0
+990,22,2,Calcified mass,1,Thick,Uniform,0
+991,72,2,Calcified mass,1,Normal,Uniform,0
+992,73,2,Asymmetric,2,Inverted,Uniform,0
+993,50,2,Asymmetric,1,Thick,Inverted,0
+994,71,2,Calcified mass,2,Inverted,Complex,0
+995,18,2,Calcified mass,2,Inverted,Hilly,0
+996,35,2,Irregular,2,Inverted,Uniform,1
+997,49,2,Irregular,3,Inverted,Complex,0
+998,64,2,Asymmetric,3,Inverted,Uniform,0
+999,66,2,Round,2,Inverted,Uniform,1
