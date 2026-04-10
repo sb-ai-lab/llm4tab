@@ -1,0 +1,10 @@
+{
+  "dataset": "extrovert",
+  "method": "gpt-4o-mini",
+  "iter": 4,
+  "seed": 4,
+  "acc": 0.5338347431142965,
+  "f1_score": 0.526279009893707,
+  "roc_auc": 0.5338347431142964,
+  "tree_path": "./trees/extrovert/gpt-4o-mini/extrovert_gpt-4o-mini_examples_3_desc_False_temp_100_maxdepth_2_iter_4_dialogue.txt"
+}

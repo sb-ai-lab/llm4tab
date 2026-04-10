@@ -1,0 +1,18 @@
+I want you to induce a decision tree classifier based on features. I first give an example below.
+Then, I provide you with Features and want you to build a decision tree with a maximum depth of 2 using the most important features.
+The tree should classify satisfaction class (dissatisfied / satisfied).
+
+Features: sepal length (cm), sepal width (cm), petal length (cm), petal width (cm)
+
+Decision tree:
+|--- petal width (cm) <= 0.80
+||--- class: setosa
+|--- petal width (cm) > 0.80
+||--- petal width (cm) <= 1.75
+|||--- class: versicolor
+||--- petal width (cm) > 1.75
+|||--- class: virginica
+
+Features: Call_center_employee_communication_skills_evaluation, Satisfaction_with_the_doctors_response, How_often_do_you_receive_call_center_news, Gender (Female / Male), Age (18-24 / 25-29 / 30-39 / 40-49 / 50-59 / 60 and above / Under 18), Education (Bachelor / Diploma / High school / Less than high school / Master / Doctor / Other), Nationality (Kuwaiti / Other nationality / Unspecified), Marital_Status (Married / Single / Widow / Widower), Governorate (Farwaniya / Capital / Around / AlAhmadi / Jahra / Mubarak AlKabir), Aware_151 (Yes / No), Call_151 (Yes / No), The_reason_of_the_call (Vaccination / Inquiries / Inquiries_COVID19 / Medical_Consultation / Complaints)
+
+Decision Tree:

@@ -1,0 +1,90 @@
+To create a decision tree classifier with a maximum depth of 2 based on the provided features and classify arrest outcomes (no arrest / arrest made), we will need to identify the most relevant features from the list you've provided. I'll make certain assumptions about the data and create a simplified example of a decision tree.
+
+Let's consider the following features as potentially influential for classifying arrest outcomes:
+
+1. **Primary Type** (Numerous categories - BATTERY, THEFT, etc.)
+2. **Domestic** (Binary: 0 or 1 - indicating whether the incident is domestic-related)
+3. **Location Description** (Where the incident took place)
+
+For this decision tree, I will assume that we want to classify whether an arrest was made based on these features.
+
+Here's a simplified example of how the decision tree could look:
+
+```
+Decision Tree:
+|--- Domestic <= 0.5
+|   |--- class: no arrest
+|--- Domestic > 0.5
+|   |--- Primary Type = BATTERY
+|   |   |--- class: arrest made
+|   |--- Primary Type ≠ BATTERY
+|   |   |--- class: no arrest
+```
+
+### Explanation of the Tree:
+- **First Node**: We first check if the incident is domestic-related (Domestic feature). If `Domestic <= 0.5`, it suggests that it's not a domestic-related incident, and based on historical data, this results in "no arrest".
+- **Second Node**: If the incident is domestic (`Domestic > 0.5`), we then check the `Primary Type` of the offense. 
+  - If the `Primary Type` is BATTERY, then it's more likely an arrest has been made.
+  - If the `Primary Type` is any other type, then the result is "no arrest".
+
+This structure is a high-level approximation and is based on common patterns seen in police data; the actual decision tree would rely on historical arrest data to determine the thresholds, splits, and class outputs. The specific categories and outcomes should be confirmed based on your dataset for accuracy.
+
+
+#########################
+
+
+Here's a Python function that implements the decision tree logic based on the features you provided. This function will return a prediction (whether an arrest was made) and a list of boolean values (1 for True, 0 for False) representing the truth values of the inner nodes:
+
+```python
+def predict(X: dict):
+    nodes = 3 * [None]  # Initialize a list to hold the truth values of the inner nodes
+    
+    # First node: Check if the crime is domestic (Domestic <= 0.5)
+    nodes[0] = X["Domestic"] > 0.5
+    
+    if nodes[0]:  # If the incident is domestic
+        # Second node: Check if the Primary Type is BATTERY
+        nodes[1] = X["Primary Type"] == "BATTERY"
+        
+        if nodes[1]:  # If the crime type is BATTERY
+            prediction = 1  # Arrest made
+        else:
+            prediction = 0  # No arrest
+    else:  # If the incident is not domestic
+        prediction = 0  # No arrest
+        
+    return prediction, nodes
+
+# Example usage:
+features = {
+    "Date": 1660035600,  # some Unix timestamp
+    "Beat": "123",
+    "District": "10",
+    "Ward": "5",
+    "Community Area": "3",
+    "X Coordinate": 1213456,
+    "Y Coordinate": 548965,
+    "Latitude": 41.881832,
+    "Longitude": -87.623177,
+    "Primary Type": "BATTERY",  # Change as needed
+    "Description": "SIMPLE",
+    "Location Description": "STREET",
+    "Domestic": 1,  # Change to 0 for non-domestic
+    "FBI Code": "08B",
+    "Year": 2025,
+    "Target variable": 1,  # actual target value; not used for prediction
+    "target": 1  # actual arrest outcome
+}
+
+prediction, nodes_truth_values = predict(features)
+print(f"Prediction: {prediction}, Nodes: {nodes_truth_values}")
+```
+
+### Explanation:
+- **Inner Node List (`nodes`)**: We initialize a list with three placeholders to represent the truth values of the inner nodes.
+- **Node Logic**:
+  - **Node 0**: Checks if the incident is domestic. If `Domestic` is greater than 0.5, it means it is domestic-related (True).
+  - **Node 1**: If the incident is domestic, we check if the `Primary Type` is "BATTERY" to determine if an arrest is likely.
+- The predictions are binary, where `1` indicates an arrest was made, and `0` indicates no arrest.
+  
+You can run the function with your own feature data by changing the values in the `features` dictionary!

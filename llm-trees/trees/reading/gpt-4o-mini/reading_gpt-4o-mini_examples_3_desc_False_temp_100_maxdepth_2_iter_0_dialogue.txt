@@ -1,0 +1,112 @@
+Given the features you've provided and aiming to build a decision tree classifier with a maximum depth of 2 to classify the reading preference (reading non-academic books vs. reading academic books most of the time), we need to select the most important features that are likely to differentiate between these two classes.
+
+### Features Considered:
+1. Gender
+2. Age
+3. Department
+4. Amount of time spent reading books per day
+5. Reason for reading books
+6. How to manage books for reading
+7. Number of e-books read last two years
+8. Number of printed books read last two years
+9. Favorite books for reading
+10. Change felt after reading books
+11. Influences to read
+12. Language of books
+13. Where to read printed books
+14. Read newspaper
+15. Format for reading books
+16. Frequency of reading books
+
+### Decision Tree:
+- **Root Node**: Reason for reading books
+  - **Condition**: Reason for reading books == "Academic Purpose"
+    - **Class**: Reads academic books most of the time
+  - **Condition**: Reason for reading books != "Academic Purpose"
+    - **Node**: Favorite books for reading
+      - **Condition**: Favorite books == "Fiction" or "Biography" or "Non-Fiction"
+        - **Class**: Reads non-academic books
+      - **Condition**: Favorite books == "Others" or "Politics"
+        - **Class**: Reads non-academic books
+
+### Decision Tree Explained:
+1. **Root Node**: The decision tree first checks the reason for reading books. If the reason is "Academic Purpose", it classifies the individual as someone who reads academic books most of the time.
+2. If the reason is anything else, it checks the "Favorite books for reading" criterion to further classify individuals who might still read non-academic books based on their interests.
+
+### Visual Representation:
+Here’s how the decision tree looks visually:
+```
+|--- Reason for reading books == Academic Purpose
+|   |--- class: Reads academic books most of the time
+|
+|--- Reason for reading books != Academic Purpose
+|   |--- Favorite books for reading == Fiction or Biography or Non-Fiction
+|   |   |--- class: Reads non-academic books
+|   |
+|   |--- Favorite books for reading == Others or Politics
+|       |--- class: Reads non-academic books
+```
+
+This decision tree effectively differentiates between reading preferences based on the most relevant features to the classification task.
+
+
+#########################
+
+
+Based on the decision tree we developed earlier, here’s a Python function implementing it. This function will take a dictionary `X` containing feature values and will return a prediction along with a list of truth values representing the conditions of the inner nodes.
+
+```python
+def predict(X: dict):
+    # Initialize nodes truth values
+    nodes = [None, None]
+
+    # Evaluate the conditions for the inner nodes
+    nodes[0] = X["Reason for reading books"] == "Academic Purpose"
+    
+    if nodes[0]:
+        prediction = 1  # Read academic books most of the time
+    else:
+        nodes[1] = X["Favorite books for reading to spend leisure time"] in ["Fiction", "Biography", "Non-Fiction"]
+        
+        if nodes[1]:
+            prediction = 0  # Read non-academic books
+        else:
+            prediction = 0  # Default to non-academic books if not a favorite genre
+
+    return prediction, nodes
+
+# Example usage
+features = {
+    "Gender": "Male",
+    "Age": 21,
+    "Department": "CSE",
+    "Amount of time spent reading books per day": "1 hour",
+    "Reason for reading books": "Keep me informative",
+    "How to manage books for reading": "Buy",
+    "Number of e-books you read last two years": "6-10",
+    "Number of printed books you read last two years": "1-5",
+    "Favorite books for reading to spend leisure time": "Fiction",
+    "What is the change that you fell after reading books": "Feel Relax",
+    "Who influenced you to read books": "Self-Decision",
+    "Which language books do you like to read": "English",
+    "Where do you read printed books": "Home",
+    "Do you read Newspaper": "Yes",
+    "The format that you used for reading books": "Both",
+    "Frequency of reading books": "A few times a week",
+}
+
+prediction, nodes = predict(features)
+print(f"Prediction: {'Reads academic books most of the time' if prediction == 1 else 'Reads non-academic books'}, Nodes: {nodes}")
+```
+
+### Explanation of the Function
+- **Input**: The function takes an input dictionary `X`, where keys match the specified features.
+- **Nodes**: A list `nodes` is prepared to keep track of the truth values for the conditions checked in the decision tree.
+- **Condition Evaluation**:
+  - The first condition checks if the reason for reading books is "Academic Purpose". If true, the prediction is that the individual reads academic books.
+  - If not, the second condition evaluates whether their favorite books fall into the categories of "Fiction", "Biography", or "Non-Fiction". 
+- **Prediction**:
+  - The prediction is set based on the outcomes of these checks.
+- **Return Value**: It returns both the final prediction (0 or 1) and the list of node evaluations (`nodes`).
+
+This setup will allow you to check how decisions are derived based on specific features while also enabling you to trace the inner logic through the node truth values.

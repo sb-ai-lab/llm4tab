@@ -1,0 +1,10 @@
+{
+  "dataset": "stars",
+  "method": "gpt-4o-mini",
+  "iter": 3,
+  "seed": 3,
+  "acc": 0.7189960629921259,
+  "f1_score": 0.6195505850678265,
+  "roc_auc": 0.7189960629921259,
+  "tree_path": "./trees/stars/gpt-4o-mini/stars_gpt-4o-mini_examples_3_desc_False_temp_100_maxdepth_2_iter_3_dialogue.txt"
+}

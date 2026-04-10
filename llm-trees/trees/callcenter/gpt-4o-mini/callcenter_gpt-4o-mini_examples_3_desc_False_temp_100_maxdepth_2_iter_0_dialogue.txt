@@ -1,0 +1,87 @@
+Based on the features provided and considering a maximum depth of 2, I will construct a decision tree classifier for the satisfaction class (dissatisfied/satisfied). 
+
+Let's identify the most relevant features based on their potential impact on satisfaction. We'll use a hypothetical scenario to shape our decision tree and infer the possible distribution of classes.
+
+Here's how the decision tree might look:
+
+```
+Decision Tree:
+|--- Call_center_employee_communication_skills_evaluation <= 3.5
+|   |--- class: dissatisfied
+|--- Call_center_employee_communication_skills_evaluation > 3.5
+|   |--- Satisfaction_with_the_doctors_response <= 4.5
+|   |   |--- class: dissatisfied
+|   |--- Satisfaction_with_the_doctors_response > 4.5
+|   |   |--- class: satisfied
+```
+
+### Explanation:
+1. **Call_center_employee_communication_skills_evaluation**: This feature acts as the primary splitting feature. A score of 3.5 is selected as a threshold; if the evaluation is less than or equal to 3.5, the prediction is that the individual is dissatisfied.
+
+2. **Satisfaction_with_the_doctors_response**: For those who have a positive evaluation (> 3.5), the second decision point is based on their satisfaction with the doctor's response, where:
+   - A score of 4.5 or less leads to a classification of dissatisfied.
+   - A score greater than 4.5 leads to a classification of satisfied.
+
+### Note:
+The specific threshold values (like 3.5 and 4.5) are chosen hypothetically and would usually depend on data analysis, such as Gini impurity or information gain calculations, from a training dataset. In practice, these thresholds would be derived from a trained model using real user data.
+
+
+#########################
+
+
+Here is the Python function that implements the decision tree based on the features you've provided. This tree uses the thresholds we've previously established, with a maximum depth of 2 and conditions specified for returning predictions as well as truth values of the inner nodes.
+
+```python
+def predict(X: dict):
+    nodes = 2 * [None]  # There are two inner nodes in the tree
+
+    # Check the first node condition
+    nodes[0] = X["Call_center_employee_communication_skills_evaluation"] <= 3.5
+
+    # Now evaluate based on the first node's condition
+    if nodes[0]:  # If first condition is satisfied
+        prediction = 0  # Class: dissatisfied
+    else:  # If first condition is not satisfied
+        nodes[1] = X["Satisfaction_with_the_doctors_response"] <= 4.5  # Check second node condition
+        
+        if nodes[1]:  # If second condition is satisfied
+            prediction = 0  # Class: dissatisfied
+        else:  # If second condition is not satisfied
+            prediction = 1  # Class: satisfied
+
+    return prediction, nodes
+```
+
+### Explanation:
+1. **Inner Nodes**:
+   - `nodes[0]`: This checks if the **Call_center_employee_communication_skills_evaluation** is less than or equal to 3.5. It represents a threshold that detects an early dissatisfaction signal.
+   - `nodes[1]`: This evaluates the **Satisfaction_with_the_doctors_response** from the positive responses, checking if it is less than or equal to 4.5.
+
+2. **Predictions**:
+   - If the value for **Call_center_employee_communication_skills_evaluation** is 3.5 or lower, the function predicts that the customer is dissatisfied (class: 0).
+   - If the first condition is not satisfied, it checks the second condition based on satisfaction with the doctors and assigns the prediction accordingly: dissatisfied if <= 4.5, and satisfied if > 4.5.
+
+### Use Example:
+You can call this function by passing a dictionary that matches the expected keys, for example:
+```python
+features = {
+    "Call_center_employee_communication_skills_evaluation": 4.0,
+    "Satisfaction_with_the_doctors_response": 5.0,
+    "How_often_do_you_receive_call_center_news": "Weekly",
+    "Gender": "Male",
+    "Age": "30-39",
+    "Education": "Bachelor",
+    "Nationality": "Kuwaiti",
+    "Marital_Status": "Single",
+    "Governorate": "Capital",
+    "Aware_151": "Yes",
+    "Call_151": "No",
+    "The_reason_of_the_call": "Inquiries",
+}
+
+prediction, nodes = predict(features)
+print("Prediction:", prediction)  # Output: Prediction: 1 (satisfied)
+print("Nodes:", nodes)  # Output: Nodes: [False, None] (the values may vary based on the inputs)
+``` 
+
+Adjust the input dictionary for different test cases as needed!

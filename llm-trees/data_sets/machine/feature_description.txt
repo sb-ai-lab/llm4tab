@@ -1,0 +1,9 @@
+Features:
+Temperature: machine temperature during operation.
+Vibration: machine vibration level during operation.
+Power_Usage: machine power consumption.
+Humidity: humidity in the operating environment.
+Machine_Type: machine type (Mill / Lathe / Drill).
+
+Target variable:
+target: machine status (0 = normal operation / 1 = at risk of failure)

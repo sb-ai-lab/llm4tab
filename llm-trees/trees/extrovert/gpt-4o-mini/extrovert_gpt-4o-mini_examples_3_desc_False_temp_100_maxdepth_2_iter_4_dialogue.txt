@@ -1,0 +1,55 @@
+Based on the features you've provided, I'll construct a decision tree classifier with a maximum depth of 2 to classify friendship-maintenance classes. For the purpose of this decision tree, I will choose a few important features that might influence how individuals maintain friendships.
+
+### Decision Tree:
+```
+|--- social_connection_frequency <= Weekly
+|   |--- class: Rarely keeps in touch
+|--- social_connection_frequency > Weekly
+|   |--- gathering_size_preference <= Small gatherings
+|   |   |--- class: Maintains long-distance friendships through calls
+|   |--- gathering_size_preference > Small gatherings
+|   |   |--- class: Uses texting/social media
+```
+
+### Explanation:
+1. **First Split:** The root node splits based on `social_connection_frequency`. It captures those who connect weekly or less, which typically indicates less engagement in friendships.
+   - If the frequency is less than or equal to "Weekly," it categorizes these individuals as those who "Rarely keeps in touch."
+   
+2. **Second Split:** For those who engage more frequently than weekly, we then look at `gathering_size_preference`.
+   - If someone prefers small gatherings, they may be more inclined to maintain their friendships through phone calls rather than text or social media.
+   - If their gathering size preference is larger, it indicates they may be more social and therefore likely utilize texting/social media for their connections.
+
+This is a simplified decision tree and assumes that social connection frequency and gathering preferences are significant indicators of how individuals maintain their friendships.
+
+
+#########################
+
+
+Sure! Based on the decision tree we previously created for classifying friendship-maintenance class, here’s the Python function that implements this logic. The function returns the predicted class (0 or 1) and a list representing the truth values of the inner nodes.
+
+### Python Function:
+```python
+def predict(X: dict):
+    nodes = 2 * [None]
+    # First inner node condition
+    nodes[0] = X["social_connection_frequency"] in ['Weekly', 'Never', 'Monthly']  # Assuming that frequency 'Weekly' or less indicates less engagement
+    
+    if nodes[0]:
+        prediction = 0  # Rarely keeps in touch
+    else:
+        # Second inner node condition
+        nodes[1] = X["gathering_size_preference"] == 'Small gatherings'
+        if nodes[1]:
+            prediction = 1  # Maintains long-distance friendships through calls
+        else:
+            prediction = 0  # Uses texting/social media
+
+    return prediction, nodes
+```
+
+### Explanation:
+1. **Node 0:** This node checks if the `social_connection_frequency` is 'Weekly' or lower (i.e., 'Never' or 'Monthly'). If this condition is satisfied, it suggests that the individual is less engaged, leading to the prediction of "Rarely keeps in touch," which is represented by `0`.
+
+2. **Node 1:** If the `social_connection_frequency` is higher than 'Weekly', we then check the `gathering_size_preference`. If the preference is for 'Small gatherings', the prediction is "Maintains long-distance friendships through calls," represented as `1`. If it is anything else, the individual is predicted to "Use texting/social media," leading to class `0`.
+
+This function now behaves according to the decision tree we defined. You can use it by passing a dictionary representing the feature values.

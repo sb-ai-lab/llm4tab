@@ -1,0 +1,74 @@
+To create a decision tree classifier based on the provided features, we can select the most important features and construct a tree with a maximum depth of 2 to classify reading preferences (either reading non-academic books or reading academic books most of the time).
+
+Based on the provided features, we can consider certain features more critical for distinguishing between reading preferences. 
+
+### Example Decision Tree Classifier:
+
+**Step 1: Selecting Features**
+To keep the decision tree simple and effective, we will use the following features:
+1. Reason for reading books 
+2. Amount of time spent reading books per day 
+
+**Step 2: Constructing the Decision Tree**
+
+We can categorize the features and build the decision tree as follows:
+
+```
+Decision Tree:
+|--- Reason for reading books == Academic Purpose
+|   |--- class: reads academic books most of the time
+|--- Reason for reading books != Academic Purpose
+|   |--- Amount of time spent reading books per day <= 1 hour
+|   |   |--- class: reads non-academic books
+|   |--- Amount of time spent reading books per day > 1 hour
+|   |   |--- class: reads academic books most of the time
+```
+
+### Explanation:
+- **First Split**: The first split in the tree is based on the "Reason for reading books." If the reason is "Academic Purpose," the classification will be "reads academic books most of the time." If it is not for academic purposes, we move to the next feature.
+  
+- **Second Split**: If the reason is not academic, we then check the "Amount of time spent reading books per day." 
+  - If it is less than or equal to 1 hour, then the class will be "reads non-academic books."
+  - If it is more than 1 hour, we classify it as "reads academic books most of the time."
+
+This simple decision tree helps categorize individuals based on their reading preferences using the specified features.
+
+
+#########################
+
+
+Below is a Python function that implements the decision tree for classifying reading preferences based on the features provided. It returns a single prediction along with a list representing the truth values of the inner nodes.
+
+### Decision Tree Implementation
+
+```python
+def predict(X: dict):
+    nodes = 3 * [None]  # There are 2 inner nodes in depth 2, and we will have a third entry to follow the structure
+
+    # First decision: Reason for reading books
+    nodes[0] = (X["Reason for reading books"] == "Academic Purpose")
+    
+    if nodes[0]:  # If the reason is Academic Purpose
+        prediction = 1  # Reads academic books most of the time
+    else:  # If the reason is not Academic Purpose
+        # Second decision: Amount of time spent reading books per day
+        nodes[1] = (X["Amount of time spent reading books per day"] <= 1)  # Assuming 1 hour is a reasonable threshold
+        
+        if nodes[1]:  # If they read less than or equal to 1 hour
+            prediction = 0  # Reads non-academic books
+        else:  # If they read more than 1 hour
+            prediction = 1  # Reads academic books most of the time
+    
+    return prediction, nodes
+```
+
+### Explanation:
+1. **Input**: The function takes a dictionary `X` that contains the keys specified for the features related to a student's reading habits.
+
+2. **Decision Nodes**: 
+    - `nodes[0]` checks if the "Reason for reading books" is "Academic Purpose." If true, it sets the prediction to 1 (reads academic books most of the time).
+    - If the reason is not academic, it checks the "Amount of time spent reading books per day." If this amount is less than or equal to 1 hour, it sets the prediction to 0 (reads non-academic books). Otherwise, it sets the prediction to 1.
+
+3. **Output**: The function returns the final prediction (0 or 1) and a list of truth values corresponding to the decision nodes.
+
+This implementation captures the decision logic of the tree and provides feedback about which conditions were met during the evaluation.

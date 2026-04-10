@@ -1,0 +1,68 @@
+To build a decision tree classifier based on the new features provided related to star classification (dwarf star / giant star), we need to consider the features:
+
+- Vmag
+- Plx
+- e_Plx
+- B-V
+- Amag
+- SpType (which indicates spectral type)
+
+Given that we want a maximum depth of 2 and we need to classify the star class into "dwarf star" and "giant star," we'll create a decision tree focusing on the most important features based on their predictive power. 
+
+Here’s a simple decision tree based on hypothetical thresholds for illustration:
+
+```
+Decision Tree:
+|--- B-V <= 0.5
+|   |--- class: dwarf star
+|--- B-V > 0.5
+|   |--- Vmag <= 3.0
+|   |   |--- class: dwarf star
+|   |--- Vmag > 3.0
+|   |   |--- class: giant star
+```
+
+### Explanation:
+1. **First Split (B-V)**: The first decision node checks the B-V color index.
+   - If B-V is less than or equal to 0.5, we classify it as a "dwarf star."
+   - If B-V is greater than 0.5, we proceed to the next decision.
+
+2. **Second Split (Vmag)**: The second decision node checks the Vmag (apparent magnitude).
+   - If Vmag is less than or equal to 3.0, we classify it as a "dwarf star."
+   - If Vmag is greater than 3.0, we classify it as a "giant star."
+
+This structure is a simplified representation based on the provided features. In a real scenario, the thresholds may be determined through training on actual data, and the most relevant features might vary based on this dataset.
+
+
+#########################
+
+
+Here's the Python function to implement the decision tree based on the features provided for star classification (dwarf star / giant star). The decision tree will have a maximum depth of 2, using the "B-V" and "Vmag" features as in the earlier example.
+
+```python
+def predict(X: dict):
+    # Initialize a list to track truth values of the inner nodes
+    nodes = [None, None]  # Two inner nodes
+    
+    # First decision node based on B-V color index
+    nodes[0] = X["B-V"] <= 0.5  # Threshold for B-V
+    if nodes[0]:
+        prediction = 0  # Classify as dwarf star
+    else:
+        # Second decision node based on Vmag
+        nodes[1] = X["Vmag"] <= 3.0  # Threshold for Vmag
+        if nodes[1]:
+            prediction = 0  # Classify as dwarf star
+        else:
+            prediction = 1  # Classify as giant star
+
+    return prediction, nodes
+```
+
+### Explanation:
+1. The `nodes` list stores the truth values for the two inner nodes based on the conditions checked.
+2. The first decision node checks whether the "B-V" feature is less than or equal to 0.5. If true, the prediction is 0 (dwarf star).
+3. If the first condition is false, the function checks the second node based on the "Vmag" feature, with a threshold of 3.0. If this condition is true, it classifies as a dwarf star. If not, it classifies as a giant star (1).
+4. The function returns the predicted class and a list of truth values for the decision nodes. 
+
+With this implementation, you can pass a dictionary with the necessary keys to classify the star type based on the provided features.

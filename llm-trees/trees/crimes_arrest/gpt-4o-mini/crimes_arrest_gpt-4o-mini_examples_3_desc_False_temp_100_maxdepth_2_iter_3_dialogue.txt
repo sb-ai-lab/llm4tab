@@ -1,0 +1,99 @@
+To build a decision tree classifier with a maximum depth of 2 to classify arrest outcomes (no arrest / arrest made) based on the provided features, we can select the top features that might contribute to the classification. Since we are simulating this process without actual data to evaluate feature importance, we'll make a logical choice of features based on common knowledge of crime data patterns.
+
+### Features Chosen:
+1. **Primary Type** (Type of offense)
+2. **Location Description** (Where the offense occurred)
+3. **Domestic** (Whether the offense is domestic in nature)
+
+### Decision Tree:
+```
+|--- Primary Type: BATTERY
+|   |--- Domestic: 0
+|   |   |--- class: no arrest
+|   |--- Domestic: 1
+|   |   |--- class: arrest made
+|--- Primary Type: THEFT
+|   |--- Location Description: STREET
+|   |   |--- class: arrest made
+|   |--- Location Description: APARTMENT
+|   |   |--- class: no arrest
+|--- Primary Type: OTHER OFFENSE 
+|   |--- Location Description: DEPARTMENT STORE 
+|   |   |--- class: arrest made
+|   |--- Location Description: GAS STATION 
+|   |   |--- class: no arrest
+```
+
+### Explanation:
+1. The first decision splits based on the `Primary Type` of the offense. Certain types of crimes, like battery, can have different outcomes based on whether it is domestic or not.
+2. The next split is based on specific `Location Description` for types like theft, as the location can significantly impact the likelihood of an arrest. 
+
+This simple tree, with a depth of 2, reflects how such features relate to arrest outcomes in a hypothetical scenario based on repeated patterns in crime data.
+
+
+#########################
+
+
+Here’s a Python function that implements the decision tree for the classification of arrest outcomes based on the features provided. The function evaluates the conditions of each inner node and returns the prediction as well as a list representing the truth values of these nodes.
+
+```python
+def predict(X: dict):
+    # Create an array to hold the truth values of the inner nodes
+    nodes = 3 * [None]
+
+    # Decision Tree Logic
+    # First Node: Primary Type
+    nodes[0] = X["Primary Type"] == "BATTERY"
+    
+    if nodes[0]:  # If Primary Type is BATTERY
+        # Second Node: Domestic
+        nodes[1] = X["Domestic"] == 1
+        if nodes[1]:  # If Domestic is 1
+            prediction = 1  # Arrest made
+        else:  # If Domestic is 0
+            prediction = 0  # No arrest
+    else:  # If Primary Type is not BATTERY
+        # Third Node: Location Description
+        nodes[1] = X["Primary Type"] == "THEFT" and X["Location Description"] == "STREET"
+        if nodes[1]:  # If Primary Type is THEFT and Location is STREET
+            prediction = 1  # Arrest made
+        else:  # Any other scenario
+            prediction = 0  # No arrest
+            
+    return prediction, nodes
+
+# Example usage
+features = {
+    'Date': 1633022400,  # Example Unix timestamp
+    'Beat': '1234',
+    'District': '12',
+    'Ward': '5',
+    'Community Area': '1',
+    'X Coordinate': '1000',
+    'Y Coordinate': '2000',
+    'Latitude': 41.8781,
+    'Longitude': -87.6298,
+    'Primary Type': 'BATTERY',
+    'Description': 'SIMPLE',
+    'Location Description': 'APARTMENT',
+    'Domestic': 1,
+    'FBI Code': '08B',
+    'Year': 2025,
+    'Target variable': None,
+    'target': None,
+}
+
+# Get the prediction
+prediction, truth_values = predict(features)
+print("Prediction:", prediction)  # Output the prediction
+print("Truth Values of Nodes:", truth_values)  # Output the truth values of nodes
+```
+
+### Explanation:
+- The function takes a dictionary `X` as input, which contains the features of the crime. 
+- It initializes a list `nodes` to hold the truth values for the inner nodes.
+- For the tree:
+  - The first node checks if the `Primary Type` is "BATTERY".
+  - If it is, it checks if the `Domestic` feature is 1 to decide the prediction (arrest made or no arrest).
+  - If the `Primary Type` is not "BATTERY", it checks if it's a "THEFT" and if it's located on the "STREET".
+- The function returns both the prediction (0 for no arrest, 1 for arrest made) and the list of node truth values.

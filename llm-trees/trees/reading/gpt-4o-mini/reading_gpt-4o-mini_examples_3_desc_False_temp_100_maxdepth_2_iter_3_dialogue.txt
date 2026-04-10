@@ -1,0 +1,84 @@
+To construct a decision tree classifier with a maximum depth of 2 for classifying reading preference based on the provided features, we will make use of hypothetical criteria that might represent the most important features for this specific scenario. 
+
+Let's assume the reading preference classes are: 
+- **reads non-academic books** 
+- **reads academic books most of the time**.
+
+### Decision Tree:
+
+```plaintext
+|--- Reason for reading books (Academic Purpose) 
+|    |--- class: reads academic books most of the time
+|    |--- Reason for reading books (Entertainment Purpose) 
+|--- class: reads non-academic books
+```
+
+### Explanation:
+1. The first decision node uses the "Reason for reading books" feature:
+   - If the reason is "Academic Purpose", the decision tree classifies the individual as "reads academic books most of the time."
+   - If the reason is "Entertainment Purpose", it classifies as "reads non-academic books."
+
+Since we are limited to a depth of 2, we've made a single split here. In a more complex tree, we could add further distinctions based on other features like "Amount of time spent reading books per day" or "Department". However, for depth=2, we've only shown one path deeper. 
+
+This structure captures a simple classification based on the primary reason for reading, which often correlates with the type of reading material preferred.
+
+
+#########################
+
+
+Using the provided information about features and the decision tree from your earlier example, here's how to format the decision tree as a Python function. This function will make predictions based on the input features and return both the prediction and a list of truth values for the inner nodes.
+
+```python
+def predict(X: dict):
+    nodes = 2 * [None]
+    
+    # First node: Check the reason for reading books
+    nodes[0] = X["Reason for reading books"] == "Academic Purpose"
+    
+    if nodes[0]:
+        # Second node is not applicable when we classify as academic
+        prediction = 1  # Reads academic books most of the time
+    else:
+        # If it's not academic, classify as non-academic
+        prediction = 0  # Reads non-academic books
+
+    return prediction, nodes
+
+# Example usage:
+features = {
+    'Gender': 'Female',
+    'Age': 21,
+    'Department': 'CSE',
+    'Amount of time spent reading books per day': 2,
+    'Reason for reading books': 'Entertainment Purpose',
+    'How to manage books for reading': 'Borrow',
+    'Number of e-books you read last two years': '1-5',
+    'Number of printed books you read last two years': '6-10',
+    'Favorite books for reading to spend leisure time': 'Fiction',
+    'What is the change that you fell after reading books': 'Feel Relax',
+    'Who influenced you to read books': 'Self-Decision',
+    'Which language books do you like to read': 'English',
+    'Where do you read printed books': 'Home',
+    'Do you read Newspaper': 'No',
+    'The format that you used for reading books': 'Printed',
+    'Frequency of reading books': 'A few times a week'
+}
+
+prediction, nodes_values = predict(features)
+print(f"Prediction: {prediction}")
+print(f"Node values: {nodes_values}")
+```
+
+### Explanation:
+1. **Node Evaluation**:
+   - The first node checks if the "Reason for reading books" is "Academic Purpose". 
+   - The condition `nodes[0]` returns `True` if the condition is satisfied (indicating an academic reading preference).
+  
+2. **Prediction Logic**:
+   - If the reason is academic, the prediction is set to `1` (indicating "reads academic books most of the time").
+   - If not, it defaults to `0` (indicating "reads non-academic books").
+  
+3. **Return Values**:
+   - The function returns the prediction (0 or 1) and the list of truth values corresponding to each inner node. In this case, since it's a depth of 2 but only checks one condition at depth 1, the second node is inherently not used.
+
+This code example allows you to plug in a dictionary representing the features, and it outputs the prediction along with a list indicating which condition(s) were satisfied.

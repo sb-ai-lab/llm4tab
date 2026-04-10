@@ -1,0 +1,67 @@
+To build a decision tree classifier based on the provided features while maximizing the depth to 2, we will analyze the importance of the features and then create the tree. The tree will classify the machine status into "normal operation" or "at risk of failure."
+
+**Features:**
+- Temperature
+- Vibration
+- Power_Usage
+- Humidity
+- Machine_Type (Mill / Lathe / Drill)
+
+### Decision Tree:
+```
+|--- Temperature <= 75
+|   |--- Vibration <= 0.5
+|   |   |--- class: normal operation
+|   |--- Vibration > 0.5
+|   |   |--- class: at risk of failure
+|--- Temperature > 75
+|   |--- Power_Usage <= 200
+|   |   |--- class: normal operation
+|   |--- Power_Usage > 200
+|   |   |--- class: at risk of failure
+```
+
+### Explanation:
+1. The first split is made based on the `Temperature`. If the temperature is less than or equal to 75, it continues to evaluate `Vibration`.
+2. If the `Vibration` is less than or equal to 0.5, the machine is classified as "normal operation." If the `Vibration` is greater than 0.5, it’s classified as "at risk of failure."
+3. If the `Temperature` is greater than 75, then it checks `Power_Usage`. If `Power_Usage` is less than or equal to 200, the machine is classified as "normal operation." If it's greater than 200, it's classified as "at risk of failure."
+
+This decision tree provides a hierarchical structure to classify the machine status using only a depth of 2, while leveraging the most impactful features based on the hypothetical scenario presented.
+
+
+#########################
+
+
+Here's a Python function that implements the decision tree we constructed for predicting the machine status based on the provided features. This function adheres to the specified format and incorporates nodes for the inner conditions along with a meaningful threshold.
+
+```python
+def predict(X: dict):
+    nodes = 3 * [None]
+    
+    # Step 1: Check the Temperature condition
+    nodes[0] = X["Temperature"] <= 75
+    
+    # Step 2: If Temperature condition is met, check Vibration condition
+    if nodes[0]:
+        nodes[1] = X["Vibration"] <= 0.5
+        if nodes[1]:
+            prediction = 0  # Normal operation
+        else:
+            prediction = 1  # At risk of failure
+    else:
+        # If Temperature condition is not met, check Power_Usage condition
+        nodes[1] = X["Power_Usage"] <= 200
+        if nodes[1]:
+            prediction = 0  # Normal operation
+        else:
+            prediction = 1  # At risk of failure
+
+    return prediction, nodes
+```
+
+### Explanation:
+- The function first initializes a list `nodes` to hold the truth values of the inner nodes.
+- The first condition checks if the `Temperature` is less than or equal to 75. This corresponds to the first decision split.
+- If the temperature condition is met, it checks the `Vibration` level to determine if the machine is in "normal operation" or "at risk of failure."
+- If the temperature condition is not met, it examines `Power_Usage` to make the final classification.
+- Finally, the function returns both the prediction and the list of truth values for the inner nodes.

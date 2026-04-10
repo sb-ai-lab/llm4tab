@@ -1,0 +1,65 @@
+Based on the provided features and the need for a decision tree classifier with a maximum depth of 2 that classifies machine status (normal operation / at risk of failure), here’s how the decision tree can be structured:
+
+### Decision Tree:
+```
+|--- Vibration <= 5.0
+|   |--- class: Normal Operation
+|--- Vibration > 5.0
+|   |--- Temperature <= 75
+|   |   |--- class: At Risk of Failure
+|   |--- Temperature > 75
+|   |   |--- class: Normal Operation
+```
+
+### Explanation of Features Used in the Decision Tree:
+1. **Vibration**: This feature is critical as excessive vibration can be a strong indicator of machine issues, enabling us to quickly classify machines under normal operating conditions or those that might be at risk of failure.
+2. **Temperature**: Once vibration exceeds a certain threshold, temperature becomes relevant to determine further classification, distinguishing between machines that remain normal under high vibration conditions versus those that are at risk.
+
+Please adjust the thresholds (e.g., 5.0 for Vibration, 75 for Temperature) and classes based on specific datasets, as the example here is illustrative.
+
+
+#########################
+
+
+Here's a Python function that implements the described decision tree classifier for classifying machine status using the provided features. The function returns a prediction and a list of truth values for the inner nodes of the decision tree.
+
+```python
+def predict(X: dict):
+    nodes = 3 * [None]  # Create a list to track conditions of our inner nodes
+
+    # First decision node (Vibration threshold)
+    nodes[0] = X["Vibration"] <= 5.0
+    
+    if nodes[0]:  # If Vibration is less than or equal to 5.0
+        prediction = 0  # Normal operation
+    else:  # If Vibration is greater than 5.0
+        # Second decision node (Temperature threshold)
+        nodes[1] = X["Temperature"] <= 75.0
+        
+        if nodes[1]:  # If Temperature is less than or equal to 75.0
+            prediction = 1  # At risk of failure
+        else:  # If Temperature is greater than 75.0
+            prediction = 0  # Normal operation
+
+    return prediction, nodes
+
+# Example usage:
+features = {
+    "Temperature": 80.0,
+    "Vibration": 6.0,
+    "Power_Usage": 300.0,
+    "Humidity": 45.0,
+    "Machine_Type": "Mill",
+}
+
+prediction, node_truth_values = predict(features)
+print("Prediction:", prediction)  # This will print 0 or 1
+print("Node Truth Values:", node_truth_values)  # This will print the list of truth values
+```
+
+### Explanation:
+- The function receives a dictionary `X` which contains the necessary features.
+- It creates a list `nodes` to record the truth values of the inner decision nodes. 
+- The first node checks if the `Vibration` value is less than or equal to 5.0.
+- Depending on the result, it further checks the `Temperature` value and classifies the machine's status as either normal operation (0) or at risk of failure (1).
+- Finally, it returns the prediction and the list of truth values representing the evaluation status of each conditional check.

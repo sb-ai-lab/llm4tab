@@ -1,0 +1,10 @@
+{
+  "dataset": "postpartum",
+  "method": "gpt-4o-mini",
+  "iter": 3,
+  "seed": 3,
+  "acc": 0.5042735042735043,
+  "f1_score": 0.3690514993481095,
+  "roc_auc": 0.5042735042735043,
+  "tree_path": "./trees/postpartum/gpt-4o-mini/postpartum_gpt-4o-mini_examples_3_desc_False_temp_100_maxdepth_2_iter_3_dialogue.txt"
+}

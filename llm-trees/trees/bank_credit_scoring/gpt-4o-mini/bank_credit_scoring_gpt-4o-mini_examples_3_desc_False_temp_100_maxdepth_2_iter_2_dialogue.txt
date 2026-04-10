@@ -1,0 +1,89 @@
+Based on the features provided, here's a decision tree classification example that predicts credit scoring classes (low credit scoring / high credit scoring) with a maximum depth of 2. 
+
+### Decision Tree:
+```
+|--- Income <= 50000
+|   |--- Credit history rating (C3 / A3 / A2) <= B2
+|   |   |--- class: low credit scoring
+|   |   |--- Credit history rating (B1 / B3 / C1 / D3 / A1) > B2
+|   |   |--- class: high credit scoring
+|--- Income > 50000
+|   |--- Overdue days <= 15
+|   |   |--- class: high credit scoring
+|   |--- Overdue days > 15
+|   |   |--- class: low credit scoring
+```
+
+### Explanation of the Tree:
+1. **Node 1**: The first node checks `Income`. If the income is less than or equal to $50,000, it moves to the next node; otherwise, it goes to Node 3.
+  
+2. **Node 2**: For those with an income of $50,000 or less, it checks the `Credit history rating`. If this is less than or equal to B2, it classifies the credit scoring as "low credit scoring". If it's above B2, it's classified as "high credit scoring".
+
+3. **Node 3**: For individuals earning more than $50,000, the tree checks `Overdue days`. If overdue days are 15 or fewer, it classifies as "high credit scoring". If overdue days exceed 15, it's classified as "low credit scoring".
+
+This decision tree takes into account the most relevant features within the specified depth limit to form meaningful classifications.
+
+
+#########################
+
+
+Here’s the Python function that implements the decision tree based on the provided features for predicting credit scoring class (0 for low credit scoring and 1 for high credit scoring). The function captures the structure of the decision tree from the previous discussion and tracks the truth values of the inner nodes.
+
+```python
+def predict(X: dict):
+    nodes = [None] * 3
+    # Node 1: Check Income
+    nodes[0] = X["INCOME"] <= 50000
+    
+    # Node 2: Only checked if Node 1 is True
+    if nodes[0]:
+        nodes[1] = X["Credit history rating"] <= "B2"  # Using string comparison for credit history rating
+        if nodes[1]:
+            prediction = 0  # Low credit scoring
+        else:
+            prediction = 1  # High credit scoring
+    else:
+        # Node 3: Only checked if Node 1 is False
+        nodes[1] = X["Overdue days"] <= 15
+        if nodes[1]:
+            prediction = 1  # High credit scoring
+        else:
+            prediction = 0  # Low credit scoring
+
+    return prediction, nodes
+
+# Example Usage
+features = {
+    "Debt": 2000,
+    "Overdue days": 10,
+    "Initial limit": 5000,
+    "BIRTHDATE": 86400000,  # Unix timestamp for an example date
+    "INCOME": 45000,
+    "PDN": 0.05,
+    "SEX": "Male",
+    "EDU": "University",
+    "TERM": 36,
+    "Credit history rating": "B1",
+    "LV_AREA": "Minsk",
+    "LV_SETTLEMENTNAME": "MINSK",
+    "INDUSTRYNAME": "Finance and Insurance",
+    "UNDERAGECHILDRENCOUNT": 1,
+    "FAMILYSTATUS": 2,
+}
+
+prediction, nodes = predict(features)
+print(f"Prediction: {prediction}, Nodes: {nodes}")
+```
+
+### Explanation of the Code:
+1. **Nodes Array**: An array called `nodes` is initialized to keep track of the inner node evaluations. Its length is 3 since there are 2 decision points (conditions) in the tree structure provided.
+
+2. **Node Evaluations**:
+   - **Node 1** checks if the `INCOME` is less than or equal to $50,000. 
+   - If true, it evaluates **Node 2**: whether the `Credit history rating` is less than or equal to `B2`. Depending on this check, it classifies the input as either "low credit scoring" (0) or "high credit scoring" (1).
+   - If the income is greater than $50,000, the function evaluates **Node 3** checking if `Overdue days` are less than or equal to 15 to determine the credit scoring class.
+
+3. **Return Value**: The function returns the prediction and the list of truth values for the inner nodes. 
+
+### Example Usage: 
+An example usage of the `predict` function is provided, which creates a dictionary of feature values and then calls `predict` to obtain and print the prediction and node evaluations. You can adjust the values in the `features` dictionary to test different scenarios.

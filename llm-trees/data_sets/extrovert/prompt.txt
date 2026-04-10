@@ -1,0 +1,18 @@
+I want you to induce a decision tree classifier based on features. I first give an example below.
+Then, I provide you with Features and want you to build a decision tree with a maximum depth of 2 using the most important features.
+The tree should classify friendship-maintenance class (uses texting/social media or rarely keeps in touch / maintains long-distance friendships through calls).
+
+Features: sepal length (cm), sepal width (cm), petal length (cm), petal width (cm)
+
+Decision tree:
+|--- petal width (cm) <= 0.80
+||--- class: setosa
+|--- petal width (cm) > 0.80
+||--- petal width (cm) <= 1.75
+|||--- class: versicolor
+||--- petal width (cm) > 1.75
+|||--- class: virginica
+
+Features: social_connection_frequency (Daily / Weekly / Never / Monthly / weekly / etc.), gathering_size_preference (Small gatherings / Both / Large events / Never), valued_friendship_traits (Support / Loyalty / Honesty / All / All the three and trust / Understanding person / etc.), conflict_resolution_style (Talk it out / Apologize first / Avoid conflict / Let time fix it), family_support_level (Yes / Sometimes / No / Never / yes / etc.), social_battery_recharge (Talking to someone / Alone time / None of the above / Social media), social_orientation_type (Introvert / Ambivert / Extrovert / Not sure), social_anxiety_level (Avoid it / Neutral / Excited / Nervous), emotional_expression_method (Stay silent / Talk openly / Talk openly, Express emotion strongly / Express emotion strongly / Other / etc.), primary_anger_sources (Injustice / Being interrupted / Selfishness / Unnecessary criticism)
+
+Decision Tree:

@@ -1,0 +1,63 @@
+To construct a decision tree classifier with a maximum depth of 2 based on the provided features, we will select the most important features to split the data effectively, focusing on determining the arrest outcome (no arrest / arrest made).
+
+Assuming we have available data and that we can identify two critical features that could influence the arrest outcome, we might use "Primary Type" and "Location Description" as they could be significant predictors in determining if an arrest was made.
+
+Here’s how the decision tree could look:
+
+```
+Decision Tree:
+|--- Primary Type == 'BATTERY'
+|   |--- class: arrest made
+|--- Primary Type != 'BATTERY'
+|   |--- Location Description == 'STREET'
+|   |   |--- class: arrest made
+|   |--- Location Description != 'STREET'
+|   |   |--- class: no arrest
+```
+
+### Explanation:
+1. **Primary Type**: This is used as the first split. If the "Primary Type" is 'BATTERY', we classify it as "arrest made". This indicates a strong correlation between battery offenses and arrests.
+   
+2. **Location Description**: For offenses that are not classified as "BATTERY", we further split based on "Location Description". If it occurs on the 'STREET', we classify it as "arrest made". If it occurs in other locations, we classify it as "no arrest". This suggests that the location could also have an influence on the likelihood of making an arrest.
+
+This simplistic model captures the decision-making process with a depth of 2 while reflecting key features likely influencing arrest outcomes based on initial data insights.
+
+
+#########################
+
+
+Based on the specifications provided, here is a Python function that implements the decision tree classifier with a maximum depth of 2. This function predicts whether an arrest was made based on the "Primary Type" and "Location Description" of a crime. It also returns a list representing the truth values of the inner nodes.
+
+```python
+def predict(X: dict):
+    nodes = 3 * [None]
+    
+    # First condition: Check if the Primary Type is 'BATTERY'
+    nodes[0] = X["Primary Type"] == 'BATTERY'
+    
+    if nodes[0]:
+        prediction = 1  # Arrest made for BATTERY
+    else:
+        # Second condition: Check the Location Description
+        nodes[1] = X["Location Description"] == 'STREET'
+        
+        if nodes[1]:
+            prediction = 1  # Arrest made if on STREET
+        else:
+            prediction = 0  # No arrest made in other locations
+    
+    return prediction, nodes
+```
+
+### Explanation:
+1. **Nodes**: A list `nodes` of size 3 is created to store the truth values of the inner nodes.
+   - `nodes[0]`: Indicates whether the crime type is 'BATTERY'.
+   - `nodes[1]`: Indicates whether the crime occurred on the 'STREET'.
+
+2. **Prediction Logic**:
+   - If the `Primary Type` is 'BATTERY', the function sets the prediction to `1` (indicating an arrest is made).
+   - If it's not 'BATTERY', it checks the `Location Description`.
+     - If the location is 'STREET', it also sets the prediction to `1`.
+     - For any other location, it sets the prediction to `0` (indicating no arrest).
+
+This function effectively embodies the decision logic of the classification tree while providing insight into which conditions were met based on the input features.

@@ -1,0 +1,75 @@
+To construct a decision tree classifier with a maximum depth of 2 for the friendship-maintenance classes based on the provided features, we will identify the most significant features that can help in differentiating between the two classes: "uses texting/social media to maintain friendships" and "rarely keeps in touch/maintains long-distance friendships through calls."
+
+### Decision Tree
+
+```
+|--- social_connection_frequency: Daily
+|   |--- class: Uses texting/social media
+|--- social_connection_frequency: Weekly
+|   |--- gathering_size_preference: Small gatherings
+|   |   |--- class: Uses texting/social media
+|   |--- gathering_size_preference: Large events
+|   |   |--- class: Rarely keeps in touch
+|--- social_connection_frequency: Monthly
+|   |--- class: Rarely keeps in touch
+|--- social_connection_frequency: Never
+|   |--- class: Rarely keeps in touch
+```
+
+### Explanation:
+1. **Root Node (social_connection_frequency):** The first decision is based on how often the individual connects socially (e.g., Daily, Weekly, Monthly, Never).
+   - If they connect **Daily**, they generally maintain friendships via texting/social media.
+   - If they connect **Weekly**, we further split based on their **gathering_size_preference**.
+   - Finally, if they connect **Monthly** or **Never**, they likely rarely keep in touch.
+
+2. **Second Level (gathering_size_preference):** This node helps to further classify those who connect on a weekly basis. The preference for small gatherings suggests a tendency to maintain closer relationships, while a preference for larger events might indicate a different social engagement style, leading to a lower tendency for frequent communication.
+
+This decision tree is relatively simple and conforms to the maximum depth requirement of 2 levels. Adjustments can be made based on actual dataset outcomes and feature importance analysis.
+
+
+#########################
+
+
+Here's a Python function that implements the decision tree for predicting the friendship-maintenance class based on the specified features. This function uses the criteria and structure developed in the previous decision tree and formats it to return a single prediction along with the truth values of the inner nodes.
+
+```python
+def predict(X: dict):
+    nodes = 3 * [None]  # 3 inner nodes for the decision tree
+
+    # Define the boolean values for the inner nodes based on input features
+    nodes[0] = X["social_connection_frequency"] == "Daily"  # First inner node
+    nodes[1] = (X["social_connection_frequency"] == "Weekly" and 
+                X["gathering_size_preference"] == "Small gatherings")  # Second inner node
+    nodes[2] = (X["social_connection_frequency"] == "Weekly" and 
+                X["gathering_size_preference"] == "Large events")  # Additional condition for the second node
+
+    # Decision logic based on the values of the nodes
+    if nodes[0]:  # If social connection frequency is Daily
+        prediction = 0  # Uses texting/social media
+    elif nodes[1]:  # If social connection frequency is Weekly and prefers Small gatherings
+        prediction = 0  # Uses texting/social media
+    elif nodes[2]:  # If social connection frequency is Weekly and prefers Large events
+        prediction = 1  # Rarely keeps in touch
+    elif X["social_connection_frequency"] == "Monthly":  # If Monthly
+        prediction = 1  # Rarely keeps in touch
+    else:  # If Never
+        prediction = 1  # Rarely keeps in touch
+
+    return prediction, nodes
+```
+
+### Explanation:
+1. **Nodes Setup:** We create a list `nodes` of size 3 to keep track of the truth values of the inner nodes.
+   - `nodes[0]`: Checks if `social_connection_frequency` is "Daily".
+   - `nodes[1]`: Checks if `social_connection_frequency` is "Weekly" and if `gathering_size_preference` is "Small gatherings".
+   - `nodes[2]`: Checks if `social_connection_frequency` is "Weekly" and if `gathering_size_preference` is "Large events".
+
+2. **Decision Logic:** 
+   - If the condition in `nodes[0]` is satisfied (Daily), it predicts the user will use texting/social media (class 0).
+   - If the condition in `nodes[1]` is satisfied (Weekly and Small gatherings), it also predicts texting/social media.
+   - If the condition in `nodes[2]` is satisfied (Weekly and Large events), it predicts rarely keeping in touch (class 1).
+   - If the `social_connection_frequency` is "Monthly" or "Never," it defaults to predicting rarely keeping in touch.
+
+3. **Return Values:** The function returns the predicted class and the truth values of each node in the decision-making process.
+
+This function can now be used to compute predictions based on the specified input features.

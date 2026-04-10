@@ -1,0 +1,80 @@
+To create a decision tree classifier using the given features (Vmag, Plx, e_Plx, B-V, Amag, SpType) for classifying stars into two classes (dwarf star / giant star) with a maximum depth of 2, we will first need to identify the most relevant features based on common astronomical knowledge, such as the classification of stars by their color and magnitude.
+
+Here’s a simplified decision tree based on an understanding of these features:
+
+### Decision Tree:
+```
+|--- B-V <= 0.5
+|   |--- class: dwarf star
+|--- B-V > 0.5
+|   |--- Vmag <= 1.0
+|   |   |--- class: dwarf star
+|   |--- Vmag > 1.0
+|   |   |--- class: giant star
+```
+
+### Explanation:
+- **B-V**: The B-V color index indicates the temperature/color of the star. A lower B-V value typically corresponds to hotter, bluer stars (which are often dwarf stars), while a higher B-V value correlates with cooler, redder stars (which can include giant stars).
+- **Vmag** (apparent magnitude): This represents the brightness of the star as seen from Earth. Dwarf stars often have higher brightness values, while giant stars frequently appear dimmer from our perspective, especially if they are distant.
+
+### Note:
+- The specific values used to split the tree (like 0.5 for B-V and 1.0 for Vmag) are illustrative and should ideally be derived from empirical analysis of the dataset. Actual thresholds might vary based on the distribution of the feature values in a real dataset.
+- The classifications into 'dwarf star' or 'giant star' are fundamental and can become more complex with the introduction of additional star types when more features/data points become available.
+
+
+#########################
+
+
+Based on your requirements, here's a Python function that implements the decision tree classifier for the star classification problem, with a maximum depth of 2. The function takes a dictionary of features as input and returns a prediction along with a list of truth values for the inner nodes:
+
+```python
+def predict(X: dict):
+    nodes = 2 * [None]
+    
+    # Define thresholds for inner nodes
+    nodes[0] = X["B-V"] <= 0.5  # First node: checking B-V color index
+    nodes[1] = X["Vmag"] > 1.0   # Second node: checking apparent visual magnitude
+    
+    if nodes[0]:
+        prediction = 0  # Dwarf star (0)
+    else:
+        if nodes[1]:
+            prediction = 1  # Giant star (1)
+        else:
+            prediction = 0  # Dwarf star (0)
+    
+    return prediction, nodes
+```
+
+### Explanation of the Function:
+
+- **Input (`X`)**: A dictionary containing values for the features (Vmag, Plx, e_Plx, B-V, Amag, SpType).
+- **Inner Nodes**:
+  - **Node 0**: Checks if the `B-V` color index is less than or equal to 0.5.
+  - **Node 1**: Checks if the `Vmag` is greater than 1.0.
+  
+- **Prediction Logic**:
+  - If **Node 0** is true (B-V <= 0.5): The function predicts the star as a **dwarf star** (0).
+  - If **Node 0** is false:
+    - If **Node 1** is true (Vmag > 1.0): It predicts a **giant star** (1).
+    - If **Node 1** is false: It predicts a **dwarf star** (0).
+  
+### Usage:
+
+This function can be called with a dictionary structured as follows (with sample values):
+
+```python
+features = {
+    "Vmag": 1.5,
+    "Plx": 0.1,
+    "e_Plx": 0.01,
+    "B-V": 0.6,
+    "Amag": 4.5,
+    "SpType": "G2V",
+}
+
+prediction, truth_values = predict(features)
+print(f"Prediction: {prediction}, Truth values: {truth_values}")
+```
+
+This will provide the predicted class of the star (0 for dwarf, 1 for giant) along with the truth values for the decisions made in the inner nodes.

@@ -1,0 +1,20 @@
+Features:
+Gender: student's gender (Male / Female).
+Age: student's age (22 / 23 / 21 / 20 / 19 / 18).
+Department: student's academic department (CSE / SWE / English / Pharmacy / EEE / BBA / NFE / Others / MCT / Textile / etc.).
+Amount of time spent reading books per day: amount of time spent reading books per day.
+Reason for reading books: main reason for reading books (Academic Purpose / Keep me informative / Entertainment Purpose / To increase my English vocabulary knowledge / etc.).
+How to manage books for reading: how books are obtained or managed (E-books / Borrow / Others / Buy / Used-all).
+Number of e-books you read last two years: number of e-books read in the last two years (11-15 / More than 20 / 1-5 / 6-10 / 16-20).
+Number of printed books you read last two years: number of printed books read in the last two years (11-15 / 1-5 / 6-10 / More than 20 / 16-20).
+Favorite books for reading to spend leisure time: preferred books for leisure reading (Biography / Non-Fiction / Others / Fiction / Politics).
+What is the change that you fell after reading books: perceived effect after reading books (Increase Academic Performance / Increase Creative Thinking / Feel Relax / Increase Problem Solving Skill).
+Who influenced you to read books: who influenced the student to read books (Teachers / Self-Decision / Friends / Parents).
+Which language books do you like to read: preferred language for books (English / Bangla / Others).
+Where do you read printed books: place where printed books are read (Home / Library / During Travel).
+Do you read Newspaper: whether the student reads newspapers (No / Yes).
+The format that you used for reading books: preferred reading format (Both / E-books / Printed).
+Frequency of reading books: reading frequency (On everyday basis / A few times a week / A few times a month / Less than once a year / Once or twice a year).
+
+Target variable:
+target: reading preference class (0 = reads non-academic books / 1 = reads academic books most of the time)

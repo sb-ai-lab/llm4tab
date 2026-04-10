@@ -1,0 +1,88 @@
+To create a decision tree classifier based on the provided features for classifying reading preference (reads non-academic books vs. reads academic books most of the time) with a maximum depth of 2, we need to identify the most important features. Let's assume we analyzed the data and found the following features to be informative for our classification:
+
+1. Amount of time spent reading books per day
+2. Reason for reading books
+
+Based on these selected features, here’s a simple decision tree representation for our classification:
+
+### Decision Tree:
+```
+|--- Amount of time spent reading books per day <= 1 hour
+|   |--- class: reads non-academic books
+|--- Amount of time spent reading books per day > 1 hour
+|   |--- Reason for reading books == Academic Purpose
+|   |   |--- class: reads academic books most of the time
+|   |--- Reason for reading books != Academic Purpose
+|   |   |--- class: reads non-academic books
+```
+
+### Explanation:
+- The first split is on the "Amount of time spent reading books per day" feature. If the response is less than or equal to 1 hour, the subject tends to read non-academic books.
+- If the time spent reading exceeds 1 hour, we further split based on the "Reason for reading books." If the reason is specifically for "Academic Purpose," the readings tend to be classified under "reads academic books most of the time." Otherwise, they still lean towards "reads non-academic books."
+
+This structure provides a clear and concise representation of the decision-making process regarding reading preferences based on the selected features.
+
+
+#########################
+
+
+Here’s a Python function that represents the decision tree classifier based on the features you provided. The function returns a prediction regarding the reading preference (0 for non-academic books, 1 for academic books) and a list of truth values representing whether the conditions of the inner nodes are satisfied.
+
+```python
+def predict(X: dict):
+    # Initialize list to store truth values of inner nodes
+    nodes = 2 * [None]  # Since the tree has maximum depth of 2
+
+    # Check the first condition: Amount of time spent reading books per day
+    nodes[0] = X["Amount of time spent reading books per day"] <= 1  # Meaningful threshold
+    if nodes[0]:
+        # Prediction when amount of time is less than or equal to 1 hour
+        prediction = 0  # reads non-academic books
+    else:
+        # Check the second condition: Reason for reading books
+        nodes[1] = X["Reason for reading books"] == "Academic Purpose"
+        if nodes[1]:
+            prediction = 1  # reads academic books most of the time
+        else:
+            prediction = 0  # If not for Academic Purpose, reads non-academic books
+
+    return prediction, nodes
+```
+
+### Explanation:
+1. **Inner Node `nodes[0]`:** This evaluates whether the amount of time spent reading books is less than or equal to 1 hour.
+2. **Inner Node `nodes[1]`:** This checks if the reason for reading books is "Academic Purpose."
+3. **Predictions:** 
+   - If the first condition is true (less than or equal to 1 hour), the prediction is `0` (reads non-academic books).
+   - If the first condition is false (more than 1 hour), it checks the second condition. If the second condition is true (for Academic Purpose), the prediction is `1` (reads academic books). Otherwise, it is `0` (reads non-academic books).
+
+### Usage:
+You can call this function by passing a dictionary with the appropriate keys representing the features:
+
+```python
+# Example feature input
+features = {
+    "Gender": "Female",
+    "Age": 22,
+    "Department": "CSE",
+    "Amount of time spent reading books per day": 1.5,
+    "Reason for reading books": "Keep me informative",
+    "How to manage books for reading": "Borrow",
+    "Number of e-books you read last two years": "6-10",
+    "Number of printed books you read last two years": "11-15",
+    "Favorite books for reading to spend leisure time": "Fiction",
+    "What is the change that you fell after reading books": "Feel Relax",
+    "Who influenced you to read books": "Self-Decision",
+    "Which language books do you like to read": "English",
+    "Where do you read printed books": "Home",
+    "Do you read Newspaper": "Yes",
+    "The format that you used for reading books": "Printed",
+    "Frequency of reading books": "A few times a week"
+}
+
+# Call the function
+prediction, inner_nodes_truth_values = predict(features)
+print(f"Prediction: {prediction}, Inner Nodes Truth Values: {inner_nodes_truth_values}")
+```
+
+This function will correctly assess reading preferences based on the specified features.

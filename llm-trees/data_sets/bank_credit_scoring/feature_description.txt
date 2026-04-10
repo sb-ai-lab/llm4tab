@@ -1,0 +1,19 @@
+Features:
+Debt: client's current debt amount.
+Overdue days: number of overdue days.
+Initial limit: initial credit limit.
+BIRTHDATE: client's date of birth represented as Unix timestamp after datetime-to-float conversion.
+INCOME: client's income.
+PDN: probability of default indicator.
+SEX: client's sex (Male / Female).
+EDU: client's education level (High school / University / College / Incomplete, University).
+TERM: loan term (24 / 36 / 60).
+Credit history rating: client's credit history rating (C3 / A1 / B3 / B1 / C1 / D3 / B2 / A3 / A2 / D2).
+LV_AREA: client's region or area of residence (g. Minsk / MINSKAJa / BRESTSKAJa / Gomel'skaja oblast' / Brestskaja oblast' / GRODNENSKAJa / MINSKAJa OBLAST' / Minskaja oblast' / Vitebskaja oblast' / VITEBSKAJa / etc.).
+LV_SETTLEMENTNAME: client's settlement or city of residence (MINSK / Minsk / PRUSY / PINSK / SVETLOGORSK / Oktjabr' / RAJTsA / MIHALOVO / SMOLJaNY / BARANOVIChI / etc.).
+INDUSTRYNAME: client's employment industry (Production / Medicine and healthcare / Finance and Insurance / Construction / Agriculture / Retired / Transport/Logistic / Science and Education / Trade / Ministry of Internal Affairs/Ministry of Emergency Situations/Ministry of Defense / etc.).
+UNDERAGECHILDRENCOUNT: number of underage children (0 / 1 / 2 / 3).
+FAMILYSTATUS: family or marital status code (1 / 2).
+
+Target variable:
+target: credit scoring class (0 = low credit scoring / 1 = high credit scoring)

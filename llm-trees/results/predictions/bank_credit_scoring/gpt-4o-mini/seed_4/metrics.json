@@ -1,0 +1,10 @@
+{
+  "dataset": "bank_credit_scoring",
+  "method": "gpt-4o-mini",
+  "iter": 4,
+  "seed": 4,
+  "acc": 0.5218577234284041,
+  "f1_score": 0.4138624514839817,
+  "roc_auc": 0.5218577234284041,
+  "tree_path": "./trees/bank_credit_scoring/gpt-4o-mini/bank_credit_scoring_gpt-4o-mini_examples_3_desc_False_temp_100_maxdepth_2_iter_4_dialogue.txt"
+}

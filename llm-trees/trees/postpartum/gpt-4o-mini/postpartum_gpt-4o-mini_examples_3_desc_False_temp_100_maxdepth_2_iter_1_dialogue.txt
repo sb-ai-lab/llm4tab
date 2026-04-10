@@ -1,0 +1,115 @@
+To construct a simple decision tree with a maximum depth of 2 for classifying postpartum depression status using the provided features, we will assume hypothetical thresholds for the features based on possible data insights. The goal here is to create a decision tree that can classify whether an individual has postpartum depression or not, based on the most significant features that might relate to that condition. 
+
+**Decision Tree:**
+```
+|--- Feeling about motherhood (Neutral)
+|    |--- class: does not have postpartum depression
+|    |--- Feeling about motherhood (Happy)
+|    |--- class: does not have postpartum depression
+|    |--- Feeling about motherhood (Sad)
+|    |--- class: has postpartum depression
+|--- Need for Support (High)
+|    |--- class: has postpartum depression
+|    |--- Need for Support (Medium)
+|    |--- class: does not have postpartum depression
+|    |--- Need for Support (Low)
+|    |--- class: does not have postpartum depression
+```
+
+### Explanation of the Decision Tree:
+1. **Root Node:** The first split in the tree is based on "Feeling about motherhood." This feature might provide insight into the mother's emotional state after childbirth. If the feeling is "Neutral" or "Happy," it suggests a lower likelihood of experiencing postpartum depression. On the other hand, feeling "Sad" might indicate a higher risk.
+
+2. **Second Layer:** From the branch where the "Feeling about motherhood" is "Neutral," we further classify based on "Need for Support." Those who indicate a "High" need for support are classified as having postpartum depression, while medium or low need for support indicates they do not. 
+
+The specific choice of features and the structure of this decision tree is illustrative and should be adapted based on actual data analysis to identify the most predictive features and their optimal thresholds.
+
+
+#########################
+
+
+Here’s a Python function representing the decision tree for predicting postpartum depression status, structured according to your specifications. This function checks two key features: "Feeling about motherhood" and "Need for Support." 
+
+```python
+def predict(X: dict):
+    nodes = [None, None]  # Initialize the inner nodes list.
+    
+    # Decision Tree Logic
+    nodes[0] = (X["Feeling about motherhood"] == "Sad")  # First condition check
+    nodes[1] = (X["Need for Support"] == "High")  # Second condition check
+    
+    if nodes[0]:  # First branch based on feeling about motherhood
+        prediction = 1  # has postpartum depression
+    elif nodes[1]:  # Check the second condition if first is not satisfied
+        prediction = 1  # has postpartum depression
+    else:
+        prediction = 0  # does not have postpartum depression
+
+    return prediction, nodes
+```
+
+### Explanation of the Code:
+1. **`nodes`:** This list keeps track of the inner nodes' truth values. It has two elements for two conditions.
+2. **First Condition:** It checks if "Feeling about motherhood" is "Sad." If true, it returns a prediction of `1` (indicating the presence of postpartum depression).
+3. **Second Condition:** If the first condition is false, it checks if "Need for Support" is "High." If true, it also returns a prediction of `1`.
+4. **Default Case:** If neither condition is true, the function will return `0`, indicating no postpartum depression.
+
+### Input:
+- The function expects a dictionary `X` containing the necessary feature values with the exact specified keys.
+
+### Usage Example:
+You can call the `predict` function with an input dictionary like so:
+
+```python
+example_input = {
+    "Age": 30,
+    "Residence": "City",
+    "Education Level": "University",
+    "Marital status": "Married",
+    "Occupation before latest pregnancy": "Doctor",
+    "Monthly income before latest pregnancy": "More than 30000",
+    "Occupation After Your Latest Childbirth": "Housewife",
+    "Current monthly income": "10000 to 20000",
+    "Husband's education level": "University",
+    "Husband’s monthly income": "More than 30000",
+    "Addiction": "No",
+    "Total children": "One",
+    "Disease before pregnancy": "No",
+    "History of pregnancy loss": "No",
+    "Family type": "Nuclear",
+    "Number of household members": "2 to 5",
+    "Relationship with the in-laws": "Good",
+    "Relationship with husband": "Good",
+    "Relationship with the newborn": "Good",
+    "Relationship between father and newborn": "Good",
+    "Feeling about motherhood": "Sad",
+    "Recieved Support": "Medium",
+    "Need for Support": "High",
+    "Major changes or losses during pregnancy": "No",
+    "Abuse": "No",
+    "Trust and share feelings": "Yes",
+    "Number of the latest pregnancy": "1",
+    "Pregnancy length": "9 months",
+    "Pregnancy plan": "Yes",
+    "Regular checkups": "Yes",
+    "Fear of pregnancy": "No",
+    "Diseases during pregnancy": "No",
+    "Age of newborn": "0 to 6 months",
+    "Age of immediate older children": "No",
+    "Mode of delivery": "Normal Delivery",
+    "Gender of newborn": "Girl",
+    "Birth compliancy": "No",
+    "Breastfeed": "Yes",
+    "Newborn illness": "No",
+    "Worry about newborn": "No",
+    "Relax/sleep when newborn is tended": "Yes",
+    "Relax/sleep when the newborn is asleep": "Yes",
+    "Angry after latest child birth": "No",
+    "Feeling for regular activities": "Tired",
+}
+
+prediction, node_values = predict(example_input)
+print("Prediction:", prediction)
+print("Inner Node Values:", node_values)
+```
+
+This will return the prediction and the statuses of the inner nodes based on the given inputs.

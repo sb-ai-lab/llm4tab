@@ -1,0 +1,95 @@
+To create a decision tree classifier with a maximum depth of 2 based on the features you've provided and to classify the arrest outcome (no arrest / arrest made), we will need to select the most important features from the given list. 
+
+Since the specific dataset and outcomes are not provided, I will assume common critical features based on the context you mentioned. A working example of a decision tree classifier, considering general knowledge and common patterns in similar datasets, is illustrated below:
+
+### Decision Tree:
+```
+|--- Primary Type <= BATTERY 
+|   |--- Domestic = 1
+|   |   |--- class: arrest made
+|   |--- Domestic = 0
+|   |   |--- class: no arrest
+|--- Primary Type > BATTERY
+|   |--- Location Description <= STREET
+|   |   |--- class: no arrest
+|   |--- Location Description > STREET
+|   |   |--- class: arrest made
+```
+
+### Explanation:
+1. **Primary Type**: This feature is used to determine the type of crime, where "BATTERY" indicates a more severe or recognizable offense likely leading to an arrest.
+2. **Domestic**: This feature indicates whether the incident is domestic in nature, which typically can lead to arrest.
+3. **Location Description**: Used as a secondary feature to help classify the outcome when the Primary Type does not indicate a straightforward outcome.
+
+### Notes:
+- In a real scenario, the actual data and outcomes would guide the feature selection and splitting criteria.
+- The classes ("arrest made" and "no arrest") can potentially change based on the dataset used, and you should adjust the conditions based on observed patterns in your data.
+
+
+#########################
+
+
+Here’s how to implement the requested decision tree classifier as a Python function based on the specified features for predicting arrest outcomes. The function will classify the outcome based on `Primary Type`, `Domestic`, and `Location Description`, and provide a list of truth values for the inner nodes:
+
+```python
+def predict(X: dict):
+    # Initialize the nodes list to store truth values for the inner nodes
+    nodes = [None, None]  # Two inner nodes for max depth of 2
+    
+    # Decision tree logic
+    nodes[0] = X["Primary Type"] <= "BATTERY"  # Comparing string values
+    if nodes[0]:
+        nodes[1] = X["Domestic"] == 1  # Whether the crime is domestic
+        if nodes[1]:
+            prediction = 1  # Arrest made
+        else:
+            prediction = 0  # No arrest
+    else:
+        # Primary Type is greater than BATTERY
+        nodes[1] = X["Location Description"] <= "STREET"  # Comparing string values
+        if nodes[1]:
+            prediction = 0  # No arrest
+        else:
+            prediction = 1  # Arrest made
+    
+    return prediction, nodes
+```
+
+### Explanation:
+1. **Nodes**: We create a list with two entries to store the truth values of the inner nodes of the decision tree.
+2. **First Decision (nodes[0])**: Checks if `Primary Type` is less than or equal to `"BATTERY"`. This reflects the basic split of whether the crime is a serious type.
+3. **Second Decision (nodes[1])**: Depending on the result of the first node, it checks if the crime is domestic (`Domestic == 1`) if the first check is true.
+4. **Final Decision**: Based on the evaluations, it assigns the prediction (`1` for "arrest made" and `0` for "no arrest").
+5. **Return Value**: The function returns the predicted arrest outcome and the truth values for the inner nodes.
+
+You can call this function with a dictionary that contains the necessary features, like so:
+
+```python
+example_input = {
+    'Date': 1633335600,
+    'Beat': '1234',
+    'District': '1',
+    'Ward': '2',
+    'Community Area': '3',
+    'X Coordinate': 123456,
+    'Y Coordinate': 654321,
+    'Latitude': 41.8781,
+    'Longitude': -87.6298,
+    'Primary Type': 'BATTERY',
+    'Description': 'SIMPLE',
+    'Location Description': 'STREET',
+    'Domestic': 1,
+    'FBI Code': '24',
+    'Year': 2025,
+    'Target variable': None,
+    'target': None
+}
+
+prediction, nodes = predict(example_input)
+print("Prediction:", prediction)
+print("Inner nodes:", nodes)
+```
+
+### Important Notes:
+- Ensure that the string comparisons in the conditions match your dataset's value representations (e.g., make sure that `Primary Type` is compared correctly based on its string representation in your specific dataset).
+- Adjust the features and their conditions according to actual data distributions and insights from exploratory data analysis if necessary.

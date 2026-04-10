@@ -1,0 +1,95 @@
+To build a decision tree classifier using the provided features centered around the classification of friendship-maintenance styles, we must first identify the most informative features based on your description. We'll use a maximum depth of 2 for our tree.
+
+Let's assume the following important features (which you would normally derive using feature importance techniques such as Gini impurity or information gain):
+
+1. **social_connection_frequency**  
+2. **social_orientation_type**  
+3. **conflict_resolution_style**  
+
+Based on these features, here's a potential decision tree:
+
+```
+Decision Tree:
+|--- social_connection_frequency <= Weekly
+|   |--- class: rarely keeps in touch / maintains long-distance friendships through calls
+|--- social_connection_frequency > Weekly
+|   |--- social_orientation_type == Extrovert
+|   |   |--- class: uses texting/social media
+|   |--- social_orientation_type != Extrovert
+|   |   |--- class: rarely keeps in touch / maintains long-distance friendships through calls
+```
+
+### Description of the Decision Tree:
+
+1. **Root Node**: The decision starts with **social_connection_frequency**.
+   - If the frequency is **Weekly or less**, the classifier predicts that the person would **rarely keep in touch or maintain long-distance friendships through calls**.
+
+2. **Second Level Node**: If the frequency is **more than Weekly**, we then check **social_orientation_type**.
+   - If the person is an **Extrovert**, they are predicted to **use texting/social media** for friendship maintenance.
+   - If the person is **not an Extrovert**, they are predicted to **rarely keep in touch or maintain long-distance friendships through calls**.
+
+This tree provides a simple framework based on the specified features and reflects typical patterns in friendship maintenance behaviors. Adjustments to feature selection or node criteria may be necessary based on actual datasets or further insights into the relationships between the features.
+
+
+#########################
+
+
+Below is a Python function that represents the decision tree we constructed earlier. This function will return a single prediction (binary target variable) along with a list representing the truth values of the inner nodes.
+
+### Decision Tree Function
+
+```python
+def predict(X: dict):
+    # Initialize the list to track the truth values of the inner nodes
+    nodes = 2 * [None]
+
+    # Check the first condition based on social_connection_frequency
+    nodes[0] = X["social_connection_frequency"] in ["Weekly", "Never", "Monthly"]
+    
+    if nodes[0]:
+        # Prediction for those who rarely keep in touch or maintain friendships through calls
+        prediction = 1  # Target: 1 means maintains long-distance friendships through calls
+    else:
+        # Check the second condition based on social_orientation_type
+        nodes[1] = X["social_orientation_type"] == "Extrovert"
+        
+        if nodes[1]:
+            # Prediction for those who use texting/social media
+            prediction = 0  # Target: 0 means uses texting/social media
+        else:
+            # If not extrovert, they also maintain long-distance friendships through calls
+            prediction = 1  # Target: 1 means maintains long-distance friendships through calls
+
+    return prediction, nodes
+
+# Example usage:
+features = {
+    "social_connection_frequency": "Daily",
+    "gathering_size_preference": "Both",
+    "valued_friendship_traits": "Support",
+    "conflict_resolution_style": "Talk it out",
+    "family_support_level": "Sometimes",
+    "social_battery_recharge": "Talking to someone",
+    "social_orientation_type": "Introvert",
+    "social_anxiety_level": "Neutral",
+    "emotional_expression_method": "Talk openly",
+    "primary_anger_sources": "Selfishness",
+}
+
+prediction, nodes = predict(features)
+print(f"Prediction: {prediction}, Inner Nodes Truth Values: {nodes}")
+```
+
+### Explanation of the Code:
+
+1. **Function Definition**: The function `predict(X: dict)` takes a dictionary `X` as input, which contains the feature values.
+
+2. **Nodes Initialization**: A list of size 2 is created to store the truth values of the inner nodes.
+
+3. **Node Evaluations**:
+   - The first condition checks if the frequency of social connection is **Weekly, Never, or Monthly**. If true, it leads to a prediction of class 1 (maintains long-distance friendships through calls).
+   - The second condition checks if the social orientation type is **Extrovert** only if the first condition is false. If true, the prediction is class 0 (uses texting/social media); otherwise, it falls back to class 1.
+
+4. **Return Statement**: The function returns the prediction and the states of the node evaluations.
+
+This code structure effectively captures the decision-making process of the decision tree as described in your objective.

@@ -1,0 +1,74 @@
+To create a decision tree classifier based on the provided features for classifying friendship-maintenance class, we will select the most important features for decision-making. With a maximum depth of 2, we'll structure the tree accordingly.
+
+### Decision Tree:
+
+```
+|--- social_connection_frequency <= Monthly
+|   |--- social_orientation_type = Introvert
+|   |   |--- class: Rarely keeps in touch / Maintains long-distance friendships through calls
+|   |--- social_orientation_type != Introvert
+|   |   |--- class: Uses texting / social media
+|--- social_connection_frequency > Monthly
+|   |--- gathering_size_preference = Small gatherings
+|   |   |--- class: Uses texting / social media
+|   |--- gathering_size_preference != Small gatherings
+|   |   |--- class: Rarely keeps in touch / Maintains long-distance friendships through calls
+```
+
+### Explanation:
+- The tree starts by evaluating `social_connection_frequency`. If it is less than or equal to 'Monthly', the next split occurs based on `social_orientation_type`.
+  - If the person identifies as an Introvert, they are classified as rarely keeping in touch.
+  - If they are not an Introvert, they are classified as using texting or social media.
+  
+- If `social_connection_frequency` is greater than 'Monthly', the next split is based on `gathering_size_preference`.
+  - If they prefer small gatherings, they are classified as using texting or social media.
+  - If they have a different preference, they are classified as rarely keeping in touch.
+
+### Note:
+- The features and the specific thresholds used in splits can be adjusted based on actual data distribution and importance, but the structure above should provide a basic classifier according to your requirements.
+
+
+#########################
+
+
+Here's a Python function that implements the decision tree classifier based on the features you've described. This decision tree classifies whether an individual maintains friendships through calls or uses texting/social media, as well as generates a list representing the truth values of the inner nodes.
+
+```python
+def predict(X: dict):
+    nodes = 4 * [None]  # We have 2 inner nodes, so 3 total nodes (depth + 1)
+    
+    # Decision tree conditions
+    nodes[0] = X["social_connection_frequency"] <= "Monthly"
+    nodes[1] = X["social_orientation_type"] == "Introvert"
+    nodes[2] = X["gathering_size_preference"] == "Small gatherings"
+    
+    # Making predictions based on the conditions
+    if nodes[0]:  # social_connection_frequency <= Monthly
+        if nodes[1]:  # social_orientation_type == Introvert
+            prediction = 1  # Maintains long-distance friendships through calls
+        else:
+            prediction = 0  # Uses texting/social media
+    else:  # social_connection_frequency > Monthly
+        if nodes[2]:  # gathering_size_preference == Small gatherings
+            prediction = 0  # Uses texting/social media
+        else:
+            prediction = 1  # Maintains long-distance friendships through calls
+
+    return prediction, nodes
+```
+
+### Explanation:
+- **Nodes**: The `nodes` list represents the truth values of the inner nodes of the decision tree. Each index corresponds to the decision made at that step:
+  - `nodes[0]`: Checks if `social_connection_frequency` is less than or equal to "Monthly".
+  - `nodes[1]`: Checks if `social_orientation_type` is "Introvert".
+  - `nodes[2]`: Checks if `gathering_size_preference` is "Small gatherings".
+
+- **Prediction**:
+  - The prediction is based on the truth values of these nodes, following the logic of the decision tree structured earlier:
+    - If `social_connection_frequency` is less than or equal to "Monthly" and is an Introvert, then the classification is `1` (maintains long-distance friendships through calls).
+    - If they are not an Introvert, the classification is `0` (uses texting/social media).
+    - If `social_connection_frequency` is greater than "Monthly", the classification depends on the size preference for gatherings.
+
+### Notes:
+- Make sure to adjust the conditions based on the specific encoding or categories in your dataset if necessary.
+- The feature checks assume that categorical comparisons with strings are valid based on the expected values from your dataset.
