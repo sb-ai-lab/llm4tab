@@ -1,0 +1,126 @@
+def extracting_features_0(df_input):
+    df_output = pd.DataFrame()
+    df_output['Primary_Type_in_list'] = df_input['Primary Type'].isin(['DECEPTIVE PRACTICE', 'BATTERY', 'PUBLIC PEACE VIOLATION', 'THEFT', 'OTHER OFFENSE']).astype(int)
+    df_output['Description_in_list'] = df_input['Description'].isin(['CREDIT CARD FRAUD', 'DOMESTIC BATTERY SIMPLE', 'TIRE DEFLATION DEVICE DEPLOYMENT', 'OVER $500', 'HARASSMENT BY TELEPHONE', 'VEHICLE TITLE / REGISTRATION OFFENSE']).astype(int)
+    df_output['Location_Description_in_list'] = df_input['Location Description'].isin(['APARTMENT', 'DEPARTMENT STORE']).astype(int)
+    df_output['Domestic_is_1'] = (df_input['Domestic'] == 1).astype(int)
+    df_output['FBI_Code_in_list'] = df_input['FBI Code'].isin(['11', '08B', '24', '26', '06']).astype(int)
+    df_output['Primary_Type_THEFT_and_Description_OVER_500'] = ((df_input['Primary Type'] == 'THEFT') & (df_input['Description'] == 'OVER $500')).astype(int)
+    df_output['Primary_Type_BATTERY_and_Domestic_1'] = ((df_input['Primary Type'] == 'BATTERY') & (df_input['Domestic'] == 1)).astype(int)
+    df_output['Location_Description_DEPARTMENT_STORE_and_Primary_Type_OTHER_OFFENSE'] = ((df_input['Location Description'] == 'DEPARTMENT STORE') & (df_input['Primary Type'] == 'OTHER OFFENSE')).astype(int)
+    df_output['Primary_Type_OTHER_OFFENSE_and_Description_HARASSMENT_BY_TELEPHONE'] = ((df_input['Primary Type'] == 'OTHER OFFENSE') & (df_input['Description'] == 'HARASSMENT BY TELEPHONE')).astype(int)
+    df_output['Primary_Type_PUBLIC_PEACE_VIOLATION_and_Location_Description_STREET'] = ((df_input['Primary Type'] == 'PUBLIC PEACE VIOLATION') & (df_input['Location Description'] == 'STREET')).astype(int)
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):  
+    df_output = pd.DataFrame()  
+    df_output['Primary Type'] = df_input['Primary Type'].isin(['NARCOTICS', 'WEAPONS VIOLATION', 'MOTOR VEHICLE THEFT', 'CRIMINAL DAMAGE', 'THEFT']).astype(int)  
+    df_output['Description'] = df_input['Description'].isin(['FOUND SUSPECT NARCOTICS', 'UNLAWFUL POSSESSION - HANDGUN', 'MANUFACTURE / DELIVER - CANNABIS OVER 10 GRAMS', 'THEFT / RECOVERY - AUTOMOBILE', 'RETAIL THEFT', 'TO VEHICLE']).astype(int)  
+    df_output['Location Description'] = df_input['Location Description'].isin(['STREET', 'SIDEWALK']).astype(int)  
+    return df_output
+
+---VERSION---
+
+def extracting_features_0(df_input):
+    df_output = pd.DataFrame()
+    df_output['Primary_Type_in_list'] = df_input['Primary Type'].isin(['THEFT', 'DECEPTIVE PRACTICE', 'PUBLIC PEACE VIOLATION', 'OTHER OFFENSE', 'MOTOR VEHICLE THEFT', 'BATTERY']).astype(int)
+    df_output['Description_in_list'] = df_input['Description'].isin(['OVER $500', 'CREDIT CARD FRAUD', 'TIRE DEFLATION DEVICE DEPLOYMENT', 'VEHICLE TITLE / REGISTRATION OFFENSE', 'AUTOMOBILE', 'DOMESTIC BATTERY SIMPLE']).astype(int)
+    df_output['Location_Description_in_list'] = df_input['Location Description'].isin(['APARTMENT', 'DEPARTMENT STORE', 'STREET']).astype(int)
+    df_output['Domestic_1_and_Primary_BATTERY'] = ((df_input['Domestic'] == 1) & (df_input['Primary Type'] == 'BATTERY')).astype(int)
+    df_output['FBI_Code_in_list'] = df_input['FBI Code'].isin(['06', '11', '24', '26', '07', '08B']).astype(int)
+    df_output['Beat_in_range_and_Primary_THEFT'] = ((df_input['Beat'] >= 1100) & (df_input['Beat'] <= 2000) & (df_input['Primary Type'] == 'THEFT')).astype(int)
+    df_output['District_in_list_and_Domestic_0'] = (df_input['District'].isin([3, 10, 18, 19, 25]) & (df_input['Domestic'] == 0)).astype(int)
+    df_output['Year_2025_and_Primary_OTHER_OFFENSE'] = ((df_input['Year'] == 2025) & (df_input['Primary Type'] == 'OTHER OFFENSE')).astype(int)
+    df_output['X_Coordinate_in_range_and_Location_APARTMENT'] = ((df_input['X Coordinate'] >= 1150000) & (df_input['X Coordinate'] <= 1180000) & (df_input['Location Description'] == 'APARTMENT')).astype(int)
+    df_output['Description_HARASSMENT_BY_TELEPHONE_and_Domestic_0_or_1'] = ((df_input['Description'] == 'HARASSMENT BY TELEPHONE') & (df_input['Domestic'].isin([0,1]))).astype(int)
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):
+    df_output = pd.DataFrame()
+    df_output['Primary_Type_in_list'] = df_input['Primary Type'].isin(['NARCOTICS', 'WEAPONS VIOLATION', 'THEFT', 'MOTOR VEHICLE THEFT', 'CRIMINAL DAMAGE']).astype(int)
+    df_output['Description_in_list'] = df_input['Description'].isin(['FOUND SUSPECT NARCOTICS', 'UNLAWFUL POSSESSION - HANDGUN', 'RETAIL THEFT', 'THEFT / RECOVERY - AUTOMOBILE, TO VEHICLE', 'MANUFACTURE / DELIVER - CANNABIS OVER 10 GRAMS']).astype(int)
+    df_output['Location_Description_in_list'] = df_input['Location Description'].isin(['STREET', 'DEPARTMENT STORE', 'APARTMENT', 'SIDEWALK']).astype(int)
+    df_output['FBI_Code_in_list'] = df_input['FBI Code'].isin(['18', '15', '06', '07', '14']).astype(int)
+    df_output['Domestic_1_and_Primary_Type_MVT'] = ((df_input['Domestic'] == 1) & (df_input['Primary Type'] == 'MOTOR VEHICLE THEFT')).astype(int)
+    df_output['Beat_in_range_and_Primary_Type_WV'] = ((df_input['Beat'] >= 1500) & (df_input['Beat'] <= 2300) & (df_input['Primary Type'] == 'WEAPONS VIOLATION')).astype(int)
+    df_output['District_in_list_and_Primary_Type_Narcotics'] = (df_input['District'].isin([4, 11, 15, 22, 25]) & (df_input['Primary Type'] == 'NARCOTICS')).astype(int)
+    df_output['X_Coordinate_in_range_and_Location_Street'] = ((df_input['X Coordinate'] >= 1130000) & (df_input['X Coordinate'] <= 1199000) & (df_input['Location Description'] == 'STREET')).astype(int)
+    df_output['Latitude_in_range_and_Primary_Type_WV'] = ((df_input['Latitude'] >= 41.7) & (df_input['Latitude'] <= 41.9) & (df_input['Primary Type'] == 'WEAPONS VIOLATION')).astype(int)
+    df_output['Description_RETAIL_THEFT_and_Location_DEPARTMENT_STORE'] = ((df_input['Description'] == 'RETAIL THEFT') & (df_input['Location Description'] == 'DEPARTMENT STORE')).astype(int)
+    return df_output
+
+---VERSION---
+
+def extracting_features_0(df_input):
+    df_output = pd.DataFrame()
+    df_output['Primary_Type_in_list'] = df_input['Primary Type'].isin(['BATTERY', 'THEFT', 'OTHER OFFENSE', 'PUBLIC PEACE VIOLATION', 'DECEPTIVE PRACTICE', 'MOTOR VEHICLE THEFT']).astype(int)
+    df_output['Description_in_list'] = df_input['Description'].isin(['SIMPLE', 'OVER $500', 'HARASSMENT BY TELEPHONE', 'VEHICLE TITLE / REGISTRATION OFFENSE', 'DOMESTIC BATTERY SIMPLE', 'TIRE DEFLATION DEVICE DEPLOYMENT']).astype(int)
+    df_output['Location_Description_in_list'] = df_input['Location Description'].isin(['APARTMENT', 'STREET', 'DEPARTMENT STORE', 'NURSING / RETIREMENT HOME']).astype(int)
+    df_output['Domestic_1_and_Primary_Type_BATTERY'] = ((df_input['Domestic'] == 1) & (df_input['Primary Type'] == 'BATTERY')).astype(int)
+    df_output['FBI_Code_in_list'] = df_input['FBI Code'].isin(['06', '08B', '11', '14', '24', '26']).astype(int)
+    df_input['Date_parsed'] = pd.to_datetime(df_input['Date'], format='%m/%d/%Y %I:%M:%S %p', errors='coerce')
+    start_date = pd.to_datetime('01/01/2025 12:00:00 AM', format='%m/%d/%Y %I:%M:%S %p')
+    end_date = pd.to_datetime('01/15/2025 11:59:59 PM', format='%m/%d/%Y %I:%M:%S %p')
+    df_output['Date_in_range_and_Primary_Type_OTHER_OFFENSE'] = (((df_input['Date_parsed'] >= start_date) & (df_input['Date_parsed'] <= end_date)) & (df_input['Primary Type'] == 'OTHER OFFENSE')).astype(int)
+    df_output['Beat_in_range_and_Location_Description_APARTMENT'] = (((df_input['Beat'] >= 100) & (df_input['Beat'] <= 400)) & (df_input['Location Description'] == 'APARTMENT')).astype(int)
+    df_output['District_in_range_and_Primary_Type_BATTERY'] = (((df_input['District'] >= 1) & (df_input['District'] <= 5)) & (df_input['Primary Type'] == 'BATTERY')).astype(int)
+    df_output['Ward_in_range_and_Domestic_1'] = (((df_input['Ward'] >= 20) & (df_input['Ward'] <= 30)) & (df_input['Domestic'] == 1)).astype(int)
+    df_output['Community_Area_in_range_and_Primary_Type_MOTOR_VEHICLE_THEFT'] = (((df_input['Community Area'] >= 25) & (df_input['Community Area'] <= 50)) & (df_input['Primary Type'] == 'MOTOR VEHICLE THEFT')).astype(int)
+    df_output = df_output.astype(int)
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):
+    df_output = pd.DataFrame()
+    df_output['Primary_Type_in_list'] = df_input['Primary Type'].isin(['NARCOTICS', 'WEAPONS VIOLATION', 'MOTOR VEHICLE THEFT', 'THEFT', 'CRIMINAL DAMAGE']).astype(int)
+    df_output['Description_in_list'] = df_input['Description'].isin(['UNLAWFUL POSSESSION - HANDGUN', 'MANUFACTURE / DELIVER - CANNABIS OVER 10 GRAMS', 'RETAIL THEFT', 'THEFT / RECOVERY - AUTOMOBILE', 'TO VEHICLE']).astype(int)
+    df_output['Location_Description_in_list'] = df_input['Location Description'].isin(['STREET', 'DEPARTMENT STORE', 'SIDEWALK', 'APARTMENT']).astype(int)
+    df_output['Domestic_1_and_Primary_MOTOR_VEHICLE_THEFT'] = ((df_input['Domestic'] == 1) & (df_input['Primary Type'] == 'MOTOR VEHICLE THEFT')).astype(int)
+    df_output['FBI_Code_in_list'] = df_input['FBI Code'].isin(['07', '15', '18', '06', '14']).astype(int)
+    df_input['Date_parsed'] = pd.to_datetime(df_input['Date'], format='%m/%d/%Y %I:%M:%S %p', errors='coerce')
+    start_date = pd.to_datetime('01/10/2025 12:00:00 AM', format='%m/%d/%Y %I:%M:%S %p')
+    end_date = pd.to_datetime('01/31/2025 11:59:59 PM', format='%m/%d/%Y %I:%M:%S %p')
+    df_output['Date_in_range_and_Primary_WEAPONS_VIOLATION'] = ((df_input['Date_parsed'] >= start_date) & (df_input['Date_parsed'] <= end_date) & (df_input['Primary Type'] == 'WEAPONS VIOLATION')).astype(int)
+    df_output['Beat_in_range_and_Primary_NARCOTICS'] = ((df_input['Beat'] >= 1500) & (df_input['Beat'] <= 1900) & (df_input['Primary Type'] == 'NARCOTICS')).astype(int)
+    df_output['District_in_range_and_Primary_NARCOTICS'] = ((df_input['District'] >= 15) & (df_input['District'] <= 25) & (df_input['Primary Type'] == 'NARCOTICS')).astype(int)
+    df_output['Ward_in_range_and_Primary_THEFT_and_Description_RETAIL_THEFT'] = ((df_input['Ward'] >= 9) & (df_input['Ward'] <= 42) & (df_input['Primary Type'] == 'THEFT') & (df_input['Description'] == 'RETAIL THEFT')).astype(int)
+    df_output['Community_Area_in_range_and_Primary_CRIMINAL_DAMAGE'] = ((df_input['Community Area'] >= 8) & (df_input['Community Area'] <= 29) & (df_input['Primary Type'] == 'CRIMINAL DAMAGE')).astype(int)
+    df_output.drop(columns=['Date_parsed'], inplace=True, errors='ignore')
+    return df_output
+
+---VERSION---
+
+def extracting_features_0(df_input):  
+    df_output = pd.DataFrame()  
+    df_output['Primary_Type_Other_Offense_or_Public_Peace_Violation'] = df_input['Primary Type'].isin(['OTHER OFFENSE', 'PUBLIC PEACE VIOLATION']).astype(int)  
+    df_output['Description_in_Selected'] = df_input['Description'].isin(['HARASSMENT BY TELEPHONE', 'TIRE DEFLATION DEVICE DEPLOYMENT', 'VEHICLE TITLE / REGISTRATION OFFENSE']).astype(int)  
+    df_output['Location_Description_Apartment_or_Street_and_Primary_Type_Other_Offense'] = ((df_input['Location Description'].isin(['APARTMENT', 'STREET'])) & (df_input['Primary Type'] == 'OTHER OFFENSE')).astype(int)  
+    df_output['Domestic_1_and_Primary_Type_Battery_and_Description_Domestic_Battery_Simple'] = ((df_input['Domestic'] == 1) & (df_input['Primary Type'] == 'BATTERY') & (df_input['Description'] == 'DOMESTIC BATTERY SIMPLE')).astype(int)  
+    df_output['FBI_Code_in_24_26'] = df_input['FBI Code'].isin(['24', '26']).astype(int)  
+    df_output['Primary_Type_Theft_and_Description_Over_500_and_Location_Description_Apartment'] = ((df_input['Primary Type'] == 'THEFT') & (df_input['Description'] == 'OVER $500') & (df_input['Location Description'] == 'APARTMENT')).astype(int)  
+    df_output['Primary_Type_Motor_Vehicle_Theft_and_Description_Automobile_and_Location_Description_Street'] = ((df_input['Primary Type'] == 'MOTOR VEHICLE THEFT') & (df_input['Description'] == 'AUTOMOBILE') & (df_input['Location Description'] == 'STREET')).astype(int)  
+    df_output['Primary_Type_Deceptive_Practice_and_Description_Credit_Card_Fraud'] = ((df_input['Primary Type'] == 'DECEPTIVE PRACTICE') & (df_input['Description'] == 'CREDIT CARD FRAUD')).astype(int)  
+    df_output['Domestic_0_and_Primary_Type_Public_Peace_Violation'] = ((df_input['Domestic'] == 0) & (df_input['Primary Type'] == 'PUBLIC PEACE VIOLATION')).astype(int)  
+    df_output['Beat_100_to_500_and_Primary_Type_Other_Offense_and_Description_Harassment_By_Telephone'] = ((df_input['Beat'].between(100, 500)) & (df_input['Primary Type'] == 'OTHER OFFENSE') & (df_input['Description'] == 'HARASSMENT BY TELEPHONE')).astype(int)  
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):  
+    df_output = pd.DataFrame()  
+    df_output['cond_1'] = df_input['Primary Type'].isin(['NARCOTICS', 'WEAPONS VIOLATION']).astype(int)  
+    df_output['cond_2'] = df_input['Description'].isin(['UNLAWFUL POSSESSION - HANDGUN', 'MANUFACTURE / DELIVER - CANNABIS OVER 10 GRAMS', 'FOUND SUSPECT NARCOTICS']).astype(int)  
+    df_output['cond_3'] = ((df_input['Primary Type'] == 'MOTOR VEHICLE THEFT') & (df_input['Description'] == 'THEFT / RECOVERY - AUTOMOBILE')).astype(int)  
+    df_output['cond_4'] = ((df_input['Primary Type'] == 'THEFT') & (df_input['Description'] == 'RETAIL THEFT') & (df_input['Location Description'] == 'DEPARTMENT STORE')).astype(int)  
+    df_output['cond_5'] = ((df_input['Primary Type'] == 'CRIMINAL DAMAGE') & (df_input['Description'] == 'TO VEHICLE') & (df_input['Domestic'] == 1)).astype(int)  
+    df_output['cond_6'] = df_input['FBI Code'].isin(['07', '15', '18']).astype(int)  
+    df_output['cond_7'] = ((df_input['Location Description'] == 'STREET') & (df_input['Primary Type'] == 'WEAPONS VIOLATION')).astype(int)  
+    df_output['cond_8'] = ((df_input['Domestic'] == 0) & (df_input['Primary Type'] == 'NARCOTICS')).astype(int)  
+    df_output['cond_9'] = (((df_input['Beat'] >= 1500) & (df_input['Beat'] <= 2300)) & (df_input['Primary Type'].isin(['NARCOTICS', 'WEAPONS VIOLATION']))).astype(int)  
+    df_output['cond_10'] = ((df_input['Year'] == 2025) & (df_input['Primary Type'] == 'THEFT') & (df_input['Description'] == 'RETAIL THEFT')).astype(int)  
+    return df_output

@@ -1,0 +1,146 @@
+def extracting_features_0(df_input):
+    df_output = pd.DataFrame()
+    df_output['Overdue days > 0'] = (df_input['Overdue days'] > 0).astype(int)
+    df_output['Credit history rating in [D1, D2, D3, E1, E2, E3]'] = df_input['Credit history rating'].isin(['D1', 'D2', 'D3', 'E1', 'E2', 'E3']).astype(int)
+    df_output['PDN >= 0.35'] = (df_input['PDN'] >= 0.35).astype(int)
+    df_output['Initial limit <= 3000'] = (df_input['Initial limit'] <= 3000).astype(int)
+    df_output['INCOME < 1000'] = (df_input['INCOME'] < 1000).astype(int)
+    df_output['Debt > 2000'] = (df_input['Debt'] > 2000).astype(int)
+    df_output['EDU in [High school, Incomplete]'] = df_input['EDU'].isin(['High school', 'Incomplete']).astype(int)
+    df_output['TERM <= 36'] = (df_input['TERM'] <= 36).astype(int)
+    df_output['UNDERAGECHILDRENCOUNT >= 1'] = (df_input['UNDERAGECHILDRENCOUNT'] >= 1).astype(int)
+    df_output['Credit history rating in [C2, C3] and PDN > 0.3'] = ((df_input['Credit history rating'].isin(['C2', 'C3'])) & (df_input['PDN'] > 0.3)).astype(int)
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):
+    df_output = pd.DataFrame()
+    df_output['Overdue_days_0'] = (df_input['Overdue days'] == 0).astype(int)
+    df_output['Credit_history_rating_good'] = df_input['Credit history rating'].isin(['A1', 'A2', 'A3', 'B1', 'B2', 'B3', 'C1']).astype(int)
+    df_output['PDN_lt_0_2'] = (df_input['PDN'] < 0.2).astype(int)
+    df_output['Initial_limit_ge_1500'] = (df_input['Initial limit'] >= 1500).astype(int)
+    df_output['INCOME_ge_1500'] = (df_input['INCOME'] >= 1500).astype(int)
+    df_output['Debt_le_Initial_limit'] = (df_input['Debt'] <= df_input['Initial limit']).astype(int)
+    df_output['EDU_univ_college'] = df_input['EDU'].isin(['University', 'College']).astype(int)
+    df_output['TERM_ge_60'] = (df_input['TERM'] >= 60).astype(int)
+    df_output['UNDERAGECHILDRENCOUNT_0'] = (df_input['UNDERAGECHILDRENCOUNT'] == 0).astype(int)
+    df_output['FAMILYSTATUS_1_2'] = df_input['FAMILYSTATUS'].isin([1, 2]).astype(int)
+    return df_output
+
+---VERSION---
+
+def extracting_features_0(df_input):  
+    import pandas as pd  
+    from datetime import datetime  
+  
+    df_output = pd.DataFrame()  
+  
+    df_output['Overdue days'] = (df_input['Overdue days'] > 0).astype(int)  
+  
+    df_output['Credit history rating'] = df_input['Credit history rating'].isin(['D1', 'D2', 'D3', 'E1', 'E2', 'E3']).astype(int)  
+  
+    df_output['PDN'] = (df_input['PDN'] >= 0.3).astype(int)  
+  
+    df_output['Debt'] = (df_input['Debt'] > 2000).astype(int)  
+  
+    df_output['Initial limit'] = (df_input['Initial limit'] < 3000).astype(int)  
+  
+    df_output['INCOME'] = (df_input['INCOME'] < 1500).astype(int)  
+  
+    df_output['EDU'] = df_input['EDU'].isin(['High school', 'Incomplete']).astype(int)  
+  
+    df_output['TERM'] = (df_input['TERM'] <= 36).astype(int)  
+  
+    df_output['UNDERAGECHILDRENCOUNT'] = (df_input['UNDERAGECHILDRENCOUNT'] >= 1).astype(int)  
+  
+    today = pd.to_datetime('today')  
+    birthdates = pd.to_datetime(df_input['BIRTHDATE'], errors='coerce')  
+    ages = (today - birthdates).dt.days // 365  
+    df_output['Age'] = (ages < 30).astype(int)  
+  
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):
+    import pandas as pd
+    from datetime import datetime
+
+    df_output = pd.DataFrame()
+    df_output['Overdue_days_0'] = (df_input['Overdue days'] == 0).astype(int)
+    df_output['Credit_history_rating_good'] = df_input['Credit history rating'].isin(['A1', 'A2', 'A3', 'B1', 'B2', 'B3']).astype(int)
+    df_output['PDN_lt_0_2'] = (df_input['PDN'] < 0.2).astype(int)
+    df_output['Debt_le_2000'] = (df_input['Debt'] <= 2000).astype(int)
+    df_output['Initial_limit_ge_3000'] = (df_input['Initial limit'] >= 3000).astype(int)
+    df_output['INCOME_ge_1500'] = (df_input['INCOME'] >= 1500).astype(int)
+    df_output['EDU_univ_college'] = df_input['EDU'].isin(['University', 'College']).astype(int)
+    df_output['TERM_ge_48'] = (df_input['TERM'] >= 48).astype(int)
+    df_output['UNDERAGECHILDRENCOUNT_0'] = (df_input['UNDERAGECHILDRENCOUNT'] == 0).astype(int)
+
+    today = pd.to_datetime('today')
+    birthdates = pd.to_datetime(df_input['BIRTHDATE'], errors='coerce')
+    age = (today - birthdates).dt.days // 365
+    df_output['Age_ge_30'] = (age >= 30).astype(int)
+
+    return df_output
+
+---VERSION---
+
+
+
+---VERSION---
+
+
+
+---VERSION---
+
+def extracting_features_0(df_input):
+    import pandas as pd
+    from datetime import datetime
+
+    df_output = pd.DataFrame()
+
+    credit_history_set = {'C1', 'C2', 'C3', 'D1', 'D2', 'D3', 'E1', 'E2', 'E3'}
+    edu_set = {'High school', 'Incomplete'}
+
+    df_output['Credit_history_rating_condition'] = df_input['Credit history rating'].isin(credit_history_set).astype(int)
+    df_output['Overdue_days_condition'] = (df_input['Overdue days'] > 0).astype(int)
+    df_output['PDN_condition'] = (df_input['PDN'] >= 0.3).astype(int)
+    df_output['Debt_condition'] = (df_input['Debt'] > 2000).astype(int)
+    df_output['Initial_limit_condition'] = (df_input['Initial limit'] < 3000).astype(int)
+    df_output['INCOME_condition'] = (df_input['INCOME'] < 1500).astype(int)
+    df_output['EDU_condition'] = df_input['EDU'].isin(edu_set).astype(int)
+    df_output['TERM_condition'] = (df_input['TERM'] <= 36).astype(int)
+    df_output['UNDERAGECHILDRENCOUNT_condition'] = (df_input['UNDERAGECHILDRENCOUNT'] >= 1).astype(int)
+
+    today = pd.to_datetime('today')
+    birthdates = pd.to_datetime(df_input['BIRTHDATE'], errors='coerce')
+    ages = (today - birthdates).dt.days // 365
+    df_output['Age_condition'] = (ages < 30).astype(int)
+
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):
+    import pandas as pd
+    from datetime import datetime
+
+    df_output = pd.DataFrame()
+    df_output['Credit_history_rating'] = df_input['Credit history rating'].isin(['A1', 'A2', 'A3', 'B1', 'B2', 'B3']).astype(int)
+    df_output['Overdue_days'] = (df_input['Overdue days'] == 0).astype(int)
+    df_output['PDN'] = (df_input['PDN'] < 0.2).astype(int)
+    df_output['Debt'] = (df_input['Debt'] <= 3500).astype(int)
+    df_output['Initial_limit'] = (df_input['Initial limit'] >= 3500).astype(int)
+    df_output['INCOME'] = (df_input['INCOME'] >= 1800).astype(int)
+    df_output['EDU'] = df_input['EDU'].isin(['University', 'College']).astype(int)
+    df_output['TERM'] = (df_input['TERM'] >= 48).astype(int)
+    df_output['UNDERAGECHILDRENCOUNT'] = (df_input['UNDERAGECHILDRENCOUNT'] == 0).astype(int)
+
+    today = pd.to_datetime('today')
+    birthdates = pd.to_datetime(df_input['BIRTHDATE'], errors='coerce')
+    age = (today - birthdates).dt.days // 365
+    df_output['Age'] = (age >= 30).astype(int)
+
+    return df_output

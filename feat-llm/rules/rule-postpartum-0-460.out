@@ -1,0 +1,397 @@
+Answer:  
+Step 1. The relationship between each feature and the task description:
+
+- Age: Younger or very advanced maternal age might increase risk of postpartum depression (PPD) due to lack of experience or higher stress.
+- Residence: Living in a city might correlate with more stress and less social support, potentially increasing PPD risk; village residence might have stronger community support.
+- Education Level: Lower education levels may correlate with less awareness and coping skills, increasing PPD risk.
+- Marital status: Divorced patients may have higher risk due to less emotional and financial support.
+- Occupation before latest pregnancy: Unemployed or housewife status may relate to social isolation, increasing PPD risk; being a student or professional might indicate more social engagement, possibly reducing risk.
+- Monthly income before latest pregnancy: Lower income levels increase stress and risk of PPD.
+- Occupation After Your Latest Childbirth: Similar to before pregnancy, unemployment or housewife status might increase risk.
+- Current monthly income: Low current income or loss of income after childbirth can increase PPD risk.
+- Husband's education level: Lower education may correspond to less support or understanding, increasing risk.
+- Husband’s monthly income: Low husband income may increase financial stress, increasing PPD risk.
+- Addiction: Presence of addiction (smoking, drinking, drugs) may correlate with higher PPD risk.
+- Total children: Having more children can increase stress and fatigue, increasing PPD risk.
+- Disease before pregnancy: Presence of chronic disease may increase vulnerability to PPD.
+- History of pregnancy loss: History of miscarriage or stillbirth can increase anxiety and risk of PPD.
+- Family type: Nuclear families may have less support than joint families, increasing risk.
+- Number of household members: Fewer members may mean less support, increasing risk.
+- Relationship with the in-laws: Bad or poor relationship may increase stress and PPD risk.
+- Relationship with husband: Bad or poor relationship is a strong predictor of PPD.
+- Relationship with the newborn: Bad relationship can indicate bonding issues and PPD.
+- Relationship between father and newborn: Poor father-newborn relationship can increase maternal stress and PPD risk.
+- Feeling about motherhood: Sad or neutral feelings about motherhood indicate risk; happy feelings protective.
+- Received Support: Low support increases PPD risk.
+- Need for Support: High need for support indicates distress and risk.
+- Major changes or losses during pregnancy: Yes indicates stress and increased risk.
+- Abuse: Experience of abuse is a strong risk factor for PPD.
+- Trust and share feelings: Lack of trust and inability to share feelings increase risk.
+- Number of the latest pregnancy: Higher number may increase risk due to cumulative stress.
+- Pregnancy length: Preterm or very short pregnancy length can increase risk.
+- Pregnancy plan: Unplanned pregnancy increases risk.
+- Regular checkups: Lack of regular checkups indicates less care and increased risk.
+- Fear of pregnancy: Presence of fear indicates anxiety and risk.
+- Diseases during pregnancy: Presence of disease increases physical and emotional stress.
+- Age of newborn: Newborns younger than 6 months may correlate with higher PPD risk.
+- Age of immediate older children: Having very young older children increases stress.
+- Mode of delivery: Caesarean section may increase risk due to complications or recovery.
+- Gender of newborn: Cultural preference might influence mood.
+- Birth compliancy: Complications increase stress and risk.
+- Breastfeed: Inability or choice not to breastfeed may correlate with PPD.
+- Newborn illness: Illness in newborn increases maternal stress and risk.
+- Worry about newborn: Excessive worry is a symptom and risk factor.
+- Relax/sleep when newborn is tended: Inability indicates stress and risk.
+- Relax/sleep when newborn is asleep: Inability indicates anxiety and risk.
+- Angry after latest childbirth: Presence indicates emotional distress and risk.
+- Feeling for regular activities: Feeling worried, tired, or afraid indicates risk.
+
+---
+
+Step 2. Based on the above, 10 different conditions per class:
+
+10 different conditions for class "0" (No postpartum depression):  
+- [Education Level] is in [University, College, High School]  
+- [Marital status] is in [Married]  
+- [Relationship with husband] is in [Good, Friendly]  
+- [Received Support] is in [High, Medium]  
+- [Feeling about motherhood] is in [Happy]  
+- [Regular checkups] is in [Yes]  
+- [Addiction] is in [No]  
+- [Trust and share feelings] is in [Yes]  
+- [Age] is within range of [25, 35]  
+- [Pregnancy plan] is in [Yes]  
+
+10 different conditions for class "1" (Yes postpartum depression):  
+- [Relationship with husband] is in [Bad, Poor]  
+- [Feeling about motherhood] is in [Sad, Neutral]  
+- [Received Support] is in [Low]  
+- [Need for Support] is in [High]  
+- [History of pregnancy loss] is in [Miscarriage, Still-born Delivery]  
+- [Addiction] is in [Smoking, Drinking, Drugs]  
+- [Abuse] is in [Yes]  
+- [Worry about newborn] is in [Yes]  
+- [Angry after latest child birth] is in [Yes]  
+- [Feeling for regular activities] is in [Worried, Tired, Afraid]
+
+---DIVIDER---
+
+Answer:  
+Step 1. The relationship between each feature and the task description (postpartum depression) based on general knowledge and common sense:
+
+- Age: Younger or older maternal age can be associated with higher risk of postpartum depression (PPD).
+- Residence: Living in a village or isolated area may increase risk due to less access to support/services.
+- Education Level: Lower education is often linked to higher risk of PPD due to less awareness/support.
+- Marital status: Divorced or single mothers have higher risk due to less emotional and financial support.
+- Occupation before latest pregnancy: Unemployed or housewife status may increase risk due to social isolation or financial stress.
+- Monthly income before latest pregnancy: Lower income is associated with higher risk of PPD.
+- Occupation After Your Latest Childbirth: Similar to before pregnancy, unemployment or housewife status might increase risk.
+- Current monthly income: Lower current income may increase stress and risk of PPD.
+- Husband's education level: Lower husband education could correlate with less support or understanding.
+- Husband’s monthly income: Lower income of husband may increase financial stress and risk.
+- Addiction: Addiction (smoking, drinking, drugs) can increase risk of depression.
+- Total children: Having more children can increase stress and risk of PPD, especially if more than two.
+- Disease before pregnancy: Chronic disease can increase risk due to health stress.
+- History of pregnancy loss: Prior miscarriage or stillbirth increases risk of anxiety and depression.
+- Family type: Nuclear family may have less support than joint family, increasing risk.
+- Number of household members: Fewer household members may mean less support.
+- Relationship with the in-laws: Bad or poor relationship increases stress and risk.
+- Relationship with husband: Bad or poor relationship is a strong risk factor.
+- Relationship with the newborn: Bad or neutral relationship may indicate bonding issues linked to PPD.
+- Relationship between father and newborn: Poor relationship may increase maternal stress.
+- Feeling about motherhood: Sad or neutral feelings indicate risk; happy feelings are protective.
+- Received Support: Low or medium support increases risk.
+- Need for Support: High or medium need indicates vulnerability.
+- Major changes or losses during pregnancy: Yes increases risk.
+- Abuse: Yes (experienced abuse) strongly increases risk.
+- Trust and share feelings: No indicates isolation, increasing risk.
+- Number of the latest pregnancy: Higher number may increase risk due to cumulative stress.
+- Pregnancy length: Shorter pregnancies (preterm) increase risk.
+- Pregnancy plan: Unplanned pregnancy increases risk.
+- Regular checkups: No regular checkups may indicate neglect or risk.
+- Fear of pregnancy: Yes indicates anxiety, increasing risk.
+- Diseases during pregnancy: Chronic disease increases risk.
+- Age of newborn: Younger newborn (0-6 months) is typical period for PPD onset.
+- Age of immediate older children: Having very young older children may increase stress.
+- Mode of delivery: Caesarean section sometimes linked to higher risk due to recovery issues.
+- Gender of newborn: Cultural preferences may influence risk but generally neutral.
+- Birth compliancy: Yes (complications) increases risk.
+- Breastfeed: No breastfeeding may indicate or increase risk.
+- Newborn illness: Yes increases maternal stress and risk.
+- Worry about newborn: Yes indicates anxiety.
+- Relax/sleep when newborn is tended: No indicates stress and exhaustion.
+- Relax/sleep when the newborn is asleep: No indicates insomnia or anxiety.
+- Angry after latest childbirth: Yes indicates emotional distress.
+- Feeling for regular activities: Worried, tired, afraid indicate depression symptoms.
+
+---
+
+Step 2. Based on the above, 10 different conditions for each class:
+
+10 different conditions for class "0" (No postpartum depression):  
+- [Marital status] is in [Married]  
+- [Feeling about motherhood] is in [Happy]  
+- [Received Support] is in [High]  
+- [Relationship with husband] is in [Good, Friendly]  
+- [Trust and share feelings] is in [Yes]  
+- [Need for Support] is in [No, Low]  
+- [Abuse] is in [No]  
+- [Regular checkups] is in [Yes]  
+- [Pregnancy plan] is in [Yes]  
+- [Relax/sleep when the newborn is asleep] is in [Yes]  
+
+10 different conditions for class "1" (Yes postpartum depression):  
+- [Feeling about motherhood] is in [Sad, Neutral]  
+- [Relationship with husband] is in [Bad, Poor, Neutral]  
+- [Received Support] is in [Low, Medium]  
+- [Need for Support] is in [High, Medium]  
+- [Abuse] is in [Yes]  
+- [Trust and share feelings] is in [No]  
+- [History of pregnancy loss] is in [Miscarriage, Still-born Delivery]  
+- [Angry after latest child birth] is in [Yes]  
+- [Feeling for regular activities] is in [Worried, Tired, Afraid]  
+- [Worry about newborn] is in [Yes]  
+
+---
+
+These conditions reflect typical risk and protective factors for postpartum depression based on the given features and general clinical knowledge.
+
+---DIVIDER---
+
+Answer:  
+Step 1. The relationship between each feature and the task description (postpartum depression, PPD) based on general knowledge and common sense:
+
+- Age: Younger or very advanced maternal age may increase risk of PPD due to stress or lack of support.  
+- Residence: Living in a village might be associated with less access to healthcare/support, potentially higher PPD risk.  
+- Education Level: Lower education is often linked to higher stress and less knowledge about postpartum care, increasing PPD risk.  
+- Marital status: Being divorced or single generally increases risk due to less emotional and financial support.  
+- Occupation before latest pregnancy: Unemployed or housewife status might correlate with lower social interaction and higher PPD risk.  
+- Monthly income before latest pregnancy: Lower income levels increase financial stress, a risk factor for PPD.  
+- Occupation After Your Latest Childbirth: Similar to pre-pregnancy occupation, unemployment or housewife status may increase risk.  
+- Current monthly income: Lower current income signifies financial stress, increasing PPD risk.  
+- Husband's education level: Lower husband's education may indicate less support or understanding, increasing risk.  
+- Husband’s monthly income: Lower income or no income increases financial stress and risk of PPD.  
+- Addiction: Presence of addiction (smoking, drinking, drugs) may increase stress and risk of PPD.  
+- Total children: Having more children may increase stress and risk, especially if more than two.  
+- Disease before pregnancy: Chronic disease increases physical and emotional burden, increasing PPD risk.  
+- History of pregnancy loss: Miscarriage or stillbirth history is a strong risk factor for PPD.  
+- Family type: Joint family may provide more support, reducing risk; nuclear family may increase risk.  
+- Number of household members: Fewer members may mean less support, increasing PPD risk.  
+- Relationship with the in-laws: Bad or poor relationships increase stress, increasing PPD risk.  
+- Relationship with husband: Bad or poor relationship is a strong risk factor for PPD.  
+- Relationship with the newborn: Bad or neutral relationship may indicate bonding issues, increasing PPD risk.  
+- Relationship between father and newborn: Bad or neutral relationship may indicate lack of paternal support, increasing risk.  
+- Feeling about motherhood: Sad or neutral feelings indicate emotional distress, increasing PPD risk.  
+- Received Support: Low or medium support increases risk; high support reduces risk.  
+- Need for Support: High or medium need indicates unmet emotional/physical needs, increasing risk.  
+- Major changes or losses during pregnancy: Yes increases stress and PPD risk.  
+- Abuse: Experience of abuse is a strong risk factor for PPD.  
+- Trust and share feelings: No indicates isolation, increasing risk of PPD.  
+- Number of the latest pregnancy: Higher number may increase stress and risk.  
+- Pregnancy length: Preterm (less than 9 months) may increase risk due to complications and stress.  
+- Pregnancy plan: Unplanned pregnancy increases stress and risk.  
+- Regular checkups: No checkups may indicate poor prenatal care, increasing risk.  
+- Fear of pregnancy: Yes indicates anxiety, increasing risk.  
+- Diseases during pregnancy: Chronic or non-chronic diseases increase stress, increasing risk.  
+- Age of newborn: Younger newborns (0 to 6 months) correlate with higher PPD risk (early postpartum).  
+- Age of immediate older children: Younger children (1 to 6 years) may increase maternal stress.  
+- Mode of delivery: Caesarean section is associated with higher PPD risk than normal delivery.  
+- Gender of newborn: Some cultures may have gender preference affecting maternal mood.  
+- Birth compliancy: Yes (complications) increase stress and PPD risk.  
+- Breastfeed: No breastfeeding may indicate bonding issues or physical problems, increasing risk.  
+- Newborn illness: Yes increases maternal stress and PPD risk.  
+- Worry about newborn: Yes indicates anxiety, increasing risk.  
+- Relax/sleep when newborn is tended: No indicates fatigue and stress, increasing risk.  
+- Relax/sleep when the newborn is asleep: No indicates ongoing anxiety and stress, increasing risk.  
+- Angry after latest childbirth: Yes indicates emotional distress, increasing risk.  
+- Feeling for regular activities: Worried, tired, or afraid indicate emotional distress, increasing risk.
+
+---
+
+Step 2. Based on the above and the examples, 10 different conditions per answer class:
+
+10 different conditions for class "0" (No postpartum depression):
+
+- Relationship with husband is in [Good, Friendly]  
+- Received Support is in [High]  
+- Feeling about motherhood is in [Happy]  
+- Trust and share feelings is in [Yes]  
+- Relationship with the newborn is in [Good, Very good]  
+- Abuse is in [No]  
+- Regular checkups is in [Yes]  
+- Pregnancy plan is in [Yes]  
+- Relax/sleep when the newborn is asleep is in [Yes]  
+- Age of newborn is in [Older than 1.5 year, 1 year to 1.5 year]
+
+10 different conditions for class "1" (Yes postpartum depression):
+
+- Relationship with husband is in [Bad, Poor]  
+- Received Support is in [Low, Medium]  
+- Feeling about motherhood is in [Sad, Neutral]  
+- Abuse is in [Yes]  
+- History of pregnancy loss is in [Miscarriage, Still-born Delivery]  
+- Need for Support is in [High, Medium]  
+- Angry after latest childbirth is in [Yes]  
+- Relax/sleep when the newborn is asleep is in [No]  
+- Birth compliancy is in [Yes]  
+- Pregnancy plan is in [No]
+
+---DIVIDER---
+
+Answer:  
+Step 1. The relationship between each feature and the task description (postpartum depression) based on general knowledge and common sense:
+
+- Age: Younger or very advanced maternal age may increase risk of postpartum depression (PPD).
+- Residence: Rural or village residence may have less access to healthcare/support, possibly increasing PPD risk.
+- Education Level: Lower education may correlate with higher PPD risk due to less health literacy/support.
+- Marital status: Divorced or single mothers have higher risk due to less emotional/social support.
+- Occupation before latest pregnancy: Unemployment or housewife status may correlate with higher PPD risk due to social isolation or financial stress.
+- Monthly income before latest pregnancy: Lower income correlates with higher PPD risk due to financial stress.
+- Occupation after latest childbirth: Similar to before pregnancy, unemployment or housewife status may increase risk.
+- Current monthly income: Low current income may increase stress, risk of PPD.
+- Husband's education level: Lower husband's education may be associated with less support or awareness.
+- Husband’s monthly income: Low husband income may increase financial stress, risk of PPD.
+- Addiction: Presence of addiction (smoking, drinking, drugs) may increase PPD risk.
+- Total children: Having more children may increase stress; first-time mothers may also have higher anxiety.
+- Disease before pregnancy: Chronic disease may increase risk due to health stress.
+- History of pregnancy loss: Previous miscarriage or stillbirth increases emotional stress, risk of PPD.
+- Family type: Joint family may provide more support, reducing PPD risk; nuclear family may increase isolation.
+- Number of household members: Fewer household members may mean less support.
+- Relationship with in-laws: Poor or bad relationship may increase stress and PPD risk.
+- Relationship with husband: Bad or poor relationship is a strong risk factor for PPD.
+- Relationship with newborn: Bad or neutral relationship may indicate bonding issues, related to PPD.
+- Relationship between father and newborn: Poor relationship may increase maternal stress.
+- Feeling about motherhood: Sad or neutral feelings may indicate risk of PPD.
+- Received Support: Low support is a known risk factor.
+- Need for Support: High need indicates vulnerability.
+- Major changes or losses during pregnancy: Yes increases stress, risk of PPD.
+- Abuse: History of abuse is a strong risk factor.
+- Trust and share feelings: No indicates poor social support, increasing risk.
+- Number of the latest pregnancy: Higher parity or first pregnancy may both influence risk differently.
+- Pregnancy length: Preterm or very short pregnancy may increase risk.
+- Pregnancy plan: Unplanned pregnancy is a risk factor.
+- Regular checkups: No checkups may indicate poor prenatal care, increasing risk.
+- Fear of pregnancy: Yes indicates anxiety, risk factor.
+- Diseases during pregnancy: Chronic or non-chronic disease may increase risk.
+- Age of newborn: Younger newborn (0-6 months) is the typical window for PPD symptoms.
+- Age of immediate older children: Having very young older children may increase stress.
+- Mode of delivery: Caesarean section is associated with higher risk.
+- Gender of newborn: Some cultures have gender preference which may affect maternal mood.
+- Birth compliancy: Complications increase stress.
+- Breastfeed: Not breastfeeding may be associated with PPD.
+- Newborn illness: Yes increases maternal stress.
+- Worry about newborn: Yes indicates anxiety, risk factor.
+- Relax/sleep when newborn is tended: No indicates exhaustion, risk factor.
+- Relax/sleep when newborn is asleep: No indicates sleep disturbance, risk factor.
+- Angry after latest childbirth: Yes indicates emotional disturbance, risk factor.
+- Feeling for regular activities: Worried, tired, afraid indicate depressive symptoms.
+
+---
+
+Step 2. Based on the above and examples, infer 10 different conditions per answer class:
+
+10 different conditions for class "0" (No postpartum depression):  
+- Relationship with husband is in [Good, Friendly]  
+- Received Support is in [High, Medium]  
+- Feeling about motherhood is in [Happy]  
+- Trust and share feelings is [Yes]  
+- Abuse is [No]  
+- Regular checkups is [Yes]  
+- Relationship with newborn is in [Good, Very good]  
+- Angry after latest childbirth is [No]  
+- Relax/sleep when newborn is asleep is [Yes]  
+- Pregnancy plan is [Yes]  
+
+10 different conditions for class "1" (Yes postpartum depression):  
+- Relationship with husband is in [Bad, Poor]  
+- Received Support is [Low]  
+- Feeling about motherhood is in [Sad, Neutral]  
+- Abuse is [Yes]  
+- Trust and share feelings is [No]  
+- Angry after latest childbirth is [Yes]  
+- Relax/sleep when newborn is asleep is [No]  
+- History of pregnancy loss is in [Miscarriage, Still-born Delivery, Still-born delivery]  
+- Major changes or losses during pregnancy is [Yes]  
+- Pregnancy plan is [No]  
+
+---
+
+These conditions reflect well-known risk and protective factors for postpartum depression and align with the given feature set.
+
+---DIVIDER---
+
+Answer:  
+Step 1. The relationship between each feature and the task description:
+
+- Age: Younger or older maternal age can influence postpartum depression (PPD) risk; very young or older mothers may have higher risk.  
+- Residence: Urban or rural residence may affect access to healthcare and social support, influencing PPD risk.  
+- Education Level: Lower education levels may correlate with higher PPD risk due to less knowledge or resources.  
+- Marital status: Divorced or single mothers may have higher PPD risk due to less emotional and financial support.  
+- Occupation before latest pregnancy: Employment status and type may affect stress and financial security, influencing PPD risk.  
+- Monthly income before latest pregnancy: Lower income is generally linked to higher stress and PPD risk.  
+- Occupation After Your Latest Childbirth: Changes or unemployment after childbirth may increase PPD risk.  
+- Current monthly income: Lower current income may increase PPD risk due to financial stress.  
+- Husband's education level: Lower husband education may correlate with less support or resources, increasing PPD risk.  
+- Husband’s monthly income: Lower husband income can increase financial stress, raising PPD risk.  
+- Addiction: Presence of addiction (smoking, drinking, drugs) may increase PPD risk due to health and social factors.  
+- Total children: More children may increase stress and risk of PPD; first-time mothers may also have higher anxiety.  
+- Disease before pregnancy: Pre-existing disease, especially chronic, may increase vulnerability to PPD.  
+- History of pregnancy loss: Previous loss (miscarriage, stillbirth) increases emotional vulnerability and PPD risk.  
+- Family type: Joint family may provide more support; nuclear family may increase isolation and PPD risk.  
+- Number of household members: Larger households may provide support or cause stress depending on dynamics.  
+- Relationship with the in-laws: Poor relationships increase stress and PPD risk; good relationships are protective.  
+- Relationship with husband: Poor or bad relationship is a strong risk factor for PPD; good relationship is protective.  
+- Relationship with the newborn: Poor bonding or negative feelings increase PPD risk.  
+- Relationship between father and newborn: Poor father-newborn relationship may increase maternal stress and PPD risk.  
+- Feeling about motherhood: Sad or neutral feelings about motherhood may indicate or increase PPD risk; happy feelings are protective.  
+- Received Support: Low support levels increase PPD risk; high support is protective.  
+- Need for Support: High need for support indicates vulnerability and higher risk of PPD.  
+- Major changes or losses during pregnancy: Experiencing major losses or changes increases emotional stress and PPD risk.  
+- Abuse: Experience of abuse is a strong risk factor for PPD.  
+- Trust and share feelings: Lack of trust or inability to share feelings increases isolation and PPD risk.  
+- Number of the latest pregnancy: Higher order pregnancies may increase stress or reduce it depending on context.  
+- Pregnancy length: Premature or very short pregnancies may increase PPD risk due to complications or stress.  
+- Pregnancy plan: Unplanned pregnancy increases stress and risk of PPD.  
+- Regular checkups: Lack of regular prenatal care may increase risk due to unmanaged health issues or stress.  
+- Fear of pregnancy: Fear increases anxiety and risk of PPD.  
+- Diseases during pregnancy: Chronic or non-chronic diseases during pregnancy increase stress and risk of PPD.  
+- Age of newborn: Younger newborns (0-6 months) are associated with higher PPD risk due to adjustment period.  
+- Age of immediate older children: Having very young older children may increase stress and risk of PPD.  
+- Mode of delivery: Caesarean section may increase risk due to recovery issues and complications.  
+- Gender of newborn: Cultural factors may influence PPD risk if gender preference exists.  
+- Birth compliancy: Complications at birth increase stress and risk of PPD.  
+- Breastfeed: Not breastfeeding may be associated with PPD or vice versa.  
+- Newborn illness: Illness in newborn increases maternal stress and PPD risk.  
+- Worry about newborn: Excessive worry indicates anxiety and higher PPD risk.  
+- Relax/sleep when newborn is tended: Inability to relax indicates stress and risk of PPD.  
+- Relax/sleep when the newborn is asleep: Inability to relax or sleep is a symptom or indicator of PPD.  
+- Angry after latest childbirth: Feeling anger is a symptom or risk factor for PPD.  
+- Feeling for regular activities: Feeling worried, tired, or afraid indicates possible PPD.  
+
+---
+
+Step 2. Conditions for each class:
+
+10 different conditions for class "0" (No postpartum depression):  
+- Relationship with husband is in [Good, Friendly]  
+- Received Support is in [High, Medium]  
+- Feeling about motherhood is in [Happy]  
+- Trust and share feelings is Yes  
+- Abuse is No  
+- Regular checkups is Yes  
+- Relationship with the newborn is in [Good, Very good]  
+- Relax/sleep when the newborn is asleep is Yes  
+- Need for Support is in [No, Low]  
+- Birth compliancy is No  
+
+10 different conditions for class "1" (Yes postpartum depression):  
+- Relationship with husband is in [Bad, Poor]  
+- Feeling about motherhood is in [Sad, Neutral]  
+- Abuse is Yes  
+- Received Support is Low  
+- Need for Support is High  
+- Angry after latest childbirth is Yes  
+- Relax/sleep when the newborn is asleep is No  
+- History of pregnancy loss is in [Miscarriage, Still-born Delivery]  
+- Major changes or losses during pregnancy is Yes  
+- Worry about newborn is Yes

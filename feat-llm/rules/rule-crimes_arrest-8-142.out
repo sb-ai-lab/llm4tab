@@ -1,0 +1,146 @@
+Answer:  
+Step 1. The relationship between each feature and the task description:
+
+- Date: The time or date itself may not directly influence arrest likelihood, but certain crime types may be more likely at certain times.
+- Primary Type: The type of crime strongly influences arrest probability; some crimes (e.g., narcotics, weapons violations) tend to have arrests more often.
+- Description: Provides more granularity on the crime; aggravated or serious descriptions may have higher arrest rates.
+- Location Description: Some locations (e.g., public streets) may be more likely to have arrests due to police presence.
+- Domestic: Domestic-related crimes might have different arrest patterns; possibly lower or higher depending on context.
+- Beat/District/Ward/Community Area: Geographic location may affect arrest likelihood due to policing patterns or community factors.
+- FBI Code: FBI crime classification codes correlate with crime severity/type and thus arrest probability.
+- X Coordinate/Y Coordinate/Latitude/Longitude: Spatial coordinates relate to location and may indirectly affect arrest likelihood.
+- Year: Year is constant (2025) in examples, so no variation to infer.
+  
+Overall, crime type (Primary Type, FBI Code), Description, Location, and Domestic flag are likely the strongest predictors of an arrest being made.
+
+---
+
+Step 2.  
+10 different conditions for class "0" (No arrest made):  
+- Primary Type is in [OFFENSE INVOLVING CHILDREN, OTHER OFFENSE, MOTOR VEHICLE THEFT]  
+- Description is in [AGGRAVATED SEXUAL ASSAULT OF CHILD
+
+---DIVIDER---
+
+Answer:  
+Step 1. The relationship between each feature and the task description:
+
+- Date: The time or date itself may not directly influence arrest likelihood, but certain times (night vs day) or dates (holidays) might correlate with different crime types or police activity.
+- Primary Type: Different crime types have varying probabilities of arrest; e.g., possession or weapons violations often lead to arrests, while theft or other offenses may not.
+- Description: More specific descriptions can indicate severity or type of offense, which can influence arrest likelihood.
+- Location Description: Some locations (e.g., public streets, airports) might have higher police presence and thus higher arrest rates.
+- Domestic: Domestic-related crimes may have different arrest protocols; sometimes arrests are more likely in domestic violence cases.
+- Beat, District, Ward, Community Area: Geographic location can influence arrest likelihood due to policing policies, resources, or crime patterns.
+- FBI Code: FBI crime codes categorize crimes by severity/type, which influences arrest probability.
+- X Coordinate, Y Coordinate, Latitude, Longitude: Geographic coordinates correspond to location; similar to above, location affects arrest likelihood.
+- Year: Arrest policies or crime trends may change over years, but here only 2025 is shown, so limited effect.
+  
+Step 2. Based on the above and examples, infer 10 different conditions per answer class:
+
+10 different conditions for class "0" (No arrest made):  
+- Primary Type is in [MOTOR VEHICLE THEFT, OTHER OFFENSE, OFFENSE INVOLVING CHILDREN]  
+- Description is in [AUTOMOBILE, VEHICLE TITLE / REGISTRATION OFFENSE, AGGRAVATED SEXUAL ASSAULT OF CHILD BY FAMILY MEMBER, HARASSMENT BY ELECTRONIC MEANS]  
+- Domestic = 1 and Primary Type is in [OFFENSE INVOLVING CHILDREN, OTHER OFFENSE]  
+- Location Description is in [RESIDENCE, APARTMENT, STREET] and Primary Type is in [OTHER OFFENSE, MOTOR VEHICLE THEFT]  
+- FBI Code is in [07, 26, 02]  
+- Beat is within range of [600, 650] and Primary Type is MOTOR VEHICLE THEFT  
+- District is in [6, 15, 8] and Primary Type is in [OTHER OFFENSE, MOTOR VEHICLE THEFT]  
+- Ward is in [8, 37, 23, 42] and Domestic = 1 and Primary Type is OTHER OFFENSE  
+- Year = 2025 and Primary Type is in [OTHER OFFENSE, MOTOR VEHICLE THEFT]  
+- Location Description is STREET and Primary Type is OTHER OFFENSE and Domestic = 0  
+
+10 different conditions for class "1" (Arrest made):  
+- Primary Type is in [NARCOTICS, WEAPONS VIOLATION, CONCEALED CARRY LICENSE VIOLATION, BATTERY]  
+- Description is in [POSSESS - HEROIN (WHITE), UNLAWFUL POSSESSION - HANDGUN, PROHIBITED PLACES, SIMPLE]  
+- FBI Code is in [15, 18, 08B]  
+- Location Description is in [SIDEWALK, STREET, AIRPORT TERMINAL UPPER LEVEL - SECURE AREA, SMALL RETAIL STORE]  
+- Domestic = 0 and Primary Type is in [NARCOTICS, WEAPONS VIOLATION]  
+- Beat is within range of [1100, 1250] and Primary Type is in [NARCOTICS, WEAPONS VIOLATION]  
+- District is in [1, 8, 11] and Primary Type is in [WEAPONS VIOLATION, CONCEALED CARRY LICENSE VIOLATION]  
+- Ward is in [4, 13, 28, 12] and Primary Type is BATTERY or WEAPONS VIOLATION  
+- Year = 2025 and Primary Type is in [NARCOTICS, WEAPONS VIOLATION, BATTERY]  
+- Location Description is STREET or SIDEWALK and FBI Code is in [15, 18]  
+
+These conditions reflect patterns in the examples and common crime/arrest relationships.
+
+---DIVIDER---
+
+Answer:  
+Step 1. The relationship between each feature and the task description:
+
+- Date: The date/time itself may not directly influence arrest likelihood, but certain times (e.g., night vs. day) or days (weekends) might correlate with different crime/arrest patterns.
+- Primary Type: The type of crime strongly influences whether an arrest is likely; violent or weapon-related crimes often have arrests, whereas minor offenses less so.
+- Description: More specific crime descriptions can indicate severity or nature, affecting arrest probability.
+- Location Description: Certain locations (e.g., street, residence, retail store) may be associated with different arrest likelihoods depending on crime type.
+- Domestic: Domestic violence cases may have different arrest rates due to legal protocols.
+- Beat, District, Ward, Community Area: Geographic/police jurisdiction variables might affect arrest rates due to resource allocation or crime patterns.
+- FBI Code: FBI crime classification codes correlate with crime severity and arrest likelihood.
+- X Coordinate, Y Coordinate, Latitude, Longitude: Geospatial data linked to crime location; may indirectly relate to arrest likelihood.
+- Year: Likely constant in examples; may not affect arrest probability here.
+
+Step 2. Based on the above and examples, infer 10 different conditions per answer class:
+
+10 different conditions for class "0" (No arrest made):
+- Primary Type is in [OTHER OFFENSE, MOTOR VEHICLE THEFT, OFFENSE INVOLVING CHILDREN]
+- Description is in [HARASSMENT BY ELECTRONIC MEANS, VEHICLE TITLE / REGISTRATION OFFENSE, AGGRAVATED SEXUAL ASSAULT OF CHILD BY FAMILY MEMBER]
+- Location Description is in [APARTMENT, STREET, RESIDENCE]
+- Domestic = 1 and Primary Type is OFFENSE INVOLVING CHILDREN
+- FBI Code is 26 (which appears linked to no arrest in examples)
+- Beat is within range of [100, 200] and Primary Type is OTHER OFFENSE
+- District = 1 and Primary Type is MOTOR VEHICLE THEFT
+- Ward is within range of [20, 50] and Primary Type is OTHER OFFENSE
+- Year = 2025 and Primary Type is OFFENSE INVOLVING CHILDREN
+- Latitude is within range of [41.7, 41.9] and Longitude is within range of [-87.8, -87.6] and Primary Type is OTHER OFFENSE
+
+10 different conditions for class "1" (Arrest made):
+- Primary Type is in [WEAPONS VIOLATION, CONCEALED CARRY LICENSE VIOLATION, NARCOTICS, BATTERY]
+- Description is in [UNLAWFUL POSSESSION - HANDGUN, PROHIBITED PLACES, POSSESS - HEROIN (WHITE), SIMPLE]
+- Location Description is in [STREET, SIDEWALK, SMALL RETAIL STORE, AIRPORT TERMINAL UPPER LEVEL - SECURE AREA]
+- Domestic = 0 and Primary Type is WEAPONS VIOLATION
+- FBI Code is 15 or 18 or 08B (codes associated with arrests)
+- Beat is within range of [100, 130] and Primary Type is WEAPONS VIOLATION
+- District is within range of [1, 11] and Primary Type is NARCOTICS or BATTERY
+- Ward is within range of [4, 28] and Primary Type is BATTERY or NARCOTICS
+- Year = 2025 and Primary Type is WEAPONS VIOLATION or NARCOTICS
+- Latitude is within range of [41.8, 41.9] and Longitude is within range of [-87.7, -87.6] and Primary Type is BATTERY or WEAPONS VIOLATION
+
+---DIVIDER---
+
+Answer:  
+Step 1. The relationship between each feature and the task description:
+
+- Date: The specific date/time itself likely does not directly influence whether an arrest was made, but certain times (e.g., late night) might correlate with types of crimes more likely to result in arrest.
+- Primary Type: Certain crime types (e.g., violent crimes, weapons violations, narcotics) are more likely to lead to arrests, while others (e.g., theft without suspect, vehicle theft) less likely.
+- Description: More severe or specific descriptions (e.g., aggravated assault, possession of controlled substances) often indicate higher likelihood of arrest.
+- Location Description: Crimes in public or controlled locations (streets, airports) might have higher arrest rates compared to private or less supervised locations.
+- Domestic: Domestic violence crimes may have different arrest likelihood due to reporting and investigation protocols.
+- Beat, District, Ward, Community Area: Geographic location might correlate with arrest likelihood due to policing practices or crime patterns.
+- FBI Code: Certain FBI codes correspond to more serious offenses that are more likely to lead to arrest.
+- X Coordinate, Y Coordinate, Latitude, Longitude: Related to geographic location, may indirectly correlate with arrest likelihood.
+- Year: Since all examples are from 2025, no variation here.
+  
+Step 2. Based on Step 1 and the examples, infer 10 different conditions per answer class:
+
+10 different conditions for class "0" (No arrest made):  
+- Primary Type is in [MOTOR VEHICLE THEFT, OFFENSE INVOLVING CHILDREN, OTHER OFFENSE]  
+- Description is in [AUTOMOBILE, AGGRAVATED SEXUAL ASSAULT OF CHILD BY FAMILY
+
+---DIVIDER---
+
+Answer:  
+Step 1. The relationship between each feature and the task description:  
+
+- **Primary Type**: Certain crime types (e.g., narcotics, weapons violations) are more likely to result in arrests, while others (e.g., offenses involving children, theft without violence) may less often result in arrests.  
+- **Description**: More severe or specific descriptions (e.g., aggravated assault, possession of illegal weapons) tend to correlate with arrests.  
+- **Location Description**: Crimes in public or controlled locations (streets, airports) may have higher arrest likelihood; private or less supervised locations (residences) may have lower arrest rates.  
+- **Domestic**: Domestic crimes might have different arrest patterns; often domestic violence cases may or may not lead to arrests depending on evidence.  
+- **FBI Code**: Certain FBI codes (e.g., 15 for weapons violations, 18 for narcotics) are associated with arrests more frequently.  
+- **Date/Time/Year**: Time may influence arrest likelihood indirectly (e.g., night crimes may have more arrests). Year is constant here (2025).  
+- **Beat/District/Ward/Community Area**: Geographical areas might have varying arrest rates due to policing intensity, but no direct pattern is evident from examples.  
+- **Coordinates (X, Y, Latitude, Longitude)**: Spatial data might reflect location-based arrest tendencies but no clear pattern from examples.  
+
+Step 2. Based on the above and examples, infer conditions for each class:
+
+10 different conditions for class "0":  
+- Primary Type is in [OFFENSE INVOLVING CHILDREN, OTHER OFFENSE, MOTOR VEHICLE THEFT]  
+- Description is in [AGGRAVATED SEXUAL ASSAULT OF CHILD BY

@@ -1,0 +1,116 @@
+def extracting_features_0(df_input):
+    df_output = pd.DataFrame()
+    df_output['The_reason_of_the_call_Complaints'] = (df_input['The_reason_of_the_call'] == 'Complaints').astype(int)
+    df_output['Call_center_employee_communication_skills_evaluation_leq_3_143'] = (df_input['Call_center_employee_communication_skills_evaluation'] <= 3.143).astype(int)
+    df_output['Satisfaction_with_the_doctors_response_leq_3_0'] = (df_input['Satisfaction_with_the_doctors_response'] <= 3.0).astype(int)
+    df_output['How_often_do_you_receive_call_center_news_geq_2_6'] = (df_input['How_often_do_you_receive_call_center_news'] >= 2.6).astype(int)
+    df_output['Call_151_Yes'] = (df_input['Call_151'] == 'Yes').astype(int)
+    df_output['Age_Under18_18_24'] = df_input['Age'].isin(['Under 18', '18-24']).astype(int)
+    df_output['Nationality_Kuwaiti_Other'] = df_input['Nationality'].isin(['Kuwaiti', 'Other nationality']).astype(int)
+    df_output['Marital_Status_Single'] = (df_input['Marital_Status'] == 'Single').astype(int)
+    df_output['Education_HighSchool_Bachelor'] = df_input['Education'].isin(['High school', 'Bachelor']).astype(int)
+    df_output['Governorate_Jahra_Capital_Farwaniya'] = df_input['Governorate'].isin(['Jahra', 'Capital', 'Farwaniya']).astype(int)
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):
+    df_output = pd.DataFrame()
+    df_output['The_reason_of_the_call_condition'] = ((df_input['The_reason_of_the_call'].isin(['Complaints', 'Inquiries_COVID19'])) & 
+                                                     (df_input['Satisfaction_with_the_doctors_response'] > df_input['Satisfaction_with_the_doctors_response'].median())).astype(int)
+    df_output['Call_center_employee_communication_skills_evaluation_condition'] = (df_input['Call_center_employee_communication_skills_evaluation'] >= 3.0).astype(int)
+    df_output['Satisfaction_with_the_doctors_response_condition'] = (df_input['Satisfaction_with_the_doctors_response'] >= 3.0).astype(int)
+    df_output['How_often_do_you_receive_call_center_news_condition'] = (df_input['How_often_do_you_receive_call_center_news'] <= 2.9).astype(int)
+    df_output['Call_151_condition'] = (df_input['Call_151'] == 'No').astype(int)
+    df_output['Age_condition'] = (df_input['Age'].isin(['18-24', '30-39'])).astype(int)
+    df_output['Nationality_condition'] = (df_input['Nationality'] == 'Unspecified').astype(int)
+    df_output['Marital_Status_condition'] = (df_input['Marital_Status'].isin(['Single', 'Married'])).astype(int)
+    df_output['Education_condition'] = (df_input['Education'].isin(['Bachelor', 'Less than high school'])).astype(int)
+    df_output['Governorate_condition'] = (df_input['Governorate'].isin(['Capital', 'Jahra', 'Farwaniya'])).astype(int)
+    return df_output
+
+---VERSION---
+
+
+
+---VERSION---
+
+def extracting_features_0(df_input):
+    df_output = pd.DataFrame()
+    df_output['The_reason_of_the_call_Complaints'] = (df_input['The_reason_of_the_call'] == 'Complaints').astype(int)
+    df_output['Call_center_employee_communication_skills_evaluation_le_3'] = (df_input['Call_center_employee_communication_skills_evaluation'] <= 3.0).astype(int)
+    df_output['Satisfaction_with_the_doctors_response_le_3'] = (df_input['Satisfaction_with_the_doctors_response'] <= 3.0).astype(int)
+    df_output['Gender_Female'] = (df_input['Gender'] == 'Female').astype(int)
+    df_output['Aware_151_No'] = (df_input['Aware_151'] == 'No').astype(int)
+    df_output['Call_151_No'] = (df_input['Call_151'] == 'No').astype(int)
+    df_output['Age_in_18_24_30_39'] = df_input['Age'].isin(['18-24', '30-39']).astype(int)
+    df_output['Education_in_Bachelor_High_school'] = df_input['Education'].isin(['Bachelor', 'High school']).astype(int)
+    df_output['How_often_do_you_receive_call_center_news_le_2_9'] = (df_input['How_often_do_you_receive_call_center_news'] <= 2.9).astype(int)
+    df_output['Nationality_in_Kuwaiti_Other_nationality'] = df_input['Nationality'].isin(['Kuwaiti', 'Other nationality']).astype(int)
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):
+    df_output = pd.DataFrame()
+    df_output['The_reason_of_the_call_condition'] = df_input['The_reason_of_the_call'].isin(['Inquiries_COVID19', 'Inquiries', 'Medical_Consultation']) | ((df_input['The_reason_of_the_call'] == 'Complaints') & ((df_input['Call_center_employee_communication_skills_evaluation'] > 3.0) & (df_input['Satisfaction_with_the_doctors_response'] > 3.0)))
+    df_output['Call_center_employee_communication_skills_evaluation_condition'] = df_input['Call_center_employee_communication_skills_evaluation'] > 3.0
+    df_output['Satisfaction_with_the_doctors_response_condition'] = df_input['Satisfaction_with_the_doctors_response'] > 3.0
+    df_output['Gender_condition'] = df_input['Gender'] == 'Male'
+    aware_counts = df_input['Aware_151'].value_counts()
+    if 'Yes' in aware_counts and 'No' in aware_counts:
+        df_output['Aware_151_condition'] = df_input['Aware_151'] == 'Yes'
+    else:
+        df_output['Aware_151_condition'] = df_input['Aware_151'].isin(['Yes', 'No'])
+    call_counts = df_input['Call_151'].value_counts()
+    if 'Yes' in call_counts and 'No' in call_counts:
+        df_output['Call_151_condition'] = df_input['Call_151'] == 'No'
+    else:
+        df_output['Call_151_condition'] = df_input['Call_151'].isin(['Yes', 'No'])
+    df_output['Age_condition'] = df_input['Age'].isin(['18-24', '30-39'])
+    df_output['Education_condition'] = df_input['Education'].isin(['High school', 'Less than high school', 'Bachelor'])
+    df_output['How_often_do_you_receive_call_center_news_condition'] = df_input['How_often_do_you_receive_call_center_news'] > 2.5
+    df_output['Governorate_condition'] = df_input['Governorate'].isin(['Jahra', 'Capital', 'Farwaniya'])
+    return df_output.astype(int)
+
+---VERSION---
+
+def extracting_features_0(df_input):
+    df_output = pd.DataFrame()
+    df_output['The_reason_of_the_call_Complaints'] = (df_input['The_reason_of_the_call'] == 'Complaints').astype(int)
+    df_output['Call_center_employee_communication_skills_evaluation_leq_3'] = (df_input['Call_center_employee_communication_skills_evaluation'] <= 3.0).astype(int)
+    df_output['Satisfaction_with_the_doctors_response_leq_3'] = (df_input['Satisfaction_with_the_doctors_response'] <= 3.0).astype(int)
+    df_output['How_often_do_you_receive_call_center_news_leq_2_9'] = (df_input['How_often_do_you_receive_call_center_news'] <= 2.9).astype(int)
+    df_output['Call_151_No'] = (df_input['Call_151'] == 'No').astype(int)
+    df_output['Aware_151_No'] = (df_input['Aware_151'] == 'No').astype(int)
+    df_output['Age_in_18_24_Under_18'] = df_input['Age'].isin(['18-24', 'Under 18']).astype(int)
+    df_output['Nationality_in_Kuwaiti_Other'] = df_input['Nationality'].isin(['Kuwaiti', 'Other nationality']).astype(int)
+    df_output['Gender_Female'] = (df_input['Gender'] == 'Female').astype(int)
+    df_output['Education_in_Bachelor_High_school'] = df_input['Education'].isin(['Bachelor', 'High school']).astype(int)
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):
+    df_output = pd.DataFrame()
+    df_output['The_reason_of_the_call_condition'] = ((df_input['The_reason_of_the_call'] != 'Complaints') | 
+                                                     ((df_input['The_reason_of_the_call'] == 'Complaints') & 
+                                                      (df_input['Call_center_employee_communication_skills_evaluation'] > 3.0) & 
+                                                      (df_input['Satisfaction_with_the_doctors_response'] > 3.0) & 
+                                                      (df_input['How_often_do_you_receive_call_center_news'] > 2.9))).astype(int)
+    df_output['Call_center_employee_communication_skills_evaluation_condition'] = (df_input['Call_center_employee_communication_skills_evaluation'] > 3.0).astype(int)
+    df_output['Satisfaction_with_the_doctors_response_condition'] = (df_input['Satisfaction_with_the_doctors_response'] > 3.0).astype(int)
+    df_output['How_often_do_you_receive_call_center_news_condition'] = (df_input['How_often_do_you_receive_call_center_news'] > 2.9).astype(int)
+    df_output['Call_151_condition'] = (((df_input['Call_151'].isin(['Yes', 'No'])) & 
+                                        (df_input['Call_center_employee_communication_skills_evaluation'] > 3.0) & 
+                                        (df_input['Satisfaction_with_the_doctors_response'] > 3.0) & 
+                                        (df_input['How_often_do_you_receive_call_center_news'] > 2.9))).astype(int)
+    df_output['Aware_151_condition'] = (df_input['Aware_151'] == 'Yes').astype(int)
+    df_output['Age_condition'] = df_input['Age'].isin(['30-39', '40-49']).astype(int)
+    df_output['Nationality_condition'] = (df_input['Nationality'] == 'Unspecified').astype(int)
+    df_output['Gender_condition'] = (df_input['Gender'] == 'Male').astype(int)
+    df_output['Education_condition'] = df_input['Education'].isin(['Less than high school', 'Other']).astype(int)
+    return df_output
+
+---VERSION---
+

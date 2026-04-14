@@ -1,0 +1,225 @@
+Answer:  
+Step 1. The relationship between each feature and the task description:
+
+- **Received Support:** Low support likely increases risk of postpartum depression; high support is protective.  
+- **Relationship with the in-laws:** Poor or bad relationships may contribute to stress and depression; good or friendly relationships are protective.  
+- **Newborn illness:** Having a sick newborn can increase stress and risk of depression.  
+- **Education Level:** Higher education may correlate with better awareness and coping skills, possibly reducing depression risk; lower education might increase vulnerability.  
+- **Birth compliancy:** Complications during birth can increase physical and emotional stress, raising depression risk.  
+- **Diseases during pregnancy:** Chronic or non-chronic diseases during pregnancy may increase stress and health worries, increasing depression risk.  
+- **Addiction:** Presence of addiction (smoking, drinking, drugs) may be associated with higher depression risk.  
+- **Occupation before latest pregnancy:** Certain occupations or unemployment (housewife) may relate to social support or stress levels; for example, housewives might have less social interaction, increasing risk.  
+- **Family type:** Joint family may provide more support but also potential conflicts; nuclear family may mean less support but also fewer conflicts.  
+- **Residence:** City living may be associated with more stress or access to resources; village living may have less access to support but potentially less stressful environment.
+
+---
+
+Step 2. Based on the above examples and Step 1's results, infer 10 different conditions per answer:
+
+10 different conditions for class "0" (No postpartum depression):  
+- Received Support is in [High, Medium]  
+- Relationship with the in-laws is in [Good, Friendly, Neutral]  
+- Newborn illness is No  
+- Birth compliancy is No  
+- Diseases during pregnancy is No  
+- Addiction is No  
+- Education Level is in [University, College]  
+- Occupation before latest pregnancy is in [Teacher, Doctor, Student, Service, Business]  
+- Family type is in [Joint, Nuclear]  
+- Residence is in [City, Village]  
+
+10 different conditions for class "1" (Yes postpartum depression):  
+- Received Support is Low  
+- Relationship with the in-laws is in [Bad, Poor]  
+- Newborn illness is Yes  
+- Birth compliancy is Yes  
+- Diseases during pregnancy is in [Chronic Disease, Non-Chronic Disease, Chronic disease, Non-chronic disease]  
+- Addiction is in [Smoking, Drinking, Drugs]  
+- Education Level is in [High School, Primary School, No]  
+- Occupation before latest pregnancy is Housewife or House wife  
+- Family type is Joint (due to more potential conflicts)  
+- Residence is City (due to higher stress environment)
+
+---DIVIDER---
+
+Answer:  
+Step 1. The relationship between each feature and the task description:  
+
+- History of pregnancy loss: A history of pregnancy loss, especially still-born delivery or miscarriage, may increase the risk of postpartum depression due to trauma and grief.  
+- Marital status: Being married might provide emotional support, reducing risk; being divorced might increase risk due to less support.  
+- Pregnancy length: Shorter pregnancy length (preterm birth or loss before full term) may increase stress and risk of postpartum depression.  
+- Need for Support: Higher need for support likely correlates with higher risk of postpartum depression.  
+- Husband’s monthly income: Lower income may be associated with increased stress and higher risk of postpartum depression.  
+- Angry after latest childbirth: Feeling angry after childbirth may indicate emotional distress and be a sign of postpartum depression.  
+- Occupation After Your Latest Childbirth: Being a housewife or not working might indicate less social interaction or support, potentially higher risk; working in a professional role might indicate better coping or support.  
+- Recieved Support: Higher received support likely reduces risk of postpartum depression.  
+- Education Level: Higher education might correlate with better coping mechanisms and resources, reducing risk.  
+- Regular checkups: Regular medical checkups may help identify and reduce risk of postpartum depression through early intervention.  
+
+---
+
+Step 2. Based on the above examples and Step 1's results, infer 10 different conditions per answer class:  
+
+10 different conditions for class "0" (No postpartum depression):  
+- History of pregnancy loss is in [No]  
+- Marital status is in [Married]  
+- Need for Support is in [No, Low]  
+- Angry after latest child birth is in [No]  
+- Recieved Support is in [High, Medium]  
+- Education Level is in [University, College]  
+- Regular checkups is in [Yes]  
+- Husband’s monthly income is in [20000 to 30000, More than 30000]  
+- Pregnancy length is in [9 months, 10 months]  
+- Occupation After Your Latest Childbirth is in [Doctor, Teacher, Business]  
+
+10 different conditions for class "1" (Has postpartum depression):  
+- History of pregnancy loss is in [Miscarriage, Still-born Delivery]  
+- Need for Support is in [High, Medium]  
+- Angry after latest child birth is in [Yes]  
+- Recieved Support is in [Low]  
+- Education Level is in [High School, Primary School, No]  
+- Marital status is in [Divorced]  
+- Husband’s monthly income is in [Less than 5000, 5000 to 10000]  
+- Regular checkups is in [No]  
+- Pregnancy length is in [Less than 5 months, 6 months, 7 months, 8 months]  
+- Occupation After Your Latest Childbirth is in [Housewife, House wife, Other]  
+
+---
+
+These conditions reflect tendencies from the examples and general knowledge about factors influencing postpartum depression risk.
+
+---DIVIDER---
+
+Answer:  
+Step 1. The relationship between each feature and the task description:
+
+- Disease before pregnancy: Chronic diseases or health issues before pregnancy could increase stress and risk of postpartum depression. No disease might indicate lower risk.
+- Gender of newborn: Generally, the gender of the newborn is unlikely to have a strong causal effect on postpartum depression, but cultural preferences might influence mood.
+- Occupation before latest pregnancy: Occupations with higher stress or less social support might increase risk; housewives or students might have different social dynamics.
+- Husband's education level: Higher education might correlate with better support and understanding, potentially lowering risk.
+- Education Level: Higher education in the mother might improve coping mechanisms and resources, reducing risk.
+- Angry after latest childbirth: Feeling angry after childbirth is a strong emotional indicator and likely correlates positively with postpartum depression.
+- Age of newborn: Postpartum depression often occurs within the first year after childbirth, so age of newborn might affect detection or reporting.
+- Relationship with husband: Poor or bad relationship likely increases risk due to lack of emotional support.
+- Number of household members: Larger households might provide more social support or could cause more stress, depending on context.
+- Major changes or losses during pregnancy: Experiencing major losses or changes is a significant stressor and likely increases risk of postpartum depression.
+
+---
+
+Step 2. Based on the above examples and Step 1's results, infer 10 different conditions per answer.
+
+10 different conditions for class "0" (No postpartum depression):  
+- Angry after latest child birth is No  
+- Relationship with husband is in [Good, Friendly]  
+- Major changes or losses during pregnancy is No  
+- Disease before pregnancy is No  
+- Husband's education level is in [University, College]  
+- Education Level is in [University, College]  
+- Number of household members is in [6 to 8, 9 or more]  
+- Occupation before latest pregnancy is in [Housewife, Student, Teacher]  
+- Age of newborn is in [0 to 6 months, 6 months to 1 year]  
+- Gender of newborn is Girl  
+
+10 different conditions for class "1" (Has postpartum depression):  
+- Angry after latest child birth is Yes  
+- Relationship with husband is in [Bad, Poor, Neutral]  
+- Major changes or losses during pregnancy is Yes  
+- Disease before pregnancy is in [Chronic Disease, Non-Chronic Disease]  
+- Husband's education level is in [Primary School, High School, No]  
+- Education Level is in [Primary School, High School, No]  
+- Number of household members is in [2 to 5]  
+- Occupation before latest pregnancy is in [Teacher, Service, Other]  
+- Age of newborn is in [Older than 1.5 year, 1 year to 1.5 year]  
+- Gender of newborn is Boy  
+
+---
+
+These conditions align with the examples and general knowledge about risk factors for postpartum depression.
+
+---DIVIDER---
+
+Answer:  
+Step 1. The relationship between each feature and the task description (postpartum depression) based on general knowledge and common sense:
+
+- Current monthly income: Lower income levels may increase stress and risk of postpartum depression due to financial insecurity.  
+- Age: Younger or very young mothers may have higher risk due to less experience or support; older mothers might also experience stress, but often age alone is less determinative.  
+- Education Level: Higher education might be protective due to better knowledge and resources; lower education could correlate with higher risk.  
+- Number of household members: Larger households may provide more support or alternatively more stress; smaller households might mean less social support, increasing risk.  
+- Breastfeed: Breastfeeding can have mixed effects; some studies suggest breastfeeding promotes bonding and reduces depression risk, but difficulties in breastfeeding can increase stress.  
+- Relax/sleep when the newborn is asleep: Inability to relax or sleep when the newborn sleeps is a strong indicator of stress and potential depression.  
+- Diseases during pregnancy: Having diseases, especially chronic, can contribute to stress and risk of postpartum depression.  
+- Residence: Urban (City) or rural (Village) residence may influence support networks and stress levels; rural areas might have less access to mental health resources.  
+- Need for Support: High expressed need for support likely correlates with depression or distress.  
+- Husband’s monthly income: Husband’s income contributes to household financial stability; lower income may increase stress and depression risk.  
+
+---
+
+Step 2. Based on the above analysis and given examples, infer 10 different conditions per answer class.
+
+10 different conditions for class "0" (No postpartum depression):  
+- Current monthly income is in [No, 10000 to 20000, More than 30000]  
+- Age is within range [25, 40]  
+- Education Level is in [University, College, High School]  
+- Number of household members is in [2 to 5]  
+- Breastfeed is Yes  
+- Relax/sleep when the newborn is asleep is Yes  
+- Diseases during pregnancy is No  
+- Residence is City  
+- Need for Support is in [No, Low]  
+- Husband’s monthly income is in [10000 to 20000, 20000 to 30000, More than 30000]  
+
+10 different conditions for class "1" (Has postpartum depression):  
+- Current monthly income is in [No, Less than 5000, 5000 to 10000]  
+- Age is within range [18, 24]  
+- Education Level is in [Primary School, High school, No]  
+- Number of household members is in [6 to 8, 9 or more]  
+- Breastfeed is No  
+- Relax/sleep when the newborn is asleep is No  
+- Diseases during pregnancy is in [Non-Chronic Disease, Chronic Disease]  
+- Residence is City  
+- Need for Support is in [Medium, High]  
+- Husband’s monthly income is in [No, Less than 5000, 5000 to 10000]
+
+---DIVIDER---
+
+Answer:  
+Step 1. The relationship between each feature and the task description:
+
+- Feeling for regular activities: If the patient feels worried, tired, or afraid, this may indicate postpartum depression; feeling "No" (no negative feeling) suggests no depression.  
+- Relax/sleep when the newborn is asleep: Inability to relax or sleep when the newborn sleeps may indicate depression or anxiety.  
+- Relationship with the newborn: A bad or neutral relationship with the newborn may be a sign of postpartum depression; a good or very good relationship suggests no depression.  
+- Diseases during pregnancy: Chronic or non-chronic diseases during pregnancy might increase stress and risk of postpartum depression.  
+- Feeling about motherhood: Feeling sad or neutral (less positive emotions) about motherhood may indicate depression; feeling happy suggests no depression.  
+- Angry after latest childbirth: Feeling angry after childbirth may be associated with postpartum depression.  
+- Newborn illness: Having a sick newborn may increase stress and risk of depression.  
+- Current monthly income: Lower income or no income may increase risk of depression due to financial stress.  
+- Birth compliancy: Complications during birth can increase risk of postpartum depression.  
+- Regular checkups: Having regular prenatal checkups may reduce risk of postpartum depression; no regular checkups may increase risk.  
+
+---
+
+Step 2. Based on the above examples and Step 1's results, infer 10 different conditions per answer:
+
+10 different conditions for class "0":  
+- Feeling for regular activities is No  
+- Relax/sleep when the newborn is asleep is Yes  
+- Relationship with the newborn is in [Good, Very good]  
+- Feeling about motherhood is Happy  
+- Angry after latest child birth is No  
+- Diseases during pregnancy is No  
+- Birth compliancy is No  
+- Regular checkups is Yes  
+- Newborn illness is No  
+- Current monthly income is in [More than 30000, 20000 to 30000, 10000 to 20000, 5000 to 10000]  
+
+10 different conditions for class "1":  
+- Feeling for regular activities is in [Worried, Tired, Afraid]  
+- Relax/sleep when the newborn is asleep is No  
+- Relationship with the newborn is in [Bad, Neutral]  
+- Feeling about motherhood is in [Sad, Neutral]  
+- Angry after latest child birth is Yes  
+- Diseases during pregnancy is in [Chronic Disease, Non-Chronic Disease, Chronic disease, Non-chronic disease]  
+- Birth compliancy is Yes  
+- Regular checkups is No  
+- Newborn illness is Yes  
+- Current monthly income is in [No, Less than 5000]

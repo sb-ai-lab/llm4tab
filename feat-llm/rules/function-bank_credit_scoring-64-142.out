@@ -1,0 +1,101 @@
+def extracting_features_0(df_input):
+    df_output = pd.DataFrame()
+    df_output['PDN'] = (df_input['PDN'] >= 0.24).astype(int)
+    df_output['Credit history rating'] = df_input['Credit history rating'].isin(['C2', 'C3', 'D1', 'D2', 'D3', 'E1', 'E2', 'E3']).astype(int)
+    df_output['INCOME'] = (df_input['INCOME'] <= 2000).astype(int)
+    df_output['Initial limit'] = (df_input['Initial limit'] <= 3300).astype(int)
+    df_output['Debt'] = (df_input['Debt'] <= 3000).astype(int)
+    df_output['EDU'] = df_input['EDU'].isin(['High school', 'Incomplete']).astype(int)
+    df_output['TERM'] = ((df_input['TERM'] >= 36) & (df_input['TERM'] <= 60)).astype(int)
+    df_output['UNDERAGECHILDRENCOUNT'] = (df_input['UNDERAGECHILDRENCOUNT'] >= 1).astype(int)
+    df_output['LV_AREA'] = df_input['LV_AREA'].isin(['BRESTSKAJa', 'GOMEL\'SKAJa', 'MOGILEVSKAJa']).astype(int)
+    df_output['SEX_and_INCOME'] = ((df_input['SEX'] == 'Female') & (df_input['INCOME'] <= 1600)).astype(int)
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):  
+    df_output = pd.DataFrame()  
+    df_output['PDN'] = (df_input['PDN'] < 0.24).astype(int)  
+    df_output['Credit history rating'] = df_input['Credit history rating'].isin(['A1', 'A2', 'A3', 'B1', 'B2', 'B3']).astype(int)  
+    df_output['INCOME'] = (df_input['INCOME'] >= 3000).astype(int)  
+    df_output['Initial limit'] = (df_input['Initial limit'] >= 10000).astype(int)  
+    df_output['Debt'] = (df_input['Debt'] >= 9000).astype(int)  
+    df_output['EDU'] = df_input['EDU'].isin(['University', 'College']).astype(int)  
+    df_output['TERM'] = ((df_input['TERM'] >= 36) & (df_input['TERM'] <= 60)).astype(int)  
+    df_output['UNDERAGECHILDRENCOUNT'] = (df_input['UNDERAGECHILDRENCOUNT'] == 0).astype(int)  
+    df_output['LV_AREA'] = df_input['LV_AREA'].str.lower().replace({"минская область": "minskaja oblast", "г. минск": "g. minsk", "гродненская область": "grodnenskaja oblast"}).isin(['g. minsk', 'minskaja oblast', 'grodnenskaja oblast']).astype(int)  
+    df_output['SEX and INCOME'] = ((df_input['SEX'] == 'Male') & (df_input['INCOME'] >= 1500)).astype(int)  
+    return df_output
+
+---VERSION---
+
+def extracting_features_0(df_input):
+    df_output = pd.DataFrame()
+    df_output['Credit_history_rating_flag'] = df_input['Credit history rating'].isin(['C2', 'C3', 'D1', 'D2', 'D3', 'E1', 'E2', 'E3']).astype(int)
+    df_output['PDN_flag'] = (df_input['PDN'] > 0.25).astype(int)
+    df_output['Initial_limit_flag'] = (df_input['Initial limit'] < 5000).astype(int)
+    df_output['INCOME_flag'] = (df_input['INCOME'] < 2000).astype(int)
+    df_output['Debt_flag'] = (df_input['Debt'] < 5000).astype(int)
+    df_output['Overdue_days_flag'] = (df_input['Overdue days'] > 0).astype(int)
+    df_output['EDU_flag'] = df_input['EDU'].isin(['High school', 'Incomplete']).astype(int)
+    df_output['TERM_flag'] = (df_input['TERM'] <= 36).astype(int)
+    df_output['UNDERAGECHILDRENCOUNT_flag'] = (df_input['UNDERAGECHILDRENCOUNT'] >= 1).astype(int)
+    df_output['FAMILYSTATUS_flag'] = df_input['FAMILYSTATUS'].isin([0,1]).astype(int)
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):
+    df_output = pd.DataFrame()
+    df_output['Credit_history_rating_condition'] = df_input['Credit history rating'].isin(['A1', 'A2', 'A3', 'B1', 'B2', 'B3']).astype(int)
+    df_output['PDN_condition'] = (df_input['PDN'] <= 0.25).astype(int)
+    df_output['Initial_limit_condition'] = (df_input['Initial limit'] >= 10000).astype(int)
+    df_output['INCOME_condition'] = (df_input['INCOME'] >= 1500).astype(int)
+    df_output['Debt_condition'] = (df_input['Debt'] >= 9000).astype(int)
+    df_output['Overdue_days_condition'] = (df_input['Overdue days'] == 0).astype(int)
+    df_output['EDU_condition'] = df_input['EDU'].isin(['University', 'College']).astype(int)
+    df_output['TERM_condition'] = (df_input['TERM'] >= 60).astype(int)
+    df_output['UNDERAGECHILDRENCOUNT_condition'] = (df_input['UNDERAGECHILDRENCOUNT'] == 0).astype(int)
+    df_output['FAMILYSTATUS_condition'] = (df_input['FAMILYSTATUS'] == 2).astype(int)
+    return df_output
+
+---VERSION---
+
+
+
+---VERSION---
+
+
+
+---VERSION---
+
+def extracting_features_0(df_input):
+    df_output = pd.DataFrame()
+    df_output['Debt_lt_2000'] = (df_input['Debt'] < 2000).astype(int)
+    df_output['Overdue_days_gt_0'] = (df_input['Overdue days'] > 0).astype(int)
+    df_output['Initial_limit_le_3300'] = (df_input['Initial limit'] <= 3300).astype(int)
+    df_output['INCOME_lt_2000'] = (df_input['INCOME'] < 2000).astype(int)
+    df_output['Credit_history_rating_in'] = df_input['Credit history rating'].isin(['C1', 'C2', 'C3', 'D1', 'D2', 'D3', 'E1', 'E2', 'E3']).astype(int)
+    df_output['PDN_ge_0_3'] = (df_input['PDN'] >= 0.3).astype(int)
+    df_output['EDU_in'] = df_input['EDU'].isin(['Incomplete', 'High school']).astype(int)
+    df_output['INDUSTRYNAME_in'] = df_input['INDUSTRYNAME'].isin(['Trade', 'Agriculture']).astype(int)
+    df_output['UNDERAGECHILDRENCOUNT_ge_1'] = (df_input['UNDERAGECHILDRENCOUNT'] >= 1).astype(int)
+    df_output['FAMILYSTATUS_le_1'] = (df_input['FAMILYSTATUS'] <= 1).astype(int)
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):
+    df_output = pd.DataFrame()
+    df_output['Debt'] = (df_input['Debt'] >= 9000).astype(int)
+    df_output['Initial limit'] = (df_input['Initial limit'] >= 10000).astype(int)
+    df_output['INCOME'] = (df_input['INCOME'] >= 1500).astype(int)
+    df_output['Credit history rating'] = df_input['Credit history rating'].isin(['A1', 'A2', 'A3', 'B1', 'B2', 'B3']).astype(int)
+    df_output['PDN'] = (df_input['PDN'] < 0.3).astype(int)
+    df_output['EDU'] = df_input['EDU'].isin(['University', 'College']).astype(int)
+    df_output['TERM'] = (df_input['TERM'] <= 60).astype(int)
+    df_output['INDUSTRYNAME'] = df_input['INDUSTRYNAME'].isin(['Information Technology', 'Construction', 'Medicine and healthcare', 'Ministry of Internal Affairs/Ministry of Emergency Situations/Ministry of Defense', 'Public services']).astype(int)
+    df_output['UNDERAGECHILDRENCOUNT'] = (df_input['UNDERAGECHILDRENCOUNT'] == 0).astype(int)
+    df_output['FAMILYSTATUS'] = (df_input['FAMILYSTATUS'] >= 1).astype(int)
+    return df_output

@@ -1,0 +1,180 @@
+def extracting_features_0(df_input):
+    df_output = pd.DataFrame()
+    df_output['Reason_for_reading_books'] = df_input['Reason for reading books'].isin(['Entertainment Purpose', 'To increase my English vocabulary knowledge']).astype(int)
+    df_output['Department'] = df_input['Department'].isin(['English', 'BBA', 'JMC', 'Others']).astype(int)
+    df_output['Amount_of_time_spent_reading_books_per_day'] = (df_input['Amount of time spent reading books per day'] < 1).astype(int)
+    df_output['Frequency_of_reading_books'] = df_input['Frequency of reading books'].isin(['A few times a month', 'Rarely', 'Never']).astype(int)
+    df_output['Number_of_e_books_read_last_two_years'] = df_input['Number of e-books you read last two years'].isin([np.nan, '1-5']).astype(int)
+    df_output['Number_of_printed_books_read_last_two_years'] = df_input['Number of printed books you read last two years'].isin([np.nan, '1-5']).astype(int)
+    df_output['Favorite_books_for_leisure'] = df_input['Favorite books for reading to spend leisure time'].isin(['Fiction', 'Biography', 'Politics']).astype(int)
+    df_output['Change_after_reading_books'] = (~df_input['What is the change that you fell after reading books'].isin(['Increase Academic Performance', 'Increase Creative Thinking'])).astype(int)
+    df_output['How_to_manage_books'] = df_input['How to manage books for reading'].isin(['Others', 'Used-all']).astype(int)
+    df_output['Format_used_for_reading_books'] = df_input['The format that you used for reading books'].isin(['Printed only', 'Others']).astype(int)
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):
+    df_output = pd.DataFrame()
+    df_output['Reason_for_reading_books_is_Academic_Purpose'] = (df_input['Reason for reading books'] == 'Academic Purpose').astype(int)
+    df_output['Department_in_selected'] = df_input['Department'].isin(['CSE', 'SWE', 'Pharmacy', 'EEE', 'Civil', 'MCT', 'CIS']).astype(int)
+    df_output['Amount_of_time_spent_reading_books_per_day_ge_1'] = (df_input['Amount of time spent reading books per day'] >= 1).astype(int)
+    df_output['Frequency_of_reading_books_in_selected'] = df_input['Frequency of reading books'].isin(['On everyday basis', 'A few times a week']).astype(int)
+    df_output['Number_of_e_books_read_last_two_years_in_selected'] = df_input['Number of e-books you read last two years'].isin(['6-10', '11-15', '16-20', 'More than 20']).astype(int)
+    df_output['Number_of_printed_books_read_last_two_years_in_selected'] = df_input['Number of printed books you read last two years'].isin(['6-10', '11-15', '16-20', 'More than 20']).astype(int)
+    df_output['Favorite_books_for_leisure_in_selected'] = df_input['Favorite books for reading to spend leisure time'].isin(['Non-Fiction', 'Others']).astype(int)
+    df_output['Change_after_reading_in_selected'] = df_input['What is the change that you fell after reading books'].isin(['Increase Academic Performance', 'Increase Creative Thinking']).astype(int)
+    df_output['How_to_manage_books_in_selected'] = df_input['How to manage books for reading'].isin(['E-books', 'Borrow', 'Buy']).astype(int)
+    df_output['Format_used_for_reading_in_selected'] = df_input['The format that you used for reading books'].isin(['E-books', 'Both']).astype(int)
+    return df_output
+
+---VERSION---
+
+
+
+---VERSION---
+
+def extracting_features_0(df_input):
+    df_output = pd.DataFrame()
+    df_output['Reason_for_reading_books'] = df_input['Reason for reading books'].isin(['Entertainment Purpose', 'To increase my English vocabulary knowledge', 'Keep me informative']).astype(int)
+    df_output['Department'] = df_input['Department'].isin(['BBA', 'English', 'JMC', 'Others']).astype(int)
+    df_output['Amount_of_time_spent_reading_books_per_day'] = (df_input['Amount of time spent reading books per day'] < 1).astype(int)
+    df_output['Frequency_of_reading_books'] = df_input['Frequency of reading books'].isin(['A few times a week', 'Rarely', 'Never']).astype(int)
+    df_output['Number_of_printed_books_you_read_last_two_years'] = df_input['Number of printed books you read last two years'].isin(['1-5', float('nan')]).astype(int)
+    df_output['Number_of_e_books_you_read_last_two_years'] = df_input['Number of e-books you read last two years'].isin(['1-5', float('nan')]).astype(int)
+    df_output['Favorite_books_for_reading_to_spend_leisure_time'] = df_input['Favorite books for reading to spend leisure time'].isin(['Fiction', 'Politics']).astype(int)
+    df_output['What_is_the_change_that_you_fell_after_reading_books'] = (df_input['What is the change that you fell after reading books'] != 'Increase Academic Performance').astype(int)
+    df_output['How_to_manage_books_for_reading'] = df_input['How to manage books for reading'].isin(['Others', 'Borrow']).astype(int)
+    df_output['Age'] = df_input['Age'].between(17, 20).astype(int)
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):
+    df_output = pd.DataFrame()
+    df_output['Reason_for_reading_books_is_Academic_Purpose'] = (df_input['Reason for reading books'] == 'Academic Purpose').astype(int)
+    df_output['Department_in_selected'] = df_input['Department'].isin(['Pharmacy', 'CSE', 'SWE', 'EEE', 'CIS', 'Civil', 'Textile', 'MCT']).astype(int)
+    df_output['Amount_of_time_spent_reading_books_per_day_ge_1'] = (df_input['Amount of time spent reading books per day'] >= 1).astype(int)
+    df_output['Frequency_of_reading_books_in_selected'] = df_input['Frequency of reading books'].isin(['On everyday basis', 'Daily']).astype(int)
+    df_output['Number_of_printed_books_last_two_years_in_selected'] = df_input['Number of printed books you read last two years'].isin(['6-10', '11-15', '16-20', 'More than 20']).astype(int)
+    df_output['Number_of_ebooks_last_two_years_in_selected'] = df_input['Number of e-books you read last two years'].isin(['6-10', '11-15', '16-20', 'More than 20']).astype(int)
+    df_output['Favorite_books_for_leisure_in_selected'] = df_input['Favorite books for reading to spend leisure time'].isin(['Non-Fiction', 'Biography']).astype(int)
+    df_output['Change_after_reading_is_Increase_Academic_Performance'] = (df_input['What is the change that you fell after reading books'] == 'Increase Academic Performance').astype(int)
+    df_output['How_to_manage_books_in_selected'] = df_input['How to manage books for reading'].isin(['Buy', 'E-books', 'Used-all']).astype(int)
+    df_output['Age_in_range_21_25'] = df_input['Age'].between(21, 25).astype(int)
+    return df_output
+
+---VERSION---
+
+
+
+---VERSION---
+
+def extracting_features_0(df_input):
+    df_output = pd.DataFrame()
+    df_output['Reason_for_reading_books'] = df_input['Reason for reading books'].isin(['Entertainment Purpose', 'To increase my English vocabulary knowledge']).astype(int)
+    df_output['Amount_of_time_spent_reading_books_per_day'] = (df_input['Amount of time spent reading books per day'] < 1).astype(int)
+    df_output['Frequency_of_reading_books'] = df_input['Frequency of reading books'].isin(['Rarely', 'Once a week', 'A few times a month']).astype(int)
+    df_output['Department'] = df_input['Department'].isin(['BBA', 'JMC', 'English', 'NFE', 'Others']).astype(int)
+    df_output['Number_of_e_books_read_last_two_years'] = df_input['Number of e-books you read last two years'].isin([np.nan, '1-5']).astype(int)
+    df_output['Number_of_printed_books_read_last_two_years'] = df_input['Number of printed books you read last two years'].isin([np.nan, '1-5']).astype(int)
+    df_output['Favorite_books_for_leisure'] = df_input['Favorite books for reading to spend leisure time'].isin(['Fiction', 'Politics']).astype(int)
+    df_output['Change_after_reading_books'] = (df_input['What is the change that you fell after reading books'] != 'Increase Academic Performance').astype(int)
+    df_output['How_to_manage_books'] = df_input['How to manage books for reading'].isin(['Borrow', 'Others']).astype(int)
+    df_output['Format_used_for_reading_books'] = df_input['The format that you used for reading books'].isin(['E-books', 'Printed']).astype(int)
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):
+    df_output = pd.DataFrame()
+    df_output['Reason_for_reading_books_is_Academic_Purpose'] = (df_input['Reason for reading books'] == 'Academic Purpose').astype(int)
+    df_output['Amount_of_time_spent_reading_books_per_day_ge_2'] = (df_input['Amount of time spent reading books per day'] >= 2).astype(int)
+    df_output['Frequency_of_reading_books_in_selected'] = df_input['Frequency of reading books'].isin(['On everyday basis', 'A few times a week']).astype(int)
+    df_output['Department_in_selected'] = df_input['Department'].isin(['Pharmacy', 'CSE', 'SWE', 'EEE', 'Civil', 'MCT', 'CIS', 'Textile']).astype(int)
+    df_output['Number_of_e_books_read_last_two_years_in_selected'] = df_input['Number of e-books you read last two years'].isin(['6-10', '11-15', '16-20', 'More than 20']).astype(int)
+    df_output['Number_of_printed_books_read_last_two_years_in_selected'] = df_input['Number of printed books you read last two years'].isin(['6-10', '11-15', '16-20', 'More than 20']).astype(int)
+    df_output['What_is_the_change_after_reading_books_is_Increase_Academic_Performance'] = (df_input['What is the change that you fell after reading books'] == 'Increase Academic Performance').astype(int)
+    df_output['How_to_manage_books_for_reading_is_Used_all_or_Buy'] = df_input['How to manage books for reading'].isin(['Used-all', 'Buy']).astype(int)
+    df_output['Format_that_you_used_for_reading_books_is_Both'] = (df_input['The format that you used for reading books'] == 'Both').astype(int)
+    df_output['Who_influenced_you_to_read_books_is_Self_Decision_or_Teacher_Parents'] = df_input['Who influenced you to read books'].isin(['Self-Decision', 'Teachers', 'Parents']).astype(int)
+    return df_output
+
+---VERSION---
+
+
+
+---VERSION---
+
+def extracting_features_0(df_input):
+    df_output = pd.DataFrame()
+    df_output['Reason_for_reading_books'] = df_input['Reason for reading books'].isin(['Entertainment Purpose', 'To increase my English vocabulary knowledge', 'Keep me informative']).astype(int)
+    df_output['Department'] = df_input['Department'].isin(['BBA', 'English', 'JMC', 'Others', 'Textile']).astype(int)
+    df_output['Amount_of_time_spent_reading_books_per_day'] = (df_input['Amount of time spent reading books per day'] < 1).astype(int)
+    df_output['Favorite_books_for_reading_to_spend_leisure_time'] = df_input['Favorite books for reading to spend leisure time'].isin(['Fiction', 'Biography', 'Politics']).astype(int)
+    df_output['Frequency_of_reading_books'] = df_input['Frequency of reading books'].isin(['Rarely', 'Once a month', 'Occasionally', np.nan]).astype(int)
+    df_output['Number_of_e_books_you_read_last_two_years'] = df_input['Number of e-books you read last two years'].isin(['1-5', np.nan]).astype(int)
+    df_output['Number_of_printed_books_you_read_last_two_years'] = df_input['Number of printed books you read last two years'].isin(['1-5', np.nan]).astype(int)
+    df_output['What_is_the_change_that_you_felt_after_reading_books'] = (~df_input['What is the change that you fell after reading books'].isin(['Increase Academic Performance', 'Increase Creative Thinking'])).astype(int)
+    df_output['How_to_manage_books_for_reading'] = df_input['How to manage books for reading'].isin(['Others', 'Buy']).astype(int)
+    df_output['The_format_that_you_used_for_reading_books'] = df_input['The format that you used for reading books'].isin(['Printed', 'E-books']).astype(int)
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):
+    df_output = pd.DataFrame()
+    df_output['Reason_Academic_Purpose'] = (df_input['Reason for reading books'] == 'Academic Purpose').astype(int)
+    df_output['Time_spent_reading_>=1'] = (df_input['Amount of time spent reading books per day'] >= 1).astype(int)
+    df_output['Department_in_selected'] = df_input['Department'].isin(['CSE', 'SWE', 'Pharmacy', 'EEE', 'Civil', 'CIS', 'MCT']).astype(int)
+    df_output['Ebooks_read_selected'] = df_input['Number of e-books you read last two years'].isin(['6-10', '11-15', '16-20', 'More than 20']).astype(int)
+    df_output['Printed_books_read_selected'] = df_input['Number of printed books you read last two years'].isin(['6-10', '11-15', '16-20', 'More than 20']).astype(int)
+    df_output['Frequency_reading_selected'] = df_input['Frequency of reading books'].isin(['On everyday basis', 'A few times a week']).astype(int)
+    df_output['Change_after_reading_selected'] = df_input['What is the change that you fell after reading books'].isin(['Increase Academic Performance', 'Increase Creative Thinking']).astype(int)
+    df_output['Manage_books_selected'] = df_input['How to manage books for reading'].isin(['Borrow', 'Used-all']).astype(int)
+    df_output['Format_used_Both'] = (df_input['The format that you used for reading books'] == 'Both').astype(int)
+    df_output['Favorite_books_selected'] = df_input['Favorite books for reading to spend leisure time'].isin(['Non-Fiction', 'Others']).astype(int)
+    return df_output
+
+---VERSION---
+
+def extracting_features_0(df_input):
+    df_output = pd.DataFrame()
+    df_output['Reason_reading_books'] = df_input['Reason for reading books'].isin(['Entertainment Purpose', 'To increase my English vocabulary knowledge']).astype(int)
+    df_output['Frequency_reading_books'] = df_input['Frequency of reading books'].isin(['A few times a week', 'Once a week', 'Rarely']).astype(int)
+    df_output['Time_spent_reading_less_1'] = (df_input['Amount of time spent reading books per day'] < 1).astype(int)
+    df_output['Num_ebooks_last_two_years'] = df_input['Number of e-books you read last two years'].isin(['1-5', float('nan')]).astype(int)
+    df_output['Num_printed_books_last_two_years'] = df_input['Number of printed books you read last two years'].isin(['1-5', float('nan')]).astype(int)
+    df_output['Favorite_books_leisure'] = df_input['Favorite books for reading to spend leisure time'].isin(['Fiction', 'Biography', 'Politics']).astype(int)
+    df_output['Department_selected'] = df_input['Department'].isin(['BBA', 'English', 'JMC', 'Others']).astype(int)
+    df_output['Change_not_increase_academic'] = (df_input['What is the change that you fell after reading books'] != 'Increase Academic Performance').astype(int)
+    freq_low = df_input['Frequency of reading books'].isin(['A few times a week', 'Once a week', 'Rarely'])
+    df_output['Format_used_low_freq'] = (df_input['The format that you used for reading books'].isin(['Others', 'Printed']) & freq_low).astype(int)
+    df_output['Influenced_by_friends_family_low_freq'] = (df_input['Who influenced you to read books'].isin(['Friends', 'Family']) & freq_low).astype(int)
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):
+    df_output = pd.DataFrame()
+    df_output['Reason_Academic_Purpose'] = (df_input['Reason for reading books'] == 'Academic Purpose').astype(int)
+    df_output['Frequency_On_everyday_basis_or_Almost_every_day'] = df_input['Frequency of reading books'].isin(['On everyday basis', 'Almost every day']).astype(int)
+    df_output['Amount_time_reading_per_day_ge_1'] = (df_input['Amount of time spent reading books per day'] >= 1).astype(int)
+    df_output['Num_ebooks_6_10_11_15_16_20_More_than_20'] = df_input['Number of e-books you read last two years'].isin(['6-10', '11-15', '16-20', 'More than 20']).astype(int)
+    df_output['Num_printed_books_6_10_11_15_16_20_More_than_20'] = df_input['Number of printed books you read last two years'].isin(['6-10', '11-15', '16-20', 'More than 20']).astype(int)
+    df_output['Department_in_selected'] = df_input['Department'].isin(['CSE', 'Pharmacy', 'EEE', 'SWE', 'CIS', 'Civil', 'Textile']).astype(int)
+    df_output['Change_Increase_Academic_Performance'] = (df_input['What is the change that you fell after reading books'] == 'Increase Academic Performance').astype(int)
+    df_output['Format_Both_or_Ebooks'] = df_input['The format that you used for reading books'].isin(['Both', 'E-books']).astype(int)
+    df_output['Influenced_Self_or_Academic_Mentor'] = df_input['Who influenced you to read books'].isin(['Self-Decision', 'Academic Mentor']).astype(int)
+    cond_amount_freq = ((df_input['Amount of time spent reading books per day'] >= 1) & 
+                        (df_input['Amount of time spent reading books per day'] <= 5) & 
+                        (df_input['Frequency of reading books'] == 'On everyday basis'))
+    df_output['Amount_1_5_and_Freq_On_everyday_basis'] = cond_amount_freq.astype(int)
+    return df_output
+
+---VERSION---
+
+
+
+---VERSION---
+

@@ -1,0 +1,129 @@
+def extracting_features_0(df_input):  
+    df_output = pd.DataFrame()  
+    df_output['SpType_in_list'] = df_input['SpType'].isin(['G1V', 'F3V', 'A5V', 'A1V', 'G8V', 'B5V', 'B2IV-V', 'G6IV:']).astype(int)  
+    df_output['SpType_contains_V_not_III_IV'] = df_input['SpType'].apply(lambda x: int(('V' in x) and ('III' not in x) and ('IV' not in x)))  
+    df_output['Amag_gt_15'] = (df_input['Amag'] > 15).astype(int)  
+    df_output['Amag_in_16_20'] = df_input['Amag'].between(16, 20).astype(int)  
+    df_output['Plx_gt_4'] = (df_input['Plx'] > 4).astype(int)  
+    df_output['Vmag_lt_9'] = (df_input['Vmag'] < 9).astype(int)  
+    df_output['B-V_in_-0.2_0.5'] = df_input['B-V'].between(-0.2, 0.5).astype(int)  
+    df_output['e_Plx_lt_1.5'] = (df_input['e_Plx'] < 1.5).astype(int)  
+    df_output['Plx_in_4_13'] = df_input['Plx'].between(4, 13).astype(int)  
+    df_output['B-V_lt_1.0'] = (df_input['B-V'] < 1.0).astype(int)  
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):
+    df_output = pd.DataFrame()
+    df_output['SpType_in_list'] = df_input['SpType'].isin(['K0/K1III:', 'K0III', 'K1III', 'B2III', 'G8/K0III', 'G8III', 'F3III']).astype(int)
+    df_output['SpType_contains_III'] = df_input['SpType'].str.contains('III', na=False).astype(int)
+    df_output['Amag_less_16'] = (df_input['Amag'] < 16).astype(int)
+    df_output['Amag_in_12_16'] = df_input['Amag'].between(12, 16).astype(int)
+    df_output['Plx_less_4'] = (df_input['Plx'] < 4).astype(int)
+    df_output['B_V_greater_0_9'] = (df_input['B-V'] > 0.9).astype(int)
+    df_output['Vmag_greater_7'] = (df_input['Vmag'] > 7).astype(int)
+    df_output['e_Plx_less_1_5'] = (df_input['e_Plx'] < 1.5).astype(int)
+    df_output['Plx_in_0_5_3_9'] = df_input['Plx'].between(0.5, 3.9).astype(int)
+    df_output['B_V_in_0_9_1_4'] = df_input['B-V'].between(0.9, 1.4).astype(int)
+    return df_output
+
+---VERSION---
+
+
+
+---VERSION---
+
+def extracting_features_0(df_input):
+    df_output = pd.DataFrame()
+    df_output['SpType_endswith_V'] = df_input['SpType'].str.endswith('V').astype(int)
+    df_output['Amag_ge_16'] = (df_input['Amag'] >= 16).astype(int)
+    df_output['B_V_in_range'] = ((df_input['B-V'] >= -0.2) & (df_input['B-V'] <= 0.7)).astype(int)
+    df_output['Plx_ge_4'] = (df_input['Plx'] >= 4).astype(int)
+    df_output['Vmag_ge_6_5'] = (df_input['Vmag'] >= 6.5).astype(int)
+    df_output['e_Plx_le_1_1'] = (df_input['e_Plx'] <= 1.1).astype(int)
+    df_output['SpType_no_III_IV'] = (~df_input['SpType'].str.contains('III|IV')).astype(int)
+    df_output['Amag_in_16_19'] = ((df_input['Amag'] >= 16) & (df_input['Amag'] <= 19)).astype(int)
+    df_output['B_V_lt_1_0'] = (df_input['B-V'] < 1.0).astype(int)
+    df_output['Plx_in_4_13'] = ((df_input['Plx'] >= 4) & (df_input['Plx'] <= 13)).astype(int)
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):
+    df_output = pd.DataFrame()
+    df_output['SpType_in_list'] = df_input['SpType'].str.contains('III|III:|III/IV|IV', regex=True).astype(int)
+    df_output['Amag_lt_16'] = (df_input['Amag'] < 16).astype(int)
+    df_output['B-V_ge_0.9'] = (df_input['B-V'] >= 0.9).astype(int)
+    df_output['Plx_le_4'] = (df_input['Plx'] <= 4).astype(int)
+    df_output['Vmag_le_9.5'] = (df_input['Vmag'] <= 9.5).astype(int)
+    df_output['e_Plx_ge_0.8'] = (df_input['e_Plx'] >= 0.8).astype(int)
+    df_output['SpType_contains_III_IV'] = df_input['SpType'].str.contains('III|IV', regex=True).astype(int)
+    df_output['Amag_in_range'] = ((df_input['Amag'] >= 12) & (df_input['Amag'] <= 16)).astype(int)
+    df_output['B-V_in_range'] = ((df_input['B-V'] >= 0.9) & (df_input['B-V'] <= 1.4)).astype(int)
+    df_output['Plx_in_range'] = ((df_input['Plx'] >= 0.5) & (df_input['Plx'] <= 4)).astype(int)
+    return df_output
+
+---VERSION---
+
+def extracting_features_0(df_input):  
+    df_output = pd.DataFrame()  
+    df_output['SpType_in_list'] = df_input['SpType'].isin(['G1V', 'F3V', 'B8V', 'K5V', 'A1V', 'A5V', 'B5V', 'G8V', 'B2IV-V', 'F0IV']).astype(int)  
+    df_output['SpType_endswith_V'] = df_input['SpType'].str.endswith('V').astype(int)  
+    df_output['Amag_ge_16'] = (df_input['Amag'] >= 16).astype(int)  
+    df_output['B-V_lt_0.5'] = (df_input['B-V'] < 0.5).astype(int)  
+    df_output['Plx_gt_3.5'] = (df_input['Plx'] > 3.5).astype(int)  
+    df_output['Vmag_gt_6.5'] = (df_input['Vmag'] > 6.5).astype(int)  
+    df_output['e_Plx_le_1.5'] = (df_input['e_Plx'] <= 1.5).astype(int)  
+    df_output['B-V_in_range'] = ((df_input['B-V'] >= -0.2) & (df_input['B-V'] <= 0.5)).astype(int)  
+    df_output['Plx_in_range'] = ((df_input['Plx'] >= 4) & (df_input['Plx'] <= 13)).astype(int)  
+    df_output['Amag_in_range'] = ((df_input['Amag'] >= 14.7) & (df_input['Amag'] <= 18.7)).astype(int)  
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):  
+    df_output = pd.DataFrame()  
+    df_output['SpType_in_list'] = df_input['SpType'].isin(['K1III', 'K0/K1III', 'G8/K0III', 'G8III', 'K0III', 'B2III', 'F3III']).astype(int)  
+    df_output['SpType_contains_III'] = df_input['SpType'].str.contains('III', na=False).astype(int)  
+    df_output['Amag_lt_16'] = (df_input['Amag'] < 16).astype(int)  
+    df_output['B-V_gt_0.9'] = (df_input['B-V'] > 0.9).astype(int)  
+    df_output['Plx_le_3.9'] = (df_input['Plx'] <= 3.9).astype(int)  
+    df_output['Vmag_lt_8.0'] = (df_input['Vmag'] < 8.0).astype(int)  
+    df_output['e_Plx_gt_0.8'] = (df_input['e_Plx'] > 0.8).astype(int)  
+    df_output['B-V_in_range'] = ((df_input['B-V'] >= 0.9) & (df_input['B-V'] <= 1.4)).astype(int)  
+    df_output['Plx_in_range'] = ((df_input['Plx'] >= 0.5) & (df_input['Plx'] <= 3.9)).astype(int)  
+    df_output['Amag_in_range'] = ((df_input['Amag'] >= 12.6) & (df_input['Amag'] <= 16.7)).astype(int)  
+    return df_output
+
+---VERSION---
+
+def extracting_features_0(df_input):
+    df_output = pd.DataFrame()
+    df_output['SpType_in_list'] = df_input['SpType'].isin(['G1V', 'F3V', 'B8V', 'B9V', 'A1V', 'A5V', 'G3V', 'G8V', 'F0IV', 'B5V', 'B2IV-V']).astype(int)
+    df_output['Amag_gt_16'] = (df_input['Amag'] > 16).astype(int)
+    df_output['Vmag_gt_7_5'] = (df_input['Vmag'] > 7.5).astype(int)
+    df_output['Plx_ge_4'] = (df_input['Plx'] >= 4).astype(int)
+    df_output['B_V_lt_0_5'] = (df_input['B-V'] < 0.5).astype(int)
+    df_output['e_Plx_gt_1_0'] = (df_input['e_Plx'] > 1.0).astype(int)
+    df_output['Amag_in_16_20'] = ((df_input['Amag'] >= 16) & (df_input['Amag'] <= 20)).astype(int)
+    df_output['Vmag_6_10_and_SpType_ends_V'] = ((df_input['Vmag'] >= 6) & (df_input['Vmag'] <= 10) & df_input['SpType'].str.endswith('V')).astype(int)
+    df_output['Plx_gt_5_and_Amag_gt_15'] = ((df_input['Plx'] > 5) & (df_input['Amag'] > 15)).astype(int)
+    df_output['B_V_lt_0_7_and_SpType_ends_V'] = ((df_input['B-V'] < 0.7) & df_input['SpType'].str.endswith('V')).astype(int)
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):
+    df_output = pd.DataFrame()
+    df_output['SpType_in_list'] = df_input['SpType'].isin(['F3III', 'B2III', 'K0III', 'K1III', 'K0/K1III', 'G8III', 'G8/K0III']).astype(int)
+    df_output['Amag_lt_16'] = (df_input['Amag'] < 16).astype(int)
+    df_output['Vmag_lt_8'] = (df_input['Vmag'] < 8).astype(int)
+    df_output['Plx_lt_4'] = (df_input['Plx'] < 4).astype(int)
+    df_output['B_V_ge_0_9'] = (df_input['B-V'] >= 0.9).astype(int)
+    df_output['Amag_in_12_16'] = ((df_input['Amag'] >= 12) & (df_input['Amag'] <= 16)).astype(int)
+    df_output['Vmag_lt_8_and_SpType_contains_III'] = ((df_input['Vmag'] < 8) & (df_input['SpType'].str.contains('III'))).astype(int)
+    df_output['Plx_ge_1_le_4_and_SpType_contains_III'] = ((df_input['Plx'] >= 1) & (df_input['Plx'] <= 4) & (df_input['SpType'].str.contains('III'))).astype(int)
+    df_output['B_V_ge_1_and_SpType_contains_III'] = ((df_input['B-V'] >= 1.0) & (df_input['SpType'].str.contains('III'))).astype(int)
+    df_output['Amag_lt_15_and_B_V_ge_0_9'] = ((df_input['Amag'] < 15) & (df_input['B-V'] >= 0.9)).astype(int)
+    return df_output

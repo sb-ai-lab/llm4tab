@@ -8,6 +8,15 @@ from gen_tables.utils_gen import (
     filter_df,
     get_table_shots,
     get_table_serializations,
+    get_table_zero_shot_by_dataset,
+    get_table_zero_shot_vs_tabpfn,
+    get_table_context_configs,
+    get_table_models_vs_shots,
+    get_table_delta_context_vs_nocontext,
+    get_table_synthetic_models_shots,
+    get_table_icl_combinations,
+    get_table_new_datasets_zero_shot,
+    get_table_shots_vs_models_new_datasets
 )
 
 script_dir = Path(__file__).parent
@@ -24,7 +33,7 @@ df = pd.read_csv(
 )
 
 common_settings = {
-    'tables_path': 'results/latex_tables_3/',
+    'tables_path': 'table_gen_results/latex_tables/',
     'domain': 'healthcare',
     'shots': ['0', '4', '8', '16', '32', '64'],
     'models': ['qwen38b', 'qwen314b', 'gpt4omini', 'tabpfn', 'logreg', 'rf', 'gboost'],
@@ -88,6 +97,7 @@ def main():
                 }
             else:
                 raise ValueError(f"Invalid table_mode: {table_mode}")
+            
 
             config['domain'] = domain
             filtered_df = filter_df(df, config)
@@ -99,6 +109,80 @@ def main():
             elif config['table_types'] == 'serializations':
                 config['caption'] = f'{config.get('domain')} - {config.get('table_types')}'
                 latex_table = get_table_serializations(df_combined, config)
+
+            config_rq1 = {
+                'table_types': 'zero_shot_vs_tabpfn',
+                'domain': 'all',
+                'serialization': ['feat_val'],
+                'regimes': ['gen', 'nogen'],
+                'shots': ['0', '16'],
+                'models': ['gpt4omini', 'qwen317b', 'qwen38b', 'qwen314b', 'tabpfn'],
+                'metrics': ['roc_auc_mean', 'roc_auc_std'],
+                'tables_path': 'table_gen_results/latex_tables/',
+                'caption': 'Zero-shot LLMs vs TabPFN (16-shot) across all domains',
+                'label': 'tab:zero_shot_vs_tabpfn_all',
+            }
+            filtered_df = filter_df(df, config_rq1)
+            latex_table = get_table_zero_shot_vs_tabpfn(filtered_df, config_rq1)
+
+            config_rq2 = {
+                'tables_path': 'table_gen_results/latex_tables/',
+                'caption': 'Context configurations comparison across models (0-shot)',
+                'label': 'tab:context_configs',
+            }
+            latex_table = get_table_context_configs(config_rq2)
+
+            config_rq3 = {
+                'tables_path': 'table_gen_results/latex_tables/',
+                'caption': 'Models vs Shots on Classic Datasets (Cols-Context)',
+                'label': 'tab:models_vs_shots_classic',
+                'serialization': ['feat_val']
+            }
+            latex_table = get_table_models_vs_shots(config_rq3)
+
+            config_rq4 = {
+                'tables_path': 'table_gen_results/latex_tables/',
+                'caption': 'Delta (Cols-Context - NoCols-NoContext) across shots on Classic Datasets',
+                'label': 'tab:delta_context_vs_nocontext',
+            }
+            latex_table = get_table_delta_context_vs_nocontext(config_rq4)
+
+            config_rq5 = {
+                'tables_path': 'table_gen_results/latex_tables/',
+                'caption': 'Comparison of ROC-AUC between prompting regimes with 3 In-Context Learning Entities',
+                'label': 'tab:icl_combinations',
+            }
+            latex_table = get_table_icl_combinations(config_rq5)
+
+            config_rq6 = {
+                'tables_path': 'table_gen_results/latex_tables/',
+                'caption': 'Model performance on synthetic datasets across shots',
+                'label': 'tab:synthetic_models_shots',
+            }
+            latex_table = get_table_synthetic_models_shots(config_rq6)
+
+            config_rq0 = {
+                'tables_path': 'table_gen_results/latex_tables/',
+                'caption': 'Zero-shot performance by dataset (Classic datasets)',
+                'label': 'tab:zero_shot_by_dataset',
+            }
+            latex_table = get_table_zero_shot_by_dataset(config_rq0)
+
+            config_baselines_0shot = {
+                'tables_path': 'table_gen_results/latex_tables/',
+                'caption': 'Zero-shot performance on new datasets',
+                'label': 'tab:new_datasets_zero_shot',
+            }
+            latex_table = get_table_new_datasets_zero_shot(config_baselines_0shot)
+
+            config_baselines_fewshot = {
+                'tables_path': 'table_gen_results/latex_tables/',
+                'caption': 'Model performance across shots on New datasets',
+                'label': 'tab:shots_vs_models_new',
+            }
+            latex_table = get_table_shots_vs_models_new_datasets(config_baselines_fewshot)
+
+            
 
 
 if __name__ == "__main__":

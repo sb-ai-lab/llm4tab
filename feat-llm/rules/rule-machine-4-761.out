@@ -1,0 +1,198 @@
+Answer:  
+Step 1. The relationship between each feature and the task description:
+
+- Temperature: Higher temperatures in machines often indicate overheating, which can increase the risk of failure. So, higher temperature → higher risk.
+- Vibration: Excessive vibration usually signals mechanical issues or imbalance, increasing failure risk. Higher vibration → higher risk.
+- Power_Usage: Abnormal power usage (either too high or too low) may indicate malfunction or inefficiency. Higher power usage could indicate stress or failure risk.
+- Humidity: High humidity can cause corrosion or electrical issues, increasing failure risk. Higher humidity → higher risk.
+- Machine_Type: Different machine types may have different baseline tolerances or failure modes, affecting risk assessment.
+
+---
+
+Step 2. Based on the examples and Step 1, 10 different conditions per class:
+
+10 different conditions for class "0" (No risk of failure):  
+- Temperature <= 73  
+- Vibration < 50  
+- Power_Usage < 8  
+- Humidity <= 35  
+- Machine_Type is in [Mill]  
+- Machine_Type is in [Lathe] and Power_Usage < 8  
+- Temperature is within range [65, 73]  
+- Vibration is within range [40, 49]  
+- Humidity is within range [30, 38]  
+- Machine_Type is in [Drill] and Temperature < 70  
+
+10 different conditions for class "1" (At risk of failure):  
+- Temperature > 73  
+- Vibration >= 50  
+- Power_Usage >= 9  
+- Humidity > 35  
+- Machine_Type is in [Mill] and Vibration >= 50  
+- Machine_Type is in [Lathe] and Power_Usage >= 9  
+- Temperature is within range [74, 80]  
+- Vibration is within range [50, 60]  
+- Humidity is within range [36, 45]  
+- Machine_Type is in [Drill] and Temperature >= 72
+
+---DIVIDER---
+
+Answer:  
+Step 1. The relationship between each feature and the task description:
+
+- Temperature: Higher temperature can indicate overheating or stress, increasing failure risk.  
+- Vibration: Higher vibration levels often signal mechanical issues or wear, increasing failure risk.  
+- Power_Usage: Abnormally high power usage may indicate malfunction or inefficiency, increasing failure risk.  
+- Humidity: High humidity can cause corrosion or electrical faults, increasing failure risk.  
+- Machine_Type: Different machine types may have different baseline tolerances and failure modes; some types may be more prone to failure under certain conditions.
+
+---
+
+Step 2. Based on the above examples and Step 1's results, infer 10 different conditions per answer.
+
+10 different conditions for class "0":  
+- Temperature is within range of [65, 75]  
+- Vibration is within range of [40, 50]  
+- Power_Usage is less than 8  
+- Humidity is within range of [30, 40]  
+- Machine_Type is in [Lathe]  
+- Temperature is less than 70  
+- Vibration is less than 48  
+- Power_Usage is within range of [5, 7]  
+- Humidity is greater than or equal to 30  
+- Machine_Type is in [Mill]
+
+10 different conditions for class "1":  
+- Temperature is less than 60  
+- Vibration is greater than 50  
+- Power_Usage is greater than or equal to 9  
+- Humidity is less than 25  
+- Machine_Type is in [Mill]  
+- Temperature is less than 65  
+- Vibration is greater than or equal to 55  
+- Power_Usage is greater than 9.5  
+- Humidity is less than 30  
+- Machine_Type is in [Lathe]
+
+---DIVIDER---
+
+Answer:  
+Step 1. The relationship between each feature and the task description:  
+
+- Temperature: Higher operating temperatures often indicate overheating or stress on the machine, which increases the risk of failure.  
+- Vibration: Elevated vibration levels usually signal mechanical issues or imbalance, increasing failure risk.  
+- Power_Usage: Sudden increases or unusually high power consumption can indicate inefficiency or malfunction, raising failure risk.  
+- Humidity: High humidity might cause corrosion or electrical issues, increasing failure risk, but very low humidity could also indicate abnormal environment.  
+- Machine_Type: Different machine types may have different baseline tolerances and failure modes; some might be more prone to failure under certain conditions.
+
+---
+
+Step 2. Based on the above examples and Step 1's results, infer 10 different conditions per answer.
+
+10 different conditions for class "0" (Not at risk):  
+- Temperature < 70  
+- Vibration < 45  
+- Power_Usage < 6  
+- Humidity > 30  
+- Machine_Type is in [Lathe] and Temperature < 70  
+- Machine_Type is in [Mill] and Vibration < 50  
+- Temperature is within range of [65, 70] and Power_Usage < 7  
+- Humidity is within range of [30, 40] and Vibration < 45  
+- Power_Usage is within range of [4, 6] and Temperature < 70  
+- Machine_Type is in [Lathe] and Humidity > 35 and Vibration < 45  
+
+10 different conditions for class "1" (At risk):  
+- Temperature >= 74  
+- Vibration >= 48  
+- Power_Usage >= 9.5  
+- Humidity < 25  
+- Machine_Type is in [Mill] and Vibration >= 50  
+- Machine_Type is in [Lathe] and Temperature >= 74  
+- Temperature is within range of [73, 80] and Power_Usage >= 9  
+- Vibration is within range of [48, 60] and Humidity < 30  
+- Power_Usage is within range of [9, 11] and Temperature >= 74  
+- Machine_Type is in [Mill] and Humidity < 25 and Vibration >= 50
+
+---DIVIDER---
+
+Answer:  
+Step 1. The relationship between each feature and the task description:  
+
+- Temperature: Higher temperature may indicate overheating, increasing the risk of failure.  
+- Vibration: Higher vibration levels often signal mechanical issues, raising failure risk.  
+- Power_Usage: Sudden or sustained high power usage can indicate stress or malfunction, increasing failure risk.  
+- Humidity: High humidity may cause corrosion or electrical issues, increasing failure risk. Low humidity is less likely to cause failure.  
+- Machine_Type: Different machine types may have different baseline thresholds for risk; some machines might be more prone to failure under certain conditions.
+
+---
+
+Step 2. Based on the above examples and Step 1's results, infer 10 different conditions per answer class:
+
+10 different conditions for class "0" (No risk of failure):  
+- Temperature < 70  
+- Vibration < 45  
+- Power_Usage < 6  
+- Humidity >= 30  
+- Temperature is within range [68, 72]  
+- Vibration is within range [40, 45]  
+- Power_Usage is within range [4, 6]  
+- Machine_Type is in [Lathe, Mill]  
+- Humidity is within range [30, 40]  
+- Temperature <= 73 and Vibration < 50  
+
+10 different conditions for class "1" (At risk of failure):  
+- Temperature >= 74  
+- Vibration >= 48  
+- Power_Usage >= 9.5  
+- Humidity < 25  
+- Temperature is within range [74, 80]  
+- Vibration is within range [48, 60]  
+- Power_Usage is within range [9.5, 11]  
+- Machine_Type is in [Lathe, Mill]  
+- Humidity is within range [20, 25]  
+- Temperature >= 74 and Vibration >= 48 and Power_Usage >= 9.5  
+
+---
+
+These conditions are consistent with the examples:  
+- Example 1 & 2 (class 0) have lower temperature, vibration, and power usage.  
+- Example 3 & 4 (class 1) have higher temperature, vibration, and power usage with lower humidity.
+
+---DIVIDER---
+
+Answer:  
+Step 1. The relationship between each feature and the task description:  
+
+- Temperature: Higher temperatures may indicate overheating, which increases the risk of machine failure.  
+- Vibration: Higher vibration levels typically signal mechanical issues or wear, increasing failure risk.  
+- Power_Usage: Abnormal power consumption (either too high or too low) could indicate malfunction or inefficiency, raising failure risk.  
+- Humidity: High humidity may cause corrosion or electrical issues, increasing failure risk; very low humidity could also affect machine components.  
+- Machine_Type: Different machine types may have different typical operating ranges and risk profiles; some machines might be more prone to failure under certain conditions.  
+
+Step 2. Based on the above and the examples, infer 10 conditions per class:
+
+10 different conditions for class "0":  
+- Temperature < 70  
+- Vibration < 45  
+- Power_Usage < 8  
+- Humidity is within range of [30, 40]  
+- Machine_Type is in [Lathe] and Temperature < 70  
+- Machine_Type is in [Mill] and Vibration < 50  
+- Temperature is within range of [68, 72]  
+- Power_Usage is within range of [5, 8]  
+- Humidity > 30  
+- Vibration is within range of [40, 45]  
+
+10 different conditions for class "1":  
+- Temperature >= 74  
+- Vibration >= 48  
+- Power_Usage >= 9.5  
+- Humidity < 25  
+- Machine_Type is in [Mill] and Vibration > 50  
+- Machine_Type is in [Lathe] and Power_Usage > 9  
+- Temperature is within range of [73, 75]  
+- Vibration is within range of [48, 56]  
+- Power_Usage is within range of [9.5, 11]  
+- Humidity <= 25  
+
+These conditions align with the examples and the intuitive understanding of risk factors for machine failure.
