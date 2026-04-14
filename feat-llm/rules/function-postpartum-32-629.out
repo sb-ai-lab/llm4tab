@@ -1,0 +1,110 @@
+def extracting_features_0(df_input):
+    df_output = pd.DataFrame()
+    df_output['Need for Support is No'] = (df_input['Need for Support'] == 'No').astype(int)
+    df_output['Feeling about motherhood is Happy'] = (df_input['Feeling about motherhood'] == 'Happy').astype(int)
+    df_output['Angry after latest child birth is No'] = (df_input['Angry after latest child birth'] == 'No').astype(int)
+    df_output['Relax/sleep when newborn is tended is Yes'] = (df_input['Relax/sleep when newborn is tended'] == 'Yes').astype(int)
+    df_output['Major changes or losses during pregnancy is No'] = (df_input['Major changes or losses during pregnancy'] == 'No').astype(int)
+    df_output['Birth compliancy is No'] = (df_input['Birth compliancy'] == 'No').astype(int)
+    income_conditions = ['5000 to 10000', '10000 to 20000', '20000 to 30000', 'More than 30000']
+    df_output['Current monthly income in specified ranges'] = df_input['Current monthly income'].isin(income_conditions).astype(int)
+    df_output['Family type is Joint'] = (df_input['Family type'] == 'Joint').astype(int)
+    df_output['Breastfeed is Yes'] = (df_input['Breastfeed'] == 'Yes').astype(int)
+    cond_mode_delivery = df_input['Mode of delivery'].isin(['Normal Delivery', 'Caesarean Section'])
+    cond_need_support_low = (df_input['Need for Support'] == 'Low')
+    cond_angry_no = (df_input['Angry after latest child birth'] == 'No')
+    df_output['Mode of delivery in specified and Need for Support Low and Angry No'] = (cond_mode_delivery & cond_need_support_low & cond_angry_no).astype(int)
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):
+    df_output = pd.DataFrame()
+    df_output['Angry_after_latest_child_birth_Yes'] = (df_input['Angry after latest child birth'] == 'Yes').astype(int)
+    df_output['Need_for_Support_Medium_or_Low'] = df_input['Need for Support'].isin(['Medium', 'Low']).astype(int)
+    df_output['Relax_sleep_when_newborn_is_tended_No'] = (df_input['Relax/sleep when newborn is tended'] == 'No').astype(int)
+    df_output['Feeling_about_motherhood_Sad_or_Neutral'] = df_input['Feeling about motherhood'].isin(['Sad', 'Neutral']).astype(int)
+    df_output['Major_changes_or_losses_during_pregnancy_Yes'] = (df_input['Major changes or losses during pregnancy'] == 'Yes').astype(int)
+    df_output['Birth_compliancy_Yes'] = (df_input['Birth compliancy'] == 'Yes').astype(int)
+    df_output['Current_monthly_income_No'] = (df_input['Current monthly income'] == 'No').astype(int)
+    df_output['Family_type_Nuclear'] = (df_input['Family type'] == 'Nuclear').astype(int)
+    df_output['Breastfeed_No'] = (df_input['Breastfeed'] == 'No').astype(int)
+    cond_mode_delivery = (df_input['Mode of delivery'] == 'Caesarean Section')
+    cond_angry = (df_input['Angry after latest child birth'] == 'Yes')
+    cond_support = df_input['Need for Support'].isin(['Low', 'Medium'])
+    df_output['Mode_of_delivery_Caesarean_and_Angry_Yes_and_Support_Low_Medium'] = (cond_mode_delivery & cond_angry & cond_support).astype(int)
+    return df_output
+
+---VERSION---
+
+def extracting_features_0(df_input):
+    df_output = pd.DataFrame()
+    df_output['Feeling_for_regular_activities_in_list_AND_Angry_after_latest_child_birth_No'] = (
+        df_input['Feeling for regular activities'].isin(['No', 'Tired', 'Worried', 'Afraid']) &
+        (df_input['Angry after latest child birth'] == 'No')
+    ).astype(int)
+    df_output['Newborn_illness_No'] = (df_input['Newborn illness'] == 'No').astype(int)
+    df_output['Relationship_with_newborn_Good'] = (df_input['Relationship with the newborn'] == 'Good').astype(int)
+    df_output['Relationship_father_newborn_Good'] = (df_input['Relationship between father and newborn'] == 'Good').astype(int)
+    df_output['Current_monthly_income_in_list'] = df_input['Current monthly income'].isin(['No', '5000 to 10000', '20000 to 30000']).astype(int)
+    df_output['Number_of_household_members_in_list'] = df_input['Number of household members'].isin(['2 to 5', '6 to 8']).astype(int)
+    df_output['Age_in_range_19_36'] = ((df_input['Age'] >= 19) & (df_input['Age'] <= 36)).astype(int)
+    df_output['Occupation_after_latest_childbirth_in_list'] = df_input['Occupation After Your Latest Childbirth'].isin(['Housewife', 'Business', 'Service']).astype(int)
+    df_output['Number_of_latest_pregnancy_ge_1'] = (df_input['Number of the latest pregnancy'] >= 1).astype(int)
+    df_output['Feeling_for_regular_activities_No_AND_Angry_after_latest_child_birth_No'] = (
+        (df_input['Feeling for regular activities'] == 'No') &
+        (df_input['Angry after latest child birth'] == 'No')
+    ).astype(int)
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):
+    df_output = pd.DataFrame()
+    df_output['Angry_after_latest_child_birth_Yes'] = (df_input['Angry after latest child birth'] == 'Yes').astype(int)
+    df_output['Feeling_for_regular_activities_in_list'] = df_input['Feeling for regular activities'].isin(['No', 'Worried', 'Tired', 'Afraid']).astype(int)
+    df_output['Current_monthly_income_No'] = (df_input['Current monthly income'] == 'No').astype(int)
+    df_output['Number_of_household_members_in_range'] = df_input['Number of household members'].isin(['2 to 5', '6 to 8']).astype(int)
+    df_output['Relationship_with_newborn_Good'] = (df_input['Relationship with the newborn'] == 'Good').astype(int)
+    df_output['Relationship_between_father_and_newborn_in_list'] = df_input['Relationship between father and newborn'].isin(['Good', 'Neutral']).astype(int)
+    df_output['Occupation_After_Your_Latest_Childbirth_Housewife'] = (df_input['Occupation After Your Latest Childbirth'] == 'Housewife').astype(int)
+    df_output['Number_of_the_latest_pregnancy_in_range'] = df_input['Number of the latest pregnancy'].between(1,3).astype(int)
+    df_output['Age_in_range'] = df_input['Age'].between(18,30).astype(int)
+    df_output['Newborn_illness_in_list'] = df_input['Newborn illness'].isin(['No', 'Yes']).astype(int)
+    return df_output
+
+---VERSION---
+
+
+
+---VERSION---
+
+def extracting_features_0(df_input):
+    df_output = pd.DataFrame()
+    df_output['Breastfeed'] = df_input['Breastfeed'].apply(lambda x: 1 if x == 'Yes' else 0)
+    df_output['Relax/sleep when newborn is tended'] = df_input['Relax/sleep when newborn is tended'].apply(lambda x: 1 if x == 'Yes' else 0)
+    df_output['Trust and share feelings'] = df_input['Trust and share feelings'].apply(lambda x: 1 if x in ['No', 'Yes'] else 0)
+    df_output['Need for Support'] = df_input['Need for Support'].apply(lambda x: 1 if x in ['No', 'Low'] else 0)
+    df_output['Regular checkups'] = df_input['Regular checkups'].apply(lambda x: 1 if x == 'Yes' else 0)
+    df_output['Marital status'] = df_input['Marital status'].apply(lambda x: 1 if x == 'Married' else 0)
+    df_output['Mode of delivery'] = df_input['Mode of delivery'].apply(lambda x: 1 if x in ['Caesarean Section', 'Normal Delivery'] else 0)
+    df_output['Age of newborn'] = df_input['Age of newborn'].apply(lambda x: 1 if x in ['0 to 6 months', '6 months to 1 year', 'Older than 1.5 year'] else 0)
+    df_output['Number of the latest pregnancy'] = df_input['Number of the latest pregnancy'].apply(lambda x: 1 if x >= 1 else 0)
+    df_output['Residence'] = df_input['Residence'].apply(lambda x: 1 if x in ['City', 'Village'] else 0)
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):
+    df_output = pd.DataFrame()
+    df_output['Need for Support_Medium_Low'] = df_input['Need for Support'].isin(['Medium', 'Low']).astype(int)
+    df_output['Relax/sleep when newborn is tended_No'] = (df_input['Relax/sleep when newborn is tended'] == 'No').astype(int)
+    df_output['Trust and share feelings_No_Yes'] = df_input['Trust and share feelings'].isin(['No', 'Yes']).astype(int)
+    df_output['Breastfeed_Yes_No'] = df_input['Breastfeed'].isin(['Yes', 'No']).astype(int)
+    df_output['Mode of delivery_Caesarean_Normal'] = df_input['Mode of delivery'].isin(['Caesarean Section', 'Normal Delivery']).astype(int)
+    df_output['Age of newborn_0_to_6m_6m_to_1y_1y_to_1.5y'] = df_input['Age of newborn'].isin(['0 to 6 months', '6 months to 1 year', '1 year to 1.5 year']).astype(int)
+    df_output['Marital status_Married'] = (df_input['Marital status'] == 'Married').astype(int)
+    df_output['Number of the latest pregnancy_>=1'] = (df_input['Number of the latest pregnancy'] >= 1).astype(int)
+    df_output['Residence_City_Village'] = df_input['Residence'].isin(['City', 'Village']).astype(int)
+    df_output['Regular checkups_Yes'] = (df_input['Regular checkups'] == 'Yes').astype(int)
+    return df_output

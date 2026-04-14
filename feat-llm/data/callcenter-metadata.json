@@ -1,0 +1,15 @@
+{
+    "Gender": "gender of the call center client",
+    "Age": "age group of the client",
+    "Education": "highest education level achieved by the client",
+    "Nationality": "nationality of the client",
+    "Marital_Status": "marital status of the client",
+    "Governorate": "governorate or administrative region where the client resides",
+    "Aware_151": "whether the client is aware of service 151",
+    "Call_151": "whether the client has called service 151",
+    "The_reason_of_the_call": "primary reason for the client's call to the call center",
+    "Call_center_employee_communication_skills_evaluation": "client's rating of the call center employee's communication skills",
+    "Satisfaction_with_the_doctors_response": "client's satisfaction level with the doctor's response",
+    "How_often_do_you_receive_call_center_news": "frequency with which the client receives call center news updates",
+    "target": "satisfaction target variable (0 - dissatisfied, 1 - satisfied)"
+}

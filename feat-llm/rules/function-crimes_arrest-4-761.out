@@ -1,0 +1,186 @@
+def extracting_features_0(df_input):
+    df_output = pd.DataFrame()
+    df_output['Primary Type'] = df_input['Primary Type'].isin(['MOTOR VEHICLE THEFT', 'THEFT', 'CRIMINAL DAMAGE', 'BURGLARY', 'NARCOTICS']).astype(int)
+    df_output['Description'] = df_input['Description'].isin(['THEFT / RECOVERY - AUTOMOBILE', 'TO PROPERTY', 'SIMPLE THEFT']).astype(int)
+    df_output['Location Description'] = df_input['Location Description'].isin(['ALLEY', 'RESIDENCE', 'APARTMENT', 'PARKING LOT', 'GAS STATION']).astype(int)
+    df_output['Domestic'] = (df_input['Domestic'] == 0).astype(int)
+    df_output['FBI Code'] = df_input['FBI Code'].isin(['07', '14', '06']).astype(int)
+    df_output['Beat'] = ((df_input['Beat'] >= 900) & (df_input['Beat'] <= 1100)).astype(int)
+    df_output['District'] = ((df_input['District'] >= 8) & (df_input['District'] <= 11)).astype(int)
+    df_output['Ward'] = ((df_input['Ward'] >= 15) & (df_input['Ward'] <= 25)).astype(int)
+    df_output['Community Area'] = ((df_input['Community Area'] >= 20) & (df_input['Community Area'] <= 40)).astype(int)
+    date_parsed = pd.to_datetime(df_input['Date'], format='%m/%d/%Y %I:%M:%S %p', errors='coerce')
+    date_condition = (date_parsed >= pd.to_datetime('01/01/2025 12:00:00 AM')) & (date_parsed <= pd.to_datetime('01/30/2025 11:59:59 PM'))
+    time_condition = (date_parsed.dt.hour >= 6) & (date_parsed.dt.hour < 18)
+    df_output['Date'] = (date_condition & time_condition).astype(int)
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):
+    import pandas as pd
+    df_output = pd.DataFrame()
+    df_output['Primary Type'] = df_input['Primary Type'].isin(['BATTERY', 'NARCOTICS', 'ASSAULT', 'ROBBERY', 'SEX OFFENSE']).astype(int)
+    df_output['Description'] = df_input['Description'].isin(['SIMPLE', 'POSSESS - PCP', 'AGGRAVATED P.O. - HANDS, FISTS, FEET, SERIOUS INJURY']).astype(int)
+    df_output['Location Description'] = df_input['Location Description'].isin(['STREET', 'CTA BUS STOP', 'SIDEWALK', 'PARK']).astype(int)
+    violent_crimes = ['BATTERY', 'ASSAULT', 'ROBBERY', 'SEX OFFENSE']
+    cond_domestic = (df_input['Domestic'] == 1) | ((df_input['Domestic'] == 0) & (df_input['Primary Type'].isin(violent_crimes)))
+    df_output['Domestic'] = cond_domestic.astype(int)
+    df_output['FBI Code'] = df_input['FBI Code'].isin(['08B', '18', '03']).astype(int)
+    df_output['Beat'] = ((df_input['Beat'] >= 1100) & (df_input['Beat'] <= 2000)).astype(int)
+    df_output['District'] = ((df_input['District'] >= 12) & (df_input['District'] <= 25)).astype(int)
+    df_output['Ward'] = ((df_input['Ward'] >= 30) & (df_input['Ward'] <= 50)).astype(int)
+    df_output['Community Area'] = ((df_input['Community Area'] >= 1) & (df_input['Community Area'] <= 20)).astype(int)
+    df_input['Date'] = pd.to_datetime(df_input['Date'], format='%m/%d/%Y %I:%M:%S %p', errors='coerce')
+    date_cond = (df_input['Date'] >= pd.to_datetime('01/01/2025 12:00:00 AM')) & (df_input['Date'] <= pd.to_datetime('01/30/2025 11:59:59 PM'))
+    time_cond = (df_input['Date'].dt.hour >= 18) | (df_input['Date'].dt.hour < 6)
+    df_output['Date'] = (date_cond & time_cond).astype(int)
+    return df_output
+
+---VERSION---
+
+def extracting_features_0(df_input):  
+    df_output = pd.DataFrame()  
+    df_output['Primary Type'] = df_input['Primary Type'].isin(['MOTOR VEHICLE THEFT', 'THEFT', 'CRIMINAL DAMAGE', 'BURGLARY']).astype(int)  
+    df_output['Description'] = df_input['Description'].isin(['THEFT / RECOVERY - AUTOMOBILE', 'TO PROPERTY', 'OVER $500']).astype(int)  
+    df_output['Location Description'] = df_input['Location Description'].isin(['ALLEY', 'RESIDENCE', 'APARTMENT']).astype(int)  
+    df_output['Domestic'] = (df_input['Domestic'] == 0).astype(int)  
+    df_output['FBI Code'] = df_input['FBI Code'].isin(['07', '14', '06']).astype(int)  
+    df_output['Beat'] = ((df_input['Beat'] >= 900) & (df_input['Beat'] <= 950)).astype(int)  
+    df_output['District'] = df_input['District'].isin([9, 10]).astype(int)  
+    df_output['Ward'] = ((df_input['Ward'] >= 20) & (df_input['Ward'] <= 25)).astype(int)  
+    df_output['Community Area'] = ((df_input['Community Area'] >= 30) & (df_input['Community Area'] <= 40)).astype(int)  
+    date_parsed = pd.to_datetime(df_input['Date'], format='%m/%d/%Y %I:%M:%S %p', errors='coerce')  
+    start_date = pd.to_datetime('01/01/2025 12:00:00 AM', format='%m/%d/%Y %I:%M:%S %p')  
+    end_date = pd.to_datetime('01/31/2025 11:59:59 PM', format='%m/%d/%Y %I:%M:%S %p')  
+    df_output['Date'] = ((date_parsed >= start_date) & (date_parsed <= end_date)).astype(int)  
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):
+    df_output = pd.DataFrame()
+    df_output['Primary Type'] = df_input['Primary Type'].isin(['NARCOTICS', 'BATTERY', 'ASSAULT', 'WEAPONS VIOLATION']).astype(int)
+    df_output['Description'] = df_input['Description'].isin(['SIMPLE', 'POSSESS - PCP', 'AGGRAVATED P.O. - HANDS, FISTS, FEET, SERIOUS INJURY']).astype(int)
+    df_output['Location Description'] = df_input['Location Description'].isin(['STREET', 'CTA BUS STOP', 'SIDEWALK']).astype(int)
+    df_output['Domestic'] = df_input['Domestic'].apply(lambda x: 1 if x in [0,1] else 0)
+    df_output['FBI Code'] = df_input['FBI Code'].isin(['08B', '18', '15']).astype(int)
+    df_output['Beat'] = df_input['Beat'].apply(lambda x: 1 if (1100 <= x <= 1200) or (1900 <= x <= 2000) else 0)
+    df_output['District'] = df_input['District'].isin([11, 19]).astype(int)
+    df_output['Ward'] = df_input['Ward'].apply(lambda x: 1 if 40 <= x <= 45 else 0)
+    df_output['Community Area'] = df_input['Community Area'].apply(lambda x: 1 if 5 <= x <= 25 else 0)
+    df_input['Date_parsed'] = pd.to_datetime(df_input['Date'], format='%m/%d/%Y %I:%M:%S %p', errors='coerce')
+    df_output['Date'] = df_input['Date_parsed'].dt.hour.apply(lambda x: 1 if (18 <= x <= 23) else 0)
+    df_output = df_output.astype(int)
+    return df_output
+
+---VERSION---
+
+def extracting_features_0(df_input):
+    df_output = pd.DataFrame()
+    df_output['Primary Type in [THEFT, MOTOR VEHICLE THEFT, CRIMINAL DAMAGE]'] = df_input['Primary Type'].isin(['THEFT', 'MOTOR VEHICLE THEFT', 'CRIMINAL DAMAGE']).astype(int)
+    df_output['Description in [THEFT / RECOVERY - AUTOMOBILE, TO PROPERTY]'] = df_input['Description'].isin(['THEFT / RECOVERY - AUTOMOBILE', 'TO PROPERTY']).astype(int)
+    df_output['Location Description in [ALLEY, NURSING / RETIREMENT HOME, RESIDENCE]'] = df_input['Location Description'].isin(['ALLEY', 'NURSING / RETIREMENT HOME', 'RESIDENCE']).astype(int)
+    df_output['FBI Code in [07, 14]'] = df_input['FBI Code'].isin(['07', '14']).astype(int)
+    df_output['Domestic is 0'] = (df_input['Domestic'] == 0).astype(int)
+    df_output['Primary Type is THEFT and Description is OVER $500'] = ((df_input['Primary Type'] == 'THEFT') & (df_input['Description'] == 'OVER $500')).astype(int)
+    df_output['Beat in [900, 1100]'] = ((df_input['Beat'] >= 900) & (df_input['Beat'] <= 1100)).astype(int)
+    df_output['District in [8, 10]'] = ((df_input['District'] >= 8) & (df_input['District'] <= 10)).astype(int)
+    df_output['Ward in [20, 25]'] = ((df_input['Ward'] >= 20) & (df_input['Ward'] <= 25)).astype(int)
+    df_output['Community Area in [25, 40]'] = ((df_input['Community Area'] >= 25) & (df_input['Community Area'] <= 40)).astype(int)
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):  
+    df_output = pd.DataFrame()  
+    df_output['Primary Type in [BATTERY, NARCOTICS]'] = df_input['Primary Type'].isin(['BATTERY', 'NARCOTICS']).astype(int)  
+    df_output['Description in [SIMPLE, POSSESS - PCP]'] = df_input['Description'].isin(['SIMPLE', 'POSSESS - PCP']).astype(int)  
+    df_output['Location Description is STREET'] = (df_input['Location Description'] == 'STREET').astype(int)  
+    df_output['FBI Code in [08B, 18]'] = df_input['FBI Code'].isin(['08B', '18']).astype(int)  
+    df_output['Domestic is 0 or 1'] = df_input['Domestic'].isin([0,1]).astype(int)  
+    df_output['Primary Type BATTERY and Description SIMPLE'] = ((df_input['Primary Type'] == 'BATTERY') & (df_input['Description'] == 'SIMPLE')).astype(int)  
+    df_output['Beat in [1100, 2000]'] = ((df_input['Beat'] >= 1100) & (df_input['Beat'] <= 2000)).astype(int)  
+    df_output['District in [11, 20]'] = ((df_input['District'] >= 11) & (df_input['District'] <= 20)).astype(int)  
+    df_output['Ward in [40, 50]'] = ((df_input['Ward'] >= 40) & (df_input['Ward'] <= 50)).astype(int)  
+    df_output['Community Area in [5, 30]'] = ((df_input['Community Area'] >= 5) & (df_input['Community Area'] <= 30)).astype(int)  
+    return df_output
+
+---VERSION---
+
+def extracting_features_0(df_input):
+    df_output = pd.DataFrame()
+    df_output['Primary Type'] = df_input['Primary Type'].isin(['THEFT', 'MOTOR VEHICLE THEFT', 'CRIMINAL DAMAGE', 'BURGLARY', 'NARCOTICS']).astype(int)
+    df_output['Description'] = df_input['Description'].isin(['TO PROPERTY', 'OVER $500', 'UNDER $500', 'SIMPLE PROPERTY DAMAGE']).astype(int)
+    df_output['Location Description'] = df_input['Location Description'].isin(['ALLEY', 'STREET', 'RESIDENCE', 'APARTMENT']).astype(int)
+    df_output['Domestic'] = (df_input['Domestic'] == 0).astype(int)
+    df_output['FBI Code'] = df_input['FBI Code'].isin(['14', '07', '06', '23']).astype(int)
+    df_output['Beat'] = ((df_input['Beat'] >= 900) & (df_input['Beat'] <= 1100)).astype(int)
+    df_output['District'] = ((df_input['District'] >= 9) & (df_input['District'] <= 11)).astype(int)
+    df_output['Ward'] = ((df_input['Ward'] >= 20) & (df_input['Ward'] <= 30)).astype(int)
+    df_output['Community Area'] = ((df_input['Community Area'] >= 30) & (df_input['Community Area'] <= 40)).astype(int)
+    date_parsed = pd.to_datetime(df_input['Date'], format='%m/%d/%Y %I:%M:%S %p', errors='coerce')
+    date_condition = (date_parsed >= pd.to_datetime('01/01/2025 12:00:00 AM', format='%m/%d/%Y %I:%M:%S %p')) & \
+                     (date_parsed <= pd.to_datetime('01/31/2025 11:59:59 PM', format='%m/%d/%Y %I:%M:%S %p'))
+    time_condition = (date_parsed.dt.hour >= 6) & (date_parsed.dt.hour < 18)
+    df_output['Date'] = (date_condition & time_condition).astype(int)
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):
+    import pandas as pd
+    df_output = pd.DataFrame()
+    df_output['Primary Type'] = df_input['Primary Type'].isin(['BATTERY', 'NARCOTICS', 'ASSAULT', 'CRIM SEXUAL ASSAULT', 'ROBBERY']).astype(int)
+    df_output['Description'] = df_input['Description'].isin(['SIMPLE', 'AGGRAVATED', 'POSSESS - PCP', 'HANDGUN', 'AGGRAVATED P.O. - HANDS, FISTS, FEET, SERIOUS INJURY']).astype(int)
+    df_output['Location Description'] = df_input['Location Description'].isin(['STREET', 'RESIDENCE', 'APARTMENT', 'SIDEWALK', 'CTA BUS STOP']).astype(int)
+    df_output['Domestic'] = (df_input['Domestic'] == 1).astype(int)
+    df_output['FBI Code'] = df_input['FBI Code'].isin(['08B', '18', '03', '04']).astype(int)
+    df_output['Beat'] = ((df_input['Beat'] >= 1100) & (df_input['Beat'] <= 2000)).astype(int)
+    df_output['District'] = ((df_input['District'] >= 10) & (df_input['District'] <= 20)).astype(int)
+    df_output['Ward'] = ((df_input['Ward'] >= 40) & (df_input['Ward'] <= 50)).astype(int)
+    df_output['Community Area'] = ((df_input['Community Area'] >= 5) & (df_input['Community Area'] <= 15)).astype(int)
+    date_parsed = pd.to_datetime(df_input['Date'], format='%m/%d/%Y %I:%M:%S %p', errors='coerce')
+    date_condition = (date_parsed >= pd.to_datetime('01/01/2025 12:00:00 AM', format='%m/%d/%Y %I:%M:%S %p')) & (date_parsed <= pd.to_datetime('01/31/2025 11:59:59 PM', format='%m/%d/%Y %I:%M:%S %p'))
+    time_condition = ((date_parsed.dt.hour >= 18) | (date_parsed.dt.hour < 6))
+    df_output['Date'] = (date_condition & time_condition).astype(int)
+    return df_output
+
+---VERSION---
+
+def extracting_features_0(df_input):  
+    df_output = pd.DataFrame()  
+    df_output['Primary Type'] = df_input['Primary Type'].isin(['MOTOR VEHICLE THEFT', 'CRIMINAL DAMAGE', 'THEFT', 'BURGLARY']).astype(int)  
+    df_output['Description'] = df_input['Description'].isin(['THEFT / RECOVERY - AUTOMOBILE', 'TO PROPERTY', 'OVER $500']).astype(int)  
+    df_output['Location Description'] = df_input['Location Description'].isin(['ALLEY', 'RESIDENCE', 'APARTMENT']).astype(int)  
+    df_output['Domestic'] = (df_input['Domestic'] == 0).astype(int)  
+    df_output['FBI Code'] = df_input['FBI Code'].isin(['07', '14', '06']).astype(int)  
+    df_output['Beat'] = ((df_input['Beat'] >= 900) & (df_input['Beat'] <= 1100)).astype(int)  
+    df_output['District'] = ((df_input['District'] >= 8) & (df_input['District'] <= 12)).astype(int)  
+    df_output['Ward'] = ((df_input['Ward'] >= 15) & (df_input['Ward'] <= 25)).astype(int)  
+    df_output['Community Area'] = ((df_input['Community Area'] >= 20) & (df_input['Community Area'] <= 40)).astype(int)  
+    date_format = "%m/%d/%Y %I:%M:%S %p"  
+    date_start = pd.to_datetime("01/01/2025 12:00:00 AM", format=date_format)  
+    date_end = pd.to_datetime("01/20/2025 11:59:59 PM", format=date_format)  
+    dates = pd.to_datetime(df_input['Date'], format=date_format, errors='coerce')  
+    df_output['Date'] = ((dates >= date_start) & (dates <= date_end)).astype(int)  
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):
+    df_output = pd.DataFrame()
+    df_output['Primary Type'] = df_input['Primary Type'].isin(['NARCOTICS', 'BATTERY', 'ASSAULT', 'CRIMINAL SEXUAL ASSAULT']).astype(int)
+    df_output['Description'] = df_input['Description'].isin(['POSSESS - PCP', 'SIMPLE', 'AGGRAVATED P.O. - HANDS, FISTS, FEET, SERIOUS INJURY']).astype(int)
+    df_output['Location Description'] = df_input['Location Description'].isin(['STREET', 'SIDEWALK', 'CTA BUS STOP']).astype(int)
+    df_output['Domestic'] = df_input['Domestic'].isin([0,1]).astype(int)
+    df_output['FBI Code'] = df_input['FBI Code'].isin(['08B', '18', '04']).astype(int)
+    df_output['Beat'] = ((df_input['Beat'] >= 1100) & (df_input['Beat'] <= 2000)).astype(int)
+    df_output['District'] = ((df_input['District'] >= 10) & (df_input['District'] <= 20)).astype(int)
+    df_output['Ward'] = ((df_input['Ward'] >= 30) & (df_input['Ward'] <= 50)).astype(int)
+    df_output['Community Area'] = ((df_input['Community Area'] >= 5) & (df_input['Community Area'] <= 30)).astype(int)
+    date_parsed = pd.to_datetime(df_input['Date'], format='%m/%d/%Y %I:%M:%S %p', errors='coerce')
+    start_date = pd.to_datetime('01/21/2025 12:00:00 AM', format='%m/%d/%Y %I:%M:%S %p')
+    end_date = pd.to_datetime('01/30/2025 11:59:59 PM', format='%m/%d/%Y %I:%M:%S %p')
+    df_output['Date'] = ((date_parsed >= start_date) & (date_parsed <= end_date)).astype(int)
+    return df_output

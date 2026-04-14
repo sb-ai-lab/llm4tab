@@ -1,0 +1,129 @@
+def extracting_features_0(df_input):
+    df_output = pd.DataFrame()
+    df_output['Education Level'] = df_input['Education Level'].isin(['University', 'College', 'High School']).astype(int)
+    df_output['Marital status'] = df_input['Marital status'].isin(['Married']).astype(int)
+    df_output['Relationship with husband'] = df_input['Relationship with husband'].isin(['Good', 'Friendly']).astype(int)
+    df_output['Recieved Support'] = df_input['Recieved Support'].isin(['High', 'Medium']).astype(int)
+    df_output['Feeling about motherhood'] = df_input['Feeling about motherhood'].isin(['Happy']).astype(int)
+    df_output['Regular checkups'] = df_input['Regular checkups'].isin(['Yes']).astype(int)
+    df_output['Addiction'] = df_input['Addiction'].isin(['No']).astype(int)
+    df_output['Trust and share feelings'] = df_input['Trust and share feelings'].isin(['Yes']).astype(int)
+    df_output['Age'] = ((df_input['Age'] >= 25) & (df_input['Age'] <= 35)).astype(int)
+    df_output['Pregnancy plan'] = df_input['Pregnancy plan'].isin(['Yes']).astype(int)
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):
+    df_output = pd.DataFrame()
+    df_output['Relationship_with_husband_bad_poor'] = df_input['Relationship with husband'].isin(['Bad', 'Poor']).astype(int)
+    df_output['Feeling_about_motherhood_sad_neutral'] = df_input['Feeling about motherhood'].isin(['Sad', 'Neutral']).astype(int)
+    df_output['Received_Support_low'] = (df_input['Recieved Support'] == 'Low').astype(int)
+    df_output['Need_for_Support_high'] = (df_input['Need for Support'] == 'High').astype(int)
+    df_output['History_of_pregnancy_loss_mis_stillborn'] = df_input['History of pregnancy loss'].isin(['Miscarriage', 'Still-born Delivery']).astype(int)
+    df_output['Addiction_smoking_drinking_drugs'] = df_input['Addiction'].isin(['Smoking', 'Drinking', 'Drugs']).astype(int)
+    df_output['Abuse_yes'] = (df_input['Abuse'] == 'Yes').astype(int)
+    df_output['Worry_about_newborn_yes'] = (df_input['Worry about newborn'] == 'Yes').astype(int)
+    df_output['Angry_after_latest_child_birth_yes'] = (df_input['Angry after latest child birth'] == 'Yes').astype(int)
+    df_output['Feeling_for_regular_activities_worried_tired_afraid'] = df_input['Feeling for regular activities'].isin(['Worried', 'Tired', 'Afraid']).astype(int)
+    return df_output
+
+---VERSION---
+
+def extracting_features_0(df_input):
+    df_output = pd.DataFrame()
+    df_output['Marital status'] = df_input['Marital status'].isin(['Married']).astype(int)
+    df_output['Feeling about motherhood'] = df_input['Feeling about motherhood'].isin(['Happy']).astype(int)
+    df_output['Recieved Support'] = df_input['Recieved Support'].isin(['High']).astype(int)
+    df_output['Relationship with husband'] = df_input['Relationship with husband'].isin(['Good', 'Friendly']).astype(int)
+    df_output['Trust and share feelings'] = df_input['Trust and share feelings'].isin(['Yes']).astype(int)
+    df_output['Need for Support'] = df_input['Need for Support'].isin(['No', 'Low']).astype(int)
+    df_output['Abuse'] = df_input['Abuse'].isin(['No']).astype(int)
+    df_output['Regular checkups'] = df_input['Regular checkups'].isin(['Yes']).astype(int)
+    df_output['Pregnancy plan'] = df_input['Pregnancy plan'].isin(['Yes']).astype(int)
+    df_output['Relax/sleep when the newborn is asleep'] = df_input['Relax/sleep when the newborn is asleep'].isin(['Yes']).astype(int)
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):
+    df_output = pd.DataFrame()
+    df_output['Feeling_about_motherhood'] = df_input['Feeling about motherhood'].isin(['Sad', 'Neutral']).astype(int)
+    df_output['Relationship_with_husband'] = df_input['Relationship with husband'].isin(['Bad', 'Poor', 'Neutral']).astype(int)
+    df_output['Received_Support'] = df_input['Recieved Support'].isin(['Low', 'Medium']).astype(int)
+    df_output['Need_for_Support'] = df_input['Need for Support'].isin(['High', 'Medium']).astype(int)
+    df_output['Abuse'] = (df_input['Abuse'] == 'Yes').astype(int)
+    df_output['Trust_and_share_feelings'] = (df_input['Trust and share feelings'] == 'No').astype(int)
+    df_output['History_of_pregnancy_loss'] = df_input['History of pregnancy loss'].isin(['Miscarriage', 'Still-born Delivery']).astype(int)
+    df_output['Angry_after_latest_child_birth'] = (df_input['Angry after latest child birth'] == 'Yes').astype(int)
+    df_output['Feeling_for_regular_activities'] = df_input['Feeling for regular activities'].isin(['Worried', 'Tired', 'Afraid']).astype(int)
+    df_output['Worry_about_newborn'] = (df_input['Worry about newborn'] == 'Yes').astype(int)
+    return df_output
+
+---VERSION---
+
+
+
+---VERSION---
+
+def extracting_features_0(df_input):
+    df_output = pd.DataFrame()
+    df_output['Relationship_with_husband'] = df_input['Relationship with husband'].isin(['Good', 'Friendly']).astype(int)
+    df_output['Received_Support'] = df_input['Recieved Support'].isin(['High', 'Medium']).astype(int)
+    df_output['Feeling_about_motherhood'] = (df_input['Feeling about motherhood'] == 'Happy').astype(int)
+    df_output['Trust_and_share_feelings'] = (df_input['Trust and share feelings'] == 'Yes').astype(int)
+    df_output['Abuse'] = (df_input['Abuse'] == 'No').astype(int)
+    df_output['Regular_checkups'] = (df_input['Regular checkups'] == 'Yes').astype(int)
+    df_output['Relationship_with_newborn'] = df_input['Relationship with the newborn'].isin(['Good', 'Very good']).astype(int)
+    df_output['Angry_after_latest_childbirth'] = (df_input['Angry after latest child birth'] == 'No').astype(int)
+    df_output['Relax_sleep_when_newborn_is_asleep'] = (df_input['Relax/sleep when the newborn is asleep'] == 'Yes').astype(int)
+    df_output['Pregnancy_plan'] = (df_input['Pregnancy plan'] == 'Yes').astype(int)
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):
+    df_output = pd.DataFrame()
+    df_output['Relationship_with_husband_bad_poor'] = df_input['Relationship with husband'].isin(['Bad', 'Poor']).astype(int)
+    df_output['Received_Support_low'] = (df_input['Recieved Support'] == 'Low').astype(int)
+    df_output['Feeling_about_motherhood_sad_neutral'] = df_input['Feeling about motherhood'].isin(['Sad', 'Neutral']).astype(int)
+    df_output['Abuse_yes'] = (df_input['Abuse'] == 'Yes').astype(int)
+    df_output['Trust_and_share_feelings_no'] = (df_input['Trust and share feelings'] == 'No').astype(int)
+    df_output['Angry_after_latest_child_birth_yes'] = (df_input['Angry after latest child birth'] == 'Yes').astype(int)
+    df_output['Relax_sleep_when_newborn_is_asleep_no'] = (df_input['Relax/sleep when the newborn is asleep'] == 'No').astype(int)
+    df_output['History_of_pregnancy_loss_miscarriage_stillborn'] = df_input['History of pregnancy loss'].isin(['Miscarriage', 'Still-born Delivery', 'Still-born delivery']).astype(int)
+    df_output['Major_changes_or_losses_during_pregnancy_yes'] = (df_input['Major changes or losses during pregnancy'] == 'Yes').astype(int)
+    df_output['Pregnancy_plan_no'] = (df_input['Pregnancy plan'] == 'No').astype(int)
+    return df_output
+
+---VERSION---
+
+def extracting_features_0(df_input):
+    df_output = pd.DataFrame()
+    df_output['Relationship_with_husband'] = df_input['Relationship with husband'].isin(['Good', 'Friendly']).astype(int)
+    df_output['Recieved_Support'] = df_input['Recieved Support'].isin(['High', 'Medium']).astype(int)
+    df_output['Feeling_about_motherhood'] = (df_input['Feeling about motherhood'] == 'Happy').astype(int)
+    df_output['Trust_and_share_feelings'] = (df_input['Trust and share feelings'] == 'Yes').astype(int)
+    df_output['Abuse'] = (df_input['Abuse'] == 'No').astype(int)
+    df_output['Regular_checkups'] = (df_input['Regular checkups'] == 'Yes').astype(int)
+    df_output['Relationship_with_the_newborn'] = df_input['Relationship with the newborn'].isin(['Good', 'Very good']).astype(int)
+    df_output['Relax_sleep_when_the_newborn_is_asleep'] = (df_input['Relax/sleep when the newborn is asleep'] == 'Yes').astype(int)
+    df_output['Need_for_Support'] = df_input['Need for Support'].isin(['No', 'Low']).astype(int)
+    df_output['Birth_compliancy'] = (df_input['Birth compliancy'] == 'No').astype(int)
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):
+    df_output = pd.DataFrame()
+    df_output['Relationship_with_husband_bad_poor'] = df_input['Relationship with husband'].isin(['Bad', 'Poor']).astype(int)
+    df_output['Feeling_about_motherhood_sad_neutral'] = df_input['Feeling about motherhood'].isin(['Sad', 'Neutral']).astype(int)
+    df_output['Abuse_yes'] = (df_input['Abuse'] == 'Yes').astype(int)
+    df_output['Recieved_Support_low'] = (df_input['Recieved Support'] == 'Low').astype(int)
+    df_output['Need_for_Support_high'] = (df_input['Need for Support'] == 'High').astype(int)
+    df_output['Angry_after_latest_child_birth_yes'] = (df_input['Angry after latest child birth'] == 'Yes').astype(int)
+    df_output['Relax_sleep_when_newborn_is_asleep_no'] = (df_input['Relax/sleep when the newborn is asleep'] == 'No').astype(int)
+    df_output['History_of_pregnancy_loss_miscarriage_stillborn'] = df_input['History of pregnancy loss'].isin(['Miscarriage', 'Still-born Delivery']).astype(int)
+    df_output['Major_changes_or_losses_during_pregnancy_yes'] = (df_input['Major changes or losses during pregnancy'] == 'Yes').astype(int)
+    df_output['Worry_about_newborn_yes'] = (df_input['Worry about newborn'] == 'Yes').astype(int)
+    return df_output

@@ -1,0 +1,157 @@
+def extracting_features_0(df_input):
+    df_output = pd.DataFrame()
+    df_output['Temperature_le_70'] = (df_input['Temperature'] <= 70).astype(int)
+    df_output['Vibration_lt_3'] = (df_input['Vibration'] < 3).astype(int)
+    df_output['Power_Usage_50_150'] = ((df_input['Power_Usage'] >= 50) & (df_input['Power_Usage'] <= 150)).astype(int)
+    df_output['Humidity_le_60'] = (df_input['Humidity'] <= 60).astype(int)
+    df_output['Machine_Type_Mill_Lathe_Temp_le_65'] = ((df_input['Machine_Type'].isin(['Mill', 'Lathe'])) & (df_input['Temperature'] <= 65)).astype(int)
+    df_output['Machine_Type_Drill_Vibration_lt_2_5'] = ((df_input['Machine_Type'] == 'Drill') & (df_input['Vibration'] < 2.5)).astype(int)
+    df_output['Temperature_le_60_Power_Usage_le_120'] = ((df_input['Temperature'] <= 60) & (df_input['Power_Usage'] <= 120)).astype(int)
+    df_output['Vibration_le_2_Humidity_le_50'] = ((df_input['Vibration'] <= 2) & (df_input['Humidity'] <= 50)).astype(int)
+    df_output['Power_Usage_40_130'] = ((df_input['Power_Usage'] >= 40) & (df_input['Power_Usage'] <= 130)).astype(int)
+    df_output['Machine_Type_Lathe_Drill_Humidity_le_55'] = ((df_input['Machine_Type'].isin(['Lathe', 'Drill'])) & (df_input['Humidity'] <= 55)).astype(int)
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):
+    df_output = pd.DataFrame()
+    df_output['Temperature_gt_85'] = (df_input['Temperature'] > 85).astype(int)
+    df_output['Vibration_ge_5'] = (df_input['Vibration'] >= 5).astype(int)
+    df_output['Power_Usage_lt_30'] = (df_input['Power_Usage'] < 30).astype(int)
+    df_output['Power_Usage_gt_180'] = (df_input['Power_Usage'] > 180).astype(int)
+    df_output['Humidity_gt_75'] = (df_input['Humidity'] > 75).astype(int)
+    df_output['Machine_Type_Mill_and_Temperature_gt_80'] = ((df_input['Machine_Type'] == 'Mill') & (df_input['Temperature'] > 80)).astype(int)
+    df_output['Machine_Type_Drill_and_Vibration_ge_4'] = ((df_input['Machine_Type'] == 'Drill') & (df_input['Vibration'] >= 4)).astype(int)
+    df_output['Temperature_gt_75_and_Vibration_gt_4'] = ((df_input['Temperature'] > 75) & (df_input['Vibration'] > 4)).astype(int)
+    df_output['Humidity_gt_70_and_Power_Usage_lt_50'] = ((df_input['Humidity'] > 70) & (df_input['Power_Usage'] < 50)).astype(int)
+    df_output['Temperature_gt_90_or_Power_Usage_gt_200'] = ((df_input['Temperature'] > 90) | (df_input['Power_Usage'] > 200)).astype(int)
+    return df_output
+
+---VERSION---
+
+def extracting_features_0(df_input):
+    df_output = pd.DataFrame()
+    df_output['Temperature_<=_70'] = (df_input['Temperature'] <= 70).astype(int)
+    df_output['Vibration_<5'] = (df_input['Vibration'] < 5).astype(int)
+    df_output['Power_Usage_50_150'] = ((df_input['Power_Usage'] >= 50) & (df_input['Power_Usage'] <= 150)).astype(int)
+    df_output['Humidity_<=_50'] = (df_input['Humidity'] <= 50).astype(int)
+    df_output['Machine_Type_in_[Mill,Lathe]'] = df_input['Machine_Type'].isin(['Mill', 'Lathe']).astype(int)
+    df_output['Temperature_30_60'] = ((df_input['Temperature'] >= 30) & (df_input['Temperature'] <= 60)).astype(int)
+    df_output['Vibration_<=3'] = (df_input['Vibration'] <= 3).astype(int)
+    df_output['Power_Usage_<100'] = (df_input['Power_Usage'] < 100).astype(int)
+    df_output['Humidity_20_45'] = ((df_input['Humidity'] >= 20) & (df_input['Humidity'] <= 45)).astype(int)
+    df_output['Machine_Type_Drill_and_Temperature_<65'] = ((df_input['Machine_Type'] == 'Drill') & (df_input['Temperature'] < 65)).astype(int)
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):
+    df_output = pd.DataFrame()
+    df_output['Temperature_gt_90'] = (df_input['Temperature'] > 90).astype(int)
+    df_output['Vibration_ge_8'] = (df_input['Vibration'] >= 8).astype(int)
+    df_output['Power_Usage_gt_180'] = (df_input['Power_Usage'] > 180).astype(int)
+    df_output['Humidity_gt_70'] = (df_input['Humidity'] > 70).astype(int)
+    df_output['Machine_Type_Mill_and_Temperature_gt_85'] = ((df_input['Machine_Type'] == 'Mill') & (df_input['Temperature'] > 85)).astype(int)
+    df_output['Machine_Type_Lathe_and_Vibration_ge_7'] = ((df_input['Machine_Type'] == 'Lathe') & (df_input['Vibration'] >= 7)).astype(int)
+    df_output['Temperature_in_75_90'] = ((df_input['Temperature'] >= 75) & (df_input['Temperature'] <= 90)).astype(int)
+    df_output['Power_Usage_in_160_200'] = ((df_input['Power_Usage'] >= 160) & (df_input['Power_Usage'] <= 200)).astype(int)
+    df_output['Humidity_in_60_80'] = ((df_input['Humidity'] >= 60) & (df_input['Humidity'] <= 80)).astype(int)
+    df_output['Machine_Type_Drill_and_Vibration_ge_6'] = ((df_input['Machine_Type'] == 'Drill') & (df_input['Vibration'] >= 6)).astype(int)
+    return df_output
+
+---VERSION---
+
+def extracting_features_0(df_input):
+    df_output = pd.DataFrame()
+    df_output['Temperature_le_70'] = (df_input['Temperature'] <= 70).astype(int)
+    df_output['Vibration_lt_3'] = (df_input['Vibration'] < 3).astype(int)
+    df_output['Power_Usage_in_50_150'] = ((df_input['Power_Usage'] >= 50) & (df_input['Power_Usage'] <= 150)).astype(int)
+    df_output['Humidity_le_60'] = (df_input['Humidity'] <= 60).astype(int)
+    df_output['Machine_Type_Mill_Lathe_and_Temperature_le_65'] = ((df_input['Machine_Type'].isin(['Mill', 'Lathe'])) & (df_input['Temperature'] <= 65)).astype(int)
+    df_output['Machine_Type_Drill_and_Vibration_lt_2'] = ((df_input['Machine_Type'] == 'Drill') & (df_input['Vibration'] < 2)).astype(int)
+    df_output['Temperature_le_60_and_Power_Usage_ge_70'] = ((df_input['Temperature'] <= 60) & (df_input['Power_Usage'] >= 70)).astype(int)
+    df_output['Vibration_le_1_5_and_Humidity_le_50'] = ((df_input['Vibration'] <= 1.5) & (df_input['Humidity'] <= 50)).astype(int)
+    df_output['Power_Usage_le_120_and_Temperature_lt_68'] = ((df_input['Power_Usage'] <= 120) & (df_input['Temperature'] < 68)).astype(int)
+    df_output['Machine_Type_Lathe_and_Humidity_lt_55'] = ((df_input['Machine_Type'] == 'Lathe') & (df_input['Humidity'] < 55)).astype(int)
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):
+    df_output = pd.DataFrame()
+    df_output['Temperature_gt_85'] = (df_input['Temperature'] > 85).astype(int)
+    df_output['Vibration_gte_5'] = (df_input['Vibration'] >= 5).astype(int)
+    df_output['Power_Usage_lt_40'] = (df_input['Power_Usage'] < 40).astype(int)
+    df_output['Power_Usage_gt_180'] = (df_input['Power_Usage'] > 180).astype(int)
+    df_output['Humidity_gt_75'] = (df_input['Humidity'] > 75).astype(int)
+    df_output['Machine_Mill_and_Temperature_gt_80'] = ((df_input['Machine_Type'] == 'Mill') & (df_input['Temperature'] > 80)).astype(int)
+    df_output['Machine_Drill_and_Vibration_gte_4'] = ((df_input['Machine_Type'] == 'Drill') & (df_input['Vibration'] >= 4)).astype(int)
+    df_output['Temperature_gt_78_and_Humidity_gt_70'] = ((df_input['Temperature'] > 78) & (df_input['Humidity'] > 70)).astype(int)
+    df_output['Vibration_gt_4_and_Power_Usage_lt_60'] = ((df_input['Vibration'] > 4) & (df_input['Power_Usage'] < 60)).astype(int)
+    df_output['Machine_Lathe_and_Temperature_gt_82'] = ((df_input['Machine_Type'] == 'Lathe') & (df_input['Temperature'] > 82)).astype(int)
+    return df_output
+
+---VERSION---
+
+def extracting_features_0(df_input):
+    df_output = pd.DataFrame()
+    df_output['Temperature_le_70'] = (df_input['Temperature'] <= 70).astype(int)
+    df_output['Vibration_lt_3'] = (df_input['Vibration'] < 3).astype(int)
+    df_output['Power_Usage_50_150'] = ((df_input['Power_Usage'] >= 50) & (df_input['Power_Usage'] <= 150)).astype(int)
+    df_output['Humidity_le_60'] = (df_input['Humidity'] <= 60).astype(int)
+    df_output['Machine_Type_Mill'] = (df_input['Machine_Type'] == 'Mill').astype(int)
+    df_output['Temperature_50_65'] = ((df_input['Temperature'] >= 50) & (df_input['Temperature'] <= 65)).astype(int)
+    df_output['Vibration_le_2'] = (df_input['Vibration'] <= 2).astype(int)
+    df_output['Power_Usage_60_140'] = ((df_input['Power_Usage'] >= 60) & (df_input['Power_Usage'] <= 140)).astype(int)
+    df_output['Humidity_30_55'] = ((df_input['Humidity'] >= 30) & (df_input['Humidity'] <= 55)).astype(int)
+    df_output['Machine_Type_Lathe'] = (df_input['Machine_Type'] == 'Lathe').astype(int)
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):  
+    df_output = pd.DataFrame()  
+    df_output['Temperature_gt_85'] = (df_input['Temperature'] > 85).astype(int)  
+    df_output['Vibration_gte_5'] = (df_input['Vibration'] >= 5).astype(int)  
+    df_output['Power_Usage_lt_40'] = (df_input['Power_Usage'] < 40).astype(int)  
+    df_output['Power_Usage_gt_160'] = (df_input['Power_Usage'] > 160).astype(int)  
+    df_output['Humidity_gt_75'] = (df_input['Humidity'] > 75).astype(int)  
+    df_output['Machine_Type_Drill'] = (df_input['Machine_Type'] == 'Drill').astype(int)  
+    df_output['Temperature_in_80_100'] = ((df_input['Temperature'] >= 80) & (df_input['Temperature'] <= 100)).astype(int)  
+    df_output['Vibration_in_4_7'] = ((df_input['Vibration'] >= 4) & (df_input['Vibration'] <= 7)).astype(int)  
+    df_output['Humidity_in_70_90'] = ((df_input['Humidity'] >= 70) & (df_input['Humidity'] <= 90)).astype(int)  
+    df_output['Machine_Type_Mill_and_Temperature_gt_80'] = ((df_input['Machine_Type'] == 'Mill') & (df_input['Temperature'] > 80)).astype(int)  
+    return df_output
+
+---VERSION---
+
+def extracting_features_0(df_input):
+    df_output = pd.DataFrame()
+    df_output['Temperature_le_70'] = (df_input['Temperature'] <= 70).astype(int)
+    df_output['Vibration_lt_3'] = (df_input['Vibration'] < 3).astype(int)
+    df_output['Power_Usage_100_500'] = ((df_input['Power_Usage'] >= 100) & (df_input['Power_Usage'] <= 500)).astype(int)
+    df_output['Humidity_le_50'] = (df_input['Humidity'] <= 50).astype(int)
+    df_output['Machine_Type_Mill'] = (df_input['Machine_Type'] == 'Mill').astype(int)
+    df_output['Temperature_50_65'] = ((df_input['Temperature'] >= 50) & (df_input['Temperature'] <= 65)).astype(int)
+    df_output['Vibration_le_2'] = (df_input['Vibration'] <= 2).astype(int)
+    df_output['Power_Usage_lt_400'] = (df_input['Power_Usage'] < 400).astype(int)
+    df_output['Humidity_20_45'] = ((df_input['Humidity'] >= 20) & (df_input['Humidity'] <= 45)).astype(int)
+    df_output['Machine_Type_Lathe'] = (df_input['Machine_Type'] == 'Lathe').astype(int)
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):
+    df_output = pd.DataFrame()
+    df_output['Temperature_gt_85'] = (df_input['Temperature'] > 85).astype(int)
+    df_output['Vibration_ge_5'] = (df_input['Vibration'] >= 5).astype(int)
+    df_output['Power_Usage_gt_600'] = (df_input['Power_Usage'] > 600).astype(int)
+    df_output['Humidity_gt_70'] = (df_input['Humidity'] > 70).astype(int)
+    df_output['Machine_Type_Drill'] = (df_input['Machine_Type'] == 'Drill').astype(int)
+    df_output['Temperature_80_100'] = ((df_input['Temperature'] >= 80) & (df_input['Temperature'] <= 100)).astype(int)
+    df_output['Vibration_4_7'] = ((df_input['Vibration'] >= 4) & (df_input['Vibration'] <= 7)).astype(int)
+    df_output['Power_Usage_ge_550'] = (df_input['Power_Usage'] >= 550).astype(int)
+    df_output['Humidity_65_90'] = ((df_input['Humidity'] >= 65) & (df_input['Humidity'] <= 90)).astype(int)
+    df_output['Machine_Type_Mill_and_Temperature_gt_80'] = ((df_input['Machine_Type'] == 'Mill') & (df_input['Temperature'] > 80)).astype(int)
+    return df_output

@@ -1,0 +1,244 @@
+Answer:  
+Step 1. The relationship between each feature and the task description:
+
+- **social_connection_frequency**: Higher frequency (Daily, Weekly, Monthly) suggests more active maintenance of friendships, including long-distance calls; Never implies no maintenance.  
+- **gathering_size_preference**: Preference for "Never" or "Both" or "Large events" may indicate openness to varied social interactions, possibly including calls; "Small gatherings" or "Never" may mean limited social interaction.  
+- **valued_friendship_traits**: Valuing Support or Loyalty may motivate maintaining long-distance friendships; Honesty alone may not imply active maintenance.  
+- **conflict_resolution_style**: "Talk it out" or "Apologize first" indicates willingness to communicate, which supports maintaining long-distance friendships; "Avoid conflict" or "Let time fix it" suggests less direct communication.  
+- **family_support_level**: Lower family support ("No", "Sometimes") may increase reliance on friends and thus maintaining friendships actively; "Yes" may reduce need.  
+- **social_battery_recharge**: "Talking to someone" or "Social media" recharge suggests social engagement and communication, supporting long-distance calls; "Alone time" or "None of the above" suggests less social interaction.  
+- **social_orientation_type**: Extrovert or Ambivert more likely to maintain friendships actively; Introvert or Not sure less likely.  
+- **social_anxiety_level**: "Excited" or "Neutral" suggests comfort with social interaction; "Avoid it" or "Nervous" suggests avoidance of social contact.  
+- **emotional_expression_method**: "Talk openly" or "Express emotion strongly" supports active communication; "Stay silent" or "Other" suggests less communication.  
+- **primary_anger_sources**: Less relevant but triggers like "Being interrupted" or "Unnecessary criticism" may correlate with social engagement; "Injustice" or "Selfishness" less directly related.
+
+---
+
+Step 2. Based on examples and Step 1, 10 different conditions per class:
+
+10 different conditions for class "0" (Does NOT maintain long-distance friendships through calls):  
+- social_connection_frequency is in [Never]  
+- gathering_size_preference is in [Small gatherings]  
+- valued_friendship_traits is in [Honesty]  
+- conflict_resolution_style is in [Avoid conflict, Let time fix it]  
+- family_support_level is in [Yes]  
+- social_battery_recharge is in [Alone time, None of the above]  
+- social_orientation_type is in [Introvert, Not sure]  
+- social_anxiety_level is in [Nervous, Avoid it]  
+- emotional_expression_method is in [Stay silent, Other]  
+- social_connection_frequency is in [Monthly] and gathering_size_preference is in [Never] and valued_friendship_traits is in [Support] and family_support_level is in [Sometimes]
+
+10 different conditions for class "1" (Does maintain long-distance friendships through calls):  
+- social_connection_frequency is in [Daily, Weekly, Monthly]  
+- gathering_size_preference is in [Both, Large events, Never]  
+- valued_friendship_traits is in [Support, Loyalty]  
+- conflict_resolution_style is in [Talk it out, Apologize first]  
+- family_support_level is in [No, Sometimes]  
+- social_battery_recharge is in [Talking to someone, Social media]  
+- social_orientation_type is in [Extrovert, Ambivert]  
+- social_anxiety_level is in [Excited, Neutral]  
+- emotional_expression_method is in [Talk openly, Express emotion strongly]  
+- social_connection_frequency is in [Monthly] and gathering_size_preference is in [Never] and valued_friendship_traits is in [Support] and family_support_level is in [No]
+
+---
+
+These conditions are consistent with the examples and the inferred tendencies.
+
+---DIVIDER---
+
+Answer:  
+Step 1. The relationship between each feature and the task description:
+
+- **social_connection_frequency**: Higher frequency (Daily, Weekly) suggests more active maintenance of friendships, including long-distance calls; lower frequency (Monthly, Never) suggests less maintenance.  
+- **gathering_size_preference**: Preference for small gatherings or both may indicate closer, more personal connections consistent with maintaining long-distance friendships through calls; preference for large events or never may indicate less personal contact.  
+- **valued_friendship_traits**: Valuing support, honesty, loyalty, or all indicates a deeper friendship connection, likely to maintain long-distance friendships; less emphasis may correlate with less maintenance.  
+- **conflict_resolution_style**: Talking it out or apologizing first indicates active engagement and communication, which may support maintaining long-distance friendships; avoiding conflict or letting time fix it suggests less communication.  
+- **family_support_level**: Higher family support (Yes, Sometimes) may correlate with better social skills and maintaining friendships; No or Never may correlate with less maintenance.  
+- **social_battery_recharge**: Preferring talking to someone or social media suggests social engagement and communication, supporting long-distance friendship maintenance; alone time or none suggest less social interaction.  
+- **social_orientation_type**: Extroverts and ambiverts are more likely to maintain frequent social contact including calls; introverts or not sure may maintain less.  
+- **social_anxiety_level**: Neutral or excited suggests comfort with social interaction; nervous or avoid it suggests less likely to maintain calls.  
+- **emotional_expression_method**: Talking openly or expressing emotions strongly indicates active communication, supporting friendship maintenance; staying silent or other suggests less communication.  
+- **primary_anger_sources**: Being interrupted or selfishness may indicate sensitivity to social interaction but not necessarily related to maintaining long-distance calls; injustice may reflect broader social values but less direct relevance.
+
+---
+
+Step 2.  
+10 different conditions for class "0" (Does NOT maintain long-distance friendships through calls):  
+- social_connection_frequency is in [Monthly, Never]  
+- gathering_size_preference is in [Large events, Never]  
+- valued_friendship_traits is in [Loyalty, Honesty] (without support or all-inclusive)  
+- conflict_resolution_style is in [Avoid conflict, Let time fix it]  
+- family_support_level is in [No, Never]  
+- social_battery_recharge is in [Alone time, None of the above]  
+- social_orientation_type is in [Introvert, Not sure]  
+- social_anxiety_level is in [Nervous, Avoid it]  
+- emotional_expression_method is in [Stay silent, Other]  
+- primary_anger_sources is in [Unnecessary criticism, Injustice] (less related to active communication)
+
+---
+
+10 different conditions for class "1" (Does maintain long-distance friendships through calls):  
+- social_connection_frequency is in [Daily, Weekly]  
+- gathering_size_preference is in [Small gatherings, Both]  
+- valued_friendship_traits is in [Support, All, All the three and trust, Understanding person]  
+- conflict_resolution_style is in [Talk it out, Apologize first]  
+- family_support_level is in [Yes, Sometimes]  
+- social_battery_recharge is in [Talking to someone, Social media]  
+- social_orientation_type is in [Extrovert, Ambivert]  
+- social_anxiety_level is in [Neutral, Excited]  
+- emotional_expression_method is in [Talk openly, Express emotion strongly]  
+- primary_anger_sources is in [Being interrupted, Selfishness] (indicating sensitivity to social dynamics)
+
+---
+
+These conditions are consistent with the examples and common sense about social behavior and communication patterns related to maintaining long-distance friendships through calls.
+
+---DIVIDER---
+
+Answer:  
+Step 1. The relationship between each feature and the task description:
+
+- **social_connection_frequency**: Higher frequency (Daily, Weekly) likely indicates maintaining long-distance friendships through calls; lower frequency (Monthly, Never) suggests less maintenance.
+- **gathering_size_preference**: Preference for Both or Large events may indicate more active social engagement, possibly including calls; Never or Small gatherings may indicate less social interaction.
+- **valued_friendship_traits**: Valuing Support or Loyalty may correlate with maintaining friendships actively; Honesty alone may be less indicative.
+- **conflict_resolution_style**: Those who "Talk it out" or "Apologize first" may be more proactive in maintaining relationships, including long-distance calls; "Avoid conflict" or "Let time fix it" may indicate less active maintenance.
+- **family_support_level**: Higher family support (Yes, Sometimes) might correlate with better social skills or motivation to maintain friendships; No or Never may indicate less social support.
+- **social_battery_recharge**: Preference for "Talking to someone" suggests social engagement and maintaining connections; "Alone time" or "Social media" may indicate less direct communication.
+- **social_orientation_type**: Extroverts and Ambiverts are more likely to maintain friendships actively; Introverts or Not sure may be less likely.
+- **social_anxiety_level**: "Excited" or "Neutral" may indicate comfort with social interaction; "Avoid it" or "Nervous" may indicate reluctance to maintain long-distance calls.
+- **emotional_expression_method**: "Talk openly" or "Express emotion strongly" suggests active communication, supporting maintenance of long-distance friendships; "Stay silent" or "Other" may indicate less communication.
+- **primary_anger_sources**: Less directly related, but "Being interrupted" or "Selfishness" might reflect sensitivity in social interactions, possibly impacting maintenance.
+
+---
+
+Step 2. Based on Step 1 and the examples, infer 10 different conditions per answer:
+
+10 different conditions for class "0" (Does NOT maintain long-distance friendships through calls):
+
+- social_connection_frequency is in [Monthly, Never]
+- gathering_size_preference is in [Small gatherings, Never]
+- valued_friendship_traits is in [Loyalty, Honesty]
+- conflict_resolution_style is in [Avoid conflict, Let time fix it]
+- family_support_level is in [No, Never]
+- social_battery_recharge is in [Alone time, Social media]
+- social_orientation_type is in [Introvert, Not sure]
+- social_anxiety_level is in [Avoid it, Nervous]
+- emotional_expression_method is in [Stay silent, Other]
+- primary_anger_sources is in [Injustice, Unnecessary criticism]
+
+10 different conditions for class "1" (Does maintain long-distance friendships through calls):
+
+- social_connection_frequency is in [Daily, Weekly]
+- gathering_size_preference is in [Both, Large events]
+- valued_friendship_traits is in [Support, All, All the three and trust, Understanding person]
+- conflict_resolution_style is in [Talk it out, Apologize first]
+- family_support_level is in [Yes, Sometimes]
+- social_battery_recharge is in [Talking to someone]
+- social_orientation_type is in [Extrovert, Ambivert]
+- social_anxiety_level is in [Excited, Neutral]
+- emotional_expression_method is in [Talk openly, Express emotion strongly]
+- primary_anger_sources is in [Being interrupted, Selfishness]
+
+---
+
+These conditions align well with the examples and the intuitive understanding of social behavior related to maintaining long-distance friendships through calls.
+
+---DIVIDER---
+
+Answer:  
+Step 1. The relationship between each feature and the task description:
+
+- **social_connection_frequency**: Higher frequency (Daily, Weekly) likely indicates maintaining active long-distance friendships through calls; lower frequency (Monthly, Never) suggests less likely.
+- **gathering_size_preference**: Preference for Small gatherings or Never might indicate more intimate, possibly long-distance calls; preference for Large events might indicate more in-person interactions.
+- **valued_friendship_traits**: Valuing Support and Honesty may correlate with maintaining close connections including calls; Loyalty also important but less distinctive.
+- **conflict_resolution_style**: Talking it out or Apologize first may indicate active communication habits, including calls; Avoid conflict or Let time fix it may indicate less communication.
+- **family_support_level**: Those with No or Sometimes family support might rely more on long-distance friendships maintained through calls; Yes might mean less dependency on distant friends.
+- **social_battery_recharge**: Preferring Talking to someone suggests active verbal communication, possibly calls; Alone time or Social media less direct, less likely for calls.
+- **social_orientation_type**: Extroverts and Ambiverts more likely to maintain friendships via calls; Introverts or Not sure might avoid or limit calls.
+- **social_anxiety_level**: Neutral or Excited social anxiety level suggests comfort with social interactions including calls; Avoid it or Nervous suggests less likely.
+- **emotional_expression_method**: Talking openly or Express emotion strongly suggests active verbal communication; Stay silent or Other may indicate less likely to maintain calls.
+- **primary_anger_sources**: Being interrupted or Unnecessary criticism may influence communication style but less directly related to maintaining friendships through calls.
+
+---
+
+Step 2. 10 different conditions for class "0" (Does NOT maintain long-distance friendships through calls):
+
+- social_connection_frequency is in [Weekly, Monthly, Never]
+- gathering_size_preference is in [Large events, Both]
+- valued_friendship_traits is in [Loyalty, Honesty]
+- conflict_resolution_style is in [Apologize first, Avoid conflict]
+- family_support_level is in [Yes, Sometimes]
+- social_battery_recharge is in [Social media, Alone time]
+- social_orientation_type is in [Extrovert, Ambivert]
+- social_anxiety_level is in [Neutral, Excited]
+- emotional_expression_method is in [Express emotion strongly, Other]
+- primary_anger_sources is in [Being interrupted, Unnecessary criticism]
+
+---
+
+10 different conditions for class "1" (Does maintain long-distance friendships through calls):
+
+- social_connection_frequency is in [Daily, Monthly, Never]
+- gathering_size_preference is in [Small gatherings, Never]
+- valued_friendship_traits is in [Support, Honesty]
+- conflict_resolution_style is in [Talk it out, Apologize first]
+- family_support_level is in [No, Sometimes]
+- social_battery_recharge is in [Talking to someone, Social media]
+- social_orientation_type is in [Introvert, Ambivert, Extrovert]
+- social_anxiety_level is in [Excited, Nervous]
+- emotional_expression_method is in [Talk openly, Stay silent]
+- primary_anger_sources is in [Selfishness, Injustice]
+
+---
+
+Rationale for conditions:
+
+- Class "0" mostly aligns with moderate to low social connection frequency but prefers large events and social media recharge, indicating less reliance on calls for maintaining distant friendships.
+- Class "1" includes Daily or Monthly frequency but with preference for small gatherings or no gatherings, suggesting calls as a way to maintain friendships; also includes those who recharge by talking to someone and value support, consistent with maintaining friendships through calls.  
+- Family support being "No" or "Sometimes" for class "1" suggests they may compensate by maintaining long-distance friendships via calls.
+- Emotional expression methods like "Talk openly" or "Stay silent" may indicate different communication styles but both appear in class "1" examples, implying openness or reflective communication through calls.
+- Social anxiety levels "Excited" or "Nervous" in class "1" suggest engagement with social communication despite anxiety, possibly via calls.
+
+---DIVIDER---
+
+Answer:  
+Step 1. The relationship between each feature and the task description (Does this person maintain long-distance friendships through calls?):
+
+- **social_connection_frequency**: Higher frequency (Daily, Weekly, Monthly) likely indicates maintaining friendships including long-distance ones; Never suggests no maintenance of friendships.
+- **gathering_size_preference**: Preference for Large events or Both could indicate more social engagement and possibly maintaining distant friendships; Never or Small gatherings might indicate limited social interaction.
+- **valued_friendship_traits**: Traits like Loyalty, Support, and Honesty suggest valuing deeper connections, potentially including long-distance friendships.
+- **conflict_resolution_style**: Active styles such as Talk it out or Apologize first suggest engagement in maintaining relationships; Avoid conflict or Let time fix it might suggest less active maintenance.
+- **family_support_level**: Higher support (Yes, Sometimes) could correlate with better social support networks and maintaining friendships.
+- **social_battery_recharge**: Preferring Talking to someone or Social media indicates social engagement, which may support maintaining friendships; Alone time or None suggests less social interaction.
+- **social_orientation_type**: Extrovert or Ambivert likely maintain friendships actively; Introvert or Not sure might maintain fewer or less active long-distance friendships.
+- **social_anxiety_level**: Excited or Neutral suggests comfort in social interaction, possibly maintaining friendships; Avoid it or Nervous might hinder maintaining long-distance friendships.
+- **emotional_expression_method**: Talking openly or Express emotion strongly suggests active communication, supporting maintaining friendships; Stay silent or Other might indicate less communication.
+- **primary_anger_sources**: Being interrupted or Unnecessary criticism might affect communication quality but less directly related to maintaining friendships.
+
+---
+
+Step 2. Based on the above and examples, infer conditions for each class:
+
+10 different conditions for class "0" (Does NOT maintain long-distance friendships through calls):  
+- social_connection_frequency is Never  
+- gathering_size_preference is in [Small gatherings, Never]  
+- valued_friendship_traits is Honesty  
+- conflict_resolution_style is in [Avoid conflict, Let time fix it]  
+- family_support_level is in [No, Never]  
+- social_battery_recharge is Alone time  
+- social_orientation_type is in [Introvert, Not sure]  
+- social_anxiety_level is in [Nervous, Avoid it]  
+- emotional_expression_method is in [Stay silent, Other]  
+- social_connection_frequency is Monthly and gathering_size_preference is Never  
+
+10 different conditions for class "1" (Does maintain long-distance friendships through calls):  
+- social_connection_frequency is in [Daily, Weekly, Monthly]  
+- gathering_size_preference is in [Large events, Both]  
+- valued_friendship_traits is in [Loyalty, Support, All, All the three and trust]  
+- conflict_resolution_style is in [Talk it out, Apologize first]  
+- family_support_level is in [Yes, Sometimes]  
+- social_battery_recharge is in [Talking to someone, Social media]  
+- social_orientation_type is in [Extrovert, Ambivert]  
+- social_anxiety_level is in [Excited, Neutral]  
+- emotional_expression_method is in [Talk openly, Express emotion strongly]  
+- social_connection_frequency is Weekly and gathering_size_preference is Large events

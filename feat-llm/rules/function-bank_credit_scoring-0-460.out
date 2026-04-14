@@ -1,0 +1,100 @@
+def extracting_features_0(df_input):
+    df_output = pd.DataFrame()
+    df_output['Debt'] = (df_input['Debt'] > 5000).astype(int)
+    df_output['Overdue days'] = (df_input['Overdue days'] > 30).astype(int)
+    df_output['PDN'] = (df_input['PDN'] >= 0.5).astype(int)
+    df_output['Credit history rating'] = df_input['Credit history rating'].isin(['D1', 'D2', 'D3', 'E1', 'E2', 'E3']).astype(int)
+    df_output['INCOME'] = (df_input['INCOME'] < 1000).astype(int)
+    df_output['TERM'] = (df_input['TERM'] > 36).astype(int)
+    df_output['EDU'] = df_input['EDU'].isin(['Incomplete', 'High school']).astype(int)
+    df_output['UNDERAGECHILDRENCOUNT'] = (df_input['UNDERAGECHILDRENCOUNT'] >= 3).astype(int)
+    df_output['FAMILYSTATUS'] = (df_input['FAMILYSTATUS'] <= 1).astype(int)
+    df_output['Initial limit'] = (df_input['Initial limit'] < 1000).astype(int)
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):
+    df_output = pd.DataFrame()
+    df_output['Debt'] = (df_input['Debt'] <= 1000).astype(int)
+    df_output['Overdue days'] = (df_input['Overdue days'] == 0).astype(int)
+    df_output['PDN'] = (df_input['PDN'] < 0.1).astype(int)
+    df_output['Credit history rating'] = df_input['Credit history rating'].isin(['A1', 'A2', 'A3', 'B1', 'B2', 'B3']).astype(int)
+    df_output['INCOME'] = (df_input['INCOME'] >= 3000).astype(int)
+    df_output['TERM'] = (df_input['TERM'] <= 24).astype(int)
+    df_output['EDU'] = df_input['EDU'].isin(['University', 'College']).astype(int)
+    df_output['UNDERAGECHILDRENCOUNT'] = (df_input['UNDERAGECHILDRENCOUNT'] == 0).astype(int)
+    df_output['FAMILYSTATUS'] = (df_input['FAMILYSTATUS'] >= 2).astype(int)
+    df_output['Initial limit'] = (df_input['Initial limit'] >= 3000).astype(int)
+    return df_output
+
+---VERSION---
+
+def extracting_features_0(df_input):  
+    df_output = pd.DataFrame()  
+    df_output['Debt'] = (df_input['Debt'] > 5000).astype(int)  
+    df_output['Overdue days'] = (df_input['Overdue days'] >= 30).astype(int)  
+    df_output['Initial limit'] = (df_input['Initial limit'] <= 1000).astype(int)  
+    df_output['INCOME'] = (df_input['INCOME'] < 1000).astype(int)  
+    df_output['Credit history rating'] = df_input['Credit history rating'].isin(['D3', 'D2', 'D1', 'E1', 'E2', 'E3']).astype(int)  
+    df_output['PDN'] = (df_input['PDN'] > 0.5).astype(int)  
+    df_output['TERM'] = (df_input['TERM'] > 36).astype(int)  
+    df_output['EDU'] = df_input['EDU'].isin(['Incomplete', 'High school']).astype(int)  
+    df_output['UNDERAGECHILDRENCOUNT'] = (df_input['UNDERAGECHILDRENCOUNT'] >= 3).astype(int)  
+    df_output['FAMILYSTATUS'] = (df_input['FAMILYSTATUS'] <= 1).astype(int)  
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):
+    df_output = pd.DataFrame()
+    df_output['Debt'] = (df_input['Debt'] <= 1000).astype(int)
+    df_output['Overdue days'] = (df_input['Overdue days'] == 0).astype(int)
+    df_output['Initial limit'] = (df_input['Initial limit'] >= 5000).astype(int)
+    df_output['INCOME'] = (df_input['INCOME'] >= 3000).astype(int)
+    df_output['Credit history rating'] = df_input['Credit history rating'].isin(['A1', 'A2', 'A3', 'B1', 'B2', 'B3']).astype(int)
+    df_output['PDN'] = (df_input['PDN'] < 0.1).astype(int)
+    df_output['TERM'] = (df_input['TERM'] <= 24).astype(int)
+    df_output['EDU'] = df_input['EDU'].isin(['University', 'College']).astype(int)
+    df_output['UNDERAGECHILDRENCOUNT'] = df_input['UNDERAGECHILDRENCOUNT'].isin([0,1]).astype(int)
+    df_output['FAMILYSTATUS'] = (df_input['FAMILYSTATUS'] >= 2).astype(int)
+    return df_output
+
+---VERSION---
+
+def extracting_features_0(df_input):
+    df_output = pd.DataFrame()
+    df_output['Debt'] = (df_input['Debt'] > 5000).astype(int)
+    df_output['Overdue days'] = (df_input['Overdue days'] > 30).astype(int)
+    df_output['PDN'] = (df_input['PDN'] >= 0.5).astype(int)
+    df_output['Credit history rating'] = df_input['Credit history rating'].isin(['D1', 'D2', 'D3', 'E1', 'E2', 'E3']).astype(int)
+    df_output['INCOME'] = (df_input['INCOME'] < 1000).astype(int)
+    df_output['UNDERAGECHILDRENCOUNT'] = (df_input['UNDERAGECHILDRENCOUNT'] >= 3).astype(int)
+    df_output['EDU'] = df_input['EDU'].isin(['Incomplete', 'High school']).astype(int)
+    df_output['TERM'] = (df_input['TERM'] > 60).astype(int)
+    df_output['LV_AREA'] = df_input['LV_AREA'].isin(["Brestskaja oblast'", "Gomel'skaja oblast'", "Vitebskaja oblast'"]).astype(int)
+    df_output['INDUSTRYNAME'] = df_input['INDUSTRYNAME'].isin(['Agriculture', 'Retired']).astype(int)
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):
+    df_output = pd.DataFrame()
+    df_output['Debt'] = (df_input['Debt'] <= 1000).astype(int)
+    df_output['Overdue days'] = (df_input['Overdue days'] == 0).astype(int)
+    df_output['PDN'] = (df_input['PDN'] < 0.1).astype(int)
+    df_output['Credit history rating'] = df_input['Credit history rating'].isin(['A1', 'A2', 'A3', 'B1', 'B2', 'B3']).astype(int)
+    df_output['INCOME'] = (df_input['INCOME'] >= 3000).astype(int)
+    df_output['EDU'] = df_input['EDU'].isin(['University', 'College']).astype(int)
+    df_output['Initial limit'] = (df_input['Initial limit'] >= 10000).astype(int)
+    df_output['LV_AREA'] = df_input['LV_AREA'].isin(['g. Minsk', 'Minskaja oblast\'']).astype(int)
+    df_output['INDUSTRYNAME'] = df_input['INDUSTRYNAME'].isin(['Finance and Insurance', 'Information Technology', 'Science and Education']).astype(int)
+    df_output['FAMILYSTATUS'] = (df_input['FAMILYSTATUS'] >= 1).astype(int)
+    return df_output
+
+---VERSION---
+
+
+
+---VERSION---
+

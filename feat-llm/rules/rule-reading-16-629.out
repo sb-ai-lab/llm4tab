@@ -1,0 +1,534 @@
+Step 1. The relationship between each feature and the task description:
+
+- Gender: Gender is unlikely to have a direct causal relationship with whether a student reads academic books most of the time.
+- Age: Older students might read more academic books as they progress in their studies, but age alone is not a strong predictor.
+- Department: Students from certain departments (e.g., CSE, Pharmacy, Civil) may be more likely to read academic books than those from others (e.g., BBA, English if focusing on fiction).
+- Amount of time spent reading books per day: More time spent reading books per day likely indicates reading academic books most of the time.
+- Reason for reading books: If the reason is "Academic Purpose," it strongly suggests reading academic books mostly.
+- How to manage books for reading: Methods like "E-books" or "Borrow" may correlate with academic reading habits, especially if academic books are more accessible via e-books or borrowing.
+- Number of e-books read last two years: A higher number of e-books read may indicate academic reading if combined with other factors.
+- Number of printed books read last two years: Similarly, a higher number of printed books read may indicate academic reading.
+- Favorite books for reading to spend leisure time: If the favorite genre is "Fiction" or "Biography," this may suggest less academic reading during leisure time.
+- What is the change felt after reading books: "Increase Academic Performance" suggests academic reading.
+- Who influenced you to read books: "Self-Decision" may indicate intrinsic motivation, possibly academic focus.
+- Which language books do you like to read: Preference for "English" may correlate with academic reading in many contexts.
+- Where do you read printed books: Reading in "Library" or "Home" could be neutral or positive indicators.
+- Do you read Newspaper: Not reading newspapers may or may not relate to academic reading.
+- The format used for reading books: "E-books" or "Printed" may reflect academic reading habits.
+- Frequency of reading books: "On everyday basis" or "A few times a week" suggests more frequent reading, likely academic.
+
+---
+
+Step 2. Conditions for each answer class:
+
+10 different conditions for class "0" (Does NOT read academic books most of the time):
+- Reason for reading books is in [Entertainment Purpose, To increase my English vocabulary knowledge]
+- Amount of time spent reading books per day < 1
+- Frequency of reading books is in [A few times a month, Rarely]
+- Favorite books for reading to spend leisure time is in [Fiction, Biography, Politics]
+- Number of e-books you read last two years is in [1-5, nan]
+- Number of printed books you read last two years is in [1-5, nan]
+- Department is in [BBA, English, JMC, NFE]
+- What is the change that you felt after reading books is not "Increase Academic Performance"
+- How to manage books for reading is in [Others, Used-all]
+- The format that you used for reading books is in [Printed, Others] but frequency is low (e.g., less than a few times a week)
+
+10 different conditions for class "1" (Reads academic books most of the time):
+- Reason for reading books is "Academic Purpose"
+- Amount of time spent reading books per day >= 1
+- Frequency of reading books is in [On everyday basis, A few times a week]
+- Number of e-books you read last two years is in [6-10, 11-15, 16-20, More than 20]
+- Number of printed books you read last two years is in [6-10, 11-15, 16-20, More than 20]
+- What is the change that you felt after reading books is "Increase Academic Performance"
+- Department is in [CSE, Pharmacy, Civil, SWE, EEE, MCT, CIS, Textile]
+- How to manage books for reading is in [E-books, Borrow, Buy]
+- The format that you used for reading books is in [E-books, Printed] with high frequency
+- Who influenced you to read books is "Self-Decision" or "Teacher/Faculty"
+
+---
+
+These conditions reflect reasonable patterns and are consistent with the example data and common sense about academic reading habits.
+
+---DIVIDER---
+
+Step 1. The relationship between each feature and the task description:
+
+- Gender: Likely no strong direct effect on whether the student reads academic books most of the time.
+- Age: Older undergraduates might be more focused on academics, but effect may be weak.
+- Department: Students from technical or academic-heavy departments (e.g., CSE, Pharmacy, EEE) are more likely to read academic books most of the time than those in non-technical or business departments.
+- Amount of time spent reading books per day: More time spent reading generally indicates higher likelihood of reading academic books most of the time.
+- Reason for reading books: If the reason is "Academic Purpose," the student is more likely to read academic books most of the time.
+- How to manage books for reading: Using E-books or Borrowing may indicate active reading habits, but less indicative than other features.
+- Number of e-books read last two years: Higher numbers suggest more reading activity, possibly academic.
+- Number of printed books read last two years: Similarly, higher numbers suggest more reading activity.
+- Favorite books for leisure time: If favorite genre is "Non-Fiction" or "Biography," may correlate with academic reading; "Fiction" or "Politics" less likely.
+- What is the change felt after reading books: If the change is "Increase Academic Performance," likely the student reads academic books most of the time.
+- Who influenced you to read books: Self-decision may indicate intrinsic motivation, possibly more academic reading.
+- Which language books do you like to read: English may be more common in academic reading.
+- Where do you read printed books: Home or Library could indicate study habits.
+- Do you read Newspaper: May be unrelated or negatively correlated with academic book reading.
+- The format used for reading books: Both printed and e-books may indicate diversified reading habits.
+- Frequency of reading books: Daily reading strongly correlates with reading academic books most of the time.
+
+---
+
+Step 2. 10 different conditions for class "0" (Does NOT read academic books most of the time):
+
+- Reason for reading books is in [Entertainment Purpose, To increase my English vocabulary knowledge]
+- Department is in [BBA, English, JMC, Textile, Others]
+- Amount of time spent reading books per day < 0.5
+- Frequency of reading books is not On everyday basis (e.g., Weekly, Occasionally)
+- Number of e-books you read last two years is in [1-5, nan]
+- Number of printed books you read last two years is in [1-5, nan]
+- Favorite books for reading to spend leisure time is in [Fiction, Politics, Others]
+- What is the change that you felt after reading books is not Increase Academic Performance
+- How to manage books for reading is in [Others, Used-all]
+- Do you read Newspaper is Yes
+
+---
+
+10 different conditions for class "1" (Reads academic books most of the time):
+
+- Reason for reading books is Academic Purpose
+- Department is in [CSE, SWE, Pharmacy, EEE, CIS, Civil, MCT, NFE]
+- Amount of time spent reading books per day >= 1
+- Frequency of reading books is On everyday basis
+- Number of e-books you read last two years is in [6-10, 11-15, 16-20, More than 20]
+- Number of printed books you read last two years is in [6-10, 11-15, 16-20, More than 20]
+- What is the change that you felt after reading books is Increase Academic Performance
+- How to manage books for reading is in [E-books, Borrow, Buy]
+- The format that you used for reading books is Both or E-books
+- Who influenced you to read books is Self-Decision or Academic Advisor or Teacher
+
+---
+
+These conditions are inferred from the example and general knowledge about academic reading habits.
+
+---DIVIDER---
+
+Step 1. The relationship between each feature and the task description:
+
+- Gender: Likely no strong direct causal effect on reading academic books most of the time.
+- Age: Older undergraduates might have more academic pressure, possibly reading more academic books.
+- Department: Students in technical or science departments (e.g., CSE, SWE, Pharmacy, EEE) likely read academic books more often than those in non-technical or arts departments.
+- Amount of time spent reading books per day: More time spent reading generally correlates with reading academic books if the reason is academic.
+- Reason for reading books: If the reason is "Academic Purpose," the student is more likely to read academic books most of the time.
+- How to manage books for reading: E-books or borrowing may indicate academic reading habits, but buying or used-all could vary.
+- Number of e-books read last two years: Higher numbers indicate more academic reading, especially if combined with academic purpose.
+- Number of printed books read last two years: Similar to e-books, higher numbers indicate more academic reading.
+- Favorite books for leisure: If favorite leisure books are academic or non-fiction, more likely to read academic books most of the time.
+- What is the change felt after reading books: If the change is "Increase Academic Performance," likely reading academic books most of the time.
+- Who influenced you to read books: Self-decision or academic mentors may correlate with academic reading.
+- Which language books do you like to read: If the language is the medium of instruction, possibly more academic reading.
+- Where do you read printed books: Reading at home or library might indicate academic reading habits.
+- Do you read Newspaper: Reading newspapers may or may not correlate with academic reading.
+- The format used for reading books: Both printed and e-books could indicate academic reading.
+- Frequency of reading books: More frequent reading (daily or almost daily) correlates with reading academic books most of the time.
+
+---
+
+Step 2. Based on the above analysis, here are the inferred conditions:
+
+10 different conditions for class "0" (Does NOT read academic books most of the time):
+- Reason for reading books is in [Entertainment Purpose, To increase my English vocabulary knowledge, Keep me informative]
+- Amount of time spent reading books per day < 1
+- Frequency of reading books is in [A few times a month, Rarely, Never]
+- Number of e-books you read last two years is in [1-5, nan]
+- Number of printed books you read last two years is in [1-5, nan]
+- Favorite books for reading to spend leisure time is in [Fiction, Biography, Politics]
+- What is the change that you felt after reading books is not "Increase Academic Performance"
+- Department is in [BBA, English, JMC, Textile, Civil, Others]
+- How to manage books for reading is in [Others, Buy]
+- The format that you used for reading books is Printed only or E-books only (not Both)
+
+10 different conditions for class "1" (Reads academic books most of the time):
+- Reason for reading books is Academic Purpose
+- Amount of time spent reading books per day >= 1
+- Frequency of reading books is in [On everyday basis, Almost every day]
+- Number of e-books you read last two years is in [6-10, 11-15, 16-20, More than 20]
+- Number of printed books you read last two years is in [6-10, 11-15, 16-20, More than 20]
+- Favorite books for reading to spend leisure time is Non-Fiction or Others (academic-related)
+- What is the change that you felt after reading books is Increase Academic Performance
+- Department is in [CSE, SWE, Pharmacy, EEE, NFE, CIS]
+- How to manage books for reading is in [E-books, Borrow, Used-all]
+- The format that you used for reading books is Both (Printed and E-books)
+
+---DIVIDER---
+
+Step 1. The relationship between each feature and the task description:
+
+- Gender: Generally no direct causal relationship; reading habits depend more on interest than gender.
+- Age: Within undergraduate age range (typically 18-24); no strong direct effect but older students may have more academic reading.
+- Department: Students in academic or technical departments (e.g., CSE, SWE, Pharmacy, EEE, Civil) likely read academic books more often than those in non-technical or leisure-focused departments (e.g., BBA, English, JMC).
+- Amount of time spent reading books per day: More time spent reading correlates positively with reading academic books most of the time.
+- Reason for reading books: If the reason is "Academic Purpose," likely reads academic books mostly; other reasons (Entertainment, Vocabulary) less likely.
+- How to manage books for reading: Borrowing or buying books may indicate serious reading habits; "Used-all" or "E-books" may suggest more access to academic materials.
+- Number of e-books read last two years: Higher number suggests more academic reading if combined with other academic indicators.
+- Number of printed books read last two years: Similarly, more printed books read suggests more academic reading.
+- Favorite books for leisure time: If favorite books are Fiction or Politics, less likely to read academic books most of the time; Non-Fiction or Biography may indicate more academic interest.
+- What change felt after reading books: If "Increase Academic Performance," likely reads academic books most of the time.
+- Who influenced you to read books: Influence by teachers or academic mentors may increase academic reading.
+- Which language books do you like to read: English may be preferred for academic reading.
+- Where do you read printed books: Reading at home or library may correlate with academic reading.
+- Do you read Newspaper: May not strongly correlate.
+- Format used for reading books: Using both printed and electronic formats may indicate serious reading habits.
+- Frequency of reading books: Reading "On everyday basis" strongly correlates with reading academic books most of the time.
+
+---
+
+Step 2. 10 different conditions for class "0" (Does NOT read academic books most of the time):
+
+- Reason for reading books is in [Entertainment Purpose, To increase my English vocabulary knowledge]
+- Amount of time spent reading books per day < 1
+- Frequency of reading books is not "On everyday basis"
+- Number of e-books you read last two years is in [nan, 1-5]
+- Number of printed books you read last two years is in [nan, 1-5]
+- Favorite books for reading to spend leisure time is in [Fiction, Politics, Others]
+- What is the change that you felt after reading books is not "Increase Academic Performance"
+- Department is in [BBA, English, JMC, Others]
+- How to manage books for reading is in [Others, Borrow]
+- Do you read Newspaper is Yes
+
+---
+
+10 different conditions for class "1" (Reads academic books most of the time):
+
+- Reason for reading books is "Academic Purpose"
+- Amount of time spent reading books per day >= 1
+- Frequency of reading books is "On everyday basis"
+- Number of e-books you read last two years is in [6-10, 11-15, 16-20, More than 20]
+- Number of printed books you read last two years is in [6-10, 11-15, 16-20, More than 20]
+- What is the change that you felt after reading books is "Increase Academic Performance"
+- Department is in [CSE, SWE, Pharmacy, EEE, Civil, MCT, CIS, Textile]
+- Who influenced you to read books is "Teachers"
+- Format used for reading books is "Both"
+- How to manage books for reading is in [Used-all, Buy, E-books]
+
+---
+
+This set of conditions captures the tendencies and causal relationships between features and the task of whether an undergraduate student reads academic books most of the time.
+
+---DIVIDER---
+
+Step 1. The relationship between each feature and the task description:
+
+- Gender: Gender is unlikely to have a direct causal relationship with reading academic books most of the time.
+- Age: Older students might have more academic responsibilities, possibly reading academic books more frequently.
+- Department: Students from technical or science departments (e.g., CSE, SWE, Pharmacy, EEE, Civil) are more likely to read academic books most of the time compared to students from non-technical or arts departments.
+- Amount of time spent reading books per day: More time spent reading books per day suggests higher likelihood of reading academic books most of the time.
+- Reason for reading books: If the reason is "Academic Purpose," it strongly indicates reading academic books most of the time.
+- How to manage books for reading: The method (E-books, Borrow, Buy, etc.) is less directly related but e-books or buying might indicate more serious academic reading.
+- Number of e-books read last two years: A higher number suggests more academic engagement.
+- Number of printed books read last two years: Similarly, a higher number indicates more academic reading.
+- Favorite books for leisure time: Preference for Non-Fiction or Biography might correlate with academic reading habits; Fiction or Politics might indicate less academic focus.
+- What is the change felt after reading books: If the change is "Increase Academic Performance," it suggests academic reading.
+- Who influenced to read books: Self-decision might indicate intrinsic motivation, possibly linked to academic reading.
+- Which language books do you like to read: English is often the language of academic books, so preference for English might correlate with academic reading.
+- Where do you read printed books: Location is less causally linked but reading at home might indicate a study environment.
+- Do you read Newspaper: Reading newspapers is less connected to academic book reading.
+- The format used for reading books: Using both printed and e-books might indicate more frequent reading.
+- Frequency of reading books: Higher frequency (e.g., daily) indicates more academic reading.
+
+---
+
+Step 2. Based on the above analysis and example, here are the inferred conditions:
+
+10 different conditions for class "0" (Does NOT read academic books most of the time):
+- Reason for reading books is in [Entertainment Purpose, To increase my English vocabulary knowledge]
+- Frequency of reading books is in [A few times a month, Rarely]
+- Amount of time spent reading books per day < 0.5
+- Department is in [BBA, English, JMC, Textile, NFE, Others]
+- Number of e-books you read last two years is in [nan, 1-5]
+- Number of printed books you read last two years is in [nan, 1-5]
+- Favorite books for reading to spend leisure time is in [Fiction, Politics, Others]
+- What is the change that you felt after reading books is not "Increase Academic Performance"
+- The format that you used for reading books is in [Borrow, Others]
+- Do you read Newspaper is Yes
+
+10 different conditions for class "1" (Reads academic books most of the time):
+- Reason for reading books is Academic Purpose
+- Frequency of reading books is On everyday basis or Weekly basis
+- Amount of time spent reading books per day >= 1
+- Department is in [CSE, SWE, Pharmacy, EEE, Civil, CIS, MCT]
+- Number of e-books you read last two years is in [6-10, 11-15, 16-20, More than 20]
+- Number of printed books you read last two years is in [6-10, 11-15, 16-20, More than 20]
+- Favorite books for reading to spend leisure time is in [Non-Fiction, Biography]
+- What is the change that you felt after reading books is Increase Academic Performance
+- The format that you used for reading books is in [E-books, Buy, Used-all, Both]
+- Who influenced you to read books is Self-Decision or Teacher/Professor
+
+---
+
+These conditions reflect typical patterns and are consistent with the example given.
+
+---DIVIDER---
+
+Step 1. The relationship between each feature and the task description:
+
+- Gender: Likely no strong causal effect on whether the student reads academic books most of the time.
+- Age: Older students might read more academic books due to advanced coursework, but effect may be weak.
+- Department: Students in technical or science departments (e.g., CSE, SWE, Pharmacy, EEE, Civil) are more likely to read academic books than those in non-technical or business departments.
+- Amount of time spent reading books per day: More time spent reading correlates positively with reading academic books most of the time.
+- Reason for reading books: If the reason is "Academic Purpose," the student likely reads academic books most of the time.
+- How to manage books for reading: Using E-books or Borrowing might indicate active reading habits; buying might correlate with academic reading.
+- Number of e-books read last two years: Higher numbers likely correlate with reading academic books.
+- Number of printed books read last two years: Similarly, higher numbers correlate positively.
+- Favorite books for leisure time: If favorite books are Fiction or Politics, less likely to read academic books most of the time; if Non-Fiction or Biography, possibly more likely.
+- What is the change felt after reading books: If the change is "Increase Academic Performance," it strongly indicates academic reading.
+- Who influenced to read books: Influence from Teachers may correlate with academic reading.
+- Language of books: Reading in English or Bangla may not strongly affect academic reading tendency.
+- Place of reading printed books: Reading at Home or Library might indicate academic reading habits.
+- Reading Newspaper: No clear direct relation.
+- Format used for reading books: Using Both or E-books may indicate academic reading habits.
+- Frequency of reading books: Higher frequency (e.g., everyday or multiple times a week) correlates positively with reading academic books most of the time.
+
+---
+
+Step 2.  
+10 different conditions for class "0" (Does NOT read academic books most of the time):
+
+- Reason for reading books is in [Entertainment Purpose, To increase my English vocabulary knowledge, Keep me informative]
+- Frequency of reading books is in [A few times a month, Rarely, Once a week]
+- Amount of time spent reading books per day < 0.5
+- Number of e-books you read last two years is in [nan, 1-5]
+- Number of printed books you read last two years is in [nan, 1-5]
+- Favorite books for reading to spend leisure time is in [Fiction, Politics]
+- What is the change that you felt after reading books is not "Increase Academic Performance"
+- Department is in [BBA, English, JMC, NFE, Others]
+- How to manage books for reading is in [Others, Borrow]
+- Frequency of reading books is within range of [0, 1] times per week (if frequency numerical)
+
+---
+
+10 different conditions for class "1" (Reads academic books most of the time):
+
+- Reason for reading books is Academic Purpose
+- Frequency of reading books is in [On everyday basis, Multiple times a week]
+- Amount of time spent reading books per day >= 1
+- Number of e-books you read last two years is in [6-10, 11-15, 16-20, More than 20]
+- Number of printed books you read last two years is in [6-10, 11-15, 16-20, More than 20]
+- Favorite books for reading to spend leisure time is in [Non-Fiction, Biography]
+- What is the change that you felt after reading books is Increase Academic Performance
+- Department is in [CSE, SWE, Pharmacy, EEE, Civil, MCT, CIS, Textile]
+- How to manage books for reading is in [E-books, Buy, Used-all]
+- Frequency of reading books is within range of [5, 7] days per week (if frequency numerical)
+
+---
+
+These conditions reflect typical tendencies and are consistent with the example provided.
+
+---DIVIDER---
+
+Step 1. The relationship between each feature and the task description:
+
+- Gender: Gender itself likely has no direct causal impact on whether a student reads academic books most of the time.
+- Age: Older students might have more academic responsibilities, possibly reading academic books more frequently.
+- Department: Students from departments with heavy academic reading requirements (e.g., CSE, SWE, Pharmacy, EEE, Civil) are more likely to read academic books most of the time compared to departments focused on other skills or less academic reading.
+- Amount of time spent reading books per day: More time spent reading books per day likely correlates positively with reading academic books most of the time.
+- Reason for reading books: If the reason is "Academic Purpose," the student is more likely to read academic books most of the time.
+- How to manage books for reading: This might have less direct influence, but those who use "Used-all" or "Buy" may have more access to academic books.
+- Number of e-books read last two years: A higher number might indicate more frequent reading, possibly academic if aligned with other features.
+- Number of printed books read last two years: Similarly, a higher number suggests more reading activity, possibly academic.
+- Favorite books for leisure: If the favorite leisure books are "Non-Fiction" or "Biography," it may indicate an academic inclination; "Fiction" or "Politics" might be less academic.
+- What is the change felt after reading books: If the change is "Increase Academic Performance," it strongly suggests academic reading.
+- Who influenced to read books: Self-decision or academic peers might indicate academic reading habits.
+- Which language books do you like to read: Preference for academic languages (English, Bangla) might be relevant but less strong.
+- Where do you read printed books: Reading at "Home" or "During Travel" might indicate reading habits but less direct impact.
+- Do you read Newspaper: Possibly indicates general reading habits but not specifically academic.
+- Format used for reading books: Using "E-books" or "Both" might indicate access to academic materials.
+- Frequency of reading books: Higher frequency (e.g., "On everyday basis") strongly correlates with reading academic books most of the time.
+
+---
+
+Step 2. 10 different conditions for class "0" (Does NOT read academic books most of the time):
+
+- Reason for reading books is in [Entertainment Purpose, To increase my English vocabulary knowledge]
+- Frequency of reading books is in [A few times a month, Rarely, Occasionally]
+- Amount of time spent reading books per day < 1 (hour)
+- Number of printed books you read last two years is in [1-5, nan]
+- Number of e-books you read last two years is in [1-5, nan]
+- Favorite books for reading to spend leisure time is in [Fiction, Politics, Others]
+- What is the change that you fell after reading books is not "Increase Academic Performance"
+- Department is in [BBA, English, JMC, Textile, NFE, Others]
+- Format that you used for reading books is in [Borrow, Others]
+- Who influenced you to read books is in [Friend, Family]
+
+---
+
+10 different conditions for class "1" (Reads academic books most of the time):
+
+- Reason for reading books is "Academic Purpose"
+- Frequency of reading books is in [On everyday basis, Several times a week]
+- Amount of time spent reading books per day >= 1 (hour)
+- Number of printed books you read last two years is in [6-10, 11-15, 16-20, More than 20]
+- Number of e-books you read last two years is in [6-10, 11-15, 16-20, More than 20]
+- Favorite books for reading to spend leisure time is in [Non-Fiction, Biography]
+- What is the change that you fell after reading books is "Increase Academic Performance"
+- Department is in [CSE, SWE, Pharmacy, EEE, Civil, CIS, MCT]
+- Format that you used for reading books is in [E-books, Buy, Used-all, Both]
+- Who influenced you to read books is in [Self-Decision, Teacher, Academic Peer]
+
+---
+
+This set of conditions captures the key tendencies and causal relationships to distinguish students who read academic books most of the time (class "1") from those who do not (class "0").
+
+---DIVIDER---
+
+Step 1. The relationship between each feature and the task description:
+
+- Gender: Not strongly related to whether a student reads academic books most of the time.
+- Age: Slightly older undergraduates might have more academic responsibilities, potentially reading more academic books.
+- Department: Students in departments like CSE, SWE, Pharmacy, EEE, Civil, and other STEM fields likely read academic books more often; students in English or JMC might read academic books but also literature; BBA and others might vary.
+- Amount of time spent reading books per day: Higher time spent reading correlates positively with reading academic books most of the time.
+- Reason for reading books: "Academic Purpose" strongly indicates reading academic books most of the time; other reasons like entertainment or vocabulary improvement less so.
+- How to manage books for reading: Borrowing or buying might indicate active reading habits; E-books and Used-all might be neutral.
+- Number of e-books read last two years: Higher numbers indicate more reading activity, possibly academic.
+- Number of printed books read last two years: Higher numbers indicate more reading activity, possibly academic.
+- Favorite books for leisure time: Preference for Non-Fiction or Biography might correlate with academic reading; Fiction or Politics less so.
+- What is the change felt after reading books: "Increase Academic Performance" strongly correlates with academic reading.
+- Who influenced you to read books: Self-decision might correlate with motivated academic reading.
+- Which language books do you like to read: Might affect academic reading if the language aligns with academic materials.
+- Where do you read printed books: Reading during travel or library might indicate academic reading habits.
+- Do you read Newspaper: Neutral or slightly negative relationship with academic book reading.
+- Format used for reading books: Both printed and e-books might indicate more reading activity.
+- Frequency of reading books: Higher frequency correlates with reading academic books most of the time.
+
+---
+
+Step 2. Conditions for each answer class:
+
+10 different conditions for class "0" (Does NOT read academic books most of the time):
+- Reason for reading books is in [Entertainment Purpose, To increase my English vocabulary knowledge]
+- Amount of time spent reading books per day < 1
+- Frequency of reading books is in [Rarely, A few times a month]
+- Number of printed books you read last two years is in [1-5, nan]
+- Number of e-books you read last two years is in [1-5, nan]
+- Favorite books for reading to spend leisure time is in [Fiction, Politics]
+- What is the change that you felt after reading books is not "Increase Academic Performance"
+- Department is in [BBA, English, JMC, Others]
+- How to manage books for reading is in [Others]
+- Format used for reading books is in [Printed, E-books] (only one format, not both)
+
+10 different conditions for class "1" (Reads academic books most of the time):
+- Reason for reading books is "Academic Purpose"
+- Amount of time spent reading books per day >= 1
+- Frequency of reading books is in [Daily, Weekly]
+- Number of printed books you read last two years is in [6-10, 11-15, 16-20, More than 20]
+- Number of e-books you read last two years is in [6-10, 11-15, 16-20, More than 20]
+- Favorite books for reading to spend leisure time is in [Non-Fiction, Biography]
+- What is the change that you felt after reading books is "Increase Academic Performance"
+- Department is in [CSE, SWE, Pharmacy, EEE, Civil, MCT, CIS]
+- How to manage books for reading is in [Buy, Borrow, Used-all]
+- Format used for reading books is "Both" (Printed and E-books)
+
+---
+
+These conditions reflect tendencies and help classify whether the undergraduate student reads academic books most of the time.
+
+---DIVIDER---
+
+Step 1. The relationship between each feature and the task description:
+
+- Gender: Generally, gender does not strongly determine if a student reads academic books most of the time.
+- Age: Older undergraduates might have more academic reading, but age differences within typical undergraduate range may be minor.
+- Department: Students in technical or science departments (CSE, SWE, Pharmacy, EEE, Civil, etc.) are more likely to read academic books most of the time than those in non-technical or arts departments (BBA, English, JMC, etc.).
+- Amount of time spent reading books per day: More hours spent reading per day likely correlates with reading academic books most of the time.
+- Reason for reading books: If the reason is "Academic Purpose," the student is probably reading academic books most of the time.
+- How to manage books for reading: Method may indicate seriousness; e.g., buying or using e-books might suggest academic reading.
+- Number of e-books read last two years: A high number may indicate academic reading.
+- Number of printed books read last two years: Similarly, a high number suggests academic reading.
+- Favorite books for leisure time: If favorite books are academic or non-fiction, might indicate academic reading; fiction or politics less so.
+- Emotional/cognitive change after reading: If the change is "Increase Academic Performance," likely academic reading.
+- Who influenced to read books: Self-decision or academic influence might correlate with academic reading.
+- Language of books: English might be more common for academic reading.
+- Place of reading printed books: Home or library might be more common for academic reading.
+- Reading newspaper: May not correlate strongly.
+- Format used for reading books: Both e-books and printed books might indicate more serious reading.
+- Frequency of reading books: Daily reading suggests reading academic books most of the time.
+
+---
+
+Step 2. 10 different conditions for class "0" (Does NOT read academic books most of the time):
+
+- Department is in [BBA, English, JMC, Others]
+- Reason for reading books is in [Entertainment Purpose, To increase my English vocabulary knowledge]
+- Amount of time spent reading books per day < 1
+- Number of e-books you read last two years is in [1-5, nan]
+- Number of printed books you read last two years is in [1-5, nan]
+- Favorite books for reading to spend leisure time is in [Fiction, Politics]
+- Frequency of reading books is not "On everyday basis"
+- What is the change that you feel after reading books is not "Increase Academic Performance"
+- How to manage books for reading is in [Borrow, Others]
+- Format that you used for reading books is not "Both"
+
+---
+
+10 different conditions for class "1" (Reads academic books most of the time):
+
+- Department is in [CSE, SWE, Pharmacy, EEE, Civil, Textile, CIS, MCT]
+- Reason for reading books is "Academic Purpose"
+- Amount of time spent reading books per day >= 2
+- Number of e-books you read last two years is in [11-15, 16-20, More than 20]
+- Number of printed books you read last two years is in [11-15, 16-20, More than 20]
+- Favorite books for reading to spend leisure time is in [Non-Fiction, Biography]
+- Frequency of reading books is "On everyday basis"
+- What is the change that you feel after reading books is "Increase Academic Performance"
+- How to manage books for reading is in [Buy, E-books, Used-all]
+- Format that you used for reading books is "Both"
+
+---
+
+These conditions are consistent with the example given and general knowledge about undergraduate students' reading habits.
+
+---DIVIDER---
+
+Step 1. The relationship between each feature and the task description:
+
+- Gender: Likely no strong direct causal relationship with reading academic books most of the time.
+- Age: Older undergraduates might have more academic reading due to advanced coursework.
+- Department: Students in academic or technical departments (e.g., CSE, SWE, Pharmacy, English) are more likely to read academic books than others.
+- Amount of time spent reading books per day: More hours likely indicates reading academic books most of the time.
+- Reason for reading books: "Academic Purpose" strongly correlates with reading academic books most of the time; other reasons less so.
+- How to manage books for reading: Methods like "Borrow," "Buy," or "E-books" might indicate active reading habits; "Used-all" or "Others" less clear.
+- Number of e-books read last two years: Higher numbers suggest more academic reading if the books are academic in nature.
+- Number of printed books read last two years: Similarly, higher numbers suggest more academic reading.
+- Favorite books for leisure time: If leisure reading is mostly "Non-Fiction" or "Biography," it may indicate an academic inclination; "Fiction" or "Politics" less so.
+- What is the change felt after reading books: "Increase Academic Performance" or "Increase Problem Solving Skill" indicates academic reading.
+- Who influenced you to read books: "Self-Decision" might correlate with more serious reading habits.
+- Which language books do you like to read: English might correlate with academic reading in many countries.
+- Where do you read printed books: Library or Home might indicate academic reading environments.
+- Do you read Newspaper: No or Yes may not strongly correlate.
+- The format used for reading books: Printed or E-books may not directly correlate, but frequent use of E-books may indicate academic reading.
+- Frequency of reading books: "On everyday basis" or "A few times a week" indicates more academic reading than "A few times a month" or less.
+
+---
+
+Step 2. Based on Step 1 and the example, 10 different conditions per answer class:
+
+10 different conditions for class "0" (Does NOT read academic books most of the time):
+- Reason for reading books is in [Entertainment Purpose, To increase my English vocabulary knowledge]
+- Amount of time spent reading books per day < 1
+- Frequency of reading books is in [A few times a month, Rarely]
+- Number of printed books you read last two years is in [1-5, nan]
+- Number of e-books you read last two years is in [1-5, nan]
+- Department is in [BBA, NFE, Textile, Civil, JMC, Others]
+- Favorite books for reading to spend leisure time is in [Fiction, Politics, Others]
+- What is the change that you felt after reading books is not in [Increase Academic Performance, Increase Problem Solving Skill]
+- How to manage books for reading is in [Others, Used-all]
+- Frequency of reading books is <= 1 time per week (implied by categorical frequency)
+
+10 different conditions for class "1" (Reads academic books most of the time):
+- Reason for reading books is Academic Purpose
+- Amount of time spent reading books per day >= 2
+- Frequency of reading books is in [On everyday basis, A few times a week]
+- Number of printed books you read last two years is in [6-10, 11-15, 16-20, More than 20]
+- Number of e-books you read last two years is in [6-10, 11-15, 16-20, More than 20]
+- Department is in [CSE, SWE, English, Pharmacy, EEE, CIS, MCT]
+- Favorite books for reading to spend leisure time is in [Non-Fiction, Biography]
+- What is the change that you felt after reading books is in [Increase Academic Performance, Increase Problem Solving Skill]
+- How to manage books for reading is in [Buy, Borrow, E-books]
+- Age is within range [20, 25]
+
+---
+
+This set of conditions reflects the tendencies and relationships between features and the task of identifying whether an undergraduate student reads academic books most of the time.

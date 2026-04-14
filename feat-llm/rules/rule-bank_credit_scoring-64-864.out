@@ -1,0 +1,263 @@
+Answer:  
+Step 1. The relationship between each feature and the task description:
+
+- Debt: Higher debt may indicate higher risk, potentially lower credit score. Lower debt or manageable debt might correlate with higher credit score.  
+- Overdue days: More overdue days indicate poor payment behavior, likely lower credit score. Zero overdue days is favorable.  
+- Initial limit: Higher initial credit limit often reflects better creditworthiness, thus higher credit score.  
+- BIRTHDATE (Age): Older clients may have more stable financial history; younger clients may have less credit history, possibly lower score.  
+- SEX: Gender may have minor or no direct influence on credit score.  
+- EDU (Education level): Higher education generally correlates with higher income and better credit behavior, thus higher credit score.  
+- INCOME: Higher income usually supports better repayment ability, correlating with higher credit score.  
+- TERM: Longer credit terms might indicate trust from the bank but can also increase risk; unclear direct relation.  
+- Credit history rating: Better ratings (e.g., A1, A2, B1) indicate better credit history, thus higher credit score.  
+- LV_AREA / LV_SETTLEMENTNAME: Certain regions might have economic differences influencing creditworthiness.  
+- INDUSTRYNAME: Some industries may have more stable income and job security, affecting credit score positively.  
+- PDN (Probability of default number): Lower PDN indicates lower risk, higher credit score.  
+- UNDERAGECHILDRENCOUNT: More dependents might strain finances, potentially lower credit score.  
+- FAMILYSTATUS: Marital status or family status may influence financial stability, but effect unclear.
+
+---
+
+Step 2. 10 different conditions for class "0" (No high credit scoring):
+
+- Debt > 5000  
+- PDN >= 0.3  
+- Credit history rating is in [C3, D3, E2, E3, D2, D1, E1]  
+- INCOME <= 2000  
+- Initial limit <= 7000  
+- EDU is in [High school, Incomplete]  
+- Overdue days > 0 (if any example existed, but here all are 0; so not used)  
+- UNDERAGECHILDRENCOUNT >= 1  
+- TERM >= 60 (long term with low income/debt may indicate risk)  
+- SEX is Male and INCOME <= 2000  
+
+10 different conditions for class "1" (Yes high credit scoring):
+
+- PDN < 0.2  
+- Credit history rating is in [A1, A2, A3, B1, B2, B3]  
+- INCOME > 3000  
+- Initial limit > 10000  
+- Debt <= 5000  
+- EDU is in [University, College]  
+- OVERDUE days = 0 (always zero in examples)  
+- INDUSTRYNAME is in [Finance and Insurance, Science and Education, Transport/Logistic]  
+- UNDERAGECHILDRENCOUNT = 0 or 1  
+- TERM <= 60 and INCOME > 3000  
+
+---
+
+These conditions are derived from patterns observed in the examples and general credit scoring principles.
+
+---DIVIDER---
+
+Answer:  
+Step 1. The relationship between each feature and the task description:
+
+- Debt: Higher debt may indicate worse credit scoring due to higher liabilities, but if debt is well managed (low overdue days), it might not be negative.
+- Overdue days: More overdue days strongly indicate poor credit scoring.
+- Initial limit: Higher initial credit limit usually correlates with higher credit scoring.
+- BIRTHDATE: Age might influence credit scoring; middle-aged clients might have better credit scores due to stable income/history.
+- SEX: Gender generally should not affect credit scoring significantly.
+- EDU: Higher education level (University, College) might correlate with better credit scoring.
+- INCOME: Higher income generally correlates with better credit scoring.
+- TERM: Longer term loans might be associated with higher credit risk; shorter terms might indicate better credit.
+- Credit history rating: Better ratings (A1, A2, A3, B1, B2, B3) indicate better credit scoring; worse ratings (C1, C2, C3, D1, D2, D3, E1, E2, E3) indicate worse credit scoring.
+- LV_AREA and LV_SETTLEMENTNAME: Certain regions or settlements might have different economic conditions affecting credit scoring.
+- INDUSTRYNAME: Some industries might have more stable income and better credit scoring (e.g., Finance and Insurance, Science and Education).
+- PDN: Higher probability of default indicates lower credit scoring.
+- UNDERAGECHILDRENCOUNT: More children might increase financial burden, possibly lowering credit scoring.
+- FAMILYSTATUS: Marital status might influence financial stability.
+
+---
+
+Step 2. 10 different conditions for class "0" (No high credit scoring):
+
+- Credit history rating is in [C3, E3, E2, E1, D3, D2, D1]
+- PDN >= 0.3
+- Debt >= 5000
+- INCOME < 2000
+- Initial limit <= 4000
+- EDU is in [High school, Incomplete]
+- TERM >= 60
+- UNDERAGECHILDRENCOUNT >= 1
+- FAMILYSTATUS is 1 (single or unmarried)
+- Overdue days > 0 (though all examples have 0 overdue days, logically overdue > 0 is negative)
+
+---
+
+10 different conditions for class "1" (Has high credit scoring):
+
+- Credit history rating is in [A1, A2, A3, B1, B2, B3, C1]
+- PDN < 0.3
+- Debt >= 700 and <= 25000 (managed debt with high limits)
+- INCOME >= 2500
+- Initial limit >= 6000
+- EDU is in [University, College]
+- TERM <= 60 (mostly 24 or 60 but combined with other factors)
+- INDUSTRYNAME is in [Finance and Insurance, Science and Education, Construction]
+- UNDERAGECHILDRENCOUNT <= 1
+- FAMILYSTATUS is 2 or higher (married or stable family status)
+
+---
+
+These conditions reflect tendencies from the examples and general credit scoring logic.
+
+---DIVIDER---
+
+Answer:  
+Step 1. The relationship between each feature and the task description:
+
+- Debt: Higher debt might increase risk, so likely negatively correlated with high credit scoring.  
+- Overdue days: More overdue days indicate worse credit behavior, negatively correlated with high credit scoring.  
+- Initial limit: Higher initial credit limit usually implies better creditworthiness, positively correlated with high credit scoring.  
+- BIRTHDATE (Age): Older clients may have more stable credit history, potentially positively correlated with high credit scoring.  
+- SEX: Gender might have minor or no direct effect on credit scoring generally.  
+- EDU (Education level): Higher education levels generally relate to better credit scoring.  
+- INCOME: Higher income typically supports higher credit scoring.  
+- TERM: Longer term loans might indicate trust in the client, but could also increase risk; ambiguous but potentially positive correlation.  
+- Credit history rating: Better ratings (e.g., A1, A2) strongly positively correlated with high credit scoring.  
+- LV_AREA: Region might affect credit scoring due to local economic conditions, but effect is likely minor.  
+- LV_SETTLEMENTNAME: Specific city might have minor influence.  
+- INDUSTRYNAME: Some industries may have more stable incomes, affecting credit scoring.  
+- PDN (Probability of Default Number): Higher PDN means higher risk, negatively correlated with high credit scoring.  
+- UNDERAGECHILDRENCOUNT: More dependents might increase financial burden, negatively correlated with high credit scoring.  
+- FAMILYSTATUS: Marital status might influence stability; married clients might have better credit scoring.
+
+---
+
+Step 2. 10 different conditions for class "0" (No high credit scoring):
+
+- Credit history rating is in [C3, E3, E2, D3, D2, D1, E1]  
+- PDN >= 0.3  
+- Debt >= 3000  
+- Initial limit <= 7000  
+- INCOME <= 2000  
+- EDU is in [High school, Incomplete]  
+- TERM >= 60  
+- UNDERAGECHILDRENCOUNT >= 1  
+- FAMILYSTATUS is 1  
+- Overdue days > 0  
+
+---
+
+10 different conditions for class "1" (Has high credit scoring):
+
+- Credit history rating is in [A1, A2, A3, B1, B2, B3, C1]  
+- PDN <= 0.2  
+- Debt <= 5000  
+- Initial limit >= 6000  
+- INCOME >= 1800  
+- EDU is in [University, College]  
+- TERM <= 60  
+- UNDERAGECHILDRENCOUNT = 0  
+- FAMILYSTATUS is 2 or higher  
+- Overdue days = 0  
+
+---
+
+These conditions match the examples given and align with general credit scoring principles.
+
+---DIVIDER---
+
+Answer:  
+Step 1. The relationship between each feature and the task description:
+
+- Debt: Higher debt might indicate higher risk, so likely negatively correlated with high credit scoring.  
+- Overdue days: More overdue days indicate payment issues, negatively correlated with high credit scoring.  
+- Initial limit: Higher initial credit limit may indicate better creditworthiness, positively correlated with high credit scoring.  
+- BIRTHDATE (age): Older clients may have longer credit history; middle age might correlate with stable credit scoring.  
+- SEX: Possibly minor or no direct correlation; could be neutral.  
+- EDU: Higher education levels (University, College) may correlate positively with high credit scoring.  
+- INCOME: Higher income generally correlates positively with higher credit scoring.  
+- TERM: Longer terms might indicate trust by bank or client stability; could be positively correlated.  
+- Credit history rating: Better ratings (A1, A2, B1, B2) likely strongly positively correlated with high credit scoring.  
+- LV_AREA: Regional economic differences might influence credit scoring, but effect unclear from data.  
+- LV_SETTLEMENTNAME: Similar to LV_AREA, may have minor influence.  
+- INDUSTRYNAME: Some industries may have more stable income, positively affecting credit scoring.  
+- PDN (probability of default number): Lower PDN strongly indicates higher credit scoring.  
+- UNDERAGECHILDRENCOUNT: More children might imply higher expenses, possibly negatively correlated with credit scoring.  
+- FAMILYSTATUS: Marital status might influence stability; married or stable status may correlate positively.
+
+---
+
+Step 2. 10 different conditions for class "0" (No high credit scoring):  
+- PDN >= 0.3  
+- Credit history rating is in [D3, E2, E3, D2, D1, E1]  
+- INCOME <= 2000  
+- Initial limit <= 7000  
+- Debt >= 5000  
+- EDU is in [High school, Incomplete]  
+- Overdue days > 0 (though examples show 0 overdue days, but logically overdue > 0 is negative)  
+- SEX is Female and INCOME <= 1000  
+- TERM >= 36 and INCOME <= 1500  
+- UNDERAGECHILDRENCOUNT >= 1 and PDN >= 0.35  
+
+10 different conditions for class "1" (Yes high credit scoring):  
+- PDN <= 0.1  
+- Credit history rating is in [A1, A2, B1, B2, B3]  
+- INCOME >= 2500  
+- Initial limit >= 10000  
+- Debt >= 1000 and Debt <= Initial limit (indicating controlled debt)  
+- EDU is in [University, College]  
+- TERM <= 60 and INCOME >= 1800  
+- SEX is Male and INCOME >= 2000  
+- INDUSTRYNAME is in [Finance and Insurance, Construction, Trade, Science and Education]  
+- UNDERAGECHILDRENCOUNT <= 1 and PDN < 0.2  
+
+---
+
+These conditions are inferred from patterns in the examples and general knowledge about credit scoring factors.
+
+---DIVIDER---
+
+Step 1. The relationship between each feature and the task description:
+
+- Debt: Higher debt might indicate more financial burden, possibly lower credit scoring, but manageable debt with good repayment could be okay.
+- Overdue days: More overdue days generally indicate poor credit behavior → lower credit scoring.
+- Initial limit: Higher initial credit limit likely correlates with higher credit scoring.
+- BIRTHDATE: Older clients might have more stable credit history, but not always; middle-aged clients often have better credit scores.
+- SEX: Gender generally does not strongly affect credit scoring.
+- EDU: Higher education level (University, College) may correlate with higher credit scoring.
+- INCOME: Higher income generally correlates with higher credit scoring.
+- TERM: Longer credit terms might indicate trust from the bank, possibly higher credit scoring.
+- Credit history rating: Better ratings (A1, A2, B1, B2) indicate better credit scoring; worse ratings (D, E) indicate lower credit scoring.
+- LV_AREA: Some areas might have economic differences affecting credit scoring, but this is less direct.
+- LV_SETTLEMENTNAME: Similar to LV_AREA, possibly less impact.
+- INDUSTRYNAME: Some industries might have more stable income (Finance, IT) → higher credit scoring.
+- PDN: Probability of default number; lower PDN indicates better credit scoring.
+- UNDERAGECHILDRENCOUNT: More children might increase financial burden → possibly lower credit scoring.
+- FAMILYSTATUS: Some family statuses (married) might indicate more stability → higher credit scoring.
+
+---
+
+Step 2. 10 different conditions for class "0" (No high credit scoring):
+
+- Credit history rating is in [C3, D3, E1, E2, E3, D1, D2]
+- PDN >= 0.3
+- INCOME < 2000
+- Initial limit <= 4000
+- Debt > 5000
+- EDU is in [High school, Incomplete]
+- TERM >= 60 and INCOME < 1500
+- UNDERAGECHILDRENCOUNT >= 2
+- SEX is in [Male] and Credit history rating is in [C3, D3]
+- LV_AREA is in [GOMEL'SKAJa, VITEBSKAJa, MOGILEVSKAJa OBLAST]
+
+---
+
+10 different conditions for class "1" (Has high credit scoring):
+
+- Credit history rating is in [A1, A2, A3, B1, B2, B3, C1, C2]
+- PDN < 0.25
+- INCOME >= 3000
+- Initial limit >= 8000
+- Debt <= 5000
+- EDU is in [University, College]
+- TERM <= 60 and INCOME >= 2500
+- INDUSTRYNAME is in [Finance and Insurance, Science and Education, Production]
+- UNDERAGECHILDRENCOUNT <= 1
+- FAMILYSTATUS is in [1, 2] (likely married or stable status)
+
+---
+
+These conditions summarize tendencies found in the examples and general credit scoring knowledge.

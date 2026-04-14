@@ -1,0 +1,103 @@
+def extracting_features_0(df_input):
+    df_output = pd.DataFrame()
+    df_output['social_connection_frequency'] = df_input['social_connection_frequency'].isin(['Never', 'Rarely', 'Monthly']).astype(int)
+    df_output['gathering_size_preference'] = df_input['gathering_size_preference'].isin(['Never', 'Large events']).astype(int)
+    df_output['valued_friendship_traits'] = df_input['valued_friendship_traits'].isin(['Honesty', 'Understanding person']).astype(int)
+    df_output['conflict_resolution_style'] = df_input['conflict_resolution_style'].isin(['Avoid conflict', 'Let time fix it']).astype(int)
+    df_output['family_support_level'] = df_input['family_support_level'].isin(['No', 'Never']).astype(int)
+    df_output['social_battery_recharge'] = df_input['social_battery_recharge'].isin(['Alone time', 'None of the above', 'Social media']).astype(int)
+    df_output['social_orientation_type'] = df_input['social_orientation_type'].isin(['Introvert', 'Not sure']).astype(int)
+    df_output['social_anxiety_level'] = df_input['social_anxiety_level'].isin(['Avoid it', 'Nervous']).astype(int)
+    df_output['emotional_expression_method'] = df_input['emotional_expression_method'].isin(['Stay silent', 'Other']).astype(int)
+    df_output['primary_anger_sources'] = df_input['primary_anger_sources'].isin(['Unnecessary criticism', 'Selfishness']).astype(int)
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):
+    df_output = pd.DataFrame()
+    df_output['social_connection_frequency'] = df_input['social_connection_frequency'].str.strip().str.capitalize().isin(['Daily', 'Weekly']).astype(int)
+    df_output['gathering_size_preference'] = df_input['gathering_size_preference'].str.strip().str.title().isin(['Small Gatherings', 'Both']).astype(int)
+    df_output['valued_friendship_traits'] = df_input['valued_friendship_traits'].str.strip().str.title().isin(['Support', 'Loyalty', 'All', 'All The Three And Trust']).astype(int)
+    df_output['conflict_resolution_style'] = df_input['conflict_resolution_style'].str.strip().str.title().isin(['Talk It Out', 'Apologize First']).astype(int)
+    df_output['family_support_level'] = df_input['family_support_level'].str.strip().str.capitalize().isin(['Yes', 'Sometimes']).astype(int)
+    df_output['social_battery_recharge'] = df_input['social_battery_recharge'].str.strip().str.title().isin(['Talking To Someone']).astype(int)
+    df_output['social_orientation_type'] = df_input['social_orientation_type'].str.strip().str.title().isin(['Extrovert', 'Ambivert']).astype(int)
+    df_output['social_anxiety_level'] = df_input['social_anxiety_level'].str.strip().str.capitalize().isin(['Neutral', 'Excited']).astype(int)
+    df_output['emotional_expression_method'] = df_input['emotional_expression_method'].str.strip().str.title().isin(['Talk Openly', 'Express Emotion Strongly']).astype(int)
+    df_output['primary_anger_sources'] = df_input['primary_anger_sources'].str.strip().str.title().isin(['Injustice', 'Being Interrupted']).astype(int)
+    return df_output
+
+---VERSION---
+
+
+
+---VERSION---
+
+def extracting_features_0(df_input):
+    df_output = pd.DataFrame()
+    df_output['social_connection_frequency'] = df_input['social_connection_frequency'].isin(['Never', 'Rarely', 'Monthly']).astype(int)
+    df_output['gathering_size_preference'] = df_input['gathering_size_preference'].isin(['Large events', 'Never']).astype(int)
+    df_output['valued_friendship_traits'] = df_input['valued_friendship_traits'].isin(['Honesty', 'Humor']).astype(int)
+    df_output['conflict_resolution_style'] = df_input['conflict_resolution_style'].isin(['Avoid conflict', 'Let time fix it']).astype(int)
+    df_output['family_support_level'] = df_input['family_support_level'].isin(['No', 'Never', 'Sometimes']).astype(int)
+    df_output['social_battery_recharge'] = df_input['social_battery_recharge'].isin(['Alone time', 'Social media', 'None of the above']).astype(int)
+    df_output['social_orientation_type'] = df_input['social_orientation_type'].isin(['Introvert', 'Not sure']).astype(int)
+    df_output['social_anxiety_level'] = df_input['social_anxiety_level'].isin(['Avoid it', 'Nervous']).astype(int)
+    df_output['emotional_expression_method'] = df_input['emotional_expression_method'].isin(['Stay silent', 'Other']).astype(int)
+    df_output['primary_anger_sources'] = df_input['primary_anger_sources'].isin(['Being interrupted', 'Unnecessary criticism']).astype(int)
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):
+    df_output = pd.DataFrame()
+    df_output['social_connection_frequency'] = df_input['social_connection_frequency'].str.strip().str.capitalize().isin(['Daily', 'Weekly']).astype(int)
+    df_output['gathering_size_preference'] = df_input['gathering_size_preference'].str.strip().str.title().isin(['Small gatherings', 'Both']).astype(int)
+    df_output['valued_friendship_traits'] = df_input['valued_friendship_traits'].str.strip().str.title().isin(['Support', 'Loyalty', 'Understanding person', 'All', 'All the three and trust']).astype(int)
+    df_output['conflict_resolution_style'] = df_input['conflict_resolution_style'].str.strip().str.title().isin(['Talk it out', 'Apologize first']).astype(int)
+    df_output['family_support_level'] = df_input['family_support_level'].str.strip().str.lower().isin(['yes']).astype(int)
+    df_output['social_battery_recharge'] = df_input['social_battery_recharge'].str.strip().str.title().isin(['Talking To Someone']).astype(int)
+    df_output['social_orientation_type'] = df_input['social_orientation_type'].str.strip().str.title().isin(['Extrovert', 'Ambivert']).astype(int)
+    df_output['social_anxiety_level'] = df_input['social_anxiety_level'].str.strip().str.title().isin(['Neutral', 'Excited']).astype(int)
+    df_output['emotional_expression_method'] = df_input['emotional_expression_method'].str.strip().str.title().isin(['Talk Openly', 'Express Emotion Strongly']).astype(int)
+    df_output['primary_anger_sources'] = df_input['primary_anger_sources'].str.strip().str.title().isin(['Injustice', 'Selfishness']).astype(int)
+    return df_output
+
+---VERSION---
+
+def extracting_features_0(df_input):
+    df_output = pd.DataFrame()
+    df_output['social_connection_frequency'] = df_input['social_connection_frequency'].str.lower().isin(['never', 'rarely']).astype(int)
+    df_output['gathering_size_preference'] = df_input['gathering_size_preference'].str.lower().isin(['never', 'large events']).astype(int)
+    # For valued_friendship_traits, humor is not listed, so pick traits less related to deep connection.
+    # Assuming 'Humor' is not present, so pick traits not related to deep connection: exclude Support, Loyalty, Honesty, All, All the three and trust, Understanding person
+    # So if valued_friendship_traits is not in ['Support', 'Loyalty', 'Honesty', 'All', 'All the three and trust', 'Understanding person'], mark 1
+    deep_traits = ['support', 'loyalty', 'honesty', 'all', 'all the three and trust', 'understanding person']
+    df_output['valued_friendship_traits'] = (~df_input['valued_friendship_traits'].str.lower().isin(deep_traits)).astype(int)
+    df_output['conflict_resolution_style'] = df_input['conflict_resolution_style'].str.lower().isin(['avoid conflict', 'let time fix it']).astype(int)
+    df_output['family_support_level'] = df_input['family_support_level'].str.lower().isin(['no', 'never']).astype(int)
+    df_output['social_battery_recharge'] = df_input['social_battery_recharge'].str.lower().isin(['alone time', 'none of the above', 'social media']).astype(int)
+    df_output['social_orientation_type'] = df_input['social_orientation_type'].str.lower().isin(['introvert', 'not sure']).astype(int)
+    df_output['social_anxiety_level'] = df_input['social_anxiety_level'].str.lower().isin(['avoid it', 'nervous']).astype(int)
+    # emotional_expression_method: [Stay silent, Other (if implies less verbal communication)]
+    # So mark 1 if 'stay silent' or 'other' (case insensitive)
+    df_output['emotional_expression_method'] = df_input['emotional_expression_method'].str.lower().isin(['stay silent', 'other']).astype(int)
+    df_output['primary_anger_sources'] = df_input['primary_anger_sources'].str.lower().isin(['selfishness', 'unnecessary criticism']).astype(int)
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):  
+    df_output = pd.DataFrame()  
+    df_output['social_connection_frequency'] = df_input['social_connection_frequency'].str.lower().isin(['daily', 'weekly', 'monthly']).astype(int)  
+    df_output['gathering_size_preference'] = df_input['gathering_size_preference'].str.lower().isin(['small gatherings', 'both']).astype(int)  
+    df_output['valued_friendship_traits'] = df_input['valued_friendship_traits'].str.lower().isin(['support', 'loyalty', 'honesty', 'all', 'all the three and trust', 'understanding person']).astype(int)  
+    df_output['conflict_resolution_style'] = df_input['conflict_resolution_style'].str.lower().isin(['talk it out', 'apologize first']).astype(int)  
+    df_output['family_support_level'] = df_input['family_support_level'].str.lower().isin(['yes', 'sometimes']).astype(int)  
+    df_output['social_battery_recharge'] = df_input['social_battery_recharge'].str.lower().isin(['talking to someone']).astype(int)  
+    df_output['social_orientation_type'] = df_input['social_orientation_type'].str.lower().isin(['extrovert', 'ambivert']).astype(int)  
+    df_output['social_anxiety_level'] = df_input['social_anxiety_level'].str.lower().isin(['neutral', 'excited']).astype(int)  
+    df_output['emotional_expression_method'] = df_input['emotional_expression_method'].str.lower().isin(['talk openly', 'express emotion strongly']).astype(int)  
+    df_output['primary_anger_sources'] = df_input['primary_anger_sources'].str.lower().isin(['injustice', 'being interrupted']).astype(int)  
+    return df_output

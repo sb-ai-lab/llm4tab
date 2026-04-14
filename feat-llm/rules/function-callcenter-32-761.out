@@ -1,0 +1,189 @@
+def extracting_features_0(df_input):
+    df_output = pd.DataFrame()
+    df_output['The_reason_of_the_call_Complaints'] = (df_input['The_reason_of_the_call'] == 'Complaints').astype(int)
+    df_output['Call_center_employee_communication_skills_evaluation_le_3'] = (df_input['Call_center_employee_communication_skills_evaluation'] <= 3.0).astype(int)
+    df_output['Satisfaction_with_the_doctors_response_le_3'] = (df_input['Satisfaction_with_the_doctors_response'] <= 3.0).astype(int)
+    df_output['Call_151_No'] = (df_input['Call_151'] == 'No').astype(int)
+    df_output['Aware_151_No'] = (df_input['Aware_151'] == 'No').astype(int)
+    df_output['How_often_do_you_receive_call_center_news_le_2'] = (df_input['How_often_do_you_receive_call_center_news'] <= 2.0).astype(int)
+    df_output['Age_18_24_and_communication_skills_lt_2'] = ((df_input['Age'] == '18-24') & (df_input['Call_center_employee_communication_skills_evaluation'] < 2.0)).astype(int)
+    df_output['Education_Bachelor_or_Master_and_satisfaction_le_3'] = ((df_input['Education'].isin(['Bachelor', 'Master'])) & (df_input['Satisfaction_with_the_doctors_response'] <= 3.0)).astype(int)
+    df_output['The_reason_of_the_call_Vaccination_and_satisfaction_le_2'] = ((df_input['The_reason_of_the_call'] == 'Vaccination') & (df_input['Satisfaction_with_the_doctors_response'] <= 2.0)).astype(int)
+    df_output['Governorate_AlAhmadi_or_Farwaniya_and_communication_skills_le_2_5'] = ((df_input['Governorate'].isin(['AlAhmadi', 'Farwaniya'])) & (df_input['Call_center_employee_communication_skills_evaluation'] <= 2.5)).astype(int)
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):  
+    df_output = pd.DataFrame()  
+    df_output['The_reason_of_the_call_Complaints_or_Medical_Consultation'] = df_input['The_reason_of_the_call'].isin(['Complaints', 'Medical_Consultation']).astype(int)  
+    df_output['Call_center_employee_communication_skills_evaluation_ge_3'] = (df_input['Call_center_employee_communication_skills_evaluation'] >= 3.0).astype(int)  
+    df_output['Satisfaction_with_the_doctors_response_ge_3'] = (df_input['Satisfaction_with_the_doctors_response'] >= 3.0).astype(int)  
+    df_output['Call_151_No'] = (df_input['Call_151'] == 'No').astype(int)  
+    df_output['How_often_do_you_receive_call_center_news_ge_2_5'] = (df_input['How_often_do_you_receive_call_center_news'] >= 2.5).astype(int)  
+    df_output['Age_18_24_and_communication_skills_ge_3'] = ((df_input['Age'] == '18-24') & (df_input['Call_center_employee_communication_skills_evaluation'] >= 3.0)).astype(int)  
+    df_output['Education_Diploma_or_High_school_and_satisfaction_ge_3'] = ((df_input['Education'].isin(['Diploma', 'High school'])) & (df_input['Satisfaction_with_the_doctors_response'] >= 3.0)).astype(int)  
+    df_output['Governorate_Capital_or_Mubarak_AlKabir_and_communication_skills_ge_3'] = ((df_input['Governorate'].isin(['Capital', 'Mubarak AlKabir'])) & (df_input['Call_center_employee_communication_skills_evaluation'] >= 3.0)).astype(int)  
+    df_output['Aware_151_Yes'] = (df_input['Aware_151'] == 'Yes').astype(int)  
+    df_output['The_reason_of_the_call_Medical_Consultation_and_satisfaction_ge_4'] = ((df_input['The_reason_of_the_call'] == 'Medical_Consultation') & (df_input['Satisfaction_with_the_doctors_response'] >= 4.0)).astype(int)  
+    return df_output
+
+---VERSION---
+
+def extracting_features_0(df_input):
+    df_output = pd.DataFrame()
+    df_output['Call_center_employee_communication_skills_evaluation_lt_2'] = (df_input['Call_center_employee_communication_skills_evaluation'] < 2.0).astype(int)
+    df_output['Satisfaction_with_the_doctors_response_lt_3'] = (df_input['Satisfaction_with_the_doctors_response'] < 3.0).astype(int)
+    df_output['The_reason_of_the_call_Complaints'] = (df_input['The_reason_of_the_call'] == 'Complaints').astype(int)
+    df_output['Call_151_Yes_and_Satisfaction_with_the_doctors_response_le_2'] = ((df_input['Call_151'] == 'Yes') & (df_input['Satisfaction_with_the_doctors_response'] <= 2.0)).astype(int)
+    df_output['Aware_151_Yes_and_Call_center_employee_communication_skills_evaluation_lt_2'] = ((df_input['Aware_151'] == 'Yes') & (df_input['Call_center_employee_communication_skills_evaluation'] < 2.0)).astype(int)
+    df_output['How_often_do_you_receive_call_center_news_le_2'] = (df_input['How_often_do_you_receive_call_center_news'] <= 2.0).astype(int)
+    df_output['Governorate_in_Farwaniya_AlAhmadi_and_Satisfaction_with_the_doctors_response_lt_3'] = ((df_input['Governorate'].isin(['Farwaniya', 'AlAhmadi'])) & (df_input['Satisfaction_with_the_doctors_response'] < 3.0)).astype(int)
+    df_output['Education_in_Diploma_Bachelor_and_Call_center_employee_communication_skills_evaluation_lt_2_5'] = ((df_input['Education'].isin(['Diploma', 'Bachelor'])) & (df_input['Call_center_employee_communication_skills_evaluation'] < 2.5)).astype(int)
+    df_output['Age_in_18_24_25_29_and_Satisfaction_with_the_doctors_response_lt_2_5'] = ((df_input['Age'].isin(['18-24', '25-29'])) & (df_input['Satisfaction_with_the_doctors_response'] < 2.5)).astype(int)
+    df_output['Gender_Female_and_Call_center_employee_communication_skills_evaluation_lt_2'] = ((df_input['Gender'] == 'Female') & (df_input['Call_center_employee_communication_skills_evaluation'] < 2.0)).astype(int)
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):
+    df_output = pd.DataFrame()
+    df_output['Call_center_employee_communication_skills_evaluation_ge_3'] = (df_input['Call_center_employee_communication_skills_evaluation'] >= 3.0).astype(int)
+    df_output['Satisfaction_with_the_doctors_response_ge_3'] = (df_input['Satisfaction_with_the_doctors_response'] >= 3.0).astype(int)
+    df_output['The_reason_of_the_call_in_list'] = df_input['The_reason_of_the_call'].isin(['Medical_Consultation', 'Vaccination', 'Inquiries', 'Inquiries_COVID19']).astype(int)
+    df_output['How_often_do_you_receive_call_center_news_gt_2'] = (df_input['How_often_do_you_receive_call_center_news'] > 2.0).astype(int)
+    df_output['Call_151_No_and_Satisfaction_ge_3'] = ((df_input['Call_151'] == 'No') & (df_input['Satisfaction_with_the_doctors_response'] >= 3.0)).astype(int)
+    df_output['Governorate_Capital_and_Communication_skills_ge_3'] = ((df_input['Governorate'] == 'Capital') & (df_input['Call_center_employee_communication_skills_evaluation'] >= 3.0)).astype(int)
+    df_output['Age_in_list_and_Satisfaction_ge_3'] = (df_input['Age'].isin(['18-24', '25-29', '30-39']) & (df_input['Satisfaction_with_the_doctors_response'] >= 3.0)).astype(int)
+    df_output['Gender_Male_and_Communication_skills_ge_3'] = ((df_input['Gender'] == 'Male') & (df_input['Call_center_employee_communication_skills_evaluation'] >= 3.0)).astype(int)
+    df_output['Nationality_in_list_and_Satisfaction_ge_3'] = (df_input['Nationality'].isin(['Kuwaiti', 'Unspecified']) & (df_input['Satisfaction_with_the_doctors_response'] >= 3.0)).astype(int)
+    df_output['Marital_Status_in_list_and_Communication_skills_ge_3'] = (df_input['Marital_Status'].isin(['Single', 'Married']) & (df_input['Call_center_employee_communication_skills_evaluation'] >= 3.0)).astype(int)
+    return df_output
+
+---VERSION---
+
+def extracting_features_0(df_input):
+    df_output = pd.DataFrame()
+    df_output['Call_center_employee_communication_skills_evaluation_lt_3'] = (df_input['Call_center_employee_communication_skills_evaluation'] < 3.0).astype(int)
+    df_output['Satisfaction_with_the_doctors_response_lt_3'] = (df_input['Satisfaction_with_the_doctors_response'] < 3.0).astype(int)
+    df_output['The_reason_of_the_call_Complaints'] = (df_input['The_reason_of_the_call'] == 'Complaints').astype(int)
+    df_output['Call_151_Yes'] = (df_input['Call_151'] == 'Yes').astype(int)
+    df_output['Aware_151_Yes'] = (df_input['Aware_151'] == 'Yes').astype(int)
+    df_output['How_often_do_you_receive_call_center_news_le_2'] = (df_input['How_often_do_you_receive_call_center_news'] <= 2.0).astype(int)
+    df_output['Education_Bachelor_or_Master_and_Satisfaction_le_3'] = ((df_input['Education'].isin(['Bachelor', 'Master'])) & (df_input['Satisfaction_with_the_doctors_response'] <= 3.0)).astype(int)
+    df_output['Age_25_29_or_30_39_and_Communication_skills_lt_2'] = ((df_input['Age'].isin(['25-29', '30-39'])) & (df_input['Call_center_employee_communication_skills_evaluation'] < 2.0)).astype(int)
+    df_output['Nationality_Kuwaiti_and_Reason_Vaccination_and_Satisfaction_le_3'] = ((df_input['Nationality'] == 'Kuwaiti') & (df_input['The_reason_of_the_call'] == 'Vaccination') & (df_input['Satisfaction_with_the_doctors_response'] <= 3.0)).astype(int)
+    df_output['Gender_Female_and_Communication_skills_lt_2_5'] = ((df_input['Gender'] == 'Female') & (df_input['Call_center_employee_communication_skills_evaluation'] < 2.5)).astype(int)
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):
+    df_output = pd.DataFrame()
+    df_output['Call_center_employee_communication_skills_evaluation_ge_3'] = (df_input['Call_center_employee_communication_skills_evaluation'] >= 3.0).astype(int)
+    df_output['Satisfaction_with_the_doctors_response_ge_3'] = (df_input['Satisfaction_with_the_doctors_response'] >= 3.0).astype(int)
+    df_output['The_reason_of_the_call_medical_or_complaints_and_high_ratings'] = (
+        df_input['The_reason_of_the_call'].isin(['Medical_Consultation', 'Complaints']) & 
+        (df_input['Satisfaction_with_the_doctors_response'] >= 3.0)
+    ).astype(int)
+    df_output['Call_151_is_No'] = (df_input['Call_151'] == 'No').astype(int)
+    df_output['How_often_do_you_receive_call_center_news_gt_2'] = (df_input['How_often_do_you_receive_call_center_news'] > 2.0).astype(int)
+    df_output['Nationality_unspecified_or_other_and_satisfaction_ge_3'] = (
+        df_input['Nationality'].isin(['Unspecified', 'Other nationality']) & 
+        (df_input['Satisfaction_with_the_doctors_response'] >= 3.0)
+    ).astype(int)
+    df_output['Age_18_24_and_communication_skills_ge_3'] = (
+        (df_input['Age'] == '18-24') & 
+        (df_input['Call_center_employee_communication_skills_evaluation'] >= 3.0)
+    ).astype(int)
+    df_output['Education_diploma_or_highschool_and_satisfaction_ge_3'] = (
+        df_input['Education'].isin(['Diploma', 'High school']) & 
+        (df_input['Satisfaction_with_the_doctors_response'] >= 3.0)
+    ).astype(int)
+    df_output['Marital_Status_single_and_communication_skills_ge_3'] = (
+        (df_input['Marital_Status'] == 'Single') & 
+        (df_input['Call_center_employee_communication_skills_evaluation'] >= 3.0)
+    ).astype(int)
+    df_output['Governorate_capital_or_jahra_and_satisfaction_ge_3'] = (
+        df_input['Governorate'].isin(['Capital', 'Jahra']) & 
+        (df_input['Satisfaction_with_the_doctors_response'] >= 3.0)
+    ).astype(int)
+    return df_output
+
+---VERSION---
+
+def extracting_features_0(df_input):
+    df_output = pd.DataFrame()
+    df_output['The_reason_of_the_call_Complaints'] = (df_input['The_reason_of_the_call'] == 'Complaints').astype(int)
+    df_output['Call_center_employee_communication_skills_evaluation_le_2'] = (df_input['Call_center_employee_communication_skills_evaluation'] <= 2.0).astype(int)
+    df_output['Satisfaction_with_the_doctors_response_le_2'] = (df_input['Satisfaction_with_the_doctors_response'] <= 2.0).astype(int)
+    df_output['Aware_151_No'] = (df_input['Aware_151'] == 'No').astype(int)
+    df_output['Call_151_No'] = (df_input['Call_151'] == 'No').astype(int)
+    df_output['How_often_do_you_receive_call_center_news_le_2'] = (df_input['How_often_do_you_receive_call_center_news'] <= 2.0).astype(int)
+    df_output['Age_18_24_30_39_and_Education_Bachelor_Master_and_The_reason_of_the_call_Complaints'] = (
+        df_input['Age'].isin(['18-24', '30-39']) &
+        df_input['Education'].isin(['Bachelor', 'Master']) &
+        (df_input['The_reason_of_the_call'] == 'Complaints')
+    ).astype(int)
+    df_output['Gender_Female_and_Satisfaction_with_the_doctors_response_le_3'] = (
+        (df_input['Gender'] == 'Female') &
+        (df_input['Satisfaction_with_the_doctors_response'] <= 3.0)
+    ).astype(int)
+    df_output['Nationality_Kuwaiti_and_Call_center_employee_communication_skills_evaluation_le_2'] = (
+        (df_input['Nationality'] == 'Kuwaiti') &
+        (df_input['Call_center_employee_communication_skills_evaluation'] <= 2.0)
+    ).astype(int)
+    df_output['Marital_Status_Single_and_Call_center_employee_communication_skills_evaluation_le_2'] = (
+        (df_input['Marital_Status'] == 'Single') &
+        (df_input['Call_center_employee_communication_skills_evaluation'] <= 2.0)
+    ).astype(int)
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):
+    df_output = pd.DataFrame()
+    df_output['reason_and_satisfaction'] = ((df_input['The_reason_of_the_call'].isin(['Complaints', 'Medical_Consultation', 'Inquiries', 'Inquiries_COVID19', 'Vaccination'])) & (df_input['Satisfaction_with_the_doctors_response'] >= 3.0)).astype(int)
+    df_output['communication_skills_eval'] = (df_input['Call_center_employee_communication_skills_evaluation'] >= 3.0).astype(int)
+    df_output['satisfaction_doctors_response'] = (df_input['Satisfaction_with_the_doctors_response'] >= 3.0).astype(int)
+    df_output['frequency_news'] = (df_input['How_often_do_you_receive_call_center_news'] >= 2.0).astype(int)
+    df_output['called_151'] = (df_input['Call_151'].isin(['Yes'])).astype(int)
+    df_output['aware_and_communication'] = ((df_input['Aware_151'].isin(['Yes'])) & (df_input['Call_center_employee_communication_skills_evaluation'] >= 3.0)).astype(int)
+    df_output['age_and_communication'] = ((df_input['Age'].isin(['18-24', '25-29'])) & (df_input['Call_center_employee_communication_skills_evaluation'] >= 3.0)).astype(int)
+    df_output['nationality_and_satisfaction'] = ((df_input['Nationality'].isin(['Unspecified', 'Other nationality'])) & (df_input['Satisfaction_with_the_doctors_response'] >= 3.0)).astype(int)
+    df_output['marital_and_satisfaction'] = ((df_input['Marital_Status'].isin(['Married'])) & (df_input['Satisfaction_with_the_doctors_response'] >= 3.0)).astype(int)
+    df_output['education_and_communication'] = ((df_input['Education'].isin(['Diploma', 'High school'])) & (df_input['Call_center_employee_communication_skills_evaluation'] >= 3.0)).astype(int)
+    return df_output
+
+---VERSION---
+
+def extracting_features_0(df_input):
+    df_output = pd.DataFrame()
+    df_output['Call_center_employee_communication_skills_evaluation_in_range'] = ((df_input['Call_center_employee_communication_skills_evaluation'] >= 1.0) & (df_input['Call_center_employee_communication_skills_evaluation'] <= 2.0)).astype(int)
+    df_output['Satisfaction_with_the_doctors_response_in_range'] = ((df_input['Satisfaction_with_the_doctors_response'] >= 1.0) & (df_input['Satisfaction_with_the_doctors_response'] <= 3.0)).astype(int)
+    low_satisfaction = df_input['Satisfaction_with_the_doctors_response'] <= 3.0
+    df_output['The_reason_of_the_call_in_selected_low_satisfaction'] = (df_input['The_reason_of_the_call'].isin(['Vaccination', 'Inquiries', 'Inquiries_COVID19', 'Complaints']) & low_satisfaction).astype(int)
+    df_output['Call_151_yes_and_satisfaction_leq_3'] = ((df_input['Call_151'] == 'Yes') & (df_input['Satisfaction_with_the_doctors_response'] <= 3.0)).astype(int)
+    df_output['How_often_do_you_receive_call_center_news_in_range'] = ((df_input['How_often_do_you_receive_call_center_news'] >= 1.0) & (df_input['How_often_do_you_receive_call_center_news'] <= 3.0)).astype(int)
+    df_output['Education_in_selected_low_satisfaction'] = (df_input['Education'].isin(['Bachelor', 'Diploma', 'Master']) & low_satisfaction).astype(int)
+    df_output['Age_in_selected_low_satisfaction'] = (df_input['Age'].isin(['18-24', '25-29', '30-39']) & low_satisfaction).astype(int)
+    df_output['Nationality_Kuwaiti_and_satisfaction_leq_3'] = ((df_input['Nationality'] == 'Kuwaiti') & (df_input['Satisfaction_with_the_doctors_response'] <= 3.0)).astype(int)
+    df_output['Marital_Status_in_selected_low_satisfaction'] = (df_input['Marital_Status'].isin(['Married', 'Single']) & low_satisfaction).astype(int)
+    df_output['Governorate_in_selected_low_satisfaction'] = (df_input['Governorate'].isin(['Farwaniya', 'AlAhmadi', 'Capital']) & low_satisfaction).astype(int)
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):
+    df_output = pd.DataFrame()
+    df_output['Call_center_employee_communication_skills_evaluation_ge_3'] = (df_input['Call_center_employee_communication_skills_evaluation'] >= 3.0).astype(int)
+    df_output['Satisfaction_with_the_doctors_response_ge_3'] = (df_input['Satisfaction_with_the_doctors_response'] >= 3.0).astype(int)
+    df_output['The_reason_of_the_call_complaints_medical_high_satisfaction'] = ((df_input['The_reason_of_the_call'].isin(['Complaints', 'Medical_Consultation'])) & (df_input['Satisfaction_with_the_doctors_response'] >= 3.0)).astype(int)
+    df_output['Call_151_no_and_satisfaction_ge_3'] = ((df_input['Call_151'] == 'No') & (df_input['Satisfaction_with_the_doctors_response'] >= 3.0)).astype(int)
+    df_output['How_often_do_you_receive_call_center_news_ge_2_5'] = (df_input['How_often_do_you_receive_call_center_news'] >= 2.5).astype(int)
+    df_output['Education_high_school_bachelor_high_satisfaction'] = ((df_input['Education'].isin(['High school', 'Bachelor'])) & (df_input['Satisfaction_with_the_doctors_response'] >= 3.0)).astype(int)
+    df_output['Age_18_24_25_29_30_39_high_satisfaction'] = ((df_input['Age'].isin(['18-24', '25-29', '30-39'])) & (df_input['Satisfaction_with_the_doctors_response'] >= 3.0)).astype(int)
+    df_output['Nationality_other_unspecified_satisfaction_ge_3'] = ((df_input['Nationality'].isin(['Other nationality', 'Unspecified'])) & (df_input['Satisfaction_with_the_doctors_response'] >= 3.0)).astype(int)
+    df_output['Marital_Status_single_married_high_satisfaction'] = ((df_input['Marital_Status'].isin(['Single', 'Married'])) & (df_input['Satisfaction_with_the_doctors_response'] >= 3.0)).astype(int)
+    df_output['Governorate_capital_jahra_mubarak_high_satisfaction'] = ((df_input['Governorate'].isin(['Capital', 'Jahra', 'Mubarak AlKabir'])) & (df_input['Satisfaction_with_the_doctors_response'] >= 3.0)).astype(int)
+    return df_output

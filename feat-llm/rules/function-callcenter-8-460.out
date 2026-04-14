@@ -1,0 +1,131 @@
+
+
+---VERSION---
+
+def extracting_features_0(df_input):
+    df_output = pd.DataFrame()
+    df_output['The_reason_of_the_call_Complaints'] = (df_input['The_reason_of_the_call'] == 'Complaints').astype(int)
+    df_output['Call_center_employee_communication_skills_evaluation_le_3'] = (df_input['Call_center_employee_communication_skills_evaluation'] <= 3.0).astype(int)
+    df_output['Satisfaction_with_the_doctors_response_le_3'] = (df_input['Satisfaction_with_the_doctors_response'] <= 3.0).astype(int)
+    df_output['Gender_Male'] = (df_input['Gender'] == 'Male').astype(int)
+    df_output['Age_in_18_24_25_29_30_39'] = df_input['Age'].isin(['18-24', '25-29', '30-39']).astype(int)
+    df_output['Aware_151_No'] = (df_input['Aware_151'] == 'No').astype(int)
+    df_output['Call_151_No'] = (df_input['Call_151'] == 'No').astype(int)
+    df_output['Nationality_Kuwaiti'] = (df_input['Nationality'] == 'Kuwaiti').astype(int)
+    df_output['How_often_do_you_receive_call_center_news_le_3'] = (df_input['How_often_do_you_receive_call_center_news'] <= 3.0).astype(int)
+    df_output['Education_in_High_school_Bachelor'] = df_input['Education'].isin(['High school', 'Bachelor']).astype(int)
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):
+    df_output = pd.DataFrame()
+    df_output['The_reason_of_the_call_condition'] = df_input['The_reason_of_the_call'].isin(['Inquiries', 'Medical_Consultation', 'Vaccination']).astype(int)
+    df_output['Call_center_employee_communication_skills_evaluation_condition'] = (df_input['Call_center_employee_communication_skills_evaluation'] > 3.0).astype(int)
+    df_output['Satisfaction_with_the_doctors_response_condition'] = (df_input['Satisfaction_with_the_doctors_response'] > 3.0).astype(int)
+    df_output['Gender_condition'] = (df_input['Gender'] == 'Female').astype(int)
+    df_output['Age_condition'] = df_input['Age'].isin(['50-59', '60 and above']).astype(int)
+    df_output['Aware_151_condition'] = (df_input['Aware_151'] == 'Yes').astype(int)
+    df_output['Call_151_condition'] = df_input['Call_151'].isin(['Yes', 'No']).astype(int)
+    df_output['Nationality_condition'] = df_input['Nationality'].isin(['Kuwaiti', 'Other nationality']).astype(int)
+    df_output['How_often_do_you_receive_call_center_news_condition'] = (df_input['How_often_do_you_receive_call_center_news'] > 3.0).astype(int)
+    df_output['Education_condition'] = df_input['Education'].isin(['High school', 'Diploma']).astype(int)
+    return df_output
+
+---VERSION---
+
+def extracting_features_0(df_input):
+    df_output = pd.DataFrame()
+    df_output['The_reason_of_the_call_is_Complaints'] = (df_input['The_reason_of_the_call'] == 'Complaints').astype(int)
+    df_output['Call_center_employee_communication_skills_evaluation_le_3'] = (df_input['Call_center_employee_communication_skills_evaluation'] <= 3.0).astype(int)
+    df_output['Satisfaction_with_the_doctors_response_le_3'] = (df_input['Satisfaction_with_the_doctors_response'] <= 3.0).astype(int)
+    df_output['Gender_Male_and_The_reason_of_the_call_Complaints'] = ((df_input['Gender'] == 'Male') & (df_input['The_reason_of_the_call'] == 'Complaints')).astype(int)
+    df_output['Call_151_No_and_The_reason_of_the_call_Complaints'] = ((df_input['Call_151'] == 'No') & (df_input['The_reason_of_the_call'] == 'Complaints')).astype(int)
+    df_output['Aware_151_No_and_The_reason_of_the_call_Complaints'] = ((df_input['Aware_151'] == 'No') & (df_input['The_reason_of_the_call'] == 'Complaints')).astype(int)
+    df_output['How_often_do_you_receive_call_center_news_lt_3'] = (df_input['How_often_do_you_receive_call_center_news'] < 3.0).astype(int)
+    df_output['Age_18_24_or_30_39_and_The_reason_of_the_call_Complaints'] = ((df_input['Age'].isin(['18-24', '30-39'])) & (df_input['The_reason_of_the_call'] == 'Complaints')).astype(int)
+    df_output['Nationality_Other_nationality_and_The_reason_of_the_call_Complaints'] = ((df_input['Nationality'] == 'Other nationality') & (df_input['The_reason_of_the_call'] == 'Complaints')).astype(int)
+    df_output['Marital_Status_Single_and_The_reason_of_the_call_Complaints'] = ((df_input['Marital_Status'] == 'Single') & (df_input['The_reason_of_the_call'] == 'Complaints')).astype(int)
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):
+    df_output = pd.DataFrame()
+    df_output['Call_center_employee_communication_skills_evaluation'] = (df_input['Call_center_employee_communication_skills_evaluation'] >= 3.0).astype(int)
+    df_output['Satisfaction_with_the_doctors_response'] = (df_input['Satisfaction_with_the_doctors_response'] >= 3.0).astype(int)
+    df_output['Gender_Female_And_The_reason_of_the_call_Complaints'] = ((df_input['Gender'] == 'Female') & (df_input['The_reason_of_the_call'] == 'Complaints')).astype(int)
+    df_output['How_often_do_you_receive_call_center_news'] = (df_input['How_often_do_you_receive_call_center_news'] >= 2.6).astype(int)
+    df_output['Aware_151_Yes_And_Call_151_No'] = ((df_input['Aware_151'] == 'Yes') & (df_input['Call_151'] == 'No')).astype(int)
+    df_output['Age_18_24_or_50_59_And_The_reason_of_the_call_Complaints'] = ((df_input['Age'].isin(['18-24', '50-59'])) & (df_input['The_reason_of_the_call'] == 'Complaints')).astype(int)
+    df_output['Nationality_Kuwaiti_And_The_reason_of_the_call_Complaints'] = ((df_input['Nationality'] == 'Kuwaiti') & (df_input['The_reason_of_the_call'] == 'Complaints')).astype(int)
+    df_output['Marital_Status_Widow_or_Married'] = (df_input['Marital_Status'].isin(['Widow', 'Married'])).astype(int)
+    df_output['Education_Diploma_or_High_school'] = (df_input['Education'].isin(['Diploma', 'High school'])).astype(int)
+    df_output['Governorate_Capital_or_Around'] = (df_input['Governorate'].isin(['Capital', 'Around'])).astype(int)
+    return df_output
+
+---VERSION---
+
+def extracting_features_0(df_input):
+    df_output = pd.DataFrame()
+    df_output['The_reason_of_the_call_Complaints'] = (df_input['The_reason_of_the_call'] == 'Complaints').astype(int)
+    df_output['Call_center_employee_communication_skills_evaluation_leq_3'] = (df_input['Call_center_employee_communication_skills_evaluation'] <= 3.0).astype(int)
+    df_output['Satisfaction_with_the_doctors_response_leq_3'] = (df_input['Satisfaction_with_the_doctors_response'] <= 3.0).astype(int)
+    df_output['How_often_do_you_receive_call_center_news_leq_3'] = (df_input['How_often_do_you_receive_call_center_news'] <= 3.0).astype(int)
+    df_output['Gender_Male'] = (df_input['Gender'] == 'Male').astype(int)
+    df_output['Age_in_18_24_25_29_30_39'] = df_input['Age'].isin(['18-24', '25-29', '30-39']).astype(int)
+    df_output['Nationality_in_Kuwaiti_Other'] = df_input['Nationality'].isin(['Kuwaiti', 'Other nationality']).astype(int)
+    df_output['Aware_151_No'] = (df_input['Aware_151'] == 'No').astype(int)
+    df_output['Call_151_No'] = (df_input['Call_151'] == 'No').astype(int)
+    df_output['Marital_Status_in_Single_Married'] = df_input['Marital_Status'].isin(['Single', 'Married']).astype(int)
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):
+    df_output = pd.DataFrame()
+    df_output['Call_center_employee_communication_skills_evaluation_gt_3'] = (df_input['Call_center_employee_communication_skills_evaluation'] > 3.0).astype(int)
+    df_output['Satisfaction_with_the_doctors_response_gt_3'] = (df_input['Satisfaction_with_the_doctors_response'] > 3.0).astype(int)
+    df_output['How_often_do_you_receive_call_center_news_gt_3'] = (df_input['How_often_do_you_receive_call_center_news'] > 3.0).astype(int)
+    df_output['Gender_Female'] = (df_input['Gender'] == 'Female').astype(int)
+    df_output['Age_18_24'] = (df_input['Age'] == '18-24').astype(int)
+    df_output['The_reason_of_the_call_Complaints_and_high_eval'] = ((df_input['The_reason_of_the_call'] == 'Complaints') & 
+                                                                    (df_input['Call_center_employee_communication_skills_evaluation'] > 3.0) & 
+                                                                    (df_input['Satisfaction_with_the_doctors_response'] > 3.0)).astype(int)
+    df_output['Aware_151_Yes'] = (df_input['Aware_151'] == 'Yes').astype(int)
+    df_output['Call_151_Yes_or_No'] = df_input['Call_151'].isin(['Yes', 'No']).astype(int)
+    df_output['Marital_Status_Single'] = (df_input['Marital_Status'] == 'Single').astype(int)
+    df_output['Governorate_in_selected'] = df_input['Governorate'].isin(['AlAhmadi', 'Around', 'Capital']).astype(int)
+    return df_output
+
+---VERSION---
+
+def extracting_features_0(df_input):
+    df_output = pd.DataFrame()
+    df_output['The_reason_of_the_call_Complaints'] = (df_input['The_reason_of_the_call'] == 'Complaints').astype(int)
+    df_output['Call_center_employee_communication_skills_evaluation_le_3'] = (df_input['Call_center_employee_communication_skills_evaluation'] <= 3.0).astype(int)
+    df_output['Satisfaction_with_the_doctors_response_le_3'] = (df_input['Satisfaction_with_the_doctors_response'] <= 3.0).astype(int)
+    df_output['Gender_Male'] = (df_input['Gender'] == 'Male').astype(int)
+    df_output['Aware_151_No'] = (df_input['Aware_151'] == 'No').astype(int)
+    df_output['Call_151_No'] = (df_input['Call_151'] == 'No').astype(int)
+    df_output['Age_in_18_24_25_29_30_39'] = df_input['Age'].isin(['18-24', '25-29', '30-39']).astype(int)
+    df_output['How_often_do_you_receive_call_center_news_le_3'] = (df_input['How_often_do_you_receive_call_center_news'] <= 3.0).astype(int)
+    df_output['Education_in_High_school_Bachelor'] = df_input['Education'].isin(['High school', 'Bachelor']).astype(int)
+    df_output['Governorate_in_Capital_AlAhmadi_Mubarak_AlKabir'] = df_input['Governorate'].isin(['Capital', 'AlAhmadi', 'Mubarak AlKabir']).astype(int)
+    return df_output
+
+---DIVIDER---
+
+def extracting_features_1(df_input):
+    df_output = pd.DataFrame()
+    df_output['Call_center_employee_communication_skills_evaluation_gt_3'] = (df_input['Call_center_employee_communication_skills_evaluation'] > 3.0).astype(int)
+    df_output['Satisfaction_with_the_doctors_response_gt_3'] = (df_input['Satisfaction_with_the_doctors_response'] > 3.0).astype(int)
+    df_output['Gender_Female'] = (df_input['Gender'] == 'Female').astype(int)
+    df_output['Aware_151_Yes'] = (df_input['Aware_151'] == 'Yes').astype(int)
+    df_output['Call_151_No_or_Yes'] = df_input['Call_151'].apply(lambda x: 1 if x in ['No', 'Yes'] else 0)
+    df_output['Age_18_24_or_50_59'] = df_input['Age'].apply(lambda x: 1 if x in ['18-24', '50-59'] else 0)
+    df_output['How_often_do_you_receive_call_center_news_gt_3'] = (df_input['How_often_do_you_receive_call_center_news'] > 3.0).astype(int)
+    df_output['Education_High_school_or_Diploma'] = df_input['Education'].apply(lambda x: 1 if x in ['High school', 'Diploma'] else 0)
+    df_output['The_reason_of_the_call_Complaints'] = (df_input['The_reason_of_the_call'] == 'Complaints').astype(int)
+    df_output['Governorate_Around_or_Capital'] = df_input['Governorate'].apply(lambda x: 1 if x in ['Around', 'Capital'] else 0)
+    return df_output

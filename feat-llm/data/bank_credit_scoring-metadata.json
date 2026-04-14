@@ -1,0 +1,18 @@
+{
+    "Debt": "amount of debt owed by the bank client",
+    "Overdue days": "number of days the client's payments are overdue",
+    "Initial limit": "initial credit limit assigned to the client",
+    "BIRTHDATE": "date of birth of the bank client",
+    "SEX": "gender of the bank client",
+    "EDU": "education level of the bank client",
+    "INCOME": "income of the bank client",
+    "TERM": "term of the credit in months",
+    "Credit history rating": "credit history rating of the client",
+    "LV_AREA": "area or region where the client lives",
+    "LV_SETTLEMENTNAME": "name of the settlement or city where the client resides",
+    "INDUSTRYNAME": "industry sector of the client's employment",
+    "PDN": "probability of default number",
+    "UNDERAGECHILDRENCOUNT": "number of underage children the client has",
+    "FAMILYSTATUS": "family status or marital status of the client",
+    "target": "credit scoring target variable (0 - low credit scoring, 1 - high credit scoring)"
+}
