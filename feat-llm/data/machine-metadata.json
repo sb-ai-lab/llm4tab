@@ -1,0 +1,8 @@
+{
+    "Temperature": "temperature of the industrial machine during operation",
+    "Vibration": "vibration level measured on the industrial machine",
+    "Power_Usage": "amount of electrical power consumed by the machine",
+    "Humidity": "humidity level in the machine operating environment",
+    "Machine_Type": "type or classification of the industrial machine (Mill, Lathe, Drill, etc.)",
+    "target": "machine failure risk status (0 - normal operation, 1 - at risk of failure)"
+}

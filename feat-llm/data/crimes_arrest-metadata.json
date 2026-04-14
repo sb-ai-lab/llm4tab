@@ -1,0 +1,18 @@
+{
+    "Date": "date and time when the crime was reported",
+    "Primary Type": "primary classification or type of crime committed",
+    "Description": "detailed description of the specific crime",
+    "Location Description": "description of the location where the crime occurred",
+    "Domestic": "whether the crime was classified as domestic violence (0 - no, 1 - yes)",
+    "Beat": "police beat number where the crime occurred",
+    "District": "police district number where the crime occurred",
+    "Ward": "ward number in Chicago where the crime occurred",
+    "Community Area": "community area number in Chicago where the crime occurred",
+    "FBI Code": "FBI crime classification code",
+    "X Coordinate": "x coordinate of the crime location in Chicago's coordinate system",
+    "Y Coordinate": "y coordinate of the crime location in Chicago's coordinate system",
+    "Year": "year when the crime was reported",
+    "Latitude": "latitude coordinate of the crime location",
+    "Longitude": "longitude coordinate of the crime location",
+    "target": "arrest status target variable (0 - no arrest, 1 - arrest made)"
+}

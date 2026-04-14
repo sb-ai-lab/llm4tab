@@ -1,0 +1,9 @@
+{
+    "Vmag": "apparent visual magnitude of the star (brightness as seen from Earth)",
+    "Plx": "parallax of the star in milliarcseconds (measure of distance)",
+    "e_Plx": "error in parallax measurement",
+    "B-V": "color index of the star (difference between blue and visual magnitudes)",
+    "SpType": "spectral type of the star (e.g., G1V, F3V, B8/B9V, K5V)",
+    "Amag": "absolute magnitude of the star",
+    "target": "star type classification (0 - dwarf star, 1 - giant star)"
+}
