@@ -528,23 +528,18 @@ def calculate_metrics(true_labels, pred_labels, pred_probs):
     true_labels = [int(elem) for elem in true_labels]
     pred_labels = [int(elem) for elem in pred_labels]
     
-    roc_auc = roc_auc_score(true_labels, pred_probs)
+    raw_roc_auc = roc_auc_score(true_labels, pred_probs)
     f1 = f1_score(true_labels, pred_labels)
 
-    if roc_auc < 0.5:
-
-        print(f"ROC-AUC: {1 - roc_auc:.4f}")
-        print(f"F1 Score: {f1:.4f}")
-
-        return 1-roc_auc, f1
+    if raw_roc_auc < 0.5:
+        adjusted_roc_auc = 1 - raw_roc_auc
+        
+        return adjusted_roc_auc, f1, raw_roc_auc
         
     else:
+        adjusted_roc_auc = raw_roc_auc
         
-        print(f"ROC-AUC: {roc_auc:.4f}")
-        print(f"F1 Score: {f1:.4f}")
-        
-        return roc_auc, f1
-
+        return adjusted_roc_auc, f1, raw_roc_auc
 
 
 def find_last_target_tokens(tokens, model_family):
@@ -737,6 +732,74 @@ def save_probs(pred_probs, true_labels, pred_labels, config, current_rs, current
             'pred_probs': pred_probs,
             'true_labels': true_labels,
             'pred_labels': pred_labels,
+            'timestamp': datetime.now().isoformat(),
+            'params': config,
+            'random_state': current_rs
+        }
+    
+    full_path = os.path.join(dir_path, filename)
+    
+    try:
+        with open(full_path, 'wb') as f:
+            pickle.dump(results, f, protocol=pickle.HIGHEST_PROTOCOL)
+        print(f'Сохранено: {full_path}')
+        
+    except Exception as e:
+        print(f'Ошибка при сохранении {full_path}: {e}')
+
+
+def save_probs_logits(pred_probs, true_labels, pred_labels, pred_logits_0, pred_logits_1, config, current_rs, current_serialization=None):
+
+    local_llm = config['experiment']['local_llm']
+    dataset_name = config['data']['DATASET_NAME']
+    config_code = config['experiment']['CONFIG_CODE']
+    n_shot = config['experiment']['N_SHOTS']
+    regimme = config['experiment']['regime']
+    baseline = config['experiment']['baseline']
+    
+    if baseline:
+        model_name = config['baseline_model']['name'] 
+    else:
+        if local_llm:
+            model_name = config['local_model']['name'].split('/')[-1].lower()
+        else:  
+            # TODO: revise on code review
+            pass
+
+    
+    dir_path = os.path.join(
+        config['data']['PROBS_PATH'],
+        f"{config['data']['DF_TYPE']}_datasets",
+        dataset_name,
+        f"{n_shot}_shots",
+        model_name,
+        f"rs_{regimme}"
+    )
+    
+
+    os.makedirs(dir_path, exist_ok=True)
+
+    if current_serialization:
+        filename = f"df_{n_shot}fs_{model_name}_{regimme}_{dataset_name}_{current_serialization}_{current_rs}_{config_code}.pkl"
+        results = {
+            'pred_probs': pred_probs,
+            'true_labels': true_labels,
+            'pred_labels': pred_labels,
+            'pred_logits_0': pred_logits_0,
+            'pred_logits_1': pred_logits_1,
+            'timestamp': datetime.now().isoformat(),
+            'params': config,
+            'serialization': current_serialization,
+            'random_state': current_rs
+        }
+    else:
+        filename = f"df_{n_shot}fs_{model_name}_{regimme}_{dataset_name}_{current_rs}_{config_code}.pkl"
+        results = {
+            'pred_probs': pred_probs,
+            'true_labels': true_labels,
+            'pred_labels': pred_labels,
+            'pred_logits_0': pred_logits_0,
+            'pred_logits_1': pred_logits_1,
             'timestamp': datetime.now().isoformat(),
             'params': config,
             'random_state': current_rs
