@@ -16,8 +16,12 @@ from gen_tables.utils_gen import (
     get_table_synthetic_models_shots,
     get_table_icl_combinations,
     get_table_new_datasets_zero_shot,
-    get_table_shots_vs_models_new_datasets
+    get_table_shots_vs_models_new_datasets,
+    patch_external_metrics,
+    reset_aggregated_md,
 )
+
+
 
 script_dir = Path(__file__).parent
 with open(script_dir.parent / "config.yaml", "r") as f:
@@ -31,6 +35,7 @@ df = pd.read_csv(
     header=[0, 1, 2, 3],     
     index_col=[0, 1],
 )
+df = patch_external_metrics(df)
 
 common_settings = {
     'tables_path': 'table_gen_results/latex_tables/',
@@ -45,6 +50,7 @@ table_modes = ['shots', 'serializations']
 
 
 def main():
+    reset_aggregated_md()
     for domain in domains:
         for table_mode in table_modes: 
 
@@ -104,10 +110,10 @@ def main():
             df_combined = combine_mean_std_columns(filtered_df, decimal_places=3)
 
             if config['table_types'] == 'shots':
-                config['caption'] = f'{config.get('domain')} - {config.get('table_types')}'
+                config['caption'] = f"{config.get('domain')} - {config.get('table_types')}"
                 latex_table = get_table_shots(df_combined, config)
             elif config['table_types'] == 'serializations':
-                config['caption'] = f'{config.get('domain')} - {config.get('table_types')}'
+                config['caption'] = f"{config.get('domain')} - {config.get('table_types')}"
                 latex_table = get_table_serializations(df_combined, config)
 
             config_rq1 = {
