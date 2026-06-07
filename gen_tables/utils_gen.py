@@ -84,6 +84,272 @@ SERIALIZATION_MAP = {
     'markdown_masked_new': 'markdown_mask',
 }
 
+# =====================================================================
+#  ВНЕШНИЕ ИСТОЧНИКИ МЕТРИК (новые файлы): TabPFN, TabICL, классические бейзлайны.
+#  Метрики ЭТИХ моделей берутся не из основного df, а из отдельных файлов в
+#  каталоге datasets/ (старый источник для них не используется). Пути относительные:
+#  <корень проекта>/datasets/<файл>.  (= .../llm4tab/datasets/...)
+# =====================================================================
+import json as _json
+
+_PROJECT_ROOT = Path(__file__).resolve().parent.parent
+_DATASETS_DIR = _PROJECT_ROOT / "datasets"
+_BENCHMARK_DIR = _PROJECT_ROOT / "BENCHMARK_RESULTS"
+
+# Имена файлов — как в предыдущих ноутбуках. При необходимости правьте здесь.
+EXTERNAL_FILES = {
+    "baselines": {                       # классические ML-бейзлайны, long-format CSV
+        "logreg": "lr_res__2_.csv",
+        "rf":     "rf_res__2_.csv",
+        "gboost": "gboost_res__2_.csv",
+        "knn":    "knn_res__2_.csv",
+        "naive":  "naive_res__2_.csv",
+    },
+    "tabpfn": [                          # wide-format (index=dataset, колонки=shots)
+        "real_dfs_tabpfn3_seed5_FINAL_inv.csv",
+        "mlp_dfs_tabpfn3_seed5_FINAL_inv.csv",
+    ],
+    "tabicl": "tabicl_5seeds_gpt.json",  # json
+}
+# Модели, метрики которых переопределяются из внешних файлов.
+EXTERNAL_MODELS = set(EXTERNAL_FILES["baselines"].keys()) | {"tabpfn", "tabicl"}
+
+
+def _ext_path(name):
+    return _DATASETS_DIR / name
+
+
+def _safe_float(x):
+    try:
+        if x is None:
+            return None
+        f = float(x)
+        return None if (isinstance(f, float) and np.isnan(f)) else f
+    except (TypeError, ValueError):
+        return None
+
+
+def _load_baselines_external():
+    """{model_key: {dataset: {shot_str: {'roc_auc_mean':v, 'roc_auc_std':v}}}}"""
+    out = {}
+    for mkey, fname in EXTERNAL_FILES["baselines"].items():
+        p = _ext_path(fname)
+        if not p.exists():
+            continue
+        bdf = pd.read_csv(p)
+        per_ds = {}
+        for _, r in bdf.iterrows():
+            ds = str(r["dataset"])
+            shot = str(int(r["shots"]))
+            per_ds.setdefault(ds, {})[shot] = {
+                "roc_auc_mean": _safe_float(r.get("roc_auc_mean")),
+                "roc_auc_std":  _safe_float(r.get("roc_auc_std")),
+            }
+        out[mkey] = per_ds
+    return out
+
+
+def _load_tabpfn_external():
+    """{dataset: {shot_str: {'roc_auc_mean':v, 'roc_auc_std':v|None}}}
+    Wide-формат: index=dataset, числовые shot-колонки = mean; '<shot>_std' = std (если есть)."""
+    out = {}
+    for fname in EXTERNAL_FILES["tabpfn"]:
+        p = _ext_path(fname)
+        if not p.exists():
+            continue
+        tdf = pd.read_csv(p)
+        if "dataset" in tdf.columns:
+            tdf = tdf.set_index("dataset")
+        for ds, row in tdf.iterrows():
+            d = out.setdefault(str(ds), {})
+            for col in tdf.columns:
+                cs = str(col)
+                if cs.endswith("_std") and cs[:-4].isdigit():
+                    shot = cs[:-4]
+                    d.setdefault(shot, {})
+                    d[shot]["roc_auc_std"] = _safe_float(row[col])
+                elif cs.isdigit():
+                    d.setdefault(cs, {})
+                    d[cs]["roc_auc_mean"] = _safe_float(row[col])
+                    d[cs].setdefault("roc_auc_std", None)
+    return out
+
+
+def _load_tabicl_external():
+    """{dataset: {shot_str: {'roc_auc_mean':v, 'roc_auc_std':v|None}}}
+    Парсер устойчив к нескольким вариантам схемы json:
+      {ds: {shot: value}}  |  {ds: {shot: {mean, std}}}  |  {'tabicl': {...}}."""
+    p = _ext_path(EXTERNAL_FILES["tabicl"])
+    if not p.exists():
+        return {}
+    with open(p) as f:
+        raw = _json.load(f)
+    if isinstance(raw, dict):
+        for k in list(raw.keys()):
+            if str(k).lower() == "tabicl":
+                raw = raw[k]
+                break
+    out = {}
+    if isinstance(raw, dict):
+        for ds, shots in raw.items():
+            if not isinstance(shots, dict):
+                continue
+            d = out.setdefault(str(ds), {})
+            for shot, val in shots.items():
+                if isinstance(val, dict):
+                    mean = val.get("roc_auc_mean", val.get("mean", val.get("roc_auc")))
+                    std = val.get("roc_auc_std", val.get("std"))
+                else:
+                    mean, std = val, None
+                d[str(shot)] = {"roc_auc_mean": _safe_float(mean),
+                                "roc_auc_std": _safe_float(std)}
+    return out
+
+
+_EXTERNAL_CACHE = {}
+
+
+def _get_external():
+    if not _EXTERNAL_CACHE:
+        _EXTERNAL_CACHE["baselines"] = _load_baselines_external()
+        _EXTERNAL_CACHE["tabpfn"] = _load_tabpfn_external()
+        _EXTERNAL_CACHE["tabicl"] = _load_tabicl_external()
+    return _EXTERNAL_CACHE
+
+
+def _external_value(model, dataset, shot, metric):
+    ext = _get_external()
+    if model in ext["baselines"]:
+        src = ext["baselines"][model].get(str(dataset), {})
+    elif model == "tabpfn":
+        src = ext["tabpfn"].get(str(dataset), {})
+    elif model == "tabicl":
+        src = ext["tabicl"].get(str(dataset), {})
+    else:
+        return ("missing", None)
+    cell = src.get(str(shot))
+    if not cell or metric not in cell:
+        return ("missing", None)
+    return ("ok", cell[metric])
+
+
+def patch_external_metrics(df):
+    """Переопределяет в мультииндексном df (Shots, Regime, Model, Metric) метрики
+    моделей из EXTERNAL_MODELS значениями из внешних файлов. Меняются только те
+    ячейки, для которых нашлось значение во внешнем источнике; остальное (в т.ч.
+    std, если во внешнем файле его нет) остаётся как есть. Не падает при
+    отсутствии файлов/датасетов — тогда значения не меняются."""
+    if df is None or getattr(df, "empty", True):
+        return df
+    if df.columns.nlevels != 4:
+        return df
+    df = df.copy()
+    datasets = list(df.index.get_level_values(0))
+    for col in list(df.columns):
+        shot, regime, model, metric = col
+        if model not in EXTERNAL_MODELS or metric not in ("roc_auc_mean", "roc_auc_std"):
+            continue
+        cur = list(df[col])
+        new_col = []
+        for ds, old in zip(datasets, cur):
+            status, val = _external_value(model, ds, shot, metric)
+            new_col.append(val if (status == "ok" and val is not None) else old)
+        df[col] = new_col
+    return df
+
+
+# ---------------------------------------------------------------------
+#  Сохранение таблиц: latex (.txt, как раньше) + .csv рядом + .md в
+#  BENCHMARK_RESULTS (отдельный файл на таблицу + общий AGGREGATED_TABLE.md).
+# ---------------------------------------------------------------------
+def _clean_latex_cell(c):
+    c = c.strip()
+    c = re.sub(r"\\multirow\{[^}]*\}\{[^}]*\}\{([^}]*)\}", r"\1", c)
+    c = re.sub(r"\\multicolumn\{[^}]*\}\{[^}]*\}\{([^}]*)\}", r"\1", c)
+    c = re.sub(r"\\textbf\{([^}]*)\}", r"\1", c)
+    c = re.sub(r"\\num\{([^}]*)\}", r"\1", c)
+    c = c.replace("\\pm", "±").replace("\\_", "_").replace("\\,", " ")
+    c = re.sub(r"\\[a-zA-Z]+", "", c)
+    c = c.replace("{", "").replace("}", "")
+    return c.strip()
+
+
+def _latex_table_to_rows(latex_content):
+    rows, in_tab = [], False
+    for line in latex_content.splitlines():
+        s = line.strip()
+        if s.startswith("\\begin{tabular}"):
+            in_tab = True
+            continue
+        if s.startswith("\\end{tabular}"):
+            in_tab = False
+            continue
+        if not in_tab:
+            continue
+        if s.startswith("\\") and "&" not in s:      # rules / cmidrule
+            continue
+        if "&" not in s and not s.endswith("\\\\"):
+            continue
+        cl = s[:-2] if s.endswith("\\\\") else s
+        cells = [_clean_latex_cell(c) for c in cl.split("&")]
+        if any(c != "" for c in cells):
+            rows.append(cells)
+    return rows
+
+
+def _rows_to_md(rows):
+    if not rows:
+        return ""
+    w = max(len(r) for r in rows)
+    rows = [r + [""] * (w - len(r)) for r in rows]
+    out = ["| " + " | ".join(rows[0]) + " |",
+           "| " + " | ".join(["---"] * w) + " |"]
+    for r in rows[1:]:
+        out.append("| " + " | ".join(r) + " |")
+    return "\n".join(out)
+
+
+def _md_name_for(file_path, config):
+    if config and config.get("md_name"):
+        return config["md_name"]
+    sub = Path(file_path).parent.name
+    m = re.match(r"(RQ\d+)", sub)
+    return m.group(1) if m else sub
+
+
+def reset_aggregated_md():
+    """Очистить общий AGGREGATED_TABLE.md в начале прогона."""
+    _BENCHMARK_DIR.mkdir(parents=True, exist_ok=True)
+    with open(_BENCHMARK_DIR / "AGGREGATED_TABLE.md", "w", encoding="utf-8") as f:
+        f.write("# AGGREGATED_TABLE\n\n")
+
+
+def save_all_formats(latex_content, file_path, config=None):
+    """Сохранить таблицу в 3 форматах: latex .txt (как раньше), .csv рядом,
+    .md в BENCHMARK_RESULTS (+ дописать в общий AGGREGATED_TABLE.md)."""
+    file_path = Path(file_path)
+    file_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(file_path, "w", encoding="utf-8") as f:           # 1) latex
+        f.write(latex_content)
+
+    rows = _latex_table_to_rows(latex_content)
+    if rows:                                                    # 2) csv рядом
+        w = max(len(r) for r in rows)
+        rows_p = [r + [""] * (w - len(r)) for r in rows]
+        pd.DataFrame(rows_p).to_csv(file_path.with_suffix(".csv"),
+                                    index=False, header=False, encoding="utf-8")
+
+    _BENCHMARK_DIR.mkdir(parents=True, exist_ok=True)           # 3) md
+    md_table = _rows_to_md(rows)
+    title = (config or {}).get("caption", file_path.stem)
+    block = f"## {title}\n\n{md_table}\n"
+    md_name = _md_name_for(file_path, config)
+    with open(_BENCHMARK_DIR / f"{md_name}.md", "w", encoding="utf-8") as f:
+        f.write(f"# {md_name}\n\n{block}")
+    with open(_BENCHMARK_DIR / "AGGREGATED_TABLE.md", "a", encoding="utf-8") as f:
+        f.write(block + "\n")
+    return latex_content
+
 def combine_mean_std_columns(df, decimal_places=3):
 
 
@@ -334,8 +600,7 @@ def get_table_shots(df, config):
     file_path = Path(config['tables_path']) / config['table_types'] / f"{config['domain']}.txt"
     file_path.parent.mkdir(parents=True, exist_ok=True)
 
-    with open(file_path, 'w', encoding='utf-8') as f:
-        f.write(latex_content)
+    save_all_formats(latex_content, file_path, config)
 
     return latex_content
 
@@ -358,6 +623,8 @@ def get_table_serializations(df, config):
 
     cols_to_keep = [c for c in df_filt.columns if c[2] in config['models']]
     df_filt = df_filt[cols_to_keep]
+
+    df_filt = df_filt.loc[:, df_filt.columns.get_level_values('Model') != 'tabpfn']
 
     mask = df_filt.columns.get_level_values('Regime') == 'gen'
     df_filt = df_filt.loc[:, mask]
@@ -509,8 +776,7 @@ def get_table_serializations(df, config):
     file_path = Path(config['tables_path']) / config['table_types'] / f"{config['domain']}.txt"
     file_path.parent.mkdir(parents=True, exist_ok=True)
 
-    with open(file_path, 'w', encoding='utf-8') as f:
-        f.write(latex_content)
+    save_all_formats(latex_content, file_path, config)
 
     return latex_content
 
@@ -633,8 +899,7 @@ def get_table_zero_shot_vs_tabpfn(df, config):
     file_path = Path(config['tables_path']) / 'zero_shot_vs_tabpfn' / f"{config['domain']}.txt"
     file_path.parent.mkdir(parents=True, exist_ok=True)
     
-    with open(file_path, 'w', encoding='utf-8') as f:
-        f.write(latex_content)
+    save_all_formats(latex_content, file_path, config)
     
     return latex_content
 
@@ -742,8 +1007,7 @@ def get_table_zero_shot_vs_tabpfn(df, config):
     file_path = Path(config['tables_path']) / 'RQ1_zero_shot_vs_tabpfn' / "all_domains.txt"
     file_path.parent.mkdir(parents=True, exist_ok=True)
     
-    with open(file_path, 'w', encoding='utf-8') as f:
-        f.write(latex_content)
+    save_all_formats(latex_content, file_path, config)
     
     return latex_content
 
@@ -754,7 +1018,9 @@ def get_table_context_configs(config):
     prompt2_path = script_dir.parent / "datasets" / "agr_all_prompt2.csv"
     
     df_prompt1 = pd.read_csv(prompt1_path, header=[0, 1, 2, 3], index_col=[0, 1])
+    df_prompt1 = patch_external_metrics(df_prompt1)
     df_prompt2 = pd.read_csv(prompt2_path, header=[0, 1, 2, 3], index_col=[0, 1])
+    df_prompt2 = patch_external_metrics(df_prompt2)
     
     df_prompt1 = map_serializations(df_prompt1)
     df_prompt2 = map_serializations(df_prompt2)
@@ -859,8 +1125,7 @@ def get_table_context_configs(config):
     file_path = Path(config['tables_path']) / 'RQ2_context_configs' / "classic_domains.txt"
     file_path.parent.mkdir(parents=True, exist_ok=True)
     
-    with open(file_path, 'w', encoding='utf-8') as f:
-        f.write(latex_content)
+    save_all_formats(latex_content, file_path, config)
     
     return latex_content
 
@@ -870,6 +1135,7 @@ def get_table_models_vs_shots(config):
     prompt1_path = script_dir.parent / "datasets" / "agr_all_prompt1.csv"
     
     df = pd.read_csv(prompt1_path, header=[0, 1, 2, 3], index_col=[0, 1])
+    df = patch_external_metrics(df)
     
     df = map_serializations(df)
     
@@ -963,8 +1229,7 @@ def get_table_models_vs_shots(config):
     file_path = Path(config['tables_path']) / 'RQ3_models_vs_shots' / "classic_domains.txt"
     file_path.parent.mkdir(parents=True, exist_ok=True)
     
-    with open(file_path, 'w', encoding='utf-8') as f:
-        f.write(latex_content)
+    save_all_formats(latex_content, file_path, config)
     
     return latex_content
 
@@ -976,7 +1241,9 @@ def get_table_delta_context_vs_nocontext(config):
     prompt2_path = script_dir.parent / "datasets" / "agr_all_prompt2.csv"
 
     df_prompt1 = pd.read_csv(prompt1_path, header=[0, 1, 2, 3], index_col=[0, 1])
+    df_prompt1 = patch_external_metrics(df_prompt1)
     df_prompt2 = pd.read_csv(prompt2_path, header=[0, 1, 2, 3], index_col=[0, 1])
+    df_prompt2 = patch_external_metrics(df_prompt2)
     
     df_prompt1 = map_serializations(df_prompt1)
     df_prompt2 = map_serializations(df_prompt2)
@@ -1090,8 +1357,7 @@ def get_table_delta_context_vs_nocontext(config):
     file_path = Path(config['tables_path']) / 'RQ4_delta_context_vs_nocontext' / "classic_domains.txt"
     file_path.parent.mkdir(parents=True, exist_ok=True)
     
-    with open(file_path, 'w', encoding='utf-8') as f:
-        f.write(latex_content)
+    save_all_formats(latex_content, file_path, config)
     
     return latex_content
 
@@ -1103,6 +1369,7 @@ def get_table_zero_shot_by_dataset(config):
     prompt1_path = script_dir.parent / "datasets" / "agr_all_prompt1.csv"
     
     df = pd.read_csv(prompt1_path, header=[0, 1, 2, 3], index_col=[0, 1])
+    df = patch_external_metrics(df)
     
     df = map_serializations(df)
     
@@ -1219,8 +1486,7 @@ def get_table_zero_shot_by_dataset(config):
     file_path = Path(config['tables_path']) / 'RQ0_zero_shot_by_dataset' / "classic_datasets.txt"
     file_path.parent.mkdir(parents=True, exist_ok=True)
     
-    with open(file_path, 'w', encoding='utf-8') as f:
-        f.write(latex_content)
+    save_all_formats(latex_content, file_path, config)
     
     return latex_content
 
@@ -1231,6 +1497,7 @@ def get_table_synthetic_models_shots(config):
     prompt1_path = script_dir.parent / "datasets" / "agr_all_prompt1.csv"
     
     df = pd.read_csv(prompt1_path, header=[0, 1, 2, 3], index_col=[0, 1])
+    df = patch_external_metrics(df)
     
     df = map_serializations(df)
     
@@ -1339,8 +1606,7 @@ def get_table_synthetic_models_shots(config):
     file_path = Path(config['tables_path']) / 'RQ6_synthetic_models_shots' / "synthetic_datasets.txt"
     file_path.parent.mkdir(parents=True, exist_ok=True)
     
-    with open(file_path, 'w', encoding='utf-8') as f:
-        f.write(latex_content)
+    save_all_formats(latex_content, file_path, config)
     
     return latex_content
 
@@ -1352,8 +1618,11 @@ def get_table_icl_combinations(config):
     prompt3_path = script_dir.parent / "datasets" / "agr_all_prompt3.csv"
 
     df1 = pd.read_csv(prompt1_path, header=[0, 1, 2, 3], index_col=[0, 1])
+    df1 = patch_external_metrics(df1)
     df2 = pd.read_csv(prompt2_path, header=[0, 1, 2, 3], index_col=[0, 1])
+    df2 = patch_external_metrics(df2)
     df3 = pd.read_csv(prompt3_path, header=[0, 1, 2, 3], index_col=[0, 1])
+    df3 = patch_external_metrics(df3)
     
     df1 = map_serializations(df1)
     df2 = map_serializations(df2)
@@ -1535,8 +1804,7 @@ def get_table_icl_combinations(config):
     file_path = Path(config['tables_path']) / 'RQ5_icl_combinations' / "llm_synthetic.txt"
     file_path.parent.mkdir(parents=True, exist_ok=True)
     
-    with open(file_path, 'w', encoding='utf-8') as f:
-        f.write(latex_content)
+    save_all_formats(latex_content, file_path, config)
     
     return latex_content
 
@@ -1548,6 +1816,7 @@ def get_table_new_datasets_zero_shot(config):
     llm_trees_path = script_dir.parent / "datasets" / "new_datasets_llm_trees.csv"
     
     df = pd.read_csv(prompt1_path, header=[0, 1, 2, 3], index_col=[0, 1])
+    df = patch_external_metrics(df)
     df_featllm = pd.read_csv(featllm_path)
     df_llm_trees = pd.read_csv(llm_trees_path)
     
@@ -1688,8 +1957,7 @@ def get_table_new_datasets_zero_shot(config):
     file_path = Path(config['tables_path']) / 'new_datasets_zero_shot' / "new_datasets.txt"
     file_path.parent.mkdir(parents=True, exist_ok=True)
     
-    with open(file_path, 'w', encoding='utf-8') as f:
-        f.write(latex_content)
+    save_all_formats(latex_content, file_path, config)
     
     return latex_content
 
@@ -1701,6 +1969,7 @@ def get_table_shots_vs_models_new_datasets(config):
     featllm_path = script_dir.parent / "datasets" / "new_datasets_FeatLLM.csv"
     
     df = pd.read_csv(prompt1_path, header=[0, 1, 2, 3], index_col=[0, 1])
+    df = patch_external_metrics(df)
     df_featllm = pd.read_csv(featllm_path)
     
     featllm_data = {}
@@ -1833,7 +2102,6 @@ def get_table_shots_vs_models_new_datasets(config):
     file_path = Path(config['tables_path']) / 'models_vs_shots_new' / "new_datasets.txt"
     file_path.parent.mkdir(parents=True, exist_ok=True)
     
-    with open(file_path, 'w', encoding='utf-8') as f:
-        f.write(latex_content)
+    save_all_formats(latex_content, file_path, config)
     
     return latex_content

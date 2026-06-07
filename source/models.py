@@ -16,6 +16,7 @@ from .utils import (get_df,
                    find_last_target_tokens,
                    calculate_metrics,
                    save_probs,
+                   save_probs_logits,
                    aggregate_metrics)
 
 from .serializations import (serialization1_old,
@@ -338,10 +339,13 @@ def get_preds_LLM(serialization_train, serialization_test, config, model, tokeni
         else:
             token_0 = tokenizer.encode("0")[1] 
             token_1 = tokenizer.encode("1")[1]
-            print("TOKENS GEMINY:", token_0, token_1)
+            print("TOKENS GEMINI:", token_0, token_1)
     
     pred_probs = []
     pred_labels = []
+
+    pred_logits_0 = []
+    pred_logits_1 = []
         
     task_description = prompt_by_df.get(dataset_name, None)
     if task_description is None:
@@ -382,6 +386,7 @@ def get_preds_LLM(serialization_train, serialization_test, config, model, tokeni
 
         if regime == 'local_nogen':
             # TODO: adjust code for vLLM in forward regime
+            # and fix the logit saving for this regime as well
             pass
 
         elif regime == 'local_gen':
@@ -407,25 +412,37 @@ def get_preds_LLM(serialization_train, serialization_test, config, model, tokeni
                         result = d[target_token_id]
                         break
 
-                if pred_class == '1':
-                    prob_1 = np.exp(result.logprob)
-                elif pred_class == '0':
-                    prob_1 = 1-np.exp(result.logprob) 
+                logits_0 = float('-inf')
+                logits_1 = float('-inf')
+        
+                for d in logprobs_list:
+                    if token_0 in d:
+                        logits_0 = d[token_0].logprob
+                    if token_1 in d:
+                        logits_1 = d[token_1].logprob
+
+                probs = torch.softmax(torch.tensor([logits_0, logits_1]), dim=-1)
+                prob_1 = probs[1].item()
 
             except:
                 print('**! Irregular PRED CLASS exerted !**')
                 pred_class = '1'
                 prob_1 = 0.5
+                logits_1 = 0.0
+                logits_1 = 0.0
             
         elif regime == 'api_gen':
             # TODO: add API generation code
             pass 
         
+        pred_logits_0.append(logits_0)
+        pred_logits_1.append(logits_1)
+
         pred_probs.append(prob_1)
         pred_labels.append(pred_class)
                 
     
-    return pred_probs, pred_labels
+    return pred_probs, pred_labels, pred_logits_0, pred_logits_1
 
 
 
@@ -467,7 +484,7 @@ def run_experiment(config, model=None, tokenizer=None, serialization=None):
             rs=rs
         )
 
-        pred_probs, pred_labels = get_preds_LLM(serialization_train, serialization_test, config, model, tokenizer)
+        pred_probs, pred_labels, pred_logits_0, pred_logits_1 = get_preds_LLM(serialization_train, serialization_test, config, model, tokenizer)
         
     print('PREDICTED LABELS:\n')
     print(pred_labels)
@@ -483,19 +500,22 @@ def run_experiment(config, model=None, tokenizer=None, serialization=None):
     pred_probs = convert_to_cpu(pred_probs)
     true_labels = convert_to_cpu(true_labels)
     pred_labels = convert_to_cpu(pred_labels)
+
+    pred_logits_0 = convert_to_cpu(pred_logits_0)
+    pred_logits_1 = convert_to_cpu(pred_logits_1)
     
     if baseline:
         save_probs(pred_probs, true_labels, pred_labels, config, rs)
     else:
-        save_probs(pred_probs, true_labels, pred_labels, config, rs, serialization)
+        save_probs_logits(pred_probs, true_labels, pred_labels, pred_logits_0, pred_logits_1, config, rs, serialization)
     
     print('TRUE LABELS:\n')
     print(true_labels)
 
-    roc_auc, f1 = calculate_metrics(true_labels, pred_labels, pred_probs)
+    roc_auc, f1, raw_roc_auc = calculate_metrics(true_labels, pred_labels, pred_probs)
    
 
-    return roc_auc, f1
+    return roc_auc, f1, raw_roc_auc
 
 
 def setup_chat_template(tokenizer):
@@ -638,9 +658,10 @@ def run_fewshot_iteration(config, model=None, tokenizer=None):
 
         if baseline:
             start_time = time.time()
-            roc_auc, f1 = run_experiment(config)
+            roc_auc, f1, raw_roc_auc = run_experiment(config)
             v.loc[model_name, 'roc_auc'] = roc_auc
             v.loc[model_name, 'f1'] = f1
+            v.loc[model_name, 'roc_auc_RAW'] = raw_roc_auc
             end_time = time.time()
             v.loc[model_name, 'time'] = end_time - start_time
         else:
@@ -649,6 +670,7 @@ def run_fewshot_iteration(config, model=None, tokenizer=None):
                 roc_auc, f1 = run_experiment(config, model, tokenizer, serialization)
                 v.loc[serialization, 'roc_auc'] = roc_auc
                 v.loc[serialization, 'f1'] = f1
+                v.loc[model_name, 'roc_auc_RAW'] = raw_roc_auc
                 end_time = time.time()
                 v.loc[serialization, 'time'] = end_time - start_time
 
@@ -669,7 +691,7 @@ def run_fewshot_iteration(config, model=None, tokenizer=None):
         df.to_csv(full_path, index=True)
 
     agr_df = aggregate_metrics(df_dict)
-    agr_df = agr_df[['roc_auc_mean', 'roc_auc_std', 'f1_mean', 'f1_std', 'time_mean', 'time_std']]
+    agr_df = agr_df[['roc_auc_mean', 'roc_auc_std', 'f1_mean', 'f1_std', 'time_mean', 'time_std', 'roc_auc_RAW_mean', 'roc_auc_RAW_std', ]]
     agr_path = f'{file_path}/{df_name}_{config_code}_agr.csv'
     agr_df.to_csv(agr_path)
             

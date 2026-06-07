@@ -12,9 +12,9 @@
 \toprule
 Dataset Group & GPT-4o-mini (gen) & Qwen3-1.7B (gen) & Qwen3-8B (gen) & Qwen3-14B (gen) & TabPFN (16-shot) \\
 \midrule
-All & \num{0.712 \pm 0.010} & \num{0.626 \pm 0.006} & \num{0.698 \pm 0.001} & \num{0.714 \pm 0.000} & \num{0.749 \pm 0.063} \\
-Classic & \num{0.728 \pm 0.011} & \num{0.640 \pm 0.007} & \num{0.711 \pm 0.000} & \num{0.733 \pm 0.000} & \num{0.767 \pm 0.059} \\
-New & \num{0.664 \pm 0.008} & \num{0.587 \pm 0.005} & \num{0.657 \pm 0.001} & \num{0.657 \pm 0.000} & \num{0.693 \pm 0.073} \\
+All & \num{0.712 \pm 0.010} & \num{0.626 \pm 0.006} & \num{0.698 \pm 0.001} & \num{0.714 \pm 0.000} & \num{0.753 \pm 0.063} \\
+Classic & \num{0.728 \pm 0.011} & \num{0.640 \pm 0.007} & \num{0.711 \pm 0.000} & \num{0.733 \pm 0.000} & \num{0.772 \pm 0.059} \\
+New & \num{0.664 \pm 0.008} & \num{0.587 \pm 0.005} & \num{0.657 \pm 0.001} & \num{0.657 \pm 0.000} & \num{0.695 \pm 0.073} \\
 \bottomrule
 \end{tabular}
 \caption{Zero-shot LLMs vs TabPFN (16-shot) across all domains}
